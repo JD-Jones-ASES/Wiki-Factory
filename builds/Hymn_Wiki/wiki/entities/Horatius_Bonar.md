@@ -120,3 +120,32 @@ Duffield (1886) treats 21 of Bonar's hymns — giving him more coverage than any
 Duffield notes that Bonar's collection Hymns of Faith and Hope was issued in three series (1857, 1861, 1866), providing a useful framework for dating his works chronologically.
 
 See also: [[English_Hymnody]], [[John_B_Dykes]]
+
+## Hymns in The Christian Hymn Book
+
+*23 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **99.** [[Hymn_0099_Yes_For_Me_For_Me|Yes, for me, for me he careth]]
+- **110.** [[Hymn_0110_O_Love_Of_God_How|O love of God, how strong and true!]]
+- **129.** [[Hymn_0129_He_Has_Come_The_Christ|He has come! the Christ of God;]]
+- **150.** [[Hymn_0150_A_Pilgrim_Through_This_Lonely|A pilgrim through this lonely world,]]
+- **417.** [[Hymn_0417_Lord_Let_Thy_Spirit_Penetrate|Lord, let thy Spirit penetrate]]
+- **459.** [[Hymn_0459_Far_Down_The_Ages_Now|Far down the ages now,]]
+- **484.** [[Hymn_0484_Still_One_In_Life_And|Still one in life and one in death,]]
+- **786.** [[Hymn_0786_O_Strong_To_Save_And|O strong to save and bless,]]
+- **828.** [[Hymn_0828_A_Few_More_Years_Shall|A few more years shall roll,]]
+- **833.** [[Hymn_0833_Go_Up_Go_Up_My|Go up, go up, my heart,]]
+- **840.** [[Hymn_0840_Beyond_The_Smiling_And_The|Beyond the smiling and the weeping,]]
+- **848.** [[Hymn_0848_Silent_Like_Men_In_Solemn|Silent, like men in solemn haste,]]
+- **913.** [[Hymn_0913_Thy_Way_Not_Mine_O|Thy way, not mine, O Lord!]]
+- **926.** [[Hymn_0926_I_Did_Thee_Wrong_My|I did thee wrong, my God;]]
+- **930.** [[Hymn_0930_O_For_The_Peace_That|O for the peace that floweth as a river,]]
+- **1062.** [[Hymn_1062_She_Was_The_Music_Of|She was the music of our home,]]
+- **1075.** [[Hymn_1075_Dropping_Down_The_Troubled_River|Dropping down the troubled river]]
+- **1100.** [[Hymn_1100_The_Church_Has_Waited_Long|The Church has waited long]]
+- **1110.** [[Hymn_1110_Rest_For_The_Toiling_Hand|Rest for the toiling hand,]]
+- **1142.** [[Hymn_1142_This_Is_Not_My_Place|This is not my place of resting,]]
+- **1144.** [[Hymn_1144_No_Seas_Again_Shall_Sever|No seas again shall sever,]]
+- **1148.** [[Hymn_1148_No_Shadows_Yonder|No shadows yonder!]]
+- **1246.** [[Hymn_1246_Thanks_Be_To_Him_Who|Thanks be to him who built the hills;]]
+

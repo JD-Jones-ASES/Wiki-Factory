@@ -21,3 +21,10 @@ description: "American hymn writer and music publisher"
 **Augustus Dillard Fillmore** (1823-1876) --- American hymn writer and music publisher.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **324.** [[Hymn_0324_Comecomecome_To_The_Saviour|Come—come—come to the Saviour,]]
+

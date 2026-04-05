@@ -70,3 +70,19 @@ Burrage notes that thirty-nine of Stennett's hymns appear in [[John_Rippon]]'s S
 The most touching detail Burrage preserves is John Howard's letter from Smyrna (August 11, 1786). Howard, the great prison reformer who worshipped regularly at Little Wild Street, wrote to Stennett: "No man ever entered more into my religious sentiments, or more happily expressed them... Oh, sir, how many Sabbaths I ardently long to spend in Little Wild Street... I bless God for your ministry. I pray God reward you a thousand-fold."
 
 At his death in August 1795, Burrage records that "the death of his wife greatly afflicted him, and seemed to deaden him to the world. He appeared to have no further desire to live in it. Just before he was confined to his bed, he prayed earnestly in his family that God might give him an easy passage out of life; and God granted him that which he requested." He was buried in Bunhill Fields — the great Nonconformist burial ground where [[John_Bunyan]], Isaac Watts, and other luminaries of English Dissent also rest.
+
+## Hymns in The Christian Hymn Book
+
+*10 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **176.** [[Hymn_0176_As_On_The_Cross_The|As on the cross the Saviour hung,]]
+- **250.** [[Hymn_0250_Majestic_Sweetness_Sits_Enthroned|Majestic sweetness sits enthroned]]
+- **378.** [[Hymn_0378_The_Great_Redeemer_We_Adore|The great Redeemer we adore,]]
+- **379.** [[Hymn_0379_See_How_The_Willing_Converts|See how the willing converts trace]]
+- **431.** [[Hymn_0431_On_Jordans_Stormy_Banks_I|On Jordan’s stormy banks I stand,]]
+- **454.** [[Hymn_0454_How_Charming_Is_The_Place|How charming is the place]]
+- **523.** [[Hymn_0523_Lord_At_Thy_Table_We|Lord, at thy table we behold]]
+- **616.** [[Hymn_0616_Another_Six_Days_Work_Is|Another six days’ work is done;]]
+- **652.** [[Hymn_0652_How_Various_And_How_New|How various and how new]]
+- **670.** [[Hymn_0670_Come_Every_Pious_Heart|Come, every pious heart]]
+

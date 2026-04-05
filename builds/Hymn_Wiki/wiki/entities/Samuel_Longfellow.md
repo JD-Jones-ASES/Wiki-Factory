@@ -37,3 +37,13 @@ Three of Longfellow's hymns appear in the Methodist Hymnal:
 ## Methodist Hymnal Context (Nutter)
 
 Nutter and Tillett note Longfellow's collaboration with Samuel Johnson on two significant mid-century Unitarian hymnals. Prof. F. M. Bird is quoted as saying that Johnson's contributions to these collections "were less numerous but not less meritorious than those by Mr. Longfellow," suggesting Longfellow was the dominant hymnist of the partnership. Like [[Frederick_Lucian_Hosmer]], Longfellow's Unitarian hymns crossed denominational boundaries to find use in Methodist worship.
+
+## Hymns in The Christian Hymn Book
+
+*4 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **367.** [[Hymn_0367_Love_For_All_And_Can|Love for all! and can it be?]]
+- **956.** [[Hymn_0956_Beneath_The_Shadow_Of_The|Beneath the shadow of the cross,]]
+- **973.** [[Hymn_0973_Down_The_Dark_Future_Through|Down the dark future, through long generations,]]
+- **974.** [[Hymn_0974_Peace_Peace_On_Earth_The|Peace, peace on earth! the heart of man for ever,]]
+

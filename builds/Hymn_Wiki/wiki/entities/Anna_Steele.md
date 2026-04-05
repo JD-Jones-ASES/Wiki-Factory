@@ -60,3 +60,46 @@ On **"Lord, When My Raptured Thought Surveys"** (fourteen stanzas in the origina
 On **"The Saviour! Oh, What Endless Charms!"**, Duffield acknowledges a criticism that her hymns are "occasionally like the songs of the daughters of Huzzab, who went 'tabering on their breasts' with dove-like lamentation" — but dismisses it: "these hymns cannot be spared." The defense captures the tension that has always surrounded Steele: her emotional register reads as excessive to some, as genuine to others.
 
 Duffield's portrait is consistent: Steele is a woman of unusual output, unusual quality, and unusual obscurity — whose entire literary life happened within the radius of a country parsonage, and who nevertheless outlasted more celebrated contemporaries.
+
+## Hymns in The Christian Hymn Book
+
+*37 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **10.** [[Hymn_0010_Father_Of_Mercies_In_Thy|Father of Mercies! in thy word]]
+- **143.** [[Hymn_0143_And_Is_The_Gospel_Peace|And is the gospel peace and love?]]
+- **173.** [[Hymn_0173_And_Did_The_Holy_And|And did the holy and the just,]]
+- **198.** [[Hymn_0198_Triumphant_Christ_Ascends_On_High|Triumphant, Christ ascends on high,]]
+- **212.** [[Hymn_0212_He_Lives_The_Great_Redeemer|He lives! the great Redeemer lives!]]
+- **220.** [[Hymn_0220_Jesus_The_Spring_Of_Joys|Jesus, the spring of joys divine,]]
+- **222.** [[Hymn_0222_Thou_Only_Sovereign_Of_My|Thou only Sovereign of my heart,]]
+- **230.** [[Hymn_0230_Come_You_That_Love_The|Come, you that love the Saviour’s name,]]
+- **238.** [[Hymn_0238_Jesus_In_Thy_Transporting_Name|Jesus, in thy transporting name]]
+- **239.** [[Hymn_0239_The_Saviour_O_What_Endless|The Saviour! O what endless charms]]
+- **281.** [[Hymn_0281_Come_Weary_Souls_With_Sin|Come, weary souls, with sin distressed,]]
+- **289.** [[Hymn_0289_The_Saviour_Calls_Let_Every|The Saviour calls; let every ear]]
+- **293.** [[Hymn_0293_Ye_Wretched_Hungry_Starving_Poor|Ye wretched, hungry, starving poor,]]
+- **341.** [[Hymn_0341_Ah_Wretched_Vile_Ungrateful_Heart|Ah! wretched, vile, ungrateful heart!]]
+- **345.** [[Hymn_0345_Lord_When_My_Thoughts_Delighted|Lord, when my thoughts delighted rove]]
+- **410.** [[Hymn_0410_O_Lord_And_Shall_Thy|O Lord! and shall thy Spirit rest]]
+- **429.** [[Hymn_0429_Far_From_These_Narrow_Scenes|Far from these narrow scenes of night,]]
+- **446.** [[Hymn_0446_A_Mother_May_Forgetful_Be|A mother may forgetful be,]]
+- **558.** [[Hymn_0558_Father_Whateer_Of_Earthly_Bliss|Father, whate’er of earthly bliss]]
+- **643.** [[Hymn_0643_To_Our_Redeemers_Glorious_Name|To our Redeemer’s glorious name]]
+- **644.** [[Hymn_0644_Almighty_Father_Gracious_Lord|Almighty Father! gracious Lord!]]
+- **693.** [[Hymn_0693_Come_O_Thou_King_Of|Come, O thou King of all thy saints,]]
+- **697.** [[Hymn_0697_Come_Lord_And_Warm_Each|Come, Lord, and warm each languid heart;]]
+- **813.** [[Hymn_0813_You_Glittering_Toys_Of_Earth|You glittering toys of earth, adieu,]]
+- **868.** [[Hymn_0868_How_Oft_Alas_This_Wretched|How oft, alas! this wretched heart]]
+- **872.** [[Hymn_0872_Alas_What_Hourly_Dangers_Rise|Alas, what hourly dangers rise!]]
+- **942.** [[Hymn_0942_O_Thou_Whose_Tender_Mercy|O thou, whose tender mercy hears]]
+- **1001.** [[Hymn_1001_Great_Source_Of_Boundless_Power|Great Source of boundless power and grace!]]
+- **1011.** [[Hymn_1011_And_Can_My_Heart_Aspire|And can my heart aspire so high,]]
+- **1014.** [[Hymn_1014_Now_To_Thy_Heavenly_Fathers|Now to thy heavenly Father’s praise,]]
+- **1041.** [[Hymn_1041_So_Fades_The_Lovely_Blooming|So fades the lovely, blooming flower,]]
+- **1045.** [[Hymn_1045_Almighty_Maker_Of_My_Frame|Almighty Maker of my frame,]]
+- **1055.** [[Hymn_1055_Life_Is_A_Spana_Fleeting|Life is a span—a fleeting hour;]]
+- **1058.** [[Hymn_1058_When_Blooming_Youth_Is_Snatched|When blooming youth is snatched away]]
+- **1128.** [[Hymn_1128_O_Could_Our_Thoughts_And|O could our thoughts and wishes fly]]
+- **1182.** [[Hymn_1182_Lord_Of_My_Life_O|Lord of my life! O may thy praise]]
+- **1263.** [[Hymn_1263_See_Gracious_God_Before_Thy|See, gracious God, before thy throne]]
+

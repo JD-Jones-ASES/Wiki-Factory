@@ -21,3 +21,10 @@ description: "English clergyman, biblical scholar, and hymn writer; wrote Come Y
 **Henry Alford** (1810-1871) --- English clergyman, biblical scholar, and hymn writer; wrote Come Ye Thankful People Come.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1236.** [[Hymn_1236_Come_Ye_Thankful_People_Come|Come, ye thankful people, come,]]
+

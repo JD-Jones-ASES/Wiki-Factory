@@ -79,3 +79,20 @@ In 1842 he moved to the First Baptist Church in Newton, Massachusetts, which bec
 Burrage provides a particularly rich account of the hymn "Yes, My Native Land, I Love Thee" — generally overshadowed by "America." Smith wrote it while at Andover after reading Home's "Letters on Missions," in a rush of missionary enthusiasm. It was used at the designation service for Rev. John Taylor Jones before his departure to Burma, printed on cards given out by missionary Dr. J. Perkins before he left for Persia, and recited impressively by Edward Judson (son of [[Adoniram_Judson]]) at the 1886 meeting of the American Baptist Missionary Union — who added that the hymn was dear to his honored father. Smith himself came close to going to the foreign field; instead, his son D. A. W. Smith, D.D., served for many years with the American Baptist Missionary Union in Burma and became president of the Theological Seminary at Rangoon.
 
 Burrage notes that Smith wrote approximately one hundred hymns in total, many composed for special occasions such as ordinations and dedications, and that the hymn "Today the Savior Calls" — written while at Andover and later abridged by [[Thomas_Hastings]] for his Spiritual Songs — was suggested by a line from Schiller's "Maria Stuart."
+
+## Hymns in The Christian Hymn Book
+
+*11 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **164.** [[Hymn_0164_Beyond_Where_Cedrons_Waters_Flow|Beyond where Cedron’s waters flow,]]
+- **384.** [[Hymn_0384_Meekly_In_Jordans_Flowing_Stream|Meekly in Jordan’s flowing stream]]
+- **487.** [[Hymn_0487_Planted_In_Christ_The_Living|Planted in Christ, the living vine,]]
+- **606.** [[Hymn_0606_The_Prince_Of_Salvation_In|The Prince of Salvation in triumph is riding,]]
+- **615.** [[Hymn_0615_Sweet_Is_The_Fading_Light|Sweet is the fading light of eve;]]
+- **712.** [[Hymn_0712_Blest_Is_The_Hour_When|Blest is the hour when cares depart,]]
+- **1076.** [[Hymn_1076_Sister_Thou_Wast_Mild_And|Sister, thou wast mild and lovely,]]
+- **1088.** [[Hymn_1088_As_Flows_The_Rapid_River|As flows the rapid river,]]
+- **1251.** [[Hymn_1251_My_Country_Tis_Of_Thee|My country! ’tis of thee,]]
+- **1281.** [[Hymn_1281_Yes_My_Native_Land_I|Yes, my native land, I love thee;]]
+- **1286.** [[Hymn_1286_Onward_Speed_Thy_Conquering_Flight|Onward speed thy conquering flight,]]
+

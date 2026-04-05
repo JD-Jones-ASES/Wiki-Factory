@@ -82,3 +82,20 @@ On **"Thou Art Gone to the Grave"**, Duffield gives a precise circumstance: it w
 On **"Lord of Mercy and of Might"**, Duffield records the remarkable manner of Heber's death — that his servant, finding him unusually delayed, opened the door and found him dead. The hymn is noted as possibly a translation from a Latin hymn of the eighth century.
 
 See also: [[English_Hymnody]], [[Henry_Francis_Lyte]], [[Lowell_Mason]]
+
+## Hymns in The Christian Hymn Book
+
+*11 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **151.** [[Hymn_0151_The_Winds_Were_Howling_Oer|The winds were howling o’er the deep;]]
+- **678.** [[Hymn_0678_Forth_From_The_Dark_And|Forth from the dark and stormy sky,]]
+- **724.** [[Hymn_0724_Lord_Now_We_Part_In|Lord, now we part in thy blest name,]]
+- **731.** [[Hymn_0731_O_God_By_Whom_The|O God, by whom the seed is given,]]
+- **1096.** [[Hymn_1096_Thou_Art_Gone_To_The|Thou art gone to the grave; but we will not deplore thee,]]
+- **1106.** [[Hymn_1106_The_Lord_Will_Come_The|The Lord will come, the earth shall quake,]]
+- **1201.** [[Hymn_1201_God_That_Madest_Earth_And|God that madest earth and heaven,]]
+- **1211.** [[Hymn_1211_By_Cool_Siloams_Shady_Rill|By cool Siloam’s shady rill]]
+- **1238.** [[Hymn_1238_When_Spring_Unlocks_The_Flowers|When spring unlocks the flowers to paint the laughing soil,]]
+- **1285.** [[Hymn_1285_From_Greenlands_Icy_Mountains|From Greenland’s icy mountains,]]
+- **1296.** [[Hymn_1296_When_Through_The_Torn_Sail|When through the torn sail the wild tempest is streaming,]]
+

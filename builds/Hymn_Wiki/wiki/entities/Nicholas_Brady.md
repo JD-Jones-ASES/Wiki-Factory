@@ -28,3 +28,15 @@ Brady's lasting contribution to Christian worship came through his partnership w
 ## Musical and Thematic Context
 
 The "Tate and Brady" Psalter represented an effort to give the Church of England a more polished and singable metrical psalter than the older "Sternhold and Hopkins" version that had been in use since the Reformation. Though the "New Version" was eventually overshadowed by the rise of the Watts-and-Wesley hymnic tradition, it remained an authorized text well into the eighteenth century, and the *Methodist Hymnal* preserves its memory in its collection of doxologies, crediting "Tate and Brady" for one of the ten doxologies listed.
+
+## Hymns in The Christian Hymn Book
+
+*6 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **38.** [[Hymn_0038_O_God_My_Heart_Is|O God! my heart is fully bent]]
+- **65.** [[Hymn_0065_No_Change_Of_Time_Shall|No change of time shall ever shock]]
+- **637.** [[Hymn_0637_O_Render_Thanks_To_God|O render thanks to God above,]]
+- **682.** [[Hymn_0682_O_Come_Loud_Anthems_Let|O come, loud anthems let us sing,]]
+- **737.** [[Hymn_0737_To_Bless_Thy_Chosen_Race|To bless thy chosen race,]]
+- **911.** [[Hymn_0911_Through_All_The_Changing_Scenes|Through all the changing scenes of life,]]
+

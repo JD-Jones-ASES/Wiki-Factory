@@ -93,3 +93,22 @@ Duffield also notes that in 1883, the church of Lower Brixham was rebuilt as a m
 On **"Jesus, I My Cross Have Taken"**, Duffield records that Lyte entered the ministry of the Church of England after giving up his original intention of studying medicine — a biographical detail enriching the hymn's theme of consecration.
 
 See also: [[English_Hymnody]], [[Reginald_Heber]]
+
+## Hymns in The Christian Hymn Book
+
+*13 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **25.** [[Hymn_0025_Ere_Mountains_Reared_Their_Forms|Ere mountains reared their forms sublime,]]
+- **58.** [[Hymn_0058_Praise_The_Lord_His_Glories|Praise the Lord, his glories show,]]
+- **101.** [[Hymn_0101_Praise_My_Soul_The_King|Praise, my soul, the King of heaven;]]
+- **199.** [[Hymn_0199_Arise_Ye_People_And_Adore|Arise, ye people, and adore,]]
+- **401.** [[Hymn_0401_Redeemed_From_Guilt_Redeemed_From|Redeemed from guilt, redeemed from fears,]]
+- **599.** [[Hymn_0599_Hasten_Lord_The_Glorious_Time|Hasten, Lord! the glorious time,]]
+- **625.** [[Hymn_0625_Sweet_Is_The_Task_O|Sweet is the task, O Lord,]]
+- **779.** [[Hymn_0779_My_Spirit_On_Thy_Care|My spirit on thy care,]]
+- **783.** [[Hymn_0783_Vainly_Through_Nights_Weary_Hours|Vainly through night’s weary hours,]]
+- **838.** [[Hymn_0838_My_Rest_Is_In_Heavenmy|My rest is in heaven—my home is not here;]]
+- **923.** [[Hymn_0923_Jesus_I_My_Cross_Have|Jesus, I my cross have taken,]]
+- **1022.** [[Hymn_1022_Gently_Gently_Lay_Thy_Rod|Gently, gently lay thy rod]]
+- **1227.** [[Hymn_1227_Abide_With_Me_Fast_Falls|Abide with me! fast falls the eventide;]]
+

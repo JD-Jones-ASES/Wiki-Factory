@@ -21,3 +21,10 @@ description: "English clergyman and hymn writer"
 **John Hampden Gurney** (1802-1862) --- English clergyman and hymn writer.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1237.** [[Hymn_1237_Lord_Of_The_Harvest_Thee|Lord of the harvest! thee we hail;]]
+

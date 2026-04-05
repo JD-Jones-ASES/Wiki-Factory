@@ -21,3 +21,10 @@ description: "Hymn writer represented in Campbell's collection"
 **Hugh White** (fl. 1860s) --- Hymn writer represented in Campbell's collection.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1231.** [[Hymn_1231_With_Songs_And_Honors_Sounding|With songs and honors sounding loud,]]
+

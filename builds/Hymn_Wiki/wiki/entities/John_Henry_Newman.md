@@ -56,3 +56,10 @@ Newman's own account, from the *Apologia pro Vita Sua*, noted the date of compos
 Newman credited much of the hymn's popularity to Joseph B. Dykes's tune "Lux Benigna." Metcalf quotes a contemporary newspaper item: Andrew Carnegie had engaged an organist to wake him each morning with the strains of "Lead, Kindly Light" on the organ.
 
 Metcalf counts 130 words in three stanzas, of which only 16 are more than one syllable — the plainness of the language being itself a kind of musical quality. (Metcalf, p. 237-241)
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **590.** [[Hymn_0590_Shed_Kindly_Light_Amid_The|Shed kindly light amid the encircling gloom,]]
+

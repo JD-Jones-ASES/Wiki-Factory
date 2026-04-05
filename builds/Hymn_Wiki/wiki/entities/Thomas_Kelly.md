@@ -53,3 +53,30 @@ On **"Keep Us, Lord, Oh, Keep Us Ever"**, Duffield inserts a vivid sailor's anec
 On **"What Is Life? 'Tis But a Vapor"** (1809), Duffield records the encounter with Lord Plunket: "Meeting him one day when they had both grown old, said to him: 'You will live to a great old age.'" Kelly's reply — "I expect never to die" — has the ring of a man whose entire body of work was oriented not toward this world but the next.
 
 Duffield's treatment of Kelly is systematic rather than biographical. The 25 entries reveal a writer whose output was rigorously organized: each hymn assigned a number, a scripture text, and a title in the original edition, with careful revision between editions. Kelly emerges as a craftsman of doctrinal precision who happened also to write with uncommon warmth.
+
+## Hymns in The Christian Hymn Book
+
+*21 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **187.** [[Hymn_0187_The_Lord_Is_Risen_Indeed|“The Lord is risen indeed!”]]
+- **207.** [[Hymn_0207_Look_Ye_Saintsthe_Sight_Is|Look, ye saints—the sight is glorious;]]
+- **260.** [[Hymn_0260_Sing_Of_Jesus_Sing_For|Sing of Jesus, sing for ever]]
+- **275.** [[Hymn_0275_Sound_Sound_The_Truth_Abroad|Sound, sound the truth abroad!]]
+- **462.** [[Hymn_0462_See_From_Zions_Sacred_Mountain|See, from Zion’s sacred mountain,]]
+- **464.** [[Hymn_0464_Zion_Stands_With_Hills_Surrounded|Zion stands with hills surrounded—]]
+- **478.** [[Hymn_0478_Come_In_Thou_Blesséd_Of|Come in, thou blesséd of our God,]]
+- **548.** [[Hymn_0548_How_Sweet_To_Leave_The|How sweet to leave the world awhile]]
+- **603.** [[Hymn_0603_Yes_We_Trust_The_Day|Yes, we trust the day is breaking;]]
+- **604.** [[Hymn_0604_In_The_Mountains_Top_Appearing|In the mountain’s top appearing,]]
+- **663.** [[Hymn_0663_Hark_Ten_Thousand_Harps_And|Hark! ten thousand harps and voices]]
+- **713.** [[Hymn_0713_In_Thy_Name_O_Lord|In thy name, O Lord, assembling,]]
+- **756.** [[Hymn_0756_God_Of_Our_Salvation_Hear|God of our salvation, hear us;]]
+- **759.** [[Hymn_0759_Of_Thy_Love_Some_Gracious|Of thy love some gracious token]]
+- **850.** [[Hymn_0850_O_Israel_To_Thy_Tents|O Israel, to thy tents repair:]]
+- **858.** [[Hymn_0858_O_Where_Is_Now_That|O where is now that glowing love]]
+- **1078.** [[Hymn_1078_What_Is_Life_Tis_But|What is life? ’tis but a vapor,]]
+- **1109.** [[Hymn_1109_In_Expectation_Sweet|In expectation sweet,]]
+- **1206.** [[Hymn_1206_Through_The_Day_Thy_Love|Through the day thy love hath spared us,]]
+- **1305.** [[Hymn_1305_Weve_No_Abiding_City_Here|“We’ve no abiding city here;”]]
+- **1320.** [[Hymn_1320_Glory_Glory_To_Our_King|Glory, glory to our King!]]
+

@@ -21,3 +21,10 @@ description: "English clergyman and psalmist"
 **John Patrick** (1632-1695) --- English clergyman and psalmist.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **36.** [[Hymn_0036_O_God_We_Praise_Thee|O God, we praise thee, and confess]]
+

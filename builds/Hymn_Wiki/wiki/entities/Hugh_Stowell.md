@@ -35,3 +35,10 @@ This hymn of Christian peace has carried consolation to souls in both ordinary a
 Butterworth-Brown note that the hymn "has practically but one tune — it has been sung to Hastings' 'Retreat' ever since the music was made." The tune "Retreat" by [[Thomas_Hastings]] — with its quality of stillness — is perfectly suited to the hymn's imagery of sanctuary beneath the mercy seat.
 
 Stowell is one of those figures who wrote generously and well, and whose reputation rests on a single hymn: one that found its ultimate use not in peaceful chapels but in a prisoner's last hour.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **547.** [[Hymn_0547_From_Every_Stormy_Wind_That|From every stormy wind that blows,]]
+

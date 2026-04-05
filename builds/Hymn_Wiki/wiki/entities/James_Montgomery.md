@@ -63,3 +63,49 @@ On **"Forever with the Lord"**, Duffield records a remarkable personal testimony
 On **"Go to Dark Gethsemane"**, Duffield notes its first publication in the *Christian Psalmist*, 1825, and that it "has been much altered" from the original.
 
 Duffield consistently praises the quality of Montgomery's devotional verse, noting that across 28 hymns his craftsmanship never falters — a tribute from one hymn scholar to what he evidently regarded as the most consistently fine body of work after Watts.
+
+## Hymns in The Christian Hymn Book
+
+*40 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **103.** [[Hymn_0103_The_Lord_Is_My_Shepherd|The Lord is my Shepherd, no want shall I know;]]
+- **122.** [[Hymn_0122_To_Us_A_Child_Of|To us a child of hope is born,]]
+- **137.** [[Hymn_0137_Angels_From_The_Realms_Of|Angels, from the realms of glory,]]
+- **158.** [[Hymn_0158_The_Morning_Dawns_Upon_The|The morning dawns upon the place]]
+- **162.** [[Hymn_0162_Go_To_Dark_Gethsemane|Go to dark Gethsemane,]]
+- **168.** [[Hymn_0168_From_Calvary_A_Cry_Was|From Calvary a cry was heard—]]
+- **196.** [[Hymn_0196_Lift_Up_Your_Heads_Ye|Lift up your heads, ye gates! and wide]]
+- **326.** [[Hymn_0326_Fair_Shines_The_Morning_Star|Fair shines the morning star,]]
+- **361.** [[Hymn_0361_Mercy_Alone_Can_Meet_My|Mercy alone can meet my case,]]
+- **368.** [[Hymn_0368_People_Of_The_Living_God|People of the living God!]]
+- **421.** [[Hymn_0421_Call_Jehovah_Thy_Salvation|Call Jehovah thy salvation,]]
+- **469.** [[Hymn_0469_With_Joy_We_Own_Thy|With joy we own thy servant, Lord,]]
+- **522.** [[Hymn_0522_Come_In_Thou_Blesséd_Of|Come in, thou blesséd of the Lord;]]
+- **565.** [[Hymn_0565_Prayer_Is_The_Souls_Sincere|Prayer is the soul’s sincere desire,]]
+- **600.** [[Hymn_0600_Hark_The_Song_Of_Jubilee|Hark! the song of Jubilee,]]
+- **650.** [[Hymn_0650_O_Bless_The_Lord_My|O bless the Lord, my soul!]]
+- **654.** [[Hymn_0654_Songs_Of_Praise_Awoke_The|Songs of praise awoke the morn]]
+- **700.** [[Hymn_0700_Stand_Up_And_Bless_The|Stand up and bless the Lord,]]
+- **706.** [[Hymn_0706_To_Thy_Temple_We_Repair|To thy temple we repair;]]
+- **715.** [[Hymn_0715_Now_May_The_Lord_Our|Now may the Lord our Shepherd lead]]
+- **743.** [[Hymn_0743_All_Ye_Nations_Praise_The|All ye nations, praise the Lord;]]
+- **823.** [[Hymn_0823_As_The_Hart_With_Eager|As the hart, with eager looks,]]
+- **846.** [[Hymn_0846_The_Christian_Warrior_See_Him|The Christian warrior, see him stand]]
+- **851.** [[Hymn_0851_The_Tempter_To_My_Soul|The tempter to my soul hath said—]]
+- **853.** [[Hymn_0853_Lord_I_Have_Foes_Without|Lord! I have foes without, within,]]
+- **873.** [[Hymn_0873_For_Ever_With_The_Lord|“For ever with the Lord,”]]
+- **967.** [[Hymn_0967_Sow_In_The_Morn_Thy|Sow in the morn thy seed;]]
+- **1017.** [[Hymn_1017_Out_Of_The_Depths_Of|Out of the depths of woe,]]
+- **1065.** [[Hymn_1065_O_Where_Shall_Rest_Be|O where shall rest be found—]]
+- **1070.** [[Hymn_1070_Servant_Of_God_Well_Done|Servant of God, well done!]]
+- **1082.** [[Hymn_1082_Go_To_The_Grave_In|Go to the grave in all thy glorious prime,]]
+- **1086.** [[Hymn_1086_There_Is_A_Calm_For|There is a calm for those who weep,]]
+- **1090.** [[Hymn_1090_Friend_After_Friend_Departs|Friend after friend departs;]]
+- **1137.** [[Hymn_1137_Who_Are_These_In_Bright|Who are these in bright array,]]
+- **1140.** [[Hymn_1140_Palms_Of_Glory_Raiment_Bright|Palms of glory, raiment bright,]]
+- **1221.** [[Hymn_1221_At_Evening_Time_When_Day|At evening time, when day is done,]]
+- **1234.** [[Hymn_1234_The_God_Of_Harvest_Praise|The God of harvest praise;]]
+- **1261.** [[Hymn_1261_Let_The_Land_Mourn_Through|Let the land mourn through all its coasts!]]
+- **1304.** [[Hymn_1304_Lord_Of_Hosts_To_Thee|Lord of hosts, to thee we raise]]
+- **1319.** [[Hymn_1319_Come_To_Calvarys_Holy_Mountain|Come to Calvary’s holy mountain,]]
+

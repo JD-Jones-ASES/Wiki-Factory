@@ -30,3 +30,11 @@ Holmes's contribution to Christian hymnody is his noble hymn "Lord of All Being,
 The hymn is sung in some churches to "Louvan," the admirable praise tune of Virgil Corydon Taylor (1817-1891), an American vocal composer born in Barkhamstead, Connecticut. Other hymnals prefer "Keble," one of [[John_B_Dykes]]'s "appropriate and finished melodies." Both tunes suit the quiet elevation of Holmes's words.
 
 Holmes belongs to the tradition of American literary men who found their way to hymn-writing through the sincerity of personal devotion rather than formal theological vocation. In this he resembles [[John_Greenleaf_Whittier]] and, earlier, the poet Addison — figures who enriched the hymnal not through professional ministry but through the overflow of genuine religious feeling.
+
+## Hymns in The Christian Hymn Book
+
+*2 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **66.** [[Hymn_0066_O_Love_Divine_That_Stooped|O love divine, that stooped to share]]
+- **636.** [[Hymn_0636_Lord_Of_All_Being_Throned|Lord of all being; throned afar,]]
+

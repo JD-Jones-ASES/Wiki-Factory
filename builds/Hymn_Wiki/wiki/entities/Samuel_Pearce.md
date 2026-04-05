@@ -49,6 +49,13 @@ Both hymns reflect the character of the man: steady confidence in God amid diffi
 
 Burrage notes that Dr. Belcher called these two hymns "sweet compositions" and described them as probably the last things retained from later editions of Rippon's *Selection* by a writer of Pearce's generation. The hymn *In the floods of tribulation* — with its refrain "Hallelujah! praise the Lord" — has the quality of a man writing from genuine experience of hardship and genuine experience of consolation.
 
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1026.** [[Hymn_1026_In_The_Floods_Of_Tribulation|In the floods of tribulation,]]
+
 ## See Also
 
 - [[Adoniram_Judson]] — the American missionary whose story embodies the vision Pearce helped plant

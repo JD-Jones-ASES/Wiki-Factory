@@ -52,3 +52,10 @@ Christopher Wordsworth is the systematic hymnographer of Victorian Anglicanism �
 Duffield (1886) covers 7 of Wordsworth's hymns, all from the *Holy Year* (1862). He treats Wordsworth respectfully as a scholar-bishop whose hymns serve the liturgy efficiently, while noting they lack some of the lyrical spontaneity of the greatest hymn-writers. For "The Day Is Gently Sinking to a Close," Duffield notes it "recalls the fine painting by Paul Delaroche — the vision of Christ walking upon the sea" — placing the hymn in the context of Victorian religious art as well as liturgy.
 
 See also: [[Reginald_Heber]], [[John_Keble]], [[English_Hymnody]]
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **633.** [[Hymn_0633_O_Day_Of_Rest_And|O day of rest and gladness,]]
+

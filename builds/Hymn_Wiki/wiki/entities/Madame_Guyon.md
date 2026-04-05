@@ -39,3 +39,10 @@ Butterworth-Brown note her "martyr spirit" and observe that her love-flights of 
 The hymn is [[William_Cowper]]'s translation from the French, and Dr. Thomas Upham also translated her religious poems. The tune "Alsace" — a chorale arranged from a sonata by Ludwig van Beethoven — is associated with the hymn, linking the nationalities of writer and composer in its very name.
 
 Madame Guyon sang more "songs in the night," Butterworth-Brown write, "than any hymn-writer outside of the Dark Ages." That her prison years produced some of the most radiant devotional poetry in the French tradition is the central paradox of her life. The stones of her dungeon, she said, "looked like jewels."
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **67.** [[Hymn_0067_O_Lord_How_Full_Of|O Lord, how full of sweet content]]
+

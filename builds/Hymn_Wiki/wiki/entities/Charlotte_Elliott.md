@@ -96,3 +96,15 @@ On **"The Sabbath-Day Has Reached Its Close"** (1839), Duffield records a "beaut
 Duffield observes that Miss Elliott's hymns were notable for reaching the sympathies of ordinary people — not just the theologically sophisticated — which he attributes to their directness of personal address.
 
 See also: [[English_Hymnody]], [[Women_in_Hymnody]], [[Frances_Ridley_Havergal]]
+
+## Hymns in The Christian Hymn Book
+
+*6 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **86.** [[Hymn_0086_I_Can_Not_Always_Trace|I can not always trace the way]]
+- **343.** [[Hymn_0343_Just_As_I_Amwithout_One|Just as I am—without one plea,]]
+- **581.** [[Hymn_0581_My_God_Is_Any_Hour|My God! is any hour so sweet,]]
+- **810.** [[Hymn_0810_Let_Me_Be_With_Thee|Let me be with thee where thou art,]]
+- **900.** [[Hymn_0900_My_God_My_Father_While|My God, my Father, while I stray]]
+- **998.** [[Hymn_0998_Saviour_Though_My_Rebellious_Will|Saviour! though my rebellious will]]
+

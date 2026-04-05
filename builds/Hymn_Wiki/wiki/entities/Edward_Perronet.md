@@ -42,3 +42,10 @@ The hymn's familiar opening stanzas have rung through American and English churc
 ## Musical and Thematic Context
 
 The tune "Coronation" by [[Oliver_Holden]] was composed in the very year of Perronet's death (1792), and Butterworth-Brown write that "Heaven evidently meant them to be wedded for all time." Americans chose "Coronation"; England chose "Miles Lane," composed by William Shrubsole and published with the words in 1780 in the *Gospel Magazine* during Perronet's lifetime. There is also a fine processional tune sung in the English Church to the same hymn. Both national traditions carry Perronet's words well — their different musical choices reflect the different temperaments of the two great English-speaking traditions of Christian song.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **203.** [[Hymn_0203_2_Crown_Him_You_Martyrs|2 Crown him, you martyrs of our God,]]
+

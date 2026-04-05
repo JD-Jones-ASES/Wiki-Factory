@@ -50,6 +50,13 @@ Baxter did not live to see the success of the enterprise he had spent his life a
 
 Baxter's direct hymnic legacy is small. Only "Lord, it belongs not to my care" remains in common use today. But the institutional legacy is immense: he is the link between the Reformation heritage of Psalm-singing and the hymn-singing tradition that Watts inaugurated. Without the decades of advocacy, writing, and example that Baxter and his circle provided, the Church of England and English Nonconformity would have been far less ready to receive Watts when he came.
 
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1003.** [[Hymn_1003_Christ_Leads_Me_Through_No|Christ leads me through no darker rooms]]
+
 ## See Also
 
 - [[Isaac_Watts]] — the man who completed what Baxter began

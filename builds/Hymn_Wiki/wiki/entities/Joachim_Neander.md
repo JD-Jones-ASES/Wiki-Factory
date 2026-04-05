@@ -87,3 +87,10 @@ He was thirty years old.
 Neander's brief life produced a body of praise hymns that broke open the door of hymnody for the Reformed tradition. His legacy to the entire church is one of the most exuberant calls to worship ever written --- sung today in churches of nearly every denomination. The Neanderthal gorge, named for the man who retreated there to write songs of praise, became famous for an entirely different reason centuries later --- giving us the somewhat jarring image of "Neanderthal Man" being named, however indirectly, after a hymn-writer.
 
 In the lineage of German hymnody, he is the bridge between the Lutheran tradition exemplified by [[Paul_Gerhardt]] and the broader Protestant world, demonstrating that the spirit of evangelical praise knows no denominational walls.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **891.** [[Hymn_0891_Here_Behold_Me_As_I|Here behold me, as I cast me]]
+

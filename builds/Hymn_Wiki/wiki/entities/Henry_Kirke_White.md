@@ -34,3 +34,12 @@ This hymn meditates on the star that led the Magi to Bethlehem, transforming tha
 Robert Southey, the Poet Laureate, edited and published White's remains after his death, and the preface Southey wrote for that volume ensured that White's story reached a wide audience. His brief life became a kind of martyrdom narrative for the evangelical movement --- evidence that faith could be real and consuming even in the most gifted minds.
 
 See also: [[Hymns_of_Consolation]], [[English_Hymnody]]
+
+## Hymns in The Christian Hymn Book
+
+*3 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **351.** [[Hymn_0351_When_Marshaled_On_The_Nightly|When marshaled on the nightly plain,]]
+- **720.** [[Hymn_0720_Come_Christian_Brethren_Ere_We|Come, Christian brethren, ere we part,]]
+- **1315.** [[Hymn_1315_O_Lord_Another_Day_Is|O Lord! another day is flown,]]
+

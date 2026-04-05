@@ -21,3 +21,10 @@ description: "American hymn writer and poet"
 **Eliza Scudder** (1821-1896) --- American hymn writer and poet.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1311.** [[Hymn_1311_Thou_Grace_Divine_Encircling_All|Thou Grace divine, encircling all,]]
+

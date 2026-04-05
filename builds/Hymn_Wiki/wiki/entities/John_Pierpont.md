@@ -34,3 +34,11 @@ This poem presents an imagined speech by General Joseph Warren to his troops bef
 Butterworth-Brown include Pierpont in their account of patriotic hymnody because his work sits at the intersection of civic verse and sacred occasion. His poetry was not primarily hymnodic, but in the tradition of patriotic singing it occupied an honored place alongside more conventionally religious texts.
 
 See also: [[Patriotic_Hymns]], [[American_Hymnody]]
+
+## Hymns in The Christian Hymn Book
+
+*2 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1253.** [[Hymn_1253_God_Of_Mercy_Do_Thou|God of mercy, do thou never]]
+- **1302.** [[Hymn_1302_O_Bow_Thine_Ear_Eternal|O bow thine ear, Eternal One,]]
+

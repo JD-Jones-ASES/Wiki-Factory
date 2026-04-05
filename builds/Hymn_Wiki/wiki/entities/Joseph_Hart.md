@@ -44,3 +44,12 @@ Butterworth-Brown note that "probably no two hymn-lines have been oftener repeat
 ## Musical and Thematic Context
 
 The hymn originally ran to ten stanzas but is now commonly divided into two, the second beginning "Come ye weary, heavy laden." Butterworth-Brown note a revival song by Jeremiah Ingalls (1764–1828) with a "sforzando chorus" that monopolized the hymn for many years before being displaced by "Greenville" and Carl Maria von Weber's "Wilmot" — in which it is now "more generally sung, dropping the echo lines at the end of each stanza."
+
+## Hymns in The Christian Hymn Book
+
+*3 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **312.** [[Hymn_0312_Come_You_Sinners_Poor_And|Come, you sinners, poor and needy,]]
+- **658.** [[Hymn_0658_This_Lord_Is_The_Lord|This Lord is the Lord we adore,]]
+- **721.** [[Hymn_0721_Dismiss_Us_With_Thy_Blessing|Dismiss us with thy blessing, Lord;]]
+

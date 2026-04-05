@@ -89,3 +89,25 @@ He died in 1887.
 Ray Palmer is the poet of personal devotion in American hymnody. He wrote not for congregations but for the note-book in his pocket, and God took his private prayer and gave it to the world. "My faith looks up to Thee" is American hymnody's finest hour.
 
 See also: [[American_Hymnody]], [[Thomas_Hastings]], [[Samuel_Francis_Smith]]
+
+## Hymns in The Christian Hymn Book
+
+*16 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **26.** [[Hymn_0026_Lord_My_Weak_Thought_In|Lord, my weak thought in vain would climb]]
+- **215.** [[Hymn_0215_O_Christ_Our_King_Creator|O Christ! our King, Creator, Lord!]]
+- **390.** [[Hymn_0390_Jesus_Lamb_Of_God_For|Jesus, Lamb of God, for me]]
+- **399.** [[Hymn_0399_O_Sweetly_Breathe_The_Lyres|O sweetly breathe the lyres above,]]
+- **518.** [[Hymn_0518_Away_From_Earth_My_Spirit|Away from earth my spirit turns—]]
+- **542.** [[Hymn_0542_My_Faith_Looks_Up_To|My faith looks up to thee,]]
+- **555.** [[Hymn_0555_Thou_Saviour_From_Thy_Throne|Thou, Saviour, from thy throne on high,]]
+- **577.** [[Hymn_0577_Stealing_From_The_World_Away|Stealing from the world away,]]
+- **598.** [[Hymn_0598_Come_O_Thou_Mighty_Saviour|Come, O thou mighty Saviour,]]
+- **776.** [[Hymn_0776_Jesus_These_Eyes_Have_Never|Jesus, these eyes have never seen]]
+- **941.** [[Hymn_0941_Before_Thy_Throne_With_Tearful|Before thy throne with tearful eyes,]]
+- **1108.** [[Hymn_1108_When_Downward_To_The_Darksome|When, downward, to the darksome tomb,]]
+- **1123.** [[Hymn_1123_Thy_Fathers_House_Thine_Own|Thy Father’s house! thine own bright home,]]
+- **1133.** [[Hymn_1133_And_Is_There_Lord_A|And is there, Lord, a rest]]
+- **1283.** [[Hymn_1283_Eternal_Lord_Whose_Power|Eternal Lord! whose power]]
+- **1284.** [[Hymn_1284_Wake_Thee_O_Zion_Thy|Wake thee, O Zion! thy mourning is ended;]]
+

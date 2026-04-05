@@ -51,3 +51,15 @@ Medley published hymns between 1786 and 1790 as leaflets; a volume by request in
 Burrage also records the origin story of *Awake, My Soul, to Joyful Lays*, quoting Duffield (*English Hymns*): Medley was visiting at the home of a prominent London Baptist named Phillips, asked for paper and ink, retired to his room, and returned with the hymn written. "Betsey" Phillips, who witnessed this, was born in 1783, became Mrs. Dodds, died in America in 1861, and passed the story down through relatives in Washington, D.C.
 
 Aside from *O Could I Speak* and *Awake, My Soul*, a third hymn particularly noted by Burrage begins *Dearest of names, our Lord, our King* — a meditation on death as a "friendly messenger" that has "angels' lovely form" for "every soul whom Jesus loves."
+
+## Hymns in The Christian Hymn Book
+
+*6 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **121.** [[Hymn_0121_Mortals_Awake_With_Angels_Join|Mortals! awake, with angels join,]]
+- **152.** [[Hymn_0152_O_Could_I_Speak_The|O could I speak the matchless worth,]]
+- **219.** [[Hymn_0219_I_Know_That_My_Redeemer|I know that my Redeemer lives;]]
+- **272.** [[Hymn_0272_Hark_How_The_Gospel_Trumpet|Hark! how the gospel trumpet sounds!]]
+- **290.** [[Hymn_0290_O_What_Amazing_Words_Of|O what amazing words of grace]]
+- **634.** [[Hymn_0634_Awake_My_Soul_To_Joyful|Awake, my soul, to joyful lays,]]
+

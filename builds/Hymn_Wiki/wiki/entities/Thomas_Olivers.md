@@ -56,3 +56,11 @@ The tune "Leoni" is strongly Hebrew in tone and diction, drawing its inspiration
 > I shall His power adore,
 > And sing the wonders of His grace
 >     Forevermore.
+
+## Hymns in The Christian Hymn Book
+
+*2 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **115.** [[Hymn_0115_Guide_Me_O_Thou_Great|Guide me, O thou great Jehovah,]]
+- **1104.** [[Hymn_1104_Lo_He_Comes_With_Clouds|Lo! he comes, with clouds descending,]]
+

@@ -21,3 +21,10 @@ description: "English Baptist minister and hymn writer"
 **David Denham** (1791-1848) --- English Baptist minister and hymn writer.
 
 Author of 2 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **510.** [[Hymn_0510_Mid_Scenes_Of_Confusion_And|’Mid scenes of confusion and creature complaints,]]
+

@@ -42,3 +42,10 @@ Key wrote this noble hymn in 1817 — the work of the author of "The Star-Spangl
 ## Musical and Thematic Context
 
 The tune "St. Chad" — a choral in D with a four-bar unison, from the *Evangelical Hymnal* — is assigned to this hymn by Butterworth-Brown and described as "worthy of the hymn." The composer, Richard Redhead, was organist of the Church of St. Mary Magdalene, Paddington, born at Harrow, Middlesex on March 1, 1820, and educated at Magdalene College, Oxford. He published the *Laudes Dominæ* Gregorian Psalter in 1843 and a Book of Tunes for the *Christian Year*.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **439.** [[Hymn_0439_If_Lifes_Pleasures_Charm_You|If life’s pleasures charm you, give them not your heart,]]
+

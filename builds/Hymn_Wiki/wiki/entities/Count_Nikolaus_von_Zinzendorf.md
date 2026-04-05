@@ -73,3 +73,10 @@ Zinzendorf was an unusual figure: an aristocrat who gave up his wealth and statu
 He also deeply valued the earlier German tradition: he included no fewer than 79 hymns by the Catholic convert and mystic Johann Scheffler (Angelus Silesius) in his Moravian collection, and his own hymns echo the warm, personal devotion of [[Paul_Gerhardt]].
 
 The colony of Herrnhut that he sheltered still exists. The Moravian Church, though small, has never lost the missionary fire he kindled.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **805.** [[Hymn_0805_Jesus_Guide_Our_Way|Jesus! guide our way]]
+

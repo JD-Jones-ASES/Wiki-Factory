@@ -21,3 +21,10 @@ description: "English theologian, founder of Methodism; prolific hymn writer and
 **John Wesley** (1703-1791) --- English theologian, founder of Methodism; prolific hymn writer and translator.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1314.** [[Hymn_1314_We_Lift_Our_Hearts_To|We lift our hearts to thee,]]
+

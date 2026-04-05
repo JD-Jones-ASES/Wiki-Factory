@@ -46,6 +46,13 @@ Benson places Hill in the chapter on the Evangelical Revival's by-streams, seein
 
 He represents the Calvinistic side of the English Evangelical Revival in its English (as distinct from American) expression — sharing the doctrinal commitments of Whitefield's circle but outliving that circle by decades and carrying its hymnodic habits into the nineteenth century.
 
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1034.** [[Hymn_1034_Gently_My_Saviour_Let_Me|Gently, my Saviour, let me down,]]
+
 ## See Also
 
 - [[George_Whitefield]] — the Revival figure whose tradition Hill continued

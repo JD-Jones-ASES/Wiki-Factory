@@ -101,3 +101,39 @@ Duffield observes that Newton knew the Westminster Catechism by heart and was in
 According to Duffield, the parting hymn "For a Season Called to Part" was written specifically in November 1776 when Newton was leaving Olney for London — a precise biographical date not found in other sources.
 
 See also: [[English_Hymnody]], [[William_Cowper]], [[Olney_Hymns]]
+
+## Hymns in The Christian Hymn Book
+
+*30 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **22.** [[Hymn_0022_Precious_Bible_What_A_Treasure|Precious Bible! what a treasure]]
+- **71.** [[Hymn_0071_With_Israels_God_Who_Can|With Israel’s God, who can compare?]]
+- **100.** [[Hymn_0100_Though_Troubles_Assail_And_Dangers|Though troubles assail, and dangers affright,]]
+- **109.** [[Hymn_0109_Lord_What_Is_Man_Extremes|Lord, what is man? Extremes how wide]]
+- **192.** [[Hymn_0192_Mary_To_The_Saviours_Tomb|Mary to the Saviour’s tomb]]
+- **246.** [[Hymn_0246_He_Who_On_Earth_As|He who on earth as man was known,]]
+- **247.** [[Hymn_0247_How_Sweet_The_Name_Of|How sweet the name of Jesus sounds]]
+- **263.** [[Hymn_0263_One_There_Is_Above_All|One there is above all others,]]
+- **308.** [[Hymn_0308_Sinner_Art_Thou_Still_Secure|Sinner, art thou still secure?]]
+- **317.** [[Hymn_0317_Stop_Poor_Sinner_Stop_And|Stop, poor sinner, stop and think,]]
+- **369.** [[Hymn_0369_Does_The_Gospel_Word_Proclaim|Does the gospel word proclaim]]
+- **403.** [[Hymn_0403_Amazing_Grace_How_Sweet_The|Amazing grace! (how sweet the sound!)]]
+- **460.** [[Hymn_0460_Glorious_Things_Of_Thee_Are|Glorious things of thee are spoken,]]
+- **477.** [[Hymn_0477_Kindred_In_Christ_For_His|Kindred in Christ, for his dear sake]]
+- **552.** [[Hymn_0552_Where_Two_Or_Three_With|Where two or three, with sweet accord,]]
+- **564.** [[Hymn_0564_Approach_My_Soul_The_Mercyseat|Approach, my soul, the mercy-seat,]]
+- **629.** [[Hymn_0629_Safely_Through_Another_Week|Safely through another week]]
+- **647.** [[Hymn_0647_Let_Earthly_Minds_The_World|Let earthly minds the world pursue;]]
+- **746.** [[Hymn_0746_Now_May_He_Who_From|Now may he, who from the dead]]
+- **747.** [[Hymn_0747_Glorious_In_Thy_Saints_Appear|Glorious in thy saints appear;]]
+- **748.** [[Hymn_0748_For_A_Season_Called_To|For a season called to part,]]
+- **752.** [[Hymn_0752_May_The_Grace_Of_Christ|May the grace of Christ, our Saviour,]]
+- **758.** [[Hymn_0758_To_Thee_Our_Wants_Are|To thee our wants are known,]]
+- **770.** [[Hymn_0770_Rejoice_Believers_In_The_Lord|Rejoice, believers in the Lord,]]
+- **855.** [[Hymn_0855_By_Faith_In_Christ_I|By faith in Christ I walk with God,]]
+- **898.** [[Hymn_0898_Be_Still_My_Heart_These|Be still, my heart! these anxious cares,]]
+- **920.** [[Hymn_0920_Quiet_Lord_My_Froward_Heart|Quiet, Lord, my froward heart,]]
+- **944.** [[Hymn_0944_Sweet_Was_The_Time_When|Sweet was the time when first I felt]]
+- **1117.** [[Hymn_1117_Day_Of_Judgment_Day_Of|Day of judgment, day of wonders!]]
+- **1243.** [[Hymn_1243_While_With_Ceaseless_Course_The|While with ceaseless course the sun]]
+

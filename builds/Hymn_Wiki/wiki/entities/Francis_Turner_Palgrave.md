@@ -21,3 +21,10 @@ description: "English poet and critic; editor of The Golden Treasury"
 **Francis Turner Palgrave** (1824-1897) --- English poet and critic; editor of The Golden Treasury.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **797.** [[Hymn_0797_Star_Of_Morn_And_Even|Star of morn and even,]]
+

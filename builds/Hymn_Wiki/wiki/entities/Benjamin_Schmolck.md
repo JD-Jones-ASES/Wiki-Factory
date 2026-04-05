@@ -56,3 +56,10 @@ Schmolck and his contemporary Erdmann Neumeister were the chief Lutheran hymnist
 ## Significance
 
 Schmolck represents the best of conservative Lutheran piety in the eighteenth century --- a man who maintained doctrinal fidelity without stiffness, who could write with warmth and simplicity without lapsing into the sentimentality that would characterize lesser Pietist hymn-writers. His enormous output (over a thousand hymns from a man working under significant ecclesiastical constraints) testifies to a spirit that could not be silenced.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **921.** [[Hymn_0921_My_Jesus_As_Thou_Wilt|My Jesus, as thou wilt!]]
+

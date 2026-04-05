@@ -21,3 +21,10 @@ description: "English hymn writer and Moravian bishop"
 **John Gambold** (1711-1771) --- English hymn writer and Moravian bishop.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **841.** [[Hymn_0841_O_Tell_Me_No_More|O tell me no more of this world’s vain store;]]
+

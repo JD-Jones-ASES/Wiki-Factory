@@ -109,3 +109,23 @@ On **"The Spirit Breathes upon the Word"**, Duffield dates the inspiration to Ju
 Duffield's treatment of Cowper is consistently sympathetic, presenting him as a man whose hymns rose above his private anguish to speak universal Christian experience — a judgment still shared by all students of the field.
 
 See also: [[English_Hymnody]], [[John_Newton]], [[Olney_Hymns]]
+
+## Hymns in The Christian Hymn Book
+
+*14 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **11.** [[Hymn_0011_What_Glory_Gilds_The_Sacred|What glory gilds the sacred page,]]
+- **79.** [[Hymn_0079_God_Moves_In_A_Mysterious|God moves in a mysterious way]]
+- **253.** [[Hymn_0253_There_Is_A_Fountain_Filled|There is a fountain filled with blood]]
+- **413.** [[Hymn_0413_Honor_And_Happiness_Unite|Honor and happiness unite]]
+- **551.** [[Hymn_0551_Jesus_Whereer_Thy_People_Meet|Jesus, where’er thy people meet,]]
+- **556.** [[Hymn_0556_What_Various_Hindrances_We_Meet|What various hindrances we meet]]
+- **601.** [[Hymn_0601_Hear_What_God_The_Lord|Hear what God, the Lord, hath spoken:]]
+- **827.** [[Hymn_0827_To_Jesus_The_Crown_Of|To Jesus, the crown of my hope,]]
+- **854.** [[Hymn_0854_When_Darkness_Long_Has_Vailed|When darkness long has vailed my mind,]]
+- **857.** [[Hymn_0857_The_Billows_Swell_The_Winds|The billows swell, the winds are high;]]
+- **943.** [[Hymn_0943_O_For_A_Closer_Walk|O for a closer walk with God!]]
+- **985.** [[Hymn_0985_Far_From_The_World_O|Far from the world, O Lord, I flee,]]
+- **995.** [[Hymn_0995_God_Of_My_Life_To|God of my life, to thee I call;]]
+- **1023.** [[Hymn_1023_Tis_My_Happiness_Below|’Tis my happiness below,]]
+

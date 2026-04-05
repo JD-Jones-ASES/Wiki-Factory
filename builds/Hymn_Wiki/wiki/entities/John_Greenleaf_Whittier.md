@@ -82,3 +82,13 @@ Whittier died in 1892. His last words were: *"Love --- love to all the world."* 
 Whittier is the paradox of American hymnody: a man who did not think he had written any good hymns, whose hymns are among the most beautiful in the language. He is the poet of the quiet inward life of faith --- of Quaker stillness, of *"the beauty of Thy peace"*. In an age of religious excitement and revival noise, his voice is the still small voice.
 
 See also: [[American_Hymnody]], [[Phillips_Brooks]]
+
+## Hymns in The Christian Hymn Book
+
+*4 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **896.** [[Hymn_0896_Shall_We_Grow_Weary_In|Shall we grow weary in our watch,]]
+- **901.** [[Hymn_0901_To_Weary_Hearts_To_Mourning|To weary hearts, to mourning homes,]]
+- **904.** [[Hymn_0904_All_As_God_Wills_Who|All as God wills! who wisely heeds]]
+- **972.** [[Hymn_0972_One_Whom_Jesus_Loved_Has|One whom Jesus loved has truly spoken!]]
+

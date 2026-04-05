@@ -41,3 +41,10 @@ The hymn has been "wedded so many years to the gentle, flowing music of Pleyel's
 The tune "Brattle Street" was composed by [[Ignaz_Pleyel]], the Austrian musician known for his Paris piano manufacturing firm and his Haydn connection. The tune's warmth and flowing character perfectly complements the intimate quality of Williams's text.
 
 The plain psalm-tune "Simpson" by Louis Spohr divides the stanzas into quatrains and offers a sterner alternative.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **561.** [[Hymn_0561_While_Thee_I_Seek_Protecting|While thee I seek, protecting Power,]]
+

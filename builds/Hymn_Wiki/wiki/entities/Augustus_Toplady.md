@@ -97,3 +97,15 @@ Duffield mentions the famous deathbed account of the American preacher Summerfie
 According to Duffield, Gladstone composed a Latin translation of "Rock of Ages" while seated in the House of Commons — "masterly in his scholarly recreations as in his statesmanship."
 
 See also: [[English_Hymnody]], [[Charles_Wesley]], [[John_Newton]]
+
+## Hymns in The Christian Hymn Book
+
+*6 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **261.** [[Hymn_0261_Rock_Of_Ages_Cleft_For|Rock of ages, cleft for me,]]
+- **273.** [[Hymn_0273_Blow_Ye_The_Trumpet_Blow|Blow ye the trumpet, blow]]
+- **917.** [[Hymn_0917_Your_Harps_Ye_Trembling_Saints|Your harps, ye trembling saints!]]
+- **946.** [[Hymn_0946_Weeping_Soul_No_Longer_Mourn|Weeping soul, no longer mourn,]]
+- **1008.** [[Hymn_1008_When_Languor_And_Disease_Invade|When languor and disease invade]]
+- **1072.** [[Hymn_1072_Deathless_Spirit_Now_Arise|Deathless spirit, now arise!]]
+

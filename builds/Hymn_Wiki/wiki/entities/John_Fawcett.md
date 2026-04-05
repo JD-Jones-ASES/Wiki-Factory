@@ -49,3 +49,16 @@ Burrage also notes that in 1793, after Dr. Caleb Evans' death, Fawcett was invit
 ## Musical and Thematic Context
 
 Butterworth-Brown describe "Blest Be the Tie That Binds" as "perhaps the best hymn-expression of sacred brotherhood," noting it "has had, and still has the endorsement of constant use." The tunes "Boylston" by [[Lowell_Mason]] and "Dennis," adapted by Mason from Johann Georg Nägeli, are the two most familiar settings. "Dennis" is described as "a soft and smoothly modulated harmony" that carries the deep feeling of sacred brotherhood with all its notes in sympathy.
+
+## Hymns in The Christian Hymn Book
+
+*7 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **9.** [[Hymn_0009_How_Precious_Is_The_Book|How precious is the book divine,]]
+- **91.** [[Hymn_0091_Thy_Way_Is_In_The|Thy way is in the sea;]]
+- **237.** [[Hymn_0237_Infinite_Excellence_Is_Thine|Infinite excellence is thine,]]
+- **393.** [[Hymn_0393_Humble_Souls_Who_Seek_Salvation|Humble souls, who seek salvation]]
+- **495.** [[Hymn_0495_Blest_Be_The_Tie_That|Blest be the tie that binds]]
+- **890.** [[Hymn_0890_O_My_Soul_What_Means|O my soul! what means this sadness?]]
+- **1036.** [[Hymn_1036_The_God_Of_Mercy_Will|The God of mercy will indulge]]
+

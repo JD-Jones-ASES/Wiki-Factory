@@ -78,4 +78,4 @@ Now to heaven our prayer ascending,
 
 ## Historical Context
 
-*This section will be enriched during narrative ingest from [[The_Story_of_Our_Hymns]] and [[The_Story_of_the_Hymns_and_Tunes]].*
+*No individual historical commentary found in available sources. See author and concept pages for broader context.*

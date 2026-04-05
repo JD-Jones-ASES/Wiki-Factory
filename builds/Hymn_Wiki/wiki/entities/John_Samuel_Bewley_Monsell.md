@@ -21,3 +21,10 @@ description: "Irish Anglican clergyman and hymn writer"
 **John Samuel Bewley Monsell** (1811-1875) --- Irish Anglican clergyman and hymn writer.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1033.** [[Hymn_1033_The_Springtide_Hour|The spring-tide hour]]
+

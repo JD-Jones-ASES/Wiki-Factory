@@ -21,3 +21,10 @@ description: "American hymn writer"
 **May L. Duncan** (fl. 1860s) --- American hymn writer.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1207.** [[Hymn_1207_Jesus_Tender_Shepherd_Hear_Me|Jesus, tender Shepherd, hear me;]]
+

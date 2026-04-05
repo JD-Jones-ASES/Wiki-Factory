@@ -55,3 +55,10 @@ On **"O Paradise! O Paradise"**, Duffield calls it "one of the very loveliest th
 On **"There's a Wideness in God's Mercy"**, Duffield provides the source: the hymn is taken from Faber's poem entitled "Come to Jesus," which runs to thirteen stanzas — the familiar hymn being a selection from a longer meditation on divine mercy.
 
 Duffield is careful to note Faber's textual methods: "Oh, See How Jesus Trusts Himself" is taken from "True Love," a poem of twenty-three stanzas — with Duffield noting that the later portion of the poem "runs into sentimentality and mawkishness," a frank critical judgment that illustrates both Faber's gift and its limit. The 10 entries collectively show a poet capable of extraordinary concentrated beauty who was not equally in command of the longer form.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1212.** [[Hymn_1212_Dear_Jesus_Ever_At_My|Dear Jesus! ever at my side,]]
+

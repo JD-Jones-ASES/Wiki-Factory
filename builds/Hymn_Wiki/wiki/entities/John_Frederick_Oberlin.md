@@ -21,3 +21,10 @@ description: "Alsatian pastor and philanthropist"
 **John Frederick Oberlin** (1740-1826) --- Alsatian pastor and philanthropist.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **765.** [[Hymn_0765_O_Lord_Thy_Heavenly_Grace|O Lord, thy heavenly grace impart,]]
+

@@ -21,3 +21,10 @@ description: "American journalist and poet; several poems set as hymns"
 **Nathaniel Parker Willis** (1806-1867) --- American journalist and poet; several poems set as hymns.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1300.** [[Hymn_1300_The_Perfect_World_By_Adam|The perfect world, by Adam trod,]]
+

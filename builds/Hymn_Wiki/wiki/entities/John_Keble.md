@@ -44,3 +44,12 @@ The tune "Hursley" — arranged from a German chorale by Peter Ritter (1760–18
 Robert Schumann's "Canonbury" has also been used with Keble's morning hymn "New Every Morning Is the Love," and is described as "deservedly a favorite for flowing long metres" — but "Hursley" is irreplaceable for "Sun of My Soul."
 
 Keble represents that strand of English hymnody rooted not in evangelical revival but in the quiet sacramental piety of the Anglican parish: thoughtful, devout, and satisfied with small fields well-tended.
+
+## Hymns in The Christian Hymn Book
+
+*3 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **741.** [[Hymn_0741_Blest_Are_The_Pure_In|Blest are the pure in heart]]
+- **978.** [[Hymn_0978_Sun_Of_My_Soul_Thou|Sun of my soul! thou Saviour dear,]]
+- **1176.** [[Hymn_1176_New_Every_Morning_Is_The|New every morning is the love]]
+

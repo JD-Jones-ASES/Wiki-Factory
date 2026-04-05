@@ -37,3 +37,12 @@ The tune "St. Thomas" by Aaron Williams (1734-1776) is most commonly associated 
 Butterworth-Brown recall Dwight's ardent devotion to [[Oliver_Holden]]'s tune "Coronation" — which he loved so much that the Yale College choir "often sang it while he, catching, as it were, the music of the heavenly world, would join them, and lead with the most ardent devotion." This image of the president of Yale caught up in the rapture of a carpenter's tune is one of the memorable vignettes of American hymn history.
 
 His revision of Watts's Psalms was a significant contribution to American congregational song, as it adapted the English Dissenter's masterwork to the idiom and needs of the new republic's churches.
+
+## Hymns in The Christian Hymn Book
+
+*3 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **277.** [[Hymn_0277_While_Life_Prolongs_Its_Precious|While life prolongs its precious light,]]
+- **453.** [[Hymn_0453_I_Love_Thy_Kingdom_Lord|I Love thy kingdom, Lord—]]
+- **1250.** [[Hymn_1250_God_Bless_Our_Native_Land|God bless our native land!]]
+

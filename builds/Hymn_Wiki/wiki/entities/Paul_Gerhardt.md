@@ -78,3 +78,12 @@ Butterworth-Brown present Gerhardt's biography in the context of "Commit Thou Al
 The associated tune is "Schumann" — named for Robert Schumann (1810-1876), born in Zwickau, Saxony, a music director, conservatory teacher, and "master-mind of the pre-Wagnerian period," happy in the cooperation of his wife, herself a skilled musician. Butterworth-Brown find the pairing entirely right: "the great 'Hymn of Trust' could have found no more sympathetic interpreter than the musician of Gerhardt's own land and language."
 
 Catherine Winkworth's translation of "Commit Thou All Thy Griefs" is the one in standard English use — the same translator who rendered Altenburg's "Fear Not O Little Flock" and who contributed extensively to the *Lyra Germanica* series.
+
+## Hymns in The Christian Hymn Book
+
+*3 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **177.** [[Hymn_0177_O_Sacred_Head_Now_Wounded|O sacred head, now wounded,]]
+- **799.** [[Hymn_0799_Now_As_Long_As_Here|Now as long as here I roam,]]
+- **880.** [[Hymn_0880_Give_To_The_Winds_Thy|Give to the winds thy fears,]]
+

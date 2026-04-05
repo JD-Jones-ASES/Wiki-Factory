@@ -82,3 +82,10 @@ Among his most used collections: *The Choir* (1833, over 50,000 copies), *The Mo
 ## Musical and Thematic Context (Butterworth-Brown)
 
 Butterworth-Brown describe Mason repeatedly as the man who "created" fitting tunes for hymns that had wandered without proper musical clothing for years. His genius was the pairing --- matching the emotional temperature of a text to the movement and mood of a melody. When he succeeded, as with "Bethany" and "Missionary Hymn," hymn and tune became so fused that separating them is nearly unthinkable.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **835.** [[Hymn_0835_Purer_Yet_And_Purer|Purer yet and purer]]
+

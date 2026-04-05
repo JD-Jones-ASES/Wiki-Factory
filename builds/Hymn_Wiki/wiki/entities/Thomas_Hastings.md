@@ -93,3 +93,21 @@ They also chronicle his role as the editor who transformed Thomas Moore's poem "
 Hastings's tune "Zion" (composed in Washington, CT, 1830) is noted as the standard musical companion for William Williams's Welsh missionary hymn "O'er the Gloomy Hills of Darkness," and his tune "Halle" for Keble's "Sun of My Soul" was superseded by William Henry Monk's "Hursley." His "Ortonville" (also 1830) has served as the companion melody for dozens of hymns across more than a century.
 
 See also: [[American_Hymnody]], [[Augustus_Toplady]], [[Ray_Palmer]]
+
+## Hymns in The Christian Hymn Book
+
+*12 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **186.** [[Hymn_0186_How_Calm_And_Beautiful_The|How calm and beautiful the morn]]
+- **296.** [[Hymn_0296_Return_O_Wanderer_To_Thy|Return, O wanderer, to thy home,]]
+- **322.** [[Hymn_0322_Child_Of_Sin_And_Sorrow|Child of sin and sorrow, filled with dismay,]]
+- **330.** [[Hymn_0330_Delay_Not_Delay_Not_O|Delay not, delay not, O sinner, draw near,]]
+- **608.** [[Hymn_0608_Hail_To_The_Brightness_Of|Hail, to the brightness of Zion’s glad morning!]]
+- **788.** [[Hymn_0788_In_Time_Of_Fear|In time of fear,]]
+- **945.** [[Hymn_0945_O_Saviour_Lend_A_Listening|O Saviour, lend a listening ear,]]
+- **969.** [[Hymn_0969_He_That_Goeth_Forth_With|He that goeth forth with weeping,]]
+- **990.** [[Hymn_0990_Jesus_Saviour_All_Divine|Jesus, Saviour all divine,]]
+- **1015.** [[Hymn_1015_How_Tender_Is_Thy_Hand|How tender is thy hand,]]
+- **1175.** [[Hymn_1175_Gently_Lord_O_Gently_Lead|Gently, Lord, O gently lead us]]
+- **1198.** [[Hymn_1198_Now_From_Labor_And_From|Now from labor and from care]]
+

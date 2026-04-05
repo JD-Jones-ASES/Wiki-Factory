@@ -21,3 +21,10 @@ description: "English poet and stenographer; hymn writer, author of Christians A
 **John Byrom** (1692-1763) --- English poet and stenographer; hymn writer, author of Christians Awake.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **834.** [[Hymn_0834_My_Spirit_Longs_For_Thee|My spirit longs for thee]]
+

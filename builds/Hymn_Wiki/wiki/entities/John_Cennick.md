@@ -42,3 +42,12 @@ This earlier Cennick hymn was linked with the revival tune "Duane Street" (long-
 ## Musical and Thematic Context
 
 Cennick is one of those transitional figures who connect several streams of the evangelical revival: Wesleyan, Calvinistic, and Moravian. His hymns carry the emotional directness of the revival tradition — personal, Christ-centered, and shaped by an acute awareness of human unworthiness and divine grace. His early death at thirty-six meant that his output was relatively small, but what he left behind has retained its place in the hymnal.
+
+## Hymns in The Christian Hymn Book
+
+*3 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **231.** [[Hymn_0231_Thou_Dear_Redeemer_Dying_Lamb|Thou dear Redeemer, dying Lamb,]]
+- **375.** [[Hymn_0375_Jesus_My_All_To_Heaven|Jesus my all to heaven has gone,]]
+- **498.** [[Hymn_0498_Children_Of_The_Heavenly_King|Children of the heavenly King,]]
+

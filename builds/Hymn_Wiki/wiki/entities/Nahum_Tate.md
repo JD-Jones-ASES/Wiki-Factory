@@ -35,3 +35,15 @@ This sublime quatrain is the first stanza of a sixteen-line hymn, the rest of wh
 ## Musical and Thematic Context
 
 Butterworth-Brown note that Tate's doxology avoids the "credal line" that limits the universal use of Ken's "Praise God from whom all blessings flow." Where Ken's doxology is inextricably joined with "Old Hundred" and the great tradition of congregational praise, Tate's is noted for its breadth of spirit and its capacity to serve all traditions. The *Methodist Hymnal* includes a collection of ten doxologies, among which one is attributed to "Tate and Brady," acknowledging the Psalter partnership that defined their shared legacy.
+
+## Hymns in The Christian Hymn Book
+
+*6 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **38.** [[Hymn_0038_O_God_My_Heart_Is|O God! my heart is fully bent]]
+- **65.** [[Hymn_0065_No_Change_Of_Time_Shall|No change of time shall ever shock]]
+- **637.** [[Hymn_0637_O_Render_Thanks_To_God|O render thanks to God above,]]
+- **682.** [[Hymn_0682_O_Come_Loud_Anthems_Let|O come, loud anthems let us sing,]]
+- **737.** [[Hymn_0737_To_Bless_Thy_Chosen_Race|To bless thy chosen race,]]
+- **911.** [[Hymn_0911_Through_All_The_Changing_Scenes|Through all the changing scenes of life,]]
+

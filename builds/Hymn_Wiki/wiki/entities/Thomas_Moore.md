@@ -43,3 +43,18 @@ Butterworth-Brown are generous to both: "Dr. Hastings was not much of a poet, bu
 The tune is attributed to Samuel Webbe — possibly an arrangement of a German air to which Moore says he originally set the words. Butterworth-Brown invoke the principle of musical affinity: "One can scarcely conceive a happier yoking of counterparts. Try singing 'Come ye Disconsolate' to 'Rescue the Perishing,' for example, and we shall feel the impertinence of divorcing a hymn that has found its musical affinity."
 
 Moore represents the gifted secular poet who contributes to the hymnal by accident — through a single lyric that the church recognized as too good to leave outside its walls.
+
+## Hymns in The Christian Hymn Book
+
+*9 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **49.** [[Hymn_0049_Thou_Art_O_God_The|Thou art, O God, the life and light]]
+- **63.** [[Hymn_0063_Theres_Nothing_Bright_Above_Below|There’s nothing bright, above, below,]]
+- **342.** [[Hymn_0342_Awaked_From_Sins_Delusive_Sleep|Awaked from sin’s delusive sleep,]]
+- **407.** [[Hymn_0407_Since_First_Thy_Word_Awaked|Since first thy word awaked my heart,]]
+- **409.** [[Hymn_0409_Like_Morningwhen_Her_Early_Breeze|Like morning—when her early breeze]]
+- **586.** [[Hymn_0586_Come_Ye_Disconsolate_Whereer_You|Come, ye disconsolate, where’er you languish,]]
+- **818.** [[Hymn_0818_The_Dove_Let_Loose_In|The dove, let loose in eastern skies,]]
+- **1005.** [[Hymn_1005_O_Thou_Who_Driest_The|O thou who driest the mourner’s tear,]]
+- **1032.** [[Hymn_1032_As_Down_In_The_Sunless|As down in the sunless retreats of the ocean,]]
+

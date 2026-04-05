@@ -37,3 +37,11 @@ Three of Procter's hymns appear in the Methodist Hymnal:
 ## Methodist Hymnal Context (Nutter)
 
 According to Nutter and Tillett, Procter's hymns "are sweet and pathetic." The combination of an accomplished literary background (through her father Barry Cornwall), sincere Catholic devotion, and genuine skill in music and languages produced verse with a quietly emotional quality that proved appealing across denominational lines. Her short life — she died at only thirty-eight — gave a retrospective poignancy to her writing.
+
+## Hymns in The Christian Hymn Book
+
+*2 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **423.** [[Hymn_0423_We_Ask_For_Peace_O|We ask for peace, O Lord!]]
+- **1194.** [[Hymn_1194_The_Shadows_Of_The_Evening|The shadows of the evening hours]]
+

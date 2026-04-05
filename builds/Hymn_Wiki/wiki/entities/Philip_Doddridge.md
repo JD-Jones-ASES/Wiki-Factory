@@ -94,3 +94,45 @@ On **"My Father, God! How Sweet the Sound"**, Duffield offers his general assess
 Duffield also records the story of "My God, and Is Thy Table Spread": a woman who caught the lines "My God, and is thy table spread" during a service "was greatly moved by them and wept bitterly" — pointing to the peculiar power of Doddridge's eucharistic verse.
 
 See also: [[English_Hymnody]], [[Isaac_Watts]], [[Olney_Hymns]]
+
+## Hymns in The Christian Hymn Book
+
+*36 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **29.** [[Hymn_0029_With_One_Consent_Let_All|With one consent let all the earth]]
+- **73.** [[Hymn_0073_O_God_Of_Bethel_By|O God of Bethel, by whose hand]]
+- **82.** [[Hymn_0082_Great_Ruler_Of_All_Natures|Great Ruler of all nature’s frame,]]
+- **92.** [[Hymn_0092_How_Gentle_Gods_Commands|How gentle God’s commands!]]
+- **124.** [[Hymn_0124_Hark_The_Glad_Sound_The|Hark, the glad sound! the Saviour comes!]]
+- **184.** [[Hymn_0184_Ye_Humble_Souls_That_Seek|Ye humble souls that seek the Lord,]]
+- **188.** [[Hymn_0188_Yes_The_Redeemer_Rose|Yes, the Redeemer rose:]]
+- **210.** [[Hymn_0210_Exalted_Prince_Of_Life_We|Exalted Prince of Life, we own]]
+- **218.** [[Hymn_0218_Hail_To_The_Prince_Of|Hail to the Prince of Life and Peace,]]
+- **235.** [[Hymn_0235_Now_Let_Our_Cheerful_Eyes|Now let our cheerful eyes survey]]
+- **251.** [[Hymn_0251_Jesus_I_Love_Thy_Charming|Jesus, I love thy charming name;]]
+- **282.** [[Hymn_0282_Why_Will_Ye_Waste_On|Why will ye waste on trifling cares]]
+- **294.** [[Hymn_0294_The_King_Of_Heaven_His|The King of heaven his table spreads,]]
+- **300.** [[Hymn_0300_And_Will_The_Judge_Descend|And will the Judge descend?]]
+- **302.** [[Hymn_0302_Tomorrow_Lord_Is_Thine|To-morrow, Lord! is thine,]]
+- **356.** [[Hymn_0356_Repent_The_Voice_Celestial_Cries|Repent! the voice celestial cries,]]
+- **398.** [[Hymn_0398_O_Happy_Day_That_Fixed|O happy day, that fixed my choice]]
+- **405.** [[Hymn_0405_Grace_Tis_A_Charming_Sound|Grace! ’tis a charming sound,]]
+- **419.** [[Hymn_0419_Thy_Spirit_Shall_Unite|Thy Spirit shall unite]]
+- **436.** [[Hymn_0436_My_Soul_Triumphant_In_The|My soul! triumphant in the Lord,]]
+- **472.** [[Hymn_0472_Ye_Servants_Of_The_Lord|Ye servants of the Lord,]]
+- **528.** [[Hymn_0528_Our_Heavenly_Father_Calls|Our heavenly Father calls,]]
+- **591.** [[Hymn_0591_Triumphant_Zion_Lift_Thy_Head|Triumphant Zion! lift thy head]]
+- **609.** [[Hymn_0609_Gird_On_Thy_Conquering_Sword|Gird on thy conquering sword,]]
+- **617.** [[Hymn_0617_Thine_Earthly_Sabbaths_Lord_We|Thine earthly Sabbaths, Lord, we love;]]
+- **815.** [[Hymn_0815_Awake_You_Saints_And_Raise|Awake, you saints, and raise your eyes,]]
+- **866.** [[Hymn_0866_Awake_My_Soul_Stretch_Every|Awake, my soul, stretch every nerve,]]
+- **982.** [[Hymn_0982_Return_My_Roving_Heart_Return|Return, my roving heart, return,]]
+- **986.** [[Hymn_0986_Father_Divine_Thy_Piercing_Eye|Father divine, thy piercing eye]]
+- **1009.** [[Hymn_1009_My_God_Thy_Service_Well|My God, thy service well demands]]
+- **1018.** [[Hymn_1018_How_Gracious_And_How_Wise|How gracious and how wise]]
+- **1053.** [[Hymn_1053_Ye_Golden_Lamps_Of_Heaven|Ye golden lamps of heaven, farewell,]]
+- **1064.** [[Hymn_1064_What_Though_The_Arm_Of|What though the arm of conquering death]]
+- **1230.** [[Hymn_1230_Eternal_Source_Of_Every_Joy|Eternal Source of every joy,]]
+- **1239.** [[Hymn_1239_Great_God_We_Sing_That|Great God, we sing that mighty hand]]
+- **1324.** [[Hymn_1324_O_You_Immortal_Throng|O you immortal throng]]
+

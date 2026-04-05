@@ -42,3 +42,18 @@ This missionary-dialogue hymn — cast as an antiphonal exchange between a watch
 The piece caught perfectly the spirit of the early nineteenth-century missionary movement: the waiting church, the pilgrim world, and the hope of dawn.
 
 Lowell Mason's tune appears in his own tune-books under its first hymn-line and in a few hymnals as "Bowring" or "Watchman." Butterworth-Brown note that "in animation and vocal splendor it catches the author's own clear call."
+
+## Hymns in The Christian Hymn Book
+
+*9 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **6.** [[Hymn_0006_Upon_The_Gospels_Sacred_Page|Upon the gospel’s sacred page]]
+- **54.** [[Hymn_0054_The_Heavenly_Spheres_To_Thee|The heavenly spheres to thee, O God,]]
+- **116.** [[Hymn_0116_God_Is_Love_His_Mercy|God is love; his mercy brightens]]
+- **128.** [[Hymn_0128_Watchman_Tell_Us_Of_The|Watchman, tell us of the night,]]
+- **141.** [[Hymn_0141_How_Sweetly_Flowed_The_Gospel|How sweetly flowed the gospel sound]]
+- **588.** [[Hymn_0588_From_The_Recesses_Of_A|From the recesses of a lowly spirit,]]
+- **671.** [[Hymn_0671_Father_Of_Spirits_Humbly_Bent|Father of spirits! humbly bent before thee,]]
+- **695.** [[Hymn_0695_The_Offerings_To_Thy_Throne|The offerings to thy throne which rise,]]
+- **902.** [[Hymn_0902_O_Let_My_Trembling_Soul|O let my trembling soul be still,]]
+

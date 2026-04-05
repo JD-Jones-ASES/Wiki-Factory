@@ -46,3 +46,13 @@ Doane was converted in 1847, baptized by Rev. Frederic Denison in 1851, and unit
 Burrage traces Doane's musical development from childhood with unusual specificity: singing in public at age six, in the church choir at ten, accomplished flutist at twelve, playing double bass viol at thirteen, cabinet organ at fifteen, beginning musical composition shortly thereafter. His instructors included Holbrook, B. F. Baker, A. N. Johnson, and the German musician Kanhoiser. In 1852-54 he conducted the Norwich Harmonic Society.
 
 His first Sunday school hymn book, "Sabbath Gems," appeared in 1861. In collaboration with [[Robert_Lowry]] he subsequently published an extensive series of music books, including "Pure Gold," "Royal Diadem," "Temple Anthems," "Tidal Wave," "Brightest and Best," "Welcome Tidings," "Fountain of Song," "Good as Gold," "Glad Hosanna," "Joyful Lays," and "Glad Refrain." He was also co-editor with Lowry on "The Gospel Hymn and Tune Book" for the American Baptist Publication Society, and a musical editor of "The Baptist Hymnal." Denison University conferred the Mus.D. in 1875.
+
+## Hymns in The Christian Hymn Book
+
+*4 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **155.** [[Hymn_0155_He_Came_With_His_Heavenly|He came with his heavenly crown,]]
+- **248.** [[Hymn_0248_Thou_Art_The_Wayto_Thee|Thou art the Way—to thee alone]]
+- **267.** [[Hymn_0267_Fling_Out_The_Banner_Let|Fling out the banner! let it float]]
+- **1199.** [[Hymn_1199_Softly_Now_The_Light_Of|Softly, now, the light of day]]
+

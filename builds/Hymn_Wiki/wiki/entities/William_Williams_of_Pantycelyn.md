@@ -67,3 +67,10 @@ William Williams died on January 11, 1791, at Pantycelyn. He had poured out the 
 In Calvinistic Wales, during the great revival of 1904--5, the most cherished hymns were those of William Williams and [[Ann_Griffiths]], of Charles Wesley, and Isaac Watts --- but it was Williams who gave Wales its own voice.
 
 See also: [[Welsh_Hymnody]], [[Ann_Griffiths]], [[Howell_Harris]]
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1280.** [[Hymn_1280_Oer_The_Gloomy_Hills_Of|O’er the gloomy hills of darkness,]]
+

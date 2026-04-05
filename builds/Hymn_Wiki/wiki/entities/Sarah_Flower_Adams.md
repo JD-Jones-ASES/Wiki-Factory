@@ -67,3 +67,12 @@ On the attempts to "evangelize" the hymn by those troubled by Adams's Unitarian 
 For the tune: English churches since 1861 used "Horbury" by J.B. Dykes and "St. Edmund" by Arthur Sullivan, both "simple and appropriate." But Lowell Mason's "Bethany" (1856) captured the popular heart, and in America hymn and tune became each other's property — so fixed that one wonders why it was not named "Bethel" instead, given the Bethel imagery of Jacob's stone pillow that pervades the words.
 
 See also: [[English_Hymnody]], [[Women_in_Hymnody]], [[Charlotte_Elliott]]
+
+## Hymns in The Christian Hymn Book
+
+*3 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **68.** [[Hymn_0068_He_Sendeth_Sun_He_Sendeth|He sendeth sun, he sendeth shower;]]
+- **438.** [[Hymn_0438_The_World_May_Change_From|The world may change from old to new,]]
+- **928.** [[Hymn_0928_Nearer_My_God_To_Thee|Nearer, my God, to thee,]]
+

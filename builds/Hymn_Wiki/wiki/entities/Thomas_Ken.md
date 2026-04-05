@@ -47,6 +47,14 @@ Ken's significance for Benson is institutional as well as individual. He wrote a
 
 Benson also notes Ken's appearance in the story of Reginald Heber's proposed hymnal for the Church of England in the 1820s. Heber, seeking precedents for his project of providing the Anglican church with a proper hymnal, looked back to Ken as evidence that original hymns were not foreign to the Anglican tradition. Ken's Morning and Evening Hymns — by then over a century old — served as the earliest examples Heber could cite of authoritative Anglican sacred verse.
 
+
+## Hymns in The Christian Hymn Book
+
+*2 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **1181.** [[Hymn_1181_Awake_My_Soul_And_With|Awake, my soul! and with the sun]]
+- **1189.** [[Hymn_1189_Glory_To_Thee_My_God|Glory to thee, my God, this night,]]
+
 ## See Also
 
 - [[Anglican_Hymnody]] — the tradition Ken helped begin

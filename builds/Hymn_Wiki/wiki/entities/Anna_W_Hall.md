@@ -21,3 +21,10 @@ description: "American hymn writer"
 **Anna W. Hall** (fl. 1850s) --- American hymn writer.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **925.** [[Hymn_0925_Father_O_Hear_Me_Now|Father, O hear me now!]]
+

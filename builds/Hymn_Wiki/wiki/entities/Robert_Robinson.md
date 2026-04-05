@@ -42,3 +42,10 @@ Robinson was an extensive literary man as well as a preacher. His works include 
 Burrage addresses the question of Robinson's alleged Unitarianism directly. He quotes a sermon Robinson preached in 1781 — after the date when he is supposed to have become Unitarian — in which Robinson speaks of Christ as "God" and as "a person infinitely lovely both as God and man." Burrage concludes the sermon is "throughout deeply evangelical in doctrine and spirit," and attributes the Unitarian charge to guilt by association with his friend Dr. Priestley. Robinson died at Birmingham, where he had gone to preach for Priestley — and Robert Hall prepared the epitaph calling him "the intrepid champion of liberty, civil and religious."
 
 Burrage notes that Robinson authored a second hymn, *Mighty God, while angels bless thee* — written while holding a boy named Benjamin Williams (later a deacon in the Reading Baptist church) in his lap, beginning as a child's song and then kindling into a full-throated hymn of praise.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **660.** [[Hymn_0660_O_Thou_Fount_Of_Every|O thou Fount of every blessing!]]
+

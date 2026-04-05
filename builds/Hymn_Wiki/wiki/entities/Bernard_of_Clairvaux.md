@@ -65,3 +65,11 @@ These hymns of Bernard's have a quality that is almost unique in medieval devoti
 The story of Christian Schwartz, a Lutheran missionary in India, dying in 1798 with his Indian pupils gathered around his bed singing the final verses of "O sacred Head" in their own Malabar tongue --- this story, recorded by Ryden, captures something essential about Bernard's hymn. It crossed every boundary of language, nationality, denomination, and time. It has done what the very best hymns do: it has gone wherever people carry the weight of their own mortality and the weight of Christ's love, and offered them a language for both.
 
 See also: [[Latin_Hymnody]], [[Bernard_of_Cluny]], [[Paul_Gerhardt]], [[Hymn_0177_O_Sacred_Head_Now_Wounded]]
+
+## Hymns in The Christian Hymn Book
+
+*2 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **227.** [[Hymn_0227_Jesus_The_Very_Thought_Is|Jesus! the very thought is sweet;]]
+- **513.** [[Hymn_0513_Jesus_Thou_Joy_Of_Loving|Jesus, thou Joy of loving hearts!]]
+

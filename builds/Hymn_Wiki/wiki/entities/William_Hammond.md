@@ -33,3 +33,11 @@ Hammond's hymn "Awake and Sing the Song of Moses and the Lamb" was published in 
 ## Musical and Thematic Context
 
 The hymn has had a variety of musical interpretations. The more modern piece is "St. Philip" by [[Edward_John_Hopkins]], Doctor of Music, born at Westminster, London, on June 30, 1818. Hopkins became organist of the Temple Church, London, and received his Doctor's degree from the Archbishop of Canterbury in 1882. His tune is described as an appropriate modern vehicle for Hammond's revival hymn.
+
+## Hymns in The Christian Hymn Book
+
+*2 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **648.** [[Hymn_0648_Awake_And_Sing_The_Song|Awake, and sing the song]]
+- **708.** [[Hymn_0708_Lord_We_Come_Before_Thee|Lord, we come before thee now;]]
+

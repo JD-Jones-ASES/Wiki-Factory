@@ -21,3 +21,11 @@ description: "English Methodist minister and hymn writer"
 **John Dobell** (1756-1840) --- English Methodist minister and hymn writer.
 
 Author of 2 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*2 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **297.** [[Hymn_0297_Now_Is_Th_Accepted_Time|Now is th’ accepted time,]]
+- **515.** [[Hymn_0515_How_Pleasing_To_Behold_And|How pleasing to behold and see]]
+

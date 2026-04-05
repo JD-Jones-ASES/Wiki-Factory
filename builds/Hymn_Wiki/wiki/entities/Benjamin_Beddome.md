@@ -65,3 +65,24 @@ Burrage notes that Beddome died on September 3, 1795, "having been engaged in wr
 The 1818 posthumous collection contained 822 hymns and 8 doxologies, with a recommendatory preface by [[Robert_Hall]]. More than fifty of the hymns had already appeared in [[John_Rippon]]'s Selection — Rippon had quietly been drawing on Beddome's congregation-sung verse for decades. James Montgomery's assessment, quoted by Burrage, captures what makes these hymns endure: "very agreeable as well as impressive, being for the most part brief and pithy... a single idea, always important, often striking... with the terseness and simplicity of the Greek epigram." An honorary A.M. was conferred on Beddome by Rhode Island College (now Brown University) in 1770.
 
 Among his best-known hymns: *Did Christ o'er sinners weep*, *And must I part with all I have*, *Let party names no more*, *Come, Holy Spirit, come*, *Jesus my Lord my chief delight*, *If Christ is mine then all is mine*, *Prayer is the breath of God in man*, *God in the Gospel of his Son*, *Blest Comforter divine*, and *Buried beneath the yielding wave*.
+
+## Hymns in The Christian Hymn Book
+
+*15 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **5.** [[Hymn_0005_When_Israel_Through_The_Desert|When Israel through the desert passed,]]
+- **18.** [[Hymn_0018_O_Lord_Thy_Perfect_Word|O Lord, thy perfect word]]
+- **69.** [[Hymn_0069_Wait_O_My_Soul_Thy|Wait, O my soul, thy Maker’s will;]]
+- **88.** [[Hymn_0088_Since_God_Is_Mine_Then|Since God is mine, then present things]]
+- **161.** [[Hymn_0161_Did_Christ_Oer_Sinners_Weep|Did Christ o’er sinners weep,]]
+- **268.** [[Hymn_0268_God_In_The_Gospel_Of|God, in the gospel of his Son,]]
+- **287.** [[Hymn_0287_How_Free_And_Boundless_Is|How free and boundless is the grace]]
+- **360.** [[Hymn_0360_And_Must_I_Part_With|And must I part with all I have,]]
+- **467.** [[Hymn_0467_Father_Of_Mercies_Bow_Thine|Father of mercies, bow thine ear,]]
+- **489.** [[Hymn_0489_Ye_Men_And_Angels_Witness|Ye men and angels, witness now—]]
+- **497.** [[Hymn_0497_Let_Party_Names_No_More|Let party names no more]]
+- **807.** [[Hymn_0807_Jesus_My_Love_My_Chief|Jesus, my love, my chief delight,]]
+- **1006.** [[Hymn_1006_My_Times_Of_Sorrow_And|My times of sorrow and of joy,]]
+- **1115.** [[Hymn_1115_Behold_The_Day_Is_Come|Behold the day is come;]]
+- **1241.** [[Hymn_1241_My_Few_Revolving_Years|My few revolving years,]]
+

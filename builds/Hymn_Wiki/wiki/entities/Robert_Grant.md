@@ -44,3 +44,15 @@ Grant's early death, possibly from illness and affliction, lends a poignant weig
 ## Musical and Thematic Context
 
 The tune most often sung to Grant's hymn is Haydn's "Lyons." Butterworth-Brown note its vigor and spirit best fit it for Grant's noble lyric. The hymn belongs to a tradition of Old Testament praise-poetry that Butterworth-Brown connect to both Grant and [[Thomas_Olivers]]'s "The God of Abraham Praise" — both are "strongly Hebrew in tone and diction" and both drew directly from the Psalter as their supreme text-book of praise.
+
+## Hymns in The Christian Hymn Book
+
+*6 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **3.** [[Hymn_0003_The_Starry_Firmament_On_High|The starry firmament on high,]]
+- **102.** [[Hymn_0102_O_Worship_The_King_Allglorious|O, worship the King all-glorious above,]]
+- **578.** [[Hymn_0578_Saviour_When_In_Dust_To|Saviour, when in dust to thee]]
+- **893.** [[Hymn_0893_O_Saviour_Whose_Mercy_Severe|O Saviour whose mercy, severe in its kindness,]]
+- **999.** [[Hymn_0999_When_Gathering_Clouds_Around_I|When gathering clouds around I view,]]
+- **1225.** [[Hymn_1225_Thy_Mercy_Heard_My_Infant|Thy mercy heard my infant prayer,]]
+

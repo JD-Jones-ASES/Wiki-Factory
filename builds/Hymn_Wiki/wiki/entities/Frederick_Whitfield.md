@@ -21,3 +21,10 @@ description: "English clergyman and hymn writer; author of 'I Need Thee Every Ho
 **Frederick Whitfield** (1829-1904) --- English clergyman and hymn writer; author of 'I Need Thee Every Hour'.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **543.** [[Hymn_0543_I_Saw_The_Cross_Of|I saw the cross of Jesus]]
+

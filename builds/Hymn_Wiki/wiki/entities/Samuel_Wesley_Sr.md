@@ -21,3 +21,10 @@ description: "Anglican clergyman and poet; father of John and Charles Wesley"
 **Samuel Wesley Sr.** (1662-1735) --- Anglican clergyman and poet; father of John and Charles Wesley.
 
 Author of 1 hymn(s) in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870). Further biographical information needed.
+
+## Hymns in The Christian Hymn Book
+
+*1 hymn(s) attributed to this author in [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870):*
+
+- **175.** [[Hymn_0175_Behold_The_Saviour_Of_Mankind|Behold the Saviour of mankind]]
+
