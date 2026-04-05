@@ -5,7 +5,7 @@ aliases: ["O for a faith that will not shrink,", "Increase our faith."]
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -79,3 +79,8 @@ O for a faith that will not shrink,
 ### From Duffield (1886)
 
 There are some alterations in this hymn, but it is not seriously changed. Its title is, " The Power of Faith," with a reference to Luke 17 : 5, and it is from Psalms and Hymns for Public and Private Use, 1831, and has six stanzas.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 520 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Bath Coll. Section: "Supplement".
+

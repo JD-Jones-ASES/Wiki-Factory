@@ -5,7 +5,7 @@ aliases: ["Thou hidden love of God, whose hight,", "Love—which passeth knowled
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: []
 status: draft
 confidence: high
@@ -81,3 +81,8 @@ Of all the more copious German hymn-writers after Luther, Tersteegen was perhaps
 ### From Nutter & Tillett (1911)
 
 Tr, by John Wesley, From the German. A translation of Tersteegen's **Verborgne Gottes-Liebe du'* The original ten stanzas Wesley found in the Hernnhut Gesang-Buch, 1731. The translation was made in 1736 at Savannah, Ga.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 219 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Moravian. Section: "The Christian Character".
+

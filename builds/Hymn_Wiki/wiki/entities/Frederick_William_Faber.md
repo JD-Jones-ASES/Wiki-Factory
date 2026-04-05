@@ -5,7 +5,7 @@ aliases: ["Frederick William Faber", "F.W. Faber", "Father Faber"]
 tags: ["#era-19th-century", "#origin-english", "#tradition-catholic", "#key-figure", "#theme-devotion", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[John_B_Dykes]]", "[[Oxford_Movement]]"]
 status: draft
 confidence: high
@@ -55,6 +55,11 @@ On **"O Paradise! O Paradise"**, Duffield calls it "one of the very loveliest th
 On **"There's a Wideness in God's Mercy"**, Duffield provides the source: the hymn is taken from Faber's poem entitled "Come to Jesus," which runs to thirteen stanzas — the familiar hymn being a selection from a longer meditation on divine mercy.
 
 Duffield is careful to note Faber's textual methods: "Oh, See How Jesus Trusts Himself" is taken from "True Love," a poem of twenty-three stanzas — with Duffield noting that the later portion of the poem "runs into sentimentality and mawkishness," a frank critical judgment that illustrates both Faber's gift and its limit. The 10 entries collectively show a poet capable of extraordinary concentrated beauty who was not equally in command of the longer form.
+
+### From Lorenz (1938)
+
+Lorenz treats Faber (1814--1863) in Chapter XVII as another disciple of Cardinal Newman who followed him into the Roman Catholic Church. He describes Faber as "a poet by the grace of God, a devout Christian, a man of intense convictions, but somewhat temperamental and impulsive." Among his many good hymns Lorenz lists: "My God, how wonderful thou art," "There's a wideness in God's mercy," "O Paradise! O Paradise," "Hark, hark, my soul! angelic songs are swelling," and "Faith of our fathers! living still." Lorenz notes pointedly that the last hymn "refers to the faith of the Roman Catholic saints and that the hymn had to be cleansed of its Mariolatry before being used in our Protestant hymnals." Nevertheless, in its present form Lorenz judges it "a very impressive and valuable hymn that has been redeemed from the propagandist vagary of its original writer."
+
 
 ## Hymns in The Christian Hymn Book
 

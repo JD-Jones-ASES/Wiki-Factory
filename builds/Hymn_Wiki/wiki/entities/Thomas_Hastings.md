@@ -5,7 +5,7 @@ aliases: ["Thomas Hastings"]
 tags: ["#era-19th-century", "#origin-american", "#tradition-presbyterian", "#key-figure", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]", "[[The_Singing_Church]]"]
 related: ["[[American_Hymnody]]", "[[Augustus_Toplady]]", "[[Ray_Palmer]]"]
 status: draft
 confidence: high
@@ -93,6 +93,11 @@ They also chronicle his role as the editor who transformed Thomas Moore's poem "
 Hastings's tune "Zion" (composed in Washington, CT, 1830) is noted as the standard musical companion for William Williams's Welsh missionary hymn "O'er the Gloomy Hills of Darkness," and his tune "Halle" for Keble's "Sun of My Soul" was superseded by William Henry Monk's "Hursley." His "Ortonville" (also 1830) has served as the companion melody for dozens of hymns across more than a century.
 
 See also: [[American_Hymnody]], [[Augustus_Toplady]], [[Ray_Palmer]]
+
+### From Lorenz (1938)
+
+Lorenz discusses Thomas Hastings in Chapter XVIII as an important figure in the development of American hymnody. Together with Lowell Mason, Hastings edited tune books and then began issuing the twelve-part *Spiritual Songs for Social Worship* (1832), which Lorenz calls "more nearly the archetype of the future *Gospel Hymns*." In this collection appeared Hastings's hymns "Hail to the brightness of Zion's glad morning," "Gently, Lord, O gently lead us," "How calm and beautiful the morn," and "Child of sin and sorrow," as well as his enlargement of Thomas Moore's "Come, ye disconsolate." Combined with his tunes "Ortonville," "Retreat," "Zion," and "Toplady," and additional hymns including "Return, O wanderer" and "Delay not, delay not, O sinner, draw near," Lorenz concludes that "Thomas Hastings, even if he is not in the first rank as hymnist or composer, deserves well of the Christian Church."
+
 
 ## Hymns in The Christian Hymn Book
 

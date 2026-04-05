@@ -5,7 +5,7 @@ aliases: ["Henry Francis Lyte"]
 tags: ["#era-19th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-trust", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Reginald_Heber]]", "[[Women_in_Hymnody]]"]
 status: draft
 confidence: high
@@ -93,6 +93,11 @@ Duffield also notes that in 1883, the church of Lower Brixham was rebuilt as a m
 On **"Jesus, I My Cross Have Taken"**, Duffield records that Lyte entered the ministry of the Church of England after giving up his original intention of studying medicine — a biographical detail enriching the hymn's theme of consecration.
 
 See also: [[English_Hymnody]], [[Reginald_Heber]]
+
+### From Lorenz (1938)
+
+Lorenz discusses Lyte (1793--1847) in Chapter XVII among the minor but notable hymn writers. He notes that Lyte entered the church as a profession, but was led into deep religious experience by attending the dying bed of a neighboring clergyman who had likewise treated his work merely as a livelihood. The fruit of that experience was the hymns so loved on both sides of the Atlantic. Lorenz lists as favorites "Abide with me! Fast falls the eventide," "Jesus, I my cross have taken," "As pants the hart for cooling streams," and "Praise, my soul, the King of heaven." He calls the story of Lyte's last days pathetic and describes "Abide with me" as his "swan song" --- "the finest evening hymn of the Christian church --- if it is accepted as an evening hymn."
+
 
 ## Hymns in The Christian Hymn Book
 

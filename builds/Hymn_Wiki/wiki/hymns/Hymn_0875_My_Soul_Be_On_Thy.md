@@ -5,7 +5,7 @@ aliases: ["My soul, be on thy guard;", "Watch!"]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
 related: []
 status: draft
 confidence: high
@@ -71,3 +71,8 @@ My soul, be on thy guard;
 George Heath, the author of this hymn, was long untraced and unknown. But perhaps we are uncharitable, and this was one of the fruits of true penitence ; for it was published in 1781 in his Hymns and Poetic Essays Sacred to the Worship of the Deity, which contains two hundred and forty- four hymns. 'H.Q ?Lho wvoiQ 2i History 0/ Bristol, 1797. He is now recorded as a Unitarian clergyman, educated at Exeter, England, and at first the pastor of a Presbyterian church at Honiton, Devonshire.
 
 It is a striking commentary on his hymn that its author should have failed in the very mode against which his stirring trumpet- blast ought effectually to have warned him. But perhaps we are uncharitable, and this was one of the fruits of true penitence ; for it was published in 1781 in his Hymns and Poetic Essays Sacred to the Worship of the Deity, which contains two hundred and forty- four hymns. 'H.Q ?Lho wvoiQ 2i History 0/ Bristol, 1797.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 543 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Heath. Section: "Supplement".
+

@@ -5,7 +5,7 @@ aliases: ["Lord, lead the way the Saviour went,", "Ye have the poor always with 
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -74,3 +74,8 @@ Lord, lead the way the Saviour went,
 The circumstances of his death were very affecting. The hymn in question was written for an anniversary of the Howard Benevolent Association of Boston, 1831. D., who was born at Hudson, N.
 
 Being removed to his own house, he shortly expired.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 575 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to W. Croswell. Section: "Supplement".
+

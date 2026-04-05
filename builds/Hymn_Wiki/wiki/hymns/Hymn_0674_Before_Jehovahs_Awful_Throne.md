@@ -5,7 +5,7 @@ aliases: ["Before Jehovah’s awful throne,"]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0428_There_Is_A_Land_Of]]", "[[Hymn_0808_What_Sinners_Value_I_Resign]]"]
 status: draft
 confidence: high
@@ -91,3 +91,8 @@ A notable incident in connection with the history of the hymn was its use at the
 ### From Nutter & Tillett (1911)
 
 unaltered from the beginning except that "must" in the third line has been changed to "shall.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 18 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Watts. Section: "Public Worship".
+

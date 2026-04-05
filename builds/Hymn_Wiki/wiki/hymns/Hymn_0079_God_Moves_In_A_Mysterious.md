@@ -5,7 +5,7 @@ aliases: ["God moves in a mysterious way", "Thy judgments are a great deep."]
 tags: ["#meter-common", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[William_Cowper]]", "[[18th_Century_Hymnody]]", "[[Hymn_0413_Honor_And_Happiness_Unite]]", "[[Hymn_0827_To_Jesus_The_Crown_Of]]", "[[Hymn_0985_Far_From_The_World_O]]"]
 status: draft
 confidence: high
@@ -84,3 +84,8 @@ God moves in a mysterious way
 This, which has been called the greatest hymn ever written on the subject of divine Providence, owes much of its power to the circumstances which gave it birth. He composed a few indifferent Sunday-school verses later than this period, but they deserve no approbation. It was composed by Cowper " in the twilight of departing reason," and during a solitary walk.
 
 So says one account, but the better and more correct version of the incident is slightly different, though not inconsistent with this statement. I could not sing the Lord's song, were it to save my life !" Before the facts of Cowper's personal history were known, and somewhere in the year 18 10, josiah Conder had penetrated the secret of the hymns.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 259 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Cowper. Section: "The Christian Character".
+

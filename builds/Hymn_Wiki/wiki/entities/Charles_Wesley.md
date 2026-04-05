@@ -5,7 +5,7 @@ aliases: ["Sweet Bard of Methodism", "Charles Wesley"]
 tags: ["#era-18th-century", "#origin-english", "#tradition-methodist", "#key-figure", "#theme-praise", "#theme-devotion", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Methodist_Hymnody]]", "[[Isaac_Watts]]", "[[John_Newton]]"]
 status: draft
 confidence: high
@@ -109,6 +109,13 @@ On **"A Charge to Keep I Have"** (Short Scripture Hymns, 1762, No. 188), Duffiel
 Duffield observes that Charles's work was "mainly original," while John Wesley rendered some forty German hymns and "wrote very little otherwise" — a useful distinction in assessing the brothers' respective contributions.
 
 See also: [[English_Hymnody]], [[Methodist_Hymnody]], [[Isaac_Watts]], [[Augustus_Toplady]]
+
+### From Lorenz (1938)
+
+Lorenz treats Charles Wesley extensively in Chapter XVI, characterizing him as the subjective, emotional counterpart to the objective, reverential Watts. Born at Epworth in 1707, Charles inherited "a double portion of the Wesley poetic temperament" combined with his mother Susanna's mental energy. When he "got religion," his religion made him sing --- rejoicing produced "O for a thousand tongues to sing," trials produced hymns of prayer, riots produced hymns of steadfastness. Lorenz defends Wesley's prodigious output against critics who complained he wrote too much: "As well scold the mockingbird for being so prodigal of its notes."
+
+Lorenz draws a sustained contrast between Watts and Wesley: Watts viewed the sovereignty of God objectively from the Old Testament standpoint; Wesley "felt the facts of salvation as actual experiences" from the New Testament standpoint. Watts gives dignity and majesty in hymns on God's attributes; Wesley fills "the sweeter, tenderer, more intimate departments of salvation" with hymns like "Jesus, Lover of my soul" and "Love divine, all loves excelling." Lorenz judges Wesley superior in quantity, poetic grace, emotional range, and immediate results on people's lives --- "his hymns then and since turned multitudes unto righteousness." He notes that the Wesley brothers together formed an extraordinary team: John with masterly logical sermons and Charles with hymns "aflame with feeling," and quotes Dr. James Martineau's verdict that after the Scriptures, the Wesley Hymn Book is "the grandest instrument of popular religious culture that Christendom has produced."
+
 
 ## Hymns in The Christian Hymn Book
 

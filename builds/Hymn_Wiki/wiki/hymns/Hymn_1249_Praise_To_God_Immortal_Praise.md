@@ -5,7 +5,7 @@ aliases: ["Praise to God, immortal praise,", "The memory of thy great goodness."
 tags: ["#meter-peculiar", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -79,3 +79,8 @@ Praise to God, immortal praise,
 The original has nine stanzas, and can be found in any edition of her works. She wrote, in all, twelve hymns, of which " Awake, my soul ! lift up thine eyes." Six stanzas. Anna Laetitia Barbauld, the eminent English poetess.
 
 original has nine stanzas, and can be found in any edition of her works. | nine stanzas, and can be found in any edition of her works.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 468 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Episcopal Coll. Section: "Miscellaneous".
+

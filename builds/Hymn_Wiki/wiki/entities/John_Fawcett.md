@@ -4,8 +4,8 @@ type: entity
 aliases: ["John Fawcett", "John Fawcett D.D."]
 tags: ["#era-18th-century", "#era-19th-century", "#origin-english", "#tradition-baptist", "#key-figure", "#theme-devotion"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Lowell_Mason]]"]
 status: draft
 confidence: high
@@ -49,6 +49,11 @@ Burrage also notes that in 1793, after Dr. Caleb Evans' death, Fawcett was invit
 ## Musical and Thematic Context
 
 Butterworth-Brown describe "Blest Be the Tie That Binds" as "perhaps the best hymn-expression of sacred brotherhood," noting it "has had, and still has the endorsement of constant use." The tunes "Boylston" by [[Lowell_Mason]] and "Dennis," adapted by Mason from Johann Georg Nägeli, are the two most familiar settings. "Dennis" is described as "a soft and smoothly modulated harmony" that carries the deep feeling of sacred brotherhood with all its notes in sympathy.
+
+### From Lorenz (1938)
+
+Lorenz treats John Fawcett briefly in Chapter XVI among Baptist hymn writers of the Wesley era. He notes that Fawcett issued 166 hymns, three of which are standards: "How precious is the book divine," "Lord, dismiss us with Thy blessing," and "Blest be the tie that binds." Besides a heavy pastorate at Wainsgate (with a salary of less than two hundred dollars), he did a great amount of literary work. Lorenz observes that "Blest be the tie that binds" has "done more for Christian unity than all arguments and commissions."
+
 
 ## Hymns in The Christian Hymn Book
 

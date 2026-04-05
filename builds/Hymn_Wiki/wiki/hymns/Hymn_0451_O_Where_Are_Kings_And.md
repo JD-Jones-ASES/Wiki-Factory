@@ -5,7 +5,7 @@ aliases: ["O where are kings and empires now,", "His kingdom is everlasting. Dan
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Hymn_0144_How_Beauteous_Were_The_Marks]]", "[[Hymn_1277_We_Are_Living_We_Are]]"]
 status: draft
 confidence: high
@@ -71,3 +71,8 @@ O where are kings and empires now,
 It has ten double stanzas, and in its abridged form it has certainly, on one occasion at least, vindicated its genuine power as a sacred lyric. President Woolsey was giving the opening address. This hymn, which is found in Bishop Coxe's Christiaii Ballads, and was first printed in The Churchman in 1839, is one of his best compositions.
 
 After referring to the prevalent scepticism, he looked up with that peculiar twinkle of the eye which we all recollect — at once expressive of denial and satisfaction — and repeated the first stanza of Bishop Coxe's hymn : ' Oh, where are kings and empires now, Of old that went and came ? — But, Lord ! thy Church is praying yet, A thousand years the same !' " For a moment there was silence. Round after round continued, until the storm of applause ended in a burst of grateful tears.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 588 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to A. C. Coxe. Section: "Supplement".
+

@@ -5,7 +5,7 @@ aliases: ["O God of Bethel, by whose hand", "God of Bethel."]
 tags: ["#meter-common", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Philip_Doddridge]]", "[[18th_Century_Hymnody]]", "[[Hymn_0188_Yes_The_Redeemer_Rose]]", "[[Hymn_0419_Thy_Spirit_Shall_Unite]]", "[[Hymn_1018_How_Gracious_And_How_Wise]]"]
 status: draft
 confidence: high
@@ -73,3 +73,8 @@ This hymn was written to follow a sermon on " Jacob's Vow," Gen. 28 : 20-22, pre
 altered form among Logan's Poems, 1781, and was also num- bered among the Scotch Paraphrases. | altered by Michael Bruce, who died in 1767.
 
 A pathetic interest attaches to these verses from their association with the story of the heroic missionary, Dr.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 68 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "Public Worship".
+

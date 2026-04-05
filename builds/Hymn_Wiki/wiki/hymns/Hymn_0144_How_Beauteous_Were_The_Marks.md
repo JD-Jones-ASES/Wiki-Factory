@@ -5,7 +5,7 @@ aliases: ["How beauteous were the marks divine,", "The meekness and gentleness o
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Hymn_0451_O_Where_Are_Kings_And]]", "[[Hymn_1277_We_Are_Living_We_Are]]"]
 status: draft
 confidence: high
@@ -88,3 +88,8 @@ While there was much of wit and of good humor on both sides, it gave a spice of 
 author wrote, "In wondrous love, oh Lamb of God;" In verse two, line one, "Oh! who like Thee, so ca'w, so bright;" and In verse three, line three, "So meek, forgiv- ing, God'Hke, high.
 
 Hymn to the Redeemer:* The original has seven eight-line stanzas. Slight changes have been made in three lines. In verse one, line four, the author wrote,
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 124 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to A. C. Coxe. Section: "Jesus Christ".
+

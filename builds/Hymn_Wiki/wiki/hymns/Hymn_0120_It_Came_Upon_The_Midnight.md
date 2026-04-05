@@ -5,7 +5,7 @@ aliases: ["It came upon the midnight clear,"]
 tags: ["#meter-common-double", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: []
 status: draft
 confidence: high
@@ -96,3 +96,8 @@ It came upon the midnight clear,
 Morrison, of ]Milton, wrote to Dr. If " My faith looks up to thee" can claim to be the most spirit- ual, and " Stand up, stand up for Jesus," the most stirring of the greater American hymns, this may surely be classed as the most lovely. Wedded to its appropriate tune — W.
 
 In 1865 he removed to Weston, near Concord, to be the minister of the Unitarian church at that place.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 131 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "Jesus Christ".
+

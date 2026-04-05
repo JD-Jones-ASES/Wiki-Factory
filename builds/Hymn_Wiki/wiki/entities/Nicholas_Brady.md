@@ -4,8 +4,8 @@ type: entity
 aliases: ["Nicholas Brady", "Rev. Nicholas Brady"]
 tags: ["#era-post-reformation", "#era-18th-century", "#origin-irish", "#tradition-anglican"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[Nahum_Tate]]", "[[English_Hymnody]]"]
 status: draft
 confidence: high
@@ -28,6 +28,11 @@ Brady's lasting contribution to Christian worship came through his partnership w
 ## Musical and Thematic Context
 
 The "Tate and Brady" Psalter represented an effort to give the Church of England a more polished and singable metrical psalter than the older "Sternhold and Hopkins" version that had been in use since the Reformation. Though the "New Version" was eventually overshadowed by the rise of the Watts-and-Wesley hymnic tradition, it remained an authorized text well into the eighteenth century, and the *Methodist Hymnal* preserves its memory in its collection of doxologies, crediting "Tate and Brady" for one of the ten doxologies listed.
+
+### From Lorenz (1938)
+
+Lorenz discusses Brady as the co-author, with Nahum Tate, of the "New Version" of the metrical Psalms (1696). He describes Brady as having "a rather varied clerical career in Ireland and in England, becoming chaplain to King William," which partly explains why the version received royal endorsement and gradually replaced Sternhold and Hopkins. Lorenz notes that the Nonconformist churches remained faithful to the "Old Version" and Rous' version, while the Established Church adopted the "New Version." Montgomery's comparative judgment is quoted: the New Version is "nearly as inanimate as the former, though a little more refined."
+
 
 ## Hymns in The Christian Hymn Book
 

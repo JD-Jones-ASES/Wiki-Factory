@@ -5,7 +5,7 @@ aliases: ["O thou! who, in the olive shade,", "Out of the depths."]
 tags: ["#meter-common", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Hymns_of_Consolation]]", "[[Hymn_0165_He_Knelt_The_Saviour_Knelt]]", "[[Hymn_1049_No_Bitter_Tears_For_Thee]]", "[[Hymn_1158_I_Hear_Thee_Speak_Of]]"]
 status: stub
 confidence: high
@@ -70,3 +70,8 @@ O thou! who, in the olive shade,
 ## Historical Context
 
 *No individual historical commentary found in available sources. See author and concept pages for broader context.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 140 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Whittier. Section: "Remembrance of Christ".
+

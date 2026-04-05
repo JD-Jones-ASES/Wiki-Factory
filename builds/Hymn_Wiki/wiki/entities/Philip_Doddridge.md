@@ -5,7 +5,7 @@ aliases: ["Philip Doddridge"]
 tags: ["#era-18th-century", "#origin-english", "#tradition-congregational", "#key-figure", "#theme-devotion", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Isaac_Watts]]", "[[Olney_Hymns]]"]
 status: draft
 confidence: high
@@ -94,6 +94,11 @@ On **"My Father, God! How Sweet the Sound"**, Duffield offers his general assess
 Duffield also records the story of "My God, and Is Thy Table Spread": a woman who caught the lines "My God, and is thy table spread" during a service "was greatly moved by them and wept bitterly" — pointing to the peculiar power of Doddridge's eucharistic verse.
 
 See also: [[English_Hymnody]], [[Isaac_Watts]], [[Olney_Hymns]]
+
+### From Lorenz (1938)
+
+Lorenz discusses Doddridge in Chapter XV as a close friend of Watts though nearly thirty years younger. He wrote 375 hymns, most of them as pendants to sermons, recapitulating and enforcing the points of his discourse. None was published until four years after his death. Lorenz notes that Doddridge's fine character and high ability endeared him to many prominent people of his day, and his lyrics were immediately recognized for their "devoutness, literary grace, and adaptation to actual use." Their distinctly homiletical character, combined with deep religious feeling and tenderness, greatly appealed to ministers, and they were recognized as second only to Watts. Lorenz illustrates Doddridge's relative standing by citing Dr. Benson's *Revised Presbyterian Hymnal*: Watts 49 hymns, Charles Wesley 24, Doddridge 13.
+
 
 ## Hymns in The Christian Hymn Book
 

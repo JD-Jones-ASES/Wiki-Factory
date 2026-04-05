@@ -5,7 +5,7 @@ aliases: ["From the recesses of a lowly spirit,", "Prayer of the contrite."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Sir_John_Bowring]]", "[[Hymn_0054_The_Heavenly_Spheres_To_Thee]]", "[[Hymn_0141_How_Sweetly_Flowed_The_Gospel]]", "[[Hymn_0695_The_Offerings_To_Thy_Throne]]"]
 status: draft
 confidence: high
@@ -69,3 +69,8 @@ From the recesses of a lowly spirit,
 ### From Duffield (1886)
 
 Sir John Bowring's verses have occasionally been re- garded as composed by a " Unitarian," and consequently placed under the ban of some compilers. This chant, dated in 1823, is another striking instance of the power of hymns to free themselves from all association with their l62 ENGLISH HYMNS. authors. But such an admirable strain as this, and such a triumphant song as "In the Cross of Christ I glory," and such a significant lyric as " Watchman, tell us of the night," could not be repressed by any narrow code.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 489 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Bowring. Section: "Supplement".
+

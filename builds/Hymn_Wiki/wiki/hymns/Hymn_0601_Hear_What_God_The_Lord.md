@@ -5,7 +5,7 @@ aliases: ["Hear what God, the Lord, hath spoken:", "Future peace and glory of th
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[William_Cowper]]", "[[18th_Century_Hymnody]]", "[[Hymn_0253_There_Is_A_Fountain_Filled]]", "[[Hymn_0827_To_Jesus_The_Crown_Of]]", "[[Hymn_0985_Far_From_The_World_O]]"]
 status: draft
 confidence: high
@@ -80,3 +80,8 @@ Cowper would not be offended, he could point out lines that might easily be much
 ### From Nutter & Tillett (1911)
 
 Title: "The Future Peace and Glory of the Church** It is founded upon Isaiah Ix. 18-20: Violence shall no more be heard In thy land, wasting nor destruction within thy bor- ders; but thou Shalt call thy walls Salvation, and thy gates Praise. The sun shall be no more thy light by day; neither for brightness shall the moon grlve light unto thee: but the Lord shall be unto thee an everlasting light, and thy God thy glory. Thy sun shall no more go down; neither shall thy moon with- draw itself: for the Lord shall be thine ever- lasting light, and the days of thy mourning shall be ended.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 192 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Cowper. Section: "Christianity and the Kingdom of Heaven".
+

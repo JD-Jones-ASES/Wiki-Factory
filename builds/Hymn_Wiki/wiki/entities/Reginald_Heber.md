@@ -5,7 +5,7 @@ aliases: ["Reginald Heber"]
 tags: ["#era-19th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-praise", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Henry_Francis_Lyte]]"]
 status: draft
 confidence: high
@@ -82,6 +82,13 @@ On **"Thou Art Gone to the Grave"**, Duffield gives a precise circumstance: it w
 On **"Lord of Mercy and of Might"**, Duffield records the remarkable manner of Heber's death — that his servant, finding him unusually delayed, opened the door and found him dead. The hymn is noted as possibly a translation from a Latin hymn of the eighth century.
 
 See also: [[English_Hymnody]], [[Henry_Francis_Lyte]], [[Lowell_Mason]]
+
+### From Lorenz (1938)
+
+Lorenz gives Heber significant attention in Chapter XVII as a pioneer of the literary singing hymn. As early as 1809 Heber was considering hymns for his parish church. He proposed a collection that should be "a collection of sacred poetry" and sought help from Sir Walter Scott and Robert Southey, but only Henry Hart Milman responded. After Heber's death in India in 1826, his widow published the manuscript in 1827 containing fifty-seven hymns by Heber and twelve by Milman. Lorenz calls it, with due regard to its size, "probably the richest contribution ever made to Christian hymnody."
+
+Lorenz emphasizes that Heber's hymns were distinctly literary --- poetically conceived with varied rhythms and stanza forms --- yet did not transgress the limitations of the singing hymn as earlier literary men had done. Their enduring power, however, came not from literary beauty alone but from "their deep spirituality, their lucid expression of Christian truth, transmuted by intense conviction and personal experience into a personal appeal that was abiding." After a century, Lorenz notes, Heber's hymns were still in current use and "inevitable in every hymnal," citing "From Greenland's icy mountains," "Holy, holy, holy," "The Son of God goes forth to war," and others. Lorenz credits the literary quality of Heber and his school with winning "the final victory of the hymn over the metrical psalm in the Church of England."
+
 
 ## Hymns in The Christian Hymn Book
 

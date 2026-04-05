@@ -5,7 +5,7 @@ aliases: ["Come, we that love the Lord,", "Come, we that love the Lord."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0428_There_Is_A_Land_Of]]", "[[Hymn_0808_What_Sinners_Value_I_Resign]]"]
 status: draft
 confidence: high
@@ -87,3 +87,8 @@ There was once a difficulty in Rev. That rides upon the stormy sky And manages t
 ### From Nutter & Tillett (1911)
 
 author wrote in the first line "we" in- stead of "ye;" in the second line "our" instead of "your;" and in the fourth line "And thus" instead of "While ye," and "the" instead of "his.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 3 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Watts (modified by compilers). Section: "Public Worship".
+

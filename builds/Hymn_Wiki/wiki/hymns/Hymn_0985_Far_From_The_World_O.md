@@ -5,7 +5,7 @@ aliases: ["Far from the world, O Lord, I flee,", "Communion with God in retireme
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[William_Cowper]]", "[[18th_Century_Hymnody]]", "[[Hymn_0253_There_Is_A_Fountain_Filled]]", "[[Hymn_0601_Hear_What_God_The_Lord]]", "[[Hymn_0943_O_For_A_Closer_Walk]]"]
 status: draft
 confidence: high
@@ -81,3 +81,8 @@ Far from the world, O Lord, I flee,
 It is the story of his con- version, which he commences in these words : " The happy period which was to shake off my fetters and afford me a clear opening to the free mercy of God in Jesus Christ was now arrived." This hymn, and its companion lyric, " How blest thy creature is, O God," belong to this period of his religious experience. The poll was open, according to the English custom, for fifteen days. The poet's language in his journal is quite as fine as this hymn itself, for it shows us one of those periods of " clear shining" which Avere so rare in his troubled life.
 
 It is the story of his con- version, which he commences in these words : " The happy period which was to shake off my fetters and afford me a clear opening to the free mercy of God in Jesus Christ was now arrived." This hymn, and its companion lyric, " How blest thy creature is, O God," belong to this period of his religious experience.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 94 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Cowper. Section: "God".
+

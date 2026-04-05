@@ -5,7 +5,7 @@ aliases: ["William Cowper"]
 tags: ["#era-18th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-trust", "#theme-suffering", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[John_Newton]]", "[[Olney_Hymns]]"]
 status: draft
 confidence: high
@@ -109,6 +109,13 @@ On **"The Spirit Breathes upon the Word"**, Duffield dates the inspiration to Ju
 Duffield's treatment of Cowper is consistently sympathetic, presenting him as a man whose hymns rose above his private anguish to speak universal Christian experience — a judgment still shared by all students of the field.
 
 See also: [[English_Hymnody]], [[John_Newton]], [[Olney_Hymns]]
+
+### From Lorenz (1938)
+
+Lorenz discusses Cowper in Chapter XVI as Newton's famous co-worker on the *Olney Hymns*. Born in 1731, the son of one of George II's chaplains, Cowper was frail and shy, suffering a "very painful experience among the boys of the Westminster School" over ten years that Lorenz believes contributed to his later mental affliction. At thirty-six he moved to Olney, where Newton became his close friend, protector, and leader in hymn-writing. He contributed his hymns for the cottage prayer meetings that were a feature of Newton's work.
+
+Lorenz observes that while Cowper's secular literary work shows no trace of melancholia --- being cheerful and even humorous --- his hymns frequently reveal it, notably "God moves in a mysterious way" and "O for a closer walk with God." Lorenz attributes part of this to Newton's habit of introspection and the obscurity of the occasions for which Cowper wrote, giving him "a sense of freedom in expressing his deeper, subconscious experience." Lorenz notes Cowper was "an exceedingly spiritual-minded man" of whom it was said, "Of all the men I ever heard pray, none equaled Mr. Cowper." He had a vivid conversion experience during which he reported being "too happy to sleep much." Lorenz calls Cowper's literary work preliminary studies for his later secular poetry, done after age fifty. His hymns --- "God moves in a mysterious way," "O for a closer walk with God," "Sometimes a light surprises," "There is a fountain filled with blood" --- Lorenz declares "will all survive as long as devout hearts meditate and sing."
+
 
 ## Hymns in The Christian Hymn Book
 

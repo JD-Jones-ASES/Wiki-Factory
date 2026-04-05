@@ -5,7 +5,7 @@ aliases: ["Quiet, Lord, my froward heart,", "As a weaned child."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[John_Newton]]", "[[18th_Century_Hymnody]]", "[[Hymn_0192_Mary_To_The_Saviours_Tomb]]", "[[Hymn_0552_Where_Two_Or_Three_With]]", "[[Hymn_0855_By_Faith_In_Christ_I]]"]
 status: draft
 confidence: high
@@ -75,3 +75,8 @@ Quiet, Lord, my froward heart,
 When the sons of God shall prove All their Father's boundless love." Two Scriptures are appended — Ps. 131:2 and Matt. 18 : 3, 4 — and the title is, " The Child." It was during the latter years of Mr. Hill's Colleclion 0/ Hyinns for Children, 1819 ; by which date it is plain that he had not yet repented. This exquisite hymn, admirable alike in thought and expression, is found in nearly all our American books.
 
 altered in a single word. | omitted — and properly, for it is an anti-climax : " Thus preserved from Satan's wiles, Safe from dangers, free from fears.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 234 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Newton (modified by compilers). Section: "The Christian Character".
+

@@ -4,8 +4,8 @@ type: entity
 aliases: ["Tersteegen"]
 tags: ["#era-18th-century", "#origin-german", "#tradition-calvinist", "#key-figure", "#theme-devotion", "#theme-trust", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[Joachim_Neander]]", "[[Pietism]]", "[[Count_Nikolaus_von_Zinzendorf]]", "[[Paul_Gerhardt]]"]
 status: draft
 confidence: high
@@ -85,6 +85,11 @@ Tersteegen was born in 1697 in the town of Mors in Westphalia, left an orphan by
 The translation typically used in English hymnbooks is by Jane Borthwick, born in Edinburgh in 1813, who with her sister Mrs. Findlater jointly published *Hymns From the Land of Luther* (1854). There is also a more euphonious but less literal translation with "feminine" rhymes ("God calling yet! and shall I never hearken? / But still earth's witcheries my spirit darken") which Butterworth-Brown note is "less easily fitted to music not specially composed for it."
 
 For the tune, Butterworth-Brown compare the two standard companions with characteristic precision. Dykes's "Rivaulx" is "a sober choral that articulates the hymn-writer's sentiment with sincerity and with considerable earnestness, but breathes too faintly the interrogative and expostulary tone of the lines." Their preference is [[Henry_Kemble_Oliver]]'s "Federal Street" — "to voice the devout solicitude and self-remonstrance of the hymn there is no tune superior." The full story of how "Federal Street" was composed (while Oliver was reading Anna Steele's verse at age thirty-one) is told in the *Henry Kemble Oliver* entity; notably the tune was published by Lowell Mason, named for the street in Salem where Oliver's wife was born and married, and was "sung at her burial." At the great Peace Jubilee in Boston (1872), Oliver himself — then in old age — conducted a chorus of ten thousand voices singing his tune.
+
+### From Lorenz (1938)
+
+Lorenz discusses Tersteegen in Chapter XII among the Pietistic hymn writers, noting he was less immediately connected with the Pietistic movement but influenced by it. Lorenz identifies Tersteegen as "a mystic" from Westphalia who was highly appreciated by [[John_Wesley]], who translated his "God calling yet! shall I not hear?" Other hymns Lorenz cites in translation are "Lo! God is here; let us adore" and "Something every heart is loving." He quotes Lord Selborne's striking assessment: Tersteegen was "of all the more copious German hymn writers after Luther, perhaps the most remarkable man, pietist, mystic, and missionary, he was also a great religious poet." Lorenz notes that Tersteegen was a layman, which makes his religious life "all the more remarkable," and that he leaned toward the German Reformed Church, though not officially connected with it.
+
 
 ## Hymns in The Christian Hymn Book
 

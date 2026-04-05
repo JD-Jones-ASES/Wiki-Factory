@@ -4,8 +4,8 @@ type: entity
 aliases: ["Bishop Ken", "Thomas Ken"]
 tags: ["#era-post-reformation", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_English_Hymn]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_English_Hymn]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Theodulph_of_Orleans]]"]
 status: draft
 confidence: high
@@ -46,6 +46,11 @@ Benson's *The English Hymn* (1915) places Ken in the opening chapter of the inst
 Ken's significance for Benson is institutional as well as individual. He wrote at the moment when the Church of England was most firmly committed to Psalms-only worship, and his hymns — circulated privately through the Winchester College community rather than imposed on a congregation — represent the earliest flowering of distinctively Anglican sacred verse. The Doxology, in Benson's account, became the most widely used single piece of congregational song in all of English Protestantism, bridging denominations that agreed on almost nothing else.
 
 Benson also notes Ken's appearance in the story of Reginald Heber's proposed hymnal for the Church of England in the 1820s. Heber, seeking precedents for his project of providing the Anglican church with a proper hymnal, looked back to Ken as evidence that original hymns were not foreign to the Anglican tradition. Ken's Morning and Evening Hymns — by then over a century old — served as the earliest examples Heber could cite of authoritative Anglican sacred verse.
+
+
+### From Lorenz (1938)
+
+Lorenz places Bishop Thomas Ken (1637--1711) in Chapter XIV as a crucial figure in the development of the English congregational hymn. Closely allied to the Herbert school of religious lyrics, Ken had the advantage of belonging to a later generation in which the conception of the congregational hymn had begun to crystallize. Lorenz praises Ken's Morning and Evening Hymns as "both simple in structure --- in Ambrose's iambic long meter --- free from affectations and bizarre rhetoric, easily comprehensible, and devout and spiritual," accepted "as among the best hymns in the language." Of Ken's famous doxology, Lorenz writes: it "has been sung more frequently and with greater elevation of mind and heart than any other four lines in all earth's literature." He declares that with Ken, "English hymnody had at last found its voice, its spirit, and its model," establishing it as "a distinct department of English lyrical poetry."
 
 
 ## Hymns in The Christian Hymn Book

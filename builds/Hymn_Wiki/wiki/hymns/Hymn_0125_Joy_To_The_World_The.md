@@ -5,7 +5,7 @@ aliases: ["Joy to the world; the Lord is come!", "Joy to the world."]
 tags: ["#meter-common", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
 related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0434_Since_I_Can_Read_My]]", "[[Hymn_0808_What_Sinners_Value_I_Resign]]"]
 status: draft
 confidence: high
@@ -77,6 +77,11 @@ Joy to the world; the Lord is come!
 **Watts and the reform of congregational singing:** This hymn is a small piece of a much larger project. When [[Isaac Watts]] published his psalm paraphrases, he was deliberately breaking from the tradition that allowed only direct scriptural text in worship. His innovation --- reading the Psalms through the lens of the New Testament --- transformed English Protestant worship and laid the foundation for all subsequent English hymnody.
 
 *Duffield (1886) notes the text is Watts's "second part" paraphrase in Common Meter, titled "The Messiah's Coming and Kingdom," with four stanzas.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 110 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Watts. Section: "Jesus Christ".
+
 
 ## Listen
 

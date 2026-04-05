@@ -4,8 +4,8 @@ type: entity
 aliases: ["Ray Palmer"]
 tags: ["#era-19th-century", "#origin-american", "#tradition-congregational", "#key-figure", "#theme-devotion", "#theme-trust", "#theme-grace"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_Our_Hymns]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Singing_Church]]"]
 related: ["[[American_Hymnody]]", "[[Thomas_Hastings]]", "[[Samuel_Francis_Smith]]"]
 status: draft
 confidence: high
@@ -89,6 +89,11 @@ He died in 1887.
 Ray Palmer is the poet of personal devotion in American hymnody. He wrote not for congregations but for the note-book in his pocket, and God took his private prayer and gave it to the world. "My faith looks up to Thee" is American hymnody's finest hour.
 
 See also: [[American_Hymnody]], [[Thomas_Hastings]], [[Samuel_Francis_Smith]]
+
+### From Lorenz (1938)
+
+Lorenz gives Ray Palmer (1808--1887) significant attention in Chapter XVIII on American hymnody. He recounts the famous street encounter: Lowell Mason asked Palmer for a hymn for his forthcoming collection; Palmer produced verses from his pocketbook; days later Mason declared with great earnestness: "Mr. Palmer, you may live many years and do many good things, but I think you will be best known to posterity as the author of 'My faith looks up to Thee!'" Lorenz notes the hymn was a personal prayer never intended to be sung, which is precisely why it became universally personal. Palmer was far more than the author of a single hymn: Lorenz lists "Jesus, these eyes have never seen," "Come, Jesus, Redeemer, abide Thou with me," and his highly esteemed translation "Jesus, Thou joy of loving hearts" (from the Latin "Jesu, dulcis memoria"). In his dying hour Palmer was heard repeating the last stanza of "Jesus, these eyes have never seen."
+
 
 ## Hymns in The Christian Hymn Book
 

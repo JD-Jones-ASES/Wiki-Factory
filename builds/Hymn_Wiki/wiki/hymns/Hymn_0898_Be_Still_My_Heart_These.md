@@ -5,7 +5,7 @@ aliases: ["Be still, my heart! these anxious cares,", "Submissiveness."]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[John_Newton]]", "[[18th_Century_Hymnody]]", "[[Hymn_0192_Mary_To_The_Saviours_Tomb]]", "[[Hymn_0552_Where_Two_Or_Three_With]]", "[[Hymn_0855_By_Faith_In_Christ_I]]"]
 status: draft
 confidence: high
@@ -71,3 +71,8 @@ Be still, my heart! these anxious cares,
 One night the children cried for bread, and Mrs. With the title, ' ' Why art thou cast down T ' and in seven stanzas, this hymn is found in the 0/ney Hymns, Book HI., No. 40. Andrew Duncan, minister of Craill, in Fifeshire, was imprisoned in Blackness Castle by order of James VI., and after- ward banished from the kingdom.
 
 seven stanzas, this hymn is found in the 0/ney Hymns, Book HI.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 323 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Newton. Section: "The Christian Life".
+

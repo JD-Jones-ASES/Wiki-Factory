@@ -5,7 +5,7 @@ aliases: ["Father of mercies! God of love!", "The God of my life."]
 tags: ["#meter-common", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Hymn_0563_Thou_Art_My_Hidingplace_O]]", "[[Hymn_0679_Blest_Hour_When_Mortal_Man]]", "[[Hymn_1138_High_In_Yonder_Realms_Of]]"]
 status: stub
 confidence: high
@@ -72,3 +72,8 @@ Father of mercies! God of love!
 ## Historical Context
 
 *No individual historical commentary found in available sources. See author and concept pages for broader context.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 567 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "Supplement".
+

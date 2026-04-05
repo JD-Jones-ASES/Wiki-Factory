@@ -4,8 +4,8 @@ type: entity
 aliases: ["John Damascene", "St. John of Damascus"]
 tags: ["#era-medieval", "#origin-greek", "#tradition-catholic", "#key-figure", "#theme-easter", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_Our_Hymns]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Singing_Church]]"]
 related: ["[[Greek_and_Syriac_Hymnody]]", "[[Stephen_the_Sabaite]]", "[[John_Mason_Neale]]"]
 status: draft
 confidence: high
@@ -53,3 +53,8 @@ John of Damascus stands at the end of the great era of Greek hymnody. After him,
 His significance is also tied to [[John_Mason_Neale]], the great Victorian translator who rescued John's hymns --- and those of many other early Greek writers --- from Latin scholarly editions and gave them to English-speaking congregations. Without Neale, few modern worshipers would know the name John of Damascus. With Neale, his Easter hymns are sung every spring around the world.
 
 See also: [[Greek_and_Syriac_Hymnody]], [[Stephen_the_Sabaite]], [[John_Mason_Neale]], [[Early_Christian_Hymnody]]
+
+### From Lorenz (1938)
+
+Lorenz discusses John of Damascus (d. 780) in Chapter IX among the later Greek hymn writers. He notes that John "wrote the best Greek of his generation and was most poetical in spirit and style," and that the historian Gibbon calls him "the last of the Greek Fathers." Lorenz observes that John's verse is characterized by being written in iambics --- the most common measure in modern hymns. His best-known hymn is "'Tis the day of resurrection," taken from his great Easter canon, which the Greek Church styled the "Queen of Canons" and "Golden Canon." John was one of three hymn writers who were monks at the monastery of San Saba, visible from the highway between Jerusalem and Jericho on the rugged heights overlooking the Jordan valley. His foster-brother Cosmas and nephew Stephen the Sabaite completed this "nest of singing birds."
+

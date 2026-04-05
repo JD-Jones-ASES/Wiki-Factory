@@ -5,7 +5,7 @@ aliases: ["Our pathway oft is wet with tears,", "At evening there shall be light
 tags: ["#meter-common-double", "#theme-children"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Sunday_School_Hymns]]", "[[Hymn_0016_Lamp_Of_Our_Feet_Whereby]]", "[[Hymn_0349_Around_Bethesdas_Healing_Wave]]"]
 status: stub
 confidence: high
@@ -74,3 +74,8 @@ Our pathway oft is wet with tears,
 ## Historical Context
 
 *No individual historical commentary found in available sources. See author and concept pages for broader context.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 331 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Barton (modified by compilers). Section: "The Christian Life".
+

@@ -5,7 +5,7 @@ aliases: ["God that madest earth and heaven,", "Evening aspiration."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymn_0678_Forth_From_The_Dark_And]]", "[[Hymn_1106_The_Lord_Will_Come_The]]", "[[Hymn_1285_From_Greenlands_Icy_Mountains]]"]
 status: draft
 confidence: high
@@ -60,3 +60,8 @@ God that madest earth and heaven,
 The piece itself is a composite production, and before we speak more particularly of its spiritual meaning, we may as well notice its origin. And here is another, from which Heber may have taken his inspiration. After spending five years he was made professor of Political Economy at Oxford ; and, a year later, 1831, he attained to the archepiscopate of Dublin.
 
 third stanza of this hymn.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 367 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Heber. Section: "Various Occasions".
+

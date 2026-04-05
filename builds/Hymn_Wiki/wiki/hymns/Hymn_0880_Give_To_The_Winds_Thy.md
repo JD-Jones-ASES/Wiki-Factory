@@ -5,7 +5,7 @@ aliases: ["Give to the winds thy fears,", "Therefore will not we fear."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Paul_Gerhardt]]", "[[Post-Reformation_Hymnody]]", "[[Hymn_0177_O_Sacred_Head_Now_Wounded]]", "[[Hymn_0799_Now_As_Long_As_Here]]"]
 status: draft
 confidence: high
@@ -85,3 +85,8 @@ A very touching incident, however, may take the place of the vanished story of t
 ### From Nutter & Tillett (1911)
 
 Still sink tliy spirits down? Cast off the weight, let fear depart. And every care be gone. 4 What though thou rulest not?
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 256 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Moravian. Section: "The Christian Character".
+

@@ -5,7 +5,7 @@ aliases: ["From Greenland’s icy mountains,", "Missionary hymn."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
 related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymn_0678_Forth_From_The_Dark_And]]", "[[Hymn_1106_The_Lord_Will_Come_The]]", "[[Hymn_1238_When_Spring_Unlocks_The_Flowers]]"]
 status: draft
 confidence: high
@@ -93,3 +93,8 @@ He gives the story of the composition of the hymn in much the same way as others
 Author's title: ^'Before a Collection Made for the Society for the Propagation of the Gospel" There are many missionary hymns, but this is universally known as the mission- ary hymn. From the author's Memoirs, edited by his widow, we learn that this hymn was composed in 1819 to be sung at a mission- ary meeting in Wrexham. Heber's father- in-law was to preach, and he requested the author to write a hymn to be sung on that occasion.
 
 universally known as the mission- ary hymn.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 416 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Heber. Section: "Various Occasions".
+

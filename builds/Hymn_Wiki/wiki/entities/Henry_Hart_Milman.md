@@ -4,8 +4,8 @@ type: entity
 aliases: ["Henry Hart Milman", "Dean Milman", "H.H. Milman"]
 tags: ["#era-19th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]"]
 status: draft
 confidence: high
@@ -39,3 +39,8 @@ Milman's Palm Sunday processional — one of the finest in the English tradition
 Butterworth-Brown note that his hymn "When Our Heads Are Bowed with Woe" "may have been written soon after he laid three of his children in one grave, in the north aisle of Westminster Abbey" — one of the most painful domestic facts in the biography of any Victorian hymn-writer. The hymn is remarkable for its restraint, which makes its grief the more audible.
 
 Milman was unusual among hymn-writers of his rank in combining literary eminence, scholarly distinction, and the highest ecclesiastical office. He represents the learned Anglican tradition at its most confident.
+
+### From Lorenz (1938)
+
+Lorenz discusses Dean Milman (1791--1868) in Chapter XVII as a collaborator of Heber's. He calls Milman "a brilliant scholar and church historian and a poet of great reputation" whose hymns are "strong, churchly, thoughtful to a high degree," but lacking the poetic charm of Heber's. Of the eleven hymns that appeared in Heber's posthumous 1827 collection, and others printed later, Lorenz judges that only the Palm Sunday hymn "Ride on, ride on in majesty" is certain to appear in every hymnal, while "When our hearts are bowed with woe" and "O help us, Lord, each hour of need" are only occasionally used.
+

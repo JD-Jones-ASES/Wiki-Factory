@@ -5,7 +5,7 @@ aliases: ["Sow in the morn thy seed;", "In the morning sow thy seed."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymn_0196_Lift_Up_Your_Heads_Ye]]", "[[Hymn_0715_Now_May_The_Lord_Our]]", "[[Hymn_1137_Who_Are_These_In_Bright]]"]
 status: draft
 confidence: high
@@ -86,3 +86,8 @@ In Montgomer)'' s Original Hymns (1853) this is Hymn 255, " The Field of the Wor
 ### From Nutter & Tillett (1911)
 
 Author's title: '*The Field of the World:' It is based upon Ecclesiastes xi. 6: "In the morning sow thy seed, and in the evening withhold not thine hand: for thou knowest not whether shall prosper, either this or that, or whether they both shall be alike good." The second and third stanzas of the original are omitted: 2 Beside all waters sow. The highway furrows stock. Drop it where thorns and thistles grow, Scatter it on the rock. 3 The good, the fruitful grround, Expect not here nor there, 0*er hill and dale, by plots 'tis found ; Go forth, then, every where.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 540 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Montgomery. Section: "Supplement".
+

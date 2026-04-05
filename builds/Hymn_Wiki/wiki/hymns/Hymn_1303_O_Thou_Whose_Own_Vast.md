@@ -5,7 +5,7 @@ aliases: ["O thou whose own vast temple stands", "In his temple we speak of his 
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Hymn_0256_O_North_With_All_Thy]]", "[[Hymn_0994_Deem_Not_That_They_Are]]"]
 status: draft
 confidence: high
@@ -72,3 +72,8 @@ O thou whose own vast temple stands
 ### From Duffield (1886)
 
 This hymn was written for the dedication of a church in Prince Street, New York City, which was afterward destroyed by fire. It begins, in Singers and Songs 0/ the Liberal Faith, " Thou, whose unmeasured temple stands." The changed form appears in Sewall's (Unitarian) Collection (revised edition, 1845).
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 383 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Bryant. Section: "Various Occasions".
+

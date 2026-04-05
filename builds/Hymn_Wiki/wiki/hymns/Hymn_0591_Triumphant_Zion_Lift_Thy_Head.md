@@ -5,7 +5,7 @@ aliases: ["Triumphant Zion! lift thy head", "Put on thy strength, O Zion. Isaiah
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Philip_Doddridge]]", "[[18th_Century_Hymnody]]", "[[Hymn_0184_Ye_Humble_Souls_That_Seek]]", "[[Hymn_0405_Grace_Tis_A_Charming_Sound]]", "[[Hymn_1018_How_Gracious_And_How_Wise]]"]
 status: draft
 confidence: high
@@ -71,3 +71,8 @@ Triumphant Zion! lift thy head
 Doddridge's Hymns, with the title, " The Holy City Purified and Guarded. — Isa. 52 : i, 2." It has five stanzas. Robinson's finest " settings " was made when he put, on the ring of " Anvern, " this gem of a hymn, 'TwAS on that dark, that doleful night. — Watts. Watts gives us this as Hymn i, of his Book IH., " The Lord's Supper instituted.- — i Cor. 11 : 23, etc." It has seven stanzas and has — although in the minor key — a strong hold upon the affections of the Church as a Communion hymn.
 
 As a description of the ordinance itself one may profitably contrast with it that vivid and strange conception of the last supper of Gauvain and Cimourdain in Victor Hugo's Ninety-Three. The passage cannot be quoted here, for it would not be understood apart from the story in which it is imbedded.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 178 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "Christianity and the Kingdom of Heaven".
+

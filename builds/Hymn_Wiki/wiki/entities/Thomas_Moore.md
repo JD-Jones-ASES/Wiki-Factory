@@ -4,8 +4,8 @@ type: entity
 aliases: ["Thomas Moore", "Tom Moore"]
 tags: ["#era-18th-century", "#era-19th-century", "#origin-irish", "#key-figure", "#theme-devotion"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Thomas_Hastings]]"]
 status: draft
 confidence: high
@@ -43,6 +43,11 @@ Butterworth-Brown are generous to both: "Dr. Hastings was not much of a poet, bu
 The tune is attributed to Samuel Webbe — possibly an arrangement of a German air to which Moore says he originally set the words. Butterworth-Brown invoke the principle of musical affinity: "One can scarcely conceive a happier yoking of counterparts. Try singing 'Come ye Disconsolate' to 'Rescue the Perishing,' for example, and we shall feel the impertinence of divorcing a hymn that has found its musical affinity."
 
 Moore represents the gifted secular poet who contributes to the hymnal by accident — through a single lyric that the church recognized as too good to leave outside its walls.
+
+### From Lorenz (1938)
+
+Lorenz briefly discusses Thomas Moore (1779--1852) in Chapter XVII as a somewhat unexpected figure among English hymn writers. Calling him "the author of *Lalla Rookh*," Lorenz notes that the charm of his secular verse is found also in his *Sacred Songs*, from which the "ever-useful and tender" hymn "Come, ye disconsolate" has been taken and appears in most hymnals. Less often included are "Sound the loud timbrel o'er Egypt's dark sea" and "O Thou who driest the mourner's tear." Lorenz judges Moore as "not directly associated with ecclesiastical circles and lacking in religious fervor," yet deserving "a place among distinctly literary hymn writers."
+
 
 ## Hymns in The Christian Hymn Book
 

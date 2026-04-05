@@ -5,7 +5,7 @@ aliases: ["“For ever with the Lord,”", "Ever with the Lord."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymn_0196_Lift_Up_Your_Heads_Ye]]", "[[Hymn_0715_Now_May_The_Lord_Our]]", "[[Hymn_1137_Who_Are_These_In_Bright]]"]
 status: draft
 confidence: high
@@ -85,3 +85,8 @@ This was the favorite hymn of the distinguished Christian jurist, Hugh McCalmont
 ### From Nutter & Tillett (1911)
 
 Title: *'At Home in Heaven.'' This Is no doubt the most valuable and widely used hymn that the author wrote. It is founded on 1 Thessalonians iv. 17: "Then we which are alive and remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord." The original contains twenty-two stan- zas. This hymn is made up of verses one, two, fourteen, sixteen, and seventeen, ver- batim.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 231 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Montgomery. Section: "The Christian Character".
+

@@ -5,7 +5,7 @@ aliases: ["The Lord descended from above", "Majesty of God."]
 tags: ["#meter-common", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -75,3 +75,8 @@ The Lord descended from above
 It is related of the learned Scaliger — whether father or son is not stated — that he declared he would prefer to have been the author of the second stanza of this hymn [" On Cherub and on Cherubim "] than to have written any of his own works. From Sternhold' s version of Ps. 18 this hymn is taken, com- mencing with the ninth stanza. The elder Scaliger was born 1484, and died 1558.
 
 Warton, in his History 0/ English Poetry, dis- cusses them freely.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 472 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Sternhold. Section: "Miscellaneous".
+

@@ -5,7 +5,7 @@ aliases: ["John Bunyan", "The Tinker of Bedford", "The Immortal Dreamer"]
 tags: ["#era-17th-century", "#origin-english", "#tradition-baptist", "#key-figure", "#theme-pilgrimage", "#theme-perseverance"]
 created: 2026-04-05
 updated: 2026-04-05
-source_refs: ["[[Baptist_Hymn_Writers]]"]
+source_refs: ["[[Baptist_Hymn_Writers]]", "[[The_Singing_Church]]"]
 related: ["[[Benjamin_Keach]]", "[[English_Hymnody]]", "[[Anabaptist_Hymnody]]"]
 status: draft
 confidence: high
@@ -52,3 +52,8 @@ Spurgeon's Metropolitan Tabernacle was in the direct pastoral line of the Cambri
 - [[Benjamin_Keach]] — introduced congregational hymn-singing to English Baptist churches
 - [[Robert_Robinson]] — "Come Thou Fount of Every Blessing"
 - [[English_Hymnody]] — broader context
+
+### From Lorenz (1938)
+
+Lorenz does not discuss John Bunyan individually in Part II of *The Singing Church*. While Bunyan is mentioned in the broader context of Nonconformist literary culture, Lorenz's narrative of the English hymn before Watts (Chapter XIV) focuses on the poets and versifiers who contributed directly to the development of the singing congregational hymn form.
+

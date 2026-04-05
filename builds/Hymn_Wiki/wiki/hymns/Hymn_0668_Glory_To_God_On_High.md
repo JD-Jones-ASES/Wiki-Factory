@@ -5,7 +5,7 @@ aliases: ["Glory to God on high!"]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: []
 status: draft
 confidence: high
@@ -89,3 +89,8 @@ Once he was saved from a mob by an old friend who had been with him at St. Willi
 the I Fa-ther | Al I mighty. 4 O Lord, the only begotten Son \ Jo-sus | Christ II O Lord God, Lamb of God \ Son — I of the j Father, 3S0 5 That takest &wap the | sins • of the | world II have mercy up- j on — | us. 6 Thou that takest atcay the | sins * of the | world 1 1 have mercy up- | on — j us. 7 Thou that takest away the j sins * of the | world II re- | celve our | prayer. 8 Thou that sittest at the right hand of | God the Father || have mercy up- j on — I us. 9 F'or thou only j art — j holy jj thou | on-ly I art the | Lord. 10 Thou only, O Christ with the | Ho-ly | Ghost I art most high In the | grlory • of I God the | Father.
 
 at the close, ueing followed by the benediction.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 53 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to J. Taylor. Section: "Public Worship".
+

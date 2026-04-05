@@ -5,7 +5,7 @@ aliases: ["Come, all ye saints of God,", "Worthy the Lamb."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -75,3 +75,8 @@ Come, all ye saints of God,
 Portions of it are not removed from prosaic baldness and impropriety, as, for example : " Dispatch'd from Heav'n an Angel stood, Amaz'd to find him bath'd in Blood ; As if all Heav'n had rais'd a Doubt, ' Perhaps the Lord may scarce hold out.' " Other portions are strong, original, and almost grand ; as when he speaks " Of sinners base, A harden'd Herd ; a Rebel-race That mock'd and trampled in thy Blood, And -.vanton'd with the Wounds of God." And, again, the last two stanzas : " A Love of unexampled kind That leaves all Thought so far behind ; Where Length, and Breadth, and Depth, and Height
 
 A couplet from it has been more than once effectively quoted : " Gethsemane, the Olive-Press ! (And why so call'd let Christians guess)." The italics are his own Speaking critically, this production has never attained, by any cento, to general acceptance as a hymn. Portions of it are not removed from prosaic baldness and impropriety, as, for example : " Dispatch'd from Heav'n an Angel stood, Amaz'd to find him bath'd in Blood ; As if all Heav'n had rais'd a Doubt, ' Perhaps the Lord may scarce h
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 167 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Ancient Hymns. Section: "Christianity and the Kingdom of Heaven".
+

@@ -5,7 +5,7 @@ aliases: ["Hear, Father, hear our prayer!", "Hear, Father, hear our prayer."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -79,3 +79,8 @@ Hear, Father, hear our prayer!
 ### From Duffield (1886)
 
 George ]MacDonald, the novelist and poet, was born at Huntly, Aberdeenshire, December loth, 1824, He was educated at King's College, and afterward at Highbury College, which he entered with a view to the ministry of the Congregational or Independent Church. He was placed on the civil list for a pension of £100, not long ago, and the catalogue of his works is already extensive and valuable. There being some difficulty respecting his doctrinal belief he officiated for a time and then retired, though he has al- ways preached as he has had the opportunity.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 488 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "Supplement".
+

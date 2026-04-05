@@ -5,7 +5,7 @@ aliases: ["All around us, fair with flowers,", "Life’s work."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: []
 status: stub
 confidence: high
@@ -67,3 +67,8 @@ All around us, fair with flowers,
 ## Historical Context
 
 *No individual historical commentary found in available sources. See author and concept pages for broader context.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 306 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "The Christian Life".
+

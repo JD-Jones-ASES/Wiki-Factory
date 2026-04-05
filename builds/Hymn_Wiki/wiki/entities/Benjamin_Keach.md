@@ -6,7 +6,7 @@ tags: ["#era-17th-century", "#origin-english", "#tradition-baptist", "#key-figur
 created: 2026-04-05
 updated: 2026-04-05
 
-source_refs: ["[[Baptist_Hymn_Writers]]", "[[The_English_Hymn]]"]
+source_refs: ["[[Baptist_Hymn_Writers]]", "[[The_English_Hymn]]", "[[The_Singing_Church]]"]
 related: ["[[John_Bunyan]]", "[[John_Rippon]]", "[[English_Hymnody]]", "[[Anabaptist_Hymnody]]"]
 status: draft
 confidence: high
@@ -75,3 +75,8 @@ By 1691, when Keach published *The Breach Repaired in God's Worship* — his for
 - [[Samuel_Medley]] — one of the great Baptist hymnists of the generation after Keach
 - [[Baptist_Hymnody]] — the denominational tradition Keach's courage made possible
 - [[Richard_Baxter]] — contemporary advocate for hymn-singing among the Presbyterians
+
+### From Lorenz (1938)
+
+Lorenz does not discuss Benjamin Keach individually in Part II of *The Singing Church*. Keach's contributions to the development of Baptist congregational singing predate the period covered in Lorenz's narrative of English hymnody before Watts (Chapter XIV), which focuses on the literary development of the congregational hymn form rather than the ecclesiastical battles over hymn-singing in Baptist churches.
+

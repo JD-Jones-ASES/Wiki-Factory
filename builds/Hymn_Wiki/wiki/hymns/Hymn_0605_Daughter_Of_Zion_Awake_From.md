@@ -5,7 +5,7 @@ aliases: ["Daughter of Zion, awake from thy sadness;", "Awake, awake, O Zion. Is
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -66,3 +66,8 @@ Daughter of Zion, awake from thy sadness;
 The infer- ence fairly is that the hymn is of American origin, and ought to be so identified. He has in- dexed the six hundred hymns left in manuscript by his father, and this is not among them. This piece, in the Church Psalmody, 183 1, is attributed to Fitz- gerald's Collection, 1830.
 
 attributed to Fitz- gerald's Collection, 1830.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 179 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Montgomery. Section: "Christianity and the Kingdom of Heaven".
+

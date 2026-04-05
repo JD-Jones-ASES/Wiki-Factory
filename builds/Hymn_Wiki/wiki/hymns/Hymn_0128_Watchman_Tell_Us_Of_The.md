@@ -5,7 +5,7 @@ aliases: ["Watchman, tell us of the night,", "Watchman, what of the night? Isaia
 tags: ["#meter-peculiar", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Sir_John_Bowring]]", "[[Hymn_0054_The_Heavenly_Spheres_To_Thee]]", "[[Hymn_0588_From_The_Recesses_Of_A]]", "[[Hymn_0695_The_Offerings_To_Thy_Throne]]"]
 status: draft
 confidence: high
@@ -87,3 +87,8 @@ Happer, in China, that he first knew of its employment as a hymn in 1834 or 1835
 This was first published In the author's volume of Hymns, 1825, and is based on Isaiah xxi. 11: "Watchman, what of the night?" The note of Dr. Robinson is worth quoting in full: Perhaps no piece can be found which Is more familiar to the American Churches than this hymn. The brief prediction in I.salah xxi. 11, 12, however, on wliich it Is based.
 
 one of the most obscure in the Bible.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 102 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Bowring. Section: "Jesus Christ".
+

@@ -5,7 +5,7 @@ aliases: ["O thou, from whom all goodness flows,", "O Lord, remember me."]
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -78,3 +78,8 @@ How many times in the day have I occasion to repeat the words, ' If on my face, 
 six stanzas, with the text Neh.
 
 Oh, when shall time give place to eternity !" The story of the ' ' Maiden Martyr of Scotland, ' ' drowned in the Solway, and singing this hymn to the last, is a gross anachro- nism. Gough writes as follows about his father : " During a retreat of the English army, when closely pursued by Marshal Soult, about the year 1809, my father, then about thirty years of age, was a soldier in the Fifty-second Light Infantry, He had been slightly wounded in the chest, and though his wound was not considered
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 211 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Humphries. Section: "The Christian Character".
+

@@ -5,7 +5,7 @@ aliases: ["O God, we praise thee, and confess", "Holy, holy, holy Lord."]
 tags: ["#meter-common", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -76,3 +76,8 @@ O God, we praise thee, and confess
 This hymn is a partial version of the Te Deum, for whose fuller history see the " Latin Hymn Writers and their Hymns." It is found in Tate and Brady's Supplement, 1703, and has been fre- quently assigned to Bishop John Patrick, author, in 1679, of the Century of Select Psalms. The difficulty with this designation is that the present does not closely enough resemble his version. It is now conjectured to be the work of Nahum Tate.
 
 This hymn is a partial version of the Te Deum, for whose fuller history see the " Latin Hymn Writers and their Hymns." It is found in Tate and Brady's Supplement, 1703, and has been fre- quently assigned to Bishop John Patrick, author, in 1679, of the Century of Select Psalms.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 50 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Patrick. Section: "Public Worship".
+

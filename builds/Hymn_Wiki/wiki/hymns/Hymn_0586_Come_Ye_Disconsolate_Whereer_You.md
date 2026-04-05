@@ -5,7 +5,7 @@ aliases: ["Come, ye disconsolate, where’er you languish,", "Come ye disconsola
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Thomas_Moore]]"]
 status: draft
 confidence: high
@@ -70,3 +70,8 @@ His personal history is in any work on English literature, and therefore needs n
 ### From Nutter & Tillett (1911)
 
 The first two of these stanzas are taken from Moore's Sacred Songs, 1816, from a song of three stanzas titled, ''Come, Ye Disconsolate,** the third stanza of the original being here omitted. In a volume titled Spiritual Songs, 1831, prepared and published by Thomas Hastings and Low- ell Mason, this hymn appears for the first time in the form in which it is given above. The third stanza is supposed to have been written by Thomas Hastings.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 162 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Moore. Section: "Remembrance of Christ".
+

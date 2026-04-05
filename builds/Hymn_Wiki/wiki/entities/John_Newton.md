@@ -5,7 +5,7 @@ aliases: ["Amazing Grace", "John Newton"]
 tags: ["#era-18th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-grace", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[William_Cowper]]", "[[Olney_Hymns]]"]
 status: draft
 confidence: high
@@ -101,6 +101,13 @@ Duffield observes that Newton knew the Westminster Catechism by heart and was in
 According to Duffield, the parting hymn "For a Season Called to Part" was written specifically in November 1776 when Newton was leaving Olney for London — a precise biographical date not found in other sources.
 
 See also: [[English_Hymnody]], [[William_Cowper]], [[Olney_Hymns]]
+
+### From Lorenz (1938)
+
+Lorenz treats Newton in Chapter XVI as the chief hymn writer of the Evangelical wing of the Church of England. Born in London in 1725, Newton's pious Dissenting mother died when he was seven, and he grew into a self-described "infidel and libertine, a servant of slaves in Africa." He entered the ministry of the Established Church at nearly thirty-nine, having spent eighteen years at sea. Despite his vagrant life, he came into ministry with "a rough-hewn education, and a practical and resourceful attitude of mind."
+
+At Olney, Newton found that Watts's hymns lacked the deep personal spirituality his own soul sought, while the Wesleys' hymnbooks did not express his Calvinistic attitude. His friendship with [[William_Cowper]] seemed providential, and together they produced the *Olney Hymns* --- 280 hymns by Newton and 68 by Cowper. Like Watts, Newton objected to pronounced poetic elements in hymns, seeking "perspicuity, simplicity, and ease" for "plain people." Yet Lorenz notes that Newton's genuine feeling frequently gave his hymns lyric wings, bringing them near the best of his poet-friend Cowper. Lorenz calls Newton's best hymns --- "Amazing grace," "Glorious things of thee are spoken," "How sweet the name of Jesus sounds" --- "a noble chaplet of pearls for his Lord" from the former "servant of slaves." The *Olney Hymns* had more influence on introducing hymns into Anglican services than any previous hymnbook and was quickly reprinted in America.
+
 
 ## Hymns in The Christian Hymn Book
 

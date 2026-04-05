@@ -5,7 +5,7 @@ aliases: ["Awake, our souls; away, our fears;", "I press toward the mark."]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0428_There_Is_A_Land_Of]]", "[[Hymn_0774_Thou_Art_My_Portion_O]]"]
 status: draft
 confidence: high
@@ -74,3 +74,8 @@ Awake, our souls; away, our fears;
 ### From Duffield (1886)
 
 This is No. 48 of Book I. in Dr. Watts' s hymns, with the text, Isa. 40 : 28-31, and the title, "The Christian Race." It has five stanzas.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 541 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Watts. Section: "Supplement".
+

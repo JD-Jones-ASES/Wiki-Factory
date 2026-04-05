@@ -5,7 +5,7 @@ aliases: ["Think gently of the erring one!", "Restore such a one, etc."]
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: []
 status: draft
 confidence: high
@@ -78,3 +78,8 @@ This hymn appears in Adams and Chapin's (Universalist)Z5'w«5 /or Christian Devo
 o Speak gently to the erring ones : We yet may lead them back, With holy words, and tones of love. From misery's thorny track. 4 Forget not, brother, thou hast sinned. And sinful yet may'st be ; Deal gently with the erring heart.
 
 changes have been made in some lines, but the merits of the little poem — ^and they are not slight — ^all belong to the author.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 284 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Miss Fletcher. Section: "The Christian Character".
+

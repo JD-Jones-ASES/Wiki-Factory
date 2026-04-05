@@ -5,7 +5,7 @@ aliases: ["Gerhardt", "Prince of Lutheran Hymnists", "Germany's Great Psalmist"]
 tags: ["#era-post-reformation", "#origin-german", "#tradition-lutheran", "#key-figure", "#theme-trust", "#theme-devotion", "#theme-suffering", "#theme-nature"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[Martin_Luther]]", "[[Joachim_Neander]]", "[[Johann_Heermann]]", "[[Martin_Rinkart]]", "[[Thirty_Years_War_Hymns]]", "[[Pietism]]"]
 status: draft
 confidence: high
@@ -78,6 +78,13 @@ Butterworth-Brown present Gerhardt's biography in the context of "Commit Thou Al
 The associated tune is "Schumann" — named for Robert Schumann (1810-1876), born in Zwickau, Saxony, a music director, conservatory teacher, and "master-mind of the pre-Wagnerian period," happy in the cooperation of his wife, herself a skilled musician. Butterworth-Brown find the pairing entirely right: "the great 'Hymn of Trust' could have found no more sympathetic interpreter than the musician of Gerhardt's own land and language."
 
 Catherine Winkworth's translation of "Commit Thou All Thy Griefs" is the one in standard English use — the same translator who rendered Altenburg's "Fear Not O Little Flock" and who contributed extensively to the *Lyra Germanica* series.
+
+### From Lorenz (1938)
+
+Lorenz treats Gerhardt in Chapter XII as the opening figure of the Golden Age of German hymnody, which extended from Gerhardt (1604--1676) to Gellert (1715--1769). Having spent his young manhood amid the desolation of the Thirty Years' War, Gerhardt did not enter the ministry until nearly fifty and had written no hymns before that time. Lorenz describes him as a great preacher and devoted pastor of deep piety and unflinching loyalty to truth, who "united in himself the two tendencies" --- the objective view of God characteristic of early Lutheran hymns and the subjective emotional expression characteristic of the subsequent period. He had "the body of the older hymnody and the spirit of the new."
+
+Lorenz calls Gerhardt a poet whose writings were "extensive lyrics rather than hymns," comparing him to Keble in German hymnody. He wrote 123 hymns, of which Philip Schaff declared they "are among the noblest pearls in the treasury of sacred poetry." Lorenz highlights "O Haupt voll Blut und Wunden" ("O sacred head, now wounded"), "Befiehl du deine Wege" ("Give to the winds thy fears," translated by John Wesley), and "O Jesu Christ, mein schoenstes Licht" ("Jesus, thy boundless love to me," also translated by Wesley). Germany recognizes Gerhardt as "her prince of hymnists, superior even to Luther."
+
 
 ## Hymns in The Christian Hymn Book
 

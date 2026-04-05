@@ -5,7 +5,7 @@ aliases: ["Jesus, I my cross have taken,", "Jesus, I my cross have taken."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Henry_Francis_Lyte]]", "[[19th_Century_Hymnody]]", "[[Hymn_0101_Praise_My_Soul_The_King]]", "[[Hymn_0625_Sweet_Is_The_Task_O]]", "[[Hymn_1022_Gently_Gently_Lay_Thy_Rod]]"]
 status: draft
 confidence: high
@@ -111,3 +111,8 @@ He then entered the ministry of the Church of England, having given up his origi
 ### From Nutter & Tillett (1911)
 
 God and heaven are still my own ! 2 Let the world despise and leave me, They have left my Saviour, too ; Human hearts and looks deceive me ; Thou art not, like man, untrue ; And, while thou shalt smile upon me, God of wisdom, love, and might, Foes may hate, and friends may shun me ; Show thy face, and all Is bright. 3 Man may trouble and distress me, 'Twin but drive me to thy breast ; Life with trials hard may press me. Heaven will bring me sweeter rest. O 'tis not In grief to harm me, While thy love Is left to me ; O 'twere not In joy to charm me.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 272 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "The Christian Character".
+

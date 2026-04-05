@@ -5,7 +5,7 @@ aliases: ["God is in his holy temple,", "The Lord is in his holy temple."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -79,3 +79,8 @@ God is in his holy temple,
 This hymn, in four stanzas, probably dates from the Original Hymns, 1853. It bears the title, " For the Great Congregation. " John Burroughs aptly describes the nature of a temple without God by saying of St.
 
 four stanzas, probably dates from the Original Hymns, 1853.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 466 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "Miscellaneous".
+

@@ -5,7 +5,7 @@ aliases: ["He knelt; the Saviour knelt and prayed,", "Agony in the garden."]
 tags: ["#meter-peculiar", "#theme-praise", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Hymns_of_Consolation]]", "[[Hymn_0574_Child_Amid_The_Flowers_At]]", "[[Hymn_1049_No_Bitter_Tears_For_Thee]]", "[[Hymn_1158_I_Hear_Thee_Speak_Of]]"]
 status: stub
 confidence: high
@@ -82,3 +82,8 @@ He knelt; the Saviour knelt and prayed,
 ## Historical Context
 
 *No individual historical commentary found in available sources. See author and concept pages for broader context.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 132 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]]. Section: "Jesus Christ".
+

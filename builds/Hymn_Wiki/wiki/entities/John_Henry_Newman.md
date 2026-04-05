@@ -5,7 +5,7 @@ aliases: ["John Henry Newman", "Cardinal Newman", "J.H. Newman"]
 tags: ["#era-19th-century", "#origin-english", "#tradition-anglican", "#tradition-catholic", "#key-figure", "#theme-devotion", "#Oxford_Movement"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Oxford_Movement]]", "[[Frederick_William_Faber]]"]
 status: draft
 confidence: high
@@ -56,6 +56,11 @@ Newman's own account, from the *Apologia pro Vita Sua*, noted the date of compos
 Newman credited much of the hymn's popularity to Joseph B. Dykes's tune "Lux Benigna." Metcalf quotes a contemporary newspaper item: Andrew Carnegie had engaged an organist to wake him each morning with the strains of "Lead, Kindly Light" on the organ.
 
 Metcalf counts 130 words in three stanzas, of which only 16 are more than one syllable — the plainness of the language being itself a kind of musical quality. (Metcalf, p. 237-241)
+
+### From Lorenz (1938)
+
+Lorenz discusses Newman (1801--1890) in Chapter XVII as the leader of the Oxford Movement's return to pre-Reformation church ideals. He wrote some poetry, notably "The Dream of Gerontius," and a few hymns. Of these, Lorenz says "Lead, kindly Light, amid the encircling gloom" is most widely known "because of its attractive music, as he himself testifies." However, Lorenz judges "Praise to the Holiest in the height" as "really a more serviceable hymn for actual church services." The Oxford Movement's impulse to translate ancient Latin and Greek hymns, led by Newman's disciples Caswall and Neale, was so enthusiastic that "the suggestion was seriously made that all the post-Reformation hymnody be set aside to give way to the medieval and even earlier hymns."
+
 
 ## Hymns in The Christian Hymn Book
 

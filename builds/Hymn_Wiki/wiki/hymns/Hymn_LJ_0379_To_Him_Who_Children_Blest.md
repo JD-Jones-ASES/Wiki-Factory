@@ -1,0 +1,64 @@
+---
+title: "LJ Hymn 379: To Him who children blest,"
+type: hymn
+aliases: ["To Him who children blest,"]
+tags: ["#meter-short", "#theme-worship"]
+created: 2026-04-05
+updated: 2026-04-05
+source_refs: ["[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]
+related: []
+status: stub
+confidence: high
+hymn_number: 379
+first_line: "To Him who children blest,"
+meter: "S. M"
+topic: "Baptism of Children."
+author: "Disciples' H. B"
+composer: ""
+tune_name: ""
+scripture_refs: []
+stanza_count: 3
+era: ""
+collection: "Longfellow-Johnson"
+---
+
+
+> [[_overview|Home]] > [[Hymns_Overview|Hymns]]
+
+# LJ Hymn 379: To Him who children blest,
+
+| Field | Value |
+|-------|-------|
+| **Author** | Disciples' H. B |
+| **Meter** | S. M |
+| **Topic** | Baptism of Children. |
+| **Section** | Various Occasions |
+| **Stanzas** | 3 |
+| **Collection** | [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848) |
+
+## Text
+
+> *From [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), Hymn 379*
+
+```
+1   To Him who children blest,
+      And suffered them to come,
+    To Him who took them to his breast,
+      We bring these children home.
+  2   To Thee, O God, whose face
+      Their spirits still behold,
+    We bring them, praying that Thy grace
+      May keep, Thine arms enfold.
+  3   And as this water falls
+      On each unconscious brow,
+    Thy holy spirit grant, O Lord,
+      To keep them pure as now!
+```
+
+## Scripture References
+
+*No scripture reference in source.*
+
+## Historical Context
+
+*No individual historical commentary found in available sources. See author and concept pages for broader context.*

@@ -5,7 +5,7 @@ aliases: ["Calm on the listening ear of night,", "The day-spring from on high."]
 tags: ["#meter-common", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -79,3 +79,8 @@ Calm on the listening ear of night,
 ### From Duffield (1886)
 
 Holmes considers it one of the finest and most beautiful poems ever written. This, which is called by its author " A Christmas Song, " is often assigned to the date 185 1. In reality, it was first published in the Boston Observer, in 1834 ; then recast and republished in the Christian Register, in 1835, and eventually appeared in the Monthly Magazine, Vol.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 106 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to E. H. Sears. Section: "Jesus Christ".
+

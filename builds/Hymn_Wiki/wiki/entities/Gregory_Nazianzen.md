@@ -4,8 +4,8 @@ type: entity
 aliases: ["Gregory of Nazianzus", "Gregory the Theologian", "Patriarch of Constantinople"]
 tags: ["#era-early-church", "#origin-greek", "#tradition-catholic", "#key-figure", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_Our_Hymns]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Singing_Church]]"]
 related: ["[[Greek_and_Syriac_Hymnody]]", "[[Early_Christian_Hymnody]]", "[[Ephrem_the_Syrian]]"]
 status: draft
 confidence: high
@@ -38,3 +38,8 @@ None of Gregory's hymns appear to have survived in direct use in English-languag
 Gregory Nazianzen represents the Eastern Christian tradition at its most intellectually refined. A man caught between the competing demands of theological controversy and contemplative poetry, he ultimately chose the pen over the pulpit, and the church is richer for it. His life is also a reminder that forced retreat from public life can become the condition for a person's deepest and most enduring contribution.
 
 See also: [[Greek_and_Syriac_Hymnody]], [[Early_Christian_Hymnody]], [[Ephrem_the_Syrian]]
+
+### From Lorenz (1938)
+
+Lorenz discusses Gregory of Nazianzus (327--389) in Chapter IX as the most prominent figure among the early Greek hymn writers. Called to Constantinople by Emperor Theodosius to lead the orthodox forces against the Arians, Gregory was appointed court preacher, Patriarch of the Eastern Church, and president of the Ecumenical Council of Constantinople. However, Lorenz notes that "the pious, gentle monk, while a great preacher and a fertile hymn writer (it is said that he wrote thirty thousand hymns), was not fitted for the strife and intrigue rampant in the Capital," and within a few years he returned to his cell at Nazianzus in Cappadocia. Lorenz rates his hymns very highly and quotes Dr. Brownlee's version of his "Evening Hymn" as an example of their quality.
+

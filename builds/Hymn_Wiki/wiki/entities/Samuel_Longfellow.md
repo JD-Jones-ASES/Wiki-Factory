@@ -5,8 +5,8 @@ aliases: ["Rev. Samuel Longfellow"]
 tags: ["#hymn-writer", "#american", "#unitarian"]
 created: 2026-04-05
 updated: 2026-04-05
-source_refs: ["[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: ["[[Frederick_Lucian_Hosmer]]"]
+source_refs: ["[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]
+related: ["[[Frederick_Lucian_Hosmer]]", "[[Samuel_Johnson_Hymn_Compiler]]"]
 status: draft
 confidence: medium
 entity_type: person

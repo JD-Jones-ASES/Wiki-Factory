@@ -5,7 +5,7 @@ aliases: ["Father of English Hymnody", "Isaac Watts"]
 tags: ["#era-18th-century", "#origin-english", "#tradition-congregational", "#key-figure", "#theme-praise", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Philip_Doddridge]]", "[[Charles_Wesley]]", "[[Women_in_Hymnody]]"]
 status: draft
 confidence: high
@@ -111,6 +111,13 @@ On **"Joy to the World"** (Second Part, C.M., "The Messiah's Coming and Kingdom"
 Duffield's admiration for Watts is consistent and unqualified. He treats Watts as the standard against whom other hymn-writers are implicitly measured — the foundation on which all of English congregational song was built.
 
 See also: [[English_Hymnody]], [[Charles_Wesley]], [[Philip_Doddridge]]
+
+### From Lorenz (1938)
+
+Lorenz devotes an entire chapter (Ch. XV) to Watts and calls him the man who appeared "in the distinct providence of God, exactly fitted for the important task" of breaking the tyranny of metrical psalmody. He notes that Watts was born in 1674 to a devout Nonconformist schoolmaster imprisoned for his faith under Charles II, and was extraordinarily precocious --- studying Greek and Hebrew at eight. When young Watts criticized the hymns of Barton at his father's church, the elder deacon replied: "Give us something better, young man." The resulting hymn, "Behold the glories of the Lamb," launched a new epoch in Christian song.
+
+Lorenz emphasizes Watts's theological contribution: he denied both the obligation to sing the Bible exclusively and the fitness of the Old Testament Psalms for Christian worship, insisting that David's psalms must be rewritten "as if David were a Christian and not a Jew." Watts deliberately sacrificed literary polish for practicability, writing only in Long Meter, Common Meter, and Short Meter so his texts fit existing tunes. Lorenz judges that at his best Watts wrote hymns "of majesty and ecstatic adoration that have never been excelled," citing "Our God, our Help in ages past," "Before Jehovah's awful throne," "Jesus shall reign," and "When I survey the wondrous cross." He notes that Watts anticipated Luther in demanding that psalms be transformed into hymns while retaining their essential subject matter. The hymns slowly won acceptance among Nonconformist churches, with Presbyterians and Congregationalists nearly monopolized by them before Watts's death, though the Established Church still clung to psalm versions.
+
 
 ## Hymns in The Christian Hymn Book
 

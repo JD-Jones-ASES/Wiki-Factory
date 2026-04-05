@@ -5,7 +5,7 @@ aliases: ["’Tis my happiness below,", "Affliction cometh not forth of the dust
 tags: ["#meter-peculiar", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[William_Cowper]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0253_There_Is_A_Fountain_Filled]]", "[[Hymn_0601_Hear_What_God_The_Lord]]", "[[Hymn_0943_O_For_A_Closer_Walk]]"]
 status: stub
 confidence: high
@@ -67,3 +67,8 @@ era: "18th-century"
 ## Historical Context
 
 *No individual historical commentary found in available sources. See author and concept pages for broader context.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 271 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Cowper (modified by compilers). Section: "The Christian Character".
+

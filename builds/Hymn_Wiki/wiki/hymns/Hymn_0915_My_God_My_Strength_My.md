@@ -5,7 +5,7 @@ aliases: ["My God, my Strength, my Hope,", "Spiritual wants."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Charles_Wesley]]", "[[18th_Century_Hymnody]]", "[[Hymn_0305_What_Could_Your_Redeemer_Do]]", "[[Hymn_0628_Hail_The_Day_That_Saw]]", "[[Hymn_1061_How_Happy_Is_The_Pilgrims]]"]
 status: draft
 confidence: high
@@ -76,3 +76,8 @@ My God, my Strength, my Hope,
 ### From Nutter & Tillett (1911)
 
 "A Poor Sinner'' is the title of the orig- inal poem of seven double stanzas from which this is taken and which is found In Psalms and Hymns, 1741. The above are the first, third, and fourth stanzas. The last stanza puts a truth very impres- sively: I want with all my heart Thy pleasure to fulfill.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 225 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to C. Wesley. Section: "The Christian Character".
+

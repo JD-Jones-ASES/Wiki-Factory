@@ -5,7 +5,7 @@ aliases: ["Hymns Home", "All Hymns"]
 tags: []
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]
 related: []
 status: draft
 confidence: high
@@ -15,7 +15,10 @@ confidence: high
 
 # Hymns
 
-This wiki contains **1,324 hymns** from [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), compiled by [[Alexander_Campbell|Alexander Campbell]] and revised by a committee of the Disciples of Christ.
+This wiki contains **1,740 hymns** from two historic hymnals:
+
+- **1,324 hymns** from [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), compiled by [[Alexander_Campbell|Alexander Campbell]] and revised by a committee of the Disciples of Christ
+- **416 additional hymns** from [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns for Public and Private Devotion]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]] for Unitarian worship (184 hymns overlap with Campbell; those pages cross-reference both collections)
 
 Each hymn page includes the full text, meter marking, topic heading, author attribution, and any relevant Bible verse connections.
 
@@ -44,9 +47,26 @@ Campbell organized his hymnal into eleven sections:
 - **Short Meter (S.M.)** --- 6.6.8.6 syllable pattern
 - **Peculiar Meter (P.M.)** --- irregular patterns
 
+## Longfellow-Johnson Sections
+
+The Longfellow-Johnson hymnal (LJ prefix) is organized into ten thematic sections:
+
+| Section | Theme |
+|---------|-------|
+| I. Public Worship | Opening, prayers, praise, closing |
+| II. God | Being, love, providence, communion |
+| III. Jesus Christ | Advent, mission, suffering, resurrection |
+| IV. Remembrance of Christ | Communion and Lord's Supper |
+| V. Christianity and the Kingdom | Gospel, church, brotherhood, peace |
+| VI. The Christian Character | Spiritual growth, trust, faith |
+| VII. The Christian Life | Action, conflict, death, spiritual world |
+| VIII. Various Occasions | Morning, evening, baptism, marriage, funeral, seasons |
+| IX. Miscellaneous | Children, pilgrim, Christmas |
+| Supplement | Additional hymns across all categories |
+
 ## Find a Hymn
 
-Use Obsidian's search (magnifying glass icon) to find any hymn by its first line. All hymn files are named `Hymn_NNNN_First_Words.md`.
+Use Obsidian's search (magnifying glass icon) to find any hymn by its first line. Campbell hymns: `Hymn_NNNN_First_Words.md`. Longfellow-Johnson hymns: `Hymn_LJ_NNNN_First_Words.md`.
 
 ## Scripture Connection
 

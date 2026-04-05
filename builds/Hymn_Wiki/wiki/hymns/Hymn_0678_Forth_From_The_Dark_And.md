@@ -5,7 +5,7 @@ aliases: ["Forth from the dark and stormy sky,", "Seeking refuge."]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymn_0724_Lord_Now_We_Part_In]]", "[[Hymn_1201_God_That_Madest_Earth_And]]", "[[Hymn_1285_From_Greenlands_Icy_Mountains]]"]
 status: stub
 confidence: high
@@ -61,3 +61,8 @@ Forth from the dark and stormy sky,
 ## Historical Context
 
 *No individual historical commentary found in available sources. See author and concept pages for broader context.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 6 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Heber. Section: "Public Worship".
+

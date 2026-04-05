@@ -5,7 +5,7 @@ aliases: ["O Lord! how happy should we be,", "Casting all your care upon him."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: []
 status: draft
 confidence: high
@@ -70,3 +70,8 @@ O Lord! how happy should we be,
 ### From Nutter & Tillett (1911)
 
 With strengthened souls we rise. Sure that our Father who is nigh. To hear the ravens when they cry.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 230 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]]. Section: "The Christian Character".
+

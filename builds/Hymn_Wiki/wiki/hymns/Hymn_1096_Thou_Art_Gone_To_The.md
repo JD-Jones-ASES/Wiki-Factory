@@ -5,7 +5,7 @@ aliases: ["Thou art gone to the grave; but we will not deplore thee,", "Farewell
 tags: ["#meter-peculiar", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0678_Forth_From_The_Dark_And]]", "[[Hymn_1201_God_That_Madest_Earth_And]]", "[[Hymn_1285_From_Greenlands_Icy_Mountains]]"]
 status: draft
 confidence: high
@@ -69,3 +69,8 @@ Thou art gone to the grave; but we will not deplore thee,
 ### From Duffield (1886)
 
 This hymn was composed, December, 18 18, in consequence of the death of Bishop Heber' s only child, at the age of six months. When she died he wrote : " I am myself more cut down than I thought I should be, but I hope not impatient. I do not forget that to have possessed her at all, and to have enjoyed the pleasure of looking at her, and caressing her, for six months, was God's free gift, and still less do I forget that He who has taken her will at length, I hope, restore her to us."
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 409 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Heber. Section: "Various Occasions".
+

@@ -5,7 +5,7 @@ aliases: ["Onward, Christian, though the region", "Forgetting the things that ar
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -84,3 +84,8 @@ Onward, Christian, though the region
 This hymn first appeared in the Book of Hyrmis, 1846, prepared by the author and Rev. It has six stanzas, and commences, " Onward, onward, though the region."
 
 six stanzas, and commences, " Onward, onward, though the region.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 313 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]] (modified by compilers). Section: "The Christian Life".
+

@@ -5,7 +5,7 @@ aliases: ["Father, whate’er of earthly bliss", "Prayer for contentment."]
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Anna_Steele]]", "[[18th_Century_Hymnody]]", "[[Hymn_0222_Thou_Only_Sovereign_Of_My]]", "[[Hymn_0643_To_Our_Redeemers_Glorious_Name]]", "[[Hymn_1045_Almighty_Maker_Of_My_Frame]]"]
 status: draft
 confidence: high
@@ -68,3 +68,8 @@ In Miss Steele's poems, 1760, a copy of which in the original edition is now bef
 ### From Nutter & Tillett (1911)
 
 Title: "Desiring Resignation and Thankfulness.** Ten stanzas. These are the last three. Three lines have been altered.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 470 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Episcopal Coll. Section: "Miscellaneous".
+

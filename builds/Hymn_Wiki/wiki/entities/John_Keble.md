@@ -5,7 +5,7 @@ aliases: ["John Keble", "Rev. John Keble"]
 tags: ["#era-19th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[William_Henry_Monk]]", "[[Oxford_Movement]]"]
 status: draft
 confidence: high
@@ -44,6 +44,11 @@ The tune "Hursley" — arranged from a German chorale by Peter Ritter (1760–18
 Robert Schumann's "Canonbury" has also been used with Keble's morning hymn "New Every Morning Is the Love," and is described as "deservedly a favorite for flowing long metres" — but "Hursley" is irreplaceable for "Sun of My Soul."
 
 Keble represents that strand of English hymnody rooted not in evangelical revival but in the quiet sacramental piety of the Anglican parish: thoughtful, devout, and satisfied with small fields well-tended.
+
+### From Lorenz (1938)
+
+Lorenz treats Keble (1792--1866) in Chapter XVII as a significant factor in the development of the literary hymn. His *Christian Year* (1827) was not a collection of hymns but a series of poems appropriate to the sacred seasons, from which several hymns were salvaged for liturgical use --- *Hymns Ancient and Modern* contains no less than eleven adapted pieces. Lorenz credits the Christian Church at large with being a grateful debtor to Keble for two hymns: "Sun of my soul, thou Saviour dear" (the evening hymn) and "The voice that breathed o'er Eden" (the wedding song). Beyond the value of these excerpts, Lorenz says, Keble's poetic stimulus "enriches all subsequent hymnody by raising the literary quality of the ideal hymn." Cardinal Newman held that Keble originated the Oxford Movement by his great Assize sermon on "The Great Apostasy," though Lorenz notes he can hardly be associated with the school of hymn writers that grew out of it.
+
 
 ## Hymns in The Christian Hymn Book
 

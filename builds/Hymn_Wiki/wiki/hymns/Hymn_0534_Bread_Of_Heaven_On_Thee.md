@@ -5,7 +5,7 @@ aliases: ["Bread of heaven, on thee we feed,", "The body and blood of Christ."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Hymn_0214_The_Lord_Is_King_Lift]]", "[[Hymn_0655_Praise_On_Thee_In_Zions]]", "[[Hymn_0852_When_In_The_Hour_Of]]"]
 status: draft
 confidence: high
@@ -64,3 +64,8 @@ Bread of heaven, on thee we feed,
 ### From Duffield (1886)
 
 This hymn appeared in 1824, in the collection of Josiah Con- der's pieces, which he entitled. The Star of the East, and other Poems. It is founded on John 6 : 32, " My Father giveth you the true bread from heaven."
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 153 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Pratt's Coll. Section: "Remembrance of Christ".
+

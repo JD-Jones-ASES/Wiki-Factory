@@ -5,7 +5,7 @@ aliases: ["John Mason Neale"]
 tags: ["#era-19th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Early_Christian_Hymnody]]", "[[Greek_and_Syriac_Hymnody]]"]
 status: draft
 confidence: high
@@ -96,3 +96,8 @@ On **"The Day of Resurrection"**, Duffield quotes Neale's own account of his vis
 Duffield's treatment of Neale, taken across its 25 entries, presents him as neither primarily a hymnist nor a theologian but a philologist-priest: a man who understood that the Church's worship life was being impoverished by its ignorance of its own past, and who set out to remedy that with scholarly tools wielded in service of living faith.
 
 See also: [[English_Hymnody]], [[Early_Christian_Hymnody]], [[Greek_and_Syriac_Hymnody]]
+
+### From Lorenz (1938)
+
+Lorenz discusses Neale in Chapter XVII as a disciple of the Oxford Movement who, unlike Newman and Caswall, did not leave the English Church. Neale was "intensely interested in the liturgics of his church," which led to his studies of the early Greek breviaries. Lorenz calls him "the primate among those who found their inspiration in these ancient books of service and breathed into these ancient lyrics the breath of modern life." He brought to his translations "a literary skill, a spiritual insight, and a fervor" unmatched by others. Lorenz lists among his most notable successes: "Art thou weary, art thou languid?", "Christian, dost thou see them?", "The day is past and over," "Fierce was the wild billow," "'Tis the day of resurrection," "Brief life is here our portion," and "Jerusalem the golden." Lorenz emphasizes that these are not literal translations but "English hymns made up of ideas suggested by phrases in the originals" --- the work of "a poet imbued with devout feelings, responding to the vague suggestions of the often obscure originals."
+

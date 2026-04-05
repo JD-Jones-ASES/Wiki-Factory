@@ -5,7 +5,7 @@ aliases: ["Luther", "The Reformer", "Father of Evangelical Hymnody", "The Nighti
 tags: ["#era-reformation", "#origin-german", "#tradition-lutheran", "#key-figure", "#theme-praise", "#theme-warfare", "#theme-scripture"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[Philipp_Nicolai]]", "[[Paul_Gerhardt]]", "[[Johann_Heermann]]", "[[Martin_Rinkart]]", "[[Reformation_Hymnody]]", "[[Paul_Speratus]]", "[[Paul_Eber]]", "[[Nicolaus_Decius]]"]
 status: draft
 confidence: high
@@ -99,3 +99,10 @@ Luther himself, Duffield records, used the hymn as a personal resource when dang
 Duffield also provides his own translation of the hymn (1873), noting it was made for use among German immigrants in the United States.
 
 The rendering by F.H. Hedge (translated 1853, published in *Hymns for the Church*) Duffield identifies as the most popular English version alongside Carlyle's "A Safe Stronghold."
+
+### From Lorenz (1938)
+
+Lorenz devotes Chapter XI to Luther, calling his objective in hymnody "entirely different" from that of traditional worship. Luther did not seek to perfect a liturgical service but aimed at "the spiritual edification of the mass of the people whom the liturgic monks had been ignoring." His great work was taking both psalm and hymn from the clergy, putting them into the vernacular in metrical form with popular tunes, and restoring them to the people. He added instruction, meditation, and exhortation to the hymn's function, making it "a means of creating a religious atmosphere for the whole life of the Christian --- personal, family, community."
+
+Lorenz notes Luther wrote thirty-eight hymns: twelve based on Latin hymns, four rewritten pre-Reformation hymns, seven psalm versions, six other Scripture paraphrases, and nine originals. Twenty-one were written in the single year 1524. Luther's hymns bore the characteristics of their writer: "straightforward, clear, and unpretentious, full of force and strong of conviction." He was "no poet" and his diction was "more forcible than elegant." Of "Ein feste Burg," Lorenz quotes Ranke, Carlyle, and Heine ("the Marseillaise of the Reformation"), and calls Luther's tune "worthy of the text in its ponderous majesty." Lorenz emphasizes that Luther anticipated Watts in demanding that the psalm be transformed into a hymn, and that Luther's hymns "are the root out of which grew all our Protestant hymnody."
+

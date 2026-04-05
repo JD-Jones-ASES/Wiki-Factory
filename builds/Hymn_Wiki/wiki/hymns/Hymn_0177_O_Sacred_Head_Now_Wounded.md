@@ -5,7 +5,7 @@ aliases: ["O sacred head, now wounded,", "Surely he hath borne our griefs."]
 tags: ["#meter-peculiar", "#theme-easter"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Paul_Gerhardt]]", "[[Post-Reformation_Hymnody]]", "[[Hymn_0799_Now_As_Long_As_Here]]", "[[Hymn_0880_Give_To_The_Winds_Thy]]"]
 status: draft
 confidence: high
@@ -99,3 +99,8 @@ This hymn has one of the most remarkable journeys in all of Christian hymnody --
 The hymn appears in Campbell's collection attributed to Gerhardt, which is accurate as far as the German text goes; the English version most commonly sung traces back through Alexander's translation of Gerhardt's rendering of Bernard's Latin original.
 
 *Era:* [[era-medieval]] (original) | [[era-post-reformation]] (Gerhardt's version)
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 562 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to German. Section: "Supplement".
+

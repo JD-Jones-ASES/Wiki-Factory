@@ -5,7 +5,7 @@ aliases: ["The Lord is my Shepherd, no want shall I know;"]
 tags: ["#meter-peculiar", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymn_0326_Fair_Shines_The_Morning_Star]]", "[[Hymn_0743_All_Ye_Nations_Praise_The]]", "[[Hymn_1137_Who_Are_These_In_Bright]]"]
 status: draft
 confidence: high
@@ -80,3 +80,8 @@ The Lord is my Shepherd, no want shall I know;
 In the Original I/ymns this is No. 40, " The Lord the Good Shepherd. — Ps. 23." It has four stanzas, and comes from the Songs 0/ Zion, 1822. At a time when he was in straitened circumstances, Mr. One of John Wesley's associates, named Samuel Bradburn, was much esteemed as a good preacher and an excellent man.
 
 four stanzas, and comes from the Songs 0/ Zion, 1822.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 247 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Montgomery. Section: "The Christian Character".
+

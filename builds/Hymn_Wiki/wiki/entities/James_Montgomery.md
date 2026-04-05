@@ -5,7 +5,7 @@ aliases: ["James Montgomery"]
 tags: ["#era-18th-century", "#era-19th-century", "#origin-scottish", "#tradition-moravian", "#key-figure", "#theme-praise", "#theme-missionary"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[Moravian_Hymnody]]", "[[English_Hymnody]]", "[[Missionary_Hymns]]"]
 status: draft
 confidence: high
@@ -63,6 +63,11 @@ On **"Forever with the Lord"**, Duffield records a remarkable personal testimony
 On **"Go to Dark Gethsemane"**, Duffield notes its first publication in the *Christian Psalmist*, 1825, and that it "has been much altered" from the original.
 
 Duffield consistently praises the quality of Montgomery's devotional verse, noting that across 28 hymns his craftsmanship never falters — a tribute from one hymn scholar to what he evidently regarded as the most consistently fine body of work after Watts.
+
+### From Lorenz (1938)
+
+Lorenz discusses Montgomery (1771--1854) in Chapter XVII as a distinguished contemporary who was probably influenced by the literary impulses of the times. A Moravian layman and son of a Moravian minister, Montgomery was a professional writer and newspaper editor who did not publicly profess faith in Christ until age forty-two. Having served a full literary apprenticeship and formulated his theories of the hymn before beginning to write sacred verse, his hymns have "an average excellence and effectiveness that can be paralleled only by those of Bishop Heber." Lorenz quotes Montgomery's sharp critical eye from his *Christian Psalmist*: "The faults in ordinary hymns are vulgar phrases, low words, hard words... bad rhymes, or no rhymes where rhymes are expected, but above all numbers without cadence." Lorenz notes that he almost rewrote the Moravian hymnbook over twelve years' labor. Among his most widely used hymns Lorenz lists "Angels from the realms of glory," "Forever with the Lord," "Hail to the Lord's Anointed," "Prayer is the soul's sincere desire," and "In the hour of trial."
+
 
 ## Hymns in The Christian Hymn Book
 

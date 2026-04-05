@@ -5,7 +5,7 @@ aliases: ["Lord of the worlds above,", "Longing for the house of God."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0428_There_Is_A_Land_Of]]", "[[Hymn_0808_What_Sinners_Value_I_Resign]]"]
 status: draft
 confidence: high
@@ -72,3 +72,8 @@ Lord of the worlds above,
 " As he opened the day with prayer, so he closeth it, humbly beseech- ing the Almighty to pardon and accept our poor services, and to improve them that we may grow therein, and that our feet may be like hinds' feet ever climbing up higher and higher unto Him." Watts's version of the Psalms this is Ps. 84, P. M. , " Longing for the House of God." It has four stanzas, and first appeared in 171 9.
 
 four stanzas, and first appeared in 171 9.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 16 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]]. Section: "Public Worship".
+

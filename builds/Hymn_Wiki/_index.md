@@ -6,7 +6,7 @@ updated: 2026-04-05
 
 # Wiki Index
 
-Total pages: 3275
+Total pages: 3493
 
 ## Entities
 
@@ -83,6 +83,7 @@ Total pages: 3275
 - [[David Charles of Carmarthen]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[David Denham]] [stub] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[David Nelson]] [stub] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
+- [[Edmund S. Lorenz]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[Edward Caswall]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[Edward John Hopkins]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[Edward John Hopkins]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
@@ -365,7 +366,8 @@ Total pages: 3275
 - [[Samuel Francis Smith]] [draft] (3 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[Samuel Francis Smith]] [draft] (2 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[Samuel Holyoke]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
-- [[Samuel Longfellow]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
+- [[Samuel Johnson (Hymn Compiler)]] [draft] (2 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
+- [[Samuel Longfellow]] [draft] (2 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[Samuel Medley]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[Samuel Medley]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
 - [[Samuel Pearce]] [draft] (1 sources) --- > [[_overview|Home]] > [[People_Overview|People]]
@@ -470,6 +472,7 @@ Total pages: 3275
 - [[Camp Meeting Hymns]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
 - [[Christian Ballads]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Christian Ballads]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
+- [[Congregational Singing]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Early Christian Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Early Christian Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[English Hymnody]] [draft] (2 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
@@ -479,11 +482,15 @@ Total pages: 3275
 - [[German Rationalism and Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Golden Age of Latin Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Golden Age of Latin Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
+- [[Gospel Hymn]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
 - [[Gospel Hymn Movement]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
 - [[Gospel Songs]] [draft] (2 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Gospel Songs]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Greek and Syriac Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Greek and Syriac Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
+- [[Hymn Emendation]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
+- [[Hymn Selection]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
+- [[Hymn Study]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Hymn Tunes]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Hymn Tunes]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Hymns Ancient and Modern]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
@@ -491,6 +498,7 @@ Total pages: 3275
 - [[Hymns of Consolation]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Latin Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Latin Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
+- [[Literary Quality in Hymns]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
 - [[Lutheran Hymnody]] [draft] (2 sources) --- > [[_overview|Home]] > [[_index|Index]] > Concepts
 - [[Lutheran Hymnody]] [draft] (2 sources) --- > [[_overview|Home]] > [[_index|Index]] > Concepts
 - [[Medieval Hymnody]] [draft] (2 sources) --- > [[_overview|Home]] > [[_index|Index]] > Concepts
@@ -508,6 +516,7 @@ Total pages: 3275
 - [[Pietism]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Post-Reformation Hymnody]] [draft] (2 sources) --- > [[_overview|Home]] > [[_index|Index]] > Concepts
 - [[Post-Reformation Hymnody]] [draft] (2 sources) --- > [[_overview|Home]] > [[_index|Index]] > Concepts
+- [[Practical Hymnology]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
 - [[Presbyterian Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
 - [[Reformation Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 - [[Reformation Hymnody]] [draft] (1 sources) --- > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
@@ -527,6 +536,7 @@ Total pages: 3275
 
 ## Sources
 
+- [[A Book of Hymns for Public and Private Devotion]] [draft] --- > [[_overview|Home]] > [[Sources_Overview|Sources]]
 - [[American Writers and Compilers of Sacred Music]] --- > [[_overview|Home]] > [[Sources_Overview|Sources]]
 - [[Baptist Hymn Writers and Their Hymns]] [draft] --- > [[_overview|Home]] > [[Sources_Overview|Sources]]
 - [[English Hymns: Their Authors and History]] [draft] --- > [[_overview|Home]] > [[Sources_Overview|Sources]]
@@ -536,6 +546,7 @@ Total pages: 3275
 - [[The Christian Hymn Book]] [draft] --- > [[_overview|Home]] > Sources
 - [[The English Hymn: Its Development and Use in Worship]] [draft] --- > [[_overview|Home]] > [[Sources_Overview|Sources]]
 - [[The Hymns and Hymn Writers of the Church]] [draft] --- > [[_overview|Home]] > [[Sources_Overview|Sources]]
+- [[The Singing Church: The Hymns It Wrote and Sang]] [draft] --- > [[_overview|Home]] > [[Sources_Overview|Sources]]
 - [[The Story of Our Hymns]] [draft] --- > [[_overview|Home]] > Sources
 - [[The Story of Our Hymns]] [draft] --- > [[_overview|Home]] > Sources
 - [[The Story of the Hymns and Tunes]] [draft] --- > [[_overview|Home]] > Sources

@@ -5,7 +5,7 @@ aliases: ["How blest the righteous when he dies!", "Let me die the death of the 
 tags: ["#meter-long", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Hymns_of_Consolation]]", "[[Hymn_0479_How_Blest_The_Sacred_Tie]]", "[[Hymn_0847_Awake_My_Soul_Lift_Up]]", "[[Hymn_1059_Not_For_The_Pious_Dead]]"]
 status: draft
 confidence: high
@@ -82,3 +82,8 @@ Once he attacked her with a knife.
 So gently shuts the eye of day; So dies a wave along the shore. 3 A holy quiet reigms around, A calm which life nor death destroys; And naught disturbs that peace profound Which his unfettered soul enjoys. 4 Life's labor done, as sinks the clay. Light from Its load the spirit flies, While heaven and earth combine to say, "How blest the righteous when he dies I" Anna L. Barbauld. **The Death of the Virtuoits"* is the ti- tle which this hymn bears In the author's Works, 1825.
 
 one of the most exquisite bits of verse in the English language: Life ! we've been long together.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 350 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Mrs. Barbauld. Section: "The Christian Life".
+

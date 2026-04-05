@@ -5,7 +5,7 @@ aliases: ["Fanny Crosby", "Frances Jane Crosby", "Frances Jane Van Alstyne"]
 tags: ["#era-19th-century", "#origin-american", "#tradition-methodist", "#key-figure", "#theme-grace", "#theme-devotion", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[American_Hymnody]]", "[[Gospel_Songs]]", "[[Women_in_Hymnody]]", "[[Frances_Ridley_Havergal]]"]
 status: draft
 confidence: high
@@ -111,3 +111,8 @@ For "Jesus Keep Me Near the Cross" (inspired by Col. 1:29), they note that the c
 For "Speed Away! Speed Away!" — the missionary song — they record that it was written in 1890 to Woodbury's popular melody, "at the request of Ira D. Sankey." The key-word and refrain were adapted from Woodbury's original 1848 song, but "in substance and language the three hymn-stanzas are the new and independent work" of Crosby. Butterworth-Brown also note that Crosby began her association with sacred music through George F. Root, who was at one time musical instructor at the New York Institution for the Blind — supplying words to his popular song-tunes, including "Rosalie, the Prairie Flower" and "There's Music in the Air."
 
 See also: [[American_Hymnody]], [[Gospel_Songs]], [[Women_in_Hymnody]], [[Frances_Ridley_Havergal]], [[George_Frederick_Root]]
+
+### From Lorenz (1938)
+
+Lorenz discusses Fanny Crosby (1820--1915) briefly in Chapter XVIII, noting she "would be the premier hymn writer of America if the criteria were quantity and wideness of use." He affirms that there can be "no question as to the evangelistic and devotional value of her hymns, whatever their literary quality or permanent appeal may be." Among her hymns he expects will be permanent in popular and evangelistic collections, Lorenz lists "Safe in the arms of Jesus," "Rescue the perishing," "Blessed Assurance," "Pass me not, O gentle Saviour," "Saviour, more than life to me," "I am thine, O Lord," and "Jesus, keep me near the cross."
+

@@ -5,7 +5,7 @@ aliases: ["Thou art, O God, the life and light", "God the fountain of being, etc
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Thomas_Moore]]", "[[Hymn_0342_Awaked_From_Sins_Delusive_Sleep]]", "[[Hymn_0409_Like_Morningwhen_Her_Early_Breeze]]", "[[Hymn_1005_O_Thou_Who_Driest_The]]"]
 status: stub
 confidence: high
@@ -75,3 +75,8 @@ Thou art, O God, the life and light
 ## Historical Context
 
 *No individual historical commentary found in available sources. See author and concept pages for broader context.*
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 84 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Moore. Section: "God".
+

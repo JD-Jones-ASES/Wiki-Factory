@@ -5,7 +5,7 @@ aliases: ["O Father! though the anxious fear", "I will praise thee with my whole
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: []
 status: draft
 confidence: high
@@ -67,3 +67,8 @@ O Father! though the anxious fear
 ### From Duffield (1886)
 
 William Gaskell, an English Unitarian clergyman, whose wife — the author of Mary Barton and other works of fiction — is well known to students of literature. This hymn is the composition of Rev. He was born at Latchford, near Warrington, 1805, and died, June nth, 1884, in his seventy-ninth year.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 7 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Springfield Coll. Section: "Public Worship".
+

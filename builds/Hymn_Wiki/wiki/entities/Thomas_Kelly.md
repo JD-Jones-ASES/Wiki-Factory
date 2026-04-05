@@ -5,7 +5,7 @@ aliases: ["Thomas Kelly", "Rev. Thomas Kelly"]
 tags: ["#era-18th-century", "#era-19th-century", "#origin-irish", "#tradition-nonconformist", "#key-figure", "#theme-missionary", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[Missionary_Hymns]]", "[[English_Hymnody]]"]
 status: draft
 confidence: high
@@ -53,6 +53,11 @@ On **"Keep Us, Lord, Oh, Keep Us Ever"**, Duffield inserts a vivid sailor's anec
 On **"What Is Life? 'Tis But a Vapor"** (1809), Duffield records the encounter with Lord Plunket: "Meeting him one day when they had both grown old, said to him: 'You will live to a great old age.'" Kelly's reply — "I expect never to die" — has the ring of a man whose entire body of work was oriented not toward this world but the next.
 
 Duffield's treatment of Kelly is systematic rather than biographical. The 25 entries reveal a writer whose output was rigorously organized: each hymn assigned a number, a scripture text, and a title in the original edition, with careful revision between editions. Kelly emerges as a craftsman of doctrinal precision who happened also to write with uncommon warmth.
+
+### From Lorenz (1938)
+
+Lorenz discusses Kelly (1769--1854) in Chapter XVII among the contemporary hymn writers of the Romantic era. Originally an Evangelical Church of England clergyman, later an Independent, Kelly was "an indefatigable hymn writer" whose collection of *Scripture Hymns* finally contained 765 hymns, all original. His ideal was still that of Watts, Wesley, and Newton --- the useful hymn --- with no conscious striving after literary quality, though "like Newton, frequently rose to a high standard in this particular when lifted by his theme." Lorenz describes him as an earnest, pious, zealous preacher, liberal with his large wealth, whose influence in Ireland was widespread. Among his most widely used hymns Lorenz lists "Hark, ten thousand harps and voices," "Look, ye saints, the sight is glorious," "On the mountain's top appearing," "The Head that once was crowned with thorns," and "Zion stands with hills surrounded."
+
 
 ## Hymns in The Christian Hymn Book
 

@@ -5,7 +5,7 @@ aliases: ["Glorious things of thee are spoken,", "Glorious things are spoken of 
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[John_Newton]]", "[[18th_Century_Hymnody]]", "[[Hymn_0192_Mary_To_The_Saviours_Tomb]]", "[[Hymn_0564_Approach_My_Soul_The_Mercyseat]]", "[[Hymn_0898_Be_Still_My_Heart_These]]"]
 status: draft
 confidence: high
@@ -105,3 +105,8 @@ First stanza : spoken, Ps. | Second stanza : love, Ps.
 From the Olney Hymna^ 1779, where it bears the title *'Zion; or. The City of Ood" It is one of Newton's best hymns, and, as Julian remarks, "It ranks with the first hymns in the language.'' It is full of optimism, and is prophetic of a glorious future for the Church of God. Only the first half of the five double stan- zas of the original are here given, verse three repeating at the close the first four lines of the hymn, by which repe- tition a better climax in poetic form and sentiment is secured for the hymn as thus abbreviated than was furnished by the following lines, with which the third stanza of the original closes: Thus deriving from their banner, Light by night and shade by day; Safe they feed upon the manna.
 
 ranks with the first hymns in the language.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 180 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Newton. Section: "Christianity and the Kingdom of Heaven".
+

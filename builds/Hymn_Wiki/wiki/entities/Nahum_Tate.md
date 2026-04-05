@@ -4,8 +4,8 @@ type: entity
 aliases: ["Nahum Tate", "Tate"]
 tags: ["#era-post-reformation", "#era-18th-century", "#origin-irish", "#tradition-anglican", "#key-figure", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[The_Singing_Church]]"]
 related: ["[[Nicholas_Brady]]", "[[Thomas_Ken]]", "[[English_Hymnody]]"]
 status: draft
 confidence: high
@@ -35,6 +35,11 @@ This sublime quatrain is the first stanza of a sixteen-line hymn, the rest of wh
 ## Musical and Thematic Context
 
 Butterworth-Brown note that Tate's doxology avoids the "credal line" that limits the universal use of Ken's "Praise God from whom all blessings flow." Where Ken's doxology is inextricably joined with "Old Hundred" and the great tradition of congregational praise, Tate's is noted for its breadth of spirit and its capacity to serve all traditions. The *Methodist Hymnal* includes a collection of ten doxologies, among which one is attributed to "Tate and Brady," acknowledging the Psalter partnership that defined their shared legacy.
+
+### From Lorenz (1938)
+
+Lorenz discusses the Tate and Brady "New Version" in Chapter XIII. He notes that it appeared in 1696, authored by two Irishmen: Nahum Tate, a literary man, playwright, poet, and finally poet laureate, and Nicholas Brady, a clergyman who became chaplain to King William. The royal endorsement helped it gradually replace Sternhold and Hopkins in the English Church, and it was adopted by the Protestant Episcopal Church of America in 1789. Lorenz judges it "a little smoother" than the Old Version with "a little more literary grace," but still shackled by devotion to the exact thought and phraseology of the Hebrew Psalms. He quotes Gillman's verdict that the book "contained a plentiful supply of chaff, but perhaps a few more grains of golden corn than Sternhold's." Among its lasting contributions Lorenz identifies "As pants the hart for cooling streams," "Through all the changing scenes of life," and Tate's Christmas carol "While shepherds watched their flocks by night."
+
 
 ## Hymns in The Christian Hymn Book
 

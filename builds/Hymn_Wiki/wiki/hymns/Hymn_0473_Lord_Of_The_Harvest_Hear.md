@@ -5,7 +5,7 @@ aliases: ["Lord of the harvest! hear", "Math. 9:38."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Charles_Wesley]]", "[[18th_Century_Hymnody]]", "[[Hymn_0305_What_Could_Your_Redeemer_Do]]", "[[Hymn_0705_And_Are_We_Yet_Alive]]", "[[Hymn_1061_How_Happy_Is_The_Pilgrims]]"]
 status: draft
 confidence: high
@@ -86,3 +86,8 @@ There is a hymn by Professor Joseph Anstice, often attributed to Keble, which co
 O Christ, to be Content to bear the burden Of weary days for thee ; We ask no other wages. When thou shalt call us home, But to have shared the travail Which makes thy kingdom come. 3 Come down, thou Holy Spirit! And All our souls with light.
 
 one of the most useful of modern consecration hymns.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 592 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]] (modified by compilers). Section: "Supplement".
+

@@ -753,3 +753,30 @@ Resolved all dead author wikilinks in 1,324 hymn pages. Found ~290 unique dead l
 - **Removed wikilinks** from ~190 collection references and unidentifiable abbreviations (e.g., Wardlaw's Coll, Ancient Hymns, Psalmist)
 - **Created 55 new entity stubs** for identifiable authors who lacked pages (e.g., Josiah Conder, James Edmeston, John Wesley, Felicia Hemans)
 - Entity count: 227 -> 282
+
+## [2026-04-05] maintenance | Author-Hymn Linking + Placeholder Cleanup
+
+- Injected "Hymns in The Christian Hymn Book" sections into 116 author entity pages, covering 748 attributed hymns with wikilinks
+- Replaced misleading enrichment placeholder text in 837 hymn pages with accurate note about source coverage
+- Scripts: `add_hymns_by_author.py`, `clean_placeholders.py`
+
+## [2026-04-05] ingest | A Book of Hymns for Public and Private Devotion (Longfellow-Johnson, 1848)
+
+Source 10. Compiled by Samuel Longfellow and Samuel Johnson. 600 hymns for Unitarian worship.
+- Parsed 600 hymns via `parse_longfellow_johnson.py` → JSON
+- Cross-referenced with Campbell: 184 overlaps, 416 unique hymns
+- Enriched 181 Campbell hymn pages with LJ cross-reference notes
+- Generated 416 new hymn pages (prefix `Hymn_LJ_`) for unique LJ hymns
+- Created source summary: `Book_of_Hymns_for_Public_and_Private_Devotion.md`
+- Created entity: `Samuel_Johnson_Hymn_Compiler.md`
+- Updated entity: `Samuel_Longfellow.md` (added co-compiler role, LJ source ref)
+- Hymn count: 1,324 -> 1,740 (1,324 Campbell + 416 LJ unique)
+
+## [2026-04-05] ingest | The Singing Church (Lorenz, 1938)
+
+Source 11. By Edmund S. Lorenz. Pastoral-scholarly treatment of hymnology, 22 chapters.
+- Created source summary: `The_Singing_Church.md`
+- Created entity: `Edmund_S_Lorenz.md`
+- Wave 1 (Part I, Ch I-VI): Created concept pages for hymn theory (Hymn_Emendation, Gospel_Hymn, Practical_Hymnology, Literary_Quality_in_Hymns)
+- Wave 2 (Part II, Ch VII-XVIII): Enriched 30+ entity pages with "From Lorenz (1938)" subsections
+- Wave 3 (Part III, Ch XIX-XXII): Created concept pages for practical hymnology (Hymn_Selection, Congregational_Singing, Hymn_Study)

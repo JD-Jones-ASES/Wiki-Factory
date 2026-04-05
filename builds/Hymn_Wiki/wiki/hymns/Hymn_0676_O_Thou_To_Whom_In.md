@@ -5,7 +5,7 @@ aliases: ["O Thou, to whom, in ancient time,", "Every place a temple."]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: []
 status: draft
 confidence: high
@@ -74,3 +74,8 @@ O Thou, to whom, in ancient time,
 ### From Nutter & Tillett (1911)
 
 inspired by Christ's conversa- tion with the woman of Samaria at the well.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 81 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Pierpont. Section: "God".
+

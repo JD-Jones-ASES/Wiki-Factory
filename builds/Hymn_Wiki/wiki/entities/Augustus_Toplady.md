@@ -5,7 +5,7 @@ aliases: ["Augustus Montague Toplady", "Augustus Toplady"]
 tags: ["#era-18th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-grace", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Singing_Church]]"]
 related: ["[[English_Hymnody]]", "[[Charles_Wesley]]", "[[John_Newton]]"]
 status: draft
 confidence: high
@@ -97,6 +97,11 @@ Duffield mentions the famous deathbed account of the American preacher Summerfie
 According to Duffield, Gladstone composed a Latin translation of "Rock of Ages" while seated in the House of Commons — "masterly in his scholarly recreations as in his statesmanship."
 
 See also: [[English_Hymnody]], [[Charles_Wesley]], [[John_Newton]]
+
+### From Lorenz (1938)
+
+Lorenz treats Toplady briefly in Chapter XVI among the Calvinistic-Methodist hymn writers. He notes that Toplady (1740--1778) was associated with the Wesleys and the Calvinistic-Methodist leaders but was a Church of England clergyman who wrote 419 hymns, only a few of which continue in use. Of "Rock of Ages," Lorenz says it "has been almost universally used and most mercilessly amended and revised" and has been translated into many languages --- Gladstone having rendered it into Latin, Greek, and Italian. He quotes Montgomery's assessment of Toplady's hymns as having "a peculiarly ethereal spirit" in which "whether mourning or rejoicing, praying or praising, the writer seems absorbed in the full triumph of faith." Lorenz also notes Toplady's important role as a hymnbook compiler: his 1776 *Psalms and Hymns* (containing 418 hymns, including revised Wesley hymns used without credit) anticipated the later literary hymn ideal of Heber, Keble, and Milman, and continued in use for nearly fifty years.
+
 
 ## Hymns in The Christian Hymn Book
 

@@ -5,7 +5,7 @@ aliases: ["Soldiers of Christ, arise!", "Be strong in the Lord."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Charles_Wesley]]", "[[18th_Century_Hymnody]]", "[[Hymn_0305_What_Could_Your_Redeemer_Do]]", "[[Hymn_0628_Hail_The_Day_That_Saw]]", "[[Hymn_1061_How_Happy_Is_The_Pilgrims]]"]
 status: draft
 confidence: high
@@ -77,3 +77,8 @@ Soldiers of Christ, arise!
 ### From Nutter & Tillett (1911)
 
 '*Th0 Whole Armor of Ood** is the orig- inal title of this in Hymns and Sacred Poems, 1749. It is based upon Ephesians vl. 11: "Put on the whole armor of God, that ye may be able to stand against the wiles of the devil." The entire poem con- tains sixteen double stanzas, of which the above are the first, second, and sixteenth. Among all the hymns setting forth the Christian life under the figure of a war- fare, none is more effective and impressive than this.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 542 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "Supplement".
+

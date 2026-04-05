@@ -4,8 +4,8 @@ type: entity
 aliases: ["Aurelius Ambrose", "Saint Ambrose", "Bishop Ambrose"]
 tags: ["#era-early-church", "#origin-latin", "#tradition-catholic", "#key-figure", "#theme-praise", "#theme-trinity"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_Our_Hymns]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Singing_Church]]"]
 related: ["[[Latin_Hymnody]]", "[[Early_Christian_Hymnody]]", "[[Augustine_of_Hippo]]", "[[Hilary_of_Poitiers]]", "[[Venantius_Fortunatus]]"]
 status: draft
 confidence: high
@@ -75,3 +75,8 @@ Ambrose died peacefully on Easter evening, 397 AD, a death so gentle it seemed a
 Philip Schaff called Luther "the Ambrose of German hymnody" --- meaning that what Ambrose did for the Latin West in the fourth century, Luther would do for the German-speaking world in the sixteenth. The highest possible tribute. Ambrose invented the congregational hymn as we know it. Every church that sings together is, in some measure, his heir.
 
 See also: [[Latin_Hymnody]], [[Hilary_of_Poitiers]], [[Venantius_Fortunatus]], [[Augustine_of_Hippo]], [[Early_Christian_Hymnody]]
+
+### From Lorenz (1938)
+
+Lorenz treats Ambrose (340--397) in Chapter X as the pivotal figure in Latin hymnody. He had been a lawyer, not a product of the ecclesiastical system, bringing to his office "a freshness of insight and of resources." When besieged for days in his cathedral, the value of song in supporting his followers' spirits suggested its wider use. Lorenz credits Ambrose with three transformative contributions: he transformed the mere reading hymn confined to the clergy into a singing hymn for the congregation; he abandoned artificial classical meters for the simplest lyrical form --- four lines of four iambic measures, which became Long Meter; and he introduced the free use of rhymes. Lorenz calls Ambrose "not only a learned man of great ability" but also "a man of great piety and devotion" who sought to make worship "genuine and heartfelt as against the formalists." He notes that if Hilary of Poitiers is the grandfather of Western hymnody, Ambrose is its father. Despite opposition from the Roman See and Charlemagne's efforts to destroy Ambrosian hymns, the "Ambrosiani" still keep a small place in the Roman Breviary.
+

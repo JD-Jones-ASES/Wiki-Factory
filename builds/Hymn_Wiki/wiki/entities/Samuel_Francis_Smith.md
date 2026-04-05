@@ -4,8 +4,8 @@ type: entity
 aliases: ["Samuel Francis Smith", "Samuel F. Smith"]
 tags: ["#era-19th-century", "#origin-american", "#tradition-baptist", "#key-figure", "#theme-praise", "#theme-devotion"]
 created: 2026-04-04
-updated: 2026-04-04
-source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[Baptist_Hymn_Writers]]"]
+updated: 2026-04-05
+source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]", "[[Baptist_Hymn_Writers]]", "[[The_Singing_Church]]"]
 related: ["[[American_Hymnody]]", "[[Ray_Palmer]]"]
 status: draft
 confidence: high
@@ -79,6 +79,11 @@ In 1842 he moved to the First Baptist Church in Newton, Massachusetts, which bec
 Burrage provides a particularly rich account of the hymn "Yes, My Native Land, I Love Thee" — generally overshadowed by "America." Smith wrote it while at Andover after reading Home's "Letters on Missions," in a rush of missionary enthusiasm. It was used at the designation service for Rev. John Taylor Jones before his departure to Burma, printed on cards given out by missionary Dr. J. Perkins before he left for Persia, and recited impressively by Edward Judson (son of [[Adoniram_Judson]]) at the 1886 meeting of the American Baptist Missionary Union — who added that the hymn was dear to his honored father. Smith himself came close to going to the foreign field; instead, his son D. A. W. Smith, D.D., served for many years with the American Baptist Missionary Union in Burma and became president of the Theological Seminary at Rangoon.
 
 Burrage notes that Smith wrote approximately one hundred hymns in total, many composed for special occasions such as ordinations and dedications, and that the hymn "Today the Savior Calls" — written while at Andover and later abridged by [[Thomas_Hastings]] for his Spiritual Songs — was suggested by a line from Schiller's "Maria Stuart."
+
+### From Lorenz (1938)
+
+Lorenz discusses Samuel F. Smith in Chapter XVIII among the first great American hymn writers. Still a twenty-four-year-old theological student, Smith wrote both "The morning light is breaking" and "My country, 'tis of thee" for the 1832 *Spiritual Songs for Social Worship*. The national hymn was suggested by Lowell Mason, who needed a patriotic song for his children's singing schools and supplied German music. Smith's eye fell on "Heil dir im Sieger-Kranz," written to the English tune "God Save the King" --- a fact Smith did not know. Lorenz calls the resulting hymn "practically an improvisation, not intended for wide use," yet "greatly superior to its only competitor for national honors, 'The Star-Spangled Banner,' because of its practicability in singing, its dignity, and its noble expression of the American spirit." Of "The morning light is breaking," Lorenz says it was inspired by the missionary spirit prevalent in the seminaries and is "the peer of Heber's 'From Greenland's icy mountains' as a missionary hymn."
+
 
 ## Hymns in The Christian Hymn Book
 

@@ -5,7 +5,7 @@ aliases: ["As the hart, with eager looks,", "The soul panting for God."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymn_0196_Lift_Up_Your_Heads_Ye]]", "[[Hymn_0715_Now_May_The_Lord_Our]]", "[[Hymn_1137_Who_Are_These_In_Bright]]"]
 status: draft
 confidence: high
@@ -72,3 +72,8 @@ As the hart, with eager looks,
 ### From Duffield (1886)
 
 In James Montgomery's Original Hymns it is No. 96, and is entitled " Longing for the Courts of the Lord's House. This Psalm was written before David had attained to his actual kingdom. This is another of the renderings of the 4 2d Psalm.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 226 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Montgomery. Section: "The Christian Character".
+

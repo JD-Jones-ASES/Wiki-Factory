@@ -5,7 +5,7 @@ aliases: ["My God, my Father, while I stray", "Thy will be done."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Charlotte_Elliott]]", "[[19th_Century_Hymnody]]", "[[Hymn_0086_I_Can_Not_Always_Trace]]", "[[Hymn_0581_My_God_Is_Any_Hour]]", "[[Hymn_0998_Saviour_Though_My_Rebellious_Will]]"]
 status: draft
 confidence: high
@@ -79,3 +79,8 @@ The second ''my" is incorrect, for she wrote it " My God and Father." The stanza
 The title and the burden of this favor- ite hymn are taken from the Lord'b Prayer: **Thy Will Be Done.'' It ap- peared first in the appendix to the first edition of The Invalid's Hymn Book, 1834. This hymn differs from that in three lines. In the Invalid's Hymn Book we have "My God and Father." Verse four, line three, closes with *'icas thine;" and verse five begins: *7/ but." One stanza, the fifth of the original, has been omitted: Should pining sickness waste away My life in premature decay.
 
 one of the most beautiful lyrics in the entire hymnal.
+
+### Also in A Book of Hymns (1848)
+
+This hymn also appears as Hymn 263 in [[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns]] (1848), compiled by [[Samuel_Longfellow]] and [[Samuel_Johnson_Hymn_Compiler|Samuel Johnson]], attributed to Anonymous. Section: "The Christian Character".
+
