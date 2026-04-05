@@ -17,6 +17,9 @@ description: "German Reformer, theologian, and founder of evangelical congregati
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Martin Luther by Lucas Cranach the Elder](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Martin_Luther_by_Lucas_Cranach_the_Elder_-_Statens_Museum_for_Kunst_-_DSC08170.JPG/250px-Martin_Luther_by_Lucas_Cranach_the_Elder_-_Statens_Museum_for_Kunst_-_DSC08170.JPG)
+*Portrait of Martin Luther by Lucas Cranach the Elder (public domain, CC0)*
+
 # Martin Luther
 
 ## The Man Who Gave the Church Its Voice

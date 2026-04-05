@@ -5,7 +5,7 @@ aliases: ["Jesus, lover of my soul,", "A covert from the storm. Isaiah 4:6."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]", "[[Web_Research]]"]
 related: []
 status: draft
 confidence: high
@@ -82,16 +82,18 @@ Jesus, lover of my soul,
 
 ## Historical Context
 
-### From Duffield (1886)
+*Source material: [[English_Hymns_Their_Authors_and_History]] (Duffield, 1886); [[The_Hymns_and_Hymn_Writers_of_the_Church]] (Nutter & Tillett, 1911); web research.*
 
-The baffled hawk did not dare to follow, and the poet took his pen and wrote this immortal song. The traditional origin of the hymn is that Wesley was seated at his desk when a bird pursued by a hawk flew into the open window. Of itself it would have immortalized its author, but, being itself, it was a pledge that many more verses would accompany it from the same pen.
+[[Charles Wesley]] (1707–1788) wrote somewhere between 6,000 and 9,000 hymns over his lifetime --- an almost incomprehensible output. Of all of them, "Jesus, Lover of My Soul" stands apart for its intimate intensity. It was published in 1740 under the title "In Temptation" in *Hymns and Sacred Poems*, just two years after Wesley's conversion.
 
-dispute the supremacy with this.
+**The legends of its origin:** Several stories have attached themselves to this hymn over the centuries, and none can be fully verified. The most famous --- told by Duffield among others --- is that Wesley was sitting at his desk when a small bird, pursued by a hawk, flew in through his open window and took shelter in the folds of his coat. The image of desperate refuge prompted the hymn. A second story holds that the hymn was written in the aftermath of a violent mob attack on Wesley and his brother [[John Wesley]] at a preaching site. A third links it to Charles Wesley's near-shipwreck on his return from America in 1736, where he had spent a discouraging year as secretary to Governor Oglethorpe of Georgia. The heading "In Temptation" and the hymn's vivid imagery of storms and billows suggest real danger, not merely metaphorical threat --- but which danger sparked the writing is unknown.
 
-This is to group the incidents relating to it, so far as they bear any evidence of authenticity. Few hymns have been more extensively blessed in the dying hours of believers.
+**John Wesley's ambivalence:** Strikingly, [[John Wesley]] did not include this hymn in his later official hymnals --- perhaps because its language was unusually intimate and pietistic for public worship. The phrase "Jesus, lover of my soul" seemed too personal, too private for a congregational setting in the elder brother's judgment. The hymn nonetheless escaped suppression and became, in Nutter & Tillett's assessment, "one of the most popular and beloved hymns in the language."
 
-### From Nutter & Tillett (1911)
+**At the hour of death:** Duffield observes that "few hymns have been more extensively blessed in the dying hours of believers." The deathbed accounts attached to this hymn are numerous --- it became the natural prayer of those on the threshold, its imagery of the sheltering wing and the haven guide perfectly fitted to the moment of final crossing.
 
-0 receive my soul at last ! 2 Other refuge have I none; Hangs my helpless soul on thee: Leave, ah ! leave me not alone. Still support and comfort me: All my trust on thee Is stayed, All my help from thee I bring; Cover my defenseless head With the shadow of thy wing. 3 Thou. O Christ, art all I want ; More than ail in thee I find; Raise the fallen, cheer the faint.
+**Two great tunes:** The hymn is sung to two beloved melodies --- "Martyn" by [[Simeon Butler Marsh]], which is the tune found in the Campbell collection, and the older "Aberystwyth" by Joseph Parry, which carries a darker, more urgent beauty. The two tunes draw out different aspects of the text: Martyn is tender, Aberystwyth is pleading.
 
-one of the most popular and be- loved hymns in the language.
+## Listen
+
+- [Jesus Lover of My Soul - Welsh Male Voice Choir](https://www.youtube.com/watch?v=moMR1dCwx8M) — sung to the Aberystwyth tune (Joseph Parry), traditional Welsh choral style

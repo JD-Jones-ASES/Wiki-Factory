@@ -17,6 +17,9 @@ description: "American hymn composer and poet who wrote over 1,000 hymn tunes in
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Thomas Hastings](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Thomas_Hastings_%28composer%29.jpg/250px-Thomas_Hastings_%28composer%29.jpg)
+*Portrait of Thomas Hastings (public domain)*
+
 # Thomas Hastings
 
 High among the names of those who in the early days of America labored to raise the standard of hymnody stands Thomas Hastings, Doctor of Music. Poet and musician by nature, Hastings devoted his entire life to the elevation of sacred song --- and the Church has been singing his melodies ever since.

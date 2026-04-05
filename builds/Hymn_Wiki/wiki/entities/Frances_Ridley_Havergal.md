@@ -17,6 +17,9 @@ description: "English consecration poet who lived her hymns before she wrote the
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Frances Ridley Havergal](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Frances_Ridley_Havergal.jpg/250px-Frances_Ridley_Havergal.jpg)
+*Portrait of Frances Ridley Havergal (public domain)*
+
 # Frances Ridley Havergal
 
 To read the story of Frances Ridley Havergal's life is not only an inspiration, Ryden writes, but it "discloses at once the secret of her beautiful hymns. She lived her hymns before she wrote them."

@@ -4,7 +4,7 @@ type: entity
 aliases: ["Phillips Brooks", "Bishop Brooks"]
 tags: ["#era-19th-century", "#origin-american", "#tradition-anglican", "#key-figure", "#theme-praise", "#theme-devotion"]
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_refs: ["[[The_Story_of_Our_Hymns]]"]
 related: ["[[American_Hymnody]]", "[[Samuel_Francis_Smith]]"]
 status: draft
@@ -16,6 +16,9 @@ description: "American Episcopal bishop and great Boston preacher who wrote 'O l
 
 
 > [[_overview|Home]] > [[People_Overview|People]]
+
+![Portrait of Phillips Brooks](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Portrait_of_Phillips_Brooks.jpg/250px-Portrait_of_Phillips_Brooks.jpg)
+*Portrait of Phillips Brooks (public domain)*
 
 # Phillips Brooks
 

@@ -13,6 +13,9 @@ confidence: high
 
 > [[_overview|Home]] > [[Concepts_Overview|Concepts]]
 
+![Methodist Camp Meeting, 1819 engraving](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Methodist_camp_meeting_%281819_engraving%29.jpg/400px-Methodist_camp_meeting_%281819_engraving%29.jpg)
+*A Methodist camp meeting, 1819 engraving (public domain)*
+
 # Camp Meeting Hymns
 
 The camp meeting hymn is a distinct type of American religious song — not the same as the revival hymn of the Great Awakening, not the same as the Gospel Song of Moody and Sankey — but a form born at a specific moment in a specific place and bearing the marks of that birth throughout its development. Benson's account of this tradition is one of the most illuminating sections of *The English Hymn*, providing the historical grounding for a body of song that many subsequent histories have treated as simply "popular American religious song."

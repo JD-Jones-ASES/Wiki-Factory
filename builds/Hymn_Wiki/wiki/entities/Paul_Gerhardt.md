@@ -4,7 +4,7 @@ type: entity
 aliases: ["Gerhardt", "Prince of Lutheran Hymnists", "Germany's Great Psalmist"]
 tags: ["#era-post-reformation", "#origin-german", "#tradition-lutheran", "#key-figure", "#theme-trust", "#theme-devotion", "#theme-suffering", "#theme-nature"]
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]"]
 related: ["[[Martin_Luther]]", "[[Joachim_Neander]]", "[[Johann_Heermann]]", "[[Martin_Rinkart]]", "[[Thirty_Years_War_Hymns]]", "[[Pietism]]"]
 status: draft
@@ -16,6 +16,9 @@ description: "The greatest Lutheran hymnist, called the Prince of Lutheran Hymni
 
 
 > [[_overview|Home]] > [[People_Overview|People]]
+
+![Portrait of Paul Gerhardt](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Paul_Gerhardt.jpg/250px-Paul_Gerhardt.jpg)
+*Portrait of Paul Gerhardt (public domain)*
 
 # Paul Gerhardt
 

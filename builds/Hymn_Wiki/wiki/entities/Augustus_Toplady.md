@@ -17,6 +17,9 @@ description: "Anglican minister and Calvinist whose 'Rock of Ages' is the most p
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Augustus Toplady](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Augustus_Toplady.png/250px-Augustus_Toplady.png)
+*Portrait of Augustus Toplady (public domain)*
+
 # Augustus Toplady
 
 A British magazine once invited its readers to name the hundred English hymns they most esteemed. 3,500 persons responded. "Rock of Ages" was named first by 3,215 of them.

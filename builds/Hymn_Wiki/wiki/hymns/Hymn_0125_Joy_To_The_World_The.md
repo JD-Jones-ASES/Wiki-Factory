@@ -5,7 +5,7 @@ aliases: ["Joy to the world; the Lord is come!", "Joy to the world."]
 tags: ["#meter-common", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
 related: []
 status: draft
 confidence: high
@@ -14,8 +14,8 @@ first_line: "Joy to the world; the Lord is come!"
 meter: "C. M"
 topic: "Joy to the world."
 author: "Watts"
-composer: ""
-tune_name: ""
+composer: "Lowell Mason"
+tune_name: "Antioch"
 scripture_refs: []
 stanza_count: 4
 era: "18th-century"
@@ -66,6 +66,18 @@ Joy to the world; the Lord is come!
 
 ## Historical Context
 
-### From Duffield (1886)
+*Source material: [[English_Hymns_Their_Authors_and_History]] (Duffield, 1886); web research.*
 
-The Esthonians realized this when they formed their legend of the origin of song. Watts's version, Second Part, C. M., '* The Messiah's Coming and Kingdom." It has four stanzas.
+[[Isaac Watts]] wrote this poem in 1719 as part of his collection *The Psalms of David Imitated in the Language of the New Testament* --- and that subtitle is the key to understanding what "Joy to the World" actually is. It is not a Christmas carol. It was never intended as a Christmas carol. Watts wrote it as a paraphrase of Psalm 98, the great psalm of universal rejoicing, and its vision is not of Christ's first coming as an infant but of his second coming as King.
+
+**Not about Christmas at all:** Watts's version in 1719 was subtitled "The Messiah's Coming and Kingdom." The imagery --- "He rules the world with truth and grace," "No more let sins and sorrows grow," "Far as the curse is found" --- is eschatological, about the final reign of Christ over a renewed creation. Watts was imagining the end of history, not the manger in Bethlehem.
+
+**How it became a Christmas carol:** In 1848, [[Lowell Mason]] --- who had already set "When I Survey the Wondrous Cross" and "My Faith Looks Up to Thee" to lasting tunes --- published an arrangement of a melody he attributed to George Frideric Handel in *The National Psalmist*. Scholars have since determined that the tune does not actually appear in Handel's works; it may be loosely adapted from passages in *Messiah* or *Esther*, but it was essentially Mason's own creation. Because Mason published it near Christmas, congregations adopted it as a Christmas hymn. By the end of the 19th century, it had become the most published Christmas carol in America, a status its author never imagined for it.
+
+**Watts and the reform of congregational singing:** This hymn is a small piece of a much larger project. When [[Isaac Watts]] published his psalm paraphrases, he was deliberately breaking from the tradition that allowed only direct scriptural text in worship. His innovation --- reading the Psalms through the lens of the New Testament --- transformed English Protestant worship and laid the foundation for all subsequent English hymnody.
+
+*Duffield (1886) notes the text is Watts's "second part" paraphrase in Common Meter, titled "The Messiah's Coming and Kingdom," with four stanzas.*
+
+## Listen
+
+- [Joy to the World - The Tabernacle Choir at Temple Square](https://www.youtube.com/watch?v=7r3vvMUHAXU) — orchestral choral arrangement, tune attributed to Handel, arranged by Lowell Mason

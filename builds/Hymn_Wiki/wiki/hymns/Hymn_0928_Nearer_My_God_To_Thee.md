@@ -5,7 +5,7 @@ aliases: ["Nearer, my God, to thee,", "Nearer to thee."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]", "[[Web_Research]]"]
 related: []
 status: draft
 confidence: high
@@ -18,7 +18,7 @@ composer: "Lowell Mason"
 tune_name: "Bethany"
 scripture_refs: []
 stanza_count: 5
-era: ""
+era: "19th-century"
 ---
 
 
@@ -86,16 +86,18 @@ Nearer, my God, to thee,
 
 ## Historical Context
 
-### From Duffield (1886)
+*Source material: [[English_Hymns_Their_Authors_and_History]] (Duffield, 1886); [[The_Hymns_and_Hymn_Writers_of_the_Church]] (Nutter & Tillett, 1911); web research.*
 
-But her abilities ran in the direction of music rather than poetry, and her connection with hymnology is through the tunes which she composed for her sister's verses. While she is reckoned as a poetess of no mean repute, in consequence of her Vivia Perpetua, it is as the author of this hymn that she will be best remembered. Few hymns have received such general approval as this.
+[[Sarah Flower Adams]] (1805–1848) was an English poet and actress of some talent who is remembered almost entirely for this single hymn. She wrote it in 1841 for the London Unitarian minister William Johnson Fox's collection *Hymns and Anthems*, where it was first published. The middle three stanzas meditate on the story of Jacob's dream at Bethel in Genesis 28, in which Jacob slept on a stone and saw angels ascending and descending a ladder to heaven --- the image from which [[Lowell Mason]]'s tune "Bethany" takes its name.
 
-Adams was entirely happy in her home and in her sister's love, but the long illness of Eliza wore upon her natur- ally delicate constitution, and she survived but two years, dying on the 14th of August, 1848. Adams was buried in Foster Street burial- ground, Harlow, Essex, and one of her own hymns — said to be " He giveth sun, he giveth shower" — was sung at her funeral.
+**The writer's brief life:** Adams and her sister Eliza Flower were extraordinarily close. Eliza was the composer who set Sarah's verses to music, and their collaboration was the center of both their lives. The long illness of Eliza wore upon Sarah's own fragile constitution. Eliza died in December 1846; Sarah survived her by only two years, dying on August 14, 1848, at age 43. One of her own hymns was sung at her funeral.
 
-### From Nutter & Tillett (1911)
+**President McKinley:** The hymn's most famous historical association is with President William McKinley, who was shot by an assassin on September 6, 1901. As he lay dying, he is reported to have murmured the opening lines. When he died on September 14, five minutes of national silence were observed across the United States, and then bands played "Nearer, My God, to Thee" simultaneously in cities across the country. The Marine Band played it during the funeral procession in Washington.
 
-author wrote in the fifth line of the first stanza: Still all my song would be.
+**The Titanic controversy:** Following the sinking of the RMS Titanic in April 1912, numerous survivors reported that the ship's string ensemble played this hymn as the ship went down --- an image that has become one of the most enduring in maritime history. However, wireless operator Harold Bride said he heard "Autumn" being played, and survivor Archibald Gracie emphatically denied the "Nearer My God to Thee" account. The question remains unresolved, but the story itself speaks to how deeply the hymn was embedded in cultural consciousness --- when people imagined a noble death, they imagined this song.
 
-### From Nutter & Tillett (1911)
+*Note: Adams originally wrote "Still all my song would be" in the first stanza. The more familiar "shall be" is an alteration by later editors, as Nutter & Tillett (1911) document.*
 
-The sun gfone down. Darkness be over me. My rest a stone, Tet in my dreams I'd be Nearer, my God, to thee, Nearer to thee ! 3 There let the way appear, Steps unto heaven ; All that thou sendest me.
+## Listen
+
+- [Nearer My God to Thee - Anna Richey](https://www.youtube.com/watch?v=UAgm0AtPQ-g) — solo vocal performance, traditional tune Bethany (Lowell Mason)

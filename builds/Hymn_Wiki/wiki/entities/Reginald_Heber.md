@@ -17,6 +17,9 @@ description: "Anglican bishop, missionary to India, and poet whose 57 hymns incl
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Reginald Heber](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Reginald_Heber.jpg/250px-Reginald_Heber.jpg)
+*Portrait of Reginald Heber (public domain)*
+
 # Reginald Heber
 
 Alfred Tennyson, who had seen the best English poetry of his century, called "Holy, holy, holy, Lord God Almighty" the world's greatest hymn. The man who wrote it was Reginald Heber, missionary bishop of Calcutta, and the words were only part of a gift he gave the Church.

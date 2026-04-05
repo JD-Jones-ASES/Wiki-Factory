@@ -4,7 +4,7 @@ type: entity
 aliases: ["Father of American Choir Singing", "Lowell Mason"]
 tags: ["#era-19th-century", "#origin-american", "#key-figure", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
 related: ["[[American_Hymnody]]", "[[Thomas_Hastings]]", "[[Reginald_Heber]]", "[[Samuel_Francis_Smith]]"]
 status: draft
@@ -16,6 +16,9 @@ description: "The father of American choral singing, who composed dozens of indi
 
 
 > [[_overview|Home]] > [[People_Overview|People]]
+
+![Portrait of Lowell Mason](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Dr._Lowell_Mason.jpg/250px-Dr._Lowell_Mason.jpg)
+*Dr. Lowell Mason (public domain)*
 
 # Lowell Mason
 

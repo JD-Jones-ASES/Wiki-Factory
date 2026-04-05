@@ -5,7 +5,7 @@ aliases: ["Amazing grace! (how sweet the sound!)", "I was blind, but now I see."
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
 related: []
 status: draft
 confidence: high
@@ -14,8 +14,8 @@ first_line: "Amazing grace! (how sweet the sound!)"
 meter: "C. M"
 topic: "I was blind, but now I see."
 author: "Newton"
-composer: ""
-tune_name: ""
+composer: "William Walker"
+tune_name: "New Britain"
 scripture_refs: ["John 9:25."]
 stanza_count: 4
 era: "18th-century"
@@ -68,14 +68,24 @@ era: "18th-century"
 
 ## Historical Context
 
-### From Duffield (1886)
+*Source material: [[The_Hymns_and_Hymn_Writers_of_the_Church]] (Nutter & Tillett, 1911); [[English_Hymns_Their_Authors_and_History]] (Duffield, 1886); web research.*
 
-The title of this piece in the Olney Hymns, where it is No. 41 of Book I., is " Faith's Review and Expectation." It has six stan- zas, and its appended text is i Chron. 17 : i6, 17. T\\q Moravian Hymn Book, 1789, also includes it. Newton's hymns, it is the transcript of his own experience — an experience which we have reserved to be told in full at another place in this volume.
+Few hymns in all of Christian history carry a more extraordinary autobiography than this one. [[John Newton]] was born in London in 1725. His mother died before his seventh birthday, and by his teenage years he had become a sailor --- dissolute, profane, and eventually caught up in the most brutal trade of the era: the transatlantic slave trade. He worked aboard slave ships and for a time was himself nearly enslaved by a trader on the West African coast, reduced to starvation and dependence on the enslaved people he had been sent to oversee.
 
-### From Nutter & Tillett (1911)
+**The storm that changed everything:** On March 10, 1748, a violent storm battered Newton's ship in the North Atlantic. Convinced the vessel was sinking, he cried out to God for mercy --- the first sincere prayer of his adult life. The ship survived. Newton described that night as the beginning of his spiritual awakening, though he continued in the slave trade for several more years, a contradiction that would later haunt him.
 
-Unaltered and entire from Olney Hymns, 1779.
+**The writing of the hymn:** Newton eventually left seafaring, was ordained as an Anglican clergyman, and settled in Olney, Buckinghamshire, where he became friends with the poet [[William Cowper]]. Together they wrote the *Olney Hymns* (1779), one of the most significant collections in English hymnody. Newton contributed 280 of the 348 texts. "Amazing Grace" appears as No. 41 in Book I, titled "Faith's Review and Expectation," based on 1 Chronicles 17:16–17 --- David's prayer of astonished gratitude before God. Newton wrote it around Christmas 1772; it was likely first used at a New Year's prayer meeting on January 1, 1773.
 
-### From Nutter & Tillett (1911)
+**The testimony behind the words:** The hymn is frankly autobiographical. "A wretch like me" was not poetic humility --- Newton meant it literally. His 1764 narrative *An Authentic Narrative* had laid out his life in confession for all to read. The word "blind" carried personal weight: he had been spiritually blind for decades while participating in unimaginable cruelty.
 
-Title: ^'Faith's Review and Expecta- tion'' It is based on 1 Chronicles xvii. 16, 17: vrtio am I, O Lord God, and what is mine house, that thou hast brought me hitherto? And yet this was a small thing in thine eyes, O God ; for thou hast also spoken of thy serv- ant's house for a great while to come, and hast regarded me according to the estate of a man of high degree, O Lord God. The author of this hymn plainly refers to his own life and experience.
+**Newton's abolitionism:** In his final decades, Newton became an ardent abolitionist and testified before Parliament in 1788, helping fuel [[William Wilberforce]]'s campaign that led to the Slave Trade Act of 1807. Newton died in 1807, long enough to see it passed. His epitaph, which he wrote himself, called him "a great sinner, once an infidel and libertine... preserved, restored, pardoned, and appointed to preach the faith he had long laboured to destroy."
+
+**The famous final stanza:** The best-known closing stanza --- "When we've been there ten thousand years" --- was *not* written by Newton. It circulated orally in African-American communities and was first attached to Newton's text in Harriet Beecher Stowe's 1852 novel *Uncle Tom's Cabin*. It wasn't formally published together with Newton's verses until Edwin O. Excell's *Coronation Hymns* (1910). The irony is profound: the stanza that made Newton's hymn immortal was written by the community his trade had once enslaved.
+
+**The tune:** The familiar "New Britain" tune is American in origin, first published in William Walker's *Southern Harmony* (1835). Newton never wrote a tune; his original was probably sung to a variety of common-meter melodies. The Campbell 1870 collection printed four of Newton's original six stanzas; notably absent is the well-known second stanza ("'Twas grace that taught my heart to fear"), which *was* part of Newton's original but was omitted from this edition.
+
+*Source notes (original documents): Duffield (1886) notes the title "Faith's Review and Expectation" in the Olney Hymns, text appended to 1 Chron. 17:16–17. Nutter & Tillett (1911) confirm the text unaltered from the 1779 edition.*
+
+## Listen
+
+- [Amazing Grace - The Tabernacle Choir at Temple Square](https://www.youtube.com/watch?v=C2arm5ydeJc) — orchestral arrangement by Mack Wilberg, filmed on the banks of the Missouri River

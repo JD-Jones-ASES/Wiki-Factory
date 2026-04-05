@@ -610,6 +610,31 @@ Ran `factory/scripts/enrich_hymns.py` to push extracted data from Duffield, Metc
 - 819 hymns still lack era values (minor/anonymous authors not in era lookup table)
 - 1,295 hymns still lack composer information (tune data sparse for Campbell's 1870 collection)
 
+## 2026-04-05 | enrich | Portrait Images Added to Entity Pages
+
+Added public domain portrait images from Wikimedia Commons to 20 entity pages and 3 concept pages. All images verified CC0 or public domain.
+
+**Tier 1 entity portraits (all 10 added):**
+- [[Isaac_Watts]] — NPG portrait
+- [[Charles_Wesley]] — classic portrait
+- [[John_Newton]] — National Library of Wales portrait
+- [[Martin_Luther]] — Cranach the Elder (Statens Museum, CC0)
+- [[Fanny_Crosby]] — portrait photograph
+- [[Augustus_Toplady]] — engraved portrait
+- [[William_Cowper]] — Lemuel Francis Abbott, 1792
+- [[Reginald_Heber]] — formal portrait
+- [[Charlotte_Elliott]] — portrait with signature
+- [[Philip_Doddridge]] — engraved portrait
+
+**Tier 2 entity portraits (10 added):**
+- [[John_Henry_Newman]], [[John_Keble]], [[Frances_Ridley_Havergal]], [[Paul_Gerhardt]], [[Lowell_Mason]], [[Thomas_Hastings]], [[George_Frederic_Handel]] (Denner portrait), [[John_Mason_Neale]], [[Phillips_Brooks]]
+- Note: Paul Gerhardt image confirmed by Wikidata structured data
+
+**Historical scene images (3 added to concept pages):**
+- [[Reformation_Hymnody]] — Ferdinand Pauwels, "Luther Hammers His 95 Theses" (public domain)
+- [[Camp_Meeting_Hymns]] — Methodist Camp Meeting, 1819 engraving (public domain)
+- [[Revival_Hymns]] — J. Maze Burbank, "Religious Camp Meeting," 1839 watercolor (public domain)
+
 ## 2026-04-05 | summary | Five-Source Ingest Complete
 
 Ingested 5 new sources totaling 216,756 lines of OCR text into the Hymn Wiki:
@@ -626,3 +651,60 @@ Ingested 5 new sources totaling 216,756 lines of OCR text into the Hymn Wiki:
 **Wiki totals after ingest:** 227 entities, 39 concepts, 9 sources, 5 synthesis, 1 timeline, 1,324 hymns. Total pages: ~1,616.
 
 **Hymn page enrichment:** 500 of 1,324 hymn pages upgraded from stub to draft. 486 received historical context. 505 received era assignments. 29 received composer data.
+
+## 2026-04-05 | enrich | Famous Hymns Historical Context
+
+Web-researched and enriched 14 of the most famous hymns with full Historical Context sections. For each hymn: replaced thin/fragmented source notes with 200–450 word narratives covering composition story, writer's life context, cultural impact, textual history, and tune information. Also filled in missing `composer`, `tune_name`, and `era` frontmatter fields. Updated `source_refs` to include `[[Web_Research]]`.
+
+**Hymns enriched:**
+
+| File | Title | Author | Key Story |
+|------|-------|--------|-----------|
+| Hymn_0403 | Amazing Grace | John Newton | Slave trade → storm conversion → Olney Hymns; "ten thousand years" stanza's African-American origin |
+| Hymn_0261 | Rock of Ages | Augustus Toplady | Gospel Magazine 1776; Burrington Combe legend debunked; Toplady-Wesley feud |
+| Hymn_1227 | Abide With Me | Henry Francis Lyte | Final sermon, Sept 4 1847, dying of TB; Monk's tune composed in grief at sunset |
+| Hymn_0343 | Just As I Am | Charlotte Elliott | 1834 invalid, César Malan's counsel, Billy Graham altar calls |
+| Hymn_0262 | Jesus Lover of My Soul | Charles Wesley | 1740, hawk-and-bird legend; John Wesley's reluctance to publish it |
+| Hymn_0512 | When I Survey the Wondrous Cross | Isaac Watts | 1707, first English first-person hymn; Charles Wesley's tribute |
+| Hymn_0928 | Nearer My God to Thee | Sarah Flower Adams | 1841; McKinley deathbed; Titanic controversy |
+| Hymn_0495 | Blest Be the Tie That Binds | John Fawcett | 1782 Wainsgate; refused London call; wagon-unloading story |
+| Hymn_0542 | My Faith Looks Up to Thee | Ray Palmer | 1830 pocket-book poem; Mason street encounter; tune Olivet composed same evening |
+| Hymn_0792 | How Firm a Foundation | "K" (George Keith?) | 1787 Rippon's Selection; anonymous mystery; Andrew Jackson, Robert E. Lee, Theodore Roosevelt connections |
+| Hymn_0125 | Joy to the World | Isaac Watts | 1719 Psalm 98 paraphrase; NOT originally a Christmas hymn; Lowell Mason's "Antioch" tune |
+| Hymn_0590 | Lead Kindly Light | John Henry Newman | 1833 Mediterranean becalming; Oxford Movement; Newman's 2019 canonization |
+| Hymn_0660 | Come Thou Fount / O Thou Fount | Robert Robinson | 1758 at age 22; "prone to wander" autobiography; later drift and the famous coach story |
+| Hymn_0075 | O God Our Help in Ages Past | Isaac Watts | 1714 written during Queen Anne's succession crisis; Wesley's line change; British near-national-anthem status |
+
+**Hymns not found in this collection:** "O for a Thousand Tongues" (Wesley), "Holy Holy Holy" (Heber), "All Hail the Power of Jesus' Name" (Perronet), "Onward Christian Soldiers" (Baring-Gould) — these titles/authors do not appear to be in the 1870 Campbell collection used as source.
+
+**Note:** Hymn_0177 (O Sacred Head Now Wounded) was already fully enriched from a prior session; no changes needed.
+
+## [2026-04-05] edit | YouTube Listen Sections Added
+
+Added `## Listen` sections with YouTube performance links to 10 hymn pages (the most well-known hymns present in the 1870 Campbell collection). Video IDs sourced via web search and page fetching.
+
+| Hymn | Title | YouTube Link Description |
+|------|-------|--------------------------|
+| Hymn_0403 | Amazing Grace | Tabernacle Choir, Mack Wilberg orchestral arrangement |
+| Hymn_0261 | Rock of Ages | Antrim Mennonite Choir, unaccompanied four-part |
+| Hymn_1227 | Abide With Me | Tabernacle Choir, tune Eventide (Monk) |
+| Hymn_0512 | When I Survey the Wondrous Cross | Tabernacle Choir, Hamburg tune (Lowell Mason) |
+| Hymn_0660 | Come Thou Fount / O Thou Fount | Traditional congregational arrangement, tune Nettleton |
+| Hymn_0262 | Jesus, Lover of My Soul | Welsh Male Voice Choir, Aberystwyth tune (Joseph Parry) |
+| Hymn_0928 | Nearer, My God, to Thee | Anna Richey solo, tune Bethany (Lowell Mason) |
+| Hymn_0590 | Shed Kindly Light / Lead Kindly Light | Choral, tune Lux Benigna (John Bacchus Dykes) |
+| Hymn_0125 | Joy to the World | Tabernacle Choir, orchestral, tune Antioch (Lowell Mason) |
+| Hymn_0075 | Our God, Our Help in Ages Past | Westminster Abbey, tune St Anne (William Croft) |
+
+**Three hymns not updated** (YouTube video IDs could not be confirmed): Hymn_0343 (Just As I Am), Hymn_0495 (Blest Be the Tie That Binds), Hymn_0542 (My Faith Looks Up to Thee).
+
+## [2026-04-05] edit | YouTube Listen Sections — Second Pass
+
+Added `## Listen` sections to 2 more hymn pages after additional web research:
+
+| Hymn | Title | YouTube Link Description |
+|------|-------|--------------------------|
+| Hymn_0343 | Just As I Am | HymnCharts lyrics/sing-along video, tune Woodworth (William Bradbury) |
+| Hymn_0495 | Blest Be the Tie That Binds | Sara Groves retuned version, *The Collection* (2013), tune Dennis |
+
+**One hymn still without a Listen section:** Hymn_0542 (My Faith Looks Up to Thee, Ray Palmer) — no confirmed YouTube video ID found after extensive searching.

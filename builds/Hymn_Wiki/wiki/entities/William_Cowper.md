@@ -17,6 +17,9 @@ description: "Afflicted English poet who wrote deeply personal hymns of faith an
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of William Cowper by Lemuel Francis Abbott](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/William_Cowper_by_Lemuel_Francis_Abbott.jpg/250px-William_Cowper_by_Lemuel_Francis_Abbott.jpg)
+*Portrait of William Cowper by Lemuel Francis Abbott, 1792 (public domain)*
+
 # William Cowper
 
 Paul once wrote to the Corinthians: *"God chose the weak things of the world, that he might put to shame the things that are strong."* In a very special sense this truth was exemplified in the life of William Cowper. If God ever made use of a frail instrument to glorify Himself, He did it in this man.

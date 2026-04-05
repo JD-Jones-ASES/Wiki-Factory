@@ -17,6 +17,9 @@ description: "Former slave-trader turned Anglican rector whose radical conversio
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of John Newton](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Portrait_of_John_Newton_%284669866%29.jpg/250px-Portrait_of_John_Newton_%284669866%29.jpg)
+*Portrait of John Newton (public domain)*
+
 # John Newton
 
 In an old English church there is a memorial tablet that tells the most dramatic story in all of hymnody. Newton wrote his own epitaph, and it reads:

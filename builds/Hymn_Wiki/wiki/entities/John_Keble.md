@@ -4,7 +4,7 @@ type: entity
 aliases: ["John Keble", "Rev. John Keble"]
 tags: ["#era-19th-century", "#origin-english", "#tradition-anglican", "#key-figure", "#theme-devotion"]
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
 related: ["[[English_Hymnody]]", "[[William_Henry_Monk]]", "[[Oxford_Movement]]"]
 status: draft
@@ -16,6 +16,9 @@ description: "Anglican rector and Oxford Movement poet, author of 'The Christian
 
 
 > [[_overview|Home]] > [[People_Overview|People]]
+
+![Portrait of John Keble](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Portrait_of_John_Keble_%28cropped%29.jpg/250px-Portrait_of_John_Keble_%28cropped%29.jpg)
+*Portrait of John Keble (public domain)*
 
 # John Keble
 

@@ -5,7 +5,7 @@ aliases: ["My faith looks up to thee,", "Christ our confidence."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
 related: []
 status: draft
 confidence: high
@@ -14,8 +14,8 @@ first_line: "My faith looks up to thee,"
 meter: "6s & 4s"
 topic: "Christ our confidence."
 author: "Ray Palmer"
-composer: "Olivet"
-tune_name: ""
+composer: "Lowell Mason"
+tune_name: "Olivet"
 scripture_refs: []
 stanza_count: 4
 era: "19th-century"
@@ -78,20 +78,14 @@ My faith looks up to thee,
 
 ## Historical Context
 
-### From Duffield (1886)
+*Source material: [[English_Hymns_Their_Authors_and_History]] (Duffield, 1886); [[The_Hymns_and_Hymn_Writers_of_the_Church]] (Nutter & Tillett, 1911); web research.*
 
-I recollect I wrote them with very tender emotion and ended the last line with tears." The manuscript was then placed in a pocket-Book, where it remained for some time. Rankin, "several years of transat- lantic life before it was much known in America ; and possibly was in- debted to its foreign and uncertain origin for its first recognition here, as many another native production has been." "As originally written" (says Mr. Ray Palmer's own account in his collected Poems, 1875, we have these authentic facts : The hymn was written in 1830, but not published (as a hymn) until 1833.
+The story of "My Faith Looks Up to Thee" is the story of a poem that spent two years in a pocket-book, unknown to the world, until an accidental encounter on a Boston street changed everything.
 
-omitted, four only being given in the Church collections.
+**The young man and his poem:** [[Ray Palmer]] (1808–1887) was 22 years old, a recent graduate of Yale College, supporting himself by teaching at a seminary for young women in New York while studying theology. In December 1830, he wrote six stanzas of verse --- a prayer of personal surrender and faith --- and he recalled later that he "wrote them with very tender emotion and ended the last line with tears." He tucked the manuscript in his pocket-book, and there it stayed, unshared and unpublished, for two years.
 
-Among other incidents she related that she had been permitted to see the conversion of her whole family, who were Maronites of Mount Lebanon. I recollect I wrote them with very tender emotion and ended the last line with tears." The manuscript was then placed in a pocket-Book, where it remained for some time.
+**The meeting on a Boston street:** In 1832, Palmer encountered [[Lowell Mason]], the great American church musician, on a street in Boston. Mason was compiling *Spiritual Songs for Social Worship* with Thomas Hastings and asked if Palmer had anything suitable. Palmer produced his leather pocket-book and showed Mason the poem. The two stepped into a nearby store so Mason could copy it out. Mason went home, read it that evening, and immediately composed the tune "Olivet" --- which has never been set to any other words and never needed to be. Several days later Mason saw Palmer again and said: "Mr. Palmer, you may live many years and do many good things, but I think you will be best known to posterity as the author of 'My Faith Looks Up to Thee.'" It was a prophecy that proved exactly right.
 
-### From Nutter & Tillett (1911)
+**America's hymn:** Dr. Theodore Cuyler called it "by far the most precious contribution which American genius has yet made to the hymnology of the Christian Church." In a field dominated by British writers --- Watts, Wesley, Newton, Cowper --- Palmer stands as the great American voice, and this single hymn is his claim.
 
-Mr. Palmer, you may live many years and do many good things, but I think you will be best known to pos- terity as the author of *My faith looks up to Thee.'
-
-### From Nutter & Tillett (1911)
-
-"This hymn," says Dr. Cuyler, **is by far the most precious con- tribution which American genius has yet made to the hymnology of the Christian Church." It was written in December, 1830, when the author was only twenty- two years old. He had just graduated from Yale College, and had begun the study of theology, supporting himself by teaching in a seminary for young ladies in New York City.
-
-one of the noblest prayer-hymns ever written.
+**The original six stanzas:** Palmer originally wrote six stanzas; only four appear in most hymnals. The hymn was published in 1833 --- its first public appearance three years after it was written in tears by a 22-year-old in a New York boarding house.

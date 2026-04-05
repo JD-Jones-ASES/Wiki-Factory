@@ -5,7 +5,7 @@ aliases: ["Rock of ages, cleft for me,", "And that rock was Christ."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]", "[[Web_Research]]"]
 related: []
 status: draft
 confidence: high
@@ -74,12 +74,22 @@ Rock of ages, cleft for me,
 
 ## Historical Context
 
-### From Duffield (1886)
+*Source material: [[English_Hymns_Their_Authors_and_History]] (Duffield, 1886); [[The_Hymns_and_Hymn_Writers_of_the_Church]] (Nutter & Tillett, 1911); web research.*
 
-Toplady retorted by styling Wesley " Pope John ;" wondering whether the " insidious " pre- dominated over "the acid" in his composition; spoke of his " hatching blasphemy ;" said his forehead was " petrified " and " impervious to a blush ;" and that he wrote " a known, wilful, palpable lie to the public." When it is remembered that one of these men was the author of *' Rock of Ages," and the other translated the hymn of Gerard Tersteegen into that almost ineffable rendering, " O thou to whose all-searching sight The darkness shineth as the light," we must stand abashed before the imperfections
+[[Augustus Toplady]] (1740–1778) was one of the most fierce theological combatants of the 18th century --- a devoted Calvinist who engaged in bitter public controversy with [[John Wesley]] over the doctrine of grace. That a man capable of such scorching polemical language also wrote one of the most tender and personal of all Christian hymns is one of the great ironies of hymnody.
 
-When we come to the question of the date we find that this illus- trious song was inserted in the Gospel Magazine for March, 1776, with the title, " A living and dying Prayer for the holiest Be- liever in the World. ' ' Spurgeon says, with much vividness and power : " A glimpse at the thorn-crowned head and pierced hands and feet is a sure cure for ' modern doubt,' and all its vagaries. That eminent American preacher, the seraphic Summerfield, when he lay a-dying turned around to a friend in the
+**The theological context:** In the March 1776 issue of *The Gospel Magazine* (of which Toplady was then the editor), he published an article demonstrating the magnitude of human sin and the impossibility of self-justification before God. He concluded the article with four stanzas of verse titled "A Living and Dying Prayer for the Holiest Believer in the World." This was the first full publication of "Rock of Ages." The hymn is the article's conclusion: if no human effort can suffice, then the only refuge is Christ himself --- "cleft for me."
 
-### From Nutter & Tillett (1911)
+**The Burrington Combe legend:** A popular and romantic story claims that Toplady was caught in a violent storm while walking through the gorge at Burrington Combe in the Mendip Hills of Somerset, and that he sheltered in a cleft in the limestone rocks and was inspired to write the hymn there. A plaque now marks the spot. However, historians note that this story was never heard of in the parish until a rector arrived there in 1850 --- more than 75 years after the hymn first appeared in print. The story is likely legend.
 
-Save from wrath and make me pure. 2 Could my tears forever flow. Could my Zi^al no l:inguor know. These for sin could not atone ; Thou must save, and thou alone: In my hand no price I bring; Simply to thy cross I cling. 3 WTiile I draw this fleeting breath.
+**Toplady's short life:** Toplady died of tuberculosis in 1778, aged only 38, just two years after the hymn was published. He reportedly died with great peace and assurance, his last days marked by what his biographers describe as radiant confidence --- a fitting close for a man who had staked everything on the "double cure" of grace.
+
+**Presidential and cultural connections:** The hymn achieved extraordinary currency on both sides of the Atlantic. American evangelist Summerfield reportedly quoted it on his deathbed. Charles Spurgeon preached on it memorably. It became a standard in camp meetings and revivals throughout the 19th century, carried west with the frontier.
+
+**The Toplady-Wesley feud:** As Duffield notes, the relationship between Toplady and [[John Wesley]] was one of the most heated theological disputes in 18th-century England. That the author of "Rock of Ages" and the translator of Gerhardt's great hymn stood on opposite sides of such bitter controversy is a reminder that great hymnody sometimes grows in poor soil.
+
+*The tune "Toplady" was composed by [[Thomas Hastings]] of New York, giving the American church its lasting melody for these English words.*
+
+## Listen
+
+- [Rock of Ages - Antrim Mennonite Choir](https://www.youtube.com/watch?v=gM7gt_cSxjw) — traditional four-part choral arrangement, unaccompanied

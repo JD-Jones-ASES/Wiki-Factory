@@ -4,7 +4,7 @@ type: entity
 aliases: ["Fanny Crosby", "Frances Jane Crosby", "Frances Jane Van Alstyne"]
 tags: ["#era-19th-century", "#origin-american", "#tradition-methodist", "#key-figure", "#theme-grace", "#theme-devotion", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_refs: ["[[The_Story_of_Our_Hymns]]", "[[The_Story_of_the_Hymns_and_Tunes]]"]
 related: ["[[American_Hymnody]]", "[[Gospel_Songs]]", "[[Women_in_Hymnody]]", "[[Frances_Ridley_Havergal]]"]
 status: draft
@@ -16,6 +16,9 @@ description: "America's most beloved hymn-writer who was blinded at six weeks ol
 
 
 > [[_overview|Home]] > [[People_Overview|People]]
+
+![Portrait of Fanny Crosby](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Fanny_Crosby_portrait.jpg/250px-Fanny_Crosby_portrait.jpg)
+*Portrait of Fanny Crosby (public domain)*
 
 # Fanny Crosby
 

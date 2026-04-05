@@ -5,7 +5,7 @@ aliases: ["How firm a foundation, you saints of the Lord,", "Precious promises."
 tags: ["#meter-peculiar", "#theme-devotion", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
 related: []
 status: draft
 confidence: high
@@ -14,11 +14,11 @@ first_line: "How firm a foundation, you saints of the Lord,"
 meter: "11s"
 topic: "Precious promises."
 author: "Kirkham"
-composer: ""
-tune_name: "Book used with Rippon's Selection and found that this hymn wa"
+composer: "Traditional American"
+tune_name: "Foundation"
 scripture_refs: []
 stanza_count: 7
-era: ""
+era: "18th-century"
 ---
 
 
@@ -81,14 +81,16 @@ How firm a foundation, you saints of the Lord,
 
 ## Historical Context
 
-### From Duffield (1886)
+*Source material: [[English_Hymns_Their_Authors_and_History]] (Duffield, 1886); [[The_Hymns_and_Hymn_Writers_of_the_Church]] (Nutter & Tillett, 1911); web research.*
 
-There appeared only the letter " K " to fix the authorship. The origin of the hymn is only conjectural ; but now most compilers have agreed in crediting it to George Keith, a publisher and bookseller in London. In its original form the hymn was called " Precious Promises," and had seven stanzas.
+One of the most beloved hymns in American Christianity has one of the most mysterious origins in all of hymnody. Its author signed only with the letter "K."
 
-" I will never leave thee, nor forsake thee," as in the Common Version, is strengthened much in the New Revision, so that it stands : " I will in no wise fail thee, neither will I in any wise forsake thee. ' ' " Once in the old Oratory at evening devotion in Princeton Seminary," as Dr.
+**The mystery of "K":** The hymn was first published in 1787 in John Rippon's *A Selection of Hymns from the Best Authors*, the great Baptist hymn anthology that made Rippon's name. It appeared attributed to a single initial: "K." Scholars have proposed several candidates over the years --- Robert Keene (the precentor at Rippon's church), Richard or John Keene, a man named Kirkham, and George Keith (a London bookseller). The Campbell 1870 collection attributes it to "Kirkham." Most modern scholarship leans toward Robert Keen or George Keith, but no definitive answer has emerged. The hymn remains one of the great anonymous gifts to Christian song.
 
-### From Nutter & Tillett (1911)
+**A hymn built on promises:** The text is unusual in structure --- most of the stanzas are written as the direct voice of God, drawn from specific Scripture passages. Stanza three ("Fear not, I am with thee") paraphrases Isaiah 41:10. Stanza four ("When through the deep waters") draws on Isaiah 43:2. Stanza five ("When through fiery trials") echoes the three young men in the furnace from Daniel 3. The whole hymn is, in effect, a collection of divine promises set to verse --- a musical concordance of comfort.
 
-Upheld by my righteous, omnipotent iiand. 4 When through the deep waters I call thee to go, The rivers of woe shall not thee overflow; For I will be with thee thy troubles to bless. And sanctify to thee thy deepest distress. 5 When through fiery trials thy pathway shall lie. My grace, all-sufllclent, shall be thy supply.
+**American presidents and generals:** The hymn was sung at the deathbed of President Andrew Jackson. It was reportedly a favorite of General Robert E. Lee and was sung at his funeral in 1870. It was also sung at the funeral of President Theodore Roosevelt in 1919. Three American leaders who knew what it was to face "fiery trials" all found their way back to this hymn.
 
-changes have been made in three lines.
+**The final stanza:** The seventh stanza's triple negative --- "I'll never, no, never, no, never forsake!" --- is one of the most rhythmically emphatic statements in English hymnody. It echoes the emphatic Greek of Hebrews 13:5 ("I will in no wise fail thee, neither will I in any wise forsake thee"), which Duffield notes is even stronger in the New Revision than in the Common Version.
+
+*Original title: "Precious Promises." Seven stanzas in the original; some collections use fewer.*

@@ -17,6 +17,9 @@ description: "Anglican priest turned Roman Catholic Cardinal, leader of the Oxfo
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Photograph of John Henry Newman](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Photo_of_John_Henry_Newman.jpg/250px-Photo_of_John_Henry_Newman.jpg)
+*John Henry Newman (public domain)*
+
 # John Henry Newman
 
 John Henry Newman was born in London on February 21, 1801. He was educated at Oxford, took holy orders in the Church of England, and became the central figure of the Oxford Movement — the great Anglican revival of Catholic principles that transformed English ecclesiastical life in the 1830s and 1840s. In 1845 he was received into the Roman Catholic Church. He was ordained a priest and eventually created a Cardinal in 1879. He died on August 11, 1890.

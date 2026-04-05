@@ -17,6 +17,9 @@ description: "Independent minister, educator, and hymn-writer known for personal
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Philip Doddridge](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Philip_Doddridge.jpg/250px-Philip_Doddridge.jpg)
+*Portrait of Philip Doddridge (public domain)*
+
 # Philip Doddridge
 
 Philip Doddridge was born June 26, 1702, the last of twenty children. In a century crowded with remarkable hymn-writers, this fact alone might seem like a footnote --- but it tells you something essential about who he was: a man who came into the world at the end of a long line, frail and nearly despaired of from birth, and who spent his life proving that the last sometimes become the first.

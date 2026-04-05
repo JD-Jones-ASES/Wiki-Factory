@@ -17,6 +17,9 @@ description: "Prolific Methodist hymn-writer who composed over 6,500 hymns and i
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Charles Wesley](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Charles_Wesley.jpg/250px-Charles_Wesley.jpg)
+*Portrait of Charles Wesley (public domain)*
+
 # Charles Wesley
 
 With [[Isaac_Watts]], Charles Wesley holds the foremost place in English hymnody. No less than 6,500 hymns are said to have flowed from his pen --- a staggering output --- yet what is most remarkable is not the quantity but the quality. Many of them rise to real poetic excellence, and a few stand among the greatest sacred lyrics ever written.

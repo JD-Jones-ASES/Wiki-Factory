@@ -6,7 +6,7 @@ updated: 2026-04-05
 
 # Wiki Index
 
-Total pages: 3217
+Total pages: 3218
 
 ## Entities
 

@@ -4,7 +4,7 @@ type: concept
 aliases: ["Evangelical Hymnody", "Lutheran Hymnody", "German Hymnody"]
 tags: ["#era-reformation", "#origin-german", "#tradition-lutheran", "#key-figure", "#theme-praise", "#theme-scripture", "#theme-warfare"]
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_refs: ["[[The_Story_of_Our_Hymns]]"]
 related: ["[[Martin_Luther]]", "[[Paul_Gerhardt]]", "[[Philipp_Nicolai]]", "[[Thirty_Years_War_Hymns]]", "[[Pietism]]", "[[Moravian_Hymnody]]", "[[Paul_Speratus]]", "[[Nicolaus_Decius]]", "[[Nicolaus_Selnecker]]"]
 status: draft
@@ -13,6 +13,9 @@ confidence: high
 
 
 > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
+
+![Luther Hammers His 95 Theses to the Door, by Ferdinand Pauwels](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ferdinand_Pauwels_-_Luther_hammers_his_95_theses_to_the_door.jpg/400px-Ferdinand_Pauwels_-_Luther_hammers_his_95_theses_to_the_door.jpg)
+*Luther Hammers His 95 Theses to the Door at Wittenberg, painting by Ferdinand Pauwels (public domain)*
 
 # Reformation Hymnody
 

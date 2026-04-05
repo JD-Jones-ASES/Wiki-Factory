@@ -5,7 +5,7 @@ aliases: ["Just as I am—without one plea,", "Just as I am."]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]", "[[Web_Research]]"]
 related: []
 status: draft
 confidence: high
@@ -76,18 +76,20 @@ Just as I am—without one plea,
 
 ## Historical Context
 
-### From Duffield (1886)
+*Source material: [[English_Hymns_Their_Authors_and_History]] (Duffield, 1886); [[The_Hymns_and_Hymn_Writers_of_the_Church]] (Nutter & Tillett, 1911); web research.*
 
-It is quite probable that this visit was paid to his house, for the author of three hundred of the best French hymns could not be indifferent to the verses of his English friend when rendered into his own tongue. The son-in-law of the poet Wordsworth once wrote to Miss Elliott, thanking her for the hymn, and saying that it had afforded comfort to his wife on her dying-bed. It was on the north shore that Charles Kingsley got the inspiration for his Amyas Leigh.
+[[Charlotte Elliott]] (1789–1871) did not set out to write a famous hymn. She was an invalid, largely confined to her room for the last fifty years of her life, and there were days when her helplessness felt not like a calling but like a cage.
 
-seven stanzas, and has been frequently translated into Latin verse.
+**The encounter with César Malan:** The key to understanding this hymn is a conversation that took place in 1822, when Charlotte was 32. She met the Swiss evangelical minister and hymn writer César Malan, a dynamic and spiritually direct man. Charlotte was unsettled about her own faith, wrestling with doubt and a sense of spiritual inadequacy. When she told Malan she did not know how to come to God, he said simply: "Come to Him just as you are." Those words stayed with her for twelve years.
 
-The son-in-law of the poet Wordsworth once wrote to Miss Elliott, thanking her for the hymn, and saying that it had afforded comfort to his wife on her dying-bed. " Dear Charlotte " (he is reported to have said), " cut the cable ; it will take too long to unloose it ; cut it, it is a small loss ; the wind blows, and the ocean is before you — the Spirit of God and Eternity." So it proved ; and for forty years Dr.
+**The night it was written:** In 1834, Charlotte's family was holding a fundraising event at their home in Brighton to raise money for a school for the daughters of impoverished clergymen. Charlotte was too ill to participate. She lay in her room, feeling useless, while her relatives bustled with purpose downstairs. Out of that frustration and helplessness she took Malan's words and wrote the hymn --- six stanzas, each repeating the same refrain of unconditional approach. The hymn was published in *The Invalid's Hymn Book* (second edition, 1836), under the heading "Him That Cometh to Me I Will in No Wise Cast Out."
 
-### From Nutter & Tillett (1911)
+**Her brother's testimony:** Charlotte's brother, Henry Venn Elliott, was an active clergyman and minister. He said at the end of his career: "In the course of a long ministry I hope I have been permitted to see some fruit of my labors, but I feel that far more has been done by a single hymn of my sister's." The irony was complete: Charlotte had spent her life feeling she was doing nothing; her nothing had done more than her brother's everything.
 
-In the course of a long ministry I hope I have been permitted to see some fruit of ray labors, but I feel that far more has been done by a single hymn of ray sister's.
+**Billy Graham's crusades:** The hymn took on its greatest modern reach through the evangelistic crusades of Billy Graham, where it was sung at every altar call. George Beverly Shea and Cliff Barrows made it the signature song of those meetings, and over decades it was heard by hundreds of millions of people as the invitation to come forward. Wordsworth's son-in-law wrote to Charlotte that it had comforted his wife on her deathbed; the pattern of comfort from that single night in Brighton has never stopped.
 
-### From Nutter & Tillett (1911)
+*The tune "Woodworth" was composed by [[William Bradbury]]. Nutter & Tillett (1911) note the hymn originally had seven stanzas and has been frequently translated into Latin verse.*
 
-This much-admired and widely useful hymn was written in 1834, and was pub- Iisned in the author's Invalid's Hymn Book, second edition. 1836, with the title. "Him That Com^h to Me I Will in No Wise Cast Out:* The history of Its au- thorship and origin has been told many times and with not a few variations. The circumstances connected with its origin are of more than ordinary interest, and call for a note of more than ordinary length.
+## Listen
+
+- [Just As I Am - Sing Along (HymnCharts)](https://www.youtube.com/watch?v=1Ia_YK6reTc) — lyrics video with traditional arrangement, tune Woodworth (William Bradbury)

@@ -17,6 +17,9 @@ description: "Dissenting minister and poet universally honored as the Father of 
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Isaac Watts](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Isaac_Watts_from_NPG.jpg/250px-Isaac_Watts_from_NPG.jpg)
+*Portrait of Isaac Watts (public domain, National Portrait Gallery)*
+
 # Isaac Watts
 
 By universal consent the title "Father of English Hymnody" belongs to Isaac Watts. He was the man who broke the iron rule of psalmody that had governed the Reformed Church since the days of Calvin, and in its place gave English-speaking Christians a treasury of original sacred song so rich that it has never been exhausted.

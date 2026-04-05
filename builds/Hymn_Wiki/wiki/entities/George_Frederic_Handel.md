@@ -4,7 +4,7 @@ type: entity
 aliases: ["George Frederic Handel", "Handel", "G.F. Handel"]
 tags: ["#era-18th-century", "#origin-german", "#tradition-anglican", "#key-figure", "#theme-praise"]
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-05
 source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
 related: ["[[Joseph_Haydn]]", "[[Henry_Smart]]", "[[Charles_Wesley]]"]
 status: draft
@@ -16,6 +16,9 @@ description: "German-born composer who settled in England and produced the immor
 
 
 > [[_overview|Home]] > [[People_Overview|People]]
+
+![Portrait of George Frideric Handel by Balthasar Denner](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/250px-George_Frideric_Handel_by_Balthasar_Denner.jpg)
+*Portrait of George Frideric Handel by Balthasar Denner (public domain)*
 
 # George Frederic Handel
 

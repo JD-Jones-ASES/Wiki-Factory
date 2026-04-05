@@ -14,6 +14,9 @@ confidence: high
 
 > [[_overview|Home]] > [[Concepts_Overview|Ideas]]
 
+![Religious Camp Meeting, watercolor by J. Maze Burbank, 1839](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Religious_Camp_Meeting_%28Burbank_1839%29.jpg/400px-Religious_Camp_Meeting_%28Burbank_1839%29.jpg)
+*A religious camp meeting in America, watercolor by J. Maze Burbank, 1839 (public domain)*
+
 # Revival Hymns
 
 The revival hymn tradition of colonial and early national America emerged from the collision of Puritan severity with the emotional energy of the 1740s Great Awakening and the subsequent Methodist and Baptist frontier revivals. It produced a body of song distinct in character, style, and cultural context from the formal hymnody of the established churches.

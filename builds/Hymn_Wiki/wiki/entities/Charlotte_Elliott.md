@@ -17,6 +17,9 @@ description: "Invalid English hymn-writer whose 'Just as I am' (1836) became, in
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of Charlotte Elliott](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Charlotte_Elliott%2C_with_signature.jpg/250px-Charlotte_Elliott%2C_with_signature.jpg)
+*Portrait of Charlotte Elliott, with signature (public domain)*
+
 # Charlotte Elliott
 
 Dwight L. Moody, who had seen more conversions than most men could dream of, said of Charlotte Elliott's hymn "Just as I am" that it had probably touched more hearts and brought more souls to Christ than any other hymn ever written. Her own brother, a minister, said much the same: in a long ministry, he hoped he had seen some fruit, "but I feel far more has been done by a single hymn of my sister's."

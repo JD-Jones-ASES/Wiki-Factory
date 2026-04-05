@@ -17,6 +17,9 @@ description: "Anglican scholar who translated the great Greek and Latin hymns of
 
 > [[_overview|Home]] > [[People_Overview|People]]
 
+![Portrait of John Mason Neale](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/John_Mason_Neale_2.jpg/250px-John_Mason_Neale_2.jpg)
+*Portrait of John Mason Neale (public domain)*
+
 # John Mason Neale
 
 There are hymns we sing every Easter, every Christmas, every Sunday of Advent, that we would not have in English if not for the scholarship of one man. John Mason Neale spent his life reaching back through the centuries, through Greek and Latin manuscripts, and bringing the voices of the ancient Church into the living worship of his own day.
