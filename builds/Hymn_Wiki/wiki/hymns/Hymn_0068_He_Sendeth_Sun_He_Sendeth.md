@@ -5,7 +5,7 @@ aliases: ["He sendeth sun, he sendeth shower;", "Thy will be done."]
 tags: ["#meter-long", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Sarah_Flower_Adams]]"]
 status: stub
 confidence: high

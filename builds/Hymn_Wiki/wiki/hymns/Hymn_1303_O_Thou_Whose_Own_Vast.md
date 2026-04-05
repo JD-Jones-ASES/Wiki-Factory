@@ -5,7 +5,7 @@ aliases: ["O thou whose own vast temple stands", "In his temple we speak of his 
 tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Hymn_0256_O_North_With_All_Thy]]", "[[Hymn_0994_Deem_Not_That_They_Are]]"]
 status: draft
 confidence: high

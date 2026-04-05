@@ -5,7 +5,7 @@ aliases: ["My soul, be on thy guard;", "Watch!"]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
 related: []
 status: draft
 confidence: high

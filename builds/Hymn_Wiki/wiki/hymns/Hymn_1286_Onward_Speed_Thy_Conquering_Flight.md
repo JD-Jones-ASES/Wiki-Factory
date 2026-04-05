@@ -5,7 +5,7 @@ aliases: ["Onward speed thy conquering flight,"]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Samuel_Francis_Smith]]", "[[19th_Century_Hymnody]]", "[[Hymn_0384_Meekly_In_Jordans_Flowing_Stream]]", "[[Hymn_0712_Blest_Is_The_Hour_When]]", "[[Hymn_1251_My_Country_Tis_Of_Thee]]"]
 status: stub
 confidence: high

@@ -5,7 +5,7 @@ aliases: ["Shall we grow weary in our watch,", "Some great thing!"]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[John_Greenleaf_Whittier]]", "[[19th_Century_Hymnody]]", "[[Hymn_0904_All_As_God_Wills_Who]]", "[[Hymn_0972_One_Whom_Jesus_Loved_Has]]"]
 status: stub
 confidence: high

@@ -5,7 +5,7 @@ aliases: ["Ye servants of the Lord,", "Be ye therefore ready also."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Philip_Doddridge]]", "[[18th_Century_Hymnody]]", "[[Hymn_0184_Ye_Humble_Souls_That_Seek]]", "[[Hymn_0405_Grace_Tis_A_Charming_Sound]]", "[[Hymn_1018_How_Gracious_And_How_Wise]]"]
 status: draft
 confidence: high

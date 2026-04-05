@@ -5,7 +5,7 @@ aliases: ["Awake, my soul! lift up thine eyes;", "Put on the whole armor of God.
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Hymn_0479_How_Blest_The_Sacred_Tie]]", "[[Hymn_0953_Blest_Is_The_Man_Whose]]", "[[Hymn_1059_Not_For_The_Pious_Dead]]"]
 status: stub
 confidence: high

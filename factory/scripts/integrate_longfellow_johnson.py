@@ -72,10 +72,11 @@ def enrich_campbell_hymn(filepath, lj_hymn, dry_run=False):
         return False
 
     # Add to source_refs in frontmatter
-    old_refs = re.search(r'^source_refs:\s*\[(.+?)\]', content, re.MULTILINE)
+    # Use greedy match to capture full array contents (wikilinks contain brackets)
+    old_refs = re.search(r'^(source_refs:\s*\[)(.+)(\])$', content, re.MULTILINE)
     if old_refs:
-        existing = old_refs.group(1)
-        new_refs = f'source_refs: [{existing}, "{SOURCE_WIKILINK}"]'
+        existing = old_refs.group(2)
+        new_refs = f'{old_refs.group(1)}{existing}, "{SOURCE_WIKILINK}"{old_refs.group(3)}'
         content = content.replace(old_refs.group(0), new_refs, 1)
 
     # Add cross-reference note in Historical Context section

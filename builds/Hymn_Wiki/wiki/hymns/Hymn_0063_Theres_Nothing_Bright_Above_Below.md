@@ -5,7 +5,7 @@ aliases: ["There’s nothing bright, above, below,", "God in all."]
 tags: ["#meter-long", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Thomas_Moore]]", "[[Hymn_0342_Awaked_From_Sins_Delusive_Sleep]]", "[[Hymn_0409_Like_Morningwhen_Her_Early_Breeze]]", "[[Hymn_1005_O_Thou_Who_Driest_The]]"]
 status: stub
 confidence: high

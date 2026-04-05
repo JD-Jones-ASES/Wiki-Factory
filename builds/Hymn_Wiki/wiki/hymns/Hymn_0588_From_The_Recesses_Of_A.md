@@ -5,7 +5,7 @@ aliases: ["From the recesses of a lowly spirit,", "Prayer of the contrite."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Sir_John_Bowring]]", "[[Hymn_0054_The_Heavenly_Spheres_To_Thee]]", "[[Hymn_0141_How_Sweetly_Flowed_The_Gospel]]", "[[Hymn_0695_The_Offerings_To_Thy_Throne]]"]
 status: draft
 confidence: high

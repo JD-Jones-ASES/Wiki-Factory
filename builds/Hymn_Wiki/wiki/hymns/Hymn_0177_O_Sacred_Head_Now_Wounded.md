@@ -5,7 +5,7 @@ aliases: ["O sacred head, now wounded,", "Surely he hath borne our griefs."]
 tags: ["#meter-peculiar", "#theme-easter"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Paul_Gerhardt]]", "[[Post-Reformation_Hymnody]]", "[[Hymn_0799_Now_As_Long_As_Here]]", "[[Hymn_0880_Give_To_The_Winds_Thy]]"]
 status: draft
 confidence: high

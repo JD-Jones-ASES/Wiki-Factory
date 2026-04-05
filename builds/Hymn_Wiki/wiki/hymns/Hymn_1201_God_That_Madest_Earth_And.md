@@ -5,7 +5,7 @@ aliases: ["God that madest earth and heaven,", "Evening aspiration."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymn_0678_Forth_From_The_Dark_And]]", "[[Hymn_1106_The_Lord_Will_Come_The]]", "[[Hymn_1285_From_Greenlands_Icy_Mountains]]"]
 status: draft
 confidence: high

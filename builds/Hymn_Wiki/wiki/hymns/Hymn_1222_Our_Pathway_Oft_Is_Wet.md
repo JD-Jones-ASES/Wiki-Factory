@@ -5,7 +5,7 @@ aliases: ["Our pathway oft is wet with tears,", "At evening there shall be light
 tags: ["#meter-common-double", "#theme-children"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Sunday_School_Hymns]]", "[[Hymn_0016_Lamp_Of_Our_Feet_Whereby]]", "[[Hymn_0349_Around_Bethesdas_Healing_Wave]]"]
 status: stub
 confidence: high

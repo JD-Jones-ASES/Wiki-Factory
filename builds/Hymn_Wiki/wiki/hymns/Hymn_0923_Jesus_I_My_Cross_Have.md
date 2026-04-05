@@ -5,7 +5,7 @@ aliases: ["Jesus, I my cross have taken,", "Jesus, I my cross have taken."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[Henry_Francis_Lyte]]", "[[19th_Century_Hymnody]]", "[[Hymn_0101_Praise_My_Soul_The_King]]", "[[Hymn_0625_Sweet_Is_The_Task_O]]", "[[Hymn_1022_Gently_Gently_Lay_Thy_Rod]]"]
 status: draft
 confidence: high

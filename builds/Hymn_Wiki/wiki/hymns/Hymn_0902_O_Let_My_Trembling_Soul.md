@@ -5,7 +5,7 @@ aliases: ["O let my trembling soul be still,", "Thy footsteps are not known."]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Sir_John_Bowring]]", "[[Hymn_0054_The_Heavenly_Spheres_To_Thee]]", "[[Hymn_0141_How_Sweetly_Flowed_The_Gospel]]", "[[Hymn_0671_Father_Of_Spirits_Humbly_Bent]]"]
 status: stub
 confidence: high

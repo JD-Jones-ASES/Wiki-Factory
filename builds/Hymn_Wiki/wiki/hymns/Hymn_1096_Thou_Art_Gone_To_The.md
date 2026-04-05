@@ -5,7 +5,7 @@ aliases: ["Thou art gone to the grave; but we will not deplore thee,", "Farewell
 tags: ["#meter-peculiar", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0678_Forth_From_The_Dark_And]]", "[[Hymn_1201_God_That_Madest_Earth_And]]", "[[Hymn_1285_From_Greenlands_Icy_Mountains]]"]
 status: draft
 confidence: high

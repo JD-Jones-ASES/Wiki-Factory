@@ -5,7 +5,7 @@ aliases: ["In the floods of tribulation,", "In the night his song shall be with 
 tags: ["#meter-peculiar", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Samuel_Pearce]]", "[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high

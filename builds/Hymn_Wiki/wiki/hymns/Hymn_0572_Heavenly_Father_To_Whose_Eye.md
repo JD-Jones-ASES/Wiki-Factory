@@ -5,7 +5,7 @@ aliases: ["Heavenly Father! to whose eye", "Deliver us from evil."]
 tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
 related: ["[[Hymn_0214_The_Lord_Is_King_Lift]]", "[[Hymn_0655_Praise_On_Thee_In_Zions]]", "[[Hymn_0852_When_In_The_Hour_Of]]"]
 status: stub
 confidence: high

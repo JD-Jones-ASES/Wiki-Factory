@@ -5,7 +5,7 @@ aliases: ["Sweet is the fading light of eve;", "Lord’s-day evening."]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]"]
 related: ["[[Samuel_Francis_Smith]]", "[[19th_Century_Hymnody]]", "[[Hymn_0384_Meekly_In_Jordans_Flowing_Stream]]", "[[Hymn_1076_Sister_Thou_Wast_Mild_And]]", "[[Hymn_1281_Yes_My_Native_Land_I]]"]
 status: draft
 confidence: high

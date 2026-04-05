@@ -5,7 +5,7 @@ aliases: ["The Lord is my Shepherd, no want shall I know;"]
 tags: ["#meter-peculiar", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book, "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
 related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymn_0326_Fair_Shines_The_Morning_Star]]", "[[Hymn_0743_All_Ye_Nations_Praise_The]]", "[[Hymn_1137_Who_Are_These_In_Bright]]"]
 status: draft
 confidence: high
