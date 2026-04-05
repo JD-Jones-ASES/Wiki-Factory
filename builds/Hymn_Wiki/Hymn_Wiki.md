@@ -1,121 +1,59 @@
 # Hymn_Wiki.md --- A Comprehensive Guide to Christian Hymns
 ## Stories, History, and Scripture Behind the Songs of Faith
-### Version 1.0.0
+### Version 2.0.0
 
 | Field | Value |
 |-------|-------|
 | **Domain** | Christian Hymnody |
 | **Scope** | Hymns, hymn writers, composers, theological themes, and musical traditions from early Christianity through the early 20th century |
 | **Audience** | General reader; a mother who loves Christian hymns. Warm, accessible, modern English. |
-| **Source count** | 4 (3 hymn history books + KJV Bible) |
-| **Expected scale** | Large (1,500+ pages) |
-
----
-
-## Domain Analysis
-
-Christian hymnody spans 2,000 years of worship through song. The domain naturally organizes around:
-
-- **Hymns** --- the central artifacts. Each has text, a writer, often a composer, a historical context, and theological themes.
-- **People** --- hymn writers, composers, translators, and related historical figures.
-- **Themes** --- theological and devotional categories (praise, suffering, trust, missions, etc.).
-- **Traditions** --- denominational and national streams (Lutheran, Methodist, Anglican, American, German, Scandinavian, etc.).
-- **Eras** --- historical periods that shaped hymnody (Reformation, Pietism, Great Awakening, Revival, etc.).
-- **Musical forms** --- meters (Common, Long, Short), tune names, and compositional traditions.
-- **Scripture** --- Bible passages that inspired or are referenced by hymns.
-
-Key relationships: chronological (who influenced whom), thematic (hymns sharing theological concerns), scriptural (hymns based on the same passages), and musical (shared tunes or meters).
+| **Source count** | 9 (7 hymn history/reference books + 1 hymnal + KJV Bible) |
+| **Scale** | Large (1,616 pages) |
+| **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 
 ---
 
 ## Source Inventory
 
-| # | Title | Author/Compiler | Type | Year | Lines | Priority |
-|---|-------|----------------|------|------|-------|----------|
-| 1 | The Christian Hymn Book | Alexander Campbell et al. | Hymnal (1,324 hymns) | 1870 | 39,567 | Highest --- provides all hymn texts |
-| 2 | The Story of Our Hymns | Ernest Edwin Ryden | History/biography | 1930 | 16,023 | High --- chronological backbone |
-| 3 | The Story of the Hymns and Tunes | Theron Brown & Hezekiah Butterworth | History/narrative | 1906 | 18,946 | High --- musical/thematic depth |
-| 4 | King James Version of the Bible | N/A | Scripture | 1611 | 99,971 | Reference --- verse integration |
+| # | Title | Author/Compiler | Type | Year | Lines | Role |
+|---|-------|----------------|------|------|-------|------|
+| 1 | The Christian Hymn Book | Alexander Campbell | Hymnal (1,324 hymns) | 1870 | 39,567 | **Structural backbone** --- all hymn texts |
+| 2 | The Story of Our Hymns | Ernest Edwin Ryden | History/biography | 1930 | 16,023 | **Biographical backbone** --- chronological, by tradition |
+| 3 | The Story of the Hymns and Tunes | Brown & Butterworth | History/narrative | 1906 | 18,946 | Musical/thematic depth, tune stories |
+| 4 | King James Bible | --- | Scripture | 1611 | 99,971 | Verse integration (458 hymn linkages) |
+| 5 | The English Hymn | Louis F. Benson | Institutional history | 1915 | 34,910 | Denominational adoption patterns |
+| 6 | English Hymns: Authors & History | S.W. Duffield | Hymn encyclopedia | 1886 | 38,337 | Hymn-by-hymn entries (1,081 extracted) |
+| 7 | Baptist Hymn Writers | Henry S. Burrage | Biographical dictionary | 1888 | 36,616 | 200+ Baptist writers globally |
+| 8 | Hymns & Hymn Writers of the Church | Nutter & Tillett | Annotated hymnal | 1911 | 90,912 | 383 hymns annotated, 306 author profiles |
+| 9 | American Sacred Music Writers | Frank J. Metcalf | Composer dictionary | 1925 | 15,981 | 70+ tune composers, tune-to-hymn pairings |
 
-**Campbell** is the structural backbone: 1,324 numbered hymns with meter markings, topic headings, and first-line index. Provides all hymn text (critical for avoiding API content errors).
-
-**Ryden** is the biographical backbone: chronological coverage of 150-200 hymn writers from early Christianity through 1930, organized by national tradition (German, Scandinavian, English, American). Deepest biographical content.
-
-**Butterworth-Brown** supplements with musical history (tune provenance, composition stories) and thematic organization (14 chapters by hymn category). More anecdotal and narrative.
-
-**KJV** provides scripture references quoted inline on hymn pages and in a master scripture index.
-
----
-
-## Page Types
-
-- [x] **Hymns** (custom type) --- 1,324 pages, one per Campbell hymn number
-- [x] **Entities** --- hymn writers, composers, translators, historical figures (~200+)
-- [x] **Concepts** --- theological themes, musical forms, historical movements (~50+)
-- [x] **Sources** --- 4 source summary pages
-- [x] **Synthesis** --- cross-cutting analyses (era overviews, comparisons, thematic surveys)
-- [x] **Timelines** --- chronological narratives by era
-
-### Hymn Page Schema
-
-Extends base frontmatter with:
-
-```yaml
-extra_fields:
-  - name: hymn_number
-    type: integer
-    applies_to: [hymn]
-    description: Campbell numbering (1-1324)
-  - name: first_line
-    type: string
-    applies_to: [hymn]
-    description: First line of the hymn text
-  - name: meter
-    type: string
-    applies_to: [hymn]
-    description: "Meter marking (L.M., C.M., S.M., C.M.D., P.M., 7s, etc.)"
-  - name: topic
-    type: string
-    applies_to: [hymn]
-    description: Campbell's subject heading
-  - name: author
-    type: string
-    applies_to: [hymn]
-    description: Hymn writer name
-  - name: composer
-    type: string
-    applies_to: [hymn]
-    description: Tune composer (when known)
-  - name: tune_name
-    type: string
-    applies_to: [hymn]
-    description: Named tune (when known)
-  - name: scripture_refs
-    type: list
-    applies_to: [hymn]
-    description: Bible verse references
-  - name: stanza_count
-    type: integer
-    applies_to: [hymn]
-    description: Number of stanzas
-  - name: era
-    type: string
-    values: [early-church, medieval, reformation, post-reformation, 18th-century, 19th-century, 20th-century]
-    applies_to: [hymn, entity, concept]
-```
+**Ingest pattern:** Sources 1-4 were ingested in v1.0.0 (initial build). Sources 5-9 were ingested in v2.0.0 via wave-based parallel agents with JSON intermediary files for cross-source enrichment.
 
 ---
 
-## Tag Taxonomy Bootstrap
+## Current Stats (v2.0.0)
 
-See `wiki/_tag_taxonomy.md` for the full controlled vocabulary. Initial categories:
+| Type | Count | Status |
+|------|-------|--------|
+| Hymns | 1,324 | 500 draft, 824 stub |
+| Entities | 227 | Mostly draft; 22 with Wikimedia portraits |
+| Concepts | 39 | Draft |
+| Sources | 9 | Draft/Complete |
+| Synthesis | 5 | Draft |
+| Timelines | 1 | Draft |
+| Navigation pages | ~12 | Overview hubs, indexes |
+| **Total** | **~1,616** | |
 
-- **Eras:** `#era-early-church` through `#era-20th-century`
-- **Traditions:** `#tradition-lutheran`, `#tradition-methodist`, `#tradition-anglican`, etc.
-- **Themes:** `#theme-praise`, `#theme-devotion`, `#theme-trust`, `#theme-suffering`, etc.
-- **Musical:** `#meter-common`, `#meter-long`, `#meter-short`, `#meter-peculiar`
-- **Geographic:** `#origin-german`, `#origin-english`, `#origin-american`, etc.
-- **Meta:** `#needs-review`, `#needs-expansion`, `#contradicted`, `#key-hymn`
+---
+
+## Page Types & Schema
+
+- **Hymns** (custom type) --- 1,324 pages, one per Campbell hymn number. Extra fields: `hymn_number`, `first_line`, `meter`, `topic`, `author`, `composer`, `tune_name`, `scripture_refs`, `stanza_count`, `era`. Schema: `factory/schemas/hymn.yaml`.
+- **Entities** --- hymn writers, composers, translators, historical figures
+- **Concepts** --- theological themes, musical forms, historical movements, denominational traditions
+- **Sources** --- one per ingested source document
+- **Synthesis** --- cross-cutting analyses
+- **Timelines** --- chronological narratives
 
 ---
 
@@ -123,70 +61,97 @@ See `wiki/_tag_taxonomy.md` for the full controlled vocabulary. Initial categori
 
 ### Phase A: Scripted Extraction (no LLM)
 
-1. `parse_campbell.py` extracts all 1,324 hymns into JSON
-2. `parse_kjv.py` extracts Bible into verse-level JSON
-3. `generate_hymn_pages.py` creates 1,324 hymn stub pages
-4. `bible_linker.py` injects scripture references
+For sources with structured data (hymnals, Bibles): parse into JSON, generate stub pages programmatically. Scripts: `parse_campbell.py`, `parse_kjv.py`, `generate_hymn_pages.py`, `bible_linker.py`.
 
-### Phase B: LLM-Driven Narrative Ingest
+### Phase B: LLM Narrative Ingest (initial sources)
 
-**Ingest order:** Ryden (chronological backbone) -> Butterworth-Brown (musical/thematic supplements) -> Campbell source page -> KJV source page.
+Process each Part/Chapter as a unit via parallel Sonnet agents. Each agent gets a source section, the existing entity list, and clear create/update instructions.
 
-**Granularity:** Process each Part/Chapter as a unit. Ryden has 5 parts (~40 chapters). Butterworth-Brown has 14 chapters.
+### Phase C: Wave-Based Batch Ingest (additional sources)
 
-**Entity extraction:** Anyone who wrote, composed, translated, or significantly promoted hymns. Also major historical figures who shaped hymnody (monarchs, church leaders, etc.).
+For ingesting multiple new sources into an existing wiki:
 
-**Concept extraction:** Theological themes, musical forms/meters, denominational traditions, historical movements (Reformation, Pietism, Great Awakening, Oxford Movement, etc.).
+1. **Copy sources to `raw/`**, create source pages in `wiki/sources/`
+2. **Generate current entity/concept inventory** for agent reference (prevents duplicates)
+3. **Process in waves** of 2-3 books per wave, parallelized by source:
+   - Wave 1: Sources with least entity overlap (new composers, new traditions)
+   - Wave 2: Sources with moderate overlap (update existing + create new)
+   - Wave 3: Largest source, split across multiple agents by section
+4. **Each agent outputs two things:** (a) wiki pages created/updated directly, (b) JSON data files for structured extraction
+5. **Run enrichment script** to fuzzy-match JSON data into existing pages (e.g., `enrich_hymns.py` matched 419 Duffield entries to Campbell hymns using SequenceMatcher at 0.75 threshold)
+6. **Post-wave:** rebuild index, update taxonomy, lint, update overview pages
 
-**Contradiction handling:** When Ryden and Butterworth-Brown disagree on dates, attributions, or facts, note both accounts with source attribution. Tag with `#contradicted`.
+### Phase D: Web Research Enrichment
 
-**Citation style:** Inline source attribution: "According to Ryden, ..." or "(Butterworth-Brown, Ch. 3)". Wikilink to source page: `[[The_Story_of_Our_Hymns]]`.
+For famous items where book sources are thin, web search fills gaps. Focus on stories, cultural impact, and facts that primary sources miss (e.g., Amazing Grace's African-American final stanza, Joy to the World's misidentification as a Christmas carol).
+
+### Phase E: Media Enrichment
+
+- **Wikimedia Commons:** Portraits and historical scene images via thumbnail URLs (`/thumb/.../250px-filename`). Works in both Obsidian and Quartz without downloading files.
+- **YouTube:** Performance links on hymn pages. Convert to `<a target="_blank">` for new-window behavior in Quartz.
 
 ---
 
-## Output Formats
+## Deployment
 
-- [x] **Marp slide decks** --- "Highlights of Christian Hymnody" overview deck
-- [x] **Scripture index** --- `_scripture_index.md` mapping Bible verses to hymns
-- [ ] **Charts/figures** --- possible timeline visualization
-- [ ] **Reading lists** --- possible curated recommendations
+**GitHub Pages** via Quartz v4 static site generator with GitHub Actions CI/CD.
+
+- **Repo:** `JD-Jones-ASES/Wiki-Factory` (public)
+- **URL:** `https://JD-Jones-ASES.github.io/Wiki-Factory/Hymn_Wiki/`
+- **Build time:** ~50 seconds for 1,616 pages
+- **Config files:** `quartz.config.ts` and `quartz.layout.ts` at wiki build root (overlaid onto fresh Quartz clone during CI)
+- **Key Quartz settings:** `enableSPA: false`, no `RemoveDrafts` filter, Explorer `filterFn` excludes individual hymn pages from sidebar, Graph depth-1 for local view
+- **Landing page:** Auto-generated by `factory/scripts/build-landing.sh` from wiki metadata
 
 ---
 
 ## Conventions
 
-- **Hymn page titles:** `Hymn_NNN_First_Line_Words.md` (e.g., `Hymn_001_The_Heavens_Declare_Thy_Glory.md`)
-- **Entity names:** Full anglicized names (e.g., "Isaac Watts" not "Dr. Watts")
-- **Dates:** CE format (e.g., 1674-1748). No BCE dates expected in this domain.
-- **Terminology:** "hymn writer" (not "hymnist" or "hymnodist" unless quoting). "Tune" for melody. "Meter" for rhythmic pattern.
-- **Scope boundaries:** Focus on Christian hymns in the Western tradition as covered by the four sources. Contemporary worship music (post-1930) is out of scope. Eastern Orthodox hymnody is lightly covered (Ryden's early chapters only).
-- **Tone:** Warm, accessible, modern English. This is a gift, not a dissertation. Write as if explaining to someone who loves these hymns and wants to know their stories.
+- **Hymn titles:** `Hymn_NNNN_First_Line_Words.md` (zero-padded to 4 digits)
+- **Entity names:** Full anglicized names
+- **Dates:** CE format (1674-1748)
+- **Tone:** Warm, accessible, modern English. This is a gift, not a dissertation.
+- **Scope:** Western Christian hymns through ~1930. Contemporary worship music is out of scope.
+- **Tags:** Always quoted in YAML: `tags: ["#tag-name"]`. Only taxonomy tags.
+- **Lyrics:** NEVER reproduced by LLM. All hymn text via Python scripts from source files.
+- **External links (YouTube, images):** Use `<a target="_blank">` for new-window behavior in Quartz.
 
 ---
 
 ## Self-Improvement Log
 
-### Version 1.0.0 --- Build Complete (2026-04-04)
+### Version 2.0.0 --- Five-Source Ingest + GitHub Pages (2026-04-05)
 
-**Final stats:** 1,530+ pages. 1,324 hymns, 160 entities, 23 concepts, 5 synthesis, 1 timeline, 4 sources, plus navigation and index pages. HTML site generated via Quartz.
+**Stats:** 1,616 pages. 227 entities (+67), 39 concepts (+9), 9 sources (+5). 500 hymns upgraded stub→draft. 486 hymns received historical context. 22 pages with Wikimedia portraits. 12 hymns with YouTube links. Site live on GitHub Pages.
 
 **What worked:**
-- **Script-first extraction pipeline.** Parsing Campbell and KJV into JSON before generating pages was essential at this scale. The scripts (`parse_campbell.py`, `parse_kjv.py`, `generate_hymn_pages.py`, `bible_linker.py`) handled 1,324 pages in seconds. LLM-driven page generation for 1,324 hymns would have been impossibly slow and error-prone.
-- **Parallel sub-agents for narrative ingest.** Processing Ryden's 5 parts and Butterworth-Brown's 14 chapters via parallel Sonnet agents cut ingest time dramatically. Each agent independently read its section and created pages without conflicts.
-- **Warm, modern English tone.** The instruction "this is a gift, not a dissertation" produced consistently accessible writing across all agents.
-- **Breadcrumb navigation on every page.** The `add_navigation.py` script injected `> [[_overview|Home]] > Section` into all 1,500+ pages in one pass. Essential for non-Obsidian users and for the HTML export.
-- **Type-overview pages.** Creating `Hymns_Overview.md`, `People_Overview.md`, `Concepts_Overview.md`, and `Synthesis_Overview.md` as navigation hubs made "Browse by Type" on the home page functional and intuitive.
+- **Wave-based parallel ingest.** 217K lines across 5 books processed via 8+ Sonnet agents in 3 waves (~2 hours wall time). Each wave contained sources with minimal entity overlap. Zero merge conflicts.
+- **JSON intermediary pattern.** Agents extracted structured data (tune mappings, hymn annotations, composer data) into JSON files. A Python script then fuzzy-matched and injected into 1,324 hymn pages. Far more reliable than having agents directly edit hundreds of files.
+- **GitHub Actions CI/CD.** Single workflow file deploys in ~50 seconds. Quartz cloned fresh each build (no node_modules in repo). Landing page auto-discovers wikis from `builds/*/`.
+- **Wikimedia Commons via URL.** Thumbnail pattern (`/thumb/.../250px-filename`) works in Obsidian and Quartz with no local downloads.
+- **Web search fills gaps books miss.** Cultural context, modern scholarship, and "rest of the story" details that 19th/early 20th century sources couldn't cover.
 
 **What failed and how it was fixed:**
-- **Content API blocks hymn lyrics.** Sub-agents attempting to quote hymn stanzas in entity/concept pages hit content filter errors. Fix: explicit instruction "NEVER quote hymn lyrics" in every agent prompt. All hymn text handled exclusively by Python scripts copying from the source file.
-- **YAML `#` tags parsed as comments.** Sub-agents wrote tags like `[#era-reformation, #origin-german]` without quotes. YAML interprets `#` as inline comments. Fix: batch script to quote all tag values. Prevention: future agent prompts must specify `tags: ["#tag-name"]` with quotes.
-- **Empty root-level files from Obsidian.** When agents created wikilinks to non-existent pages, Obsidian sometimes created empty stub files at the wiki root (e.g., `wiki/Charles Wesley.md`), conflicting with the real `wiki/entities/Charles_Wesley.md`. Fix: delete root stubs. Prevention: always use underscored filenames in wikilinks.
-- **Quartz SPA mode incompatible with simple servers.** SPA routing requires server-side fallback. Python's `http.server` returns 404 for extensionless URLs. Fix: disabled SPA mode and wrote a `_serve.py` with clean-URL handling.
-- **Campbell parser edge cases.** Hymn 47 had a "PART FIRST" subheading that broke the parser (no text captured). Hymn 203 captured stanza 2 as the first line. Hymn 403 (Amazing Grace) had duplicate stanza numbering from the Gutenberg source. Fix: manual corrections. Prevention: parser validation should check for empty `text` fields and flag them.
+- **Quartz strips `<script>` from markdown.** Random Hymn page with client-side JS redirect didn't work. Fix: replaced with static discovery page. Lesson: features needing JS require Quartz custom components (TypeScript in `quartz/components/`) or must be static.
+- **Explorer sidebar overwhelm.** 1,324 hymn files expanded in sidebar was unusable. Fix: `filterFn` in layout to exclude `Hymn_*` slugs. Users navigate via search, overview pages, or direct links.
+- **Tag drift across many agents.** Despite instructions, agents created ~60 non-taxonomy tags. Fix: expanded taxonomy post-ingest. Prevention: include the actual taxonomy file content in agent prompts, not just a reference to it.
+- **Overview page drift.** The `_overview.md` showed "four sources" long after 9 existed, and had duplicate navigation sections. Fix: manual update. Prevention: add "update overview page" as an explicit step in every ingest wave checklist.
+- **Missing Sources_Overview.md.** New source pages used breadcrumbs pointing to a page that didn't exist. Fix: created it. Prevention: scaffolding checklist must include ALL type-overview pages, not just the ones that seem obvious at build time.
 
-**What the next version should address:**
-- Enriching the 1,324 hymn stub pages with historical context (most still say "will be enriched during narrative ingest")
-- Linking entity pages directly to the hymn pages of hymns they discuss
-- Populating the empty `era` and `composer` frontmatter fields on hymn pages
-- Adding `related` links to hymn pages (currently empty on all)
-- Resolving the ~30 dead author wikilinks on hymn pages (minor figures without entity pages)
+**What v1.0.0 flagged and v2.0.0 addressed:**
+- ✅ Enriching hymn stubs with historical context (486 pages)
+- ✅ Populating empty `era` and `composer` fields (505 era, 29 composer)
+- ⬜ Adding `related` links to hymn pages (still mostly empty)
+- ⬜ Resolving ~30 dead author wikilinks (partially addressed via new entities)
+
+### Version 1.0.0 --- Initial Build (2026-04-04)
+
+**Stats:** 1,530 pages. 1,324 hymns, 160 entities, 23 concepts, 5 synthesis, 1 timeline, 4 sources.
+
+**Key lessons (still valid):**
+- Script-first extraction for structured data at scale
+- Parallel sub-agents for narrative ingest
+- "NEVER quote hymn lyrics" in every agent prompt
+- YAML `#` tags must be quoted
+- Breadcrumb navigation on every page via script
+- Type-overview pages as navigation hubs

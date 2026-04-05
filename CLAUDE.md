@@ -1,5 +1,5 @@
 # CLAUDE.md --- Wiki Factory Operating Instructions
-## Version 1.1.0
+## Version 1.2.0
 
 ---
 
@@ -13,7 +13,7 @@ Each build is a self-contained Obsidian vault in `builds/[Wiki_Name]/`, zippable
 |-------|-------|
 | **Root** | `C:\Wiki_Factory` |
 | **Platform** | Windows 11, `py -3` for Python |
-| **Repository** | Git-tracked |
+| **Repository** | Git-tracked, deployed via GitHub Pages |
 | **License** | CC BY-SA 4.0 (wiki content), MIT (tooling) |
 
 ---
@@ -148,7 +148,14 @@ Generate consumer products from wiki content.
 
 - **Marp slides:** `npx marp [input.md] -o [output.html]`
 - **Charts:** `py -3` with matplotlib
-- **Quartz HTML site:** Clone Quartz into `outputs/quartz/`, copy wiki into `content/`, run `npx quartz build`. Copy `public/` to `outputs/site/`. Include `_serve.py` and `Start_Wiki.bat` for local browsing. Key config: `enableSPA: false`, remove `RemoveDrafts` filter, copy `_overview.md` as `content/index.md`.
+- **Quartz HTML site (local):** Clone Quartz into `outputs/quartz/`, copy wiki into `content/`, run `npx quartz build`. Key config: `enableSPA: false`, no `RemoveDrafts` filter, copy `_overview.md` as `content/index.md`.
+- **GitHub Pages (production):** Store `quartz.config.ts` and `quartz.layout.ts` at wiki build root. CI workflow (`.github/workflows/deploy.yml`) clones Quartz fresh, overlays config, copies wiki to content, builds, deploys. Landing page auto-generated from `builds/*/` metadata. Push to `main` triggers build + deploy (~50 seconds).
+
+**Quartz UX for large wikis:**
+- Explorer sidebar: use `filterFn` to exclude large item collections (e.g., 1,324 hymn files) from sidebar navigation. Users navigate via search, overview pages, or direct links.
+- Graph view: set `localGraph.depth: 1` to show only direct connections, preventing visual overwhelm.
+- External links (YouTube, etc.): use `<a target="_blank">` since standard markdown links open in the same tab.
+- Quartz strips `<script>` tags from markdown. Features needing client-side JS require Quartz custom components (TypeScript in `quartz/components/`) or must be static alternatives.
 
 ---
 
@@ -207,6 +214,8 @@ Projects may define custom page types. Add the schema YAML to `factory/schemas/`
 - Consider subdirectories within type folders (e.g., `entities/people/`, `entities/places/`)
 - Consider search tooling (qmd or custom)
 - Periodic lint runs to catch drift
+- **Wave-based parallel ingest** for adding multiple sources: process in waves of 2-3 books, each wave handling sources with minimal entity overlap. Use JSON intermediary files for structured extraction, then a Python script to fuzzy-match and inject into existing pages at scale.
+- **Explorer sidebar filtering** in Quartz: use `filterFn` to hide large item collections (1,000+ items) from the sidebar. Users navigate via search and overview pages instead.
 
 ---
 
@@ -217,26 +226,29 @@ Every project in `builds/` follows this layout:
 ```
 builds/[Wiki_Name]/
 ├── [Wiki_Name].md             ← Project spec (self-improving)
+├── quartz.config.ts           ← Quartz site config (overlaid during CI build)
+├── quartz.layout.ts           ← Quartz layout config (overlaid during CI build)
 ├── .obsidian/                 ← Vault config (from factory/templates/obsidian/)
-├── raw/                       ← Immutable source documents
+├── raw/                       ← Immutable source documents (gitignored)
 │   ├── assets/                ← Downloaded images from sources
 │   └── [source files]
 ├── wiki/                      ← LLM-generated markdown
 │   ├── _index.md              ← Content catalog
 │   ├── _log.md                ← Chronological operations log
-│   ├── _overview.md           ← Landing page
+│   ├── _overview.md           ← Landing page (UPDATE AFTER EVERY INGEST WAVE)
 │   ├── _tag_taxonomy.md       ← Controlled tag vocabulary
+│   ├── [Type]_Overview.md     ← One navigation hub per page type
 │   ├── entities/
 │   ├── concepts/
 │   ├── sources/
 │   ├── synthesis/
 │   ├── timelines/
 │   └── assets/                ← Wiki-generated images
-└── outputs/
+└── outputs/                   ← Derived artifacts (gitignored)
     ├── slides/                ← Marp slide decks
     ├── charts/                ← Generated visuals
-    ├── site/                  ← Quartz HTML site (browsable offline)
-    └── quartz/                ← Quartz build directory (exclude from zip)
+    ├── site/                  ← Quartz HTML site (local browsing)
+    └── quartz/                ← Quartz build directory (local dev only)
 ```
 
 ---
@@ -280,10 +292,14 @@ When a wiki build is approved:
 | **Python 3** | Scripting, charts, wiki tooling | Free |
 | **Marp CLI** | Markdown → slides (HTML/PDF/PPTX) | Free |
 | **Obsidian** | IDE for browsing/editing the wiki | Free |
-| **Git / GitHub** | Version control | Free |
+| **Git / GitHub** | Version control + deployment | Free |
+| **GitHub Pages** | Static site hosting via Actions CI/CD | Free |
+| **GitHub CLI (`gh`)** | Repo management, Actions monitoring | Free |
 | **Claude Code** | Chief Engineer | API budget |
 | **Matplotlib** | Chart/figure generation | Free |
 | **Quartz v4** | Obsidian vault → static HTML site | Free |
+| **Wikimedia Commons** | Public domain images (portraits, scenes) | Free |
+| **Web Search** | Research to enrich stubs beyond book sources | Free |
 
 ### Liberal Tool Autonomy
 
@@ -316,12 +332,15 @@ No output moves forward without validation.
 - **Always add frontmatter** to every wiki page. No exceptions.
 - **Always update `_index.md`** after creating or deleting a page.
 - **Always append to `_log.md`** after every ingest, lint, or significant edit.
+- **Always update `_overview.md`** after every ingest wave. It drifts fast (source counts, page counts, navigation sections). This is the user's front door.
 - **Always use wikilinks** `[[Page Name]]` for cross-references, never raw markdown links between wiki pages.
 - **Always check for contradictions** when ingesting a new source --- update existing pages that the new information affects.
-- **Always use the tag taxonomy** --- no ad-hoc tags. Propose new tags to the taxonomy first.
+- **Always use the tag taxonomy** --- no ad-hoc tags. Propose new tags to the taxonomy first. When prompting sub-agents, include the actual taxonomy content, not just a reference to the file.
 - **Never modify raw sources** --- `raw/` is immutable.
 - **Always add navigation breadcrumbs** to every wiki page: `> [[_overview|Home]] > [[Section_Overview|Section]]`. Use `py -3 factory/scripts/add_navigation.py` for bulk injection.
+- **Always create type-overview pages** for every page type used (Hymns_Overview, People_Overview, Concepts_Overview, Sources_Overview, Synthesis_Overview, etc.). Missing overview pages = broken breadcrumbs.
 - **Always quote tag values in YAML** --- write `tags: ["#tag-name"]` not `tags: [#tag-name]`. Unquoted `#` is a YAML comment.
 - **Never reproduce copyrighted or sensitive content via LLM** --- song lyrics, poems, etc. must come from source files via scripts.
 - **Never add instructions that duplicate existing ones** --- integrate or replace.
 - **Research before implementing** --- web search for best practices, not guesswork.
+- **External links open in new windows** --- use `<a target="_blank" rel="noopener">` for YouTube, Wikimedia, and other external links in wiki pages destined for Quartz rendering.
