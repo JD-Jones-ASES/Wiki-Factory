@@ -1,0 +1,14 @@
+{
+  "name": "wiki-factory",
+  "version": "1.0.0",
+  "description": "LLM-maintained Markdown wiki factory — sources to structured knowledge bases",
+  "private": true,
+  "scripts": {
+    "marp": "marp",
+    "lint": "py -3 factory/scripts/lint_wiki.py",
+    "index": "py -3 factory/scripts/build_index.py"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4"
+  }
+}

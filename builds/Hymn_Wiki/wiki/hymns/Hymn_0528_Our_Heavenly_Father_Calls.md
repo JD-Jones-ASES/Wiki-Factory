@@ -1,0 +1,74 @@
+---
+title: "Hymn 528: Our heavenly Father calls,"
+type: hymn
+aliases: ["Our heavenly Father calls,", "Truly our fellowship is with the Father, etc."]
+tags: ["#meter-short", "#theme-devotion"]
+created: 2026-04-04
+updated: 2026-04-04
+source_refs: ["[[The_Christian_Hymn_Book]]"]
+related: []
+status: stub
+confidence: high
+hymn_number: 528
+first_line: "Our heavenly Father calls,"
+meter: "S. M"
+topic: "Truly our fellowship is with the Father, etc."
+author: "Doddridge"
+composer: ""
+tune_name: ""
+scripture_refs: ["1 John 1:3."]
+stanza_count: 5
+era: "18th-century"
+---
+
+
+> [[_overview|Home]] > [[Hymns_Overview|Hymns]]
+
+# Hymn 528: Our heavenly Father calls,
+
+| Field | Value |
+|-------|-------|
+| **Author** | [[Philip Doddridge]] |
+| **Meter** | S. M |
+| **Topic** | Truly our fellowship is with the Father, etc. |
+| **Section** | Chorus |
+| **Stanzas** | 5 |
+
+## Text
+
+> *From [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), Hymn 528*
+
+```
+Our heavenly Father calls,
+    And Christ invites us near;
+  With both, our friendship shall be sweet,
+    And our communion dear.
+
+  2 God pities all our griefs:
+    He pardons every day;
+  Almighty to protect our souls,
+    And wise to guide our way.
+
+  3 How large his bounties are!
+    What various stores of good,
+  Diffused from our Redeemer’s hand,
+    And purchased with his blood!
+
+  4 Jesus, our living Head,
+    We bless thy faithful care;
+  Our Advocate before the throne,
+    And our forerunner there.
+
+  5 Here fix my roving heart!
+    Here wait my warmest love!
+  Till the communion be complete,
+    In nobler scenes above.
+```
+
+## Scripture References
+
+- 1 John 1:3.
+
+## Historical Context
+
+*This section will be enriched during narrative ingest from [[The_Story_of_Our_Hymns]] and [[The_Story_of_the_Hymns_and_Tunes]].*

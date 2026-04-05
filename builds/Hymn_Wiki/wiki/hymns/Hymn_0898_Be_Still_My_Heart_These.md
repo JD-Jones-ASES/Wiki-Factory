@@ -1,0 +1,73 @@
+---
+title: "Hymn 898: Be still, my heart! these anxious cares,"
+type: hymn
+aliases: ["Be still, my heart! these anxious cares,", "Submissiveness."]
+tags: ["#meter-long", "#theme-devotion"]
+created: 2026-04-04
+updated: 2026-04-05
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
+related: []
+status: draft
+confidence: high
+hymn_number: 898
+first_line: "Be still, my heart! these anxious cares,"
+meter: "L. M"
+topic: "Submissiveness."
+author: "Newton"
+composer: ""
+tune_name: ""
+scripture_refs: []
+stanza_count: 4
+era: "18th-century"
+---
+
+
+> [[_overview|Home]] > [[Hymns_Overview|Hymns]]
+
+# Hymn 898: Be still, my heart! these anxious cares,
+
+| Field | Value |
+|-------|-------|
+| **Author** | [[John Newton]] |
+| **Meter** | L. M |
+| **Topic** | Submissiveness. |
+| **Section** | Submission And Deliverance |
+| **Stanzas** | 4 |
+
+## Text
+
+> *From [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), Hymn 898*
+
+```
+Be still, my heart! these anxious cares,
+  To thee are burdens, thorns, and snares;
+  They cast dishonor on thy Lord,
+  And contradict his gracious word.
+
+  2 Brought safely by his hand thus far,
+  Why wilt thou now give place to fear?
+  How canst thou want if he provide,
+  Or lose thy way with such a guide?
+
+  3 Did ever trouble yet befall,
+  And he refuse to hear thy call?
+  And has he not his promise passed,
+  That thou shalt overcome at last?
+
+  4 He who has helped me hitherto
+  Will help me all my journey through,
+  And give me daily cause to raise
+  New trophies to his endless praise.
+```
+
+## Scripture References
+
+*No scripture reference in source.*
+
+## Historical Context
+
+### From Duffield (1886)
+
+One night the children cried for bread, and Mrs. With the title, ' ' Why art thou cast down T ' and in seven stanzas, this hymn is found in the 0/ney Hymns, Book HI., No. 40. Andrew Duncan, minister of Craill, in Fifeshire, was imprisoned in Blackness Castle by order of James VI., and after- ward banished from the kingdom.
+
+seven stanzas, this hymn is found in the 0/ney Hymns, Book HI.

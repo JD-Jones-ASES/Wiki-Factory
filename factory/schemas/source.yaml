@@ -1,0 +1,40 @@
+# Source Summary Page Schema
+# One per ingested source document
+
+required:
+  title: string          # Source title
+  type: "source"
+  aliases: list
+  tags: list
+  created: date          # When ingested
+  updated: date
+  source_refs: list      # Empty (this IS a source)
+  related: list          # Key pages this source informs
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  author: string
+  publication_date: string
+  source_type: enum      # book | article | website | paper | dataset | transcript
+  pages: number          # Length in pages
+  word_count: number
+  url: string            # Original URL if web source
+  key_claims: list       # Major assertions made by this source
+
+# Example frontmatter:
+# ---
+# title: "Nicomachean Ethics"
+# type: source
+# aliases: ["NE", "Ethics"]
+# tags: [primary-source, ethics, aristotle]
+# created: 2026-04-04
+# updated: 2026-04-04
+# source_refs: []
+# related: ["entities/Aristotle", "concepts/Virtue_Ethics", "concepts/Eudaimonia"]
+# status: complete
+# confidence: high
+# author: "Aristotle (trans. W.D. Ross)"
+# publication_date: "c. 340 BCE"
+# source_type: book
+# ---

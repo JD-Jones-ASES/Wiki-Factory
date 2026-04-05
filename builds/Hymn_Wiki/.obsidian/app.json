@@ -1,0 +1,9 @@
+{
+  "interfaceFontSize": 14,
+  "attachmentFolderPath": "raw/assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "wiki",
+  "useMarkdownLinks": false,
+  "showFrontmatter": true,
+  "strictLineBreaks": false
+}

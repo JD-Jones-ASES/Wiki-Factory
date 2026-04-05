@@ -1,0 +1,110 @@
+name: Build and Deploy Wiki Sites
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Create output directory
+        run: mkdir -p _site
+
+      - name: Build wiki sites
+        run: |
+          for wiki_dir in builds/*/; do
+            wiki_name=$(basename "$wiki_dir")
+
+            # Skip _prefixed directories (e.g., _example)
+            if [[ "$wiki_name" == _* ]]; then
+              echo "Skipping $wiki_name (underscore prefix)"
+              continue
+            fi
+
+            # Must have wiki/ content
+            if [ ! -d "$wiki_dir/wiki" ]; then
+              echo "Skipping $wiki_name (no wiki/ directory)"
+              continue
+            fi
+
+            echo "========================================="
+            echo "Building: $wiki_name"
+            echo "========================================="
+
+            # Clone Quartz v4 into a temp build directory
+            build_dir="$(mktemp -d)"
+            git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git "$build_dir"
+
+            # Install Quartz dependencies
+            cd "$build_dir"
+            npm ci
+
+            # Overlay wiki-specific Quartz config files
+            if [ -f "$GITHUB_WORKSPACE/$wiki_dir/quartz.config.ts" ]; then
+              cp "$GITHUB_WORKSPACE/$wiki_dir/quartz.config.ts" quartz.config.ts
+            fi
+            if [ -f "$GITHUB_WORKSPACE/$wiki_dir/quartz.layout.ts" ]; then
+              cp "$GITHUB_WORKSPACE/$wiki_dir/quartz.layout.ts" quartz.layout.ts
+            fi
+
+            # Copy wiki content to Quartz content directory
+            rm -rf content/*
+            cp -r "$GITHUB_WORKSPACE/$wiki_dir/wiki/"* content/
+
+            # Ensure index.md exists (copy from _overview.md if missing)
+            if [ ! -f content/index.md ] && [ -f content/_overview.md ]; then
+              cp content/_overview.md content/index.md
+            fi
+
+            # Build the Quartz site
+            npx quartz build
+
+            # Move built output to the assembly directory
+            mv public "$GITHUB_WORKSPACE/_site/$wiki_name"
+
+            cd "$GITHUB_WORKSPACE"
+            rm -rf "$build_dir"
+
+            echo "Done: $wiki_name"
+          done
+
+      - name: Build landing page
+        run: bash factory/scripts/build-landing.sh > _site/index.html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

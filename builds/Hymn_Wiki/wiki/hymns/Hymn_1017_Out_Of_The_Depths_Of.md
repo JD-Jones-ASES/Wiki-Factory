@@ -1,0 +1,71 @@
+---
+title: "Hymn 1017: Out of the depths of woe,"
+type: hymn
+aliases: ["Out of the depths of woe,", "The bow in the cloud."]
+tags: ["#meter-short", "#theme-suffering"]
+created: 2026-04-04
+updated: 2026-04-05
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+related: []
+status: draft
+confidence: high
+hymn_number: 1017
+first_line: "Out of the depths of woe,"
+meter: "S. M"
+topic: "The bow in the cloud."
+author: "Montgomery"
+composer: ""
+tune_name: ""
+scripture_refs: []
+stanza_count: 4
+era: "19th-century"
+---
+
+
+> [[_overview|Home]] > [[Hymns_Overview|Hymns]]
+
+# Hymn 1017: Out of the depths of woe,
+
+| Field | Value |
+|-------|-------|
+| **Author** | [[James Montgomery]] |
+| **Meter** | S. M |
+| **Topic** | The bow in the cloud. |
+| **Section** | Afflictions |
+| **Stanzas** | 4 |
+
+## Text
+
+> *From [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), Hymn 1017*
+
+```
+Out of the depths of woe,
+    To thee, O Lord! I cry;
+  Darkness surrounds thee, but I know
+    That thou art ever nigh.
+
+  2 Like them I watch and pray,
+    Who for the morning long;
+  Catch the first gleam of welcome day,
+    Then burst into a song.
+
+  3 Glory to God above!
+    The waters soon will cease;
+  For, lo! the swift returning dove
+    Brings home the sign of peace!
+
+  4 Though storms thy face obscure,
+    And dangers threaten loud,
+  Thy holy covenant is sure;
+    Thy bow is in the cloud!
+```
+
+## Scripture References
+
+*No scripture reference in source.*
+
+## Historical Context
+
+### From Nutter & Tillett (1911)
+
+The agony, and prayer 1 3 Is this the consecrated dower. Thy chosen ones obtain. To know thy resurrection power Through fellowship of pain? 4 Then, O my soul, in silence wait ; Faint not, O faltering feet ; Press onward to that blest estate.

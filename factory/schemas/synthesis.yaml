@@ -1,0 +1,33 @@
+# Synthesis Page Schema
+# Cross-cutting analysis, comparisons, thematic explorations
+
+required:
+  title: string
+  type: "synthesis"
+  aliases: list
+  tags: list
+  created: date
+  updated: date
+  source_refs: list      # All sources this synthesis draws from
+  related: list
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  thesis: string         # One-line summary of the analytical claim
+  methodology: string    # How the comparison/analysis is structured
+
+# Example frontmatter:
+# ---
+# title: "Plato vs Aristotle on the Good Life"
+# type: synthesis
+# aliases: []
+# tags: [ethics, comparison, classical-greece]
+# created: 2026-04-04
+# updated: 2026-04-04
+# source_refs: ["sources/Nicomachean_Ethics", "sources/Republic"]
+# related: ["entities/Plato", "entities/Aristotle", "concepts/Eudaimonia"]
+# status: draft
+# confidence: medium
+# thesis: "Aristotle's practical virtue ethics responds to Plato's idealist approach"
+# ---

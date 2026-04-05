@@ -1,0 +1,36 @@
+# Timeline Page Schema
+# Chronological narratives
+
+required:
+  title: string
+  type: "timeline"
+  aliases: list
+  tags: list
+  created: date
+  updated: date
+  source_refs: list
+  related: list
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  period_start: string   # Earliest date covered
+  period_end: string     # Latest date covered
+  granularity: enum      # year | decade | century | era
+
+# Example frontmatter:
+# ---
+# title: "Classical Greek Philosophy Timeline"
+# type: timeline
+# aliases: []
+# tags: [philosophy, classical-greece, chronology]
+# created: 2026-04-04
+# updated: 2026-04-04
+# source_refs: ["sources/Nicomachean_Ethics", "sources/Republic"]
+# related: ["entities/Socrates", "entities/Plato", "entities/Aristotle"]
+# status: draft
+# confidence: medium
+# period_start: "624 BCE"
+# period_end: "322 BCE"
+# granularity: decade
+# ---

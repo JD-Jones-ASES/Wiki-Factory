@@ -1,0 +1,69 @@
+---
+title: "Hymn 1011: And can my heart aspire so high,"
+type: hymn
+aliases: ["And can my heart aspire so high,", "Entire submission."]
+tags: ["#meter-common", "#theme-suffering"]
+created: 2026-04-04
+updated: 2026-04-04
+source_refs: ["[[The_Christian_Hymn_Book]]"]
+related: []
+status: stub
+confidence: high
+hymn_number: 1011
+first_line: "And can my heart aspire so high,"
+meter: "C. M"
+topic: "Entire submission."
+author: "Mrs. Steele"
+composer: ""
+tune_name: ""
+scripture_refs: []
+stanza_count: 4
+era: "18th-century"
+---
+
+
+> [[_overview|Home]] > [[Hymns_Overview|Hymns]]
+
+# Hymn 1011: And can my heart aspire so high,
+
+| Field | Value |
+|-------|-------|
+| **Author** | [[Anne Steele]] |
+| **Meter** | C. M |
+| **Topic** | Entire submission. |
+| **Section** | Afflictions |
+| **Stanzas** | 4 |
+
+## Text
+
+> *From [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), Hymn 1011*
+
+```
+And can my heart aspire so high,
+    To say—“My Father God!”
+  Lord, at thy feet I long to lie,
+    And learn to kiss the rod.
+
+  2 I would submit to all thy will,
+    For thou art good and wise;
+  Let every anxious thought be still,
+    Nor one faint murmur rise.
+
+  3 Thy love can cheer the darksome gloom,
+    And bid me wait serene;
+  Till hopes and joys immortal bloom,
+    And brighten all the scene.
+
+  4 My Father! O permit my heart
+    To plead her humble claim;
+  And ask the bliss those words impart,
+    In my Redeemer’s name.
+```
+
+## Scripture References
+
+*No scripture reference in source.*
+
+## Historical Context
+
+*This section will be enriched during narrative ingest from [[The_Story_of_Our_Hymns]] and [[The_Story_of_the_Hymns_and_Tunes]].*

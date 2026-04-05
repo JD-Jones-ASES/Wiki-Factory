@@ -1,0 +1,34 @@
+# Concept Page Schema
+# Ideas, themes, theories, methods
+
+required:
+  title: string
+  type: "concept"
+  aliases: list
+  tags: list
+  created: date
+  updated: date
+  source_refs: list
+  related: list
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  domain: string         # Broader field this concept belongs to
+  key_proponents: list   # Entity page links for major figures
+
+# Example frontmatter:
+# ---
+# title: "Virtue Ethics"
+# type: concept
+# aliases: ["Arete", "Ethics of Character"]
+# tags: [ethics, moral-philosophy, classical-greece]
+# created: 2026-04-04
+# updated: 2026-04-04
+# source_refs: ["sources/Nicomachean_Ethics", "sources/Republic"]
+# related: ["concepts/Eudaimonia", "entities/Aristotle"]
+# status: draft
+# confidence: high
+# domain: "Ethics"
+# key_proponents: ["entities/Aristotle", "entities/Plato"]
+# ---

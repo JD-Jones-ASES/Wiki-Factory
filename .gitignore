@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+*.pdf
+*.pptx
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Obsidian workspace (per-user, not shared)
+builds/*/.obsidian/workspace.json
+builds/*/.obsidian/workspace-mobile.json
+
+# Large binaries
+*.zip
+
+# Quartz framework (installed fresh during CI)
+builds/*/outputs/quartz/
+
+# Built site output (rebuilt during CI)
+builds/*/outputs/site/
+
+# Raw source documents (kept local, not needed for site build)
+builds/*/raw/
+
+# Intermediate JSON data files from ingest pipeline
+builds/*/wiki/_*_data*.json
+
+# Example/template wiki (not for deployment)
+builds/_example/
+
+# CI build output
+_site/
+
+# Temp upload artifacts
+.tmp.driveupload/

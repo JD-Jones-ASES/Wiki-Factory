@@ -1,0 +1,36 @@
+# Entity Page Schema
+# People, places, organizations, works
+
+required:
+  title: string          # Full name
+  type: "entity"
+  aliases: list          # Alternative names, abbreviations
+  tags: list             # From controlled taxonomy
+  created: date          # YYYY-MM-DD
+  updated: date          # YYYY-MM-DD
+  source_refs: list      # Paths to source summary pages
+  related: list          # Paths to related pages
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  entity_type: enum      # person | place | organization | work | event
+  dates: string          # Birth-death, founding, publication date
+  description: string    # One-line identification
+
+# Example frontmatter:
+# ---
+# title: "Aristotle"
+# type: entity
+# aliases: ["The Philosopher", "Aristoteles"]
+# tags: [philosophy, classical-greece, lyceum]
+# created: 2026-04-04
+# updated: 2026-04-04
+# source_refs: ["sources/Nicomachean_Ethics"]
+# related: ["entities/Plato", "concepts/Virtue_Ethics"]
+# status: draft
+# confidence: high
+# entity_type: person
+# dates: "384-322 BCE"
+# description: "Greek philosopher, student of Plato, founder of the Lyceum"
+# ---

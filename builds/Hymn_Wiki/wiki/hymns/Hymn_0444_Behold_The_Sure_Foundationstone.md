@@ -1,0 +1,69 @@
+---
+title: "Hymn 444: Behold the sure foundation-stone,"
+type: hymn
+aliases: ["Behold the sure foundation-stone,", "A sure foundation. Isaiah 28:16."]
+tags: ["#meter-common", "#theme-devotion"]
+created: 2026-04-04
+updated: 2026-04-04
+source_refs: ["[[The_Christian_Hymn_Book]]"]
+related: []
+status: stub
+confidence: high
+hymn_number: 444
+first_line: "Behold the sure foundation-stone,"
+meter: "C. M"
+topic: "A sure foundation. Isaiah 28:16."
+author: "Watts"
+composer: ""
+tune_name: ""
+scripture_refs: []
+stanza_count: 4
+era: "18th-century"
+---
+
+
+> [[_overview|Home]] > [[Hymns_Overview|Hymns]]
+
+# Hymn 444: Behold the sure foundation-stone,
+
+| Field | Value |
+|-------|-------|
+| **Author** | [[Isaac Watts]] |
+| **Meter** | C. M |
+| **Topic** | A sure foundation. Isaiah 28:16. |
+| **Section** | The Church—Divine Constitution |
+| **Stanzas** | 4 |
+
+## Text
+
+> *From [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), Hymn 444*
+
+```
+Behold the sure foundation-stone,
+    Which God in Zion lays,
+  To build our heavenly hopes upon,
+    And his eternal praise!
+
+  2 Chosen of God, to sinners dear,
+    And saints adore the name;
+  They trust their whole salvation here,
+    Nor shall they suffer shame.
+
+  3 The foolish builders, scribe, and priest,
+    Reject it with disdain;
+  Yet on this rock the church shall rest,
+    And envy rage in vain.
+
+  4 What though the gates of hell withstood,
+    Yet must this building rise:
+  ’Tis thy own work, almighty God,
+    And wondrous in our eyes.
+```
+
+## Scripture References
+
+*No scripture reference in source.*
+
+## Historical Context
+
+*This section will be enriched during narrative ingest from [[The_Story_of_Our_Hymns]] and [[The_Story_of_the_Hymns_and_Tunes]].*

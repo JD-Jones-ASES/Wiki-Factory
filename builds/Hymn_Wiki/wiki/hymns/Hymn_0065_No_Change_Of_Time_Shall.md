@@ -1,0 +1,64 @@
+---
+title: "Hymn 65: No change of time shall ever shock"
+type: hymn
+aliases: ["No change of time shall ever shock", "Unchanging trust."]
+tags: ["#meter-long", "#theme-praise", "#theme-trust"]
+created: 2026-04-04
+updated: 2026-04-04
+source_refs: ["[[The_Christian_Hymn_Book]]"]
+related: []
+status: stub
+confidence: high
+hymn_number: 65
+first_line: "No change of time shall ever shock"
+meter: "L. M"
+topic: "Unchanging trust."
+author: "Tate & Brady"
+composer: ""
+tune_name: ""
+scripture_refs: []
+stanza_count: 3
+era: ""
+---
+
+
+> [[_overview|Home]] > [[Hymns_Overview|Hymns]]
+
+# Hymn 65: No change of time shall ever shock
+
+| Field | Value |
+|-------|-------|
+| **Author** | [[Tate and Brady]] |
+| **Meter** | L. M |
+| **Topic** | Unchanging trust. |
+| **Section** | God: In Providence |
+| **Stanzas** | 3 |
+
+## Text
+
+> *From [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), Hymn 65*
+
+```
+No change of time shall ever shock
+    My firm affection, Lord, to thee;
+  For thou hast always been my rock,
+    A fortress and defense to me.
+
+  2 Thou my deliverer art, my God;
+    My trust is in thy mighty power;
+  Thou art my shield from foes abroad—
+    At home my safeguard and my tower.
+
+  3 To thee I will address my prayer,
+    To whom all praise I justly owe;
+  So shall I by thy watchful care,
+    Be guarded from my treacherous foe.
+```
+
+## Scripture References
+
+*No scripture reference in source.*
+
+## Historical Context
+
+*This section will be enriched during narrative ingest from [[The_Story_of_Our_Hymns]] and [[The_Story_of_the_Hymns_and_Tunes]].*

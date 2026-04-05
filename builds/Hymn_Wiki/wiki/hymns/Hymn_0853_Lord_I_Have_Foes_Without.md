@@ -1,0 +1,72 @@
+---
+title: "Hymn 853: Lord! I have foes without, within,"
+type: hymn
+aliases: ["Lord! I have foes without, within,", "I have considered the days of old."]
+tags: ["#meter-long", "#theme-devotion"]
+created: 2026-04-04
+updated: 2026-04-04
+source_refs: ["[[The_Christian_Hymn_Book]]"]
+related: []
+status: stub
+confidence: high
+hymn_number: 853
+first_line: "Lord! I have foes without, within,"
+meter: "L. M"
+topic: "I have considered the days of old."
+author: "Montgomery"
+composer: ""
+tune_name: ""
+scripture_refs: ["Psalm 77:5."]
+stanza_count: 4
+era: "19th-century"
+---
+
+
+> [[_overview|Home]] > [[Hymns_Overview|Hymns]]
+
+# Hymn 853: Lord! I have foes without, within,
+
+| Field | Value |
+|-------|-------|
+| **Author** | [[James Montgomery]] |
+| **Meter** | L. M |
+| **Topic** | I have considered the days of old. |
+| **Section** | Temptations And Conflicts |
+| **Stanzas** | 4 |
+
+## Text
+
+> *From [[The_Christian_Hymn_Book|The Christian Hymn Book]] (1870), Hymn 853*
+
+```
+Lord! I have foes without, within,
+  The world, the flesh, indwelling sin,
+  Life’s daily ills, temptation’s power,
+  The tempted spirit’s weaker hour.
+
+  2 Yet, in the gloom of silent thought,
+  I call to mind what God hath wrought—
+  Thy wonders in the days of old,
+  Thy mercies great and manifold.
+
+  3 O, then to thee I stretch my hands,
+  Like failing streams through desert sands;
+  I thirst for thee, as harvest plains,
+  Parched by the summer, thirst for rains!
+
+  4 Teach me thy will, subdue my own;
+  Thou art my God, and thou alone;
+  Release my soul from trouble, Lord!
+  Quicken and keep me by thy word.
+```
+
+## Scripture References
+
+### Psalm 77:5.
+
+**Psalms 77:5** --- I have considered the days of old, the years of ancient times.
+
+
+## Historical Context
+
+*This section will be enriched during narrative ingest from [[The_Story_of_Our_Hymns]] and [[The_Story_of_the_Hymns_and_Tunes]].*

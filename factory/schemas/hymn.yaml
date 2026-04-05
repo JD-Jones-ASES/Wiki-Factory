@@ -1,0 +1,67 @@
+# Hymn page schema
+# One page per hymn in the collection. Central artifact of the Hymn Wiki.
+
+required_fields:
+  - name: title
+    type: string
+    description: "Page title (e.g., 'Hymn 1: The Heavens Declare Thy Glory')"
+  - name: type
+    type: string
+    value: hymn
+  - name: aliases
+    type: list
+    description: "Alternative names, first lines, or common titles"
+  - name: tags
+    type: list
+    description: "Tags from controlled taxonomy"
+  - name: created
+    type: date
+    format: YYYY-MM-DD
+  - name: updated
+    type: date
+    format: YYYY-MM-DD
+  - name: source_refs
+    type: list
+    description: "Wikilinks to source pages that discuss this hymn"
+  - name: related
+    type: list
+    description: "Wikilinks to related pages"
+  - name: status
+    type: string
+    values: [stub, draft, complete]
+  - name: confidence
+    type: string
+    values: [high, medium, low]
+
+hymn_fields:
+  - name: hymn_number
+    type: integer
+    description: "Campbell Hymn Book number (1-1324)"
+  - name: first_line
+    type: string
+    description: "First line of the hymn text"
+  - name: meter
+    type: string
+    description: "Meter marking (L.M., C.M., S.M., C.M.D., P.M., 7s, etc.)"
+  - name: topic
+    type: string
+    description: "Campbell's subject heading for this hymn"
+  - name: author
+    type: string
+    description: "Hymn writer name"
+  - name: composer
+    type: string
+    description: "Tune composer (when known from Butterworth-Brown)"
+  - name: tune_name
+    type: string
+    description: "Named tune (when known from Butterworth-Brown)"
+  - name: scripture_refs
+    type: list
+    description: "Bible verse references (e.g., 'Psalm 19:1', 'John 3:16')"
+  - name: stanza_count
+    type: integer
+    description: "Number of stanzas in Campbell's version"
+  - name: era
+    type: string
+    values: [early-church, medieval, reformation, post-reformation, 18th-century, 19th-century, 20th-century]
+    description: "Historical era of composition"

@@ -1,0 +1,30 @@
+---
+title: "Nicholas Brady"
+type: entity
+aliases: ["Nicholas Brady", "Rev. Nicholas Brady"]
+tags: ["#era-post-reformation", "#era-18th-century", "#origin-irish", "#tradition-anglican"]
+created: 2026-04-04
+updated: 2026-04-04
+source_refs: ["[[The_Story_of_the_Hymns_and_Tunes]]"]
+related: ["[[Nahum_Tate]]", "[[English_Hymnody]]"]
+status: draft
+confidence: high
+entity_type: person
+dates: "1659-1726"
+description: "Irish clergyman and co-author with Nahum Tate of the 'New Version' of the Psalms (1703), the authorized metrical psalter licensed by William and Mary."
+---
+
+
+> [[_overview|Home]] > [[People_Overview|People]]
+
+# Nicholas Brady
+
+Rev. Nicholas Brady, D.D., was an Irishman, son of an officer in the royal army. He was born at Bandon, County of Cork, on October 28, 1659. He studied at Westminster School and at Oxford, but afterwards entered Trinity College, Dublin, where he graduated in 1685. King William III made him Queen Mary's Chaplain. He died on May 20, 1726.
+
+## The New Version of the Psalms
+
+Brady's lasting contribution to Christian worship came through his partnership with [[Nahum_Tate]] on the "New" metrical version of the Psalms. The complete Psalter, with an appendix of hymns, was licensed by William and Mary and published in 1703. It was known as "Tate and Brady's" version, and stood as the standard authorized metrical psalter of the Church of England for generations. The hymns in the volume were entirely Tate's work; Brady's contribution was in the Psalms themselves.
+
+## Musical and Thematic Context
+
+The "Tate and Brady" Psalter represented an effort to give the Church of England a more polished and singable metrical psalter than the older "Sternhold and Hopkins" version that had been in use since the Reformation. Though the "New Version" was eventually overshadowed by the rise of the Watts-and-Wesley hymnic tradition, it remained an authorized text well into the eighteenth century, and the *Methodist Hymnal* preserves its memory in its collection of doxologies, crediting "Tate and Brady" for one of the ten doxologies listed.
