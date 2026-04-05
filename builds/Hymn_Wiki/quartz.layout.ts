@@ -41,11 +41,29 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       filterFn: (node: FileTrieNode) => {
-        // Hide individual hymn pages from the explorer sidebar
-        // (there are 1,324 of them — users navigate via search or Hymns_Overview)
         const name = node.slugSegment
-        if (name && name.startsWith("Hymn_")) return false
+        if (!name) return true
+        // Hide individual hymn pages (1,740 items — navigate via Hymns_Overview or search)
+        if (name.startsWith("Hymn_")) return false
+        // Hide entities folder (284 items — navigate via People_Overview)
+        if (name === "entities") return false
+        // Hide concepts folder (46 items — navigate via Concepts_Overview)
+        if (name === "concepts") return false
+        // Hide internal/maintenance files
+        if (name.startsWith("_") && name !== "_overview" && name !== "_scripture_index" && name !== "_index") return false
+        // Hide JSON data files
+        if (name.endsWith("_data") || name.endsWith("_data_part1") || name.endsWith("_data_part2")) return false
         return true
+      },
+      mapFn: (node: FileTrieNode) => {
+        const friendlyNames: Record<string, string> = {
+          "sources": "📚 Sources",
+          "synthesis": "📖 Stories & Analysis",
+          "timelines": "📅 Timelines",
+        }
+        if (node.isFolder && node.slugSegment && friendlyNames[node.slugSegment]) {
+          node.displayName = friendlyNames[node.slugSegment]
+        }
       },
     }),
   ],
@@ -85,8 +103,23 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       filterFn: (node: FileTrieNode) => {
         const name = node.slugSegment
-        if (name && name.startsWith("Hymn_")) return false
+        if (!name) return true
+        if (name.startsWith("Hymn_")) return false
+        if (name === "entities") return false
+        if (name === "concepts") return false
+        if (name.startsWith("_") && name !== "_overview" && name !== "_scripture_index" && name !== "_index") return false
+        if (name.endsWith("_data") || name.endsWith("_data_part1") || name.endsWith("_data_part2")) return false
         return true
+      },
+      mapFn: (node: FileTrieNode) => {
+        const friendlyNames: Record<string, string> = {
+          "sources": "📚 Sources",
+          "synthesis": "📖 Stories & Analysis",
+          "timelines": "📅 Timelines",
+        }
+        if (node.isFolder && node.slugSegment && friendlyNames[node.slugSegment]) {
+          node.displayName = friendlyNames[node.slugSegment]
+        }
       },
     }),
   ],

@@ -15,66 +15,34 @@ confidence: high
 
 A comprehensive guide to Christian hymns --- their stories, their writers, and the Scripture that inspired them.
 
-## What's Inside
+**1,740 hymns** | **284 people** | **45+ topics** | **11 sources** | spanning 2,000 years of Christian song
 
-This wiki covers **1,740 hymns** from the Christian tradition, spanning from the earliest church chants to the gospel songs of the early twentieth century. For each hymn you'll find the full text, its historical context, and the Bible passages that connect to it.
+---
 
-### Browse by Type
+## Start Here
 
-- **[[Hymns_Overview|Hymns]]** --- 1,740 hymn pages from two historic hymnals, with text, meter, topic, and scripture references
-- **[[People_Overview|People]]** --- 284+ hymn writers, composers, and translators
-- **[[Concepts_Overview|Ideas & Traditions]]** --- 45+ pages on theological themes, musical forms, and historical movements
-- **[[Sources_Overview|Sources]]** --- the 11 primary sources behind this wiki
-- **[[Synthesis_Overview|Stories]]** --- cross-cutting analyses connecting hymns, people, and ideas
-- **[[Christian_Hymnody_Timeline|Timeline]]** --- the history of hymnody told chronologically
-- **[[_index|Full Index]]** --- every page in the wiki, organized by type
-
-### Browse by Era
-
-- [[Early_Christian_Hymnody|Early Church]] (1st-6th century)
-- [[Medieval_Hymnody|Medieval]] (7th-15th century)
-- [[Reformation_Hymnody|Reformation]] (16th century)
-- [[Post-Reformation_Hymnody|17th Century]]
-- [[18th_Century_Hymnody|18th Century]] --- Watts, Wesley, and the Great Awakening
-- [[19th_Century_Hymnody|19th Century]] --- the golden age of English and American hymns
-- [[20th_Century_Hymnody|Early 20th Century]]
-
-### Browse by Tradition
-
-- [[Lutheran_Hymnody|Lutheran]] --- from Luther to the Scandinavian traditions
-- [[Methodist_Hymnody|Methodist]] --- the Wesley brothers and their legacy
-- [[Anglican_Hymnody|Anglican]] --- the Church of England's rich tradition
-- [[Baptist_Hymnody|Baptist]] --- from Keach and Bunyan to Spurgeon
-- [[Presbyterian_Hymnody|Presbyterian]] --- the Psalmody Controversy and beyond
-- [[American_Hymnody|American]] --- from the colonies to the gospel songs
-- [[Moravian_Hymnody|Moravian]] --- Zinzendorf and the Brethren
-- [[Scandinavian_Hymnody|Scandinavian]] --- Kingo, Brorson, Grundtvig, Wallin
-- [[Gospel_Hymn_Movement|Gospel Hymns]] --- Moody, Sankey, and the revival tradition
-
-### Featured
-
-- **[[Famous_Hymns|100 Famous Hymns]]** --- the most beloved hymns with direct links
-- **[[Hymns_with_Recordings|Hymns with Recordings]]** --- listen to performances on YouTube
-- **[[Random_Hymn|Random Hymn]]** --- discover a hymn at random
+- **[[Famous_Hymns|100 Famous Hymns]]** --- the most beloved hymns in the Christian tradition
+- **[[People_Overview|Hymn Writers]]** --- 284 poets, composers, and translators who shaped Christian song
 - **[[_scripture_index|Scripture Index]]** --- find hymns connected to any Bible passage
+- **[[Hymns_Overview|Browse All Hymns]]** --- 1,740 hymns organized by section, meter, and collection
 
-## Sources
+## Explore
 
-This wiki draws on **eleven sources** spanning three centuries of hymnological scholarship:
+### By Era
 
-### Hymnals
-1. **[[The_Christian_Hymn_Book|The Christian Hymn Book]]** (1870) --- Alexander Campbell's collection of 1,324 hymns (all hymn texts)
-2. **[[Book_of_Hymns_for_Public_and_Private_Devotion|A Book of Hymns for Public and Private Devotion]]** (1848) --- Samuel Longfellow & Samuel Johnson's 600-hymn Unitarian collection
-3. **[[King_James_Bible|The King James Bible]]** (1611) --- scripture references integrated at hymn level
+[[Early_Christian_Hymnody|Early Church]] | [[Medieval_Hymnody|Medieval]] | [[Reformation_Hymnody|Reformation]] | [[Post-Reformation_Hymnody|17th Century]] | [[18th_Century_Hymnody|18th Century]] | [[19th_Century_Hymnody|19th Century]] | [[20th_Century_Hymnody|Early 20th]]
 
-### Historical & Biographical Studies
-4. **[[The_Story_of_Our_Hymns|The Story of Our Hymns]]** (1930) --- Ernest Edwin Ryden's chronological biographical history
-5. **[[The_Story_of_the_Hymns_and_Tunes|The Story of the Hymns and Tunes]]** (1906) --- Theron Brown & Hezekiah Butterworth's narrative and musical history
-6. **[[The_English_Hymn|The English Hymn]]** (1915) --- Louis F. Benson's institutional history of hymn-singing across all denominations
-7. **[[English_Hymns_Their_Authors_and_History|English Hymns: Their Authors and History]]** (1886) --- Samuel W. Duffield's hymn-by-hymn encyclopedia
-8. **[[Baptist_Hymn_Writers|Baptist Hymn Writers and Their Hymns]]** (1888) --- Henry S. Burrage's survey of 200+ Baptist hymn writers worldwide
-9. **[[The_Hymns_and_Hymn_Writers_of_the_Church|The Hymns and Hymn Writers of the Church]]** (1911) --- Charles S. Nutter's annotated Methodist Hymnal with 306 author profiles
-10. **[[American_Writers_and_Compilers_of_Sacred_Music|American Writers and Compilers of Sacred Music]]** (1925) --- Frank J. Metcalf's dictionary of 70+ American tune composers
-11. **[[The_Singing_Church|The Singing Church]]** (1938) --- Edmund S. Lorenz's pastoral guide to hymnology: character, history, and practical use of hymns
+### By Tradition
 
-All source texts are in the public domain. Hymn texts are reproduced from Campbell's 1870 and Longfellow-Johnson's 1848 collections.
+[[Lutheran_Hymnody|Lutheran]] | [[Methodist_Hymnody|Methodist]] | [[Anglican_Hymnody|Anglican]] | [[Baptist_Hymnody|Baptist]] | [[Presbyterian_Hymnody|Presbyterian]] | [[American_Hymnody|American]] | [[Moravian_Hymnody|Moravian]] | [[Scandinavian_Hymnody|Scandinavian]] | [[Gospel_Hymn_Movement|Gospel Hymns]]
+
+### By Theme
+
+[[Concepts_Overview|Ideas & Traditions]] | [[Synthesis_Overview|Stories & Analysis]] | [[Christian_Hymnody_Timeline|Timeline]]
+
+## More
+
+- **[[Hymns_with_Recordings|Listen]]** --- hymns with YouTube recordings
+- **[[Random_Hymn|Random Hymn]]** --- discover a hymn at random
+- **[[_index|Full Index]]** --- every page in the wiki
+- **[[Sources_Overview|Sources]]** --- the 11 primary sources behind this wiki

@@ -50,3 +50,9 @@ The sources complement each other by design:
 - **The KJV** provides the scriptural foundation underlying the hymns
 
 When sources disagree on dates, attributions, or facts, both accounts are noted with source attribution on the relevant wiki page.
+
+## See Also
+
+- [[Hymns_Overview|All Hymns]] --- the hymns these sources document
+- [[People_Overview|Hymn Writers]] --- the authors these sources describe
+- [[_overview|Home]] --- return to the landing page

@@ -153,7 +153,9 @@ The most beloved and widely sung hymns in the Christian tradition. Where a hymn 
 
 ## See Also
 
-- [[The_Great_Hymn_Writers]] --- the people behind the hymns
+- [[People_Overview|Hymn Writers]] --- the 284 people behind the hymns
+- [[The_Great_Hymn_Writers]] --- comparative analysis of the five great hymn writers
 - [[Hymns_Born_from_Suffering]] --- the stories behind the most moving hymns
-- [[History_of_Christian_Hymnody]] --- the full arc of hymn history
-- [[Hymns_Overview]] --- browse all 1,324 hymns by section or meter
+- [[Hymns_Overview|All Hymns]] --- browse all 1,740 hymns by section or meter
+- [[_scripture_index|Scripture Index]] --- find hymns by Bible passage
+- [[Concepts_Overview|Ideas & Traditions]] --- theological themes and historical movements

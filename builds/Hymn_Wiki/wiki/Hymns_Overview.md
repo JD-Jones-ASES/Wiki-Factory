@@ -71,3 +71,10 @@ Use Obsidian's search (magnifying glass icon) to find any hymn by its first line
 ## Scripture Connection
 
 Many hymns are connected to specific Bible passages. See the **[[_scripture_index|Scripture Index]]** to find hymns by verse.
+
+## See Also
+
+- [[Famous_Hymns|100 Famous Hymns]] --- start with the most well-known
+- [[People_Overview|Hymn Writers]] --- browse by author
+- [[Concepts_Overview|Ideas & Traditions]] --- browse by theme or era
+- [[Hymns_with_Recordings|Listen]] --- hymns with YouTube recordings

@@ -31,3 +31,10 @@ These pages connect the dots across the wiki --- comparing hymn writers, tracing
 - **[[Women_Who_Shaped_Hymnody]]** --- the women whose hymns endure: Havergal, Crosby, Elliott, Adams, Warner, Alexander, and more
 - **[[Hymns_Born_from_Suffering]]** --- the pattern of great hymns emerging from plague, war, blindness, persecution, and grief
 - **[[The_Bible_in_Hymnody]]** --- how Psalms, Gospels, and prophetic imagery shaped the hymn tradition
+
+## See Also
+
+- [[Famous_Hymns|100 Famous Hymns]] --- the most beloved hymns
+- [[People_Overview|Hymn Writers]] --- browse by author
+- [[Concepts_Overview|Ideas & Traditions]] --- eras, traditions, and themes
+- [[Hymns_Overview|All Hymns]] --- browse all 1,740 hymns
