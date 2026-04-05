@@ -1,9 +1,9 @@
 # Template.md --- Meta-Instructions for Generating Wiki Specs
-## Version 1.2.0
+## Version 1.3.0
 
 This document tells the Chief Engineer how to generate a project-specific `[Wiki_Name].md` from any raw input. It is not a template to fill in --- it is a set of meta-instructions that produce a build specification.
 
-**Origin:** Adapted from the Curriculum Factory's Template.md (42 completed textbook projects). Rules here exist because their absence caused real failures across 1 completed wiki build (Hymn Wiki, 1,616 pages, 9 sources).
+**Origin:** Adapted from the Curriculum Factory's Template.md (42 completed textbook projects). Rules here exist because their absence caused real failures across 1 completed wiki build (Hymn Wiki, ~1,890 pages, 11 sources, 3 major versions).
 
 ---
 
@@ -149,7 +149,7 @@ When generating a new build:
 
 ## Lessons from Completed Builds
 
-### Build 1: Hymn Wiki (v1.0.0 → v2.0.0, 2026-04-04 to 2026-04-05)
+### Build 1: Hymn Wiki (v1.0.0 → v3.0.0, 2026-04-04 to 2026-04-05)
 
 **Scale pattern for large source-driven wikis (1,000+ pages):**
 
@@ -191,3 +191,19 @@ Wikimedia Commons images via thumbnail URLs work in both Obsidian and Quartz wit
 **Web research fills gaps that book sources miss:**
 
 Primary sources from the 19th-20th century lack modern cultural context. Web search adds the "rest of the story" that enriches stubs beyond what any single book can provide. Prioritize famous items first for maximum reader impact.
+
+**Multi-collection integration via scripted cross-reference (v3.0.0):**
+
+When integrating a second structured source (e.g., a second hymnal), use a script-first approach: parse into JSON, fuzzy-match first lines against existing items, then (a) enrich overlapping items with cross-references and (b) generate new pages for unique items. Use a filename prefix (e.g., `Hymn_LJ_`) to distinguish collections while sharing wiki infrastructure. Always validate generated YAML with `yaml.safe_load()` after batch operations.
+
+**YAML frontmatter hygiene in scripted page generation (v3.0.0):**
+
+Three failure modes discovered when scripts generate frontmatter: (1) Non-greedy regex `(.+?)` breaks on wikilinks containing `]]` --- use greedy match or extract by pattern. (2) Source text containing quotation marks produces invalid YAML in string fields --- sanitize all values before writing. (3) Cascading fix scripts can introduce new artifacts (backslashes, mangled quotes) --- always validate YAML after every batch modification, not just the final pass. A pre-push YAML validation step prevents broken builds.
+
+**Reverse navigation via author-item mapping (v3.0.0):**
+
+For wikis with items attributed to creators (hymns to authors, papers to researchers, recipes to chefs), build a reverse mapping script that adds "Items by this creator" sections to entity pages. This requires a manual mapping dictionary for abbreviated/variant names (e.g., "Mrs. Steele" → Anna_Steele) since source abbreviations rarely match entity page filenames.
+
+**Navigation architecture at scale (v3.0.0):**
+
+At 1,500+ pages, the sidebar becomes a liability. Extend Explorer `filterFn` to hide not just item pages but also large folders (entities, concepts) --- users navigate these via hub/overview pages. Use `mapFn` for friendly folder names. Design the landing page in tiers: "Start Here" (3-4 highest-value entry points) > "Explore" (compact inline links for era/tradition/theme) > "More" (secondary tools). Add "See Also" cross-links to all hub pages so users can navigate between hubs without returning to home.

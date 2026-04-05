@@ -152,7 +152,7 @@ Generate consumer products from wiki content.
 - **GitHub Pages (production):** Store `quartz.config.ts` and `quartz.layout.ts` at wiki build root. CI workflow (`.github/workflows/deploy.yml`) clones Quartz fresh, overlays config, copies wiki to content, builds, deploys. Landing page auto-generated from `builds/*/` metadata. Push to `main` triggers build + deploy (~50 seconds).
 
 **Quartz UX for large wikis:**
-- Explorer sidebar: use `filterFn` to exclude large item collections (e.g., 1,324 hymn files) from sidebar navigation. Users navigate via search, overview pages, or direct links.
+- Explorer sidebar: use `filterFn` to exclude large collections (items, entities, concepts) and internal files from sidebar. Use `mapFn` for friendly folder names. At 500+ pages, the sidebar should show only hub/overview pages and small expandable folders. Users navigate large collections via overview pages, search, or direct links.
 - Graph view: set `localGraph.depth: 1` to show only direct connections, preventing visual overwhelm.
 - External links (YouTube, etc.): use `<a target="_blank">` since standard markdown links open in the same tab.
 - Quartz strips `<script>` tags from markdown. Features needing client-side JS require Quartz custom components (TypeScript in `quartz/components/`) or must be static alternatives.
@@ -215,7 +215,9 @@ Projects may define custom page types. Add the schema YAML to `factory/schemas/`
 - Consider search tooling (qmd or custom)
 - Periodic lint runs to catch drift
 - **Wave-based parallel ingest** for adding multiple sources: process in waves of 2-3 books, each wave handling sources with minimal entity overlap. Use JSON intermediary files for structured extraction, then a Python script to fuzzy-match and inject into existing pages at scale.
-- **Explorer sidebar filtering** in Quartz: use `filterFn` to hide large item collections (1,000+ items) from the sidebar. Users navigate via search and overview pages instead.
+- **Explorer sidebar filtering** in Quartz: use `filterFn` to hide item pages AND large folders (entities, concepts) from the sidebar. Use `mapFn` for friendly folder names. Users navigate via hub/overview pages and search. The sidebar should show ~15-20 items maximum.
+- **Tiered landing page:** "Start Here" (3-4 highest-value entry points) > "Explore" (compact inline links) > "More" (secondary tools). Hub pages cross-link via "See Also" sections.
+- **YAML validation after batch operations:** Always run `yaml.safe_load()` on every modified file after scripted changes. Failed builds from YAML errors are the most common post-ingest failure mode.
 
 ---
 
