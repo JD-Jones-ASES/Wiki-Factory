@@ -5,7 +5,7 @@ aliases: ["Father, when o’er our trembling hearts", "Help thou mine unbelief."
 tags: ["#meter-common-double", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]
 related: ["[[Hymn_0157_O_Suffering_Friend_Of_Human]]", "[[Hymn_0414_Lord_In_Whose_Might_The]]"]
 status: stub
 confidence: high

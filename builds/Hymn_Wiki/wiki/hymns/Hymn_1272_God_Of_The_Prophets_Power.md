@@ -5,7 +5,7 @@ aliases: ["God of the prophets’ power!"]
 tags: ["#meter-short", "#theme-missionary"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]
 related: ["[[Missionary_Hymns]]"]
 status: stub
 confidence: high

@@ -5,7 +5,7 @@ aliases: ["My God, my Strength, my Hope,", "Spiritual wants."]
 tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]
 related: ["[[Charles_Wesley]]", "[[18th_Century_Hymnody]]", "[[Hymn_0305_What_Could_Your_Redeemer_Do]]", "[[Hymn_0628_Hail_The_Day_That_Saw]]", "[[Hymn_1061_How_Happy_Is_The_Pilgrims]]"]
 status: draft
 confidence: high

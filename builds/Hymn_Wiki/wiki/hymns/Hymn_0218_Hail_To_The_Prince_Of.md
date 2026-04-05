@@ -5,7 +5,7 @@ aliases: ["Hail to the Prince of Life and Peace,", "He hath the keys of hell and
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]
 related: ["[[Philip_Doddridge]]", "[[18th_Century_Hymnody]]", "[[Hymn_0184_Ye_Humble_Souls_That_Seek]]", "[[Hymn_0419_Thy_Spirit_Shall_Unite]]", "[[Hymn_1018_How_Gracious_And_How_Wise]]"]
 status: stub
 confidence: high

@@ -5,7 +5,7 @@ aliases: ["How beauteous were the marks divine,", "The meekness and gentleness o
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
-source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
+source_refs: ["[[The_Christian_Hymn_Book]]", "[[Book_of_Hymns_for_Public_and_Private_Devotion]]"]
 related: ["[[Hymn_0451_O_Where_Are_Kings_And]]", "[[Hymn_1277_We_Are_Living_We_Are]]"]
 status: draft
 confidence: high
