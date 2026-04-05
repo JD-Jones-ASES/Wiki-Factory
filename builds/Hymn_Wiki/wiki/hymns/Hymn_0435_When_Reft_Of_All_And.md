@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Drummond]] |
+| **Author** | Drummond |
 | **Meter** | C. M |
 | **Topic** | God our only hope. |
 | **Section** | The Hope Of Eternal Life |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Burder]] |
+| **Author** | Burder |
 | **Meter** | C. M |
 | **Topic** | Rise, Lord, let thine enemies be scattered. |
 | **Section** | Mediatorial Reign |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Cutting]] |
+| **Author** | Cutting |
 | **Meter** | 8s, 7s & 4 |
 | **Topic** | Calling on the name of the Lord. |
 | **Section** | Baptism |

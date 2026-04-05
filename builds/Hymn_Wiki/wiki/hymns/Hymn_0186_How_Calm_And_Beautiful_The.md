@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-easter"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Hastings]]", "[[Hymn_0322_Child_Of_Sin_And_Sorrow]]", "[[Hymn_0945_O_Saviour_Lend_A_Listening]]", "[[Hymn_1015_How_Tender_Is_Thy_Hand]]"]
 status: stub
 confidence: high
 hymn_number: 186

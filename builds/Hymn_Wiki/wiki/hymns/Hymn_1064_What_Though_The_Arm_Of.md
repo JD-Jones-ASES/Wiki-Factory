@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Philip_Doddridge]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0184_Ye_Humble_Souls_That_Seek]]", "[[Hymn_0405_Grace_Tis_A_Charming_Sound]]", "[[Hymn_1009_My_God_Thy_Service_Well]]"]
 status: draft
 confidence: high
 hymn_number: 1064

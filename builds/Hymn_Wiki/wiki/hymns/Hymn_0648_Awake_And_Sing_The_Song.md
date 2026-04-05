@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[William_Hammond]]"]
 status: draft
 confidence: high
 hymn_number: 648
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hammond]] |
+| **Author** | [[William Hammond]] |
 | **Meter** | S. M |
 | **Topic** | The song of Moses and the Lamb. |
 | **Section** | Gratitude And Praise |

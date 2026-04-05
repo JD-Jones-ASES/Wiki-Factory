@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Psalmist]] |
+| **Author** | Psalmist |
 | **Meter** | 8s & 7s |
 | **Topic** | Shepherds, hail the wondrous stranger. |
 | **Section** | Hymn For Christmas |

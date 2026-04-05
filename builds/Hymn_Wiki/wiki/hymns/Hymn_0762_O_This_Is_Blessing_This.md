@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Anna L. Waring]] |
+| **Author** | [[Anna Letitia Waring]] |
 | **Meter** | L. M. D |
 | **Topic** | The secret place of the Most High. |
 | **Section** | The New Life—Trust And Joy |

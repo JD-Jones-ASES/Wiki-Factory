@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Humphreys]] |
+| **Author** | Humphreys |
 | **Meter** | 7s, 6 lines |
 | **Topic** | In whom we have redemption. |
 | **Section** | Spirit Of Adoption |

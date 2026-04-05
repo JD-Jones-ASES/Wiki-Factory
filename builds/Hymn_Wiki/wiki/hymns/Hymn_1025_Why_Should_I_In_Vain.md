@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]", "[[Hymn_0623_The_The_Worn_Spirit_Wants]]", "[[Hymn_0975_Breathe_Thoughts_Of_Pity_Oer]]", "[[Hymn_1202_Saviour_Breathe_An_Evening_Blessing]]"]
 status: stub
 confidence: high
 hymn_number: 1025
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Edmeston]] |
+| **Author** | [[James Edmeston]] |
 | **Meter** | 8s & 7s |
 | **Topic** | Afterward. |
 | **Section** | Afflictions |

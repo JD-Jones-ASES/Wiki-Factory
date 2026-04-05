@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Kelly]]", "[[Hymn_0462_See_From_Zions_Sacred_Mountain]]", "[[Hymn_0663_Hark_Ten_Thousand_Harps_And]]", "[[Hymn_1109_In_Expectation_Sweet]]"]
 status: stub
 confidence: high
 hymn_number: 275

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Samuel_Longfellow]]"]
 status: stub
 confidence: high
 hymn_number: 367
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[S. Longfellow]] |
+| **Author** | [[Samuel Longfellow]] |
 | **Meter** | 7s |
 | **Topic** | Father, I have sinned. |
 | **Section** | Faith And Repentance |

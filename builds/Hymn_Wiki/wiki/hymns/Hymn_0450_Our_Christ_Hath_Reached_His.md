@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Frothingham]] |
+| **Author** | Frothingham |
 | **Meter** | C. M |
 | **Topic** |  |
 | **Section** | The Church—Divine Constitution |

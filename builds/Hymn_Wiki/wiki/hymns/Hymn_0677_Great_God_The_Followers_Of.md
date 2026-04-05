@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Basil_Manly_Jr]]"]
 status: stub
 confidence: high
 hymn_number: 677
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[H. Ware, jr]] |
+| **Author** | H. Ware, jr |
 | **Meter** | L. M |
 | **Topic** | Coming together in the name of Jesus. |
 | **Section** | Opening Hymns |

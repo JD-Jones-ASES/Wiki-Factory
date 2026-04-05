@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-baptism"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[John_Cennick]]", "[[Hymn_0231_Thou_Dear_Redeemer_Dying_Lamb]]", "[[Hymn_0498_Children_Of_The_Heavenly_King]]"]
 status: draft
 confidence: high
 hymn_number: 375

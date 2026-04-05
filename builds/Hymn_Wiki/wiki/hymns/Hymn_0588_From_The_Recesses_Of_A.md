@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Sir_John_Bowring]]", "[[Hymn_0054_The_Heavenly_Spheres_To_Thee]]", "[[Hymn_0141_How_Sweetly_Flowed_The_Gospel]]", "[[Hymn_0695_The_Offerings_To_Thy_Throne]]"]
 status: draft
 confidence: high
 hymn_number: 588
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[John Bowring]] |
+| **Author** | [[Sir John Bowring]] |
 | **Meter** | 11s & 5 |
 | **Topic** | Prayer of the contrite. |
 | **Section** | Prayer And Social Meetings |

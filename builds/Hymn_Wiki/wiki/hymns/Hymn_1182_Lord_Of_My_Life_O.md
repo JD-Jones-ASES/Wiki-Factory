@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Anna_Steele]]", "[[18th_Century_Hymnody]]", "[[Hymn_0222_Thou_Only_Sovereign_Of_My]]", "[[Hymn_0558_Father_Whateer_Of_Earthly_Bliss]]", "[[Hymn_1041_So_Fades_The_Lovely_Blooming]]"]
 status: stub
 confidence: high
 hymn_number: 1182
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Anne Steele]] |
+| **Author** | [[Anna Steele]] |
 | **Meter** | C. M |
 | **Topic** | He giveth his beloved sleep. |
 | **Section** | Morning Hymns |

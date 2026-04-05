@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Unknown (Neal)]] |
+| **Author** | Unknown (Neal) |
 | **Meter** | 4s & 10s |
 | **Topic** | The former things are passed away. |
 | **Section** | Chorus |

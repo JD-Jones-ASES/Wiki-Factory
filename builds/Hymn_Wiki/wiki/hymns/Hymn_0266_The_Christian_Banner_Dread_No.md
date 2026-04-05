@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[J. G. Lyons]] |
+| **Author** | J. G. Lyons |
 | **Meter** | L. M |
 | **Topic** | The Christian banner. |
 | **Section** | The Gospel—The Proclamation |

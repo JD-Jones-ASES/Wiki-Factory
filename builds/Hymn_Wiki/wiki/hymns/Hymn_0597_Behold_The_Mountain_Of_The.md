@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[M. Bruce]] |
+| **Author** | M. Bruce |
 | **Meter** | C. M |
 | **Topic** | All nations shall flow unto it. Isaiah 2:2. |
 | **Section** | Its Growth And Future Triumphs |

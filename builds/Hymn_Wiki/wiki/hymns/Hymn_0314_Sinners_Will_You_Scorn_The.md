@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Allen]] |
+| **Author** | Allen |
 | **Meter** | 8s, 7s & 4 |
 | **Topic** | He that hath ears let him hear. |
 | **Section** | Chorus |

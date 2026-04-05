@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Johns]] |
+| **Author** | Johns |
 | **Meter** | S. M |
 | **Topic** | Not hurt in all my holy mountain. Isaiah 11:9. |
 | **Section** | Sympathies And Activities |

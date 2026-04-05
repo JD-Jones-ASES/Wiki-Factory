@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[E. H. Sears]] |
+| **Author** | E. H. Sears |
 | **Meter** | C. M. double |
 | **Topic** |  |
 | **Section** | Hymn For Christmas |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Wm. Wilson]] |
+| **Author** | Wm. Wilson |
 | **Meter** | P. M |
 | **Topic** | Thou art my hiding place. |
 | **Section** | God: In Providence |

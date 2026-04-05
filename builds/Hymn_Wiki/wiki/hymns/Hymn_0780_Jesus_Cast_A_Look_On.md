@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Berridge]] |
+| **Author** | Berridge |
 | **Meter** | 7s |
 | **Topic** | Make me like a little child. |
 | **Section** | The New Life—Trust And Joy |

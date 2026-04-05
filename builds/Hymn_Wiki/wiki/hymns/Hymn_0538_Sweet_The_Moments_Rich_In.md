@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Altered from Batty]] |
+| **Author** | Altered from Batty |
 | **Meter** | 8s & 7s |
 | **Topic** | Looking to Jesus. |
 | **Section** | Chorus |

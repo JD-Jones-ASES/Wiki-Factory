@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Milton]] |
+| **Author** | [[John Milton]] |
 | **Meter** | C. M |
 | **Topic** | He is a God that judgeth in the earth. |
 | **Section** | Fasts |

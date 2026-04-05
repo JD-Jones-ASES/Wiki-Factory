@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Anna W. Hall]] |
+| **Author** | [[Anna_W_Hall]] |
 | **Meter** | P. M |
 | **Topic** | O God! be thou my stay. |
 | **Section** | Submission And Deliverance |

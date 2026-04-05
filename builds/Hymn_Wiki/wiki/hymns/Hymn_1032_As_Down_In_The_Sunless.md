@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Moore]]", "[[Hymns_of_Consolation]]", "[[Hymn_0063_Theres_Nothing_Bright_Above_Below]]", "[[Hymn_0407_Since_First_Thy_Word_Awaked]]", "[[Hymn_0818_The_Dove_Let_Loose_In]]"]
 status: stub
 confidence: high
 hymn_number: 1032
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Moore]] |
+| **Author** | [[Thomas Moore]] |
 | **Meter** | P. M |
 | **Topic** | All my springs are in thee. |
 | **Section** | Afflictions |

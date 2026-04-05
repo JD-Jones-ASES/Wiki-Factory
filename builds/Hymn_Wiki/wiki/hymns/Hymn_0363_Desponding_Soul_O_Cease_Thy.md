@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[T. U. Walters]] |
+| **Author** | T. U. Walters |
 | **Meter** | C. P. M |
 | **Topic** | Christ our only hope. |
 | **Section** | Faith And Repentance |

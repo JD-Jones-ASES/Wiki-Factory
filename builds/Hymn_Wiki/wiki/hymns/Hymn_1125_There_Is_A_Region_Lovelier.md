@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Tuck]] |
+| **Author** | Tuck |
 | **Meter** | L. M |
 | **Topic** |  |
 | **Section** | Chorus |

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Hymn_0214_The_Lord_Is_King_Lift]]", "[[Hymn_0655_Praise_On_Thee_In_Zions]]", "[[Hymn_0852_When_In_The_Hour_Of]]"]
 status: draft
 confidence: high
 hymn_number: 534
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Conder]] |
+| **Author** | [[Josiah Conder]] |
 | **Meter** | 7s |
 | **Topic** | The body and blood of Christ. |
 | **Section** | Chorus |

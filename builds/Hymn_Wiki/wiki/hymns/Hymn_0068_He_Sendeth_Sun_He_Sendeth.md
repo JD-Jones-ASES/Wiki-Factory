@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Sarah_Flower_Adams]]"]
 status: stub
 confidence: high
 hymn_number: 68
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sarah F. Adams]] |
+| **Author** | [[Sarah Flower Adams]] |
 | **Meter** | L. M. 6 lines |
 | **Topic** | Thy will be done. |
 | **Section** | God: In Providence |

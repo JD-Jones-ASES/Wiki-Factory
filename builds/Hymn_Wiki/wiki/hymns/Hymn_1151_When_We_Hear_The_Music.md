@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. M]] |
+| **Author** | W. M |
 | **Meter** | 8s & 7s |
 | **Topic** | Shall we know each other there? |
 | **Section** | Chorus |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hill’s Coll]] |
+| **Author** | Hill’s Coll |
 | **Meter** | 7s, 6 lines |
 | **Topic** | My peace I give unto you. |
 | **Section** | Chorus |

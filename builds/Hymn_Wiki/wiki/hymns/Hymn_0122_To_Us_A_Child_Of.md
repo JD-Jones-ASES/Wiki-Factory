@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymn_0326_Fair_Shines_The_Morning_Star]]", "[[Hymn_0743_All_Ye_Nations_Praise_The]]", "[[Hymn_1137_Who_Are_These_In_Bright]]"]
 status: stub
 confidence: high
 hymn_number: 122

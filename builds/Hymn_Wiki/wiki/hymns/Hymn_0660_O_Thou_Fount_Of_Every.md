@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
-related: []
+related: ["[[Robert_Robinson]]", "[[18th_Century_Hymnody]]"]
 status: draft
 confidence: high
 hymn_number: 660
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Robinson]] |
+| **Author** | [[Robert Robinson]] |
 | **Meter** | 8s & 7s |
 | **Topic** | O thou Fount of every blessing. |
 | **Section** | Gratitude And Praise |

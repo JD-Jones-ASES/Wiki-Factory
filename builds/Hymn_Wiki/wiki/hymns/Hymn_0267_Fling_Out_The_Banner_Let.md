@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[William_H_Doane]]", "[[19th_Century_Hymnody]]", "[[Hymn_0155_He_Came_With_His_Heavenly]]", "[[Hymn_0248_Thou_Art_The_Wayto_Thee]]", "[[Hymn_1199_Softly_Now_The_Light_Of]]"]
 status: draft
 confidence: high
 hymn_number: 267
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Doane]] |
+| **Author** | [[William H Doane]] |
 | **Meter** | L. M |
 | **Topic** | The Spirit of the Lord, etc. Isaiah 59:19. |
 | **Section** | The Gospel—The Proclamation |

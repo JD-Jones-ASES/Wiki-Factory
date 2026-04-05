@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
-related: []
+related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0434_Since_I_Can_Read_My]]", "[[Hymn_0808_What_Sinners_Value_I_Resign]]"]
 status: draft
 confidence: high
 hymn_number: 125
@@ -80,4 +80,4 @@ Joy to the world; the Lord is come!
 
 ## Listen
 
-- <a href="https://www.youtube.com/watch?v=7r3vvMUHAXU" target="_blank" rel="noopener">Joy to the World - The Tabernacle Choir at Temple Square</a> — orchestral choral arrangement, tune attributed to Handel, arranged by Lowell Mason
+- <a href="https://www.youtube.com/watch?v=dJ87_7iLsj0" target="_blank" rel="noopener">Joy to the World - Gardiner Sisters (#LightTheWorld)</a> — traditional choral performance, tune Antioch (Lowell Mason), text by Isaac Watts

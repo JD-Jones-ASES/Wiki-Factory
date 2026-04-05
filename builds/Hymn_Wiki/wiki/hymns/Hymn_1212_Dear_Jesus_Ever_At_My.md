@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-children"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Frederick_William_Faber]]", "[[19th_Century_Hymnody]]", "[[Sunday_School_Hymns]]"]
 status: stub
 confidence: high
 hymn_number: 1212

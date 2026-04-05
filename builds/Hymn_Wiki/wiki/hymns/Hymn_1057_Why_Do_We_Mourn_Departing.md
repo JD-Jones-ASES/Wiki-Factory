@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
-related: []
+related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0428_There_Is_A_Land_Of]]", "[[Hymn_0774_Thou_Art_My_Portion_O]]"]
 status: draft
 confidence: high
 hymn_number: 1057

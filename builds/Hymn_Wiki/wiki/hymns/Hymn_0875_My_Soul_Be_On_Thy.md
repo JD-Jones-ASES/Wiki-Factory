@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Heath]] |
+| **Author** | Heath |
 | **Meter** | S. M |
 | **Topic** | Watch! |
 | **Section** | Chorus |

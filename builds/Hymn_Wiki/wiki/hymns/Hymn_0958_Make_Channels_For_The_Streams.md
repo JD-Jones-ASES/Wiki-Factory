@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Unknown (French)]] |
+| **Author** | Unknown (French) |
 | **Meter** | C. M |
 | **Topic** | Make channels for the streams of love. |
 | **Section** | Sympathies And Activities |

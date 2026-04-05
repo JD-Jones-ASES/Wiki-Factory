@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Kelly]]"]
 status: stub
 confidence: high
 hymn_number: 759
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Kelley]] |
+| **Author** | Kelley |
 | **Meter** | P. M |
 | **Topic** | Show me a token for good. |
 | **Section** | Closing Hymns |

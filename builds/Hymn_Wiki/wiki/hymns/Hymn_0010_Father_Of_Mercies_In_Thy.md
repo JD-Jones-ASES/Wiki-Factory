@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-scripture"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Anna_Steele]]", "[[18th_Century_Hymnody]]", "[[Hymn_0230_Come_You_That_Love_The]]", "[[Hymn_0643_To_Our_Redeemers_Glorious_Name]]", "[[Hymn_1045_Almighty_Maker_Of_My_Frame]]"]
 status: draft
 confidence: high
 hymn_number: 10
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Anne Steele]] |
+| **Author** | [[Anna Steele]] |
 | **Meter** | C. M |
 | **Topic** | Thy testimonies are my delight. |
 | **Section** | The Holy Scriptures |

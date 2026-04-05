@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[William_H_Doane]]", "[[19th_Century_Hymnody]]", "[[Hymn_0155_He_Came_With_His_Heavenly]]", "[[Hymn_0267_Fling_Out_The_Banner_Let]]", "[[Hymn_1199_Softly_Now_The_Light_Of]]"]
 status: draft
 confidence: high
 hymn_number: 248
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Doane]] |
+| **Author** | [[William H Doane]] |
 | **Meter** | C. M |
 | **Topic** | The true and living Way. |
 | **Section** | Mediatorial Reign |

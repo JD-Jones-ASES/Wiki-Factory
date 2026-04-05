@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]", "[[Hymn_0165_He_Knelt_The_Saviour_Knelt]]", "[[Hymn_1049_No_Bitter_Tears_For_Thee]]", "[[Hymn_1158_I_Hear_Thee_Speak_Of]]"]
 status: stub
 confidence: high
 hymn_number: 1012

@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Augustus_Toplady]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0261_Rock_Of_Ages_Cleft_For]]", "[[Hymn_0946_Weeping_Soul_No_Longer_Mourn]]", "[[Hymn_1072_Deathless_Spirit_Now_Arise]]"]
 status: stub
 confidence: high
 hymn_number: 1008

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. L. Waring]] |
+| **Author** | [[Anna Letitia Waring]] |
 | **Meter** | C. M. 6 lines |
 | **Topic** | The spirit of a little child. |
 | **Section** | The New Life—Trust And Joy |

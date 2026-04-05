@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Chatham]] |
+| **Author** | Chatham |
 | **Meter** | C. P. M |
 | **Topic** | The only foundation. |
 | **Section** | Mediatorial Reign |

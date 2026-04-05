@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-missionary"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Missionary_Hymns]]", "[[Hymn_0519_Lord_May_The_Spirit_Of]]", "[[Hymn_0903_When_Adverse_Winds_And_Waves]]", "[[Hymn_1298_Not_For_The_Summer_Hour]]"]
 status: draft
 confidence: high
 hymn_number: 1275

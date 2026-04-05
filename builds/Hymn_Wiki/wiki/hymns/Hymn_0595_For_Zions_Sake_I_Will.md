@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[J. Quarles]] |
+| **Author** | J. Quarles |
 | **Meter** | C. M |
 | **Topic** | Isaiah 62. |
 | **Section** | Its Growth And Future Triumphs |

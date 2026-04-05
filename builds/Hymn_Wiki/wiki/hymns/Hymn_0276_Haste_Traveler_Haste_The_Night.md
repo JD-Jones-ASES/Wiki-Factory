@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymn_0193_The_Angels_That_Watched_Round]]", "[[Hymn_0482_Jesus_Thou_Shepherd_Of_The]]", "[[Hymn_1299_Father_Of_The_Human_Race]]"]
 status: draft
 confidence: high
 hymn_number: 276

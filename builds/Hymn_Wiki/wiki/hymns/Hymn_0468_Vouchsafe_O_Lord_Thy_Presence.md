@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[G. B. Ide]] |
+| **Author** | G. B. Ide |
 | **Meter** | C. M |
 | **Topic** | Ordination of elders or deacons. |
 | **Section** | Officers |

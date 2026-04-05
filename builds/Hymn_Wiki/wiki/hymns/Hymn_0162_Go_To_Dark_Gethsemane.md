@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-praise", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0326_Fair_Shines_The_Morning_Star]]", "[[Hymn_0743_All_Ye_Nations_Praise_The]]", "[[Hymn_1137_Who_Are_These_In_Bright]]"]
 status: draft
 confidence: high
 hymn_number: 162

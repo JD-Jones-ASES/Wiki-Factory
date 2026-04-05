@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[John_Newton]]", "[[18th_Century_Hymnody]]", "[[Hymn_0246_He_Who_On_Earth_As]]", "[[Hymn_0564_Approach_My_Soul_The_Mercyseat]]", "[[Hymn_0898_Be_Still_My_Heart_These]]"]
 status: draft
 confidence: high
 hymn_number: 100

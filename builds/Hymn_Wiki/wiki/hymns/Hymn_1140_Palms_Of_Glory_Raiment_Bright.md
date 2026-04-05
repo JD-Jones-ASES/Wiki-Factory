@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymn_0196_Lift_Up_Your_Heads_Ye]]", "[[Hymn_0715_Now_May_The_Lord_Our]]", "[[Hymn_1090_Friend_After_Friend_Departs]]"]
 status: stub
 confidence: high
 hymn_number: 1140

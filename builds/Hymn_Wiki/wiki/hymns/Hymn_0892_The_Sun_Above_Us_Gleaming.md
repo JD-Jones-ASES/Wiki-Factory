@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. Crithfield]] |
+| **Author** | A. Crithfield |
 | **Meter** | 7s, 6s & 8s |
 | **Topic** | You are not of the world. |
 | **Section** | Chorus |

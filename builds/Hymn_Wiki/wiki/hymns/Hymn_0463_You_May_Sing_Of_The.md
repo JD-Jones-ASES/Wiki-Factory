@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_1095_Away_From_His_Home_And]]", "[[Hymn_1159_There_Is_A_Place_Where]]"]
 status: stub
 confidence: high
 hymn_number: 463
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. Hunter]] |
+| **Author** | W. Hunter |
 | **Meter** | 12s |
 | **Topic** | The house of the Lord. |
 | **Section** | The Church—Divine Constitution |

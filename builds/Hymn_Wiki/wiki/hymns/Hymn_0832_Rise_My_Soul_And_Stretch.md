@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[R. Seagrave]] |
+| **Author** | R. Seagrave |
 | **Meter** | 7s & 6s |
 | **Topic** | Aspiration. |
 | **Section** | Chorus |

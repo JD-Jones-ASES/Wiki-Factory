@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[J. B. Hague]] |
+| **Author** | J. B. Hague |
 | **Meter** | 12s & 11s |
 | **Topic** | The harvest is past, etc. |
 | **Section** | Chorus |

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Ray_Palmer]]", "[[19th_Century_Hymnody]]", "[[Hymn_0399_O_Sweetly_Breathe_The_Lyres]]", "[[Hymn_0598_Come_O_Thou_Mighty_Saviour]]", "[[Hymn_1133_And_Is_There_Lord_A]]"]
 status: stub
 confidence: high
 hymn_number: 1284
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Palmer]] |
+| **Author** | [[Ray Palmer]] |
 | **Meter** | 11s & 10s |
 | **Topic** | The day of joy. |
 | **Section** | Chorus |

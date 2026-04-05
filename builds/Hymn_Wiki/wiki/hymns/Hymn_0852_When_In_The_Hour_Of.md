@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0214_The_Lord_Is_King_Lift]]", "[[Hymn_0585_How_Honored_How_Dear_Is]]", "[[Hymn_0816_I_Am_Thy_Workmanship_O]]"]
 status: stub
 confidence: high
 hymn_number: 852
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Conder]] |
+| **Author** | [[Josiah Conder]] |
 | **Meter** | L. M |
 | **Topic** | The Lord is nigh to all that call on him. |
 | **Section** | Temptations And Conflicts |

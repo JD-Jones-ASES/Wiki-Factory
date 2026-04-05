@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[18th_Century_Hymnody]]", "[[Hymn_0638_How_Sweet_The_Praise_How]]", "[[Hymn_0673_Praise_The_Lord_Ye_Saints]]"]
 status: stub
 confidence: high
 hymn_number: 335
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[B. Skene]] |
+| **Author** | B. Skene |
 | **Meter** | 8s, 6s & 4 |
 | **Topic** | Entreaty. |
 | **Section** | Chorus |

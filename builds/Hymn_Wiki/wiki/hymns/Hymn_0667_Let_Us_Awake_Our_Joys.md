@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Kingsbury]] |
+| **Author** | Kingsbury |
 | **Meter** | 6s & 4s |
 | **Topic** | Let us awake our joys. |
 | **Section** | Gratitude And Praise |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Bath Coll]] |
+| **Author** | Bath Coll |
 | **Meter** | C. M |
 | **Topic** | Increase our faith. |
 | **Section** | Faith And Repentance |

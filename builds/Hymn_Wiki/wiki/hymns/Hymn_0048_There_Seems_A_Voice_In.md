@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mrs. Opie]] |
+| **Author** | Mrs. Opie |
 | **Meter** | L. M |
 | **Topic** | Praise of God peculiarly due from man. |
 | **Section** | Part Second |

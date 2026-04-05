@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Morris]] |
+| **Author** | Morris |
 | **Meter** | C. M. D |
 | **Topic** | My mother’s Bible. |
 | **Section** | Home—The Family |

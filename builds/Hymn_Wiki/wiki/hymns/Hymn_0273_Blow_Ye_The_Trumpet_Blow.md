@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Augustus_Toplady]]", "[[18th_Century_Hymnody]]"]
 status: draft
 confidence: high
 hymn_number: 273
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Altered by Toplady]] |
+| **Author** | Altered by Toplady |
 | **Meter** | H. M |
 | **Topic** | The year of jubilee. |
 | **Section** | The Gospel—The Proclamation |

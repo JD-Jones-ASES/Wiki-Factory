@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymn_0623_The_The_Worn_Spirit_Wants]]", "[[Hymn_0975_Breathe_Thoughts_Of_Pity_Oer]]", "[[Hymn_1025_Why_Should_I_In_Vain]]"]
 status: draft
 confidence: high
 hymn_number: 1202
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Edmeston]] |
+| **Author** | [[James Edmeston]] |
 | **Meter** | 8s & 7s |
 | **Topic** | Saviour! breathe an evening blessing. |
 | **Section** | Evening Hymns |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hawes]] |
+| **Author** | Hawes |
 | **Meter** | C. M |
 | **Topic** | O Lord, remember me. |
 | **Section** | Chorus |

@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: draft
 confidence: high
 hymn_number: 1066
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Bethune]] |
+| **Author** | Bethune |
 | **Meter** | S. M |
 | **Topic** | Whoso believeth in me shall never die. |
 | **Section** | Present And Future: Life And Death |

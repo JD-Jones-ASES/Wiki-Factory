@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[E. T. Fitch]] |
+| **Author** | E. T. Fitch |
 | **Meter** | S. M |
 | **Topic** | Peace I leave with you. |
 | **Section** | Closing Hymns |

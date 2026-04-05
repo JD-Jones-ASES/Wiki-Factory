@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[B. W. Noel]] |
+| **Author** | B. W. Noel |
 | **Meter** | C. M |
 | **Topic** | Hope in trouble. |
 | **Section** | The Hope Of Eternal Life |

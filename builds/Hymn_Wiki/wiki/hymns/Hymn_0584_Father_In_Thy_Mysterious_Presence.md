@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[S. Johnson]] |
+| **Author** | S. Johnson |
 | **Meter** | 11s & 10s |
 | **Topic** | For divine strength. |
 | **Section** | Prayer And Social Meetings |

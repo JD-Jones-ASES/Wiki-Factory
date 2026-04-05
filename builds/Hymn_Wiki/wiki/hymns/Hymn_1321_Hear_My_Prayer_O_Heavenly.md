@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Thos. Park]] |
+| **Author** | Thos. Park |
 | **Meter** | 8s & 7s |
 | **Topic** | Night. |
 | **Section** | Miscellaneous |

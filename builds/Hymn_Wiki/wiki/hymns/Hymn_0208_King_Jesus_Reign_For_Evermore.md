@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Wardlaw’s Coll]] |
+| **Author** | Wardlaw’s Coll |
 | **Meter** | L. M |
 | **Topic** | Of his kingdom there shall be no end. |
 | **Section** | Mediatorial Reign |

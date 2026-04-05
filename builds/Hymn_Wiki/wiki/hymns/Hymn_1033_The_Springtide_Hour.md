@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1033
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[J. S. B. Monsell]] |
+| **Author** | [[John Samuel Bewley Monsell]] |
 | **Meter** | 4s & 6s, or C. M |
 | **Topic** | Canticles 4:16. |
 | **Section** | Afflictions |

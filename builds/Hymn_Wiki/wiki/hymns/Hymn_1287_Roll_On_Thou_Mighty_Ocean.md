@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Noel’s Coll]] |
+| **Author** | Noel’s Coll |
 | **Meter** | 7s & 6s |
 | **Topic** | Roll on, thou mighty ocean. |
 | **Section** | Chorus |

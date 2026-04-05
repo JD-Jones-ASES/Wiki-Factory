@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0144_How_Beauteous_Were_The_Marks]]", "[[Hymn_0451_O_Where_Are_Kings_And]]"]
 status: stub
 confidence: high
 hymn_number: 1277
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. C. Coxe]] |
+| **Author** | [[Arthur Cleveland Coxe]] |
 | **Meter** | 8s & 7s |
 | **Topic** | Quit you like men; be strong. |
 | **Section** | Chorus |

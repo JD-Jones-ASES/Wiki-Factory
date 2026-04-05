@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[J. F. Clarke]] |
+| **Author** | J. F. Clarke |
 | **Meter** | P. M |
 | **Topic** | Ever-green mountains. |
 | **Section** | Chorus |

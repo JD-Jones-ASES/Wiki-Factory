@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[John_Greenleaf_Whittier]]", "[[19th_Century_Hymnody]]"]
 status: stub
 confidence: high
 hymn_number: 901
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[From the German, by Whittier]] |
+| **Author** | From the German, by Whittier |
 | **Meter** | L. M. 6 lines |
 | **Topic** | My grace is sufficient for thee. |
 | **Section** | Submission And Deliverance |

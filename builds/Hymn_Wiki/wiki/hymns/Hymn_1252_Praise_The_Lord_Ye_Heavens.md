@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Dub. Coll]] |
+| **Author** | Dub. Coll |
 | **Meter** | 8s & 7s |
 | **Topic** |  |
 | **Section** | Thanksgiving |

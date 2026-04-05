@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0623_The_The_Worn_Spirit_Wants]]", "[[Hymn_1025_Why_Should_I_In_Vain]]", "[[Hymn_1202_Saviour_Breathe_An_Evening_Blessing]]"]
 status: stub
 confidence: high
 hymn_number: 975
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Edmeston]] |
+| **Author** | [[James Edmeston]] |
 | **Meter** | 10s |
 | **Topic** | Restore such a one in the spirit, etc. |
 | **Section** | Sympathies And Activities |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Higginbottom]] |
+| **Author** | Higginbottom |
 | **Meter** | C. M |
 | **Topic** | My sheep—follow me. |
 | **Section** | Gratitude And Praise |

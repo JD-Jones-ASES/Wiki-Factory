@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Enfield]] |
+| **Author** | Enfield |
 | **Meter** | C. M |
 | **Topic** | He went about doing good. |
 | **Section** | Life And Ministry |

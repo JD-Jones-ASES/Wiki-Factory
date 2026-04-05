@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Krummacker]] |
+| **Author** | Krummacker |
 | **Meter** | 9s & 6s |
 | **Topic** | Fear not, little flock. |
 | **Section** | God: In Providence |

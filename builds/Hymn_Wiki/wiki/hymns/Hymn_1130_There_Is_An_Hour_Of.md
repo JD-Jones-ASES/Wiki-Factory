@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymn_0159_Tis_Midnight_And_On_Olives]]", "[[Hymn_1126_There_Is_An_Hour_Of]]"]
 status: draft
 confidence: high
 hymn_number: 1130
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. B. Tappan]] |
+| **Author** | W. B. Tappan |
 | **Meter** | 8s & 6s |
 | **Topic** | The hope—laid up for you in heaven. |
 | **Section** | Chorus |

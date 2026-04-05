@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[S. J. Hale]] |
+| **Author** | S. J. Hale |
 | **Meter** | 6s & 5s |
 | **Topic** | After this manner pray ye. |
 | **Section** | Prayer And Social Meetings |

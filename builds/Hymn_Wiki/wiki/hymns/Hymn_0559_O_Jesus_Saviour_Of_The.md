@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Bickersteth]] |
+| **Author** | Bickersteth |
 | **Meter** | C. M |
 | **Topic** | Tempest-tossed. |
 | **Section** | Prayer And Social Meetings |

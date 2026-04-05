@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0428_There_Is_A_Land_Of]]", "[[Hymn_0774_Thou_Art_My_Portion_O]]"]
 status: stub
 confidence: high
 hymn_number: 1192

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Jervis]] |
+| **Author** | Jervis |
 | **Meter** | S. M |
 | **Topic** | God’s mercy to the penitent. |
 | **Section** | Faith And Repentance |

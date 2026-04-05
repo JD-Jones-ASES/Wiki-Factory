@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[L. Bacon]] |
+| **Author** | L. Bacon |
 | **Meter** | C. M |
 | **Topic** | The day goeth away. |
 | **Section** | Evening Hymns |

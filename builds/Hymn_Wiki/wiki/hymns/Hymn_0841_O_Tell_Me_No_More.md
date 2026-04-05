@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Gambold]] |
+| **Author** | [[John Gambold]] |
 | **Meter** | 10s & 11s |
 | **Topic** | O tell me no more. |
 | **Section** | Chorus |

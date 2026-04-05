@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Samuel_Stennett]]", "[[18th_Century_Hymnody]]", "[[Hymn_0250_Majestic_Sweetness_Sits_Enthroned]]", "[[Hymn_0431_On_Jordans_Stormy_Banks_I]]", "[[Hymn_0652_How_Various_And_How_New]]"]
 status: draft
 confidence: high
 hymn_number: 616

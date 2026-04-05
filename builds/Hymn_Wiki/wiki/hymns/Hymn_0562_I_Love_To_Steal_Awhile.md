@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[John_Newton_Brown]]"]
 status: draft
 confidence: high
 hymn_number: 562
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mrs. Brown]] |
+| **Author** | Mrs. Brown |
 | **Meter** | C. M |
 | **Topic** | Retirement and meditation. |
 | **Section** | Prayer And Social Meetings |

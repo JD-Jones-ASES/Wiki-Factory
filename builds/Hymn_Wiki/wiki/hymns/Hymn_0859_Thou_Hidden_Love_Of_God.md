@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[G. Terstergan]] |
+| **Author** | [[Gerhard Tersteegen]] |
 | **Meter** | L. M. 6 lines |
 | **Topic** | Love—which passeth knowledge. |
 | **Section** | Temptations And Conflicts |

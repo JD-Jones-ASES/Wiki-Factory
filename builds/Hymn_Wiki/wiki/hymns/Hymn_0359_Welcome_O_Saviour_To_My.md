@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Bourne’s Coll]] |
+| **Author** | Bourne’s Coll |
 | **Meter** | C. M |
 | **Topic** | The heart’s surrender. |
 | **Section** | Faith And Repentance |

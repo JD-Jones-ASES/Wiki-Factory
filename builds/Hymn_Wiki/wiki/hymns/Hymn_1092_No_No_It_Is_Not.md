@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1092
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Unknown (Malon)]] |
+| **Author** | Unknown (Malon) |
 | **Meter** | 7s & 6s |
 | **Topic** | Mortality swallowed up of life. |
 | **Section** | Present And Future: Life And Death |

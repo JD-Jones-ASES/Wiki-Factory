@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Oliver_Wendell_Holmes]]"]
 status: draft
 confidence: high
 hymn_number: 66
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[O. W. Holmes]] |
+| **Author** | [[Oliver Wendell Holmes]] |
 | **Meter** | L. M |
 | **Topic** | God ever near. |
 | **Section** | God: In Providence |

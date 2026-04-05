@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Robert_Grant]]", "[[Hymns_of_Consolation]]"]
 status: draft
 confidence: high
 hymn_number: 999
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sir Robt. Grant]] |
+| **Author** | [[Robert Grant]] |
 | **Meter** | L. M. 6 lines |
 | **Topic** | Touched with the feeling of, etc. |
 | **Section** | Afflictions |

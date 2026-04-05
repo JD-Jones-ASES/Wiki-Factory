@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Voke]] |
+| **Author** | Voke |
 | **Meter** | S. M |
 | **Topic** | On the departure of a missionary. |
 | **Section** | Officers |

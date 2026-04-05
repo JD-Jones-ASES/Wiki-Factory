@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[E. A. Scott]] |
+| **Author** | E. A. Scott |
 | **Meter** | L. M |
 | **Topic** |  |
 | **Section** | God: His Being And Perfections |

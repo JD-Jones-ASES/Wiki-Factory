@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0456_Like_Noahs_Weary_Dove]]", "[[Hymn_0836_I_Would_Not_Live_Alway]]"]
 status: stub
 confidence: high
 hymn_number: 55
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Muhlenberg]] |
+| **Author** | [[William Augustus Muhlenberg]] |
 | **Meter** | C. H. M |
 | **Topic** | The ineffable glory of God. |
 | **Section** | Part Second |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Davies]] |
+| **Author** | Davies |
 | **Meter** | L. M |
 | **Topic** | Self-dedication. |
 | **Section** | Remission Of Sins |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Knox]] |
+| **Author** | Knox |
 | **Meter** | 11s |
 | **Topic** | Acquaint now thyself with him. |
 | **Section** | The New Life—Trust And Joy |

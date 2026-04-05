@@ -6,7 +6,7 @@ tags: ["#meter-common-double", "#theme-children"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Sunday_School_Hymns]]", "[[Hymn_0016_Lamp_Of_Our_Feet_Whereby]]", "[[Hymn_0349_Around_Bethesdas_Healing_Wave]]"]
 status: stub
 confidence: high
 hymn_number: 1222
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Barton]] |
+| **Author** | [[Bernard Barton]] |
 | **Meter** | C. M. D |
 | **Topic** | At evening there shall be light. |
 | **Section** | Youth And Age |

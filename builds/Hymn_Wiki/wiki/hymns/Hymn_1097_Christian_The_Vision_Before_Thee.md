@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]", "[[Hymn_1185_The_Morning_Light_Returns]]", "[[Hymn_1214_While_In_The_Slippery_Paths]]"]
 status: stub
 confidence: high
 hymn_number: 1097
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. S. Hayden]] |
+| **Author** | [[A_S_Hayden]] |
 | **Meter** | 11s, peculiar |
 | **Topic** | Heavenly prospect. |
 | **Section** | Present And Future: Life And Death |

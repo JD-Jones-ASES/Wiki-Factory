@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[William_Hammond]]"]
 status: draft
 confidence: high
 hymn_number: 708
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hammond]] |
+| **Author** | [[William Hammond]] |
 | **Meter** | 7s |
 | **Topic** | Wait on the Lord, etc. |
 | **Section** | Opening Hymns |

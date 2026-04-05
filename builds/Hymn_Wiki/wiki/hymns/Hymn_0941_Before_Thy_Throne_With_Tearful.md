@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Ray_Palmer]]", "[[19th_Century_Hymnody]]", "[[Hymn_0399_O_Sweetly_Breathe_The_Lyres]]", "[[Hymn_0598_Come_O_Thou_Mighty_Saviour]]", "[[Hymn_1284_Wake_Thee_O_Zion_Thy]]"]
 status: stub
 confidence: high
 hymn_number: 941
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Palmer]] |
+| **Author** | [[Ray Palmer]] |
 | **Meter** | L. M |
 | **Topic** | Deliverance. |
 | **Section** | Relapse And Recovery |

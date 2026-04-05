@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]", "[[Hymn_0479_How_Blest_The_Sacred_Tie]]", "[[Hymn_0847_Awake_My_Soul_Lift_Up]]", "[[Hymn_1039_How_Blest_The_Righteous_When]]"]
 status: stub
 confidence: high
 hymn_number: 1059

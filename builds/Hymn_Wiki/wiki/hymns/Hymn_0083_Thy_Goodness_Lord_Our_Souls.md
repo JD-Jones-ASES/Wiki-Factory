@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0189_Angels_Roll_The_Rock_Away]]", "[[Hymn_0806_Now_Let_Our_Souls_On]]", "[[Hymn_1002_To_Thee_My_God_Whose]]"]
 status: stub
 confidence: high
 hymn_number: 83

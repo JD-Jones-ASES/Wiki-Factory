@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0842_Lead_Us_Heavenly_Father_Lead]]", "[[Hymn_1025_Why_Should_I_In_Vain]]", "[[Hymn_1202_Saviour_Breathe_An_Evening_Blessing]]"]
 status: stub
 confidence: high
 hymn_number: 623
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Edmeston]] |
+| **Author** | [[James Edmeston]] |
 | **Meter** | C. M |
 | **Topic** | The type of endless rest. |
 | **Section** | Its Growth And Future Triumphs |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sir W. Scott]] |
+| **Author** | [[Sir Walter Scott]] |
 | **Meter** | L. M |
 | **Topic** | A pillar of cloud by day, etc. Exodus 13:21. |
 | **Section** | Temptations And Conflicts |

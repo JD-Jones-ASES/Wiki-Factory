@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[G. Terstergan]] |
+| **Author** | [[Gerhard Tersteegen]] |
 | **Meter** | L. M |
 | **Topic** | The wise choice. |
 | **Section** | Faith And Repentance |

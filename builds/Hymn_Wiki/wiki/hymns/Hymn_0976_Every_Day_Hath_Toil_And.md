@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Bailey]] |
+| **Author** | Bailey |
 | **Meter** | 8s & 5s |
 | **Topic** | Work on, hope on. |
 | **Section** | Sympathies And Activities |

@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-baptism"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Samuel_Francis_Smith]]", "[[19th_Century_Hymnody]]", "[[Hymn_0487_Planted_In_Christ_The_Living]]", "[[Hymn_1076_Sister_Thou_Wast_Mild_And]]", "[[Hymn_1281_Yes_My_Native_Land_I]]"]
 status: stub
 confidence: high
 hymn_number: 384

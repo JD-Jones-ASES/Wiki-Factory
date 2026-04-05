@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Miss H. M. Bolman]] |
+| **Author** | Miss H. M. Bolman |
 | **Meter** | 8s & 7s |
 | **Topic** | Happy home. |
 | **Section** | Chorus |

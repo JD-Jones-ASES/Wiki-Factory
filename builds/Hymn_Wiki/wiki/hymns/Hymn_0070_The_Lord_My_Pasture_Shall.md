@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Joseph_Addison]]", "[[18th_Century_Hymnody]]", "[[Hymn_0043_The_Spacious_Firmament_On_High]]", "[[Hymn_0078_When_All_Thy_Mercies_O]]", "[[Hymn_1292_How_Are_Thy_Servants_Blest]]"]
 status: draft
 confidence: high
 hymn_number: 70

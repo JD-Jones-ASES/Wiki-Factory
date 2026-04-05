@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-scripture"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[John_Fawcett]]", "[[18th_Century_Hymnody]]", "[[Hymn_0237_Infinite_Excellence_Is_Thine]]", "[[Hymn_0495_Blest_Be_The_Tie_That]]", "[[Hymn_1036_The_God_Of_Mercy_Will]]"]
 status: draft
 confidence: high
 hymn_number: 9
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Fawcett]] |
+| **Author** | [[John Fawcett]] |
 | **Meter** | C. M |
 | **Topic** | Thy word is a lamp. |
 | **Section** | The Holy Scriptures |

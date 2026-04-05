@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Green]] |
+| **Author** | Green |
 | **Meter** | C. M |
 | **Topic** | The Lord gave and the Lord, etc. |
 | **Section** | Submission And Deliverance |

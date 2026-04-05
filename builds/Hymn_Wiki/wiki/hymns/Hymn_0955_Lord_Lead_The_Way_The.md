@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Croswell]] |
+| **Author** | Croswell |
 | **Meter** | C. M |
 | **Topic** | Ye have the poor always with you. |
 | **Section** | Sympathies And Activities |

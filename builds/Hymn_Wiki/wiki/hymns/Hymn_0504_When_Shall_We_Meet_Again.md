@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Olney_Hymns]]"]
 status: stub
 confidence: high
 hymn_number: 504
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Select Hymns]] |
+| **Author** | Select Hymns |
 | **Meter** | 6s & 5s |
 | **Topic** | When shall we meet again. |
 | **Section** | Chorus |

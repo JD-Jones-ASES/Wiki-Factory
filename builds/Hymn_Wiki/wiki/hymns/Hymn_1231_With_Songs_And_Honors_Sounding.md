@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-sailors"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Henry_Kirke_White]]"]
 status: draft
 confidence: high
 hymn_number: 1231

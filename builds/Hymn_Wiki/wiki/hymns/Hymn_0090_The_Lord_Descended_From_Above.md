@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sternhold]] |
+| **Author** | Sternhold |
 | **Meter** | C. M |
 | **Topic** | Majesty of God. |
 | **Section** | God: In Providence |

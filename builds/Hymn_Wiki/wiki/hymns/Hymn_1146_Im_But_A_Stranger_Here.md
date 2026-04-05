@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Virgil_Corydon_Taylor]]"]
 status: draft
 confidence: high
 hymn_number: 1146
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[T. R. Taylor]] |
+| **Author** | T. R. Taylor |
 | **Meter** | 6s & 4s |
 | **Topic** | Heaven is my home. |
 | **Section** | Chorus |

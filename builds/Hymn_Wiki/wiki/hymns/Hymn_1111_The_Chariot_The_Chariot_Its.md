@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-easter"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Helen_Maria_Williams]]"]
 status: stub
 confidence: high
 hymn_number: 1111
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[I. Williams]] |
+| **Author** | I. Williams |
 | **Meter** | 11s |
 | **Topic** | At the last trump. |
 | **Section** | The Resurrection |

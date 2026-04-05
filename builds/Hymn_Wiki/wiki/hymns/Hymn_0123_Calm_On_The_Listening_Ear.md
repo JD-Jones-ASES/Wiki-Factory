@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sears]] |
+| **Author** | Sears |
 | **Meter** | C. M |
 | **Topic** | The day-spring from on high. |
 | **Section** | Hymn For Christmas |

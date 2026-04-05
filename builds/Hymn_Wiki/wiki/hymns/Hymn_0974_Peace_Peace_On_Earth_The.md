@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Samuel_Longfellow]]"]
 status: stub
 confidence: high
 hymn_number: 974
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Longfellow]] |
+| **Author** | [[Samuel Longfellow]] |
 | **Meter** | 11s & 10s |
 | **Topic** | Peace on earth. |
 | **Section** | Sympathies And Activities |

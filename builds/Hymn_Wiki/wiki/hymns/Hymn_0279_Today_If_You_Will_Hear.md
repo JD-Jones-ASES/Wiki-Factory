@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Miller]] |
+| **Author** | Miller |
 | **Meter** | L. M |
 | **Topic** | To-day, if you will hear his voice. |
 | **Section** | Invitations |

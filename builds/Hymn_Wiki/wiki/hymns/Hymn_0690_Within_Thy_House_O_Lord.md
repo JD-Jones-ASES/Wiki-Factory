@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Con. Ev. Mag]] |
+| **Author** | Con. Ev. Mag |
 | **Meter** | C. M |
 | **Topic** | Lift thou the light of thy countenance, etc. |
 | **Section** | Opening Hymns |

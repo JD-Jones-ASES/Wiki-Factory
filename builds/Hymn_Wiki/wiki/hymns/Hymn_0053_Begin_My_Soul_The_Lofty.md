@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mrs. Rowe]] |
+| **Author** | Mrs. Rowe |
 | **Meter** | C. M |
 | **Topic** | Praise him in the firmament of his power. |
 | **Section** | Part Second |

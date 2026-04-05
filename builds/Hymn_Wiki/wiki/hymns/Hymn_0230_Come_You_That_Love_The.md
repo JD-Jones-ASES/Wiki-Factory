@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Anna_Steele]]", "[[18th_Century_Hymnody]]", "[[Hymn_0222_Thou_Only_Sovereign_Of_My]]", "[[Hymn_0643_To_Our_Redeemers_Glorious_Name]]", "[[Hymn_1045_Almighty_Maker_Of_My_Frame]]"]
 status: draft
 confidence: high
 hymn_number: 230
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Anne Steele]] |
+| **Author** | [[Anna Steele]] |
 | **Meter** | C. M |
 | **Topic** | They shall speak of the glory, etc. |
 | **Section** | Mediatorial Reign |

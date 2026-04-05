@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-easter"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0276_Haste_Traveler_Haste_The_Night]]", "[[Hymn_0482_Jesus_Thou_Shepherd_Of_The]]", "[[Hymn_1299_Father_Of_The_Human_Race]]"]
 status: stub
 confidence: high
 hymn_number: 193

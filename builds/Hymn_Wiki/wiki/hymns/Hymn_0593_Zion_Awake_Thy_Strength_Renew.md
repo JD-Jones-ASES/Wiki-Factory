@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Shrubsole]] |
+| **Author** | [[William Shrubsole]] |
 | **Meter** | L. M |
 | **Topic** | Put on thy beautiful garments. Isaiah 52:1. |
 | **Section** | Its Growth And Future Triumphs |

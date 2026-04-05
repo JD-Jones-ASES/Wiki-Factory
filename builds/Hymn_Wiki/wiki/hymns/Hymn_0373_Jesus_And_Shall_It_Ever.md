@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Gregg]] |
+| **Author** | Gregg |
 | **Meter** | L. M |
 | **Topic** | Ashamed of Jesus. |
 | **Section** | Baptism |

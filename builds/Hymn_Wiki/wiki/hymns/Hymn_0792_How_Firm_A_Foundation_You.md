@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
-related: []
+related: ["[[18th_Century_Hymnody]]"]
 status: draft
 confidence: high
 hymn_number: 792
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Kirkham]] |
+| **Author** | Kirkham |
 | **Meter** | 11s |
 | **Topic** | Precious promises. |
 | **Section** | The New Life—Trust And Joy |

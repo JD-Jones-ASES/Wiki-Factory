@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sterling]] |
+| **Author** | Sterling |
 | **Meter** | L. M |
 | **Topic** | Of him are all things. |
 | **Section** | God: His Being And Perfections |

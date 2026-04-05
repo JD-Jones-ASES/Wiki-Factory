@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[William_H_Doane]]", "[[19th_Century_Hymnody]]", "[[Hymn_0155_He_Came_With_His_Heavenly]]", "[[Hymn_0248_Thou_Art_The_Wayto_Thee]]", "[[Hymn_0267_Fling_Out_The_Banner_Let]]"]
 status: draft
 confidence: high
 hymn_number: 1199
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Doane]] |
+| **Author** | [[William H Doane]] |
 | **Meter** | 7s |
 | **Topic** | Softly, now, the light of day. |
 | **Section** | Evening Hymns |

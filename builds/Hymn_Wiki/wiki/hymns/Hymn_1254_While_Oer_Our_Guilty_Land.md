@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Pres’t Davis]] |
+| **Author** | Pres’t Davis |
 | **Meter** | L. M |
 | **Topic** | National judgments deprecated. |
 | **Section** | Fasts |

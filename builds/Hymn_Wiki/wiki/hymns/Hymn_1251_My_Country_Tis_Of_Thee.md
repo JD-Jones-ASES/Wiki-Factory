@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Samuel_Francis_Smith]]", "[[19th_Century_Hymnody]]", "[[Hymn_0384_Meekly_In_Jordans_Flowing_Stream]]", "[[Hymn_0712_Blest_Is_The_Hour_When]]", "[[Hymn_1281_Yes_My_Native_Land_I]]"]
 status: draft
 confidence: high
 hymn_number: 1251

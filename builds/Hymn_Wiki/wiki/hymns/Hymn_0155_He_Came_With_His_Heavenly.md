@@ -6,7 +6,7 @@ tags: ["#meter-common-double", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[William_H_Doane]]", "[[19th_Century_Hymnody]]", "[[Hymn_0248_Thou_Art_The_Wayto_Thee]]", "[[Hymn_0267_Fling_Out_The_Banner_Let]]", "[[Hymn_1199_Softly_Now_The_Light_Of]]"]
 status: stub
 confidence: high
 hymn_number: 155
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Doane]] |
+| **Author** | [[William H Doane]] |
 | **Meter** | C. M. D |
 | **Topic** | He made himself of no reputation. |
 | **Section** | Life And Ministry |

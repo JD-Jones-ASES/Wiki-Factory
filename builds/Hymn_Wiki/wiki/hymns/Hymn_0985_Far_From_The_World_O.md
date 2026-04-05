@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[William_Cowper]]", "[[18th_Century_Hymnody]]", "[[Hymn_0253_There_Is_A_Fountain_Filled]]", "[[Hymn_0601_Hear_What_God_The_Lord]]", "[[Hymn_0943_O_For_A_Closer_Walk]]"]
 status: draft
 confidence: high
 hymn_number: 985

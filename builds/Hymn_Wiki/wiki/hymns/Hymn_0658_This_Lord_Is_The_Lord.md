@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Joseph_Hart]]", "[[18th_Century_Hymnody]]", "[[Hymn_0312_Come_You_Sinners_Poor_And]]", "[[Hymn_0721_Dismiss_Us_With_Thy_Blessing]]"]
 status: draft
 confidence: high
 hymn_number: 658

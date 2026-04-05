@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1091
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Dale]] |
+| **Author** | Dale |
 | **Meter** | 8s & 4s |
 | **Topic** | Weep not for me. |
 | **Section** | Present And Future: Life And Death |

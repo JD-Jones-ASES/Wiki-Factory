@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Samuel_Francis_Smith]]", "[[19th_Century_Hymnody]]", "[[Hymn_0384_Meekly_In_Jordans_Flowing_Stream]]", "[[Hymn_0712_Blest_Is_The_Hour_When]]", "[[Hymn_1251_My_Country_Tis_Of_Thee]]"]
 status: stub
 confidence: high
 hymn_number: 1281

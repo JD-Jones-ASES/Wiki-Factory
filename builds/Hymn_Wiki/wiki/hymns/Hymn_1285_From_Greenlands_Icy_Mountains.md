@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
-related: []
+related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymn_0678_Forth_From_The_Dark_And]]", "[[Hymn_1106_The_Lord_Will_Come_The]]", "[[Hymn_1238_When_Spring_Unlocks_The_Flowers]]"]
 status: draft
 confidence: high
 hymn_number: 1285

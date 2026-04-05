@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[J. H. Gurney]] |
+| **Author** | [[John Hampden Gurney]] |
 | **Meter** | 8s & 4s |
 | **Topic** | Thy paths drop fatness. |
 | **Section** | Times And Seasons—Seed-Time And Harvest |

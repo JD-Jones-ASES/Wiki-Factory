@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Charles_Wesley]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0305_What_Could_Your_Redeemer_Do]]", "[[Hymn_0628_Hail_The_Day_That_Saw]]", "[[Hymn_1061_How_Happy_Is_The_Pilgrims]]"]
 status: draft
 confidence: high
 hymn_number: 1020

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Kimball]] |
+| **Author** | Kimball |
 | **Meter** | 10s & 6s |
 | **Topic** | At peace with all the world, etc. |
 | **Section** | Evening Hymns |

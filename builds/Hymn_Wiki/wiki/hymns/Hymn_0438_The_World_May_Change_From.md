@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Sarah_Flower_Adams]]"]
 status: stub
 confidence: high
 hymn_number: 438
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sarah F. Adams]] |
+| **Author** | [[Sarah Flower Adams]] |
 | **Meter** | C. M |
 | **Topic** | Hope maketh not ashamed. |
 | **Section** | The Hope Of Eternal Life |

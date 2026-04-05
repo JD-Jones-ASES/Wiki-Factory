@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Timothy_Dwight]]", "[[Hymn_0277_While_Life_Prolongs_Its_Precious]]", "[[Hymn_0453_I_Love_Thy_Kingdom_Lord]]"]
 status: draft
 confidence: high
 hymn_number: 1250
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Dwight]] |
+| **Author** | [[Timothy Dwight]] |
 | **Meter** | 6s & 4s |
 | **Topic** | He shall bless thee in the land. |
 | **Section** | Thanksgiving |

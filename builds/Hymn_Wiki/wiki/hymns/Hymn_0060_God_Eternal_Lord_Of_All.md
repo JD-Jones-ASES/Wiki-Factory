@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[J. E. Millard]] |
+| **Author** | J. E. Millard |
 | **Meter** | 7s |
 | **Topic** | All the earth doth worship thee. |
 | **Section** | Part Second |

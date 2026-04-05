@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[from the German of Hiller]] |
+| **Author** | from the German of Hiller |
 | **Meter** | P. M |
 | **Topic** | That blessed hope. Titus 2:13. |
 | **Section** | Second Advent |

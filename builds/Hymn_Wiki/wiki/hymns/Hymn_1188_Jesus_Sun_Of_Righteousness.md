@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Rosenmoth]] |
+| **Author** | Rosenmoth |
 | **Meter** | 7s & 3s |
 | **Topic** | The Lord God is a Sun. |
 | **Section** | Morning Hymns |

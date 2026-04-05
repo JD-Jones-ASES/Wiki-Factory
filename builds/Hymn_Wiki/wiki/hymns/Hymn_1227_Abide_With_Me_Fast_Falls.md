@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
-related: []
+related: ["[[Henry_Francis_Lyte]]", "[[19th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0101_Praise_My_Soul_The_King]]", "[[Hymn_0625_Sweet_Is_The_Task_O]]", "[[Hymn_0923_Jesus_I_My_Cross_Have]]"]
 status: draft
 confidence: high
 hymn_number: 1227

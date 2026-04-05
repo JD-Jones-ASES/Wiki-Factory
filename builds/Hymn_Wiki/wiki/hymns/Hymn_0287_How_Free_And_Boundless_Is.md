@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Benjamin_Beddome]]", "[[Hymn_0069_Wait_O_My_Soul_Thy]]", "[[Hymn_0467_Father_Of_Mercies_Bow_Thine]]", "[[Hymn_1006_My_Times_Of_Sorrow_And]]"]
 status: stub
 confidence: high
 hymn_number: 287

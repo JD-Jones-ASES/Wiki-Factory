@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Pratt’s Coll]] |
+| **Author** | Pratt’s Coll |
 | **Meter** | S. M |
 | **Topic** | The gospel call. |
 | **Section** | Chorus |

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[18th_Century_Hymnody]]", "[[Hymn_0335_Sinners_Come_No_Longer_Wander]]", "[[Hymn_0638_How_Sweet_The_Praise_How]]"]
 status: draft
 confidence: high
 hymn_number: 673
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[B. Skene]] |
+| **Author** | B. Skene |
 | **Meter** | 8s, 7s & 4s |
 | **Topic** | Praise the Lord. |
 | **Section** | Gratitude And Praise |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[G. Burgess]] |
+| **Author** | G. Burgess |
 | **Meter** | L. M |
 | **Topic** | The Lord is mightier, etc. |
 | **Section** | The Sea |

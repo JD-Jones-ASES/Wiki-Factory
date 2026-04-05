@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. R. W]] |
+| **Author** | A. R. W |
 | **Meter** | S. M |
 | **Topic** | And when they had sung a hymn, etc. |
 | **Section** | Chorus |

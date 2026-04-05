@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Welford]] |
+| **Author** | Welford |
 | **Meter** | C. M |
 | **Topic** | Our land. |
 | **Section** | Fasts |

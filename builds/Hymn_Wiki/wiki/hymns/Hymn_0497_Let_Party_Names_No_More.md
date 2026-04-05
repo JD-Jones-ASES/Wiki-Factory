@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Benjamin_Beddome]]", "[[Hymn_0069_Wait_O_My_Soul_Thy]]", "[[Hymn_0360_And_Must_I_Part_With]]", "[[Hymn_1006_My_Times_Of_Sorrow_And]]"]
 status: draft
 confidence: high
 hymn_number: 497

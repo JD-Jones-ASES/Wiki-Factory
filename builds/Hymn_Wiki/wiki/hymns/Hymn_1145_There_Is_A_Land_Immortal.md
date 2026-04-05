@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Barry Cornwall]] |
+| **Author** | Barry Cornwall |
 | **Meter** | 7s & 6s |
 | **Topic** | The beautiful of lands. |
 | **Section** | Chorus |

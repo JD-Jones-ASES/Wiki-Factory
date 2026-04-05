@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Count_Nikolaus_von_Zinzendorf]]", "[[18th_Century_Hymnody]]"]
 status: draft
 confidence: high
 hymn_number: 805
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Count Zinzendorf]] |
+| **Author** | [[Count Nikolaus von Zinzendorf]] |
 | **Meter** | P. M |
 | **Topic** | I have given him for a leader. Isaiah 55:4. |
 | **Section** | Chorus |

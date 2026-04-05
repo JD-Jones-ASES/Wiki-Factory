@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[N. P. Willis]] |
+| **Author** | [[Nathaniel Parker Willis]] |
 | **Meter** | L. M |
 | **Topic** | How much less this house. |
 | **Section** | Dedicatory |

@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]", "[[Hymn_0256_O_North_With_All_Thy]]", "[[Hymn_1303_O_Thou_Whose_Own_Vast]]"]
 status: draft
 confidence: high
 hymn_number: 994
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. C. Bryant]] |
+| **Author** | [[William Cullen Bryant]] |
 | **Meter** | L. M |
 | **Topic** | Blessed are they that mourn. |
 | **Section** | Afflictions |

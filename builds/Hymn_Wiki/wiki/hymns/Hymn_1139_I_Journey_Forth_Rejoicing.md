@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Martin_Luther]]", "[[Reformation_Hymnody]]"]
 status: stub
 confidence: high
 hymn_number: 1139
@@ -28,7 +28,7 @@ era: "reformation"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hymns from Land of Luther]] |
+| **Author** | Hymns from Land of Luther |
 | **Meter** | 7s, 6s & 4s |
 | **Topic** | Good night till then. |
 | **Section** | Chorus |

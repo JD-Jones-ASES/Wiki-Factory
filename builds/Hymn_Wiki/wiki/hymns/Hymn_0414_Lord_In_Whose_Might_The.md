@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0157_O_Suffering_Friend_Of_Human]]", "[[Hymn_0869_Father_When_Oer_Our_Trembling]]"]
 status: stub
 confidence: high
 hymn_number: 414
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Bulfinch]] |
+| **Author** | Bulfinch |
 | **Meter** | C. M |
 | **Topic** | Peace in the storm. |
 | **Section** | Spirit Of Adoption |

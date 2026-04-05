@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0159_Tis_Midnight_And_On_Olives]]", "[[Hymn_1130_There_Is_An_Hour_Of]]"]
 status: stub
 confidence: high
 hymn_number: 1126
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. B. Tappan]] |
+| **Author** | W. B. Tappan |
 | **Meter** | C. M |
 | **Topic** | They that sow in tears, shall reap in joy. |
 | **Section** | Chorus |

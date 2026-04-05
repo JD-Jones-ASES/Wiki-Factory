@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0358_O_How_Divine_How_Sweet]]", "[[Hymn_0860_Rise_O_My_Soul_Pursue]]"]
 status: stub
 confidence: high
 hymn_number: 105

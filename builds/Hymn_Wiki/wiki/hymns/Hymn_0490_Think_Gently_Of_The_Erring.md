@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Miss Fletcher]] |
+| **Author** | Miss Fletcher |
 | **Meter** | C. M |
 | **Topic** | Restore such a one, etc. |
 | **Section** | Chorus |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Macduff]] |
+| **Author** | Macduff |
 | **Meter** | 12s & 11s |
 | **Topic** | I make mention of you, etc. |
 | **Section** | Private Devotions |

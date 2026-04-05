@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[William_Cowper]]", "[[18th_Century_Hymnody]]", "[[Hymn_0413_Honor_And_Happiness_Unite]]", "[[Hymn_0827_To_Jesus_The_Crown_Of]]", "[[Hymn_0985_Far_From_The_World_O]]"]
 status: draft
 confidence: high
 hymn_number: 79

@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: draft
 confidence: high
 hymn_number: 1038
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mrs. McKay]] |
+| **Author** | Mrs. McKay |
 | **Meter** | L. M |
 | **Topic** | Them which sleep in Jesus. |
 | **Section** | Present And Future: Life And Death |

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Thomas_Kelly]]", "[[Hymn_0275_Sound_Sound_The_Truth_Abroad]]", "[[Hymn_0604_In_The_Mountains_Top_Appearing]]", "[[Hymn_1109_In_Expectation_Sweet]]"]
 status: draft
 confidence: high
 hymn_number: 756

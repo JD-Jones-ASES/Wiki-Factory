@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1060
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Wardlaw’s Coll]] |
+| **Author** | Wardlaw’s Coll |
 | **Meter** | C. M |
 | **Topic** |  |
 | **Section** | Present And Future: Life And Death |

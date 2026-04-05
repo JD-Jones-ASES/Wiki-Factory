@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Staughton]] |
+| **Author** | Staughton |
 | **Meter** | 10s & 11s |
 | **Topic** | Be thou faithful unto death. |
 | **Section** | Chorus |

@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0193_The_Angels_That_Watched_Round]]", "[[Hymn_0288_Return_O_Wanderer_Now_Return]]", "[[Hymn_1299_Father_Of_The_Human_Race]]"]
 status: stub
 confidence: high
 hymn_number: 514

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[John_Fawcett]]", "[[18th_Century_Hymnody]]", "[[Hymn_0091_Thy_Way_Is_In_The]]", "[[Hymn_0393_Humble_Souls_Who_Seek_Salvation]]", "[[Hymn_1036_The_God_Of_Mercy_Will]]"]
 status: stub
 confidence: high
 hymn_number: 890
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Fawcett]] |
+| **Author** | [[John Fawcett]] |
 | **Meter** | 8s, 7s & 4 |
 | **Topic** | Hope thou in God. |
 | **Section** | Chorus |

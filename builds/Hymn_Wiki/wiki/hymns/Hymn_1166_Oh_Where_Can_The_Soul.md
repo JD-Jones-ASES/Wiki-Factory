@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Dutton]] |
+| **Author** | Dutton |
 | **Meter** | 11s & 5s |
 | **Topic** | The home of the soul. |
 | **Section** | Chorus |

@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Samuel_Medley]]", "[[18th_Century_Hymnody]]", "[[Hymn_0152_O_Could_I_Speak_The]]", "[[Hymn_0272_Hark_How_The_Gospel_Trumpet]]", "[[Hymn_0634_Awake_My_Soul_To_Joyful]]"]
 status: stub
 confidence: high
 hymn_number: 121

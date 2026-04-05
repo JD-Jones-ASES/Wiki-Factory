@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[G. Burgess]] |
+| **Author** | G. Burgess |
 | **Meter** | S. M |
 | **Topic** |  |
 | **Section** | Times And Seasons—Seed-Time And Harvest |

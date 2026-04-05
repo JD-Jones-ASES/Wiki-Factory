@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Gaskell]] |
+| **Author** | Gaskell |
 | **Meter** | 7s. double |
 | **Topic** | Doxology. |
 | **Section** | Closing Hymns |

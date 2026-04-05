@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Lange]] |
+| **Author** | Lange |
 | **Meter** | L. M |
 | **Topic** | In him we live and move. |
 | **Section** | God: His Being And Perfections |

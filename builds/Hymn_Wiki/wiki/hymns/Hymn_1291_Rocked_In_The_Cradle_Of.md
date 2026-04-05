@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mrs. Willard]] |
+| **Author** | Mrs. Willard |
 | **Meter** | L. M |
 | **Topic** | Rocked in the cradle of the deep. |
 | **Section** | The Sea |

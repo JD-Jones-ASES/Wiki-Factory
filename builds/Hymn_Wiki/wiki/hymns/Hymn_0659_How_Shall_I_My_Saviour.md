@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Maxwell]] |
+| **Author** | Maxwell |
 | **Meter** | 8s |
 | **Topic** | The unsearchable riches of Christ. |
 | **Section** | Gratitude And Praise |

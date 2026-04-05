@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Morrison]] |
+| **Author** | Morrison |
 | **Meter** | C. M |
 | **Topic** | God giveth grace to the humble. |
 | **Section** | Faith And Repentance |

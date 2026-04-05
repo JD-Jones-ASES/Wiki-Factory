@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Dobell]] |
+| **Author** | Dobell |
 | **Meter** | L. M |
 | **Topic** | Communion in Christ. |
 | **Section** | Chorus |

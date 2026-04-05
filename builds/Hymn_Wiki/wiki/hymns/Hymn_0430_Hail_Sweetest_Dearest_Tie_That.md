@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sutton]] |
+| **Author** | Sutton |
 | **Meter** | C. M |
 | **Topic** | We all shall meet in heaven. |
 | **Section** | The Hope Of Eternal Life |

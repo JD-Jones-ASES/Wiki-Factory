@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Moore]]", "[[Hymn_0063_Theres_Nothing_Bright_Above_Below]]", "[[Hymn_0407_Since_First_Thy_Word_Awaked]]", "[[Hymn_1005_O_Thou_Who_Driest_The]]"]
 status: stub
 confidence: high
 hymn_number: 409
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Moore]] |
+| **Author** | [[Thomas Moore]] |
 | **Meter** | L. M |
 | **Topic** | You hath he quickened. |
 | **Section** | Spirit Of Adoption |

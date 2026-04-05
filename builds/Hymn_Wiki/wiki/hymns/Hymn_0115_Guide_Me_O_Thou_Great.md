@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-grace"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Henry_Kemble_Oliver]]"]
 status: draft
 confidence: high
 hymn_number: 115
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Oliver]] |
+| **Author** | [[Henry Kemble Oliver]] |
 | **Meter** | 8s, 7s & 4 |
 | **Topic** | Jehovah my strength. |
 | **Section** | In Redemption |

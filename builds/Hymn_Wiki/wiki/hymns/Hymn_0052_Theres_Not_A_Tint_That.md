@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Wallace]] |
+| **Author** | Wallace |
 | **Meter** | C. M |
 | **Topic** | God seen in his works. |
 | **Section** | Part Second |

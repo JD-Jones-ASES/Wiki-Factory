@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mrs. Gilman]] |
+| **Author** | Mrs. Gilman |
 | **Meter** | L. M |
 | **Topic** | God our Father. |
 | **Section** | The New Life—Trust And Joy |

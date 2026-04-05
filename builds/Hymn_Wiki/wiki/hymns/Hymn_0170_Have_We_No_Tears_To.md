@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Lyra Cath]] |
+| **Author** | Lyra Cath |
 | **Meter** | L. M |
 | **Topic** | Herein is love! |
 | **Section** | The Crucifixion |

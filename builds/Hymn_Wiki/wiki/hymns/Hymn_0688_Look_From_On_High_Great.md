@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Rippon’s Coll]] |
+| **Author** | Rippon’s Coll |
 | **Meter** | L. M |
 | **Topic** | My soul longeth for the courts of the Lord. |
 | **Section** | Opening Hymns |

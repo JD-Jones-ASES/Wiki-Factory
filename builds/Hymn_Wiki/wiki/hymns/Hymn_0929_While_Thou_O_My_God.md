@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. Young]] |
+| **Author** | W. Young |
 | **Meter** | 12s & 11s |
 | **Topic** | My God and my all. |
 | **Section** | Submission And Deliverance |

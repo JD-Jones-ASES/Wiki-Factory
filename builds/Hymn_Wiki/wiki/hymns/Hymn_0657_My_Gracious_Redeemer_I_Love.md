@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Hymn_0971_With_My_Substance_I_Will]]", "[[Hymn_1301_In_Sweet_Exalted_Strains]]"]
 status: draft
 confidence: high
 hymn_number: 657

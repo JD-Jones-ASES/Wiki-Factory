@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-children"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Robert_Grant]]", "[[Sunday_School_Hymns]]"]
 status: stub
 confidence: high
 hymn_number: 1225
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sir Robt. Grant]] |
+| **Author** | [[Robert Grant]] |
 | **Meter** | C. P. M |
 | **Topic** | Thou art my trust from my youth. |
 | **Section** | Youth And Age |

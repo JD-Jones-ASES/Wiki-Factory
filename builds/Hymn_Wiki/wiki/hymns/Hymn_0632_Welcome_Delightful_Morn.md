@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hayward]] |
+| **Author** | Hayward |
 | **Meter** | H. M |
 | **Topic** | Welcome, delightful morn. |
 | **Section** | Its Growth And Future Triumphs |

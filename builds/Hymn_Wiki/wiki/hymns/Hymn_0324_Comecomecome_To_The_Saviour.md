@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. D. Fillmore]] |
+| **Author** | [[Augustus Dillard Fillmore]] |
 | **Meter** | P. M |
 | **Topic** | Come. |
 | **Section** | Chorus |

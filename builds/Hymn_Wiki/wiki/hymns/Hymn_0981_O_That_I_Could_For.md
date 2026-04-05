@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0316_Hear_O_Sinner_Mercy_Hails]]", "[[Hymn_0545_Ye_Saints_Your_Music_Bring]]"]
 status: stub
 confidence: high
 hymn_number: 981
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Reed]] |
+| **Author** | Reed |
 | **Meter** | L. M |
 | **Topic** | In the world, but not of it. |
 | **Section** | Private Devotions |

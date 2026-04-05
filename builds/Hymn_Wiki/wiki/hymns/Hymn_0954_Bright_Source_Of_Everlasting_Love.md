@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Boden]] |
+| **Author** | Boden |
 | **Meter** | C. M |
 | **Topic** | I delivered the poor and the fatherless. |
 | **Section** | Sympathies And Activities |

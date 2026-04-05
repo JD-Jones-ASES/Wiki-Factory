@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Benjamin_Beddome]]", "[[Hymn_0069_Wait_O_My_Soul_Thy]]", "[[Hymn_0360_And_Must_I_Part_With]]", "[[Hymn_0807_Jesus_My_Love_My_Chief]]"]
 status: stub
 confidence: high
 hymn_number: 1241

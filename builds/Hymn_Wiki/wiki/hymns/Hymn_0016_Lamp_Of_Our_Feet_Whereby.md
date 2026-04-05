@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-scripture"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymn_0349_Around_Bethesdas_Healing_Wave]]", "[[Hymn_1222_Our_Pathway_Oft_Is_Wet]]"]
 status: draft
 confidence: high
 hymn_number: 16
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Barton]] |
+| **Author** | [[Bernard Barton]] |
 | **Meter** | C. M |
 | **Topic** | Word of the everlasting God. |
 | **Section** | The Holy Scriptures |

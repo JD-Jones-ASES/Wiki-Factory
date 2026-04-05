@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Martineau’s Coll]] |
+| **Author** | Martineau’s Coll |
 | **Meter** | 6s & 10s |
 | **Topic** | He became obedient unto death. |
 | **Section** | The Ascension |

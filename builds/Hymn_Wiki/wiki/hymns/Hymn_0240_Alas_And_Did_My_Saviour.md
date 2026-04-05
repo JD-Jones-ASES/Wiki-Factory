@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0434_Since_I_Can_Read_My]]", "[[Hymn_0808_What_Sinners_Value_I_Resign]]"]
 status: draft
 confidence: high
 hymn_number: 240

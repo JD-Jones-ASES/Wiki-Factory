@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Winchell’s Sel]] |
+| **Author** | Winchell’s Sel |
 | **Meter** | L. M |
 | **Topic** | Go ye into all the world. |
 | **Section** | Officers |

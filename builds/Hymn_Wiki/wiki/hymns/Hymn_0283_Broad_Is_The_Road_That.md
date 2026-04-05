@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Isaac_Watts]]", "[[18th_Century_Hymnody]]", "[[Hymn_0093_O_Bless_The_Lord_My]]", "[[Hymn_0434_Since_I_Can_Read_My]]", "[[Hymn_0808_What_Sinners_Value_I_Resign]]"]
 status: stub
 confidence: high
 hymn_number: 283

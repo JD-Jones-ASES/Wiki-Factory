@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Cawood]] |
+| **Author** | Cawood |
 | **Meter** | 8s & 7s |
 | **Topic** | Hark! what mean those holy voices? |
 | **Section** | Hymn For Christmas |

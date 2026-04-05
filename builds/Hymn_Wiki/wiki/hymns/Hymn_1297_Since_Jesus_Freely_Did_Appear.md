@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Berridge]] |
+| **Author** | Berridge |
 | **Meter** | C. M |
 | **Topic** |  |
 | **Section** | Marriage Hymns |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[East]] |
+| **Author** | East |
 | **Meter** | C. M |
 | **Topic** | Far up the everlasting hills. |
 | **Section** | Chorus |

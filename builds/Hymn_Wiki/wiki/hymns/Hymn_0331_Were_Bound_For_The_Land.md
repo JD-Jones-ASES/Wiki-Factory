@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[R. L. Collier]] |
+| **Author** | R. L. Collier |
 | **Meter** | 12s, 11s & 6 |
 | **Topic** | The Eden above. |
 | **Section** | Chorus |

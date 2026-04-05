@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[May L. Duncan]] |
+| **Author** | [[May_L_Duncan]] |
 | **Meter** | 8s & 7s |
 | **Topic** | A child’s prayer. |
 | **Section** | Evening Hymns |

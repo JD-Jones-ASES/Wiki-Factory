@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Evans]] |
+| **Author** | Evans |
 | **Meter** | 8s, 7s & 4 |
 | **Topic** | It is finished. |
 | **Section** | The Crucifixion |

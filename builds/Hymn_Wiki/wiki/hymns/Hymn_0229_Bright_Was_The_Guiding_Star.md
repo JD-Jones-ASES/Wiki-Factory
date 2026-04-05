@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Spirit of the Psalms]] |
+| **Author** | Spirit of the Psalms |
 | **Meter** | C. M |
 | **Topic** | The bright and morning star. |
 | **Section** | Mediatorial Reign |

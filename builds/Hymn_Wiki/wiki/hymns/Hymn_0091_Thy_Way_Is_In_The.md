@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[John_Fawcett]]", "[[18th_Century_Hymnody]]", "[[Hymn_0237_Infinite_Excellence_Is_Thine]]", "[[Hymn_0495_Blest_Be_The_Tie_That]]", "[[Hymn_1036_The_God_Of_Mercy_Will]]"]
 status: draft
 confidence: high
 hymn_number: 91
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Fawcett]] |
+| **Author** | [[John Fawcett]] |
 | **Meter** | S. M |
 | **Topic** | Now we know in part. |
 | **Section** | God: In Providence |

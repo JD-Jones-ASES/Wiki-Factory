@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-praise", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Benjamin_Beddome]]", "[[Hymns_of_Consolation]]", "[[Hymn_0069_Wait_O_My_Soul_Thy]]", "[[Hymn_0467_Father_Of_Mercies_Bow_Thine]]", "[[Hymn_1006_My_Times_Of_Sorrow_And]]"]
 status: draft
 confidence: high
 hymn_number: 161

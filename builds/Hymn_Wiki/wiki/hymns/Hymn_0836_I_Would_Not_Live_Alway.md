@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymn_0055_Since_Oer_Thy_Footstool_Here]]", "[[Hymn_0456_Like_Noahs_Weary_Dove]]"]
 status: draft
 confidence: high
 hymn_number: 836
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Muhlenberg]] |
+| **Author** | [[William Augustus Muhlenberg]] |
 | **Meter** | 11s |
 | **Topic** | I would not live alway. |
 | **Section** | Chorus |

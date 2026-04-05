@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Joachim_Neander]]", "[[Post-Reformation_Hymnody]]"]
 status: stub
 confidence: high
 hymn_number: 891

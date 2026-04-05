@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hymns, anc. & mod]] |
+| **Author** | Hymns, anc. & mod |
 | **Meter** | L. M. 6 lines |
 | **Topic** | They that go down, etc. |
 | **Section** | The Sea |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mrs. St. Leon Loud]] |
+| **Author** | Mrs. St. Leon Loud |
 | **Meter** | 10s & 11s, peculiar |
 | **Topic** | Sacred tears. |
 | **Section** | Life And Ministry |

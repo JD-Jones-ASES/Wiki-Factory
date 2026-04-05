@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sac. Songs]] |
+| **Author** | Sac. Songs |
 | **Meter** | 7s & 6s |
 | **Topic** | Twilight. |
 | **Section** | Evening Hymns |

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Moore]]", "[[Hymn_0311_Sinner_Seek_The_Priceless_Treasure]]", "[[Hymn_0541_Jesus_Has_Died_For_Me]]", "[[Hymn_0845_In_Thee_O_Lord_I]]"]
 status: stub
 confidence: high
 hymn_number: 134
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. T. Moore]] |
+| **Author** | [[W_T_Moore]] |
 | **Meter** | 8s & 7s |
 | **Topic** | Chorus of the angels. |
 | **Section** | Hymn For Christmas |

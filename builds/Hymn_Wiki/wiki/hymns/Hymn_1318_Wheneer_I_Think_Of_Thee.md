@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Lydia_Baxter]]", "[[Hymn_0819_I_Have_No_Restingplace_On]]", "[[Hymn_0825_Let_Me_Go_My_Soul]]"]
 status: stub
 confidence: high
 hymn_number: 1318
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. Baxter]] |
+| **Author** | W. Baxter |
 | **Meter** | 6s & 4 |
 | **Topic** | Calvary. |
 | **Section** | Miscellaneous |

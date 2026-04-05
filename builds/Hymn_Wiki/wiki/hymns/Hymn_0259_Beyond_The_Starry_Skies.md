@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Turner, varied]] |
+| **Author** | Turner, varied |
 | **Meter** | S. M |
 | **Topic** | Seen of angels. |
 | **Section** | Mediatorial Reign |

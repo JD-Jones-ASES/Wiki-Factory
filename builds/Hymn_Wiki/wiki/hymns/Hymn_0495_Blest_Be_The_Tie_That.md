@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
-related: []
+related: ["[[John_Fawcett]]", "[[18th_Century_Hymnody]]", "[[Hymn_0091_Thy_Way_Is_In_The]]", "[[Hymn_0393_Humble_Souls_Who_Seek_Salvation]]", "[[Hymn_1036_The_God_Of_Mercy_Will]]"]
 status: draft
 confidence: high
 hymn_number: 495
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Fawcett]] |
+| **Author** | [[John Fawcett]] |
 | **Meter** | S. M |
 | **Topic** | Love as brethren. |
 | **Section** | Chorus |

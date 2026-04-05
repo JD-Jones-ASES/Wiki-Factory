@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Hymn_0081_Father_Of_Mercies_God_Of]]", "[[Hymn_0679_Blest_Hour_When_Mortal_Man]]", "[[Hymn_1138_High_In_Yonder_Realms_Of]]"]
 status: draft
 confidence: high
 hymn_number: 563
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Raffles]] |
+| **Author** | Raffles |
 | **Meter** | C. M |
 | **Topic** | My Saviour died for me. |
 | **Section** | Prayer And Social Meetings |

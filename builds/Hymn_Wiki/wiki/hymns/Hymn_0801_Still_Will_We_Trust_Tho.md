@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. H. Burleigh]] |
+| **Author** | [[William Henry Burleigh]] |
 | **Meter** | P. M |
 | **Topic** | Still will we trust. |
 | **Section** | Chorus |

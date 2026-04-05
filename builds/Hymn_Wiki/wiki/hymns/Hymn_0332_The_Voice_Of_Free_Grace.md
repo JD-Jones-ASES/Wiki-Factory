@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Thornby]] |
+| **Author** | Thornby |
 | **Meter** | 12s |
 | **Topic** | The voice of free grace. |
 | **Section** | Chorus |

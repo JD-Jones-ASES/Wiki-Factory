@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 993
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Jane Roscoe]] |
+| **Author** | Jane Roscoe |
 | **Meter** | L. M |
 | **Topic** | The things that are unseen are eternal. |
 | **Section** | Afflictions |

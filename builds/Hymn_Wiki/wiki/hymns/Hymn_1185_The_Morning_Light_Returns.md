@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
-related: []
+related: ["[[Hymn_1097_Christian_The_Vision_Before_Thee]]", "[[Hymn_1214_While_In_The_Slippery_Paths]]"]
 status: draft
 confidence: high
 hymn_number: 1185
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. S. Hayden]] |
+| **Author** | [[A_S_Hayden]] |
 | **Meter** | S. M |
 | **Topic** | I will sing of thy mercy in the morning. |
 | **Section** | Morning Hymns |

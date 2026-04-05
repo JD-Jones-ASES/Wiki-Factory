@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[R. W. Noel]] |
+| **Author** | R. W. Noel |
 | **Meter** | C. M |
 | **Topic** | Remembering Christ. |
 | **Section** | Chorus |

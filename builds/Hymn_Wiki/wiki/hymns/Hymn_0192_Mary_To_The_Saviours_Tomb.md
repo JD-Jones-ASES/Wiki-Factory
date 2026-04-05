@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-easter"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[John_Newton]]", "[[18th_Century_Hymnody]]", "[[Hymn_0246_He_Who_On_Earth_As]]", "[[Hymn_0564_Approach_My_Soul_The_Mercyseat]]", "[[Hymn_0898_Be_Still_My_Heart_These]]"]
 status: stub
 confidence: high
 hymn_number: 192

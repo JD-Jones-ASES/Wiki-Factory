@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0244_O_Jesus_King_Most_Wonderful]]", "[[Hymn_0554_O_Thou_Pure_Light_Of]]", "[[Hymn_0924_Hallelujah_Best_And_Sweetest]]"]
 status: stub
 confidence: high
 hymn_number: 1177
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Breviary]] |
+| **Author** | Breviary |
 | **Meter** | L. M |
 | **Topic** | Be thou their arm every morning. Isaiah 33:2. |
 | **Section** | Morning Hymns |

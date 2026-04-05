@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0038_O_God_My_Heart_Is]]", "[[Hymn_0682_O_Come_Loud_Anthems_Let]]", "[[Hymn_0911_Through_All_The_Changing_Scenes]]"]
 status: stub
 confidence: high
 hymn_number: 65
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Tate and Brady]] |
+| **Author** | Tate and Brady |
 | **Meter** | L. M |
 | **Topic** | Unchanging trust. |
 | **Section** | God: In Providence |

@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0519_Lord_May_The_Spirit_Of]]", "[[Hymn_1275_Onward_Onward_Men_Of_Heaven]]", "[[Hymn_1298_Not_For_The_Summer_Hour]]"]
 status: stub
 confidence: high
 hymn_number: 903

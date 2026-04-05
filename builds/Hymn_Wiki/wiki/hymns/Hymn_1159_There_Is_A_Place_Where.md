@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0463_You_May_Sing_Of_The]]", "[[Hymn_1095_Away_From_His_Home_And]]"]
 status: stub
 confidence: high
 hymn_number: 1159
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. Hunter]] |
+| **Author** | W. Hunter |
 | **Meter** | 9s & 8s |
 | **Topic** | The Father-land. |
 | **Section** | Chorus |

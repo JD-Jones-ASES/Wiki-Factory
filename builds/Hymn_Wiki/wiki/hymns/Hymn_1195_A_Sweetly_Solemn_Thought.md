@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Alice Carey]] |
+| **Author** | [[Alice Cary]] |
 | **Meter** | S. M |
 | **Topic** | Now is our salvation nearer, etc. |
 | **Section** | Evening Hymns |

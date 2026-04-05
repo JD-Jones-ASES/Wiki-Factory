@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. Broaddus]] |
+| **Author** | [[Andrew Broaddus]] |
 | **Meter** | 11s & 10s |
 | **Topic** | The wandering sinner, etc. |
 | **Section** | Chorus |

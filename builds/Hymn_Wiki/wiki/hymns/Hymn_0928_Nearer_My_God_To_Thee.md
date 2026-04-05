@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]", "[[Web_Research]]"]
-related: []
+related: ["[[Sarah_Flower_Adams]]", "[[19th_Century_Hymnody]]"]
 status: draft
 confidence: high
 hymn_number: 928
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mrs. S. F. Adams]] |
+| **Author** | [[Sarah Flower Adams]] |
 | **Meter** | 6s & 4s |
 | **Topic** | Nearer to thee. |
 | **Section** | Submission And Deliverance |

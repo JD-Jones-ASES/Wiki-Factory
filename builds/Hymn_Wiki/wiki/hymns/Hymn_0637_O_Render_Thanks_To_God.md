@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Hymn_0038_O_God_My_Heart_Is]]", "[[Hymn_0682_O_Come_Loud_Anthems_Let]]", "[[Hymn_0911_Through_All_The_Changing_Scenes]]"]
 status: draft
 confidence: high
 hymn_number: 637
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Tate and Brady]] |
+| **Author** | Tate and Brady |
 | **Meter** | L. M |
 | **Topic** | His mercy endureth for ever. |
 | **Section** | Gratitude And Praise |

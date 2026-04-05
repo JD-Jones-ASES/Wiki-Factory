@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Paul_Gerhardt]]", "[[Post-Reformation_Hymnody]]", "[[Hymn_0177_O_Sacred_Head_Now_Wounded]]", "[[Hymn_0880_Give_To_The_Winds_Thy]]"]
 status: stub
 confidence: high
 hymn_number: 799

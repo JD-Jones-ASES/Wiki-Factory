@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-scripture"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Sir_John_Bowring]]", "[[Hymn_0116_God_Is_Love_His_Mercy]]", "[[Hymn_0588_From_The_Recesses_Of_A]]", "[[Hymn_0695_The_Offerings_To_Thy_Throne]]"]
 status: draft
 confidence: high
 hymn_number: 6
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[John Bowring]] |
+| **Author** | [[Sir John Bowring]] |
 | **Meter** | L. M |
 | **Topic** | Their words to the end of the world. |
 | **Section** | The Holy Scriptures |

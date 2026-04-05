@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Rosegarten]] |
+| **Author** | Rosegarten |
 | **Meter** | 10s |
 | **Topic** | Sufferings and glory. |
 | **Section** | Submission And Deliverance |

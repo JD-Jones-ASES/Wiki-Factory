@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0081_Father_Of_Mercies_God_Of]]", "[[Hymn_0563_Thou_Art_My_Hidingplace_O]]", "[[Hymn_1138_High_In_Yonder_Realms_Of]]"]
 status: stub
 confidence: high
 hymn_number: 679
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Raffles]] |
+| **Author** | Raffles |
 | **Meter** | L. M |
 | **Topic** | The hour of worship. |
 | **Section** | Opening Hymns |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[G. Burder]] |
+| **Author** | G. Burder |
 | **Meter** | C. M |
 | **Topic** | God is love. |
 | **Section** | In Redemption |

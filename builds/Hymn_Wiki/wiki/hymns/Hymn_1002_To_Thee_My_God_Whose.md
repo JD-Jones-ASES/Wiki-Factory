@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]", "[[Hymn_0083_Thy_Goodness_Lord_Our_Souls]]", "[[Hymn_0395_Forgiveness_Tis_A_Joyful_Sound]]", "[[Hymn_0806_Now_Let_Our_Souls_On]]"]
 status: stub
 confidence: high
 hymn_number: 1002

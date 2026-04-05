@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Hymn_0244_O_Jesus_King_Most_Wonderful]]", "[[Hymn_0554_O_Thou_Pure_Light_Of]]", "[[Hymn_1177_Lord_Of_Eternal_Truth_And]]"]
 status: draft
 confidence: high
 hymn_number: 924
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Breviary]] |
+| **Author** | Breviary |
 | **Meter** | 8s, 7s & 4s |
 | **Topic** |  |
 | **Section** | Submission And Deliverance |

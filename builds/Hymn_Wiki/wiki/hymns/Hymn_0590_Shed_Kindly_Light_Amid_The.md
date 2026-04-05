@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
-related: []
+related: ["[[John_Henry_Newman]]", "[[19th_Century_Hymnody]]"]
 status: draft
 confidence: high
 hymn_number: 590
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Newman]] |
+| **Author** | [[John Henry Newman]] |
 | **Meter** | P. M |
 | **Topic** | Lead thou me on. |
 | **Section** | Prayer And Social Meetings |
@@ -83,4 +83,4 @@ Shed kindly light amid the encircling gloom,
 
 ## Listen
 
-- <a href="https://www.youtube.com/watch?v=cvIJkteSnXQ" target="_blank" rel="noopener">Lead Kindly Light - Traditional Hymn</a> — choral performance, tune Lux Benigna (John Bacchus Dykes)
+- <a href="https://www.youtube.com/watch?v=YzpHUty5rjs" target="_blank" rel="noopener">Lead, Kindly Light - The Church of Jesus Christ</a> — choral performance, tune Lux Benigna (John Bacchus Dykes), text by John Henry Newman

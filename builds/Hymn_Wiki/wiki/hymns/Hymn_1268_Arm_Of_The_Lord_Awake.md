@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-missionary"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Missionary_Hymns]]"]
 status: draft
 confidence: high
 hymn_number: 1268
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Shrubsole]] |
+| **Author** | [[William Shrubsole]] |
 | **Meter** | L. M |
 | **Topic** | Isaiah 51:9. |
 | **Section** | Missionary Assemblies |

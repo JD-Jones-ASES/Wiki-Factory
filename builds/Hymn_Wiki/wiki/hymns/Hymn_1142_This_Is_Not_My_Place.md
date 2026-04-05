@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Horatius_Bonar]]", "[[19th_Century_Hymnody]]", "[[Hymn_0150_A_Pilgrim_Through_This_Lonely]]", "[[Hymn_0848_Silent_Like_Men_In_Solemn]]", "[[Hymn_1110_Rest_For_The_Toiling_Hand]]"]
 status: draft
 confidence: high
 hymn_number: 1142

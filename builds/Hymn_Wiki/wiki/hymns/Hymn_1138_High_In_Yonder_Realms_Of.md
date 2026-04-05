@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0081_Father_Of_Mercies_God_Of]]", "[[Hymn_0563_Thou_Art_My_Hidingplace_O]]", "[[Hymn_0679_Blest_Hour_When_Mortal_Man]]"]
 status: stub
 confidence: high
 hymn_number: 1138
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Raffles]] |
+| **Author** | Raffles |
 | **Meter** | 7s, double |
 | **Topic** | They rest from their labors. |
 | **Section** | Chorus |

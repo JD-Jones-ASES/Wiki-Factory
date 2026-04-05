@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Bakewell]] |
+| **Author** | Bakewell |
 | **Meter** | 8s & 7s |
 | **Topic** | Our Mediator. |
 | **Section** | Miscellaneous |

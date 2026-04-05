@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Moore]]", "[[Hymn_0342_Awaked_From_Sins_Delusive_Sleep]]", "[[Hymn_0409_Like_Morningwhen_Her_Early_Breeze]]", "[[Hymn_1005_O_Thou_Who_Driest_The]]"]
 status: stub
 confidence: high
 hymn_number: 49
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Moore]] |
+| **Author** | [[Thomas Moore]] |
 | **Meter** | L. M. 6 lines |
 | **Topic** | God the fountain of being, etc. |
 | **Section** | Part Second |

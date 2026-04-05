@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Milton]] |
+| **Author** | [[John Milton]] |
 | **Meter** | 7s, double |
 | **Topic** |  |
 | **Section** | God: In Providence |

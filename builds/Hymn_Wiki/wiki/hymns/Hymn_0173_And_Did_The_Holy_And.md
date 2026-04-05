@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-easter"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Anna_Steele]]", "[[18th_Century_Hymnody]]", "[[Hymn_0230_Come_You_That_Love_The]]", "[[Hymn_0643_To_Our_Redeemers_Glorious_Name]]", "[[Hymn_1045_Almighty_Maker_Of_My_Frame]]"]
 status: stub
 confidence: high
 hymn_number: 173
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Anne Steele]] |
+| **Author** | [[Anna Steele]] |
 | **Meter** | C. M |
 | **Topic** | His condescension. |
 | **Section** | The Crucifixion |

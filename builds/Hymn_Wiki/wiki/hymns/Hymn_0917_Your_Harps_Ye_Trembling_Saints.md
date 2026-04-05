@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Augustus_Toplady]]", "[[18th_Century_Hymnody]]", "[[Hymn_0261_Rock_Of_Ages_Cleft_For]]", "[[Hymn_1008_When_Languor_And_Disease_Invade]]", "[[Hymn_1072_Deathless_Spirit_Now_Arise]]"]
 status: draft
 confidence: high
 hymn_number: 917

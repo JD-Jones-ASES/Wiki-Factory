@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Burder]] |
+| **Author** | Burder |
 | **Meter** | 8s, 7s & 4s |
 | **Topic** | Dismission. |
 | **Section** | Closing Hymns |

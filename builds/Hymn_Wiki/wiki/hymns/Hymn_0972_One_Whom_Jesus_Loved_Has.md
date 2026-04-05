@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[John_Greenleaf_Whittier]]", "[[19th_Century_Hymnody]]", "[[Hymn_0896_Shall_We_Grow_Weary_In]]", "[[Hymn_0904_All_As_God_Wills_Who]]"]
 status: stub
 confidence: high
 hymn_number: 972

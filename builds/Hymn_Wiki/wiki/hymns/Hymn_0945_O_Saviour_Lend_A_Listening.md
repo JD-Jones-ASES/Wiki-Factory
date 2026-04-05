@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Hastings]]", "[[Hymn_0296_Return_O_Wanderer_To_Thy]]", "[[Hymn_0608_Hail_To_The_Brightness_Of]]", "[[Hymn_1015_How_Tender_Is_Thy_Hand]]"]
 status: stub
 confidence: high
 hymn_number: 945

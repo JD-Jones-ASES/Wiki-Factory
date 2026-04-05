@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Ray_Palmer]]", "[[19th_Century_Hymnody]]", "[[Hymn_0518_Away_From_Earth_My_Spirit]]", "[[Hymn_0941_Before_Thy_Throne_With_Tearful]]", "[[Hymn_1284_Wake_Thee_O_Zion_Thy]]"]
 status: draft
 confidence: high
 hymn_number: 399
@@ -28,7 +28,7 @@ era: "19th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Palmer]] |
+| **Author** | [[Ray Palmer]] |
 | **Meter** | L. M |
 | **Topic** | Joy of consecration to Christ. |
 | **Section** | Chorus |

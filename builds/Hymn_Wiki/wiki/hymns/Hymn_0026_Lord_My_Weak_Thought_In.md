@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Ray_Palmer]]", "[[19th_Century_Hymnody]]", "[[Hymn_0390_Jesus_Lamb_Of_God_For]]", "[[Hymn_0577_Stealing_From_The_World_Away]]", "[[Hymn_1123_Thy_Fathers_House_Thine_Own]]"]
 status: draft
 confidence: high
 hymn_number: 26

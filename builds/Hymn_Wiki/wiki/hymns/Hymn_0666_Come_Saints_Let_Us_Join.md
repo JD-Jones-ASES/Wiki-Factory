@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[De Fleury]] |
+| **Author** | De Fleury |
 | **Meter** | 11s |
 | **Topic** | Worthy is the Lamb. |
 | **Section** | Gratitude And Praise |

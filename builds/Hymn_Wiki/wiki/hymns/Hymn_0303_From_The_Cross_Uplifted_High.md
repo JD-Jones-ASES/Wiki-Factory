@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Haweis]] |
+| **Author** | Haweis |
 | **Meter** | 7s, 6 lines |
 | **Topic** | Come and welcome. |
 | **Section** | Chorus |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Rippon’s Coll]] |
+| **Author** | Rippon’s Coll |
 | **Meter** | L. M. 6 lines |
 | **Topic** | His baptism. |
 | **Section** | Life And Ministry |

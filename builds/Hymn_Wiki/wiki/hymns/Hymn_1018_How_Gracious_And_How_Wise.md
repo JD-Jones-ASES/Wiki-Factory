@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Philip_Doddridge]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0184_Ye_Humble_Souls_That_Seek]]", "[[Hymn_0405_Grace_Tis_A_Charming_Sound]]", "[[Hymn_1009_My_God_Thy_Service_Well]]"]
 status: stub
 confidence: high
 hymn_number: 1018

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[George Gaskell]] |
+| **Author** | George Gaskell |
 | **Meter** | L. M |
 | **Topic** | The repose of faith. |
 | **Section** | The New Life—Trust And Joy |

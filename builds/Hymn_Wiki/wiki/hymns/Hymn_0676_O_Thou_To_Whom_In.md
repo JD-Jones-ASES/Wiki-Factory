@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Ware]] |
+| **Author** | Ware |
 | **Meter** | L. M |
 | **Topic** | Every place a temple. |
 | **Section** | Opening Hymns |

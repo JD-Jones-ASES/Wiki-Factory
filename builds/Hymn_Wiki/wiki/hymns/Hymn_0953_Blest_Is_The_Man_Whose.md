@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Hymn_0479_How_Blest_The_Sacred_Tie]]", "[[Hymn_0847_Awake_My_Soul_Lift_Up]]", "[[Hymn_1059_Not_For_The_Pious_Dead]]"]
 status: draft
 confidence: high
 hymn_number: 953

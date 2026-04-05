@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1068
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hymns, anc. & mod]] |
+| **Author** | Hymns, anc. & mod |
 | **Meter** | S. M |
 | **Topic** | Far from my heavenly home. |
 | **Section** | Present And Future: Life And Death |

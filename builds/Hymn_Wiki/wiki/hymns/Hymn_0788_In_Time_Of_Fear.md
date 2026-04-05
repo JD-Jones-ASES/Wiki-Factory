@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Hastings]]", "[[Hymn_0969_He_That_Goeth_Forth_With]]", "[[Hymn_1175_Gently_Lord_O_Gently_Lead]]"]
 status: stub
 confidence: high
 hymn_number: 788
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hastings]] |
+| **Author** | [[Thomas Hastings]] |
 | **Meter** | 4s & 6s |
 | **Topic** | Trust in God amid perils. |
 | **Section** | The New Life—Trust And Joy |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[T. Scott]] |
+| **Author** | T. Scott |
 | **Meter** | 7s |
 | **Topic** | Earnest entreaty. |
 | **Section** | Chorus |

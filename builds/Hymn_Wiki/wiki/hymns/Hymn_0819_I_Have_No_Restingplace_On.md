@@ -6,7 +6,7 @@ tags: ["#meter-common-double", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Lydia_Baxter]]", "[[Hymn_0825_Let_Me_Go_My_Soul]]", "[[Hymn_1318_Wheneer_I_Think_Of_Thee]]"]
 status: stub
 confidence: high
 hymn_number: 819
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. Baxter]] |
+| **Author** | W. Baxter |
 | **Meter** | C. M. D |
 | **Topic** | Heaven is my home. |
 | **Section** | Aspirations |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[E. H. Chapin]] |
+| **Author** | E. H. Chapin |
 | **Meter** | L. M. D |
 | **Topic** | The gate of heaven. |
 | **Section** | Private Devotions |

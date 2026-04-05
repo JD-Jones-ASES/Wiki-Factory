@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-praise"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Horatius_Bonar]]", "[[19th_Century_Hymnody]]", "[[Hymn_0417_Lord_Let_Thy_Spirit_Penetrate]]", "[[Hymn_0913_Thy_Way_Not_Mine_O]]", "[[Hymn_1142_This_Is_Not_My_Place]]"]
 status: draft
 confidence: high
 hymn_number: 129

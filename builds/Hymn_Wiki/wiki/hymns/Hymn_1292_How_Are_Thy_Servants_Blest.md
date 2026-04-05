@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-sailors"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Joseph_Addison]]", "[[18th_Century_Hymnody]]", "[[Hymn_0043_The_Spacious_Firmament_On_High]]", "[[Hymn_0070_The_Lord_My_Pasture_Shall]]", "[[Hymn_0078_When_All_Thy_Mercies_O]]"]
 status: draft
 confidence: high
 hymn_number: 1292

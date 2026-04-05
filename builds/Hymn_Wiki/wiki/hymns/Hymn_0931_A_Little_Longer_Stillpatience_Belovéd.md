@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Christian Register]] |
+| **Author** | Christian Register |
 | **Meter** | 11s & 10s |
 | **Topic** | For yet a little while. |
 | **Section** | Submission And Deliverance |

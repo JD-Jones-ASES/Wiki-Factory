@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-baptism"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[John_Fawcett]]", "[[18th_Century_Hymnody]]", "[[Hymn_0091_Thy_Way_Is_In_The]]", "[[Hymn_0495_Blest_Be_The_Tie_That]]", "[[Hymn_1036_The_God_Of_Mercy_Will]]"]
 status: stub
 confidence: high
 hymn_number: 393
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Fawcett]] |
+| **Author** | [[John Fawcett]] |
 | **Meter** | 8s & 7s |
 | **Topic** | Hear and obey. |
 | **Section** | Baptism |

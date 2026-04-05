@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Unknown (Lamar)]] |
+| **Author** | Unknown (Lamar) |
 | **Meter** | C. M |
 | **Topic** | Mighty through God. |
 | **Section** | Chorus |

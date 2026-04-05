@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[F. T. Palgrave]] |
+| **Author** | [[Francis Turner Palgrave]] |
 | **Meter** | P. M |
 | **Topic** | The bright and morning star. |
 | **Section** | The New Life—Trust And Joy |

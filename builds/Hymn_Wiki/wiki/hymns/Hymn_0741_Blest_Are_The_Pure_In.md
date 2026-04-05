@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[John_Keble]]", "[[19th_Century_Hymnody]]", "[[Hymn_0978_Sun_Of_My_Soul_Thou]]", "[[Hymn_1176_New_Every_Morning_Is_The]]"]
 status: draft
 confidence: high
 hymn_number: 741

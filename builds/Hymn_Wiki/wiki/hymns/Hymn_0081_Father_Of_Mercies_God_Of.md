@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0563_Thou_Art_My_Hidingplace_O]]", "[[Hymn_0679_Blest_Hour_When_Mortal_Man]]", "[[Hymn_1138_High_In_Yonder_Realms_Of]]"]
 status: stub
 confidence: high
 hymn_number: 81
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Raffles]] |
+| **Author** | Raffles |
 | **Meter** | C. M |
 | **Topic** | The God of my life. |
 | **Section** | God: In Providence |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[F. Whitfield]] |
+| **Author** | [[Frederick Whitfield]] |
 | **Meter** | 7s & 6s |
 | **Topic** | The Cross—the power of God. |
 | **Section** | Chorus |

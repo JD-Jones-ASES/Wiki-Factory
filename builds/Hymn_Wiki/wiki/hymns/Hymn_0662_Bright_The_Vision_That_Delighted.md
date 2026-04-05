@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Ancient Hymns]] |
+| **Author** | Ancient Hymns |
 | **Meter** | 8s & 7s |
 | **Topic** | Thrice holy. |
 | **Section** | Gratitude And Praise |

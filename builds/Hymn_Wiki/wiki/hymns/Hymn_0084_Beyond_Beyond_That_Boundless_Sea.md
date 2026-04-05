@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-praise", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0534_Bread_Of_Heaven_On_Thee]]", "[[Hymn_0655_Praise_On_Thee_In_Zions]]", "[[Hymn_0852_When_In_The_Hour_Of]]"]
 status: stub
 confidence: high
 hymn_number: 84
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Conder]] |
+| **Author** | [[Josiah Conder]] |
 | **Meter** | C. M. 6 lines |
 | **Topic** | Seeing him who is invisible. |
 | **Section** | God: In Providence |

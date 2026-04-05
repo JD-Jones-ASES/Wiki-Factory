@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Jones]] |
+| **Author** | Jones |
 | **Meter** | C. M |
 | **Topic** | That whoso believeth might not perish. |
 | **Section** | Chorus |

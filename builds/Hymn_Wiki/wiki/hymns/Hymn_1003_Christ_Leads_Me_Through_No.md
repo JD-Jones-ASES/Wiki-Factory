@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Lydia_Baxter]]", "[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1003
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[R. Baxter]] |
+| **Author** | [[Richard Baxter]] |
 | **Meter** | C. M |
 | **Topic** |  |
 | **Section** | Afflictions |

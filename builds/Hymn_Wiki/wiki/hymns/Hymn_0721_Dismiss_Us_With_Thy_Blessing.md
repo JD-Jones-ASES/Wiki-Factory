@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Joseph_Hart]]", "[[18th_Century_Hymnody]]", "[[Hymn_0312_Come_You_Sinners_Poor_And]]", "[[Hymn_0658_This_Lord_Is_The_Lord]]"]
 status: draft
 confidence: high
 hymn_number: 721

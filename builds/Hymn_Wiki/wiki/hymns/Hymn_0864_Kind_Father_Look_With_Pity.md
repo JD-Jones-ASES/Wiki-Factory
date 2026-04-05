@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Moore]]", "[[Hymn_0140_Hark_From_The_World_On]]", "[[Hymn_0455_Thy_Kingdom_Gracious_Lord]]", "[[Hymn_0826_O_That_I_Had_Wings]]"]
 status: stub
 confidence: high
 hymn_number: 864
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. T. Moore]] |
+| **Author** | [[W_T_Moore]] |
 | **Meter** | C. M |
 | **Topic** | Overcoming. |
 | **Section** | Chorus |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[C. Robins]] |
+| **Author** | C. Robins |
 | **Meter** | L. M |
 | **Topic** | Speak, Lord, thy servant heareth. |
 | **Section** | Opening Hymns |

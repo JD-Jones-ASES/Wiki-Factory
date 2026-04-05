@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Edward_Perronet]]", "[[18th_Century_Hymnody]]"]
 status: stub
 confidence: high
 hymn_number: 203
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Perronet]] |
+| **Author** | [[Edward Perronet]] |
 | **Meter** | C. M |
 | **Topic** | All hail the power of Jesus’ name! Let angels prostrate fall; Bring forth the royal diadem, And crown him Lord of all. |
 | **Section** | The Coronation |

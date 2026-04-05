@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Countess of the Huntington]] |
+| **Author** | Countess of the Huntington |
 | **Meter** | C. P. M |
 | **Topic** | That he may find mercy, etc. |
 | **Section** | Final Judgment |

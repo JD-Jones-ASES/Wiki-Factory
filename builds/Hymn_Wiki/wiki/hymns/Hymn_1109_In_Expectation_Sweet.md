@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-easter"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Kelly]]", "[[Hymn_0275_Sound_Sound_The_Truth_Abroad]]", "[[Hymn_0604_In_The_Mountains_Top_Appearing]]", "[[Hymn_1078_What_Is_Life_Tis_But]]"]
 status: stub
 confidence: high
 hymn_number: 1109

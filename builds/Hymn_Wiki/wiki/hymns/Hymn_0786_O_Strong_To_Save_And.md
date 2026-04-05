@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion", "#theme-trust"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Horatius_Bonar]]", "[[19th_Century_Hymnody]]", "[[Hymn_0150_A_Pilgrim_Through_This_Lonely]]", "[[Hymn_0913_Thy_Way_Not_Mine_O]]", "[[Hymn_1142_This_Is_Not_My_Place]]"]
 status: stub
 confidence: high
 hymn_number: 786

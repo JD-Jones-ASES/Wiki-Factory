@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Kirkham]] |
+| **Author** | Kirkham |
 | **Meter** | C. M |
 | **Topic** | Glorying in the cross. |
 | **Section** | Faith And Repentance |

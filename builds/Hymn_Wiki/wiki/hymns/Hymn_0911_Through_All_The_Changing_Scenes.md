@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Hymn_0038_O_God_My_Heart_Is]]", "[[Hymn_0637_O_Render_Thanks_To_God]]", "[[Hymn_0737_To_Bless_Thy_Chosen_Race]]"]
 status: draft
 confidence: high
 hymn_number: 911
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Tate and Brady]] |
+| **Author** | Tate and Brady |
 | **Meter** | C. M |
 | **Topic** | I will bless the Lord at all times. |
 | **Section** | Submission And Deliverance |

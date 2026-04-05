@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[James_Montgomery]]", "[[19th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0196_Lift_Up_Your_Heads_Ye]]", "[[Hymn_0715_Now_May_The_Lord_Our]]", "[[Hymn_1137_Who_Are_These_In_Bright]]"]
 status: draft
 confidence: high
 hymn_number: 1070

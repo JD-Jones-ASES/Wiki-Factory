@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: draft
 confidence: high
 hymn_number: 1021

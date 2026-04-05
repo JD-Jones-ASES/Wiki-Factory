@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Lydia_Baxter]]", "[[Hymn_0819_I_Have_No_Restingplace_On]]", "[[Hymn_1318_Wheneer_I_Think_Of_Thee]]"]
 status: stub
 confidence: high
 hymn_number: 825
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. Baxter]] |
+| **Author** | W. Baxter |
 | **Meter** | 8s & 7s |
 | **Topic** | Prisoners of hope. |
 | **Section** | Chorus |

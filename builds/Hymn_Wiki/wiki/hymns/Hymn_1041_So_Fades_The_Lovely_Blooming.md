@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[American_Writers_and_Compilers_of_Sacred_Music]]"]
-related: []
+related: ["[[Anna_Steele]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0222_Thou_Only_Sovereign_Of_My]]", "[[Hymn_0558_Father_Whateer_Of_Earthly_Bliss]]", "[[Hymn_1045_Almighty_Maker_Of_My_Frame]]"]
 status: draft
 confidence: high
 hymn_number: 1041
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Anne Steele]] |
+| **Author** | [[Anna Steele]] |
 | **Meter** | L. M |
 | **Topic** | Death of an infant. |
 | **Section** | Present And Future: Life And Death |

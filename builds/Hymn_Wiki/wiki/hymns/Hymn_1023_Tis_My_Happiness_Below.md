@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[William_Cowper]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0253_There_Is_A_Fountain_Filled]]", "[[Hymn_0601_Hear_What_God_The_Lord]]", "[[Hymn_0943_O_For_A_Closer_Walk]]"]
 status: stub
 confidence: high
 hymn_number: 1023

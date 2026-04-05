@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-scripture"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Robert_Grant]]", "[[Hymn_0102_O_Worship_The_King_Allglorious]]", "[[Hymn_0578_Saviour_When_In_Dust_To]]", "[[Hymn_0893_O_Saviour_Whose_Mercy_Severe]]"]
 status: draft
 confidence: high
 hymn_number: 3
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Grant]] |
+| **Author** | [[Robert Grant]] |
 | **Meter** | L. M |
 | **Topic** | Nature and revelation. |
 | **Section** | The Holy Scriptures |

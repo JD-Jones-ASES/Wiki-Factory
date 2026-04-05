@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Cruttenden]] |
+| **Author** | Cruttenden |
 | **Meter** | C. H. M |
 | **Topic** | The world knoweth us not. |
 | **Section** | Spirit Of Adoption |

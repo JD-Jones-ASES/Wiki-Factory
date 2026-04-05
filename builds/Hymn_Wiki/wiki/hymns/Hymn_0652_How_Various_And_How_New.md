@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Samuel_Stennett]]", "[[18th_Century_Hymnody]]", "[[Hymn_0250_Majestic_Sweetness_Sits_Enthroned]]", "[[Hymn_0431_On_Jordans_Stormy_Banks_I]]", "[[Hymn_0616_Another_Six_Days_Work_Is]]"]
 status: stub
 confidence: high
 hymn_number: 652

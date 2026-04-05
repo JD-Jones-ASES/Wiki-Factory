@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Samuel_Medley]]", "[[18th_Century_Hymnody]]", "[[Hymn_0121_Mortals_Awake_With_Angels_Join]]", "[[Hymn_0219_I_Know_That_My_Redeemer]]", "[[Hymn_0634_Awake_My_Soul_To_Joyful]]"]
 status: draft
 confidence: high
 hymn_number: 290

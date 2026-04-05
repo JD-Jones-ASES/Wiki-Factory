@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]", "[[Hymn_0463_You_May_Sing_Of_The]]", "[[Hymn_1159_There_Is_A_Place_Where]]"]
 status: stub
 confidence: high
 hymn_number: 1095
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. Hunter]] |
+| **Author** | W. Hunter |
 | **Meter** | 11s |
 | **Topic** | He died at his post. |
 | **Section** | Present And Future: Life And Death |

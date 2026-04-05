@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Sir_John_Bowring]]", "[[Hymn_0054_The_Heavenly_Spheres_To_Thee]]", "[[Hymn_0141_How_Sweetly_Flowed_The_Gospel]]", "[[Hymn_0671_Father_Of_Spirits_Humbly_Bent]]"]
 status: stub
 confidence: high
 hymn_number: 902
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[John Bowring]] |
+| **Author** | [[Sir John Bowring]] |
 | **Meter** | L. M. 6 lines |
 | **Topic** | Thy footsteps are not known. |
 | **Section** | Submission And Deliverance |

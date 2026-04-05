@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Thomas_Hastings]]", "[[Hymn_0296_Return_O_Wanderer_To_Thy]]", "[[Hymn_0945_O_Saviour_Lend_A_Listening]]", "[[Hymn_1015_How_Tender_Is_Thy_Hand]]"]
 status: draft
 confidence: high
 hymn_number: 330

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[S. Johnson]] |
+| **Author** | S. Johnson |
 | **Meter** | 8s & 7s |
 | **Topic** | Forgetting the things that are behind. |
 | **Section** | Chorus |

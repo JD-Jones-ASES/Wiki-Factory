@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-children"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Sunday_School_Hymns]]", "[[Hymn_1097_Christian_The_Vision_Before_Thee]]", "[[Hymn_1185_The_Morning_Light_Returns]]"]
 status: stub
 confidence: high
 hymn_number: 1214
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. S. Hayden]] |
+| **Author** | [[A_S_Hayden]] |
 | **Meter** | C. M |
 | **Topic** | Lead us not into temptation. |
 | **Section** | Youth And Age |

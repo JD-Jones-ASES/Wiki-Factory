@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Balfour]] |
+| **Author** | Balfour |
 | **Meter** | L. M |
 | **Topic** | Go, teach all nations. |
 | **Section** | Officers |

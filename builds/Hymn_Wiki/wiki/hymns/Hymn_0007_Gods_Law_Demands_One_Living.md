@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Briggs]] |
+| **Author** | Briggs |
 | **Meter** | L. M |
 | **Topic** | Hold fast the form of sound words. |
 | **Section** | The Holy Scriptures |

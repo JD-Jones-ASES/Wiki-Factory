@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-praise", "#theme-christmas"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Alexander_Campbell]]"]
 status: draft
 confidence: high
 hymn_number: 117
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[T. Campbell]] |
+| **Author** | T. Campbell |
 | **Meter** | L. M |
 | **Topic** |  |
 | **Section** | Christ: The Nativity |

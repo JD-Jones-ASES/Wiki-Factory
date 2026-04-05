@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Lowell_Mason]]"]
 status: draft
 confidence: high
 hymn_number: 835
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Mason]] |
+| **Author** | [[Lowell Mason]] |
 | **Meter** | 6s & 5s |
 | **Topic** | I have longed for thy salvation. |
 | **Section** | Chorus |

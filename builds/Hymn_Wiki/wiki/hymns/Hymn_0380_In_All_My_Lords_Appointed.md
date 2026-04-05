@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Ryland]] |
+| **Author** | Ryland |
 | **Meter** | C. M |
 | **Topic** | Hinder me not. |
 | **Section** | Baptism |

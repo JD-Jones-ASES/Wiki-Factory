@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[I. N. Carman]] |
+| **Author** | I. N. Carman |
 | **Meter** | 8s & 7s |
 | **Topic** | Here and yonder. |
 | **Section** | Chorus |

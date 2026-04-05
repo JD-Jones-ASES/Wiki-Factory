@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Edward_John_Hopkins]]"]
 status: stub
 confidence: high
 hymn_number: 338
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hopkins]] |
+| **Author** | [[Edward John Hopkins]] |
 | **Meter** | L. M |
 | **Topic** | Christ the soul’s portion. |
 | **Section** | Faith And Repentance |

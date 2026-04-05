@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Henry_Francis_Lyte]]", "[[19th_Century_Hymnody]]", "[[Hymn_0101_Praise_My_Soul_The_King]]", "[[Hymn_0779_My_Spirit_On_Thy_Care]]", "[[Hymn_1022_Gently_Gently_Lay_Thy_Rod]]"]
 status: draft
 confidence: high
 hymn_number: 625

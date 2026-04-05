@@ -725,3 +725,31 @@ Added `## Listen` sections to 2 more hymn pages after additional web research:
 **YouTube links:** Updated all 12 hymn pages to open YouTube links in new windows (`target="_blank"`).
 
 **Index rebuilt.** Total pages: ~1,616.
+
+## 2026-04-05 | maintenance | YouTube Link Verification
+
+Verified all 12 hymn YouTube links via YouTube oEmbed API. Found 2 broken links and replaced them with working alternatives.
+
+**Verified working (10 hymns):**
+- Hymn_0075 (O God Our Help) — `rsHIwXTjAOU` — Westminster Abbey, "Oh God Our Help in Ages Past"
+- Hymn_0261 (Rock of Ages) — `gM7gt_cSxjw` — SE Samonte, "Rock of Ages"
+- Hymn_0262 (Jesus Lover of My Soul) — `moMR1dCwx8M` — Treorchy Male Voice Choir, "Aberystwyth"
+- Hymn_0343 (Just As I Am) — `1Ia_YK6reTc` — Hymncharts, "Just As I Am [Lyrics Video]"
+- Hymn_0403 (Amazing Grace) — `C2arm5ydeJc` — The Tabernacle Choir, "Amazing Grace"
+- Hymn_0495 (Blest Be the Tie) — `gcYFtihSg_8` — SaraGrovesVEVO, "Blessed Be the Tie"
+- Hymn_0512 (When I Survey the Wondrous Cross) — `SsBiaBTFADI` — The Tabernacle Choir
+- Hymn_0660 (O Thou Fount of Every Blessing) — `iGmK9tR9lbQ` — Jeremiah Wesley, "Come Thou Fount"
+- Hymn_0928 (Nearer My God to Thee) — `UAgm0AtPQ-g` — Anna Richey live cover
+- Hymn_1227 (Abide With Me) — `YvZsOTJEUUc` — The Tabernacle Choir
+
+**Replaced (2 hymns):**
+- Hymn_0125 (Joy to the World) — `7r3vvMUHAXU` → `dJ87_7iLsj0` — Gardiner Sisters, "#LightTheWorld"
+- Hymn_0590 (Lead Kindly Light) — `cvIJkteSnXQ` → `YzpHUty5rjs` — General Conference of The Church of Jesus Christ
+
+## [2026-04-05] maintenance | Dead Author Wikilink Resolution
+
+Resolved all dead author wikilinks in 1,324 hymn pages. Found ~290 unique dead link types affecting 413 hymn files total.
+- **Redirected** 32 abbreviated/variant author names to existing entity pages (e.g., [[Hastings]] -> [[Thomas Hastings]], [[Anne Steele]] -> [[Anna Steele]])
+- **Removed wikilinks** from ~190 collection references and unidentifiable abbreviations (e.g., Wardlaw's Coll, Ancient Hymns, Psalmist)
+- **Created 55 new entity stubs** for identifiable authors who lacked pages (e.g., Josiah Conder, James Edmeston, John Wesley, Felicia Hemans)
+- Entity count: 227 -> 282

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Ryland]] |
+| **Author** | Ryland |
 | **Meter** | 7s |
 | **Topic** | All things work together for good. |
 | **Section** | Submission And Deliverance |

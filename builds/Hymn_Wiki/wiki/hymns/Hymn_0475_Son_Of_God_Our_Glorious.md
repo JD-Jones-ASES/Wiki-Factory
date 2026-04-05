@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[G. B. Ide]] |
+| **Author** | G. B. Ide |
 | **Meter** | 7s |
 | **Topic** | Prayer for deacons. |
 | **Section** | Officers |

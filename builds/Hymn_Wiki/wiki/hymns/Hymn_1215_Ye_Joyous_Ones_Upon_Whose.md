@@ -6,7 +6,7 @@ tags: ["#meter-common-double", "#theme-children"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Sunday_School_Hymns]]"]
 status: stub
 confidence: high
 hymn_number: 1215
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[R. H. Waterson]] |
+| **Author** | R. H. Waterson |
 | **Meter** | C. M. D |
 | **Topic** | Remember thy Creator, etc. |
 | **Section** | Youth And Age |

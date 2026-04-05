@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Samuel_Pearce]]", "[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1026
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Pearce]] |
+| **Author** | [[Samuel Pearce]] |
 | **Meter** | 8s, 7s & 4s |
 | **Topic** | In the night his song shall be with me. |
 | **Section** | Afflictions |

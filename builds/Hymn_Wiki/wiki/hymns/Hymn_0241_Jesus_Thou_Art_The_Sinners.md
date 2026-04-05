@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Burnham]] |
+| **Author** | Burnham |
 | **Meter** | C. M |
 | **Topic** | Remember me. |
 | **Section** | Mediatorial Reign |

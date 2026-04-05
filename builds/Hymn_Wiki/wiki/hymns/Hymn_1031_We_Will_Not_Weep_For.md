@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1031
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. H. Hurlbut]] |
+| **Author** | W. H. Hurlbut |
 | **Meter** | 11s & 10s |
 | **Topic** | Sorrowful, yet always rejoicing. |
 | **Section** | Afflictions |

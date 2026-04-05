@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Hymn_0083_Thy_Goodness_Lord_Our_Souls]]", "[[Hymn_0395_Forgiveness_Tis_A_Joyful_Sound]]", "[[Hymn_1002_To_Thee_My_God_Whose]]"]
 status: draft
 confidence: high
 hymn_number: 806

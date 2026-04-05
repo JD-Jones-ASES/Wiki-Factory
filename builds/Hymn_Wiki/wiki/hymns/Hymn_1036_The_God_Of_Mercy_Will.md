@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[John_Fawcett]]", "[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0091_Thy_Way_Is_In_The]]", "[[Hymn_0393_Humble_Souls_Who_Seek_Salvation]]", "[[Hymn_0890_O_My_Soul_What_Means]]"]
 status: stub
 confidence: high
 hymn_number: 1036
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Fawcett]] |
+| **Author** | [[John Fawcett]] |
 | **Meter** | L. M |
 | **Topic** | Death of parents. |
 | **Section** | Present And Future: Life And Death |

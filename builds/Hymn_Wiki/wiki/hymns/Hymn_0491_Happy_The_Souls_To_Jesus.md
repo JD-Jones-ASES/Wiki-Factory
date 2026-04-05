@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Charles_Wesley]]", "[[18th_Century_Hymnody]]", "[[Hymn_0305_What_Could_Your_Redeemer_Do]]", "[[Hymn_0705_And_Are_We_Yet_Alive]]", "[[Hymn_1061_How_Happy_Is_The_Pilgrims]]"]
 status: stub
 confidence: high
 hymn_number: 491

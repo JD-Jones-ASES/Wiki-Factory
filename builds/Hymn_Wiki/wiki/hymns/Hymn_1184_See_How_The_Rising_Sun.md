@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[E. Scott]] |
+| **Author** | E. Scott |
 | **Meter** | S. M |
 | **Topic** | A morning without clouds. |
 | **Section** | Morning Hymns |

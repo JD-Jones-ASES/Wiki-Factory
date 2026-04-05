@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Dub. Uni. Mag]] |
+| **Author** | Dub. Uni. Mag |
 | **Meter** | P. M |
 | **Topic** | Within the vail. |
 | **Section** | Chorus |

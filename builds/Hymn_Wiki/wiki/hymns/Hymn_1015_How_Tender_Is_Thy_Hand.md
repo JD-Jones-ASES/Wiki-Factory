@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Thomas_Hastings]]", "[[Hymns_of_Consolation]]", "[[Hymn_0296_Return_O_Wanderer_To_Thy]]", "[[Hymn_0608_Hail_To_The_Brightness_Of]]", "[[Hymn_0990_Jesus_Saviour_All_Divine]]"]
 status: stub
 confidence: high
 hymn_number: 1015

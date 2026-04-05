@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0016_Lamp_Of_Our_Feet_Whereby]]", "[[Hymn_1222_Our_Pathway_Oft_Is_Wet]]"]
 status: stub
 confidence: high
 hymn_number: 349
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Barton]] |
+| **Author** | [[Bernard Barton]] |
 | **Meter** | L. M. 6 lines |
 | **Topic** | Bethesda. |
 | **Section** | Faith And Repentance |

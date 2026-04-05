@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Enfield]] |
+| **Author** | Enfield |
 | **Meter** | 7s |
 | **Topic** |  |
 | **Section** | Morning Hymns |

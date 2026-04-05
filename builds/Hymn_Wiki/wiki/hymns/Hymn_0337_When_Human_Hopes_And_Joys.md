@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Roscoe]] |
+| **Author** | Roscoe |
 | **Meter** | L. M |
 | **Topic** | The solace of faith. |
 | **Section** | Faith And Repentance |

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Adelaide_Anne_Procter]]"]
 status: stub
 confidence: high
 hymn_number: 423
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Miss A. A. Procter]] |
+| **Author** | [[Adelaide Anne Procter]] |
 | **Meter** | P. M |
 | **Topic** | The peace of God. |
 | **Section** | Spirit Of Adoption |

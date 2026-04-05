@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0994_Deem_Not_That_They_Are]]", "[[Hymn_1303_O_Thou_Whose_Own_Vast]]"]
 status: stub
 confidence: high
 hymn_number: 256
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. C. Bryant]] |
+| **Author** | [[William Cullen Bryant]] |
 | **Meter** | C. H. M |
 | **Topic** | Thou hast put all things under his feet. |
 | **Section** | Mediatorial Reign |

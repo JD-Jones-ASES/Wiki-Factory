@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Epis. Coll]] |
+| **Author** | Epis. Coll |
 | **Meter** | 7s |
 | **Topic** | The memory of thy great goodness. |
 | **Section** | Thanksgiving |

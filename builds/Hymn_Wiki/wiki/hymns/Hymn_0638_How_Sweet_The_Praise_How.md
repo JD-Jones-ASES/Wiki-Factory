@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[18th_Century_Hymnody]]", "[[Hymn_0335_Sinners_Come_No_Longer_Wander]]", "[[Hymn_0673_Praise_The_Lord_Ye_Saints]]"]
 status: stub
 confidence: high
 hymn_number: 638
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[B. Skene]] |
+| **Author** | B. Skene |
 | **Meter** | L. M |
 | **Topic** | Condescension of Christ. |
 | **Section** | Gratitude And Praise |

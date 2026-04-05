@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Charlotte_Elliott]]", "[[19th_Century_Hymnody]]", "[[Hymn_0086_I_Can_Not_Always_Trace]]", "[[Hymn_0581_My_God_Is_Any_Hour]]", "[[Hymn_0998_Saviour_Though_My_Rebellious_Will]]"]
 status: stub
 confidence: high
 hymn_number: 810

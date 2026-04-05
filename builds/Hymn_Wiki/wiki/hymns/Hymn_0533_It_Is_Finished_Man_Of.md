@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[T. H. Hedge]] |
+| **Author** | T. H. Hedge |
 | **Meter** | 8s & 7s |
 | **Topic** | I will draw all men unto me. |
 | **Section** | Chorus |

@@ -6,7 +6,7 @@ tags: ["#meter-short", "#theme-missionary"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Missionary_Hymns]]"]
 status: stub
 confidence: high
 hymn_number: 1273
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Pratt’s Coll]] |
+| **Author** | Pratt’s Coll |
 | **Meter** | S. M |
 | **Topic** | Rise, gracious God, and shine. |
 | **Section** | Missionary Assemblies |

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0165_He_Knelt_The_Saviour_Knelt]]", "[[Hymn_1012_O_Thou_Who_In_The]]", "[[Hymn_1087_Lowly_And_Solemn_Be]]"]
 status: stub
 confidence: high
 hymn_number: 1158

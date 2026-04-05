@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-missionary"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Missionary_Hymns]]"]
 status: stub
 confidence: high
 hymn_number: 1270
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Morell]] |
+| **Author** | Morell |
 | **Meter** | C. M |
 | **Topic** | Go unto all the world. Mar. 16:15. |
 | **Section** | Missionary Assemblies |

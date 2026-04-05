@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]"]
-related: []
+related: ["[[Thomas_Hastings]]", "[[Hymn_0788_In_Time_Of_Fear]]", "[[Hymn_1175_Gently_Lord_O_Gently_Lead]]"]
 status: draft
 confidence: high
 hymn_number: 969
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hastings]] |
+| **Author** | [[Thomas Hastings]] |
 | **Meter** | 8s & 7s |
 | **Topic** |  |
 | **Section** | Sympathies And Activities |

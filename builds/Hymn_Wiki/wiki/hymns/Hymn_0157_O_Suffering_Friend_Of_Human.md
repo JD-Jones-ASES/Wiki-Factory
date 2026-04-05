@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-praise", "#theme-suffering"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymns_of_Consolation]]", "[[Hymn_0414_Lord_In_Whose_Might_The]]", "[[Hymn_0869_Father_When_Oer_Our_Trembling]]"]
 status: stub
 confidence: high
 hymn_number: 157
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Bulfinch]] |
+| **Author** | Bulfinch |
 | **Meter** | L. M |
 | **Topic** | Christ the sufferer. |
 | **Section** | Christ: Sufferings |

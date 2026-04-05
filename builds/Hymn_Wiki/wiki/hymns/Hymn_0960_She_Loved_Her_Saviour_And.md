@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Cutter]] |
+| **Author** | Cutter |
 | **Meter** | C. M |
 | **Topic** |  |
 | **Section** | Sympathies And Activities |

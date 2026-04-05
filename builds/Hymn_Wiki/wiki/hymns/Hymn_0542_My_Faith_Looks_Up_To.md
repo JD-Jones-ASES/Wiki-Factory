@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]", "[[Web_Research]]"]
-related: []
+related: ["[[Ray_Palmer]]", "[[19th_Century_Hymnody]]", "[[Hymn_0215_O_Christ_Our_King_Creator]]", "[[Hymn_0577_Stealing_From_The_World_Away]]", "[[Hymn_1123_Thy_Fathers_House_Thine_Own]]"]
 status: draft
 confidence: high
 hymn_number: 542

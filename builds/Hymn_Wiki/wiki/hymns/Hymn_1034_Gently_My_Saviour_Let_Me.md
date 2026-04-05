@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Rowland_Hill]]", "[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1034
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hill]] |
+| **Author** | Hill |
 | **Meter** | L. M |
 | **Topic** | Soon will the storm of life be o’er. |
 | **Section** | Present And Future: Life And Death |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[W. Scott]] |
+| **Author** | W. Scott |
 | **Meter** | L. M |
 | **Topic** | The pillar and cloud. |
 | **Section** | Closing Hymns |

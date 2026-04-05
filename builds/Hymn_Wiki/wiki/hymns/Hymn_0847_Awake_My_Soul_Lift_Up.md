@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0479_How_Blest_The_Sacred_Tie]]", "[[Hymn_0953_Blest_Is_The_Man_Whose]]", "[[Hymn_1059_Not_For_The_Pious_Dead]]"]
 status: stub
 confidence: high
 hymn_number: 847

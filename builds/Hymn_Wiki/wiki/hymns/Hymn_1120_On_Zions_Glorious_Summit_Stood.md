@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[18th_Century_Hymnody]]", "[[Hymns_of_Consolation]]"]
 status: stub
 confidence: high
 hymn_number: 1120
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Kent]] |
+| **Author** | Kent |
 | **Meter** | C. M |
 | **Topic** |  |
 | **Section** | Heaven |

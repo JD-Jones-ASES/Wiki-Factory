@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymn_0534_Bread_Of_Heaven_On_Thee]]", "[[Hymn_0655_Praise_On_Thee_In_Zions]]", "[[Hymn_0852_When_In_The_Hour_Of]]"]
 status: draft
 confidence: high
 hymn_number: 214
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Conder]] |
+| **Author** | [[Josiah Conder]] |
 | **Meter** | L. M |
 | **Topic** | The Lord is King. |
 | **Section** | Mediatorial Reign |

@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymn_0451_O_Where_Are_Kings_And]]", "[[Hymn_1277_We_Are_Living_We_Are]]"]
 status: draft
 confidence: high
 hymn_number: 144
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[A. C. Coxe]] |
+| **Author** | [[Arthur Cleveland Coxe]] |
 | **Meter** | L. M |
 | **Topic** | The meekness and gentleness of Christ. |
 | **Section** | Life And Ministry |

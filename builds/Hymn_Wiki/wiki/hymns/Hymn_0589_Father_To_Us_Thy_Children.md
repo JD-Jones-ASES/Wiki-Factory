@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[J. F. Clarke]] |
+| **Author** | J. F. Clarke |
 | **Meter** | 11s & 10s |
 | **Topic** | Strengthened with might, etc. Eph 3:16. |
 | **Section** | Prayer And Social Meetings |

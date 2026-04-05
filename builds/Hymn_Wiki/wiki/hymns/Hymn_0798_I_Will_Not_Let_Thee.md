@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Desyler]] |
+| **Author** | Desyler |
 | **Meter** | P. M |
 | **Topic** | I will not let thee go. |
 | **Section** | The New Life—Trust And Joy |

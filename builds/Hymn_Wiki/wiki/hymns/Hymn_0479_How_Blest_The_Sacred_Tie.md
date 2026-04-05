@@ -6,7 +6,7 @@ tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-05
 source_refs: ["[[The_Christian_Hymn_Book]]", "[[English_Hymns_Their_Authors_and_History]]", "[[The_Hymns_and_Hymn_Writers_of_the_Church]]"]
-related: []
+related: ["[[Hymn_0694_Again_The_Lord_Of_Light]]", "[[Hymn_0953_Blest_Is_The_Man_Whose]]", "[[Hymn_1059_Not_For_The_Pious_Dead]]"]
 status: draft
 confidence: high
 hymn_number: 479

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-sailors"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymn_0678_Forth_From_The_Dark_And]]", "[[Hymn_1106_The_Lord_Will_Come_The]]", "[[Hymn_1285_From_Greenlands_Icy_Mountains]]"]
 status: stub
 confidence: high
 hymn_number: 1238

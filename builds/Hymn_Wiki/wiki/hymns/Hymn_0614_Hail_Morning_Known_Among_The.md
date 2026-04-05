@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Wardlaw]] |
+| **Author** | Wardlaw |
 | **Meter** | L. M |
 | **Topic** | Christ is risen. |
 | **Section** | Its Growth And Future Triumphs |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Beckersteth]] |
+| **Author** | Beckersteth |
 | **Meter** | 8s & 7s |
 | **Topic** | Closing hymn. |
 | **Section** | Closing Hymns |

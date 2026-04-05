@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Gaskell]] |
+| **Author** | Gaskell |
 | **Meter** | 7s |
 | **Topic** | Let us not sleep, as do others. |
 | **Section** | Chorus |

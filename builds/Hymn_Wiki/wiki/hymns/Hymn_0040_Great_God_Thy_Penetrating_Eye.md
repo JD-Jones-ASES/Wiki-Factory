@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[E. Scott]] |
+| **Author** | E. Scott |
 | **Meter** | C. M |
 | **Topic** | He trieth the reins. |
 | **Section** | God: His Being And Perfections |

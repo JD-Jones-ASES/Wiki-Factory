@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Robert_Grant]]", "[[Hymn_0003_The_Starry_Firmament_On_High]]", "[[Hymn_0102_O_Worship_The_King_Allglorious]]", "[[Hymn_0578_Saviour_When_In_Dust_To]]"]
 status: stub
 confidence: high
 hymn_number: 893
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Grant]] |
+| **Author** | [[Robert Grant]] |
 | **Meter** | 11s |
 | **Topic** | Whereas I was blind, now I see. |
 | **Section** | Chorus |

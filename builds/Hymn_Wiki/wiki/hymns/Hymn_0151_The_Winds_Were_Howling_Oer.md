@@ -6,7 +6,7 @@ tags: ["#meter-common", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Reginald_Heber]]", "[[19th_Century_Hymnody]]", "[[Hymn_0724_Lord_Now_We_Part_In]]", "[[Hymn_1201_God_That_Madest_Earth_And]]", "[[Hymn_1285_From_Greenlands_Icy_Mountains]]"]
 status: stub
 confidence: high
 hymn_number: 151

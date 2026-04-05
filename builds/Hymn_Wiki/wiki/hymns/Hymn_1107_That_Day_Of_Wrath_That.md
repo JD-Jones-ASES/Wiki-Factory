@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Sir W. Scott]] |
+| **Author** | [[Sir Walter Scott]] |
 | **Meter** | L. M |
 | **Topic** | The great day of his wrath. |
 | **Section** | The Resurrection |

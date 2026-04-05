@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Hymn_0545_Ye_Saints_Your_Music_Bring]]", "[[Hymn_0981_O_That_I_Could_For]]"]
 status: stub
 confidence: high
 hymn_number: 316
@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Reed]] |
+| **Author** | Reed |
 | **Meter** | 8s, 7s & 4 |
 | **Topic** | The voice of mercy. |
 | **Section** | Chorus |

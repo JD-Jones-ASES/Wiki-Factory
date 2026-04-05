@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Exeter Coll]] |
+| **Author** | Exeter Coll |
 | **Meter** | L. M |
 | **Topic** | Divine love displayed, etc. |
 | **Section** | The Holy Scriptures |

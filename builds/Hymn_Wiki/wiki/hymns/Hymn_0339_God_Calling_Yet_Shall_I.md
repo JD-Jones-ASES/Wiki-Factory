@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[From the German]] |
+| **Author** | From the German |
 | **Meter** | L. M |
 | **Topic** | God calling yet. |
 | **Section** | Faith And Repentance |

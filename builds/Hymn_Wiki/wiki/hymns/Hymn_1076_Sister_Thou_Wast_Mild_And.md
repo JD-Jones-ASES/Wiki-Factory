@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-funeral"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Samuel_Francis_Smith]]", "[[19th_Century_Hymnody]]", "[[Hymns_of_Consolation]]", "[[Hymn_0384_Meekly_In_Jordans_Flowing_Stream]]", "[[Hymn_0712_Blest_Is_The_Hour_When]]", "[[Hymn_1281_Yes_My_Native_Land_I]]"]
 status: stub
 confidence: high
 hymn_number: 1076

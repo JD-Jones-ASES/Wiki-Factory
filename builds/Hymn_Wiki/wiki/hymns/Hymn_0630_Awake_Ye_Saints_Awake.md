@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Cotterill]] |
+| **Author** | Cotterill |
 | **Meter** | H. M |
 | **Topic** | The resurrection celebrated. |
 | **Section** | Its Growth And Future Triumphs |

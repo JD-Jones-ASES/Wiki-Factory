@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Washburne]] |
+| **Author** | Washburne |
 | **Meter** | P. M |
 | **Topic** | Magnify him with thanksgiving. |
 | **Section** | Thanksgiving |

@@ -6,7 +6,7 @@ tags: ["#meter-peculiar", "#theme-devotion"]
 created: 2026-04-04
 updated: 2026-04-04
 source_refs: ["[[The_Christian_Hymn_Book]]"]
-related: []
+related: ["[[Robert_Robinson]]", "[[18th_Century_Hymnody]]"]
 status: stub
 confidence: high
 hymn_number: 511
@@ -28,7 +28,7 @@ era: "18th-century"
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[E. Robinson]] |
+| **Author** | E. Robinson |
 | **Meter** | S. H. M |
 | **Topic** | Ephesians 4:5. |
 | **Section** | Chorus |

@@ -28,7 +28,7 @@ era: ""
 
 | Field | Value |
 |-------|-------|
-| **Author** | [[Hunter]] |
+| **Author** | Hunter |
 | **Meter** | 11s |
 | **Topic** | The Rock that is higher than I. |
 | **Section** | Mediatorial Reign |
