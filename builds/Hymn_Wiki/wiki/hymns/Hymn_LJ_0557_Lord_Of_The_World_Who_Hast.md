@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 557: Lord of the world, who hast preserved"
+title: "'LJ Hymn 557: Lord of the world, who hast preserved"
 type: hymn
 aliases: ["Lord of the world, who hast preserved"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 557
-first_line: "Lord of the world, who hast preserved"
+first_line: "'Lord of the world, who hast preserved"
 meter: "C. M"
-topic: "Our Guard By Night."
+topic: "'Our Guard By Night."
 author: "Breviary"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 154: When, blest Redeemer, thou art near,"
+title: "'LJ Hymn 154: When, blest Redeemer, thou art near,"
 type: hymn
 aliases: ["When, blest Redeemer, thou art near,"]
 tags: ["#meter-long", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 154
-first_line: "When, blest Redeemer, thou art near,"
+first_line: "'When, blest Redeemer, thou art near,"
 meter: "L. M"
-topic: "The Presence of Jesus."
+topic: "'The Presence of Jesus."
 author: "Anonymous"
 composer: ""
 tune_name: ""

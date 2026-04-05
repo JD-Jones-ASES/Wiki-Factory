@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 355: How dear is the thought, that the angels of God"
+title: "'LJ Hymn 355: How dear is the thought, that the angels of God"
 type: hymn
 aliases: ["How dear is the thought, that the angels of God"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 355
-first_line: "How dear is the thought, that the angels of God"
+first_line: "'How dear is the thought, that the angels of God"
 meter: "11s. M"
-topic: "Are They Not All Ministering Spirits?"
+topic: "'Are They Not All Ministering Spirits?"
 author: "Anonymous"
 composer: ""
 tune_name: ""

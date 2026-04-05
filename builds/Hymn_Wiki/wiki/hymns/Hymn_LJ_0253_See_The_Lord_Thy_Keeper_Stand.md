@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 253: See the Lord, thy keeper, stand,"
+title: "'LJ Hymn 253: See the Lord, thy keeper, stand,"
 type: hymn
 aliases: ["See the Lord, thy keeper, stand,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 253
-first_line: "See the Lord, thy keeper, stand,"
+first_line: "'See the Lord, thy keeper, stand,"
 meter: "7 & 6s. M"
-topic: "Trust."
+topic: "'Trust."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

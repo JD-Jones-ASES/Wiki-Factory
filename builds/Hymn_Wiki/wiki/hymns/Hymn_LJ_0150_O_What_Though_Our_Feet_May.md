@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 150: O, What though our feet may not tread where Christ trod,"
+title: "'LJ Hymn 150: O, What though our feet may not tread where Christ trod,"
 type: hymn
 aliases: ["O, What though our feet may not tread where Christ trod,"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 150
-first_line: "O, What though our feet may not tread where Christ trod,"
+first_line: "'O, What though our feet may not tread where Christ trod,"
 meter: "11s. M"
-topic: "Christ Present in the Spirit."
+topic: "'Christ Present in the Spirit."
 author: "Whittier"
 composer: ""
 tune_name: ""

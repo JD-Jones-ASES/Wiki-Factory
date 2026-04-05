@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 308: O'er the mount and through the moor"
+title: "'LJ Hymn 308: O'er the mount and through the moor"
 type: hymn
 aliases: ["O'er the mount and through the moor"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 308
-first_line: "O'er the mount and through the moor"
+first_line: "'O'er the mount and through the moor"
 meter: "7s. M"
-topic: "The Minister of Love."
+topic: "'The Minister of Love."
 author: "Bulwer"
 composer: ""
 tune_name: ""

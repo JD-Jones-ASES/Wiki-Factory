@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 563: We follow, Lord, where thou dost lead,"
+title: "'LJ Hymn 563: We follow, Lord, where thou dost lead,"
 type: hymn
 aliases: ["We follow, Lord, where thou dost lead,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 563
-first_line: "We follow, Lord, where thou dost lead,"
+first_line: "'We follow, Lord, where thou dost lead,"
 meter: "L. M"
-topic: "Christ a Quickening Spirit."
+topic: "'Christ a Quickening Spirit."
 author: "Anonymous"
 composer: ""
 tune_name: ""

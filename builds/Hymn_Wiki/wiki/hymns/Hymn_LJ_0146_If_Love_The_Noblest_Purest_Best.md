@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 146: If love, the noblest, purest, best,"
+title: "'LJ Hymn 146: If love, the noblest, purest, best,"
 type: hymn
 aliases: ["If love, the noblest, purest, best,"]
 tags: ["#meter-long", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 146
-first_line: "If love, the noblest, purest, best,"
+first_line: "'If love, the noblest, purest, best,"
 meter: "L. M"
-topic: "Looking to Jesus."
+topic: "'Looking to Jesus."
 author: "Emily Taylor"
 composer: ""
 tune_name: ""

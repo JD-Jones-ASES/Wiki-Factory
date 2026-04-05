@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 20: Our God is a spirit, and they who aright"
+title: "'LJ Hymn 20: Our God is a spirit, and they who aright"
 type: hymn
 aliases: ["Our God is a spirit, and they who aright"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 20
-first_line: "Our God is a spirit, and they who aright"
+first_line: "'Our God is a spirit, and they who aright"
 meter: "P. M"
-topic: "Worship in Spirit."
+topic: "'Worship in Spirit."
 author: "Barton"
 composer: ""
 tune_name: ""

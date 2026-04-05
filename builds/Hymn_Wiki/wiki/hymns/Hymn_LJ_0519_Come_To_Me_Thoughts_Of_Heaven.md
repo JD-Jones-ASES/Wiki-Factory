@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 519: Come to me, thoughts of heaven!"
+title: "'LJ Hymn 519: Come to me, thoughts of heaven!"
 type: hymn
 aliases: ["Come to me, thoughts of heaven!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 519
-first_line: "Come to me, thoughts of heaven!"
+first_line: "'Come to me, thoughts of heaven!"
 meter: "S. M"
-topic: "For Heavenly Thoughts."
+topic: "'For Heavenly Thoughts."
 author: "Mrs. Hemans"
 composer: ""
 tune_name: ""

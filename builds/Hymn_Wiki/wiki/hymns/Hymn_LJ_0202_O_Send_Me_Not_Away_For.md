@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 202: O, send me not away! for I would drink,"
+title: "'LJ Hymn 202: O, send me not away! for I would drink,"
 type: hymn
 aliases: ["O, send me not away! for I would drink,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 202
-first_line: "O, send me not away! for I would drink,"
+first_line: "'O, send me not away! for I would drink,"
 meter: "10s. M"
-topic: "The Broken Shield."
+topic: "'The Broken Shield."
 author: "Anonymous"
 composer: ""
 tune_name: ""

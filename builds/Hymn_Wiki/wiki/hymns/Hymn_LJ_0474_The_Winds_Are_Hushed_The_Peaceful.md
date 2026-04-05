@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 474: The winds are hushed; the peaceful moon"
+title: "'LJ Hymn 474: The winds are hushed; the peaceful moon"
 type: hymn
 aliases: ["The winds are hushed; the peaceful moon"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 474
-first_line: "The winds are hushed; the peaceful moon"
+first_line: "'The winds are hushed; the peaceful moon"
 meter: "C. M"
-topic: "The Hymn of the Last Supper."
+topic: "'The Hymn of the Last Supper."
 author: "Pierpont"
 composer: ""
 tune_name: ""

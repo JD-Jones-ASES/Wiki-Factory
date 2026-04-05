@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 415: Lord, from Thy blessed throne,"
+title: "'LJ Hymn 415: Lord, from Thy blessed throne,"
 type: hymn
 aliases: ["Lord, from Thy blessed throne,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 415
-first_line: "Lord, from Thy blessed throne,"
+first_line: "'Lord, from Thy blessed throne,"
 meter: "6 & 4s. M"
-topic: "God Save the Poor!"
+topic: "'God Save the Poor!"
 author: "Nicoll"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 77: Father! there is no change to live with Thee;"
+title: "'LJ Hymn 77: Father! there is no change to live with Thee;"
 type: hymn
 aliases: ["Father! there is no change to live with Thee;"]
 tags: ["#meter-short", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 77
-first_line: "Father! there is no change to live with Thee;"
+first_line: "'Father! there is no change to live with Thee;"
 meter: "10s. M"
-topic: "God's Fatherly Care."
+topic: "'God's Fatherly Care."
 author: "Jones Very"
 composer: ""
 tune_name: ""

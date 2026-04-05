@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 152: Not in this simple rite alone"
+title: "'LJ Hymn 152: Not in this simple rite alone"
 type: hymn
 aliases: ["Not in this simple rite alone"]
 tags: ["#meter-long", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 152
-first_line: "Not in this simple rite alone"
+first_line: "'Not in this simple rite alone"
 meter: "L. M"
-topic: "Bearing with Us the Dying of Jesus."
+topic: "'Bearing with Us the Dying of Jesus."
 author: "Gaskell"
 composer: ""
 tune_name: ""

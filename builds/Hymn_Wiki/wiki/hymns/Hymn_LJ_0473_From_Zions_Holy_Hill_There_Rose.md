@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 473: From Zion's holy hill there rose"
+title: "'LJ Hymn 473: From Zion's holy hill there rose"
 type: hymn
 aliases: ["From Zion's holy hill there rose"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 473
-first_line: "From Zion's holy hill there rose"
+first_line: "'From Zion's holy hill there rose"
 meter: "L. M"
-topic: "One in Christ."
+topic: "'One in Christ."
 author: "J. Richardson"
 composer: ""
 tune_name: ""

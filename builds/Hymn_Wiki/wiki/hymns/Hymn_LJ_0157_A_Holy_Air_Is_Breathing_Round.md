@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 157: A Holy air is breathing round,"
+title: "'LJ Hymn 157: A Holy air is breathing round,"
 type: hymn
 aliases: ["A Holy air is breathing round,"]
 tags: ["#meter-common", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 157
-first_line: "A Holy air is breathing round,"
+first_line: "'A Holy air is breathing round,"
 meter: "C. M"
-topic: "One in Christ."
+topic: "'One in Christ."
 author: "Anonymous"
 composer: ""
 tune_name: ""

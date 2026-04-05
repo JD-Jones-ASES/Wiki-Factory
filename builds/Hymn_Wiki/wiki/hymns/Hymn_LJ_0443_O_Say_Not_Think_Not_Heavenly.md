@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 443: O, say not, think not, heavenly notes"
+title: "'LJ Hymn 443: O, say not, think not, heavenly notes"
 type: hymn
 aliases: ["O, say not, think not, heavenly notes"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 443
-first_line: "O, say not, think not, heavenly notes"
+first_line: "'O, say not, think not, heavenly notes"
 meter: "C. M"
-topic: "Teaching Little Children."
+topic: "'Teaching Little Children."
 author: "Keble"
 composer: ""
 tune_name: ""

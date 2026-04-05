@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 385: Go, preach the gospel in my name,"
+title: "'LJ Hymn 385: Go, preach the gospel in my name,"
 type: hymn
 aliases: ["Go, preach the gospel in my name,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 385
-first_line: "Go, preach the gospel in my name,"
+first_line: "'Go, preach the gospel in my name,"
 meter: "C. M"
-topic: "Ordination."
+topic: "'Ordination."
 author: "Anonymous"
 composer: ""
 tune_name: ""

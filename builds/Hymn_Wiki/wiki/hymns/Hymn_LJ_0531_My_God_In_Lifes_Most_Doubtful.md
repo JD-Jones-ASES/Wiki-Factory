@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 531: My God! in life's most doubtful hour,"
+title: "'LJ Hymn 531: My God! in life's most doubtful hour,"
 type: hymn
 aliases: ["My God! in life's most doubtful hour,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 531
-first_line: "My God! in life's most doubtful hour,"
+first_line: "'My God! in life's most doubtful hour,"
 meter: "C. M"
-topic: "The Power of Trust."
+topic: "'The Power of Trust."
 author: "Anonymous"
 composer: ""
 tune_name: ""

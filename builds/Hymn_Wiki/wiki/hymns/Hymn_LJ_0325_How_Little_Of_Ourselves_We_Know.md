@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 325: How little of ourselves we know,"
+title: "'LJ Hymn 325: How little of ourselves we know,"
 type: hymn
 aliases: ["How little of ourselves we know,"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 325
-first_line: "How little of ourselves we know,"
+first_line: "'How little of ourselves we know,"
 meter: "L. M"
-topic: "The Use of Tears."
+topic: "'The Use of Tears."
 author: "Morpeth"
 composer: ""
 tune_name: ""

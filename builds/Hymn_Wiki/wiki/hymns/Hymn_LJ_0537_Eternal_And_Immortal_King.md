@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 537: Eternal and immortal King!"
+title: "'LJ Hymn 537: Eternal and immortal King!"
 type: hymn
 aliases: ["Eternal and immortal King!"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 537
-first_line: "Eternal and immortal King!"
+first_line: "'Eternal and immortal King!"
 meter: "L. M"
-topic: "Seeing the Invisible."
+topic: "'Seeing the Invisible."
 author: "Doddridge"
 composer: ""
 tune_name: ""

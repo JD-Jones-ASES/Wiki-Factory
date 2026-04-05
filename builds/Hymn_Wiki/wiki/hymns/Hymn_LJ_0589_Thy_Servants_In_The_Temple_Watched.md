@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 589: Thy servants in the temple watched"
+title: "'LJ Hymn 589: Thy servants in the temple watched"
 type: hymn
 aliases: ["Thy servants in the temple watched"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 589
-first_line: "Thy servants in the temple watched"
+first_line: "'Thy servants in the temple watched"
 meter: "C. M"
-topic: "The Day-Spring From on High."
+topic: "'The Day-Spring From on High."
 author: "Sp. of Psalms"
 composer: ""
 tune_name: ""

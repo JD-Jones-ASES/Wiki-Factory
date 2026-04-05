@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 257: Rejoice in God alway;"
+title: "'LJ Hymn 257: Rejoice in God alway;"
 type: hymn
 aliases: ["Rejoice in God alway;"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 257
-first_line: "Rejoice in God alway;"
+first_line: "'Rejoice in God alway;"
 meter: "S. M"
-topic: "Rejoice in the Lord Alway."
+topic: "'Rejoice in the Lord Alway."
 author: "Anonymous"
 composer: ""
 tune_name: ""

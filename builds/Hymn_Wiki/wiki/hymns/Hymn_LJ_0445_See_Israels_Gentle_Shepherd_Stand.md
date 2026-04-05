@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 445: See Israel's gentle Shepherd stand"
+title: "'LJ Hymn 445: See Israel's gentle Shepherd stand"
 type: hymn
 aliases: ["See Israel's gentle Shepherd stand"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 445
-first_line: "See Israel's gentle Shepherd stand"
+first_line: "'See Israel's gentle Shepherd stand"
 meter: "C. M"
-topic: "Suffer Little Children to Come unto Me."
+topic: "'Suffer Little Children to Come unto Me."
 author: "Flint's Coll"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 529: Wait on the Lord, ye heirs of hope,"
+title: "'LJ Hymn 529: Wait on the Lord, ye heirs of hope,"
 type: hymn
 aliases: ["Wait on the Lord, ye heirs of hope,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 529
-first_line: "Wait on the Lord, ye heirs of hope,"
+first_line: "'Wait on the Lord, ye heirs of hope,"
 meter: "L. M"
-topic: "The Patient Waiting upon God."
+topic: "'The Patient Waiting upon God."
 author: "Doddridge"
 composer: ""
 tune_name: ""

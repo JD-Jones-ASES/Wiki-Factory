@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 249: None loves me, Father, with Thy love,"
+title: "'LJ Hymn 249: None loves me, Father, with Thy love,"
 type: hymn
 aliases: ["None loves me, Father, with Thy love,"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 249
-first_line: "None loves me, Father, with Thy love,"
+first_line: "'None loves me, Father, with Thy love,"
 meter: "L. M"
-topic: "The Child of God."
+topic: "'The Child of God."
 author: "German"
 composer: ""
 tune_name: ""

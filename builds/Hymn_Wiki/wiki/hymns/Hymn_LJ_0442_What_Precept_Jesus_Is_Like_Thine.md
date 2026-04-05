@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 442: What precept, Jesus, is like thine,--"
+title: "'LJ Hymn 442: What precept, Jesus, is like thine,--"
 type: hymn
 aliases: ["What precept, Jesus, is like thine,--"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 442
-first_line: "What precept, Jesus, is like thine,--"
+first_line: "'What precept, Jesus, is like thine,--"
 meter: "L. M"
-topic: "Redeeming Power of Love."
+topic: "'Redeeming Power of Love."
 author: "Mrs. Livermore"
 composer: ""
 tune_name: ""

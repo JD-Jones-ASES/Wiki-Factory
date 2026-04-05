@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 516: Thou seest my feebleness;"
+title: "'LJ Hymn 516: Thou seest my feebleness;"
 type: hymn
 aliases: ["Thou seest my feebleness;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 516
-first_line: "Thou seest my feebleness;"
+first_line: "'Thou seest my feebleness;"
 meter: "S. M"
-topic: "For Help in Temptation."
+topic: "'For Help in Temptation."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

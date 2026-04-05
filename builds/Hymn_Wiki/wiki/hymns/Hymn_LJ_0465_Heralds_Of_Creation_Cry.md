@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 465: Heralds of creation! cry,--"
+title: "'LJ Hymn 465: Heralds of creation! cry,--"
 type: hymn
 aliases: ["Heralds of creation! cry,--"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 465
-first_line: "Heralds of creation! cry,--"
+first_line: "'Heralds of creation! cry,--"
 meter: "7s. M"
-topic: "Praise Ye the Lord."
+topic: "'Praise Ye the Lord."
 author: "Montgomery"
 composer: ""
 tune_name: ""

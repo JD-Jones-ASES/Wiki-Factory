@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 172: O God! the darkness roll away"
+title: "'LJ Hymn 172: O God! the darkness roll away"
 type: hymn
 aliases: ["O God! the darkness roll away"]
 tags: ["#meter-common", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 172
-first_line: "O God! the darkness roll away"
+first_line: "'O God! the darkness roll away"
 meter: "C. M"
-topic: "Thy Kingdom Come!"
+topic: "'Thy Kingdom Come!"
 author: "Gaskell"
 composer: ""
 tune_name: ""

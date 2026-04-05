@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 32: What shall we ask of God in prayer?"
+title: "'LJ Hymn 32: What shall we ask of God in prayer?"
 type: hymn
 aliases: ["What shall we ask of God in prayer?"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 32
-first_line: "What shall we ask of God in prayer?"
+first_line: "'What shall we ask of God in prayer?"
 meter: "C. M"
-topic: "A Prayer."
+topic: "'A Prayer."
 author: "Montgomery"
 composer: ""
 tune_name: ""

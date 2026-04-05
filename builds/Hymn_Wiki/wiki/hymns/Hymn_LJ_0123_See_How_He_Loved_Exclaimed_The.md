@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 123: "See how he loved!" exclaimed the Jews,"
+title: "LJ Hymn 123: See how he loved! exclaimed the Jews,"
 type: hymn
-aliases: [""See how he loved!" exclaimed the Jews,"]
+aliases: ["See how he loved! exclaimed the Jews,"]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 123
-first_line: "\"See how he loved!\" exclaimed the Jews,"
+first_line: "See how he loved! exclaimed the Jews,"
 meter: "L. M"
-topic: ""Behold How He Loved Him.""
+topic: "Behold How He Loved Him."
 author: "Bache"
 composer: ""
 tune_name: ""
@@ -42,7 +42,7 @@ collection: "Longfellow-Johnson"
 
 ```
 1 "See how he loved!" exclaimed the Jews,
-    When Jesus o'er his Lazarus wept;
+    When Jesus oer his Lazarus wept;
     My grateful heart the words shall use,
     While on his life my eye is kept.
   2 See how he loved, who travelled on,
@@ -51,7 +51,7 @@ collection: "Longfellow-Johnson"
     And called the sleeping dead to rise.
   3 See how he loved, who, firm yet mild,
     With patience bore the scoffing tongue;
-    Though oft provoked, yet ne'er reviled,
+    Though oft provoked, yet neer reviled,
     Nor did his greatest foe a wrong.
   4 See how he loved, who never shrank
     From toil or danger, pain or death;

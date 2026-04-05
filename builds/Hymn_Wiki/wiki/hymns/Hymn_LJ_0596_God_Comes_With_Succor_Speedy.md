@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 596: God comes, with succor speedy,"
+title: "'LJ Hymn 596: God comes, with succor speedy,"
 type: hymn
 aliases: ["God comes, with succor speedy,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 596
-first_line: "God comes, with succor speedy,"
+first_line: "'God comes, with succor speedy,"
 meter: "7 & 6s. M"
-topic: "Lo! He Cometh."
+topic: "'Lo! He Cometh."
 author: "Montgomery"
 composer: ""
 tune_name: ""

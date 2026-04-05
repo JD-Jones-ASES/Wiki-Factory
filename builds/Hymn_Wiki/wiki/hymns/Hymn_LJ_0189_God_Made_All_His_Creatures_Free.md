@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 189: God made all his creatures free;"
+title: "'LJ Hymn 189: God made all his creatures free;"
 type: hymn
 aliases: ["God made all his creatures free;"]
 tags: ["#meter-short", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 189
-first_line: "God made all his creatures free;"
+first_line: "'God made all his creatures free;"
 meter: "7s. M"
-topic: "The Liberty of the Sons of God."
+topic: "'The Liberty of the Sons of God."
 author: "Montgomery"
 composer: ""
 tune_name: ""

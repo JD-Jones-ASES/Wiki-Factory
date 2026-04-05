@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 34: O God! who knowest how frail we are,"
+title: "'LJ Hymn 34: O God! who knowest how frail we are,"
 type: hymn
 aliases: ["O God! who knowest how frail we are,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 34
-first_line: "O God! who knowest how frail we are,"
+first_line: "'O God! who knowest how frail we are,"
 meter: "L. M"
-topic: "Seeking Strength."
+topic: "'Seeking Strength."
 author: "Gaskell"
 composer: ""
 tune_name: ""

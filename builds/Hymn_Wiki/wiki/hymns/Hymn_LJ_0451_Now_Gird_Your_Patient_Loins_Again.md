@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 451: Now gird your patient loins again,"
+title: "'LJ Hymn 451: Now gird your patient loins again,"
 type: hymn
 aliases: ["Now gird your patient loins again,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 451
-first_line: "Now gird your patient loins again,"
+first_line: "'Now gird your patient loins again,"
 meter: "C. M"
-topic: "Hymn for Christmas."
+topic: "'Hymn for Christmas."
 author: "Croswell"
 composer: ""
 tune_name: ""

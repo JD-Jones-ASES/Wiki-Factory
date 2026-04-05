@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 270: Leader of Israel's host, and Guide"
+title: "'LJ Hymn 270: Leader of Israel's host, and Guide"
 type: hymn
 aliases: ["Leader of Israel's host, and Guide"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 270
-first_line: "Leader of Israel's host, and Guide"
+first_line: "'Leader of Israel's host, and Guide"
 meter: "L. M"
-topic: "God Leads Us Right."
+topic: "'God Leads Us Right."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

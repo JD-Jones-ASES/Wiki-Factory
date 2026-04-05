@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 111: Sons of men, behold from far,"
+title: "'LJ Hymn 111: Sons of men, behold from far,"
 type: hymn
 aliases: ["Sons of men, behold from far,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 111
-first_line: "Sons of men, behold from far,"
+first_line: "'Sons of men, behold from far,"
 meter: "7s.       M"
-topic: "The Star of Bethlehem."
+topic: "'The Star of Bethlehem."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

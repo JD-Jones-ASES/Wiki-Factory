@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 108: Brightest and best of the sons of the morning,"
+title: "'LJ Hymn 108: Brightest and best of the sons of the morning,"
 type: hymn
 aliases: ["Brightest and best of the sons of the morning,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 108
-first_line: "Brightest and best of the sons of the morning,"
+first_line: "'Brightest and best of the sons of the morning,"
 meter: "11 & 10s. M"
-topic: "Epiphany."
+topic: "'Epiphany."
 author: "Heber"
 composer: ""
 tune_name: ""

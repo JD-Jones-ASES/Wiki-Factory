@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 328: The darkened sky, how thick it lowers!"
+title: "'LJ Hymn 328: The darkened sky, how thick it lowers!"
 type: hymn
 aliases: ["The darkened sky, how thick it lowers!"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 328
-first_line: "The darkened sky, how thick it lowers!"
+first_line: "'The darkened sky, how thick it lowers!"
 meter: "L. M"
-topic: "Weeping Seedtime; Joyful Harvest."
+topic: "'Weeping Seedtime; Joyful Harvest."
 author: "Doddridge"
 composer: ""
 tune_name: ""

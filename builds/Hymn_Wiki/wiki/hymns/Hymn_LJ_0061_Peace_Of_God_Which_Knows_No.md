@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 61: Peace of God, which knows no measure,"
+title: "'LJ Hymn 61: Peace of God, which knows no measure,"
 type: hymn
 aliases: ["Peace of God, which knows no measure,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 61
-first_line: "Peace of God, which knows no measure,"
+first_line: "'Peace of God, which knows no measure,"
 meter: "8 & 7s. M"
-topic: "The Peace of God."
+topic: "'The Peace of God."
 author: "Anonymous"
 composer: ""
 tune_name: ""

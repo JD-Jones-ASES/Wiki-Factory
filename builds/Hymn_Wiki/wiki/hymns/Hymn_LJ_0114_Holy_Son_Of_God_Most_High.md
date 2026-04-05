@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 114: Holy Son of God most high!"
+title: "'LJ Hymn 114: Holy Son of God most high!"
 type: hymn
 aliases: ["Holy Son of God most high!"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 114
-first_line: "Holy Son of God most high!"
+first_line: "'Holy Son of God most high!"
 meter: "7s. M"
-topic: ""The Works Which I Do Bear Witness of Me.""
+topic: "''The Works Which I Do Bear Witness of Me.'"
 author: "Bulfinch"
 composer: ""
 tune_name: ""

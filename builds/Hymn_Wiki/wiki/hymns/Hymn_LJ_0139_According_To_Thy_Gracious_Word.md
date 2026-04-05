@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 139: According to thy gracious word,"
+title: "'LJ Hymn 139: According to thy gracious word,"
 type: hymn
 aliases: ["According to thy gracious word,"]
 tags: ["#meter-common", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 139
-first_line: "According to thy gracious word,"
+first_line: "'According to thy gracious word,"
 meter: "C. M"
-topic: ""In Remembrance of Me.""
+topic: "''In Remembrance of Me.'"
 author: "Montgomery"
 composer: ""
 tune_name: ""

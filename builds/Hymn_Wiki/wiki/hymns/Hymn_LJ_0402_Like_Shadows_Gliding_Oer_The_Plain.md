@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 402: Like shadows gliding o'er the plain,"
+title: "'LJ Hymn 402: Like shadows gliding o'er the plain,"
 type: hymn
 aliases: ["Like shadows gliding o'er the plain,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 402
-first_line: "Like shadows gliding o'er the plain,"
+first_line: "'Like shadows gliding o'er the plain,"
 meter: "L. M"
-topic: "The Worth of Years."
+topic: "'The Worth of Years."
 author: "John Taylor"
 composer: ""
 tune_name: ""

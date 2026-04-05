@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 427: The kings of old have shrine and tomb"
+title: "'LJ Hymn 427: The kings of old have shrine and tomb"
 type: hymn
 aliases: ["The kings of old have shrine and tomb"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 427
-first_line: "The kings of old have shrine and tomb"
+first_line: "'The kings of old have shrine and tomb"
 meter: "L. M"
-topic: "Earth's Nameless Martyrs."
+topic: "'Earth's Nameless Martyrs."
 author: "Mrs. Hemans"
 composer: ""
 tune_name: ""

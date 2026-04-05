@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 382: Where ancient forests widely spread,"
+title: "'LJ Hymn 382: Where ancient forests widely spread,"
 type: hymn
 aliases: ["Where ancient forests widely spread,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 382
-first_line: "Where ancient forests widely spread,"
+first_line: "'Where ancient forests widely spread,"
 meter: "L. M"
-topic: "Dedication of a Church."
+topic: "'Dedication of a Church."
 author: "Norton"
 composer: ""
 tune_name: ""

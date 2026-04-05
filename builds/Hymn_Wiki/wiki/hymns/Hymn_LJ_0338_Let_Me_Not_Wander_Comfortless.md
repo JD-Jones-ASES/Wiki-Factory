@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 338: Let me not wander comfortless,"
+title: "'LJ Hymn 338: Let me not wander comfortless,"
 type: hymn
 aliases: ["Let me not wander comfortless,"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 338
-first_line: "Let me not wander comfortless,"
+first_line: "'Let me not wander comfortless,"
 meter: "C. M"
-topic: "Consolation."
+topic: "'Consolation."
 author: "Anonymous"
 composer: ""
 tune_name: ""

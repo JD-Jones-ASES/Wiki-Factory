@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 453: The saints on earth and those above"
+title: "'LJ Hymn 453: The saints on earth and those above"
 type: hymn
 aliases: ["The saints on earth and those above"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 453
-first_line: "The saints on earth and those above"
+first_line: "'The saints on earth and those above"
 meter: "C. M"
-topic: "The Communion of Saints."
+topic: "'The Communion of Saints."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

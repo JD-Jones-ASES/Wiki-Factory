@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 149: In vain we thus recall to mind"
+title: "'LJ Hymn 149: In vain we thus recall to mind"
 type: hymn
 aliases: ["In vain we thus recall to mind"]
 tags: ["#meter-common", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 149
-first_line: "In vain we thus recall to mind"
+first_line: "'In vain we thus recall to mind"
 meter: "C. M"
-topic: "Following After Jesus."
+topic: "'Following After Jesus."
 author: "Gaskell"
 composer: ""
 tune_name: ""

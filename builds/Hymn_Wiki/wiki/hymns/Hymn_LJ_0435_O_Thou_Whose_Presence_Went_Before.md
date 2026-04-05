@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 435: O Thou, whose presence went before"
+title: "'LJ Hymn 435: O Thou, whose presence went before"
 type: hymn
 aliases: ["O Thou, whose presence went before"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 435
-first_line: "O Thou, whose presence went before"
+first_line: "'O Thou, whose presence went before"
 meter: "L. M"
-topic: "The Day of Freedom."
+topic: "'The Day of Freedom."
 author: "Whittier"
 composer: ""
 tune_name: ""

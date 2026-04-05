@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 392: There cometh o'er the spirit,"
+title: "'LJ Hymn 392: There cometh o'er the spirit,"
 type: hymn
 aliases: ["There cometh o'er the spirit,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 392
-first_line: "There cometh o'er the spirit,"
+first_line: "'There cometh o'er the spirit,"
 meter: "7 & 6s. M"
-topic: "Spring."
+topic: "'Spring."
 author: "W. V"
 composer: ""
 tune_name: ""

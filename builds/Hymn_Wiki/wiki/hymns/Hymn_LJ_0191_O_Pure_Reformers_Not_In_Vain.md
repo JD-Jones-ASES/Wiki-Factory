@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 191: O pure Reformers! not in vain"
+title: "'LJ Hymn 191: O pure Reformers! not in vain"
 type: hymn
 aliases: ["O pure Reformers! not in vain"]
 tags: ["#meter-common", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 191
-first_line: "O pure Reformers! not in vain"
+first_line: "'O pure Reformers! not in vain"
 meter: "C. M"
-topic: "The Reformers."
+topic: "'The Reformers."
 author: "Whittier"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 463: Come at the morning hour,"
+title: "'LJ Hymn 463: Come at the morning hour,"
 type: hymn
 aliases: ["Come at the morning hour,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 463
-first_line: "Come at the morning hour,"
+first_line: "'Come at the morning hour,"
 meter: "S. M"
-topic: "Seasons for Prayer."
+topic: "'Seasons for Prayer."
 author: "Briggs' Coll"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 175: Who shall behold the glorious day,"
+title: "'LJ Hymn 175: Who shall behold the glorious day,"
 type: hymn
 aliases: ["Who shall behold the glorious day,"]
 tags: ["#meter-common", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 175
-first_line: "Who shall behold the glorious day,"
+first_line: "'Who shall behold the glorious day,"
 meter: "C. M"
-topic: "The Latter Day."
+topic: "'The Latter Day."
 author: "Moore"
 composer: ""
 tune_name: ""

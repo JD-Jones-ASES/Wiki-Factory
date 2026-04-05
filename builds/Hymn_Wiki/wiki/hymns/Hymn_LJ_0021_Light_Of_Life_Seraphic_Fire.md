@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 21: Light of life, seraphic fire!"
+title: "'LJ Hymn 21: Light of life, seraphic fire!"
 type: hymn
 aliases: ["Light of life, seraphic fire!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 21
-first_line: "Light of life, seraphic fire!"
+first_line: "'Light of life, seraphic fire!"
 meter: "7s. M"
-topic: "The Light of Life."
+topic: "'The Light of Life."
 author: "Wesleyan"
 composer: ""
 tune_name: ""

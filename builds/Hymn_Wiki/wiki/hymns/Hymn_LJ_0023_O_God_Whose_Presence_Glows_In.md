@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 23: O God, whose presence glows in all"
+title: "'LJ Hymn 23: O God, whose presence glows in all"
 type: hymn
 aliases: ["O God, whose presence glows in all"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 23
-first_line: "O God, whose presence glows in all"
+first_line: "'O God, whose presence glows in all"
 meter: "L. M"
-topic: "For Spiritual Influences."
+topic: "'For Spiritual Influences."
 author: "Frothingham"
 composer: ""
 tune_name: ""

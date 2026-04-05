@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 10: Unto Thy temple, God of love,"
+title: "'LJ Hymn 10: Unto Thy temple, God of love,"
 type: hymn
 aliases: ["Unto Thy temple, God of love,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 10
-first_line: "Unto Thy temple, God of love,"
+first_line: "'Unto Thy temple, God of love,"
 meter: "L. M"
-topic: ""It is Good to be Here.""
+topic: "''It is Good to be Here.'"
 author: "Gaskell"
 composer: ""
 tune_name: ""

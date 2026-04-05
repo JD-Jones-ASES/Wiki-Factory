@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 527: Father of might, my bonds I feel,"
+title: "'LJ Hymn 527: Father of might, my bonds I feel,"
 type: hymn
 aliases: ["Father of might, my bonds I feel,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 527
-first_line: "Father of might, my bonds I feel,"
+first_line: "'Father of might, my bonds I feel,"
 meter: "L. M"
-topic: "For Self-Renunciation."
+topic: "'For Self-Renunciation."
 author: "Anonymous"
 composer: ""
 tune_name: ""

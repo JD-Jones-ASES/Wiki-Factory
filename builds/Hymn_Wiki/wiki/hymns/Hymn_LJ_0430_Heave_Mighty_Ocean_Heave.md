@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 430: Heave, mighty ocean, heave!"
+title: "'LJ Hymn 430: Heave, mighty ocean, heave!"
 type: hymn
 aliases: ["Heave, mighty ocean, heave!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 430
-first_line: "Heave, mighty ocean, heave!"
+first_line: "'Heave, mighty ocean, heave!"
 meter: "S. M"
-topic: "God With Us on the Deep."
+topic: "'God With Us on the Deep."
 author: "Graham"
 composer: ""
 tune_name: ""

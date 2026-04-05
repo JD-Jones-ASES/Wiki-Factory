@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 305: The uplifted eye and bended knee"
+title: "'LJ Hymn 305: The uplifted eye and bended knee"
 type: hymn
 aliases: ["The uplifted eye and bended knee"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 305
-first_line: "The uplifted eye and bended knee"
+first_line: "'The uplifted eye and bended knee"
 meter: "L. M"
-topic: "Forms Vain Without the Spirit."
+topic: "'Forms Vain Without the Spirit."
 author: "Doddridge"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 294: Kings, iv. 3."
+title: "'LJ Hymn 294: Kings, iv. 3."
 type: hymn
 aliases: ["Kings, iv. 3."]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 294
-first_line: "Kings, iv. 3."
+first_line: "'Kings, iv. 3."
 meter: "C. M"
-topic: "The Law of Love."
+topic: "'The Law of Love."
 author: "R. C. Trench"
 composer: ""
 tune_name: ""

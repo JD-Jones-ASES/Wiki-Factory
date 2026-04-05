@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 333: Thou, infinite in love!"
+title: "'LJ Hymn 333: Thou, infinite in love!"
 type: hymn
 aliases: ["Thou, infinite in love!"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 333
-first_line: "Thou, infinite in love!"
+first_line: "'Thou, infinite in love!"
 meter: "H. M.                      Mrs. Miles."
-topic: "In Affliction."
+topic: "'In Affliction."
 author: "Anonymous"
 composer: ""
 tune_name: ""

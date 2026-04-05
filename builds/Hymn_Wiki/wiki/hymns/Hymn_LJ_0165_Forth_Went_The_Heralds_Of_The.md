@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 165: Forth went the heralds of the cross,"
+title: "'LJ Hymn 165: Forth went the heralds of the cross,"
 type: hymn
 aliases: ["Forth went the heralds of the cross,"]
 tags: ["#meter-common", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 165
-first_line: "Forth went the heralds of the cross,"
+first_line: "'Forth went the heralds of the cross,"
 meter: "C. M"
-topic: "The Heralds of the Cross."
+topic: "'The Heralds of the Cross."
 author: "Gaskell"
 composer: ""
 tune_name: ""

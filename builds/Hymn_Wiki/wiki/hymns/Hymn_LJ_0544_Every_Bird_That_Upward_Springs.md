@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 544: Every bird that upward springs"
+title: "'LJ Hymn 544: Every bird that upward springs"
 type: hymn
 aliases: ["Every bird that upward springs"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 544
-first_line: "Every bird that upward springs"
+first_line: "'Every bird that upward springs"
 meter: "7s. M"
-topic: "Bearing the Cross."
+topic: "'Bearing the Cross."
 author: "Neale"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 411: Fare thee well, our fondly cherished!"
+title: "'LJ Hymn 411: Fare thee well, our fondly cherished!"
 type: hymn
 aliases: ["Fare thee well, our fondly cherished!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 411
-first_line: "Fare thee well, our fondly cherished!"
+first_line: "'Fare thee well, our fondly cherished!"
 meter: "8 & 7s. M"
-topic: "Death of a Child."
+topic: "'Death of a Child."
 author: "Briggs' Coll"
 composer: ""
 tune_name: ""

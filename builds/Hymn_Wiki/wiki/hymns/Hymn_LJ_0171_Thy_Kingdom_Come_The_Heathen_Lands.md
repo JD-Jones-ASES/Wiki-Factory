@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 171: "Thy kingdom come!" The heathen lands,"
+title: "LJ Hymn 171: Thy kingdom come! The heathen lands,"
 type: hymn
-aliases: [""Thy kingdom come!" The heathen lands,"]
+aliases: ["Thy kingdom come! The heathen lands,"]
 tags: ["#meter-long", "#theme-missionary"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,7 +10,7 @@ related: []
 status: stub
 confidence: high
 hymn_number: 171
-first_line: "\"Thy kingdom come!\" The heathen lands,"
+first_line: "Thy kingdom come! The heathen lands,"
 meter: "L. M"
 topic: "Thy Kingdom Come!"
 author: "Emily Taylor"
@@ -50,9 +50,9 @@ collection: "Longfellow-Johnson"
     For Thou hast eyes to give the blind,
     And strength to set the captive free.
   3 Thy reign of peace and love begin!
-    Too oft the Christian's sacred name
+    Too oft the Christians sacred name
     Is stained by wrath and shamed by sin;
-    O, come, assert the gospel's claim!
+    O, come, assert the gospels claim!
   4 O, never in that righteous cause
     Our hearts be slow, our voices dumb;
     Upon the glorious theme we pause,

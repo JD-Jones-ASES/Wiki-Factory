@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 565: God of eternity! from Thee"
+title: "'LJ Hymn 565: God of eternity! from Thee"
 type: hymn
 aliases: ["God of eternity! from Thee"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 565
-first_line: "God of eternity! from Thee"
+first_line: "'God of eternity! from Thee"
 meter: "L. M"
-topic: "Close of the Year."
+topic: "'Close of the Year."
 author: "Doddridge"
 composer: ""
 tune_name: ""

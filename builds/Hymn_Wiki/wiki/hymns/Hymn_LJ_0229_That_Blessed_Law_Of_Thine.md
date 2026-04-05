@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 229: That blessed law of Thine,"
+title: "'LJ Hymn 229: That blessed law of Thine,"
 type: hymn
 aliases: ["That blessed law of Thine,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 229
-first_line: "That blessed law of Thine,"
+first_line: "'That blessed law of Thine,"
 meter: "S. M"
-topic: "Desire for Holiness."
+topic: "'Desire for Holiness."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

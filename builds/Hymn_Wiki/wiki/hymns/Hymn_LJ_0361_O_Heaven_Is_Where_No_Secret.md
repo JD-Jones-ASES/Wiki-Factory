@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 361: O, heaven is where no secret dread"
+title: "'LJ Hymn 361: O, heaven is where no secret dread"
 type: hymn
 aliases: ["O, heaven is where no secret dread"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 361
-first_line: "O, heaven is where no secret dread"
+first_line: "'O, heaven is where no secret dread"
 meter: "C. M"
-topic: "A Vision of Heaven."
+topic: "'A Vision of Heaven."
 author: "Briggs' Coll"
 composer: ""
 tune_name: ""

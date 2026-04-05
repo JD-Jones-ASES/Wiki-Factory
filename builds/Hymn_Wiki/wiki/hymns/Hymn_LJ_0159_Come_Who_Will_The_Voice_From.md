@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 159: "Come who will," the voice from heaven,"
+title: "LJ Hymn 159: Come who will, the voice from heaven,"
 type: hymn
-aliases: [""Come who will," the voice from heaven,"]
+aliases: ["Come who will, the voice from heaven,"]
 tags: ["#meter-short", "#theme-communion"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,7 +10,7 @@ related: []
 status: stub
 confidence: high
 hymn_number: 159
-first_line: "\"Come who will,\" the voice from heaven,"
+first_line: "Come who will, the voice from heaven,"
 meter: "8 & 7s. M"
 topic: "Invitation."
 author: "Anonymous"
@@ -50,7 +50,7 @@ collection: "Longfellow-Johnson"
     Come, where God, his gifts bestowing,
       In the church on earth is known.
   3 Heavenly music! he who listens,
-      Longing for his spirit's home,
+      Longing for his spirits home,
     While his eye with rapture glistens,
       Yearning says,--"I come, I come!"
 ```

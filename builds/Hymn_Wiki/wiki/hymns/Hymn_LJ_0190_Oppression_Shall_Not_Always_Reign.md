@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 190: Oppression shall not always reign;"
+title: "'LJ Hymn 190: Oppression shall not always reign;"
 type: hymn
 aliases: ["Oppression shall not always reign;"]
 tags: ["#meter-peculiar", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 190
-first_line: "Oppression shall not always reign;"
+first_line: "'Oppression shall not always reign;"
 meter: "P. M"
-topic: "Freedom."
+topic: "'Freedom."
 author: "H. Ware"
 composer: ""
 tune_name: ""

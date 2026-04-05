@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 414: Mighty One, whose name is holy,"
+title: "'LJ Hymn 414: Mighty One, whose name is holy,"
 type: hymn
 aliases: ["Mighty One, whose name is holy,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 414
-first_line: "Mighty One, whose name is holy,"
+first_line: "'Mighty One, whose name is holy,"
 meter: "8 & 7s. M"
-topic: "For a Charitable Occasion."
+topic: "'For a Charitable Occasion."
 author: "Pierpont"
 composer: ""
 tune_name: ""

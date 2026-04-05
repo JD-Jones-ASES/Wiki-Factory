@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 5: Thirsting for a living spring,"
+title: "'LJ Hymn 5: Thirsting for a living spring,"
 type: hymn
 aliases: ["Thirsting for a living spring,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 5
-first_line: "Thirsting for a living spring,"
+first_line: "'Thirsting for a living spring,"
 meter: "7s. M"
-topic: "Seeking God."
+topic: "'Seeking God."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 349: Where is thy sting, O death?"
+title: "'LJ Hymn 349: Where is thy sting, O death?"
 type: hymn
 aliases: ["Where is thy sting, O death?"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 349
-first_line: "Where is thy sting, O death?"
+first_line: "'Where is thy sting, O death?"
 meter: "S. M"
-topic: "O Death, Where Is Thy Sting?"
+topic: "'O Death, Where Is Thy Sting?"
 author: "Bowring"
 composer: ""
 tune_name: ""

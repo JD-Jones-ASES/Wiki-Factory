@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 295: Beneath the thick but struggling clouds,"
+title: "'LJ Hymn 295: Beneath the thick but struggling clouds,"
 type: hymn
 aliases: ["Beneath the thick but struggling clouds,"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 295
-first_line: "Beneath the thick but struggling clouds,"
+first_line: "'Beneath the thick but struggling clouds,"
 meter: "C. M"
-topic: "Words and Deeds."
+topic: "'Words and Deeds."
 author: "Anonymous"
 composer: ""
 tune_name: ""

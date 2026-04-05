@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 580: While sounds of war are heard around,"
+title: "'LJ Hymn 580: While sounds of war are heard around,"
 type: hymn
 aliases: ["While sounds of war are heard around,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 580
-first_line: "While sounds of war are heard around,"
+first_line: "'While sounds of war are heard around,"
 meter: "L. M"
-topic: "In Time of War."
+topic: "'In Time of War."
 author: "Aikin"
 composer: ""
 tune_name: ""

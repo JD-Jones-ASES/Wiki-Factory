@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 522: Speak with us, Lord; Thyself reveal,"
+title: "'LJ Hymn 522: Speak with us, Lord; Thyself reveal,"
 type: hymn
 aliases: ["Speak with us, Lord; Thyself reveal,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 522
-first_line: "Speak with us, Lord; Thyself reveal,"
+first_line: "'Speak with us, Lord; Thyself reveal,"
 meter: "C. M"
-topic: "For the Divine Presence."
+topic: "'For the Divine Presence."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

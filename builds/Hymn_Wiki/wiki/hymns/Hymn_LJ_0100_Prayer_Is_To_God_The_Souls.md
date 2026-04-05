@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 100: Prayer is to God the soul's sure way;"
+title: "'LJ Hymn 100: Prayer is to God the soul's sure way;"
 type: hymn
 aliases: ["Prayer is to God the soul's sure way;"]
 tags: ["#meter-long", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 100
-first_line: "Prayer is to God the soul's sure way;"
+first_line: "'Prayer is to God the soul's sure way;"
 meter: "L. M"
-topic: "Prayer the Life of the Soul."
+topic: "'Prayer the Life of the Soul."
 author: "Hart"
 composer: ""
 tune_name: ""

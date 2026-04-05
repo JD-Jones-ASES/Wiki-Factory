@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 374: How sweet, how calm, this Sabbath morn!"
+title: "'LJ Hymn 374: How sweet, how calm, this Sabbath morn!"
 type: hymn
 aliases: ["How sweet, how calm, this Sabbath morn!"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 374
-first_line: "How sweet, how calm, this Sabbath morn!"
+first_line: "'How sweet, how calm, this Sabbath morn!"
 meter: "C. M"
-topic: "Sabbath Morning."
+topic: "'Sabbath Morning."
 author: "Christian Hymns"
 composer: ""
 tune_name: ""

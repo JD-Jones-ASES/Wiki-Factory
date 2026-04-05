@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 418: Westward, Lord, the world alluring,"
+title: "'LJ Hymn 418: Westward, Lord, the world alluring,"
 type: hymn
 aliases: ["Westward, Lord, the world alluring,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 418
-first_line: "Westward, Lord, the world alluring,"
+first_line: "'Westward, Lord, the world alluring,"
 meter: "8 & 7s. M"
-topic: "Western Missions."
+topic: "'Western Missions."
 author: "A. C. Coxe"
 composer: ""
 tune_name: ""

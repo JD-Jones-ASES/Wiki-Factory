@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 508: Now from the altar of our hearts"
+title: "'LJ Hymn 508: Now from the altar of our hearts"
 type: hymn
 aliases: ["Now from the altar of our hearts"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 508
-first_line: "Now from the altar of our hearts"
+first_line: "'Now from the altar of our hearts"
 meter: "C. M"
-topic: "Family Evening Worship."
+topic: "'Family Evening Worship."
 author: "Anonymous"
 composer: ""
 tune_name: ""

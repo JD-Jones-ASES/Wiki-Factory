@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 237: Wilt Thou not visit me?"
+title: "'LJ Hymn 237: Wilt Thou not visit me?"
 type: hymn
 aliases: ["Wilt Thou not visit me?"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 237
-first_line: "Wilt Thou not visit me?"
+first_line: "'Wilt Thou not visit me?"
 meter: "P. M"
-topic: "Desires for God's Presence."
+topic: "'Desires for God's Presence."
 author: "Jones Very"
 composer: ""
 tune_name: ""

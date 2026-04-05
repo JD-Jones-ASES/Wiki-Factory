@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 534: Call the Lord thy sure salvation,"
+title: "'LJ Hymn 534: Call the Lord thy sure salvation,"
 type: hymn
 aliases: ["Call the Lord thy sure salvation,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 534
-first_line: "Call the Lord thy sure salvation,"
+first_line: "'Call the Lord thy sure salvation,"
 meter: "8 & 7s. M"
-topic: "Faith."
+topic: "'Faith."
 author: "Montgomery"
 composer: ""
 tune_name: ""

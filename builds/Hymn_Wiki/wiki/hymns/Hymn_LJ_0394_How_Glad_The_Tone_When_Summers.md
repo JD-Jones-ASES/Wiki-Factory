@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 394: How glad the tone when summer's sun"
+title: "'LJ Hymn 394: How glad the tone when summer's sun"
 type: hymn
 aliases: ["How glad the tone when summer's sun"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 394
-first_line: "How glad the tone when summer's sun"
+first_line: "'How glad the tone when summer's sun"
 meter: "C. M"
-topic: "The Hymn of Summer."
+topic: "'The Hymn of Summer."
 author: "J. Richardson"
 composer: ""
 tune_name: ""

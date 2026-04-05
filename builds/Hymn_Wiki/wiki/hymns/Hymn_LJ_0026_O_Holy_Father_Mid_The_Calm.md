@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 26: O Holy Father! 'mid the calm"
+title: "'LJ Hymn 26: O Holy Father! 'mid the calm"
 type: hymn
 aliases: ["O Holy Father! 'mid the calm"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 26
-first_line: "O Holy Father! 'mid the calm"
+first_line: "'O Holy Father! 'mid the calm"
 meter: "L. M"
-topic: "Evening Worship."
+topic: "'Evening Worship."
 author: "W. H. Burleigh"
 composer: ""
 tune_name: ""

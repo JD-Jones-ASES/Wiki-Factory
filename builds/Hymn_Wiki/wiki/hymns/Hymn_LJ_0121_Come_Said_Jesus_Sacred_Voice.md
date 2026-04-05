@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 121: Come, said Jesus' sacred voice,"
+title: "'LJ Hymn 121: Come, said Jesus' sacred voice,"
 type: hymn
 aliases: ["Come, said Jesus' sacred voice,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 121
-first_line: "Come, said Jesus' sacred voice,"
+first_line: "'Come, said Jesus' sacred voice,"
 meter: "7s. M"
-topic: "Christ's Invitations."
+topic: "'Christ's Invitations."
 author: "Barbauld"
 composer: ""
 tune_name: ""

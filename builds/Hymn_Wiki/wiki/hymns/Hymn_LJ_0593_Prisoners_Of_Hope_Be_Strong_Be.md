@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 593: Prisoners of hope! be strong, be bold;"
+title: "'LJ Hymn 593: Prisoners of hope! be strong, be bold;"
 type: hymn
 aliases: ["Prisoners of hope! be strong, be bold;"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 593
-first_line: "Prisoners of hope! be strong, be bold;"
+first_line: "'Prisoners of hope! be strong, be bold;"
 meter: "L. M"
-topic: "Be Strong, Fear Not."
+topic: "'Be Strong, Fear Not."
 author: "Anonymous"
 composer: ""
 tune_name: ""

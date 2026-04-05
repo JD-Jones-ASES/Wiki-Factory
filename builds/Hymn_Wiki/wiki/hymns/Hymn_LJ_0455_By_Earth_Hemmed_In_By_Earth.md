@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 455: By earth hemmed in, by earth oppressed,"
+title: "'LJ Hymn 455: By earth hemmed in, by earth oppressed,"
 type: hymn
 aliases: ["By earth hemmed in, by earth oppressed,"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 455
-first_line: "By earth hemmed in, by earth oppressed,"
+first_line: "'By earth hemmed in, by earth oppressed,"
 meter: "P. M"
-topic: "Prayer and Labor."
+topic: "'Prayer and Labor."
 author: "J. H. Perkins"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 343: O, not when the death-prayer is said,"
+title: "'LJ Hymn 343: O, not when the death-prayer is said,"
 type: hymn
 aliases: ["O, not when the death-prayer is said,"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 343
-first_line: "O, not when the death-prayer is said,"
+first_line: "'O, not when the death-prayer is said,"
 meter: "C. M"
-topic: "Angels."
+topic: "'Angels."
 author: "Wilson"
 composer: ""
 tune_name: ""

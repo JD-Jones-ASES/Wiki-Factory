@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 244: I am free! I am free! I have broken away,"
+title: "'LJ Hymn 244: I am free! I am free! I have broken away,"
 type: hymn
 aliases: ["I am free! I am free! I have broken away,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 244
-first_line: "I am free! I am free! I have broken away,"
+first_line: "'I am free! I am free! I have broken away,"
 meter: "12s. M"
-topic: "The New Birth."
+topic: "'The New Birth."
 author: "Gaskell"
 composer: ""
 tune_name: ""

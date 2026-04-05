@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 214: Feeble, helpless, how shall I"
+title: "'LJ Hymn 214: Feeble, helpless, how shall I"
 type: hymn
 aliases: ["Feeble, helpless, how shall I"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 214
-first_line: "Feeble, helpless, how shall I"
+first_line: "'Feeble, helpless, how shall I"
 meter: "7s. M"
-topic: "Christ Who Strengtheneth Me."
+topic: "'Christ Who Strengtheneth Me."
 author: "Furness"
 composer: ""
 tune_name: ""

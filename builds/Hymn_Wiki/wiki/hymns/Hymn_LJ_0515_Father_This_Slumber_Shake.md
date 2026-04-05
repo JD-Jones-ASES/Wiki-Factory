@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 515: Father, this slumber shake"
+title: "'LJ Hymn 515: Father, this slumber shake"
 type: hymn
 aliases: ["Father, this slumber shake"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 515
-first_line: "Father, this slumber shake"
+first_line: "'Father, this slumber shake"
 meter: "S. M"
-topic: "Watch and Pray, Lest Ye Enter into Temptation."
+topic: "'Watch and Pray, Lest Ye Enter into Temptation."
 author: "Wesleyan"
 composer: ""
 tune_name: ""

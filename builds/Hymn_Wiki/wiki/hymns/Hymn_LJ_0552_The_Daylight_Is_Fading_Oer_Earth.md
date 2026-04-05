@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 552: The daylight is fading o'er earth and o'er ocean,"
+title: "'LJ Hymn 552: The daylight is fading o'er earth and o'er ocean,"
 type: hymn
 aliases: ["The daylight is fading o'er earth and o'er ocean,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 552
-first_line: "The daylight is fading o'er earth and o'er ocean,"
+first_line: "'The daylight is fading o'er earth and o'er ocean,"
 meter: "12 & 11s. M"
-topic: "Vesper Hymn."
+topic: "'Vesper Hymn."
 author: "Anonymous"
 composer: ""
 tune_name: ""

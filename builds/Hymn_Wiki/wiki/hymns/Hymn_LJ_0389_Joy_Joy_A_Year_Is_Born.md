@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 389: Joy! joy! a year is born;"
+title: "'LJ Hymn 389: Joy! joy! a year is born;"
 type: hymn
 aliases: ["Joy! joy! a year is born;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 389
-first_line: "Joy! joy! a year is born;"
+first_line: "'Joy! joy! a year is born;"
 meter: "6s. M"
-topic: "The New Year."
+topic: "'The New Year."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 303: Thou, Lord, who rear'st the mountain's height,"
+title: "'LJ Hymn 303: Thou, Lord, who rear'st the mountain's height,"
 type: hymn
 aliases: ["Thou, Lord, who rear'st the mountain's height,"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 303
-first_line: "Thou, Lord, who rear'st the mountain's height,"
+first_line: "'Thou, Lord, who rear'st the mountain's height,"
 meter: "L. M"
-topic: "Divine Meaning in Humble Things."
+topic: "'Divine Meaning in Humble Things."
 author: "Sterling"
 composer: ""
 tune_name: ""

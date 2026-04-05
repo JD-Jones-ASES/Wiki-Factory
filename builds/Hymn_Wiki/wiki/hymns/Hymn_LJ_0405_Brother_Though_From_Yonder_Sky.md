@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 405: Brother, though from yonder sky"
+title: "'LJ Hymn 405: Brother, though from yonder sky"
 type: hymn
 aliases: ["Brother, though from yonder sky"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 405
-first_line: "Brother, though from yonder sky"
+first_line: "'Brother, though from yonder sky"
 meter: "7s. M"
-topic: "The Christian's Burial."
+topic: "'The Christian's Burial."
 author: "J. H. Bancroft"
 composer: ""
 tune_name: ""

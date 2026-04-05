@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 480: Come, Thou almighty King!"
+title: "'LJ Hymn 480: Come, Thou almighty King!"
 type: hymn
 aliases: ["Come, Thou almighty King!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 480
-first_line: "Come, Thou almighty King!"
+first_line: "'Come, Thou almighty King!"
 meter: "6 & 4s. M"
-topic: "Invocation."
+topic: "'Invocation."
 author: "Anonymous"
 composer: ""
 tune_name: ""

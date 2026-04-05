@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 316: O, speed thee, Christian, on thy way!"
+title: "'LJ Hymn 316: O, speed thee, Christian, on thy way!"
 type: hymn
 aliases: ["O, speed thee, Christian, on thy way!"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 316
-first_line: "O, speed thee, Christian, on thy way!"
+first_line: "'O, speed thee, Christian, on thy way!"
 meter: "C. M"
-topic: "The Whole Armor of the Lord."
+topic: "'The Whole Armor of the Lord."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 479: Psalm cxxvii. 2."
+title: "'LJ Hymn 479: Psalm cxxvii. 2."
 type: hymn
 aliases: ["Psalm cxxvii. 2."]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 479
-first_line: "Psalm cxxvii. 2."
+first_line: "'Psalm cxxvii. 2."
 meter: "L. P. M.                  E. B. Barrett."
-topic: "He Giveth His Beloved Sleep."
+topic: "'He Giveth His Beloved Sleep."
 author: "Anonymous"
 composer: ""
 tune_name: ""

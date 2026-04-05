@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 251: We all, O Father, all are Thine;"
+title: "'LJ Hymn 251: We all, O Father, all are Thine;"
 type: hymn
 aliases: ["We all, O Father, all are Thine;"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 251
-first_line: "We all, O Father, all are Thine;"
+first_line: "'We all, O Father, all are Thine;"
 meter: "L. M"
-topic: "All Things Work for Good."
+topic: "'All Things Work for Good."
 author: "Dyer"
 composer: ""
 tune_name: ""

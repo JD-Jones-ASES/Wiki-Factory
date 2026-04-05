@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 377: This child we dedicate to Thee,"
+title: "'LJ Hymn 377: This child we dedicate to Thee,"
 type: hymn
 aliases: ["This child we dedicate to Thee,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 377
-first_line: "This child we dedicate to Thee,"
+first_line: "'This child we dedicate to Thee,"
 meter: "L. M"
-topic: "Baptism of a Child."
+topic: "'Baptism of a Child."
 author: "W. Boston Coll"
 composer: ""
 tune_name: ""

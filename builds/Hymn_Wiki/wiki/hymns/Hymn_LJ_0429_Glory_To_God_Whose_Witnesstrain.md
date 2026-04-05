@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 429: Glory to God! whose witness-train,"
+title: "'LJ Hymn 429: Glory to God! whose witness-train,"
 type: hymn
 aliases: ["Glory to God! whose witness-train,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 429
-first_line: "Glory to God! whose witness-train,"
+first_line: "'Glory to God! whose witness-train,"
 meter: "C. M"
-topic: "The Noble Army of Martyrs."
+topic: "'The Noble Army of Martyrs."
 author: "Moravian"
 composer: ""
 tune_name: ""

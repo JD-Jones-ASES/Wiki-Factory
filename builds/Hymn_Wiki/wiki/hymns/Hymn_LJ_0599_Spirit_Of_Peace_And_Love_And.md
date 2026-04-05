@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 599: Spirit of peace and love and power,"
+title: "'LJ Hymn 599: Spirit of peace and love and power,"
 type: hymn
 aliases: ["Spirit of peace and love and power,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 599
-first_line: "Spirit of peace and love and power,"
+first_line: "'Spirit of peace and love and power,"
 meter: "L. M"
-topic: "Thy Will Be Done on Earth as in Heaven."
+topic: "'Thy Will Be Done on Earth as in Heaven."
 author: "J. Wesley"
 composer: ""
 tune_name: ""

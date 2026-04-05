@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 597: Sing, ye redeemed of the Lord,"
+title: "'LJ Hymn 597: Sing, ye redeemed of the Lord,"
 type: hymn
 aliases: ["Sing, ye redeemed of the Lord,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 597
-first_line: "Sing, ye redeemed of the Lord,"
+first_line: "'Sing, ye redeemed of the Lord,"
 meter: "C. M"
-topic: "The Holy Way."
+topic: "'The Holy Way."
 author: "Doddridge"
 composer: ""
 tune_name: ""

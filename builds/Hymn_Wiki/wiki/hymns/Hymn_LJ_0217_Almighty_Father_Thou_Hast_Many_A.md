@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 217: Almighty Father! Thou hast many a blessing"
+title: "'LJ Hymn 217: Almighty Father! Thou hast many a blessing"
 type: hymn
 aliases: ["Almighty Father! Thou hast many a blessing"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 217
-first_line: "Almighty Father! Thou hast many a blessing"
+first_line: "'Almighty Father! Thou hast many a blessing"
 meter: "11 & 10s. M"
-topic: "Spiritual Blessings."
+topic: "'Spiritual Blessings."
 author: "Anonymous"
 composer: ""
 tune_name: ""

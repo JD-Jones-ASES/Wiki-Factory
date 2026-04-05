@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 312: Press on, press on! ye sons of light,"
+title: "'LJ Hymn 312: Press on, press on! ye sons of light,"
 type: hymn
 aliases: ["Press on, press on! ye sons of light,"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 312
-first_line: "Press on, press on! ye sons of light,"
+first_line: "'Press on, press on! ye sons of light,"
 meter: "L. M"
-topic: "Press On!"
+topic: "'Press On!"
 author: "Gaskell"
 composer: ""
 tune_name: ""

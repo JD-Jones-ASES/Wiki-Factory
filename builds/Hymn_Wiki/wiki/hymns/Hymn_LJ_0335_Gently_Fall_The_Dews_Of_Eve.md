@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 335: Gently fall the dews of eve,"
+title: "'LJ Hymn 335: Gently fall the dews of eve,"
 type: hymn
 aliases: ["Gently fall the dews of eve,"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 335
-first_line: "Gently fall the dews of eve,"
+first_line: "'Gently fall the dews of eve,"
 meter: "7s. M"
-topic: "Dews and Tears."
+topic: "'Dews and Tears."
 author: "Sarah F. Adams"
 composer: ""
 tune_name: ""

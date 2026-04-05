@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 373: Lord of the Sabbath, hear our vows,"
+title: "'LJ Hymn 373: Lord of the Sabbath, hear our vows,"
 type: hymn
 aliases: ["Lord of the Sabbath, hear our vows,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 373
-first_line: "Lord of the Sabbath, hear our vows,"
+first_line: "'Lord of the Sabbath, hear our vows,"
 meter: "L. M"
-topic: "The Eternal Sabbath."
+topic: "'The Eternal Sabbath."
 author: "Doddridge"
 composer: ""
 tune_name: ""

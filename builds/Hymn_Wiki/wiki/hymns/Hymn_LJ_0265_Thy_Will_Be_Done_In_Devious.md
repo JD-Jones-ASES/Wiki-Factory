@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 265: Thy will be done! In devious way"
+title: "'LJ Hymn 265: Thy will be done! In devious way"
 type: hymn
 aliases: ["Thy will be done! In devious way"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 265
-first_line: "Thy will be done! In devious way"
+first_line: "'Thy will be done! In devious way"
 meter: "P. M"
-topic: "Thy Will Be Done!"
+topic: "'Thy Will Be Done!"
 author: "Bowring"
 composer: ""
 tune_name: ""

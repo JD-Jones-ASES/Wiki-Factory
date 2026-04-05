@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 40: Father, who art on high!"
+title: "'LJ Hymn 40: Father, who art on high!"
 type: hymn
 aliases: ["Father, who art on high!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 40
-first_line: "Father, who art on high!"
+first_line: "'Father, who art on high!"
 meter: "6 & 10s. M"
-topic: "The Heart's Inspiration."
+topic: "'The Heart's Inspiration."
 author: "Mrs. Hemans"
 composer: ""
 tune_name: ""

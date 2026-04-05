@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 360: Come to the land of peace!"
+title: "'LJ Hymn 360: Come to the land of peace!"
 type: hymn
 aliases: ["Come to the land of peace!"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 360
-first_line: "Come to the land of peace!"
+first_line: "'Come to the land of peace!"
 meter: "S. M"
-topic: "The Angels' Call."
+topic: "'The Angels' Call."
 author: "Briggs' Coll"
 composer: ""
 tune_name: ""

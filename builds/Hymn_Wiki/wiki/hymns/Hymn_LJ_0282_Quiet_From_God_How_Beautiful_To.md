@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 282: Quiet from God! how beautiful to keep"
+title: "'LJ Hymn 282: Quiet from God! how beautiful to keep"
 type: hymn
 aliases: ["Quiet from God! how beautiful to keep"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 282
-first_line: "Quiet from God! how beautiful to keep"
+first_line: "'Quiet from God! how beautiful to keep"
 meter: "10s. M"
-topic: ""If He Giveth Quiet, Who Can Make Trouble?""
+topic: "''If He Giveth Quiet, Who Can Make Trouble?'"
 author: "Anonymous"
 composer: ""
 tune_name: ""

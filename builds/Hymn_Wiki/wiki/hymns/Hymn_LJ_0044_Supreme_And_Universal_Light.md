@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 44: Supreme and universal Light!"
+title: "'LJ Hymn 44: Supreme and universal Light!"
 type: hymn
 aliases: ["Supreme and universal Light!"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 44
-first_line: "Supreme and universal Light!"
+first_line: "'Supreme and universal Light!"
 meter: "L. M"
-topic: "Manliness and Freedom."
+topic: "'Manliness and Freedom."
 author: "H. Moore"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 288: All-seeing God! 'tis Thine to know"
+title: "'LJ Hymn 288: All-seeing God! 'tis Thine to know"
 type: hymn
 aliases: ["All-seeing God! 'tis Thine to know"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 288
-first_line: "All-seeing God! 'tis Thine to know"
+first_line: "'All-seeing God! 'tis Thine to know"
 meter: "L. M"
-topic: "Charitable Judgment."
+topic: "'Charitable Judgment."
 author: "Scott"
 composer: ""
 tune_name: ""

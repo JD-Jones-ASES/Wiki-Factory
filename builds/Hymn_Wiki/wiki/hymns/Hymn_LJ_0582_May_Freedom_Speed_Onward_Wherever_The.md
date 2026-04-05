@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 582: May freedom speed onward, wherever the blood"
+title: "'LJ Hymn 582: May freedom speed onward, wherever the blood"
 type: hymn
 aliases: ["May freedom speed onward, wherever the blood"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 582
-first_line: "May freedom speed onward, wherever the blood"
+first_line: "'May freedom speed onward, wherever the blood"
 meter: "12s. M"
-topic: "Freedom."
+topic: "'Freedom."
 author: "Whittier"
 composer: ""
 tune_name: ""

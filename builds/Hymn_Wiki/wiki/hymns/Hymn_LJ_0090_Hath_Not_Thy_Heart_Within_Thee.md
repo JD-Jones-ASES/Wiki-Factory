@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 90: Hath not thy heart within thee burned"
+title: "'LJ Hymn 90: Hath not thy heart within thee burned"
 type: hymn
 aliases: ["Hath not thy heart within thee burned"]
 tags: ["#meter-long", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 90
-first_line: "Hath not thy heart within thee burned"
+first_line: "'Hath not thy heart within thee burned"
 meter: "L. M"
-topic: "Voice of God in the Soul."
+topic: "'Voice of God in the Soul."
 author: "Bulfinch"
 composer: ""
 tune_name: ""

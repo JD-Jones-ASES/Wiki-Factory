@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 118: He was there alone, when even"
+title: "'LJ Hymn 118: He was there alone, when even"
 type: hymn
 aliases: ["He was there alone, when even"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 118
-first_line: "He was there alone, when even"
+first_line: "'He was there alone, when even"
 meter: "P. M"
-topic: ""He Was There Alone.""
+topic: "''He Was There Alone.'"
 author: "Bowring"
 composer: ""
 tune_name: ""

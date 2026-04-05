@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 483: Holy Spirit, source of gladness,"
+title: "'LJ Hymn 483: Holy Spirit, source of gladness,"
 type: hymn
 aliases: ["Holy Spirit, source of gladness,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 483
-first_line: "Holy Spirit, source of gladness,"
+first_line: "'Holy Spirit, source of gladness,"
 meter: "8 & 7s. M"
-topic: "Come, Holy Spirit!"
+topic: "'Come, Holy Spirit!"
 author: "Anonymous"
 composer: ""
 tune_name: ""

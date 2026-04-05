@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 37: Father of light! conduct our feet"
+title: "'LJ Hymn 37: Father of light! conduct our feet"
 type: hymn
 aliases: ["Father of light! conduct our feet"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 37
-first_line: "Father of light! conduct our feet"
+first_line: "'Father of light! conduct our feet"
 meter: "C. M"
-topic: "Prayer for Wisdom."
+topic: "'Prayer for Wisdom."
 author: "Smart"
 composer: ""
 tune_name: ""

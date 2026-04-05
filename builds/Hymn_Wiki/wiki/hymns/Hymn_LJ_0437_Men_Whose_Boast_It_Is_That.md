@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 437: Men! whose boast it is that ye"
+title: "'LJ Hymn 437: Men! whose boast it is that ye"
 type: hymn
 aliases: ["Men! whose boast it is that ye"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 437
-first_line: "Men! whose boast it is that ye"
+first_line: "'Men! whose boast it is that ye"
 meter: "7s. M"
-topic: "Anti-Slavery Hymn."
+topic: "'Anti-Slavery Hymn."
 author: "J. R. Lowell"
 composer: ""
 tune_name: ""

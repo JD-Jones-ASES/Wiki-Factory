@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 356: It is a faith sublime and sure,"
+title: "'LJ Hymn 356: It is a faith sublime and sure,"
 type: hymn
 aliases: ["It is a faith sublime and sure,"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 356
-first_line: "It is a faith sublime and sure,"
+first_line: "'It is a faith sublime and sure,"
 meter: "C. M"
-topic: "Spiritual Presence."
+topic: "'Spiritual Presence."
 author: "J. H. Perkins"
 composer: ""
 tune_name: ""

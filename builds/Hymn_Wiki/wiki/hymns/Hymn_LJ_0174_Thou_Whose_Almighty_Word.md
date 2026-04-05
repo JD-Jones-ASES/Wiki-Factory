@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 174: Thou, whose almighty word"
+title: "'LJ Hymn 174: Thou, whose almighty word"
 type: hymn
 aliases: ["Thou, whose almighty word"]
 tags: ["#meter-short", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 174
-first_line: "Thou, whose almighty word"
+first_line: "'Thou, whose almighty word"
 meter: "6 & 4s. M"
-topic: "Let There Be Light."
+topic: "'Let There Be Light."
 author: "Marriott"
 composer: ""
 tune_name: ""

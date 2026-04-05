@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 452: Jesus, while he dwelt below,"
+title: "'LJ Hymn 452: Jesus, while he dwelt below,"
 type: hymn
 aliases: ["Jesus, while he dwelt below,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 452
-first_line: "Jesus, while he dwelt below,"
+first_line: "'Jesus, while he dwelt below,"
 meter: "7s. M"
-topic: "The Garden of Gethsemane."
+topic: "'The Garden of Gethsemane."
 author: "Grant"
 composer: ""
 tune_name: ""

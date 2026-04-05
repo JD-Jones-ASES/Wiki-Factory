@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 17: Lord, before Thy presence come,"
+title: "'LJ Hymn 17: Lord, before Thy presence come,"
 type: hymn
 aliases: ["Lord, before Thy presence come,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 17
-first_line: "Lord, before Thy presence come,"
+first_line: "'Lord, before Thy presence come,"
 meter: "7s. M"
-topic: "Devotion."
+topic: "'Devotion."
 author: "J. Taylor"
 composer: ""
 tune_name: ""

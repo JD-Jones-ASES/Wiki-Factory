@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 107: O Lovely Voices of the sky,"
+title: "'LJ Hymn 107: O Lovely Voices of the sky,"
 type: hymn
 aliases: ["O Lovely Voices of the sky,"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 107
-first_line: "O Lovely Voices of the sky,"
+first_line: "'O Lovely Voices of the sky,"
 meter: "P. M"
-topic: "Hymn for Christmas."
+topic: "'Hymn for Christmas."
 author: "Mrs. Hemans"
 composer: ""
 tune_name: ""

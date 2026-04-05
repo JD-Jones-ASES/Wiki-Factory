@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 342: With silence only as their benediction,"
+title: "'LJ Hymn 342: With silence only as their benediction,"
 type: hymn
 aliases: ["With silence only as their benediction,"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 342
-first_line: "With silence only as their benediction,"
+first_line: "'With silence only as their benediction,"
 meter: "11 & 4s. M"
-topic: "The Angels of Grief."
+topic: "'The Angels of Grief."
 author: "Whittier"
 composer: ""
 tune_name: ""

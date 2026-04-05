@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 156: O Thou great Friend to all the sons of men,"
+title: "'LJ Hymn 156: O Thou great Friend to all the sons of men,"
 type: hymn
 aliases: ["O Thou great Friend to all the sons of men,"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 156
-first_line: "O Thou great Friend to all the sons of men,"
+first_line: "'O Thou great Friend to all the sons of men,"
 meter: "10s. M"
-topic: "Christ the Way, the Truth and the Life."
+topic: "'Christ the Way, the Truth and the Life."
 author: "T. Parker"
 composer: ""
 tune_name: ""

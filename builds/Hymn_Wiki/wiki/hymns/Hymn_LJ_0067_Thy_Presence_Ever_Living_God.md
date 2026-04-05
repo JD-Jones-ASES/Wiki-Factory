@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 67: Thy presence, ever living God!"
+title: "'LJ Hymn 67: Thy presence, ever living God!"
 type: hymn
 aliases: ["Thy presence, ever living God!"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 67
-first_line: "Thy presence, ever living God!"
+first_line: "'Thy presence, ever living God!"
 meter: "L. M"
-topic: "Christian Farewell."
+topic: "'Christian Farewell."
 author: "Doddridge"
 composer: ""
 tune_name: ""

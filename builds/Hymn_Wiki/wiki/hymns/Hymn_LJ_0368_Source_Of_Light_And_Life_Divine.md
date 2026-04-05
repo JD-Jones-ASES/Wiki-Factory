@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 368: Source of light and life divine!"
+title: "'LJ Hymn 368: Source of light and life divine!"
 type: hymn
 aliases: ["Source of light and life divine!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 368
-first_line: "Source of light and life divine!"
+first_line: "'Source of light and life divine!"
 meter: "7s. M"
-topic: "Evening Hymn."
+topic: "'Evening Hymn."
 author: "St. Gregory"
 composer: ""
 tune_name: ""

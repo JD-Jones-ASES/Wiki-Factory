@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 364: In the morning I will pray"
+title: "'LJ Hymn 364: In the morning I will pray"
 type: hymn
 aliases: ["In the morning I will pray"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 364
-first_line: "In the morning I will pray"
+first_line: "'In the morning I will pray"
 meter: "7s. M"
-topic: "Morning Hymn."
+topic: "'Morning Hymn."
 author: "Furness"
 composer: ""
 tune_name: ""

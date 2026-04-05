@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 345: Thanks, thanks unto God! who in mercy hath spoken"
+title: "'LJ Hymn 345: Thanks, thanks unto God! who in mercy hath spoken"
 type: hymn
 aliases: ["Thanks, thanks unto God! who in mercy hath spoken"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 345
-first_line: "Thanks, thanks unto God! who in mercy hath spoken"
+first_line: "'Thanks, thanks unto God! who in mercy hath spoken"
 meter: "12 & 11s. M"
-topic: "Life in Death."
+topic: "'Life in Death."
 author: "Gaskell"
 composer: ""
 tune_name: ""

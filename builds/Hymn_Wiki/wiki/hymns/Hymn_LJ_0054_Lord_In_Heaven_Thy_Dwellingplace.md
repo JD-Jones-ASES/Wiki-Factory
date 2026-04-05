@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 54: Lord, in heaven, Thy dwelling-place,"
+title: "'LJ Hymn 54: Lord, in heaven, Thy dwelling-place,"
 type: hymn
 aliases: ["Lord, in heaven, Thy dwelling-place,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 54
-first_line: "Lord, in heaven, Thy dwelling-place,"
+first_line: "'Lord, in heaven, Thy dwelling-place,"
 meter: "7s. M"
-topic: "Lowly Praise."
+topic: "'Lowly Praise."
 author: "Bowring"
 composer: ""
 tune_name: ""

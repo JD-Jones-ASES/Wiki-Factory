@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 79: Father! Thy wonders do not singly stand,"
+title: "'LJ Hymn 79: Father! Thy wonders do not singly stand,"
 type: hymn
 aliases: ["Father! Thy wonders do not singly stand,"]
 tags: ["#meter-short", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 79
-first_line: "Father! Thy wonders do not singly stand,"
+first_line: "'Father! Thy wonders do not singly stand,"
 meter: "10s. M"
-topic: "God Not Afar Off."
+topic: "'God Not Afar Off."
 author: "Jones Very"
 composer: ""
 tune_name: ""

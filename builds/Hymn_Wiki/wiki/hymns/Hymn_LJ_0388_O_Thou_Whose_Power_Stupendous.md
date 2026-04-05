@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 388: O Thou, whose power stupendous"
+title: "'LJ Hymn 388: O Thou, whose power stupendous"
 type: hymn
 aliases: ["O Thou, whose power stupendous"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 388
-first_line: "O Thou, whose power stupendous"
+first_line: "'O Thou, whose power stupendous"
 meter: "7 & 6s. M"
-topic: "Prayer of a Stricken People."
+topic: "'Prayer of a Stricken People."
 author: "Italian"
 composer: ""
 tune_name: ""

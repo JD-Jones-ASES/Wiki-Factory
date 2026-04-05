@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 290: O, not alone on the mount of prayer"
+title: "'LJ Hymn 290: O, not alone on the mount of prayer"
 type: hymn
 aliases: ["O, not alone on the mount of prayer"]
 tags: ["#meter-peculiar", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 290
-first_line: "O, not alone on the mount of prayer"
+first_line: "'O, not alone on the mount of prayer"
 meter: "P. M"
-topic: "Prayer and Action."
+topic: "'Prayer and Action."
 author: "Bulfinch"
 composer: ""
 tune_name: ""

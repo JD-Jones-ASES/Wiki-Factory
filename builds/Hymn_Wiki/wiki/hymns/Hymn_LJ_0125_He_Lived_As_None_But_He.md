@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 125: He lived as none but he has lived,"
+title: "'LJ Hymn 125: He lived as none but he has lived,"
 type: hymn
 aliases: ["He lived as none but he has lived,"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 125
-first_line: "He lived as none but he has lived,"
+first_line: "'He lived as none but he has lived,"
 meter: "L. M"
-topic: "The Life of Jesus."
+topic: "'The Life of Jesus."
 author: "Brettell"
 composer: ""
 tune_name: ""

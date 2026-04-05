@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 60: Part in peace! is day before us?"
+title: "'LJ Hymn 60: Part in peace! is day before us?"
 type: hymn
 aliases: ["Part in peace! is day before us?"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 60
-first_line: "Part in peace! is day before us?"
+first_line: "'Part in peace! is day before us?"
 meter: "8 & 7s. M"
-topic: "Peace be with You."
+topic: "'Peace be with You."
 author: "Sarah F. Adams"
 composer: ""
 tune_name: ""

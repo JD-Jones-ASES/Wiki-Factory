@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 403: Brother, thou art gone before us,"
+title: "'LJ Hymn 403: Brother, thou art gone before us,"
 type: hymn
 aliases: ["Brother, thou art gone before us,"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 403
-first_line: "Brother, thou art gone before us,"
+first_line: "'Brother, thou art gone before us,"
 meter: "P. M"
-topic: "Funeral Hymn."
+topic: "'Funeral Hymn."
 author: "Milman"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 289: 'Tis not the gift, but 'tis the spirit"
+title: "'LJ Hymn 289: 'Tis not the gift, but 'tis the spirit"
 type: hymn
 aliases: ["'Tis not the gift, but 'tis the spirit"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 289
-first_line: "'Tis not the gift, but 'tis the spirit"
+first_line: "''Tis not the gift, but 'tis the spirit"
 meter: "9 & 4s. M"
-topic: "The Spirit Giveth Life."
+topic: "'The Spirit Giveth Life."
 author: "Bowring"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 494: To Thee, the Lord almighty,"
+title: "'LJ Hymn 494: To Thee, the Lord almighty,"
 type: hymn
 aliases: ["To Thee, the Lord almighty,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 494
-first_line: "To Thee, the Lord almighty,"
+first_line: "'To Thee, the Lord almighty,"
 meter: "7 & 6s. M"
-topic: "Thine is the Glory Forever."
+topic: "'Thine is the Glory Forever."
 author: "Gaskell"
 composer: ""
 tune_name: ""

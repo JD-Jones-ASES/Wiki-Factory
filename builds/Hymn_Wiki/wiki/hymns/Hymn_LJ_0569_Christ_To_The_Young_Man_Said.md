@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 569: Christ to the young man said: "Yet one thing more,"
+title: "LJ Hymn 569: Christ to the young man said: Yet one thing more,"
 type: hymn
-aliases: ["Christ to the young man said: "Yet one thing more,"]
+aliases: ["Christ to the young man said: Yet one thing more,"]
 tags: ["#meter-peculiar", "#theme-worship"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,7 +10,7 @@ related: []
 status: stub
 confidence: high
 hymn_number: 569
-first_line: "Christ to the young man said: \"Yet one thing more,"
+first_line: "Christ to the young man said: Yet one thing more,"
 meter: "P. M"
 topic: "Ordination."
 author: "Longfellow"
@@ -48,7 +48,7 @@ collection: "Longfellow-Johnson"
   2 Within this temple, Christ again, unseen,
       Those sacred words has said;
     And his invisible hands to-day have been
-      Laid on a young man's head.
+      Laid on a young mans head.
   3 And evermore beside him on his way,
       The unseen Christ shall move,
     That he may lean upon his arm and say,
@@ -59,7 +59,7 @@ collection: "Longfellow-Johnson"
       Of pain and midnight prayer.
   5 O holy trust! O endless sense of rest!
       Like the beloved John,
-    To lay his head upon the Saviour's breast,
+    To lay his head upon the Saviours breast,
       And thus to journey on!
 ```
 

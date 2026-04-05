@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 11: Lord! what offering shall we bring,"
+title: "'LJ Hymn 11: Lord! what offering shall we bring,"
 type: hymn
 aliases: ["Lord! what offering shall we bring,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 11
-first_line: "Lord! what offering shall we bring,"
+first_line: "'Lord! what offering shall we bring,"
 meter: "7s. M"
-topic: "Acceptable Offerings."
+topic: "'Acceptable Offerings."
 author: "J. Taylor"
 composer: ""
 tune_name: ""

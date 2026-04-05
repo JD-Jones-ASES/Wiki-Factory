@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 292: Thus said Jesus:--"Go and do"
+title: "LJ Hymn 292: Thus said Jesus:--Go and do"
 type: hymn
-aliases: ["Thus said Jesus:--"Go and do"]
+aliases: ["Thus said Jesus:--Go and do"]
 tags: ["#meter-short", "#theme-pilgrimage"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,7 +10,7 @@ related: []
 status: stub
 confidence: high
 hymn_number: 292
-first_line: "Thus said Jesus:--\"Go and do"
+first_line: "Thus said Jesus:--Go and do"
 meter: "7s. M"
 topic: "The Golden Rule."
 author: "W. Roscoe"

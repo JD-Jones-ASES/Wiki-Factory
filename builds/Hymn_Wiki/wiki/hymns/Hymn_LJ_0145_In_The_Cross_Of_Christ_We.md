@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 145: In the cross of Christ we glory,"
+title: "'LJ Hymn 145: In the cross of Christ we glory,"
 type: hymn
 aliases: ["In the cross of Christ we glory,"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 145
-first_line: "In the cross of Christ we glory,"
+first_line: "'In the cross of Christ we glory,"
 meter: "8 & 7s. M"
-topic: "Glorying in the Cross."
+topic: "'Glorying in the Cross."
 author: "Bowring"
 composer: ""
 tune_name: ""

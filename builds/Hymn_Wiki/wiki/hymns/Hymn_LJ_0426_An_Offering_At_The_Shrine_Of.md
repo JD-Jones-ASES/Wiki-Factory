@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 426: An offering at the shrine of power"
+title: "'LJ Hymn 426: An offering at the shrine of power"
 type: hymn
 aliases: ["An offering at the shrine of power"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 426
-first_line: "An offering at the shrine of power"
+first_line: "'An offering at the shrine of power"
 meter: "C. M"
-topic: "The Reformers."
+topic: "'The Reformers."
 author: "Nicoll"
 composer: ""
 tune_name: ""

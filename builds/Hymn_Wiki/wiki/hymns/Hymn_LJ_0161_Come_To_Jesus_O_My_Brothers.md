@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 161: Come to Jesus, O my brothers,"
+title: "'LJ Hymn 161: Come to Jesus, O my brothers,"
 type: hymn
 aliases: ["Come to Jesus, O my brothers,"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 161
-first_line: "Come to Jesus, O my brothers,"
+first_line: "'Come to Jesus, O my brothers,"
 meter: "8, 7, & 4s. M.                   Anonymous."
-topic: "The Weary and Heavy-Laden."
+topic: "'The Weary and Heavy-Laden."
 author: "Anonymous"
 composer: ""
 tune_name: ""

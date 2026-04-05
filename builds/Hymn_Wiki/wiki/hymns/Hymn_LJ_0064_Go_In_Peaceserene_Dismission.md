@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 64: Go in peace!--serene dismission"
+title: "'LJ Hymn 64: Go in peace!--serene dismission"
 type: hymn
 aliases: ["Go in peace!--serene dismission"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 64
-first_line: "Go in peace!--serene dismission"
+first_line: "'Go in peace!--serene dismission"
 meter: "8 & 7s. M"
-topic: "Go in Peace."
+topic: "'Go in Peace."
 author: "Anonymous"
 composer: ""
 tune_name: ""

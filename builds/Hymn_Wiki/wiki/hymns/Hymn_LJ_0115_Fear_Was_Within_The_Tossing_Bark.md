@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 115: Fear was within the tossing bark,"
+title: "'LJ Hymn 115: Fear was within the tossing bark,"
 type: hymn
 aliases: ["Fear was within the tossing bark,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 115
-first_line: "Fear was within the tossing bark,"
+first_line: "'Fear was within the tossing bark,"
 meter: "C. M"
-topic: "Christ Stilling the Tempest."
+topic: "'Christ Stilling the Tempest."
 author: "Mrs. Hemans"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 579: God's angels! not only on high do they sing,"
+title: "'LJ Hymn 579: God's angels! not only on high do they sing,"
 type: hymn
 aliases: ["God's angels! not only on high do they sing,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 579
-first_line: "God's angels! not only on high do they sing,"
+first_line: "'God's angels! not only on high do they sing,"
 meter: "11s. M"
-topic: "The Angel in the Prison."
+topic: "'The Angel in the Prison."
 author: "J. G. Adams"
 composer: ""
 tune_name: ""

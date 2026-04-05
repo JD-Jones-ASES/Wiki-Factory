@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 357: There is a state unknown, unseen,"
+title: "'LJ Hymn 357: There is a state unknown, unseen,"
 type: hymn
 aliases: ["There is a state unknown, unseen,"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 357
-first_line: "There is a state unknown, unseen,"
+first_line: "'There is a state unknown, unseen,"
 meter: "C. M"
-topic: "The Unseen World."
+topic: "'The Unseen World."
 author: "Jane Taylor"
 composer: ""
 tune_name: ""

@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 130: "Father divine!" the Saviour cried,"
+title: "LJ Hymn 130: Father divine! the Saviour cried,"
 type: hymn
-aliases: [""Father divine!" the Saviour cried,"]
+aliases: ["Father divine! the Saviour cried,"]
 tags: ["#meter-long", "#theme-devotion"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 130
-first_line: "\"Father divine!\" the Saviour cried,"
+first_line: "Father divine! the Saviour cried,"
 meter: "L. M"
-topic: ""Thy Will, Not Mine, Be Done.""
+topic: "Thy Will, Not Mine, Be Done."
 author: "Doddridge"
 composer: ""
 tune_name: ""

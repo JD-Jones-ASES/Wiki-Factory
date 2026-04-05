@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 432: Many a power within earth's bosom,"
+title: "'LJ Hymn 432: Many a power within earth's bosom,"
 type: hymn
 aliases: ["Many a power within earth's bosom,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 432
-first_line: "Many a power within earth's bosom,"
+first_line: "'Many a power within earth's bosom,"
 meter: "8 & 7s. M"
-topic: "The Husbandman's Hymn."
+topic: "'The Husbandman's Hymn."
 author: "Sterling"
 composer: ""
 tune_name: ""

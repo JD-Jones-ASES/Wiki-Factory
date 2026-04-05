@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 25: How shall we praise Thee, Lord of light!"
+title: "'LJ Hymn 25: How shall we praise Thee, Lord of light!"
 type: hymn
 aliases: ["How shall we praise Thee, Lord of light!"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 25
-first_line: "How shall we praise Thee, Lord of light!"
+first_line: "'How shall we praise Thee, Lord of light!"
 meter: "L. M"
-topic: "Evening Worship."
+topic: "'Evening Worship."
 author: "Bowring"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 207: Lord! I believe; Thy power I own"
+title: "'LJ Hymn 207: Lord! I believe; Thy power I own"
 type: hymn
 aliases: ["Lord! I believe; Thy power I own"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 207
-first_line: "Lord! I believe; Thy power I own"
+first_line: "'Lord! I believe; Thy power I own"
 meter: "C. M"
-topic: "Prayer for Increase of Faith."
+topic: "'Prayer for Increase of Faith."
 author: "Wreford"
 composer: ""
 tune_name: ""

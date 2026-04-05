@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 581: Lord! deliver; Thou canst save;"
+title: "'LJ Hymn 581: Lord! deliver; Thou canst save;"
 type: hymn
 aliases: ["Lord! deliver; Thou canst save;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 581
-first_line: "Lord! deliver; Thou canst save;"
+first_line: "'Lord! deliver; Thou canst save;"
 meter: "7s. M"
-topic: "Prayer for the Slave."
+topic: "'Prayer for the Slave."
 author: "Mrs. Follen"
 composer: ""
 tune_name: ""

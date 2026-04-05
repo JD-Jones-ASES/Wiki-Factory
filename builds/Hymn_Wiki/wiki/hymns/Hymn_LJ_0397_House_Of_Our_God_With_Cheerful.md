@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 397: House of our God, with cheerful anthems ring,"
+title: "'LJ Hymn 397: House of our God, with cheerful anthems ring,"
 type: hymn
 aliases: ["House of our God, with cheerful anthems ring,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 397
-first_line: "House of our God, with cheerful anthems ring,"
+first_line: "'House of our God, with cheerful anthems ring,"
 meter: "10 & 11s. M"
-topic: "Thanksgiving for the Fruits of the Earth."
+topic: "'Thanksgiving for the Fruits of the Earth."
 author: "Doddridge"
 composer: ""
 tune_name: ""

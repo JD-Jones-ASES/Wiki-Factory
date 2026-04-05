@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 404: Another hand is beckoning us,"
+title: "'LJ Hymn 404: Another hand is beckoning us,"
 type: hymn
 aliases: ["Another hand is beckoning us,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 404
-first_line: "Another hand is beckoning us,"
+first_line: "'Another hand is beckoning us,"
 meter: "C. M"
-topic: "Not Lost, But Gone Before."
+topic: "'Not Lost, But Gone Before."
 author: "Whittier"
 composer: ""
 tune_name: ""

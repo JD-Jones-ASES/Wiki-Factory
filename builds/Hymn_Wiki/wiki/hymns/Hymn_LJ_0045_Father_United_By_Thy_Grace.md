@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 45: Father, united by Thy grace,"
+title: "'LJ Hymn 45: Father, united by Thy grace,"
 type: hymn
 aliases: ["Father, united by Thy grace,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 45
-first_line: "Father, united by Thy grace,"
+first_line: "'Father, united by Thy grace,"
 meter: "C. M"
-topic: "Made Perfect in Love."
+topic: "'Made Perfect in Love."
 author: "Methodist"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 69: As the sun's enlivening eye"
+title: "'LJ Hymn 69: As the sun's enlivening eye"
 type: hymn
 aliases: ["As the sun's enlivening eye"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 69
-first_line: "As the sun's enlivening eye"
+first_line: "'As the sun's enlivening eye"
 meter: "7s. M"
-topic: "God Ever Near."
+topic: "'God Ever Near."
 author: "Newton"
 composer: ""
 tune_name: ""

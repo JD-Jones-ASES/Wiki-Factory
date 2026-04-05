@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 22: Father! Thy paternal care"
+title: "'LJ Hymn 22: Father! Thy paternal care"
 type: hymn
 aliases: ["Father! Thy paternal care"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 22
-first_line: "Father! Thy paternal care"
+first_line: "'Father! Thy paternal care"
 meter: "7s. M"
-topic: "Every Good Gift from the Father."
+topic: "'Every Good Gift from the Father."
 author: "Bowring"
 composer: ""
 tune_name: ""

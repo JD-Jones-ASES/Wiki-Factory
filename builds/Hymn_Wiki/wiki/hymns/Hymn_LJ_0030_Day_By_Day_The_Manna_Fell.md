@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 30: Day by day the manna fell;"
+title: "'LJ Hymn 30: Day by day the manna fell;"
 type: hymn
 aliases: ["Day by day the manna fell;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 30
-first_line: "Day by day the manna fell;"
+first_line: "'Day by day the manna fell;"
 meter: "7s. M"
-topic: ""Give Us Our Daily Bread.""
+topic: "''Give Us Our Daily Bread.'"
 author: "Conder"
 composer: ""
 tune_name: ""

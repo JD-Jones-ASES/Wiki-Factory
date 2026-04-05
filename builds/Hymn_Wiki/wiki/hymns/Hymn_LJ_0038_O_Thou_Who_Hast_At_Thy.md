@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 38: O Thou, who hast at Thy command"
+title: "'LJ Hymn 38: O Thou, who hast at Thy command"
 type: hymn
 aliases: ["O Thou, who hast at Thy command"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 38
-first_line: "O Thou, who hast at Thy command"
+first_line: "'O Thou, who hast at Thy command"
 meter: "L. M"
-topic: "Living to the Glory of God."
+topic: "'Living to the Glory of God."
 author: "Mrs. Cotterill"
 composer: ""
 tune_name: ""

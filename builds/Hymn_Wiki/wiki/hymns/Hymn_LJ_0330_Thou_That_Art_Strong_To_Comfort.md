@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 330: Thou that art strong to comfort, look on me!"
+title: "'LJ Hymn 330: Thou that art strong to comfort, look on me!"
 type: hymn
 aliases: ["Thou that art strong to comfort, look on me!"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 330
-first_line: "Thou that art strong to comfort, look on me!"
+first_line: "'Thou that art strong to comfort, look on me!"
 meter: "10s. M"
-topic: "In Affliction."
+topic: "'In Affliction."
 author: "Mrs. Howitt"
 composer: ""
 tune_name: ""

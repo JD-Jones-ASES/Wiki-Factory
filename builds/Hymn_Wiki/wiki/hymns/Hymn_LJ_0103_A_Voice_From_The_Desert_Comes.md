@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 103: A Voice from the desert comes awful and shrill;"
+title: "'LJ Hymn 103: A Voice from the desert comes awful and shrill;"
 type: hymn
 aliases: ["A Voice from the desert comes awful and shrill;"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 103
-first_line: "A Voice from the desert comes awful and shrill;"
+first_line: "'A Voice from the desert comes awful and shrill;"
 meter: "11s. M"
-topic: ""Prepare Ye the Way of the Lord!""
+topic: "''Prepare Ye the Way of the Lord!'"
 author: "Drummond"
 composer: ""
 tune_name: ""

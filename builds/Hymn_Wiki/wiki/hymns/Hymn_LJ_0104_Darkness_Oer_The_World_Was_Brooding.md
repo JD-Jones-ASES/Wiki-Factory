@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 104: Darkness o'er the world was brooding"
+title: "'LJ Hymn 104: Darkness o'er the world was brooding"
 type: hymn
 aliases: ["Darkness o'er the world was brooding"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 104
-first_line: "Darkness o'er the world was brooding"
+first_line: "'Darkness o'er the world was brooding"
 meter: "8 & 7s. M"
-topic: "The Dayspring From on High."
+topic: "'The Dayspring From on High."
 author: "Gaskell"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 254: Commit thou all thy griefs"
+title: "'LJ Hymn 254: Commit thou all thy griefs"
 type: hymn
 aliases: ["Commit thou all thy griefs"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 254
-first_line: "Commit thou all thy griefs"
+first_line: "'Commit thou all thy griefs"
 meter: "S. M"
-topic: "Reliance."
+topic: "'Reliance."
 author: "Moravian"
 composer: ""
 tune_name: ""

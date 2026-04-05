@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 572: Lord of the wide-extended main!"
+title: "'LJ Hymn 572: Lord of the wide-extended main!"
 type: hymn
 aliases: ["Lord of the wide-extended main!"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 572
-first_line: "Lord of the wide-extended main!"
+first_line: "'Lord of the wide-extended main!"
 meter: "L. M"
-topic: "The Sailor's Hymn."
+topic: "'The Sailor's Hymn."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

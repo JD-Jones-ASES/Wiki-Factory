@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 561: Partners of a glorious hope,"
+title: "'LJ Hymn 561: Partners of a glorious hope,"
 type: hymn
 aliases: ["Partners of a glorious hope,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 561
-first_line: "Partners of a glorious hope,"
+first_line: "'Partners of a glorious hope,"
 meter: "7s. M"
-topic: "Communion Hymn."
+topic: "'Communion Hymn."
 author: "Wesleyan"
 composer: ""
 tune_name: ""

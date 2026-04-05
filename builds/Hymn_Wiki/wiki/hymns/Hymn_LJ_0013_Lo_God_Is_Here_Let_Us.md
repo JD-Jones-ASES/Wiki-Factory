@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 13: Lo! God is here; let us adore,"
+title: "'LJ Hymn 13: Lo! God is here; let us adore,"
 type: hymn
 aliases: ["Lo! God is here; let us adore,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 13
-first_line: "Lo! God is here; let us adore,"
+first_line: "'Lo! God is here; let us adore,"
 meter: "L. M"
-topic: "The Lord is in His Holy Temple."
+topic: "'The Lord is in His Holy Temple."
 author: "Anonymous"
 composer: ""
 tune_name: ""

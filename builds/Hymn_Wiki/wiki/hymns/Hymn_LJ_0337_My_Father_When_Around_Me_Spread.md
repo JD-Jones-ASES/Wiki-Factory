@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 337: My Father, when around me spread"
+title: "'LJ Hymn 337: My Father, when around me spread"
 type: hymn
 aliases: ["My Father, when around me spread"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 337
-first_line: "My Father, when around me spread"
+first_line: "'My Father, when around me spread"
 meter: "L. M"
-topic: "Light in Darkness."
+topic: "'Light in Darkness."
 author: "Jane Roscoe"
 composer: ""
 tune_name: ""

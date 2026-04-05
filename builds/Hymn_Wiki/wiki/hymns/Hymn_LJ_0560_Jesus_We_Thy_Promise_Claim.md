@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 560: Jesus, we thy promise claim;"
+title: "'LJ Hymn 560: Jesus, we thy promise claim;"
 type: hymn
 aliases: ["Jesus, we thy promise claim;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 560
-first_line: "Jesus, we thy promise claim;"
+first_line: "'Jesus, we thy promise claim;"
 meter: "7s. M"
-topic: "Communion Hymn."
+topic: "'Communion Hymn."
 author: "Wesleyan"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 163: Through thee as we together came,"
+title: "'LJ Hymn 163: Through thee as we together came,"
 type: hymn
 aliases: ["Through thee as we together came,"]
 tags: ["#meter-common", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 163
-first_line: "Through thee as we together came,"
+first_line: "'Through thee as we together came,"
 meter: "C. M"
-topic: "Parting Hymn."
+topic: "'Parting Hymn."
 author: "Anonymous"
 composer: ""
 tune_name: ""

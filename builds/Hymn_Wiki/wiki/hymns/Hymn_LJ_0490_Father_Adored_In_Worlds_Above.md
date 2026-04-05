@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 490: Father, adored in worlds above!"
+title: "'LJ Hymn 490: Father, adored in worlds above!"
 type: hymn
 aliases: ["Father, adored in worlds above!"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 490
-first_line: "Father, adored in worlds above!"
+first_line: "'Father, adored in worlds above!"
 meter: "L. M"
-topic: "The Lord's Prayer."
+topic: "'The Lord's Prayer."
 author: "Anonymous"
 composer: ""
 tune_name: ""

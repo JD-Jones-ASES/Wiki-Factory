@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 210: Why, thou never-setting Light,"
+title: "'LJ Hymn 210: Why, thou never-setting Light,"
 type: hymn
 aliases: ["Why, thou never-setting Light,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 210
-first_line: "Why, thou never-setting Light,"
+first_line: "'Why, thou never-setting Light,"
 meter: "7s. M"
-topic: "In Doubt."
+topic: "'In Doubt."
 author: "Russian"
 composer: ""
 tune_name: ""

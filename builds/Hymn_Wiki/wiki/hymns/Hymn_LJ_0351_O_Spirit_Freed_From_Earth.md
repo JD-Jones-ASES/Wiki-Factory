@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 351: O spirit, freed from earth,"
+title: "'LJ Hymn 351: O spirit, freed from earth,"
 type: hymn
 aliases: ["O spirit, freed from earth,"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 351
-first_line: "O spirit, freed from earth,"
+first_line: "'O spirit, freed from earth,"
 meter: "S. M"
-topic: "He is Risen."
+topic: "'He is Risen."
 author: "Mrs. Howitt"
 composer: ""
 tune_name: ""

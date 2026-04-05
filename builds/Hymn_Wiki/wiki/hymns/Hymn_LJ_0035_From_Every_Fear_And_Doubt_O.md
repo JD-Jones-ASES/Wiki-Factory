@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 35: From every fear and doubt, O Lord,"
+title: "'LJ Hymn 35: From every fear and doubt, O Lord,"
 type: hymn
 aliases: ["From every fear and doubt, O Lord,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 35
-first_line: "From every fear and doubt, O Lord,"
+first_line: "'From every fear and doubt, O Lord,"
 meter: "C. M"
-topic: "Drawing Near to God."
+topic: "'Drawing Near to God."
 author: "Anonymous"
 composer: ""
 tune_name: ""

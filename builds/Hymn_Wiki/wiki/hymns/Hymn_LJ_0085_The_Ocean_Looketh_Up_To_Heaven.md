@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 85: The ocean looketh up to heaven,"
+title: "'LJ Hymn 85: The ocean looketh up to heaven,"
 type: hymn
 aliases: ["The ocean looketh up to heaven,"]
 tags: ["#meter-common", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 85
-first_line: "The ocean looketh up to heaven,"
+first_line: "'The ocean looketh up to heaven,"
 meter: "C. M"
-topic: "Nature's Worship."
+topic: "'Nature's Worship."
 author: "Whittier"
 composer: ""
 tune_name: ""

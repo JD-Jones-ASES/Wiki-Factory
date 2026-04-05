@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 507: For mercies past we praise Thee, Lord,"
+title: "'LJ Hymn 507: For mercies past we praise Thee, Lord,"
 type: hymn
 aliases: ["For mercies past we praise Thee, Lord,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 507
-first_line: "For mercies past we praise Thee, Lord,"
+first_line: "'For mercies past we praise Thee, Lord,"
 meter: "L. M"
-topic: "Hymn of a Household."
+topic: "'Hymn of a Household."
 author: "Anonymous"
 composer: ""
 tune_name: ""

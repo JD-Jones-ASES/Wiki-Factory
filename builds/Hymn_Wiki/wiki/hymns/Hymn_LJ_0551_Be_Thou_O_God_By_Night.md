@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 551: Be Thou, O God, by night, by day,"
+title: "'LJ Hymn 551: Be Thou, O God, by night, by day,"
 type: hymn
 aliases: ["Be Thou, O God, by night, by day,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 551
-first_line: "Be Thou, O God, by night, by day,"
+first_line: "'Be Thou, O God, by night, by day,"
 meter: "C. M"
-topic: "Morning Hymn."
+topic: "'Morning Hymn."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 267: Lo, the lilies of the field!"
+title: "'LJ Hymn 267: Lo, the lilies of the field!"
 type: hymn
 aliases: ["Lo, the lilies of the field!"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 267
-first_line: "Lo, the lilies of the field!"
+first_line: "'Lo, the lilies of the field!"
 meter: "7s. M"
-topic: "Consider the Lilies."
+topic: "'Consider the Lilies."
 author: "Heber"
 composer: ""
 tune_name: ""

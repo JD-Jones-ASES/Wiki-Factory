@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 197: Soul! celestial in thy birth,"
+title: "'LJ Hymn 197: Soul! celestial in thy birth,"
 type: hymn
 aliases: ["Soul! celestial in thy birth,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 197
-first_line: "Soul! celestial in thy birth,"
+first_line: "'Soul! celestial in thy birth,"
 meter: "7s. M"
-topic: "Come Home!"
+topic: "'Come Home!"
 author: "Briggs' Coll"
 composer: ""
 tune_name: ""

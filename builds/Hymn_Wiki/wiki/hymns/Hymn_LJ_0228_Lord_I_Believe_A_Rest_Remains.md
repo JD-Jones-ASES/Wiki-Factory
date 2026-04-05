@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 228: Lord, I believe a rest remains,"
+title: "'LJ Hymn 228: Lord, I believe a rest remains,"
 type: hymn
 aliases: ["Lord, I believe a rest remains,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 228
-first_line: "Lord, I believe a rest remains,"
+first_line: "'Lord, I believe a rest remains,"
 meter: "C. M"
-topic: "There Remaineth a Rest for the People of God."
+topic: "'There Remaineth a Rest for the People of God."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 481: Earth's busy sounds and ceaseless din"
+title: "'LJ Hymn 481: Earth's busy sounds and ceaseless din"
 type: hymn
 aliases: ["Earth's busy sounds and ceaseless din"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 481
-first_line: "Earth's busy sounds and ceaseless din"
+first_line: "'Earth's busy sounds and ceaseless din"
 meter: "C. M"
-topic: "The Hour of Prayer."
+topic: "'The Hour of Prayer."
 author: "Orig. Hymns"
 composer: ""
 tune_name: ""

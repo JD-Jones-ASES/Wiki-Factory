@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 177: Pour, blessed gospel, glorious news for man!"
+title: "'LJ Hymn 177: Pour, blessed gospel, glorious news for man!"
 type: hymn
 aliases: ["Pour, blessed gospel, glorious news for man!"]
 tags: ["#meter-short", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 177
-first_line: "Pour, blessed gospel, glorious news for man!"
+first_line: "'Pour, blessed gospel, glorious news for man!"
 meter: "10s. M"
-topic: "Triumph of the Gospel."
+topic: "'Triumph of the Gospel."
 author: "Ashworth"
 composer: ""
 tune_name: ""

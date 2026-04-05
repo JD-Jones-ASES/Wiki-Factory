@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 384: O God! Thy children, gathered here,"
+title: "'LJ Hymn 384: O God! Thy children, gathered here,"
 type: hymn
 aliases: ["O God! Thy children, gathered here,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 384
-first_line: "O God! Thy children, gathered here,"
+first_line: "'O God! Thy children, gathered here,"
 meter: "C. M"
-topic: "Ordination Hymn."
+topic: "'Ordination Hymn."
 author: "Anonymous"
 composer: ""
 tune_name: ""

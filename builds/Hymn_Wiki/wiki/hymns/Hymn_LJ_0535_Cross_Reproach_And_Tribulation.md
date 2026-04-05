@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 535: Cross, reproach, and tribulation,"
+title: "'LJ Hymn 535: Cross, reproach, and tribulation,"
 type: hymn
 aliases: ["Cross, reproach, and tribulation,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 535
-first_line: "Cross, reproach, and tribulation,"
+first_line: "'Cross, reproach, and tribulation,"
 meter: "8 & 7s. M"
-topic: "Bearing the Reproach of Christ."
+topic: "'Bearing the Reproach of Christ."
 author: "Moravian"
 composer: ""
 tune_name: ""

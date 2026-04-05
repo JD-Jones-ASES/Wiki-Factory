@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 88: Though wandering in a stranger-land,"
+title: "'LJ Hymn 88: Though wandering in a stranger-land,"
 type: hymn
 aliases: ["Though wandering in a stranger-land,"]
 tags: ["#meter-long", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 88
-first_line: "Though wandering in a stranger-land,"
+first_line: "'Though wandering in a stranger-land,"
 meter: "L. M"
-topic: "The Great Temple."
+topic: "'The Great Temple."
 author: "Fox's Hymns"
 composer: ""
 tune_name: ""

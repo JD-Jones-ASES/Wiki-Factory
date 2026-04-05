@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 509: Father, we bless the gentle care"
+title: "'LJ Hymn 509: Father, we bless the gentle care"
 type: hymn
 aliases: ["Father, we bless the gentle care"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 509
-first_line: "Father, we bless the gentle care"
+first_line: "'Father, we bless the gentle care"
 meter: "L. M"
-topic: "Family Hymn. Evening."
+topic: "'Family Hymn. Evening."
 author: "S. S. Cutting"
 composer: ""
 tune_name: ""

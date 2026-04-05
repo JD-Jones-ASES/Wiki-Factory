@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 398: God of the year! with songs of praise,"
+title: "'LJ Hymn 398: God of the year! with songs of praise,"
 type: hymn
 aliases: ["God of the year! with songs of praise,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 398
-first_line: "God of the year! with songs of praise,"
+first_line: "'God of the year! with songs of praise,"
 meter: "L. M"
-topic: "The Year Crowned with Goodness."
+topic: "'The Year Crowned with Goodness."
 author: "Mrs. Sigourney"
 composer: ""
 tune_name: ""

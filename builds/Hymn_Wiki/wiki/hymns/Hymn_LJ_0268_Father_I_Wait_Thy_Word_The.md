@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 268: Father! I wait Thy word. The sun doth stand"
+title: "'LJ Hymn 268: Father! I wait Thy word. The sun doth stand"
 type: hymn
 aliases: ["Father! I wait Thy word. The sun doth stand"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 268
-first_line: "Father! I wait Thy word. The sun doth stand"
+first_line: "'Father! I wait Thy word. The sun doth stand"
 meter: "10s. M"
-topic: "The Son."
+topic: "'The Son."
 author: "Jones Very"
 composer: ""
 tune_name: ""

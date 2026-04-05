@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 319: There's a strife we all must wage,"
+title: "'LJ Hymn 319: There's a strife we all must wage,"
 type: hymn
 aliases: ["There's a strife we all must wage,"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 319
-first_line: "There's a strife we all must wage,"
+first_line: "'There's a strife we all must wage,"
 meter: "7s. M"
-topic: "Struggle."
+topic: "'Struggle."
 author: "Bulfinch"
 composer: ""
 tune_name: ""

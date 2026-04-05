@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 576: Now, host with host assembling,"
+title: "'LJ Hymn 576: Now, host with host assembling,"
 type: hymn
 aliases: ["Now, host with host assembling,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 576
-first_line: "Now, host with host assembling,"
+first_line: "'Now, host with host assembling,"
 meter: "7 & 6s. M"
-topic: "Triumph of Temperance."
+topic: "'Triumph of Temperance."
 author: "E. H. Chapin"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 155: Not in the name of pride"
+title: "'LJ Hymn 155: Not in the name of pride"
 type: hymn
 aliases: ["Not in the name of pride"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 155
-first_line: "Not in the name of pride"
+first_line: "'Not in the name of pride"
 meter: "S. M"
-topic: "Presence of Jesus."
+topic: "'Presence of Jesus."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

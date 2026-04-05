@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 301: Hast thou, 'midst life's empty noises,"
+title: "'LJ Hymn 301: Hast thou, 'midst life's empty noises,"
 type: hymn
 aliases: ["Hast thou, 'midst life's empty noises,"]
 tags: ["#meter-peculiar", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 301
-first_line: "Hast thou, 'midst life's empty noises,"
+first_line: "'Hast thou, 'midst life's empty noises,"
 meter: "P. M"
-topic: "The Purpose of Life."
+topic: "'The Purpose of Life."
 author: "Whittier"
 composer: ""
 tune_name: ""

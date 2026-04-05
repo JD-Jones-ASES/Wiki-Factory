@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 12: Here, in this place of prayer,"
+title: "'LJ Hymn 12: Here, in this place of prayer,"
 type: hymn
 aliases: ["Here, in this place of prayer,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 12
-first_line: "Here, in this place of prayer,"
+first_line: "'Here, in this place of prayer,"
 meter: "S. M"
-topic: "The Place of Prayer."
+topic: "'The Place of Prayer."
 author: "Anonymous"
 composer: ""
 tune_name: ""

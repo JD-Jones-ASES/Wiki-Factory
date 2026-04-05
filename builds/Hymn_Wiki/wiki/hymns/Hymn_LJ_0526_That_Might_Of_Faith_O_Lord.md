@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 526: That might of faith, O Lord! bestow,"
+title: "'LJ Hymn 526: That might of faith, O Lord! bestow,"
 type: hymn
 aliases: ["That might of faith, O Lord! bestow,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 526
-first_line: "That might of faith, O Lord! bestow,"
+first_line: "'That might of faith, O Lord! bestow,"
 meter: "C. M"
-topic: "Prayer for Faith."
+topic: "'Prayer for Faith."
 author: "Anonymous"
 composer: ""
 tune_name: ""

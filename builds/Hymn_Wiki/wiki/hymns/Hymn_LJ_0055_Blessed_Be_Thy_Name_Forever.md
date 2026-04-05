@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 55: Blessed be Thy name forever,"
+title: "'LJ Hymn 55: Blessed be Thy name forever,"
 type: hymn
 aliases: ["Blessed be Thy name forever,"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 55
-first_line: "Blessed be Thy name forever,"
+first_line: "'Blessed be Thy name forever,"
 meter: "P. M"
-topic: "Praise to the God of Nature."
+topic: "'Praise to the God of Nature."
 author: "Hogg"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 598: Faint the earth, and parched with drought,"
+title: "'LJ Hymn 598: Faint the earth, and parched with drought,"
 type: hymn
 aliases: ["Faint the earth, and parched with drought,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 598
-first_line: "Faint the earth, and parched with drought,"
+first_line: "'Faint the earth, and parched with drought,"
 meter: "7s. M"
-topic: "The Prophet's Vision."
+topic: "'The Prophet's Vision."
 author: "Anonymous"
 composer: ""
 tune_name: ""

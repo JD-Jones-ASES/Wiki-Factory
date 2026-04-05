@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 395: The earth, all light and loveliness,"
+title: "'LJ Hymn 395: The earth, all light and loveliness,"
 type: hymn
 aliases: ["The earth, all light and loveliness,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 395
-first_line: "The earth, all light and loveliness,"
+first_line: "'The earth, all light and loveliness,"
 meter: "C. M"
-topic: "Summer."
+topic: "'Summer."
 author: "Mrs. Miles"
 composer: ""
 tune_name: ""

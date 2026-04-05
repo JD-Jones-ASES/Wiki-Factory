@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 76: No human eyes Thy face may see;"
+title: "'LJ Hymn 76: No human eyes Thy face may see;"
 type: hymn
 aliases: ["No human eyes Thy face may see;"]
 tags: ["#meter-long", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 76
-first_line: "No human eyes Thy face may see;"
+first_line: "'No human eyes Thy face may see;"
 meter: "L. M"
-topic: "God Known Through Love."
+topic: "'God Known Through Love."
 author: "Anonymous"
 composer: ""
 tune_name: ""

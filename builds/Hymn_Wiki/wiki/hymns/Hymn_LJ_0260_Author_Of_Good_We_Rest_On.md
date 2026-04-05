@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 260: Author of good, we rest on Thee;"
+title: "'LJ Hymn 260: Author of good, we rest on Thee;"
 type: hymn
 aliases: ["Author of good, we rest on Thee;"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 260
-first_line: "Author of good, we rest on Thee;"
+first_line: "'Author of good, we rest on Thee;"
 meter: "C. M"
-topic: ""He Knoweth What Ye Have Need Of.""
+topic: "''He Knoweth What Ye Have Need Of.'"
 author: "Merrick"
 composer: ""
 tune_name: ""

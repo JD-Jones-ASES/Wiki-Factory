@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 120: Ever patient, loving, meek,"
+title: "'LJ Hymn 120: Ever patient, loving, meek,"
 type: hymn
 aliases: ["Ever patient, loving, meek,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 120
-first_line: "Ever patient, loving, meek,"
+first_line: "'Ever patient, loving, meek,"
 meter: "7s. M"
-topic: "The Mind Which Was in Christ Jesus."
+topic: "'The Mind Which Was in Christ Jesus."
 author: "Anonymous"
 composer: ""
 tune_name: ""

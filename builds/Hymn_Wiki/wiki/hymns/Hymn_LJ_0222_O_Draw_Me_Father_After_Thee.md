@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 222: O, Draw me, Father, after Thee!"
+title: "'LJ Hymn 222: O, Draw me, Father, after Thee!"
 type: hymn
 aliases: ["O, Draw me, Father, after Thee!"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 222
-first_line: "O, Draw me, Father, after Thee!"
+first_line: "'O, Draw me, Father, after Thee!"
 meter: "L. M"
-topic: "Aspiration."
+topic: "'Aspiration."
 author: "Moravian"
 composer: ""
 tune_name: ""

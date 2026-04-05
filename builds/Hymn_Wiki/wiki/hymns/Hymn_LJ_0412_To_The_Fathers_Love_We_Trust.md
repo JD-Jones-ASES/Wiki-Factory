@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 412: To the Father's love we trust"
+title: "'LJ Hymn 412: To the Father's love we trust"
 type: hymn
 aliases: ["To the Father's love we trust"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 412
-first_line: "To the Father's love we trust"
+first_line: "'To the Father's love we trust"
 meter: "7s. M"
-topic: "Funeral Hymn of a Child."
+topic: "'Funeral Hymn of a Child."
 author: "Anonymous"
 composer: ""
 tune_name: ""

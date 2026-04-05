@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 151: "O, Not for these alone I pray,""
+title: "LJ Hymn 151: O, Not for these alone I pray,"
 type: hymn
-aliases: [""O, Not for these alone I pray,""]
+aliases: ["O, Not for these alone I pray,"]
 tags: ["#meter-common", "#theme-communion"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 151
-first_line: "\"O, Not for these alone I pray,\""
+first_line: "O, Not for these alone I pray,"
 meter: "C. M"
-topic: ""I Pray Not for These Alone.""
+topic: "I Pray Not for These Alone."
 author: "Emily Taylor"
 composer: ""
 tune_name: ""
@@ -44,18 +44,18 @@ collection: "Longfellow-Johnson"
 1 "O, Not for these alone I pray,"
       The dying Saviour said;
     Though on his breast that moment lay
-      The loved disciple's head;
+      The loved disciples head;
   2 Though to his eye that moment sprung
       The kind, the pitying tear
     For those that eager round him hung,
       His words of love to hear.
   3 No, not for them alone he prayed;--
       For all of mortal race,
-    Whene'er their fervent prayer is made,
-      Where'er their dwelling-place.
+    Wheneer their fervent prayer is made,
+      Whereer their dwelling-place.
   4 Sweet is the thought, when here we meet,
       His feast of love to share;
-    And, 'mid the toils of life, how sweet
+    And, mid the toils of life, how sweet
       The memory of his prayer!
 ```
 

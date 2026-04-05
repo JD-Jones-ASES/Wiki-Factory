@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 235: Father, I will not pray"
+title: "'LJ Hymn 235: Father, I will not pray"
 type: hymn
 aliases: ["Father, I will not pray"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 235
-first_line: "Father, I will not pray"
+first_line: "'Father, I will not pray"
 meter: "S. M"
-topic: "Walking with God."
+topic: "'Walking with God."
 author: "Briggs' Coll"
 composer: ""
 tune_name: ""

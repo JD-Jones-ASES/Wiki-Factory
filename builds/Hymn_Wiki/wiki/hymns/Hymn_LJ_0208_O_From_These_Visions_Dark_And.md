@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 208: O, from these visions dark and drear,"
+title: "'LJ Hymn 208: O, from these visions dark and drear,"
 type: hymn
 aliases: ["O, from these visions dark and drear,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 208
-first_line: "O, from these visions dark and drear,"
+first_line: "'O, from these visions dark and drear,"
 meter: "C. M"
-topic: "My God, Remember Me."
+topic: "'My God, Remember Me."
 author: "Bartrum"
 composer: ""
 tune_name: ""

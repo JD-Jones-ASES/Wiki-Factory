@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 545: Oh God, that mad'st the earth and sky,"
+title: "'LJ Hymn 545: Oh God, that mad'st the earth and sky,"
 type: hymn
 aliases: ["Oh God, that mad'st the earth and sky,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 545
-first_line: "Oh God, that mad'st the earth and sky,"
+first_line: "'Oh God, that mad'st the earth and sky,"
 meter: "C. M"
-topic: "In the Day of Distress."
+topic: "'In the Day of Distress."
 author: "Heber"
 composer: ""
 tune_name: ""

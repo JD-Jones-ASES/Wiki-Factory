@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 248: They, who on the Lord rely,"
+title: "'LJ Hymn 248: They, who on the Lord rely,"
 type: hymn
 aliases: ["They, who on the Lord rely,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 248
-first_line: "They, who on the Lord rely,"
+first_line: "'They, who on the Lord rely,"
 meter: "7s. M"
-topic: "He Shall Give His Angels Charge over Thee."
+topic: "'He Shall Give His Angels Charge over Thee."
 author: "Sp. of the Psalms"
 composer: ""
 tune_name: ""

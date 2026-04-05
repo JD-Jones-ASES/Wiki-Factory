@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 340: Weep thou, O mourner! but in lamentation"
+title: "'LJ Hymn 340: Weep thou, O mourner! but in lamentation"
 type: hymn
 aliases: ["Weep thou, O mourner! but in lamentation"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 340
-first_line: "Weep thou, O mourner! but in lamentation"
+first_line: "'Weep thou, O mourner! but in lamentation"
 meter: "11 & 10s. M"
-topic: "The Mourner."
+topic: "'The Mourner."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 380: We join to pray, with wishes kind,"
+title: "'LJ Hymn 380: We join to pray, with wishes kind,"
 type: hymn
 aliases: ["We join to pray, with wishes kind,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 380
-first_line: "We join to pray, with wishes kind,"
+first_line: "'We join to pray, with wishes kind,"
 meter: "C. M"
-topic: "Marriage Hymn."
+topic: "'Marriage Hymn."
 author: "Gaskell"
 composer: ""
 tune_name: ""

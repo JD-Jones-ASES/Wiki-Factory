@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 329: Affliction's faded form draws nigh,"
+title: "'LJ Hymn 329: Affliction's faded form draws nigh,"
 type: hymn
 aliases: ["Affliction's faded form draws nigh,"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 329
-first_line: "Affliction's faded form draws nigh,"
+first_line: "'Affliction's faded form draws nigh,"
 meter: "L. M"
-topic: "Affliction, God's Angel."
+topic: "'Affliction, God's Angel."
 author: "N. Y. Coll"
 composer: ""
 tune_name: ""

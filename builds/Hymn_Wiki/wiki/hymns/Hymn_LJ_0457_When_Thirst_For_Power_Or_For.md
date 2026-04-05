@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 457: When thirst for power or for gold"
+title: "'LJ Hymn 457: When thirst for power or for gold"
 type: hymn
 aliases: ["When thirst for power or for gold"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 457
-first_line: "When thirst for power or for gold"
+first_line: "'When thirst for power or for gold"
 meter: "C. M"
-topic: "The Heavenly Guide."
+topic: "'The Heavenly Guide."
 author: "German"
 composer: ""
 tune_name: ""

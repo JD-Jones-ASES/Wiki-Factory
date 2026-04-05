@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 492: Thy bounteous hand with food can bless"
+title: "'LJ Hymn 492: Thy bounteous hand with food can bless"
 type: hymn
 aliases: ["Thy bounteous hand with food can bless"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 492
-first_line: "Thy bounteous hand with food can bless"
+first_line: "'Thy bounteous hand with food can bless"
 meter: "L. M"
-topic: "Give Us Each Day Our Daily Bread."
+topic: "'Give Us Each Day Our Daily Bread."
 author: "Heber"
 composer: ""
 tune_name: ""

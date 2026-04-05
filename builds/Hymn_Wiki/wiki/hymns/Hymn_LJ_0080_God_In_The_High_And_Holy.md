@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 80: God, in the high and holy place,"
+title: "'LJ Hymn 80: God, in the high and holy place,"
 type: hymn
 aliases: ["God, in the high and holy place,"]
 tags: ["#meter-common", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 80
-first_line: "God, in the high and holy place,"
+first_line: "'God, in the high and holy place,"
 meter: "C. M"
-topic: "The Earth Full of God"
+topic: "'The Earth Full of God"
 author: "Montgomery"
 composer: ""
 tune_name: ""

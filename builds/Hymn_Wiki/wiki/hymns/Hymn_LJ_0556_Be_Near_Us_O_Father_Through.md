@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 556: Be near us, O Father! through night's silent hour;"
+title: "'LJ Hymn 556: Be near us, O Father! through night's silent hour;"
 type: hymn
 aliases: ["Be near us, O Father! through night's silent hour;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 556
-first_line: "Be near us, O Father! through night's silent hour;"
+first_line: "'Be near us, O Father! through night's silent hour;"
 meter: "11s. M"
-topic: "Even-Song."
+topic: "'Even-Song."
 author: "Breviary"
 composer: ""
 tune_name: ""

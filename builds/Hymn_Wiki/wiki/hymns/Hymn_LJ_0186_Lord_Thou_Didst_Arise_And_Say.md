@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 186: Lord! thou didst arise and say"
+title: "'LJ Hymn 186: Lord! thou didst arise and say"
 type: hymn
 aliases: ["Lord! thou didst arise and say"]
 tags: ["#meter-short", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 186
-first_line: "Lord! thou didst arise and say"
+first_line: "'Lord! thou didst arise and say"
 meter: "7s. M"
-topic: "He Rebuked the Wind and the Sea."
+topic: "'He Rebuked the Wind and the Sea."
 author: "Milman"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 467: O Thou whose power o'er moving worlds presides,"
+title: "'LJ Hymn 467: O Thou whose power o'er moving worlds presides,"
 type: hymn
 aliases: ["O Thou whose power o'er moving worlds presides,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 467
-first_line: "O Thou whose power o'er moving worlds presides,"
+first_line: "'O Thou whose power o'er moving worlds presides,"
 meter: "10s. M"
-topic: "God."
+topic: "'God."
 author: "Dr. Johnson"
 composer: ""
 tune_name: ""

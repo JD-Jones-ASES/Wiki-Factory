@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 275: Not that Thy boundless love, my God,"
+title: "'LJ Hymn 275: Not that Thy boundless love, my God,"
 type: hymn
 aliases: ["Not that Thy boundless love, my God,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 275
-first_line: "Not that Thy boundless love, my God,"
+first_line: "'Not that Thy boundless love, my God,"
 meter: "C. M"
-topic: "Faith Triumphant Over Sorrow."
+topic: "'Faith Triumphant Over Sorrow."
 author: "Chr. Register"
 composer: ""
 tune_name: ""

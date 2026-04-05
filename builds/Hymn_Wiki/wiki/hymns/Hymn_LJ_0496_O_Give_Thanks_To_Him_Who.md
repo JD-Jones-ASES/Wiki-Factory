@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 496: O, give thanks to Him who made"
+title: "'LJ Hymn 496: O, give thanks to Him who made"
 type: hymn
 aliases: ["O, give thanks to Him who made"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 496
-first_line: "O, give thanks to Him who made"
+first_line: "'O, give thanks to Him who made"
 meter: "7s. M"
-topic: "O Give Thanks Unto the Lord!"
+topic: "'O Give Thanks Unto the Lord!"
 author: "Conder"
 composer: ""
 tune_name: ""

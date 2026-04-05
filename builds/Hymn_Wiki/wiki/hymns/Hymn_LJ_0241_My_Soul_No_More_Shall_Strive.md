@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 241: My soul no more shall strive in vain,"
+title: "'LJ Hymn 241: My soul no more shall strive in vain,"
 type: hymn
 aliases: ["My soul no more shall strive in vain,"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 241
-first_line: "My soul no more shall strive in vain,"
+first_line: "'My soul no more shall strive in vain,"
 meter: "L. M"
-topic: "Self-Consecration."
+topic: "'Self-Consecration."
 author: "Mrs. Steele"
 composer: ""
 tune_name: ""

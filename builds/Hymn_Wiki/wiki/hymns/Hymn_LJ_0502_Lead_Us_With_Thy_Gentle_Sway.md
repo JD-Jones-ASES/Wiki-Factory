@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 502: Lead us with Thy gentle sway,"
+title: "'LJ Hymn 502: Lead us with Thy gentle sway,"
 type: hymn
 aliases: ["Lead us with Thy gentle sway,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 502
-first_line: "Lead us with Thy gentle sway,"
+first_line: "'Lead us with Thy gentle sway,"
 meter: "7s. M"
-topic: "The Pilgrim's Prayer."
+topic: "'The Pilgrim's Prayer."
 author: "Bowring"
 composer: ""
 tune_name: ""

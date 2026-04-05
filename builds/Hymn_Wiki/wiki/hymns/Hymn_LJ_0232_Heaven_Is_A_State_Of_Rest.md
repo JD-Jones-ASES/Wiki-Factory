@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 232: Heaven is a state of rest from sin;"
+title: "'LJ Hymn 232: Heaven is a state of rest from sin;"
 type: hymn
 aliases: ["Heaven is a state of rest from sin;"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 232
-first_line: "Heaven is a state of rest from sin;"
+first_line: "'Heaven is a state of rest from sin;"
 meter: "L. M"
-topic: "Heaven."
+topic: "'Heaven."
 author: "Montgomery"
 composer: ""
 tune_name: ""

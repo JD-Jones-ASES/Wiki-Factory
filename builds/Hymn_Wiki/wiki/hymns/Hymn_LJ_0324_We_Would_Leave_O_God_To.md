@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 324: We would leave, O God, to Thee,"
+title: "'LJ Hymn 324: We would leave, O God, to Thee,"
 type: hymn
 aliases: ["We would leave, O God, to Thee,"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 324
-first_line: "We would leave, O God, to Thee,"
+first_line: "'We would leave, O God, to Thee,"
 meter: "7s. M"
-topic: "Refuge in God."
+topic: "'Refuge in God."
 author: "Gaskell"
 composer: ""
 tune_name: ""

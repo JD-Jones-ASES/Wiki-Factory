@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 353: The dead are like the stars by day,"
+title: "'LJ Hymn 353: The dead are like the stars by day,"
 type: hymn
 aliases: ["The dead are like the stars by day,"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 353
-first_line: "The dead are like the stars by day,"
+first_line: "'The dead are like the stars by day,"
 meter: "C. M"
-topic: "The Dead."
+topic: "'The Dead."
 author: "Barton"
 composer: ""
 tune_name: ""

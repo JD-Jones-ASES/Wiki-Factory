@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 460: Our Father! we thank Thee for sleep,"
+title: "'LJ Hymn 460: Our Father! we thank Thee for sleep,"
 type: hymn
 aliases: ["Our Father! we thank Thee for sleep,"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 460
-first_line: "Our Father! we thank Thee for sleep,"
+first_line: "'Our Father! we thank Thee for sleep,"
 meter: "P. M"
-topic: "Morning Hymn."
+topic: "'Morning Hymn."
 author: "Anonymous"
 composer: ""
 tune_name: ""

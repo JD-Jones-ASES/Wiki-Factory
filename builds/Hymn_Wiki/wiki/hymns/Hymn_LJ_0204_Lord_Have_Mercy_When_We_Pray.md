@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 204: Lord, have mercy when we pray"
+title: "'LJ Hymn 204: Lord, have mercy when we pray"
 type: hymn
 aliases: ["Lord, have mercy when we pray"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 204
-first_line: "Lord, have mercy when we pray"
+first_line: "'Lord, have mercy when we pray"
 meter: "7s. M"
-topic: "Lord, Have Mercy."
+topic: "'Lord, Have Mercy."
 author: "Milman"
 composer: ""
 tune_name: ""

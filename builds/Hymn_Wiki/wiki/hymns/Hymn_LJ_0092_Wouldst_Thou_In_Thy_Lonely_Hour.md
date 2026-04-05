@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 92: Wouldst thou in thy lonely hour"
+title: "'LJ Hymn 92: Wouldst thou in thy lonely hour"
 type: hymn
 aliases: ["Wouldst thou in thy lonely hour"]
 tags: ["#meter-short", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 92
-first_line: "Wouldst thou in thy lonely hour"
+first_line: "'Wouldst thou in thy lonely hour"
 meter: "7s. M"
-topic: "Silent Worship."
+topic: "'Silent Worship."
 author: "Anonymous"
 composer: ""
 tune_name: ""

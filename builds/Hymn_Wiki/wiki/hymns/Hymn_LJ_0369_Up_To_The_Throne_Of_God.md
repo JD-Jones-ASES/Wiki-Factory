@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 369: Up to the throne of God is borne"
+title: "'LJ Hymn 369: Up to the throne of God is borne"
 type: hymn
 aliases: ["Up to the throne of God is borne"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 369
-first_line: "Up to the throne of God is borne"
+first_line: "'Up to the throne of God is borne"
 meter: "L. M"
-topic: "Sunset Hymn."
+topic: "'Sunset Hymn."
 author: "Wordsworth"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 530: God of my life, whose gracious power"
+title: "'LJ Hymn 530: God of my life, whose gracious power"
 type: hymn
 aliases: ["God of my life, whose gracious power"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 530
-first_line: "God of my life, whose gracious power"
+first_line: "'God of my life, whose gracious power"
 meter: "L. M"
-topic: "God Our Deliverer."
+topic: "'God Our Deliverer."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

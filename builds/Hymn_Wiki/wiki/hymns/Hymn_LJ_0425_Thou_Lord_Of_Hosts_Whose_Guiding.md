@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 425: Thou Lord of Hosts, whose guiding hand"
+title: "'LJ Hymn 425: Thou Lord of Hosts, whose guiding hand"
 type: hymn
 aliases: ["Thou Lord of Hosts, whose guiding hand"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 425
-first_line: "Thou Lord of Hosts, whose guiding hand"
+first_line: "'Thou Lord of Hosts, whose guiding hand"
 meter: "L. M"
-topic: "The Children of the Cross."
+topic: "'The Children of the Cross."
 author: "Anonymous"
 composer: ""
 tune_name: ""

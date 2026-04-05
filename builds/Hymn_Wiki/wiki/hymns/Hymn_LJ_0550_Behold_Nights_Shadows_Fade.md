@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 550: Behold, night's shadows fade,"
+title: "'LJ Hymn 550: Behold, night's shadows fade,"
 type: hymn
 aliases: ["Behold, night's shadows fade,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 550
-first_line: "Behold, night's shadows fade,"
+first_line: "'Behold, night's shadows fade,"
 meter: "S. M"
-topic: "Morning Hymn."
+topic: "'Morning Hymn."
 author: "Breviary"
 composer: ""
 tune_name: ""

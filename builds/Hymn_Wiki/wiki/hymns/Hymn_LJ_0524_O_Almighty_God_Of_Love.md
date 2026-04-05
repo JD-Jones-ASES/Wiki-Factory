@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 524: O almighty God of love!"
+title: "'LJ Hymn 524: O almighty God of love!"
 type: hymn
 aliases: ["O almighty God of love!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 524
-first_line: "O almighty God of love!"
+first_line: "'O almighty God of love!"
 meter: "7 & 6s. M"
-topic: "Longing for Rest in God."
+topic: "'Longing for Rest in God."
 author: "Wesleyan"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 424: A wondrous star our pioneer,"
+title: "'LJ Hymn 424: A wondrous star our pioneer,"
 type: hymn
 aliases: ["A wondrous star our pioneer,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 424
-first_line: "A wondrous star our pioneer,"
+first_line: "'A wondrous star our pioneer,"
 meter: "C. M"
-topic: "Epiphany."
+topic: "'Epiphany."
 author: "J. Weiss"
 composer: ""
 tune_name: ""

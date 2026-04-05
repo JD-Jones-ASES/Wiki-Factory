@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 166: Thanks to God for those who came"
+title: "'LJ Hymn 166: Thanks to God for those who came"
 type: hymn
 aliases: ["Thanks to God for those who came"]
 tags: ["#meter-short", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 166
-first_line: "Thanks to God for those who came"
+first_line: "'Thanks to God for those who came"
 meter: "7s. M"
-topic: "The Preachers of the Word."
+topic: "'The Preachers of the Word."
 author: "Johns"
 composer: ""
 tune_name: ""

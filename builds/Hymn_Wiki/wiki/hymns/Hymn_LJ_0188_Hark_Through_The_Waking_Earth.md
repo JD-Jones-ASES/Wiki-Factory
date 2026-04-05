@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 188: Hark! through the waking earth,"
+title: "'LJ Hymn 188: Hark! through the waking earth,"
 type: hymn
 aliases: ["Hark! through the waking earth,"]
 tags: ["#meter-short", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 188
-first_line: "Hark! through the waking earth,"
+first_line: "'Hark! through the waking earth,"
 meter: "6s. M"
-topic: "Behold, He Cometh."
+topic: "'Behold, He Cometh."
 author: "Anonymous"
 composer: ""
 tune_name: ""

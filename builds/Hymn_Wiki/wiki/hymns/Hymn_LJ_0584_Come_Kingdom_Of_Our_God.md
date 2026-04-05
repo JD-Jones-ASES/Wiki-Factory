@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 584: Come, kingdom of our God,"
+title: "'LJ Hymn 584: Come, kingdom of our God,"
 type: hymn
 aliases: ["Come, kingdom of our God,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 584
-first_line: "Come, kingdom of our God,"
+first_line: "'Come, kingdom of our God,"
 meter: "S. M"
-topic: "The Kingdom of Love."
+topic: "'The Kingdom of Love."
 author: "Johns"
 composer: ""
 tune_name: ""

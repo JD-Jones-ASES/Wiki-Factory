@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 42: Shine on our souls, Eternal God,"
+title: "'LJ Hymn 42: Shine on our souls, Eternal God,"
 type: hymn
 aliases: ["Shine on our souls, Eternal God,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 42
-first_line: "Shine on our souls, Eternal God,"
+first_line: "'Shine on our souls, Eternal God,"
 meter: "C. M"
-topic: "Doing All to God."
+topic: "'Doing All to God."
 author: "Doddridge"
 composer: ""
 tune_name: ""

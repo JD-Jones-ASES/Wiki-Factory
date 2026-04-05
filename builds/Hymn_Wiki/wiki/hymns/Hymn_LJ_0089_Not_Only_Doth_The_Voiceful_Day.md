@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 89: Not only doth the voiceful day"
+title: "'LJ Hymn 89: Not only doth the voiceful day"
 type: hymn
 aliases: ["Not only doth the voiceful day"]
 tags: ["#meter-long", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 89
-first_line: "Not only doth the voiceful day"
+first_line: "'Not only doth the voiceful day"
 meter: "L. M"
-topic: "The Heavens Declare the Glory of God."
+topic: "'The Heavens Declare the Glory of God."
 author: "W. H. Burleigh"
 composer: ""
 tune_name: ""

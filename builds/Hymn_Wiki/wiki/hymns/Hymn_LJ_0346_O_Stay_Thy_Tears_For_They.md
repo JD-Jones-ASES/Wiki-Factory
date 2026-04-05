@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 346: O, stay thy tears! for they are blest"
+title: "'LJ Hymn 346: O, stay thy tears! for they are blest"
 type: hymn
 aliases: ["O, stay thy tears! for they are blest"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 346
-first_line: "O, stay thy tears! for they are blest"
+first_line: "'O, stay thy tears! for they are blest"
 meter: "L. M"
-topic: "O, Stay Thy Tears!"
+topic: "'O, Stay Thy Tears!"
 author: "Norton"
 composer: ""
 tune_name: ""

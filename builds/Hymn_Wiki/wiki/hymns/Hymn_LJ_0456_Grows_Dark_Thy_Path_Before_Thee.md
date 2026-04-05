@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 456: Grows dark thy path before thee?"
+title: "'LJ Hymn 456: Grows dark thy path before thee?"
 type: hymn
 aliases: ["Grows dark thy path before thee?"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 456
-first_line: "Grows dark thy path before thee?"
+first_line: "'Grows dark thy path before thee?"
 meter: "7 & 6s. M"
-topic: "Strength From Struggle."
+topic: "'Strength From Struggle."
 author: "Anonymous"
 composer: ""
 tune_name: ""

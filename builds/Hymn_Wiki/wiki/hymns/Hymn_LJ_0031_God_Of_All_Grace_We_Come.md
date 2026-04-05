@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 31: God of all grace, we come to Thee,"
+title: "'LJ Hymn 31: God of all grace, we come to Thee,"
 type: hymn
 aliases: ["God of all grace, we come to Thee,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 31
-first_line: "God of all grace, we come to Thee,"
+first_line: "'God of all grace, we come to Thee,"
 meter: "C. M"
-topic: "A Prayer."
+topic: "'A Prayer."
 author: "Montgomery"
 composer: ""
 tune_name: ""

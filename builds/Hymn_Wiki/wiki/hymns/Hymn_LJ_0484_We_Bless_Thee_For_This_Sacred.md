@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 484: We bless Thee for this sacred day,"
+title: "'LJ Hymn 484: We bless Thee for this sacred day,"
 type: hymn
 aliases: ["We bless Thee for this sacred day,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 484
-first_line: "We bless Thee for this sacred day,"
+first_line: "'We bless Thee for this sacred day,"
 meter: "L. M"
-topic: "The Day of Rest."
+topic: "'The Day of Rest."
 author: "Mrs. Gilman"
 composer: ""
 tune_name: ""

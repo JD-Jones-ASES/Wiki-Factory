@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 476: There is a book, who runs may read,"
+title: "'LJ Hymn 476: There is a book, who runs may read,"
 type: hymn
 aliases: ["There is a book, who runs may read,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 476
-first_line: "There is a book, who runs may read,"
+first_line: "'There is a book, who runs may read,"
 meter: "C. M"
-topic: "The Elder Scripture."
+topic: "'The Elder Scripture."
 author: "Keble"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 236: I thirst!--O, grant the waters pure"
+title: "'LJ Hymn 236: I thirst!--O, grant the waters pure"
 type: hymn
 aliases: ["I thirst!--O, grant the waters pure"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 236
-first_line: "I thirst!--O, grant the waters pure"
+first_line: "'I thirst!--O, grant the waters pure"
 meter: "L. M"
-topic: "Thirst for Living Waters."
+topic: "'Thirst for Living Waters."
 author: "Miss Bremer"
 composer: ""
 tune_name: ""

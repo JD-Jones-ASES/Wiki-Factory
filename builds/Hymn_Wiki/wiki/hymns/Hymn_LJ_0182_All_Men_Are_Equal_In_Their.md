@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 182: All men are equal in their birth,"
+title: "'LJ Hymn 182: All men are equal in their birth,"
 type: hymn
 aliases: ["All men are equal in their birth,"]
 tags: ["#meter-common", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 182
-first_line: "All men are equal in their birth,"
+first_line: "'All men are equal in their birth,"
 meter: "C. M"
-topic: "Christian Equality."
+topic: "'Christian Equality."
 author: "H. Martineau"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 298: Love on! love on! but not the things that own"
+title: "'LJ Hymn 298: Love on! love on! but not the things that own"
 type: hymn
 aliases: ["Love on! love on! but not the things that own"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 298
-first_line: "Love on! love on! but not the things that own"
+first_line: "'Love on! love on! but not the things that own"
 meter: "10s. M"
-topic: "Love On!"
+topic: "'Love On!"
 author: "Mrs. Case"
 composer: ""
 tune_name: ""

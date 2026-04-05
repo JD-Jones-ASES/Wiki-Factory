@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 348: Blessed, blessed are the dead"
+title: "'LJ Hymn 348: Blessed, blessed are the dead"
 type: hymn
 aliases: ["Blessed, blessed are the dead"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 348
-first_line: "Blessed, blessed are the dead"
+first_line: "'Blessed, blessed are the dead"
 meter: "7 & 5s. M"
-topic: "Blessed Are the Dead."
+topic: "'Blessed Are the Dead."
 author: "Bowring"
 composer: ""
 tune_name: ""

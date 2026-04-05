@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 511: Brother, will you slight the message"
+title: "'LJ Hymn 511: Brother, will you slight the message"
 type: hymn
 aliases: ["Brother, will you slight the message"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 511
-first_line: "Brother, will you slight the message"
+first_line: "'Brother, will you slight the message"
 meter: "8, 7 & 4s. M"
-topic: "Calls of the Spirit."
+topic: "'Calls of the Spirit."
 author: "Anonymous"
 composer: ""
 tune_name: ""

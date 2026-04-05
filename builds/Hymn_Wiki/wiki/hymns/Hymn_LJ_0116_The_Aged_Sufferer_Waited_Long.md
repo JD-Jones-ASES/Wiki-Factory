@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 116: The aged sufferer waited long"
+title: "'LJ Hymn 116: The aged sufferer waited long"
 type: hymn
 aliases: ["The aged sufferer waited long"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 116
-first_line: "The aged sufferer waited long"
+first_line: "'The aged sufferer waited long"
 meter: "C. M"
-topic: "The Pool of Bethesda."
+topic: "'The Pool of Bethesda."
 author: "Bulfinch"
 composer: ""
 tune_name: ""

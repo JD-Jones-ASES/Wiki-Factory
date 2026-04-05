@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 376: When from the Jordan's gleaming wave"
+title: "'LJ Hymn 376: When from the Jordan's gleaming wave"
 type: hymn
 aliases: ["When from the Jordan's gleaming wave"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 376
-first_line: "When from the Jordan's gleaming wave"
+first_line: "'When from the Jordan's gleaming wave"
 meter: "C. M"
-topic: "Baptism."
+topic: "'Baptism."
 author: "Anonymous"
 composer: ""
 tune_name: ""

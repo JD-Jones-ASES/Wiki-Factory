@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 501: Father, supply my every need;"
+title: "'LJ Hymn 501: Father, supply my every need;"
 type: hymn
 aliases: ["Father, supply my every need;"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 501
-first_line: "Father, supply my every need;"
+first_line: "'Father, supply my every need;"
 meter: "L. M"
-topic: "The Bread of Life."
+topic: "'The Bread of Life."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

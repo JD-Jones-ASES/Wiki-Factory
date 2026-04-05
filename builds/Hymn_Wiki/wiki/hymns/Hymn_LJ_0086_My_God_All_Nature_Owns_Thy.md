@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 86: My God! all nature owns Thy sway;"
+title: "'LJ Hymn 86: My God! all nature owns Thy sway;"
 type: hymn
 aliases: ["My God! all nature owns Thy sway;"]
 tags: ["#meter-long", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 86
-first_line: "My God! all nature owns Thy sway;"
+first_line: "'My God! all nature owns Thy sway;"
 meter: "L. M"
-topic: "God in Nature."
+topic: "'God in Nature."
 author: "H. M. Williams"
 composer: ""
 tune_name: ""

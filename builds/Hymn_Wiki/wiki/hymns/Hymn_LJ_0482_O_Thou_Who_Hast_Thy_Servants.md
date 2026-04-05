@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 482: O Thou, who hast Thy servants taught"
+title: "'LJ Hymn 482: O Thou, who hast Thy servants taught"
 type: hymn
 aliases: ["O Thou, who hast Thy servants taught"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 482
-first_line: "O Thou, who hast Thy servants taught"
+first_line: "'O Thou, who hast Thy servants taught"
 meter: "C. M"
-topic: "Sincere Worship."
+topic: "'Sincere Worship."
 author: "Alford"
 composer: ""
 tune_name: ""

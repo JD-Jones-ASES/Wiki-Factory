@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 206: Yes! prayer is strong, and God is good;"
+title: "'LJ Hymn 206: Yes! prayer is strong, and God is good;"
 type: hymn
 aliases: ["Yes! prayer is strong, and God is good;"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 206
-first_line: "Yes! prayer is strong, and God is good;"
+first_line: "'Yes! prayer is strong, and God is good;"
 meter: "L. M"
-topic: "The Strength of the Erring."
+topic: "'The Strength of the Erring."
 author: "Flint's Coll"
 composer: ""
 tune_name: ""

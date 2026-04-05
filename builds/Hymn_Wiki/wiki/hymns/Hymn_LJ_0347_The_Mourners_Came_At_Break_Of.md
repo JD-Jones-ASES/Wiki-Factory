@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 347: The mourners came, at break of day,"
+title: "'LJ Hymn 347: The mourners came, at break of day,"
 type: hymn
 aliases: ["The mourners came, at break of day,"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 347
-first_line: "The mourners came, at break of day,"
+first_line: "'The mourners came, at break of day,"
 meter: "L. M"
-topic: "The Angel at the Tomb."
+topic: "'The Angel at the Tomb."
 author: "Sarah F. Adams"
 composer: ""
 tune_name: ""

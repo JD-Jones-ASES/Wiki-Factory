@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 261: Through all the various shifting scene"
+title: "'LJ Hymn 261: Through all the various shifting scene"
 type: hymn
 aliases: ["Through all the various shifting scene"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 261
-first_line: "Through all the various shifting scene"
+first_line: "'Through all the various shifting scene"
 meter: "L. M"
-topic: "Reliance."
+topic: "'Reliance."
 author: "Collett"
 composer: ""
 tune_name: ""

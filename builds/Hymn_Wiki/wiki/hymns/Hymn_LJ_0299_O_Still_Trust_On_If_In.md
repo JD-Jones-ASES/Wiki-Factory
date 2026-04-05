@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 299: O, still trust on, if in the heart"
+title: "'LJ Hymn 299: O, still trust on, if in the heart"
 type: hymn
 aliases: ["O, still trust on, if in the heart"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 299
-first_line: "O, still trust on, if in the heart"
+first_line: "'O, still trust on, if in the heart"
 meter: "L. M"
-topic: "Not Faithless, But Believing."
+topic: "'Not Faithless, But Believing."
 author: "Anonymous"
 composer: ""
 tune_name: ""

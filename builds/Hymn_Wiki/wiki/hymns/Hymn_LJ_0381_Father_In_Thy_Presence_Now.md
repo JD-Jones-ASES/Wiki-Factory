@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 381: Father, in Thy presence now"
+title: "'LJ Hymn 381: Father, in Thy presence now"
 type: hymn
 aliases: ["Father, in Thy presence now"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 381
-first_line: "Father, in Thy presence now"
+first_line: "'Father, in Thy presence now"
 meter: "7s. M"
-topic: "Marriage Hymn."
+topic: "'Marriage Hymn."
 author: "Anonymous"
 composer: ""
 tune_name: ""

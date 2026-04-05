@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 538: Supreme disposer of the heart!"
+title: "'LJ Hymn 538: Supreme disposer of the heart!"
 type: hymn
 aliases: ["Supreme disposer of the heart!"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 538
-first_line: "Supreme disposer of the heart!"
+first_line: "'Supreme disposer of the heart!"
 meter: "C. M"
-topic: "Faith, Hope, and Love."
+topic: "'Faith, Hope, and Love."
 author: "Breviary"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 327: My God, I thank Thee! may no thought"
+title: "'LJ Hymn 327: My God, I thank Thee! may no thought"
 type: hymn
 aliases: ["My God, I thank Thee! may no thought"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 327
-first_line: "My God, I thank Thee! may no thought"
+first_line: "'My God, I thank Thee! may no thought"
 meter: "L. M"
-topic: "My God, I Thank Thee!"
+topic: "'My God, I Thank Thee!"
 author: "Norton"
 composer: ""
 tune_name: ""

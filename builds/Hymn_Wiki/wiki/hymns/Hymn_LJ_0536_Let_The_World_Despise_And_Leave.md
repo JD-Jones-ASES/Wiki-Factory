@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 536: Let the world despise and leave me,--"
+title: "'LJ Hymn 536: Let the world despise and leave me,--"
 type: hymn
 aliases: ["Let the world despise and leave me,--"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 536
-first_line: "Let the world despise and leave me,--"
+first_line: "'Let the world despise and leave me,--"
 meter: "8 & 7s. M"
-topic: "Faith."
+topic: "'Faith."
 author: "Anonymous"
 composer: ""
 tune_name: ""

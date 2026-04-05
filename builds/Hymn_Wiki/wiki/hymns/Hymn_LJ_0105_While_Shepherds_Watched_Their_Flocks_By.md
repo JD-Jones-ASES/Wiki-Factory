@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 105: While shepherds watched their flocks by night,"
+title: "'LJ Hymn 105: While shepherds watched their flocks by night,"
 type: hymn
 aliases: ["While shepherds watched their flocks by night,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 105
-first_line: "While shepherds watched their flocks by night,"
+first_line: "'While shepherds watched their flocks by night,"
 meter: "C. M"
-topic: "The Nativity."
+topic: "'The Nativity."
 author: "Patrick"
 composer: ""
 tune_name: ""

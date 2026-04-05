@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 209: O, help us, Lord! each hour of need"
+title: "'LJ Hymn 209: O, help us, Lord! each hour of need"
 type: hymn
 aliases: ["O, help us, Lord! each hour of need"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 209
-first_line: "O, help us, Lord! each hour of need"
+first_line: "'O, help us, Lord! each hour of need"
 meter: "C. M"
-topic: "Prayer for Help."
+topic: "'Prayer for Help."
 author: "Milman"
 composer: ""
 tune_name: ""

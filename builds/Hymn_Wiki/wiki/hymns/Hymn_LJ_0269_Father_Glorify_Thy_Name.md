@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 269: Father! glorify Thy name!"
+title: "'LJ Hymn 269: Father! glorify Thy name!"
 type: hymn
 aliases: ["Father! glorify Thy name!"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 269
-first_line: "Father! glorify Thy name!"
+first_line: "'Father! glorify Thy name!"
 meter: "7s. M"
-topic: ""Father! Glorify Thy Name!""
+topic: "''Father! Glorify Thy Name!'"
 author: "Bowring"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 365: Now that the sun is beaming bright,"
+title: "'LJ Hymn 365: Now that the sun is beaming bright,"
 type: hymn
 aliases: ["Now that the sun is beaming bright,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 365
-first_line: "Now that the sun is beaming bright,"
+first_line: "'Now that the sun is beaming bright,"
 meter: "C. M"
-topic: "Morning Hymn."
+topic: "'Morning Hymn."
 author: "St. Ambrose"
 composer: ""
 tune_name: ""

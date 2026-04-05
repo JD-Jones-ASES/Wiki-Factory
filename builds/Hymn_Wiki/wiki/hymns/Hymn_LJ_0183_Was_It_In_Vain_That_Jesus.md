@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 183: Was it in vain that Jesus prayed"
+title: "'LJ Hymn 183: Was it in vain that Jesus prayed"
 type: hymn
 aliases: ["Was it in vain that Jesus prayed"]
 tags: ["#meter-common", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 183
-first_line: "Was it in vain that Jesus prayed"
+first_line: "'Was it in vain that Jesus prayed"
 meter: "C. M"
-topic: ""That They May Be One.""
+topic: "''That They May Be One.'"
 author: "Bulfinch"
 composer: ""
 tune_name: ""

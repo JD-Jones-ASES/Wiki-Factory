@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 181: O fairest-born of Love and Light,"
+title: "'LJ Hymn 181: O fairest-born of Love and Light,"
 type: hymn
 aliases: ["O fairest-born of Love and Light,"]
 tags: ["#meter-long", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 181
-first_line: "O fairest-born of Love and Light,"
+first_line: "'O fairest-born of Love and Light,"
 meter: "L. M"
-topic: "Christianity."
+topic: "'Christianity."
 author: "Whittier"
 composer: ""
 tune_name: ""

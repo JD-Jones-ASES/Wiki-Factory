@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 500: O Thou great Spirit! who along"
+title: "'LJ Hymn 500: O Thou great Spirit! who along"
 type: hymn
 aliases: ["O Thou great Spirit! who along"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 500
-first_line: "O Thou great Spirit! who along"
+first_line: "'O Thou great Spirit! who along"
 meter: "C. M"
-topic: "Closing Hymn."
+topic: "'Closing Hymn."
 author: "Martineau's Coll"
 composer: ""
 tune_name: ""

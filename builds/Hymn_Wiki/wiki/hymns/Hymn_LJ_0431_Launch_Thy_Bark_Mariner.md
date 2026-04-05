@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 431: Launch thy bark, mariner!"
+title: "'LJ Hymn 431: Launch thy bark, mariner!"
 type: hymn
 aliases: ["Launch thy bark, mariner!"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 431
-first_line: "Launch thy bark, mariner!"
+first_line: "'Launch thy bark, mariner!"
 meter: "P. M"
-topic: "The Mariner's Hymn."
+topic: "'The Mariner's Hymn."
 author: "Mrs. Southey"
 composer: ""
 tune_name: ""

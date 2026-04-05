@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 173: Lord Jesus, come! for here"
+title: "'LJ Hymn 173: Lord Jesus, come! for here"
 type: hymn
 aliases: ["Lord Jesus, come! for here"]
 tags: ["#meter-short", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 173
-first_line: "Lord Jesus, come! for here"
+first_line: "'Lord Jesus, come! for here"
 meter: "S. M"
-topic: "The Coming of Christ in Power."
+topic: "'The Coming of Christ in Power."
 author: "H. Martineau"
 composer: ""
 tune_name: ""

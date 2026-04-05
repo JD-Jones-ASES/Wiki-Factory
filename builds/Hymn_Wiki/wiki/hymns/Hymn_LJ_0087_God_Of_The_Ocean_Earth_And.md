@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 87: God of the ocean, earth, and sky,"
+title: "'LJ Hymn 87: God of the ocean, earth, and sky,"
 type: hymn
 aliases: ["God of the ocean, earth, and sky,"]
 tags: ["#meter-long", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 87
-first_line: "God of the ocean, earth, and sky,"
+first_line: "'God of the ocean, earth, and sky,"
 meter: "L. M"
-topic: "God in His Works and Word."
+topic: "'God in His Works and Word."
 author: "Wreford"
 composer: ""
 tune_name: ""

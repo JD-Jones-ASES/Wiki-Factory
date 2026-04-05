@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 387: "Is this a fast for me?""
+title: "LJ Hymn 387: Is this a fast for me?"
 type: hymn
-aliases: [""Is this a fast for me?""]
+aliases: ["Is this a fast for me?"]
 tags: ["#meter-short", "#theme-worship"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,7 +10,7 @@ related: []
 status: stub
 confidence: high
 hymn_number: 387
-first_line: "\"Is this a fast for me?\""
+first_line: "Is this a fast for me?"
 meter: "S. M"
 topic: "A Public Fast."
 author: "Drummond"
@@ -44,10 +44,10 @@ collection: "Longfellow-Johnson"
 1   "Is this a fast for me?"
       Thus saith the Lord our God;
     "A day for man to vex his soul,
-      And feel affliction's rod?
+      And feel afflictions rod?
   2   "No; is not this alone
       The sacred fast I choose:
-    Oppression's yoke to burst in twain,
+    Oppressions yoke to burst in twain,
       The bands of guilt unloose?
   3   "To nakedness and want
       Your food and raiment deal,

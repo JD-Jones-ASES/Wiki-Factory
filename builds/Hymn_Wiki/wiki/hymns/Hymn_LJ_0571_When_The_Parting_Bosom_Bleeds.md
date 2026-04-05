@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 571: When the parting bosom bleeds,"
+title: "'LJ Hymn 571: When the parting bosom bleeds,"
 type: hymn
 aliases: ["When the parting bosom bleeds,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 571
-first_line: "When the parting bosom bleeds,"
+first_line: "'When the parting bosom bleeds,"
 meter: "7s. M"
-topic: "Prayer for the Sailor."
+topic: "'Prayer for the Sailor."
 author: "Mrs. Sigourney"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 135: Jews were wrought to cruel madness,"
+title: "'LJ Hymn 135: Jews were wrought to cruel madness,"
 type: hymn
 aliases: ["Jews were wrought to cruel madness,"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 135
-first_line: "Jews were wrought to cruel madness,"
+first_line: "'Jews were wrought to cruel madness,"
 meter: "P. M"
-topic: "Stabat Mater."
+topic: "'Stabat Mater."
 author: "W. J. Fox"
 composer: ""
 tune_name: ""

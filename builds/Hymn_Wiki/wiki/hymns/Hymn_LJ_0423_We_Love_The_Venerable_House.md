@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 423: We love the venerable house"
+title: "'LJ Hymn 423: We love the venerable house"
 type: hymn
 aliases: ["We love the venerable house"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 423
-first_line: "We love the venerable house"
+first_line: "'We love the venerable house"
 meter: "C. M"
-topic: "The House Our Fathers Built to God."
+topic: "'The House Our Fathers Built to God."
 author: "R. W. Emerson"
 composer: ""
 tune_name: ""

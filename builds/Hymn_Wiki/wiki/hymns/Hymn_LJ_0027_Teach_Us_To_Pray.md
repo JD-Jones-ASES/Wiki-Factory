@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 27: Teach us to pray!"
+title: "'LJ Hymn 27: Teach us to pray!"
 type: hymn
 aliases: ["Teach us to pray!"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 27
-first_line: "Teach us to pray!"
+first_line: "'Teach us to pray!"
 meter: "P. M"
-topic: ""Teach Us To Pray.""
+topic: "''Teach Us To Pray.'"
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 285: Speak gently,--it is better far"
+title: "'LJ Hymn 285: Speak gently,--it is better far"
 type: hymn
 aliases: ["Speak gently,--it is better far"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 285
-first_line: "Speak gently,--it is better far"
+first_line: "'Speak gently,--it is better far"
 meter: "C. M"
-topic: "Speak Gently."
+topic: "'Speak Gently."
 author: "Anonymous"
 composer: ""
 tune_name: ""

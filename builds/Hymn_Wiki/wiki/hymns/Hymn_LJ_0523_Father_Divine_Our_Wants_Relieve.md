@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 523: Father divine, our wants relieve"
+title: "'LJ Hymn 523: Father divine, our wants relieve"
 type: hymn
 aliases: ["Father divine, our wants relieve"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 523
-first_line: "Father divine, our wants relieve"
+first_line: "'Father divine, our wants relieve"
 meter: "C. M"
-topic: "Struggling Upward."
+topic: "'Struggling Upward."
 author: "Wesley"
 composer: ""
 tune_name: ""

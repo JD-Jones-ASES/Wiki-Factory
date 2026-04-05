@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 43: Almighty God, in humble prayer"
+title: "'LJ Hymn 43: Almighty God, in humble prayer"
 type: hymn
 aliases: ["Almighty God, in humble prayer"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 43
-first_line: "Almighty God, in humble prayer"
+first_line: "'Almighty God, in humble prayer"
 meter: "C. M"
-topic: "Prayer for Wisdom."
+topic: "'Prayer for Wisdom."
 author: "Montgomery"
 composer: ""
 tune_name: ""

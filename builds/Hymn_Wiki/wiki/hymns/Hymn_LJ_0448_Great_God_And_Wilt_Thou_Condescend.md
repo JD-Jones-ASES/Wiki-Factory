@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 448: Great God! and wilt Thou condescend"
+title: "'LJ Hymn 448: Great God! and wilt Thou condescend"
 type: hymn
 aliases: ["Great God! and wilt Thou condescend"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 448
-first_line: "Great God! and wilt Thou condescend"
+first_line: "'Great God! and wilt Thou condescend"
 meter: "L. M"
-topic: "A Child's Prayer."
+topic: "'A Child's Prayer."
 author: "Anonymous"
 composer: ""
 tune_name: ""

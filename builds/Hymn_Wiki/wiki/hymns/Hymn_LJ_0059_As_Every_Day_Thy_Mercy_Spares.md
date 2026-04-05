@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 59: As every day Thy mercy spares"
+title: "'LJ Hymn 59: As every day Thy mercy spares"
 type: hymn
 aliases: ["As every day Thy mercy spares"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 59
-first_line: "As every day Thy mercy spares"
+first_line: "'As every day Thy mercy spares"
 meter: "L. M"
-topic: "The Heavenly Guardian."
+topic: "'The Heavenly Guardian."
 author: "Chr. Psalmist"
 composer: ""
 tune_name: ""

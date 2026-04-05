@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 577: Slavery and death the cup contains;"
+title: "'LJ Hymn 577: Slavery and death the cup contains;"
 type: hymn
 aliases: ["Slavery and death the cup contains;"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 577
-first_line: "Slavery and death the cup contains;"
+first_line: "'Slavery and death the cup contains;"
 meter: "L. M"
-topic: "Temperance Hymn."
+topic: "'Temperance Hymn."
 author: "Sargent"
 composer: ""
 tune_name: ""

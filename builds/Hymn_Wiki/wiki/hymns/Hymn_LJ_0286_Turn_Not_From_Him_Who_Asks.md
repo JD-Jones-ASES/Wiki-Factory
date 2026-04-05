@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 286: Turn not from him who asks of thee"
+title: "'LJ Hymn 286: Turn not from him who asks of thee"
 type: hymn
 aliases: ["Turn not from him who asks of thee"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 286
-first_line: "Turn not from him who asks of thee"
+first_line: "'Turn not from him who asks of thee"
 meter: "C. M"
-topic: "Kind Words."
+topic: "'Kind Words."
 author: "Jones Very"
 composer: ""
 tune_name: ""

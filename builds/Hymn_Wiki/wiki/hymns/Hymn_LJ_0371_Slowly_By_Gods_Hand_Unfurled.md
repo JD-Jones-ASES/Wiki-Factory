@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 371: Slowly, by God's hand unfurled,"
+title: "'LJ Hymn 371: Slowly, by God's hand unfurled,"
 type: hymn
 aliases: ["Slowly, by God's hand unfurled,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 371
-first_line: "Slowly, by God's hand unfurled,"
+first_line: "'Slowly, by God's hand unfurled,"
 meter: "7s. M"
-topic: "The Light of Stars."
+topic: "'The Light of Stars."
 author: "Furness"
 composer: ""
 tune_name: ""

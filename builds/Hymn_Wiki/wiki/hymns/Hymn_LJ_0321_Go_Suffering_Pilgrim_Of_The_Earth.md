@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 321: Go, suffering pilgrim of the earth,"
+title: "'LJ Hymn 321: Go, suffering pilgrim of the earth,"
 type: hymn
 aliases: ["Go, suffering pilgrim of the earth,"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 321
-first_line: "Go, suffering pilgrim of the earth,"
+first_line: "'Go, suffering pilgrim of the earth,"
 meter: "L. M"
-topic: "The Pilgrim."
+topic: "'The Pilgrim."
 author: "Roscoe"
 composer: ""
 tune_name: ""

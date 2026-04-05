@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 112: Behold, the Prince of Peace,"
+title: "'LJ Hymn 112: Behold, the Prince of Peace,"
 type: hymn
 aliases: ["Behold, the Prince of Peace,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 112
-first_line: "Behold, the Prince of Peace,"
+first_line: "'Behold, the Prince of Peace,"
 meter: "S. M"
-topic: "The Prince of Peace."
+topic: "'The Prince of Peace."
 author: "Needham"
 composer: ""
 tune_name: ""

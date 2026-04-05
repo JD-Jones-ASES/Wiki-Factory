@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 514: Father divine, this deadening power control,"
+title: "'LJ Hymn 514: Father divine, this deadening power control,"
 type: hymn
 aliases: ["Father divine, this deadening power control,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 514
-first_line: "Father divine, this deadening power control,"
+first_line: "'Father divine, this deadening power control,"
 meter: "10s. M"
-topic: "My Heaven in Thee."
+topic: "'My Heaven in Thee."
 author: "Dr. Tuckerman"
 composer: ""
 tune_name: ""

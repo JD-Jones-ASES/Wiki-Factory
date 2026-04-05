@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 137: Lift your glad voices in triumph on high,"
+title: "'LJ Hymn 137: Lift your glad voices in triumph on high,"
 type: hymn
 aliases: ["Lift your glad voices in triumph on high,"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 137
-first_line: "Lift your glad voices in triumph on high,"
+first_line: "'Lift your glad voices in triumph on high,"
 meter: "P. M"
-topic: "Easter Hymn."
+topic: "'Easter Hymn."
 author: "H. Ware"
 composer: ""
 tune_name: ""

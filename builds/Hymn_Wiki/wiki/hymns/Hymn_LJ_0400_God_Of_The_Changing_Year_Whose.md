@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 400: God of the changing year, whose arm of power"
+title: "'LJ Hymn 400: God of the changing year, whose arm of power"
 type: hymn
 aliases: ["God of the changing year, whose arm of power"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 400
-first_line: "God of the changing year, whose arm of power"
+first_line: "'God of the changing year, whose arm of power"
 meter: "10s. M"
-topic: "The Changing Year."
+topic: "'The Changing Year."
 author: "Emily Taylor"
 composer: ""
 tune_name: ""

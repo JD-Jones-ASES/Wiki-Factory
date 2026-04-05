@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 372: Another day its course hath run,"
+title: "'LJ Hymn 372: Another day its course hath run,"
 type: hymn
 aliases: ["Another day its course hath run,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 372
-first_line: "Another day its course hath run,"
+first_line: "'Another day its course hath run,"
 meter: "L. M"
-topic: "Evening Hymn for a Child."
+topic: "'Evening Hymn for a Child."
 author: "Pierpont"
 composer: ""
 tune_name: ""

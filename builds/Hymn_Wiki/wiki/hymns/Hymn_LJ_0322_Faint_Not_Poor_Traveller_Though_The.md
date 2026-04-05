@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 322: Faint not, poor traveller, though the way"
+title: "'LJ Hymn 322: Faint not, poor traveller, though the way"
 type: hymn
 aliases: ["Faint not, poor traveller, though the way"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 322
-first_line: "Faint not, poor traveller, though the way"
+first_line: "'Faint not, poor traveller, though the way"
 meter: "L. M"
-topic: "Fellowship of His Sufferings."
+topic: "'Fellowship of His Sufferings."
 author: "Norton"
 composer: ""
 tune_name: ""

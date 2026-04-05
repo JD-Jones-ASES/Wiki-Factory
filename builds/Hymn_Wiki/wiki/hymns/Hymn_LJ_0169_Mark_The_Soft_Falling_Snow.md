@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 169: Mark the soft falling snow"
+title: "'LJ Hymn 169: Mark the soft falling snow"
 type: hymn
 aliases: ["Mark the soft falling snow"]
 tags: ["#meter-peculiar", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 169
-first_line: "Mark the soft falling snow"
+first_line: "'Mark the soft falling snow"
 meter: "H. M.                       Doddridge."
-topic: "The Gospel."
+topic: "'The Gospel."
 author: "Anonymous"
 composer: ""
 tune_name: ""

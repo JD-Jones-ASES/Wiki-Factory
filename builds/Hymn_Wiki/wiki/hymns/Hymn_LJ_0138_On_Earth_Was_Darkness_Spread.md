@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 138: On earth was darkness spread,"
+title: "'LJ Hymn 138: On earth was darkness spread,"
 type: hymn
 aliases: ["On earth was darkness spread,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 138
-first_line: "On earth was darkness spread,"
+first_line: "'On earth was darkness spread,"
 meter: "6 & 4s. M"
-topic: ""Let There Be Light.""
+topic: "''Let There Be Light.'"
 author: "Anonymous"
 composer: ""
 tune_name: ""

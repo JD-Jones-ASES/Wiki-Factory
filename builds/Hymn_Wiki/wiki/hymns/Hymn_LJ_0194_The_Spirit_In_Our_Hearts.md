@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 194: The Spirit in our hearts"
+title: "'LJ Hymn 194: The Spirit in our hearts"
 type: hymn
 aliases: ["The Spirit in our hearts"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 194
-first_line: "The Spirit in our hearts"
+first_line: "'The Spirit in our hearts"
 meter: "S. M"
-topic: "The Spirit Saith "Come!""
+topic: "'The Spirit Saith 'Come!'"
 author: "Anonymous"
 composer: ""
 tune_name: ""

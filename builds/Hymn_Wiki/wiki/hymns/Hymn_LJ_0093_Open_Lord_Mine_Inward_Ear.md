@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 93: Open, Lord, mine inward ear,"
+title: "'LJ Hymn 93: Open, Lord, mine inward ear,"
 type: hymn
 aliases: ["Open, Lord, mine inward ear,"]
 tags: ["#meter-short", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 93
-first_line: "Open, Lord, mine inward ear,"
+first_line: "'Open, Lord, mine inward ear,"
 meter: "7 & 6s. M"
-topic: "Quiet Worship."
+topic: "'Quiet Worship."
 author: "Methodist"
 composer: ""
 tune_name: ""

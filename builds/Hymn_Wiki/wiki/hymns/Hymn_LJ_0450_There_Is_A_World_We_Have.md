@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 450: There is a world we have not seen,"
+title: "'LJ Hymn 450: There is a world we have not seen,"
 type: hymn
 aliases: ["There is a world we have not seen,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 450
-first_line: "There is a world we have not seen,"
+first_line: "'There is a world we have not seen,"
 meter: "C. M"
-topic: "The Spiritual World."
+topic: "'The Spiritual World."
 author: "Briggs' Coll"
 composer: ""
 tune_name: ""

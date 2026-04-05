@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 447: While yet the youthful spirit bears"
+title: "'LJ Hymn 447: While yet the youthful spirit bears"
 type: hymn
 aliases: ["While yet the youthful spirit bears"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 447
-first_line: "While yet the youthful spirit bears"
+first_line: "'While yet the youthful spirit bears"
 meter: "L. M"
-topic: "Feed My Lambs!"
+topic: "'Feed My Lambs!"
 author: "L. E. Landon"
 composer: ""
 tune_name: ""

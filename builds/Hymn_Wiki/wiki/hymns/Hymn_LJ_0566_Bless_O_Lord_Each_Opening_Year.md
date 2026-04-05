@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 566: Bless, O Lord, each opening year"
+title: "'LJ Hymn 566: Bless, O Lord, each opening year"
 type: hymn
 aliases: ["Bless, O Lord, each opening year"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 566
-first_line: "Bless, O Lord, each opening year"
+first_line: "'Bless, O Lord, each opening year"
 meter: "7s. M"
-topic: "New Year."
+topic: "'New Year."
 author: "Newton"
 composer: ""
 tune_name: ""

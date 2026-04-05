@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 401: O God! to Thee our hearts would pay"
+title: "'LJ Hymn 401: O God! to Thee our hearts would pay"
 type: hymn
 aliases: ["O God! to Thee our hearts would pay"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 401
-first_line: "O God! to Thee our hearts would pay"
+first_line: "'O God! to Thee our hearts would pay"
 meter: "C. M"
-topic: "Close of the Year."
+topic: "'Close of the Year."
 author: "Gaskell"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 280: O! know ye not that ye"
+title: "'LJ Hymn 280: O! know ye not that ye"
 type: hymn
 aliases: ["O! know ye not that ye"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 280
-first_line: "O! know ye not that ye"
+first_line: "'O! know ye not that ye"
 meter: "S.M"
-topic: "Purity."
+topic: "'Purity."
 author: "Johns"
 composer: ""
 tune_name: ""

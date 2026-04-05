@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 419: Not with the flashing steel,"
+title: "'LJ Hymn 419: Not with the flashing steel,"
 type: hymn
 aliases: ["Not with the flashing steel,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 419
-first_line: "Not with the flashing steel,"
+first_line: "'Not with the flashing steel,"
 meter: "6 & 4s. M"
-topic: "For a Peace Meeting."
+topic: "'For a Peace Meeting."
 author: "E. Davis"
 composer: ""
 tune_name: ""

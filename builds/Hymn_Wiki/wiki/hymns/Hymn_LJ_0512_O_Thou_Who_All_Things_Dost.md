@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 512: O Thou, who all things dost control,"
+title: "'LJ Hymn 512: O Thou, who all things dost control,"
 type: hymn
 aliases: ["O Thou, who all things dost control,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 512
-first_line: "O Thou, who all things dost control,"
+first_line: "'O Thou, who all things dost control,"
 meter: "L. M"
-topic: "In Spiritual Deadness."
+topic: "'In Spiritual Deadness."
 author: "Anonymous"
 composer: ""
 tune_name: ""

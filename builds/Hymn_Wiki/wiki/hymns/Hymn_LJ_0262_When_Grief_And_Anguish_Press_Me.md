@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 262: When grief and anguish press me down,"
+title: "'LJ Hymn 262: When grief and anguish press me down,"
 type: hymn
 aliases: ["When grief and anguish press me down,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 262
-first_line: "When grief and anguish press me down,"
+first_line: "'When grief and anguish press me down,"
 meter: "C. M"
-topic: "Trust in the Lord."
+topic: "'Trust in the Lord."
 author: "Anonymous"
 composer: ""
 tune_name: ""

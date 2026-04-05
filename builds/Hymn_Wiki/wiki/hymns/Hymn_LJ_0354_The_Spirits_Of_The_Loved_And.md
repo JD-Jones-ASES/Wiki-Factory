@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 354: The spirits of the loved and the departed"
+title: "'LJ Hymn 354: The spirits of the loved and the departed"
 type: hymn
 aliases: ["The spirits of the loved and the departed"]
 tags: ["#meter-peculiar", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 354
-first_line: "The spirits of the loved and the departed"
+first_line: "'The spirits of the loved and the departed"
 meter: "P. M"
-topic: "The Departed."
+topic: "'The Departed."
 author: "Anonymous"
 composer: ""
 tune_name: ""

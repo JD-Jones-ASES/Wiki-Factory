@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 532: Bear on, my soul! the bitter cross"
+title: "'LJ Hymn 532: Bear on, my soul! the bitter cross"
 type: hymn
 aliases: ["Bear on, my soul! the bitter cross"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 532
-first_line: "Bear on, my soul! the bitter cross"
+first_line: "'Bear on, my soul! the bitter cross"
 meter: "C. M"
-topic: "Through Cross to Light."
+topic: "'Through Cross to Light."
 author: "Anonymous"
 composer: ""
 tune_name: ""

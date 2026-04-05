@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 461: O'er silent field and lonely lawn"
+title: "'LJ Hymn 461: O'er silent field and lonely lawn"
 type: hymn
 aliases: ["O'er silent field and lonely lawn"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 461
-first_line: "O'er silent field and lonely lawn"
+first_line: "'O'er silent field and lonely lawn"
 meter: "L. M"
-topic: "Even-Tide."
+topic: "'Even-Tide."
 author: "Goethe"
 composer: ""
 tune_name: ""

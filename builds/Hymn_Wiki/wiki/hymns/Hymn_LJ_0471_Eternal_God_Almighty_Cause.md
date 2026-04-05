@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 471: Eternal God! Almighty Cause"
+title: "'LJ Hymn 471: Eternal God! Almighty Cause"
 type: hymn
 aliases: ["Eternal God! Almighty Cause"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 471
-first_line: "Eternal God! Almighty Cause"
+first_line: "'Eternal God! Almighty Cause"
 meter: "L. M"
-topic: "The One God."
+topic: "'The One God."
 author: "Browne"
 composer: ""
 tune_name: ""

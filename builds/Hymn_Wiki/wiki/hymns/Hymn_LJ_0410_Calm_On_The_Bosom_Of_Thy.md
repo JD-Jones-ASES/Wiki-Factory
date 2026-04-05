@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 410: Calm on the bosom of thy God,"
+title: "'LJ Hymn 410: Calm on the bosom of thy God,"
 type: hymn
 aliases: ["Calm on the bosom of thy God,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 410
-first_line: "Calm on the bosom of thy God,"
+first_line: "'Calm on the bosom of thy God,"
 meter: "C. M"
-topic: "Death of the Young."
+topic: "'Death of the Young."
 author: "Mrs. Hemans"
 composer: ""
 tune_name: ""

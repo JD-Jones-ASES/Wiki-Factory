@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 287: O, if thy brow, serene and calm,"
+title: "'LJ Hymn 287: O, if thy brow, serene and calm,"
 type: hymn
 aliases: ["O, if thy brow, serene and calm,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 287
-first_line: "O, if thy brow, serene and calm,"
+first_line: "'O, if thy brow, serene and calm,"
 meter: "C. M"
-topic: ""Neither Do I Condemn Thee.""
+topic: "''Neither Do I Condemn Thee.'"
 author: "Anonymous"
 composer: ""
 tune_name: ""

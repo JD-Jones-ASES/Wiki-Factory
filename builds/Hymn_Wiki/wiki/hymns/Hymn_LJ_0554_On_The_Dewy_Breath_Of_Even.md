@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 554: On the dewy breath of even"
+title: "'LJ Hymn 554: On the dewy breath of even"
 type: hymn
 aliases: ["On the dewy breath of even"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 554
-first_line: "On the dewy breath of even"
+first_line: "'On the dewy breath of even"
 meter: "8 & 7s. M"
-topic: "Evening Hymn."
+topic: "'Evening Hymn."
 author: "Martineau's Coll"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 428: Flung to the heedless winds,"
+title: "'LJ Hymn 428: Flung to the heedless winds,"
 type: hymn
 aliases: ["Flung to the heedless winds,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 428
-first_line: "Flung to the heedless winds,"
+first_line: "'Flung to the heedless winds,"
 meter: "6s. M"
-topic: "The Martyrs' Ashes."
+topic: "'The Martyrs' Ashes."
 author: "Luther"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 15: Suppliant, lo! Thy children bend,"
+title: "'LJ Hymn 15: Suppliant, lo! Thy children bend,"
 type: hymn
 aliases: ["Suppliant, lo! Thy children bend,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 15
-first_line: "Suppliant, lo! Thy children bend,"
+first_line: "'Suppliant, lo! Thy children bend,"
 meter: "7s. M"
-topic: "Supplication."
+topic: "'Supplication."
 author: "Gray"
 composer: ""
 tune_name: ""

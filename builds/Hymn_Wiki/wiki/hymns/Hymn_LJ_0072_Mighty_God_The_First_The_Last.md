@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 72: Mighty God! the first, the last!"
+title: "'LJ Hymn 72: Mighty God! the first, the last!"
 type: hymn
 aliases: ["Mighty God! the first, the last!"]
 tags: ["#meter-short", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 72
-first_line: "Mighty God! the first, the last!"
+first_line: "'Mighty God! the first, the last!"
 meter: "7s.                       M"
-topic: "The All-Seeing God."
+topic: "'The All-Seeing God."
 author: "Gaskell"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 469: Lo, my Shepherd's hand divine!"
+title: "'LJ Hymn 469: Lo, my Shepherd's hand divine!"
 type: hymn
 aliases: ["Lo, my Shepherd's hand divine!"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 469
-first_line: "Lo, my Shepherd's hand divine!"
+first_line: "'Lo, my Shepherd's hand divine!"
 meter: "7s. M"
-topic: "The Heavenly Shepherd."
+topic: "'The Heavenly Shepherd."
 author: "Merrick"
 composer: ""
 tune_name: ""

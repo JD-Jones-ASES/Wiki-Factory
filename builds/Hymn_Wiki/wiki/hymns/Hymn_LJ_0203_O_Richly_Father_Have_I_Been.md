@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 203: O, richly, Father, have I been"
+title: "'LJ Hymn 203: O, richly, Father, have I been"
 type: hymn
 aliases: ["O, richly, Father, have I been"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 203
-first_line: "O, richly, Father, have I been"
+first_line: "'O, richly, Father, have I been"
 meter: "C. M"
-topic: "The Penitent Son."
+topic: "'The Penitent Son."
 author: "Furness"
 composer: ""
 tune_name: ""

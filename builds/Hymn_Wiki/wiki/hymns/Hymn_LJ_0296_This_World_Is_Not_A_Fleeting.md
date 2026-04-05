@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 296: This world is not a fleeting show,"
+title: "'LJ Hymn 296: This world is not a fleeting show,"
 type: hymn
 aliases: ["This world is not a fleeting show,"]
 tags: ["#meter-peculiar", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 296
-first_line: "This world is not a fleeting show,"
+first_line: "'This world is not a fleeting show,"
 meter: "P. M"
-topic: "Heaven on Earth."
+topic: "'Heaven on Earth."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 420: Lord, once our faith in man no fear could move;"
+title: "'LJ Hymn 420: Lord, once our faith in man no fear could move;"
 type: hymn
 aliases: ["Lord, once our faith in man no fear could move;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 420
-first_line: "Lord, once our faith in man no fear could move;"
+first_line: "'Lord, once our faith in man no fear could move;"
 meter: "10 & 6s. M"
-topic: "In Time of War."
+topic: "'In Time of War."
 author: "Anonymous"
 composer: ""
 tune_name: ""

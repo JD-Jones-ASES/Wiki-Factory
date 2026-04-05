@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 491: Holy and reverend is the name"
+title: "'LJ Hymn 491: Holy and reverend is the name"
 type: hymn
 aliases: ["Holy and reverend is the name"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 491
-first_line: "Holy and reverend is the name"
+first_line: "'Holy and reverend is the name"
 meter: "C. M"
-topic: "Hallowed Be Thy Name."
+topic: "'Hallowed Be Thy Name."
 author: "Anonymous"
 composer: ""
 tune_name: ""

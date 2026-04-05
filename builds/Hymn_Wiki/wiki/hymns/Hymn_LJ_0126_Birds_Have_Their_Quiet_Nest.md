@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 126: Birds have their quiet nest,"
+title: "'LJ Hymn 126: Birds have their quiet nest,"
 type: hymn
 aliases: ["Birds have their quiet nest,"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 126
-first_line: "Birds have their quiet nest,"
+first_line: "'Birds have their quiet nest,"
 meter: "P. M"
-topic: "He Had Not Where to Lay His Head."
+topic: "'He Had Not Where to Lay His Head."
 author: "Anonymous"
 composer: ""
 tune_name: ""

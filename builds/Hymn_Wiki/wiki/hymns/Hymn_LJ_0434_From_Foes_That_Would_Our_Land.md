@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 434: From foes that would our land devour;"
+title: "'LJ Hymn 434: From foes that would our land devour;"
 type: hymn
 aliases: ["From foes that would our land devour;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 434
-first_line: "From foes that would our land devour;"
+first_line: "'From foes that would our land devour;"
 meter: "8 & 6s. M"
-topic: "Prayer for Our Country."
+topic: "'Prayer for Our Country."
 author: "Heber"
 composer: ""
 tune_name: ""

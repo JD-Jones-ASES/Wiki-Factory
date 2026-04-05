@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 406: Clay to clay, and dust to dust!"
+title: "'LJ Hymn 406: Clay to clay, and dust to dust!"
 type: hymn
 aliases: ["Clay to clay, and dust to dust!"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 406
-first_line: "Clay to clay, and dust to dust!"
+first_line: "'Clay to clay, and dust to dust!"
 meter: "7s. M"
-topic: "Funeral Hymn."
+topic: "'Funeral Hymn."
 author: "Anonymous"
 composer: ""
 tune_name: ""

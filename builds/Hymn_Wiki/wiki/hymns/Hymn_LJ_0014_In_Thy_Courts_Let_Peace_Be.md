@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 14: In Thy courts let peace be found,"
+title: "'LJ Hymn 14: In Thy courts let peace be found,"
 type: hymn
 aliases: ["In Thy courts let peace be found,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 14
-first_line: "In Thy courts let peace be found,"
+first_line: "'In Thy courts let peace be found,"
 meter: "7s. M"
-topic: "The Temple."
+topic: "'The Temple."
 author: "Bowring"
 composer: ""
 tune_name: ""

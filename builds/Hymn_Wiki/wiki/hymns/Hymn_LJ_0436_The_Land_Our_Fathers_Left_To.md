@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 436: The land our fathers left to us"
+title: "'LJ Hymn 436: The land our fathers left to us"
 type: hymn
 aliases: ["The land our fathers left to us"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 436
-first_line: "The land our fathers left to us"
+first_line: "'The land our fathers left to us"
 meter: "C. M"
-topic: "American Slavery."
+topic: "'American Slavery."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 393: Praise the Lord, when blushing morning"
+title: "'LJ Hymn 393: Praise the Lord, when blushing morning"
 type: hymn
 aliases: ["Praise the Lord, when blushing morning"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 393
-first_line: "Praise the Lord, when blushing morning"
+first_line: "'Praise the Lord, when blushing morning"
 meter: "8 & 7s. M"
-topic: "Hymn of Spring."
+topic: "'Hymn of Spring."
 author: "Anonymous"
 composer: ""
 tune_name: ""

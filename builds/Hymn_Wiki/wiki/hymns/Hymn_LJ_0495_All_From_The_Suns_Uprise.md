@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 495: All, from the sun's uprise"
+title: "'LJ Hymn 495: All, from the sun's uprise"
 type: hymn
 aliases: ["All, from the sun's uprise"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 495
-first_line: "All, from the sun's uprise"
+first_line: "'All, from the sun's uprise"
 meter: "H. M.                          Sandys."
-topic: "Praise Ye the Lord."
+topic: "'Praise Ye the Lord."
 author: "Anonymous"
 composer: ""
 tune_name: ""

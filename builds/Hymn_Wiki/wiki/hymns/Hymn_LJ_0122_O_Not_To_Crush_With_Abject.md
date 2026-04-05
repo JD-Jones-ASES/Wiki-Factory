@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 122: O, not to crush with abject fear"
+title: "'LJ Hymn 122: O, not to crush with abject fear"
 type: hymn
 aliases: ["O, not to crush with abject fear"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 122
-first_line: "O, not to crush with abject fear"
+first_line: "'O, not to crush with abject fear"
 meter: "C. M"
-topic: "Spirit of Jesus."
+topic: "'Spirit of Jesus."
 author: "Gaskell"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 413: In the broad fields of heaven,--"
+title: "'LJ Hymn 413: In the broad fields of heaven,--"
 type: hymn
 aliases: ["In the broad fields of heaven,--"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 413
-first_line: "In the broad fields of heaven,--"
+first_line: "'In the broad fields of heaven,--"
 meter: "7 & 6s. M"
-topic: "Children in Heaven."
+topic: "'Children in Heaven."
 author: "Anonymous"
 composer: ""
 tune_name: ""

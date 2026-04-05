@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 358: Brother, the angels say,"
+title: "'LJ Hymn 358: Brother, the angels say,"
 type: hymn
 aliases: ["Brother, the angels say,"]
 tags: ["#meter-peculiar", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 358
-first_line: "Brother, the angels say,"
+first_line: "'Brother, the angels say,"
 meter: "P. M"
-topic: "Ministering Angels."
+topic: "'Ministering Angels."
 author: "Anonymous"
 composer: ""
 tune_name: ""

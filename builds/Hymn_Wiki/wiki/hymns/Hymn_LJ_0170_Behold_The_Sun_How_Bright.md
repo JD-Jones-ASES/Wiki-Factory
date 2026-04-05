@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 170: Behold the sun, how bright"
+title: "'LJ Hymn 170: Behold the sun, how bright"
 type: hymn
 aliases: ["Behold the sun, how bright"]
 tags: ["#meter-short", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 170
-first_line: "Behold the sun, how bright"
+first_line: "'Behold the sun, how bright"
 meter: "S. M"
-topic: "Christianity."
+topic: "'Christianity."
 author: "Moore"
 composer: ""
 tune_name: ""

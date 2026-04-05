@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 336: Though lonely be thy path, fear not, for He"
+title: "'LJ Hymn 336: Though lonely be thy path, fear not, for He"
 type: hymn
 aliases: ["Though lonely be thy path, fear not, for He"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 336
-first_line: "Though lonely be thy path, fear not, for He"
+first_line: "'Though lonely be thy path, fear not, for He"
 meter: "10s. M"
-topic: "The Strength of the Lonely."
+topic: "'The Strength of the Lonely."
 author: "Anonymous"
 composer: ""
 tune_name: ""

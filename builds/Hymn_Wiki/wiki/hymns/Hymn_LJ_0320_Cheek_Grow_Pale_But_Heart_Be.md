@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 320: Cheek grow pale, but heart be vigorous!"
+title: "'LJ Hymn 320: Cheek grow pale, but heart be vigorous!"
 type: hymn
 aliases: ["Cheek grow pale, but heart be vigorous!"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 320
-first_line: "Cheek grow pale, but heart be vigorous!"
+first_line: "'Cheek grow pale, but heart be vigorous!"
 meter: "8 & 7s. M"
-topic: "Suffering and Action."
+topic: "'Suffering and Action."
 author: "Miss Bremer"
 composer: ""
 tune_name: ""

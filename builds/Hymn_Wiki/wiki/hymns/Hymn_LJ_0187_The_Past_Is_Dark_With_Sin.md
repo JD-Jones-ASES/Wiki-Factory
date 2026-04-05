@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 187: The Past is dark with sin and shame,"
+title: "'LJ Hymn 187: The Past is dark with sin and shame,"
 type: hymn
 aliases: ["The Past is dark with sin and shame,"]
 tags: ["#meter-long", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 187
-first_line: "The Past is dark with sin and shame,"
+first_line: "'The Past is dark with sin and shame,"
 meter: "L. M"
-topic: "The Hope of Man."
+topic: "'The Hope of Man."
 author: "Anonymous"
 composer: ""
 tune_name: ""

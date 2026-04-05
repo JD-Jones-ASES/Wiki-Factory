@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 433: In pleasant lands have fallen the lines"
+title: "'LJ Hymn 433: In pleasant lands have fallen the lines"
 type: hymn
 aliases: ["In pleasant lands have fallen the lines"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 433
-first_line: "In pleasant lands have fallen the lines"
+first_line: "'In pleasant lands have fallen the lines"
 meter: "L. M"
-topic: "Remembrance of Our Fathers."
+topic: "'Remembrance of Our Fathers."
 author: "Flint"
 composer: ""
 tune_name: ""

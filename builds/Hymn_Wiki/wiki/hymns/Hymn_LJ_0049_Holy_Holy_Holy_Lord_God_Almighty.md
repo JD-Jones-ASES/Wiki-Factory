@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 49: Holy, holy, holy Lord God Almighty!"
+title: "'LJ Hymn 49: Holy, holy, holy Lord God Almighty!"
 type: hymn
 aliases: ["Holy, holy, holy Lord God Almighty!"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 49
-first_line: "Holy, holy, holy Lord God Almighty!"
+first_line: "'Holy, holy, holy Lord God Almighty!"
 meter: "P. M"
-topic: "Thrice Holy."
+topic: "'Thrice Holy."
 author: "Heber"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 148: When arise the thoughts of sin,"
+title: "'LJ Hymn 148: When arise the thoughts of sin,"
 type: hymn
 aliases: ["When arise the thoughts of sin,"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 148
-first_line: "When arise the thoughts of sin,"
+first_line: "'When arise the thoughts of sin,"
 meter: "7s. M"
-topic: "Christ Who Strengtheneth Me."
+topic: "'Christ Who Strengtheneth Me."
 author: "Gaskell"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 497: Meet and right it is to sing,"
+title: "'LJ Hymn 497: Meet and right it is to sing,"
 type: hymn
 aliases: ["Meet and right it is to sing,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 497
-first_line: "Meet and right it is to sing,"
+first_line: "'Meet and right it is to sing,"
 meter: "7 & 6s. M"
-topic: "Thanksgiving."
+topic: "'Thanksgiving."
 author: "Anonymous"
 composer: ""
 tune_name: ""

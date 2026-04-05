@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 196: Turn, child of doubt, estranged from God!"
+title: "'LJ Hymn 196: Turn, child of doubt, estranged from God!"
 type: hymn
 aliases: ["Turn, child of doubt, estranged from God!"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 196
-first_line: "Turn, child of doubt, estranged from God!"
+first_line: "'Turn, child of doubt, estranged from God!"
 meter: "L. M"
-topic: "Turn, Child of Doubt."
+topic: "'Turn, Child of Doubt."
 author: "Beard's Coll"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 590: Now let our voices join,"
+title: "'LJ Hymn 590: Now let our voices join,"
 type: hymn
 aliases: ["Now let our voices join,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 590
-first_line: "Now let our voices join,"
+first_line: "'Now let our voices join,"
 meter: "S. M"
-topic: "The Pilgrim's Hymn."
+topic: "'The Pilgrim's Hymn."
 author: "Doddridge"
 composer: ""
 tune_name: ""

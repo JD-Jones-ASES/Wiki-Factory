@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 142: It was no path of flowers,"
+title: "'LJ Hymn 142: It was no path of flowers,"
 type: hymn
 aliases: ["It was no path of flowers,"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 142
-first_line: "It was no path of flowers,"
+first_line: "'It was no path of flowers,"
 meter: "6 & 10s. M"
-topic: "Looking unto Jesus."
+topic: "'Looking unto Jesus."
 author: "Mrs. Miles"
 composer: ""
 tune_name: ""

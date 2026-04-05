@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 585: The glorious universe around,"
+title: "'LJ Hymn 585: The glorious universe around,"
 type: hymn
 aliases: ["The glorious universe around,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 585
-first_line: "The glorious universe around,"
+first_line: "'The glorious universe around,"
 meter: "C. M"
-topic: "Unity."
+topic: "'Unity."
 author: "Montgomery"
 composer: ""
 tune_name: ""

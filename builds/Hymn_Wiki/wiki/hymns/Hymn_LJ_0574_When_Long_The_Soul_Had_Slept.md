@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 574: When long the soul had slept in chains"
+title: "'LJ Hymn 574: When long the soul had slept in chains"
 type: hymn
 aliases: ["When long the soul had slept in chains"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 574
-first_line: "When long the soul had slept in chains"
+first_line: "'When long the soul had slept in chains"
 meter: "L. M"
-topic: "For a Charitable Occasion."
+topic: "'For a Charitable Occasion."
 author: "E. H. Chapin"
 composer: ""
 tune_name: ""

@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 47: "Lord, Thy glory fills the heaven;"
+title: "LJ Hymn 47: Lord, Thy glory fills the heaven;"
 type: hymn
-aliases: [""Lord, Thy glory fills the heaven;"]
+aliases: ["Lord, Thy glory fills the heaven;"]
 tags: ["#meter-short", "#theme-worship"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,7 +10,7 @@ related: []
 status: stub
 confidence: high
 hymn_number: 47
-first_line: "\"Lord, Thy glory fills the heaven;"
+first_line: "Lord, Thy glory fills the heaven;"
 meter: "8 & 7s. M"
 topic: "Thrice Holy."
 author: "Ancient Hymns"
@@ -46,10 +46,10 @@ collection: "Longfellow-Johnson"
     Unto Thee be glory given,
       Holy, holy, holy Lord!"
     Heaven is still with anthems ringing;
-      Earth takes up the angels' cry,
+      Earth takes up the angels cry,
     "Holy, holy, holy," singing,
       "Lord of hosts, the Lord most High!"
-  2 Ever thus in God's high praises,
+  2 Ever thus in Gods high praises,
       Brethren, let our tongues unite,
     Whilst our thoughts His greatness raises,
       And our love His gifts excite.
@@ -62,8 +62,8 @@ collection: "Longfellow-Johnson"
     Unto Thee be glory given,
       Holy, holy, holy Lord!
     Thus, Thy glorious name confessing,
-      We adopt the angels' cry,
-    'Holy, holy, holy,'--blessing
+      We adopt the angels cry,
+    Holy, holy, holy,--blessing
       Thee, the Lord our God most High!"
 ```
 

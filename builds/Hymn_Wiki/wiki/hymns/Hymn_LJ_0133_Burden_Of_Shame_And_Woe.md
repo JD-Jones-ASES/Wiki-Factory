@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 133: Burden of shame and woe!"
+title: "'LJ Hymn 133: Burden of shame and woe!"
 type: hymn
 aliases: ["Burden of shame and woe!"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 133
-first_line: "Burden of shame and woe!"
+first_line: "'Burden of shame and woe!"
 meter: "6 & 10s. M"
-topic: "Bearing the Cross."
+topic: "'Bearing the Cross."
 author: "Bulfinch"
 composer: ""
 tune_name: ""

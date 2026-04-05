@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 2: To prayer, to prayer!--for the morning breaks,"
+title: "'LJ Hymn 2: To prayer, to prayer!--for the morning breaks,"
 type: hymn
 aliases: ["To prayer, to prayer!--for the morning breaks,"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 2
-first_line: "To prayer, to prayer!--for the morning breaks,"
+first_line: "'To prayer, to prayer!--for the morning breaks,"
 meter: "P. M"
-topic: "Call to Prayer."
+topic: "'Call to Prayer."
 author: "H. Ware"
 composer: ""
 tune_name: ""

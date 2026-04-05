@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 293: Who is thy neighbor? he whom thou"
+title: "'LJ Hymn 293: Who is thy neighbor? he whom thou"
 type: hymn
 aliases: ["Who is thy neighbor? he whom thou"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 293
-first_line: "Who is thy neighbor? he whom thou"
+first_line: "'Who is thy neighbor? he whom thou"
 meter: "C. M"
-topic: "Who Is My Neighbor?"
+topic: "'Who Is My Neighbor?"
 author: "Peabody"
 composer: ""
 tune_name: ""

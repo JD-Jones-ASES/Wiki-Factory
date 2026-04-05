@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 417: Where, for a thousand miles,"
+title: "'LJ Hymn 417: Where, for a thousand miles,"
 type: hymn
 aliases: ["Where, for a thousand miles,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 417
-first_line: "Where, for a thousand miles,"
+first_line: "'Where, for a thousand miles,"
 meter: "6 & 4s. M"
-topic: ""How Beautiful upon the Mountains.""
+topic: "''How Beautiful upon the Mountains.'"
 author: "Anonymous"
 composer: ""
 tune_name: ""

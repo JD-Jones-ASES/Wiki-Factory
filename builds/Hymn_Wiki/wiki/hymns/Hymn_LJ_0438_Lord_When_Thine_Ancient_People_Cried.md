@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 438: Lord, when Thine ancient people cried,"
+title: "'LJ Hymn 438: Lord, when Thine ancient people cried,"
 type: hymn
 aliases: ["Lord, when Thine ancient people cried,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 438
-first_line: "Lord, when Thine ancient people cried,"
+first_line: "'Lord, when Thine ancient people cried,"
 meter: "L. M"
-topic: "Remember Them Who Are in Bonds."
+topic: "'Remember Them Who Are in Bonds."
 author: "Caroline Sewall"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 464: Approach not the altar with gloom in thy soul,"
+title: "'LJ Hymn 464: Approach not the altar with gloom in thy soul,"
 type: hymn
 aliases: ["Approach not the altar with gloom in thy soul,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 464
-first_line: "Approach not the altar with gloom in thy soul,"
+first_line: "'Approach not the altar with gloom in thy soul,"
 meter: "11s. M"
-topic: "Glad Worship."
+topic: "'Glad Worship."
 author: "Mrs. Osgood"
 composer: ""
 tune_name: ""

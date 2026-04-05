@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 513: O Thou, in whom the weary find"
+title: "'LJ Hymn 513: O Thou, in whom the weary find"
 type: hymn
 aliases: ["O Thou, in whom the weary find"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 513
-first_line: "O Thou, in whom the weary find"
+first_line: "'O Thou, in whom the weary find"
 meter: "L. M"
-topic: "Seeking Rest."
+topic: "'Seeking Rest."
 author: "Wesleyan"
 composer: ""
 tune_name: ""

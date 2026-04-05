@@ -1,7 +1,7 @@
 ---
-title: "LJ Hymn 352: "No more, on earth no more,"
+title: "LJ Hymn 352: No more, on earth no more,"
 type: hymn
-aliases: [""No more, on earth no more,"]
+aliases: ["No more, on earth no more,"]
 tags: ["#meter-short", "#theme-pilgrimage"]
 created: 2026-04-05
 updated: 2026-04-05
@@ -10,7 +10,7 @@ related: []
 status: stub
 confidence: high
 hymn_number: 352
-first_line: "\"No more, on earth no more,"
+first_line: "No more, on earth no more,"
 meter: "S. M"
 topic: "No More!"
 author: "Gaskell"
@@ -53,8 +53,8 @@ collection: "Longfellow-Johnson"
       Shall those dear lips be heard;
     Cold silence there hath fixed its seal,
       Breathed is their latest word."
-  4   'Tis so fond Nature mourns
-      Affection's broken ties;
+  4   Tis so fond Nature mourns
+      Affections broken ties;
     But Faith stands forth, she points on high,
       Serenely she replies:--
   5   "No more, in heaven no more,

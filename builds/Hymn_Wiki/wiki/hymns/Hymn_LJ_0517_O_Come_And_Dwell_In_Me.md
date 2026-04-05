@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 517: O come and dwell in me,"
+title: "'LJ Hymn 517: O come and dwell in me,"
 type: hymn
 aliases: ["O come and dwell in me,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 517
-first_line: "O come and dwell in me,"
+first_line: "'O come and dwell in me,"
 meter: "S. M"
-topic: "Aspiration."
+topic: "'Aspiration."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

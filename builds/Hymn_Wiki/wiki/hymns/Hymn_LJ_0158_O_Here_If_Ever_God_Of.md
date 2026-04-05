@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 158: O, here, if ever, God of love!"
+title: "'LJ Hymn 158: O, here, if ever, God of love!"
 type: hymn
 aliases: ["O, here, if ever, God of love!"]
 tags: ["#meter-common", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 158
-first_line: "O, here, if ever, God of love!"
+first_line: "'O, here, if ever, God of love!"
 meter: "C. M"
-topic: "Communion."
+topic: "'Communion."
 author: "Emily Taylor"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 91: I saw on earth another light"
+title: "'LJ Hymn 91: I saw on earth another light"
 type: hymn
 aliases: ["I saw on earth another light"]
 tags: ["#meter-common", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 91
-first_line: "I saw on earth another light"
+first_line: "'I saw on earth another light"
 meter: "C. M"
-topic: "The Light from Within."
+topic: "'The Light from Within."
 author: "Jones Very"
 composer: ""
 tune_name: ""

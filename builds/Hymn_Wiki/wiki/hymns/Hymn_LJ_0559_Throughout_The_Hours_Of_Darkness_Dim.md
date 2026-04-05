@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 559: Throughout the hours of darkness dim,"
+title: "'LJ Hymn 559: Throughout the hours of darkness dim,"
 type: hymn
 aliases: ["Throughout the hours of darkness dim,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 559
-first_line: "Throughout the hours of darkness dim,"
+first_line: "'Throughout the hours of darkness dim,"
 meter: "L. M"
-topic: "Night-Watches."
+topic: "'Night-Watches."
 author: "Breviary"
 composer: ""
 tune_name: ""

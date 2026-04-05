@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 555: While the stars unnumbered roll"
+title: "'LJ Hymn 555: While the stars unnumbered roll"
 type: hymn
 aliases: ["While the stars unnumbered roll"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 555
-first_line: "While the stars unnumbered roll"
+first_line: "'While the stars unnumbered roll"
 meter: "7s. M"
-topic: "Night."
+topic: "'Night."
 author: "Doddridge"
 composer: ""
 tune_name: ""

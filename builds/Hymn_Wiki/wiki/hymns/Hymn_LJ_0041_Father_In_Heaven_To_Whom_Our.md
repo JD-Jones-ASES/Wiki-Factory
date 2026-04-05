@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 41: Father in heaven, to whom our hearts"
+title: "'LJ Hymn 41: Father in heaven, to whom our hearts"
 type: hymn
 aliases: ["Father in heaven, to whom our hearts"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 41
-first_line: "Father in heaven, to whom our hearts"
+first_line: "'Father in heaven, to whom our hearts"
 meter: "C. M"
-topic: "For God's Presence."
+topic: "'For God's Presence."
 author: "H. Ware, Jr"
 composer: ""
 tune_name: ""

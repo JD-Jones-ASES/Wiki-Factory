@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 594: Almighty Spirit, now behold"
+title: "'LJ Hymn 594: Almighty Spirit, now behold"
 type: hymn
 aliases: ["Almighty Spirit, now behold"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 594
-first_line: "Almighty Spirit, now behold"
+first_line: "'Almighty Spirit, now behold"
 meter: "C. M"
-topic: "He Maketh All Things New."
+topic: "'He Maketh All Things New."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 283: O, who shall say he knows the folds"
+title: "'LJ Hymn 283: O, who shall say he knows the folds"
 type: hymn
 aliases: ["O, who shall say he knows the folds"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 283
-first_line: "O, who shall say he knows the folds"
+first_line: "'O, who shall say he knows the folds"
 meter: "L. M"
-topic: "Judge Not."
+topic: "'Judge Not."
 author: "Jane Roscoe"
 composer: ""
 tune_name: ""

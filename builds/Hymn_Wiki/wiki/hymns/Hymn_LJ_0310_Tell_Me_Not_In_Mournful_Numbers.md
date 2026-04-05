@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 310: Tell me not, in mournful numbers,"
+title: "'LJ Hymn 310: Tell me not, in mournful numbers,"
 type: hymn
 aliases: ["Tell me not, in mournful numbers,"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 310
-first_line: "Tell me not, in mournful numbers,"
+first_line: "'Tell me not, in mournful numbers,"
 meter: "8 & 7s. M"
-topic: "Psalm of Life."
+topic: "'Psalm of Life."
 author: "Longfellow"
 composer: ""
 tune_name: ""

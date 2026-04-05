@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 558: Creator of all! through whose all-seeing might"
+title: "'LJ Hymn 558: Creator of all! through whose all-seeing might"
 type: hymn
 aliases: ["Creator of all! through whose all-seeing might"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 558
-first_line: "Creator of all! through whose all-seeing might"
+first_line: "'Creator of all! through whose all-seeing might"
 meter: "11s. M"
-topic: "Hymn of Night."
+topic: "'Hymn of Night."
 author: "Breviary"
 composer: ""
 tune_name: ""

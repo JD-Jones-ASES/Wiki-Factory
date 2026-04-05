@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 568: When in silence, o'er the deep,"
+title: "'LJ Hymn 568: When in silence, o'er the deep,"
 type: hymn
 aliases: ["When in silence, o'er the deep,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 568
-first_line: "When in silence, o'er the deep,"
+first_line: "'When in silence, o'er the deep,"
 meter: "7s. M"
-topic: "Christmas."
+topic: "'Christmas."
 author: "Mary W. Hale"
 composer: ""
 tune_name: ""

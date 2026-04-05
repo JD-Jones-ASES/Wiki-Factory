@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 573: The Lord our God is full of might,"
+title: "'LJ Hymn 573: The Lord our God is full of might,"
 type: hymn
 aliases: ["The Lord our God is full of might,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 573
-first_line: "The Lord our God is full of might,"
+first_line: "'The Lord our God is full of might,"
 meter: "C. M"
-topic: "In a Storm."
+topic: "'In a Storm."
 author: "H. K. White"
 composer: ""
 tune_name: ""

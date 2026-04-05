@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 375: Within Thy courts have millions met,"
+title: "'LJ Hymn 375: Within Thy courts have millions met,"
 type: hymn
 aliases: ["Within Thy courts have millions met,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 375
-first_line: "Within Thy courts have millions met,"
+first_line: "'Within Thy courts have millions met,"
 meter: "L. M"
-topic: "Sabbath Evening."
+topic: "'Sabbath Evening."
 author: "Montgomery"
 composer: ""
 tune_name: ""

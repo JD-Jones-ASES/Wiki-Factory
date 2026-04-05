@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 300: The bud will soon become a flower,"
+title: "'LJ Hymn 300: The bud will soon become a flower,"
 type: hymn
 aliases: ["The bud will soon become a flower,"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 300
-first_line: "The bud will soon become a flower,"
+first_line: "'The bud will soon become a flower,"
 meter: "C. M"
-topic: "As Ye Sow, So Shall Ye Reap."
+topic: "'As Ye Sow, So Shall Ye Reap."
 author: "Jones Very"
 composer: ""
 tune_name: ""

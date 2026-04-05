@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 128: Dark were the paths our Master trod,"
+title: "'LJ Hymn 128: Dark were the paths our Master trod,"
 type: hymn
 aliases: ["Dark were the paths our Master trod,"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 128
-first_line: "Dark were the paths our Master trod,"
+first_line: "'Dark were the paths our Master trod,"
 meter: "L. M"
-topic: "Christ The Sufferer."
+topic: "'Christ The Sufferer."
 author: "Gaskell"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 240: The fountain in its source"
+title: "'LJ Hymn 240: The fountain in its source"
 type: hymn
 aliases: ["The fountain in its source"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 240
-first_line: "The fountain in its source"
+first_line: "'The fountain in its source"
 meter: "S. M"
-topic: "Living Waters."
+topic: "'Living Waters."
 author: "Mme. Guion"
 composer: ""
 tune_name: ""

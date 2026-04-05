@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 304: If on our daily course our mind"
+title: "'LJ Hymn 304: If on our daily course our mind"
 type: hymn
 aliases: ["If on our daily course our mind"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 304
-first_line: "If on our daily course our mind"
+first_line: "'If on our daily course our mind"
 meter: "L. M"
-topic: "Seeing God in All."
+topic: "'Seeing God in All."
 author: "Keble"
 composer: ""
 tune_name: ""

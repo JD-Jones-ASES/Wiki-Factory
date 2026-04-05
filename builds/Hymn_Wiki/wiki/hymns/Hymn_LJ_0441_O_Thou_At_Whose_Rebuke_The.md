@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 441: O Thou, at whose rebuke, the grave"
+title: "'LJ Hymn 441: O Thou, at whose rebuke, the grave"
 type: hymn
 aliases: ["O Thou, at whose rebuke, the grave"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 441
-first_line: "O Thou, at whose rebuke, the grave"
+first_line: "'O Thou, at whose rebuke, the grave"
 meter: "L. M"
-topic: "Mercy and Not Sacrifice."
+topic: "'Mercy and Not Sacrifice."
 author: "Whittier"
 composer: ""
 tune_name: ""

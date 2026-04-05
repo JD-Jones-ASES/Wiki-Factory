@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 185: How long, O Lord, his brother's blood"
+title: "'LJ Hymn 185: How long, O Lord, his brother's blood"
 type: hymn
 aliases: ["How long, O Lord, his brother's blood"]
 tags: ["#meter-common", "#theme-missionary"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 185
-first_line: "How long, O Lord, his brother's blood"
+first_line: "'How long, O Lord, his brother's blood"
 meter: "C. M"
-topic: "Peace."
+topic: "'Peace."
 author: "Gaskell"
 composer: ""
 tune_name: ""

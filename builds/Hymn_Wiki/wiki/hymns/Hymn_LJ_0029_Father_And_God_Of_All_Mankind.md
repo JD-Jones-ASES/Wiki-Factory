@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 29: Father and God of all mankind,"
+title: "'LJ Hymn 29: Father and God of all mankind,"
 type: hymn
 aliases: ["Father and God of all mankind,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 29
-first_line: "Father and God of all mankind,"
+first_line: "'Father and God of all mankind,"
 meter: "C. M"
-topic: ""Thy Kingdom Come.""
+topic: "''Thy Kingdom Come.'"
 author: "C. Wesley"
 composer: ""
 tune_name: ""

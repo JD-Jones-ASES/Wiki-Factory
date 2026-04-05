@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 243: O God, to Thee, who first hast given"
+title: "'LJ Hymn 243: O God, to Thee, who first hast given"
 type: hymn
 aliases: ["O God, to Thee, who first hast given"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 243
-first_line: "O God, to Thee, who first hast given"
+first_line: "'O God, to Thee, who first hast given"
 meter: "C. P. M.                    Jane Roscoe."
-topic: "Self-Consecration."
+topic: "'Self-Consecration."
 author: "Anonymous"
 composer: ""
 tune_name: ""

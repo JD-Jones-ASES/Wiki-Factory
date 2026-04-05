@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 525: We pray for truth and peace;"
+title: "'LJ Hymn 525: We pray for truth and peace;"
 type: hymn
 aliases: ["We pray for truth and peace;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 525
-first_line: "We pray for truth and peace;"
+first_line: "'We pray for truth and peace;"
 meter: "S. M"
-topic: "Why Art Thou Cast Down, My Soul?"
+topic: "'Why Art Thou Cast Down, My Soul?"
 author: "Anonymous"
 composer: ""
 tune_name: ""

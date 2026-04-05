@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 600: Gone is the hollow, murky night,"
+title: "'LJ Hymn 600: Gone is the hollow, murky night,"
 type: hymn
 aliases: ["Gone is the hollow, murky night,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 600
-first_line: "Gone is the hollow, murky night,"
+first_line: "'Gone is the hollow, murky night,"
 meter: "C. M"
-topic: "Brightening Unto the Perfect Day."
+topic: "'Brightening Unto the Perfect Day."
 author: "Breviary"
 composer: ""
 tune_name: ""

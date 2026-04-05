@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 205: To Thine eternal arms, O God,"
+title: "'LJ Hymn 205: To Thine eternal arms, O God,"
 type: hymn
 aliases: ["To Thine eternal arms, O God,"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 205
-first_line: "To Thine eternal arms, O God,"
+first_line: "'To Thine eternal arms, O God,"
 meter: "L. M"
-topic: "I Will Arise and Go unto My Father."
+topic: "'I Will Arise and Go unto My Father."
 author: "Anonymous"
 composer: ""
 tune_name: ""

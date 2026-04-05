@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 478: The breaking waves dashed high"
+title: "'LJ Hymn 478: The breaking waves dashed high"
 type: hymn
 aliases: ["The breaking waves dashed high"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 478
-first_line: "The breaking waves dashed high"
+first_line: "'The breaking waves dashed high"
 meter: "P. M"
-topic: "The Pilgrim Fathers."
+topic: "'The Pilgrim Fathers."
 author: "Mrs. Hemans"
 composer: ""
 tune_name: ""

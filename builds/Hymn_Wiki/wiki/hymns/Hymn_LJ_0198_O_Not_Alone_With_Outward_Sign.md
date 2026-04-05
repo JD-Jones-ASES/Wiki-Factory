@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 198: O, not alone with outward sign"
+title: "'LJ Hymn 198: O, not alone with outward sign"
 type: hymn
 aliases: ["O, not alone with outward sign"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 198
-first_line: "O, not alone with outward sign"
+first_line: "'O, not alone with outward sign"
 meter: "C. M"
-topic: "The Call."
+topic: "'The Call."
 author: "Whittier"
 composer: ""
 tune_name: ""

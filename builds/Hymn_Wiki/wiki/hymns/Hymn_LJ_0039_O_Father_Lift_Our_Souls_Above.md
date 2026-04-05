@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 39: O Father! lift our souls above,"
+title: "'LJ Hymn 39: O Father! lift our souls above,"
 type: hymn
 aliases: ["O Father! lift our souls above,"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 39
-first_line: "O Father! lift our souls above,"
+first_line: "'O Father! lift our souls above,"
 meter: "L. M"
-topic: "The Peace of God."
+topic: "'The Peace of God."
 author: "Anonymous"
 composer: ""
 tune_name: ""

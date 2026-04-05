@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 144: When my love to Christ grows weak,"
+title: "'LJ Hymn 144: When my love to Christ grows weak,"
 type: hymn
 aliases: ["When my love to Christ grows weak,"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 144
-first_line: "When my love to Christ grows weak,"
+first_line: "'When my love to Christ grows weak,"
 meter: "7s. M"
-topic: "Strength Through Christ's Sufferings."
+topic: "'Strength Through Christ's Sufferings."
 author: "Anonymous"
 composer: ""
 tune_name: ""

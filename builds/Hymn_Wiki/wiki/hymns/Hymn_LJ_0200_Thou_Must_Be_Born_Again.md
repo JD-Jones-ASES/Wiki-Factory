@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 200: Thou must be born again!"
+title: "'LJ Hymn 200: Thou must be born again!"
 type: hymn
 aliases: ["Thou must be born again!"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 200
-first_line: "Thou must be born again!"
+first_line: "'Thou must be born again!"
 meter: "S. M"
-topic: "Thou Must Be Born Again."
+topic: "'Thou Must Be Born Again."
 author: "Johns"
 composer: ""
 tune_name: ""

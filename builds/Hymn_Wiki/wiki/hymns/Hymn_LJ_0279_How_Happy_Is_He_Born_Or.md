@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 279: How happy is he born or taught"
+title: "'LJ Hymn 279: How happy is he born or taught"
 type: hymn
 aliases: ["How happy is he born or taught"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 279
-first_line: "How happy is he born or taught"
+first_line: "'How happy is he born or taught"
 meter: "L. M"
-topic: "Independence."
+topic: "'Independence."
 author: "Wotton"
 composer: ""
 tune_name: ""

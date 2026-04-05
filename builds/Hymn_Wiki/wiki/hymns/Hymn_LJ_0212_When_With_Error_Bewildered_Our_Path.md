@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 212: When, with error bewildered, our path becomes dreary,"
+title: "'LJ Hymn 212: When, with error bewildered, our path becomes dreary,"
 type: hymn
 aliases: ["When, with error bewildered, our path becomes dreary,"]
 tags: ["#meter-peculiar", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 212
-first_line: "When, with error bewildered, our path becomes dreary,"
+first_line: "'When, with error bewildered, our path becomes dreary,"
 meter: "P. M"
-topic: "Lord, to Whom Shall We Go?"
+topic: "'Lord, to Whom Shall We Go?"
 author: "Mrs. Follen"
 composer: ""
 tune_name: ""

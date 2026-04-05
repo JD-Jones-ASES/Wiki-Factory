@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 216: Hasten, Lord, to my release;"
+title: "'LJ Hymn 216: Hasten, Lord, to my release;"
 type: hymn
 aliases: ["Hasten, Lord, to my release;"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 216
-first_line: "Hasten, Lord, to my release;"
+first_line: "'Hasten, Lord, to my release;"
 meter: "7s. M"
-topic: "In Temptation."
+topic: "'In Temptation."
 author: "Montgomery"
 composer: ""
 tune_name: ""

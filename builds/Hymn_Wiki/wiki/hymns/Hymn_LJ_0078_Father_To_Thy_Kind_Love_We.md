@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 78: Father, to Thy kind love we owe"
+title: "'LJ Hymn 78: Father, to Thy kind love we owe"
 type: hymn
 aliases: ["Father, to Thy kind love we owe"]
 tags: ["#meter-long", "#theme-praise"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 78
-first_line: "Father, to Thy kind love we owe"
+first_line: "'Father, to Thy kind love we owe"
 meter: "L. M"
-topic: "Loving-Kindness of God."
+topic: "'Loving-Kindness of God."
 author: "Bryant"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 439: Ages, ages have departed,"
+title: "'LJ Hymn 439: Ages, ages have departed,"
 type: hymn
 aliases: ["Ages, ages have departed,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 439
-first_line: "Ages, ages have departed,"
+first_line: "'Ages, ages have departed,"
 meter: "8, 7, & 4s. M.                 *Montgomery."
-topic: "Slavery."
+topic: "'Slavery."
 author: "Anonymous"
 composer: ""
 tune_name: ""

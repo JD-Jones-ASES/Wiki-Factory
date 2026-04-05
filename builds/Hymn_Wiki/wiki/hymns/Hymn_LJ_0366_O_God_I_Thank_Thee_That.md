@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 366: O God! I thank Thee that the night"
+title: "'LJ Hymn 366: O God! I thank Thee that the night"
 type: hymn
 aliases: ["O God! I thank Thee that the night"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 366
-first_line: "O God! I thank Thee that the night"
+first_line: "'O God! I thank Thee that the night"
 meter: "L. M"
-topic: "Morning Hymn for a Child."
+topic: "'Morning Hymn for a Child."
 author: "Pierpont"
 composer: ""
 tune_name: ""

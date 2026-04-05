@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 223: I Want the spirit of power within,"
+title: "'LJ Hymn 223: I Want the spirit of power within,"
 type: hymn
 aliases: ["I Want the spirit of power within,"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 223
-first_line: "I Want the spirit of power within,"
+first_line: "'I Want the spirit of power within,"
 meter: "L. M"
-topic: "Spiritual Needs."
+topic: "'Spiritual Needs."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

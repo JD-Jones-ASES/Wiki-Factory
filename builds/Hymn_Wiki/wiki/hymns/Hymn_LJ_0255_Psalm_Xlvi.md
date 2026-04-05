@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 255: Psalm xlvi."
+title: "'LJ Hymn 255: Psalm xlvi."
 type: hymn
 aliases: ["Psalm xlvi."]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 255
-first_line: "Psalm xlvi."
+first_line: "'Psalm xlvi."
 meter: "C. M"
-topic: "God Our Refuge."
+topic: "'God Our Refuge."
 author: "Alford"
 composer: ""
 tune_name: ""

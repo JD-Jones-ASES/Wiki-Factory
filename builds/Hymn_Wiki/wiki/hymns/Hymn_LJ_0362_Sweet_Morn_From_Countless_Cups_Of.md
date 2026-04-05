@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 362: Sweet morn! from countless cups of gold,"
+title: "'LJ Hymn 362: Sweet morn! from countless cups of gold,"
 type: hymn
 aliases: ["Sweet morn! from countless cups of gold,"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 362
-first_line: "Sweet morn! from countless cups of gold,"
+first_line: "'Sweet morn! from countless cups of gold,"
 meter: "P. M"
-topic: "A Hymn of Morning."
+topic: "'A Hymn of Morning."
 author: "Sterling"
 composer: ""
 tune_name: ""

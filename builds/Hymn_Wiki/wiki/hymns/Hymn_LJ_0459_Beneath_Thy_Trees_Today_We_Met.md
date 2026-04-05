@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 459: Beneath Thy trees to-day we met,"
+title: "'LJ Hymn 459: Beneath Thy trees to-day we met,"
 type: hymn
 aliases: ["Beneath Thy trees to-day we met,"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 459
-first_line: "Beneath Thy trees to-day we met,"
+first_line: "'Beneath Thy trees to-day we met,"
 meter: "C. M"
-topic: "For a Summer Festival."
+topic: "'For a Summer Festival."
 author: "J. Weiss"
 composer: ""
 tune_name: ""

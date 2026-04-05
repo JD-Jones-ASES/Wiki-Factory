@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 164: The peace which God bestows"
+title: "'LJ Hymn 164: The peace which God bestows"
 type: hymn
 aliases: ["The peace which God bestows"]
 tags: ["#meter-short", "#theme-communion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 164
-first_line: "The peace which God bestows"
+first_line: "'The peace which God bestows"
 meter: "6 & 10s. M"
-topic: "Benediction."
+topic: "'Benediction."
 author: "Briggs' Coll"
 composer: ""
 tune_name: ""

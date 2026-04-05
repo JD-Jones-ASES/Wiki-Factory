@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 386: Thy servant's sandals, Lord, are wet"
+title: "'LJ Hymn 386: Thy servant's sandals, Lord, are wet"
 type: hymn
 aliases: ["Thy servant's sandals, Lord, are wet"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 386
-first_line: "Thy servant's sandals, Lord, are wet"
+first_line: "'Thy servant's sandals, Lord, are wet"
 meter: "L. M"
-topic: "Ordination."
+topic: "'Ordination."
 author: "Anonymous"
 composer: ""
 tune_name: ""

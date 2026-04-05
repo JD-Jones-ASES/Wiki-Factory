@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 504: Lord of the families below!"
+title: "'LJ Hymn 504: Lord of the families below!"
 type: hymn
 aliases: ["Lord of the families below!"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 504
-first_line: "Lord of the families below!"
+first_line: "'Lord of the families below!"
 meter: "C. M"
-topic: "Peace Be Unto This House."
+topic: "'Peace Be Unto This House."
 author: "Anonymous"
 composer: ""
 tune_name: ""

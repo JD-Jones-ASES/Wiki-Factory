@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 48: Songs of praise the angels sang,"
+title: "'LJ Hymn 48: Songs of praise the angels sang,"
 type: hymn
 aliases: ["Songs of praise the angels sang,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 48
-first_line: "Songs of praise the angels sang,"
+first_line: "'Songs of praise the angels sang,"
 meter: "7s. M"
-topic: "Songs of Praise."
+topic: "'Songs of Praise."
 author: "Montgomery"
 composer: ""
 tune_name: ""

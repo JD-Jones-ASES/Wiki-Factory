@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 134: In the Saviour's hour of death,"
+title: "'LJ Hymn 134: In the Saviour's hour of death,"
 type: hymn
 aliases: ["In the Saviour's hour of death,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 134
-first_line: "In the Saviour's hour of death,"
+first_line: "'In the Saviour's hour of death,"
 meter: "7s. M"
-topic: "The Crucifixion."
+topic: "'The Crucifixion."
 author: "Bulfinch"
 composer: ""
 tune_name: ""

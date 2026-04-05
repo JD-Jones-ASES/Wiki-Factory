@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 521: One prayer I have,--all prayers in one,"
+title: "'LJ Hymn 521: One prayer I have,--all prayers in one,"
 type: hymn
 aliases: ["One prayer I have,--all prayers in one,"]
 tags: ["#meter-common", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 521
-first_line: "One prayer I have,--all prayers in one,"
+first_line: "'One prayer I have,--all prayers in one,"
 meter: "C. M"
-topic: "Prayer for Submission."
+topic: "'Prayer for Submission."
 author: "Montgomery"
 composer: ""
 tune_name: ""

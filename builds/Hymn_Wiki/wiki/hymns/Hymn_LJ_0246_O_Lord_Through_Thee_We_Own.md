@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 246: O Lord! through Thee we own"
+title: "'LJ Hymn 246: O Lord! through Thee we own"
 type: hymn
 aliases: ["O Lord! through Thee we own"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 246
-first_line: "O Lord! through Thee we own"
+first_line: "'O Lord! through Thee we own"
 meter: "S. M"
-topic: "Born Again."
+topic: "'Born Again."
 author: "Bulfinch"
 composer: ""
 tune_name: ""

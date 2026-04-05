@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 486: O Thou, at whose divine command"
+title: "'LJ Hymn 486: O Thou, at whose divine command"
 type: hymn
 aliases: ["O Thou, at whose divine command"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 486
-first_line: "O Thou, at whose divine command"
+first_line: "'O Thou, at whose divine command"
 meter: "L. M"
-topic: "The Seed of the Word."
+topic: "'The Seed of the Word."
 author: "Alford"
 composer: ""
 tune_name: ""

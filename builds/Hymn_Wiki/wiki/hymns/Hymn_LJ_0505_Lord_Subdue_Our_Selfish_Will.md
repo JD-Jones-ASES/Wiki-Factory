@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 505: Lord! subdue our selfish will;"
+title: "'LJ Hymn 505: Lord! subdue our selfish will;"
 type: hymn
 aliases: ["Lord! subdue our selfish will;"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 505
-first_line: "Lord! subdue our selfish will;"
+first_line: "'Lord! subdue our selfish will;"
 meter: "7s. M"
-topic: "Brotherly Love."
+topic: "'Brotherly Love."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

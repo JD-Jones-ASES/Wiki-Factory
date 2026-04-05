@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 586: Nature hath seasons of repose;"
+title: "'LJ Hymn 586: Nature hath seasons of repose;"
 type: hymn
 aliases: ["Nature hath seasons of repose;"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 586
-first_line: "Nature hath seasons of repose;"
+first_line: "'Nature hath seasons of repose;"
 meter: "P. M"
-topic: "Peace Everywhere."
+topic: "'Peace Everywhere."
 author: "Anonymous"
 composer: ""
 tune_name: ""

@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 379: To Him who children blest,"
+title: "'LJ Hymn 379: To Him who children blest,"
 type: hymn
 aliases: ["To Him who children blest,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 379
-first_line: "To Him who children blest,"
+first_line: "'To Him who children blest,"
 meter: "S. M"
-topic: "Baptism of Children."
+topic: "'Baptism of Children."
 author: "Disciples' H. B"
 composer: ""
 tune_name: ""

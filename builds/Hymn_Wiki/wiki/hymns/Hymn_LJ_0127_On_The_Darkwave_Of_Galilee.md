@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 127: On the dark-wave of Galilee"
+title: "'LJ Hymn 127: On the dark-wave of Galilee"
 type: hymn
 aliases: ["On the dark-wave of Galilee"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 127
-first_line: "On the dark-wave of Galilee"
+first_line: "'On the dark-wave of Galilee"
 meter: "L. M"
-topic: "Through His Poverty Made Rich."
+topic: "'Through His Poverty Made Rich."
 author: "Russell"
 composer: ""
 tune_name: ""

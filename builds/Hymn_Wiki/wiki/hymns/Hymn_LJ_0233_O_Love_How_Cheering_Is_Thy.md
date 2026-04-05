@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 233: O Love, how cheering is Thy ray!"
+title: "'LJ Hymn 233: O Love, how cheering is Thy ray!"
 type: hymn
 aliases: ["O Love, how cheering is Thy ray!"]
 tags: ["#meter-long", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 233
-first_line: "O Love, how cheering is Thy ray!"
+first_line: "'O Love, how cheering is Thy ray!"
 meter: "L. M"
-topic: "Desire for Union with God."
+topic: "'Desire for Union with God."
 author: "Wesleyan"
 composer: ""
 tune_name: ""

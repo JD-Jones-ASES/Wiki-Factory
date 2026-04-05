@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 359: When, on devotion's seraph wing,"
+title: "'LJ Hymn 359: When, on devotion's seraph wing,"
 type: hymn
 aliases: ["When, on devotion's seraph wing,"]
 tags: ["#meter-common", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 359
-first_line: "When, on devotion's seraph wing,"
+first_line: "'When, on devotion's seraph wing,"
 meter: "C. M"
-topic: "Foretaste of Heaven."
+topic: "'Foretaste of Heaven."
 author: "Mrs. Miles"
 composer: ""
 tune_name: ""

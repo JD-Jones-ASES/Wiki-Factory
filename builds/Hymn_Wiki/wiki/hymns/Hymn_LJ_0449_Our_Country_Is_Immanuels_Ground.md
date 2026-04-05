@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 449: Our country is Immanuel's ground;"
+title: "'LJ Hymn 449: Our country is Immanuel's ground;"
 type: hymn
 aliases: ["Our country is Immanuel's ground;"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 449
-first_line: "Our country is Immanuel's ground;"
+first_line: "'Our country is Immanuel's ground;"
 meter: "C. M"
-topic: "The Christian Pilgrim."
+topic: "'The Christian Pilgrim."
 author: "Mrs. Barbauld"
 composer: ""
 tune_name: ""

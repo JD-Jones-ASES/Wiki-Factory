@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 136: It is finished! glorious word"
+title: "'LJ Hymn 136: It is finished! glorious word"
 type: hymn
 aliases: ["It is finished! glorious word"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 136
-first_line: "It is finished! glorious word"
+first_line: "'It is finished! glorious word"
 meter: "7s. M"
-topic: ""It Is Finished.""
+topic: "''It Is Finished.'"
 author: "Bulfinch"
 composer: ""
 tune_name: ""

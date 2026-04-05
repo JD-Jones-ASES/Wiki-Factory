@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 224: I want a principle within"
+title: "'LJ Hymn 224: I want a principle within"
 type: hymn
 aliases: ["I want a principle within"]
 tags: ["#meter-common", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 224
-first_line: "I want a principle within"
+first_line: "'I want a principle within"
 meter: "C. M"
-topic: "Watchfulness."
+topic: "'Watchfulness."
 author: "C. Wesley"
 composer: ""
 tune_name: ""

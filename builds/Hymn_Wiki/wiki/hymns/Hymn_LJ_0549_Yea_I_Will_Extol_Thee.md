@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 549: Yea, I will extol Thee,"
+title: "'LJ Hymn 549: Yea, I will extol Thee,"
 type: hymn
 aliases: ["Yea, I will extol Thee,"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 549
-first_line: "Yea, I will extol Thee,"
+first_line: "'Yea, I will extol Thee,"
 meter: "6 & 5s. M"
-topic: "I Will Extol Thee, O Lord!"
+topic: "'I Will Extol Thee, O Lord!"
 author: "Montgomery"
 composer: ""
 tune_name: ""

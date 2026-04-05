@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 291: One cup of healing oil and wine,"
+title: "'LJ Hymn 291: One cup of healing oil and wine,"
 type: hymn
 aliases: ["One cup of healing oil and wine,"]
 tags: ["#meter-long", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 291
-first_line: "One cup of healing oil and wine,"
+first_line: "'One cup of healing oil and wine,"
 meter: "L. M"
-topic: "Faith and Works."
+topic: "'Faith and Works."
 author: "Drummond"
 composer: ""
 tune_name: ""

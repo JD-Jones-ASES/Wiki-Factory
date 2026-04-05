@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 302: Teach me, my God and King,"
+title: "'LJ Hymn 302: Teach me, my God and King,"
 type: hymn
 aliases: ["Teach me, my God and King,"]
 tags: ["#meter-short", "#theme-pilgrimage"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 302
-first_line: "Teach me, my God and King,"
+first_line: "'Teach me, my God and King,"
 meter: "S. M"
-topic: "All Work Divine."
+topic: "'All Work Divine."
 author: "Chr. Psalmist"
 composer: ""
 tune_name: ""

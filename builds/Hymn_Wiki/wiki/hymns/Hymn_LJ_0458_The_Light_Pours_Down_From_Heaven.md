@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 458: The light pours down from heaven,"
+title: "'LJ Hymn 458: The light pours down from heaven,"
 type: hymn
 aliases: ["The light pours down from heaven,"]
 tags: ["#meter-short", "#theme-devotion"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 458
-first_line: "The light pours down from heaven,"
+first_line: "'The light pours down from heaven,"
 meter: "7 & 6s. M"
-topic: "Light For All."
+topic: "'Light For All."
 author: "Anonymous"
 composer: ""
 tune_name: ""

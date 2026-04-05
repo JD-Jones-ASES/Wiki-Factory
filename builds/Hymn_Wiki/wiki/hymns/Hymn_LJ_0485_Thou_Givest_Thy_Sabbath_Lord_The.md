@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 485: Thou givest Thy Sabbath, Lord; the din is stilled"
+title: "'LJ Hymn 485: Thou givest Thy Sabbath, Lord; the din is stilled"
 type: hymn
 aliases: ["Thou givest Thy Sabbath, Lord; the din is stilled"]
 tags: ["#meter-short", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 485
-first_line: "Thou givest Thy Sabbath, Lord; the din is stilled"
+first_line: "'Thou givest Thy Sabbath, Lord; the din is stilled"
 meter: "10 & 6s. M"
-topic: "The Sabbath."
+topic: "'The Sabbath."
 author: "Anonymous"
 composer: ""
 tune_name: ""

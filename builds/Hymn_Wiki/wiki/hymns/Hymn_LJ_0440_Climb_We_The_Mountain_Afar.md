@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 440: Climb we the mountain afar,"
+title: "'LJ Hymn 440: Climb we the mountain afar,"
 type: hymn
 aliases: ["Climb we the mountain afar,"]
 tags: ["#meter-peculiar", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 440
-first_line: "Climb we the mountain afar,"
+first_line: "'Climb we the mountain afar,"
 meter: "P. M"
-topic: "Watch for the Morning."
+topic: "'Watch for the Morning."
 author: "Montgomery"
 composer: ""
 tune_name: ""

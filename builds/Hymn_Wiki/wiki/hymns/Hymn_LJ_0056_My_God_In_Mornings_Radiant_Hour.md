@@ -1,5 +1,5 @@
 ---
-title: "LJ Hymn 56: My God! in morning's radiant hour"
+title: "'LJ Hymn 56: My God! in morning's radiant hour"
 type: hymn
 aliases: ["My God! in morning's radiant hour"]
 tags: ["#meter-long", "#theme-worship"]
@@ -10,9 +10,9 @@ related: []
 status: stub
 confidence: high
 hymn_number: 56
-first_line: "My God! in morning's radiant hour"
+first_line: "'My God! in morning's radiant hour"
 meter: "L. M"
-topic: "Perpetual Praise."
+topic: "'Perpetual Praise."
 author: "Anonymous"
 composer: ""
 tune_name: ""
