@@ -88,4 +88,4 @@ Few hymns in all of Christian history carry a more extraordinary autobiography t
 
 ## Listen
 
-- [Amazing Grace - The Tabernacle Choir at Temple Square](https://www.youtube.com/watch?v=C2arm5ydeJc) — orchestral arrangement by Mack Wilberg, filmed on the banks of the Missouri River
+- <a href="https://www.youtube.com/watch?v=C2arm5ydeJc" target="_blank" rel="noopener">Amazing Grace - The Tabernacle Choir at Temple Square</a> — orchestral arrangement by Mack Wilberg, filmed on the banks of the Missouri River

@@ -92,4 +92,4 @@ Rock of ages, cleft for me,
 
 ## Listen
 
-- [Rock of Ages - Antrim Mennonite Choir](https://www.youtube.com/watch?v=gM7gt_cSxjw) — traditional four-part choral arrangement, unaccompanied
+- <a href="https://www.youtube.com/watch?v=gM7gt_cSxjw" target="_blank" rel="noopener">Rock of Ages - Antrim Mennonite Choir</a> — traditional four-part choral arrangement, unaccompanied

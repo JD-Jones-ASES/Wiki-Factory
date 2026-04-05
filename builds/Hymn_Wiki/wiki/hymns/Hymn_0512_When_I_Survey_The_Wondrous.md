@@ -83,6 +83,6 @@ When I survey the wondrous cross,
 
 ## Listen
 
-- [When I Survey the Wondrous Cross - The Tabernacle Choir at Temple Square](https://www.youtube.com/watch?v=SsBiaBTFADI) — sung to the Hamburg tune, Lowell Mason's Gregorian-derived arrangement
+- <a href="https://www.youtube.com/watch?v=SsBiaBTFADI" target="_blank" rel="noopener">When I Survey the Wondrous Cross - The Tabernacle Choir at Temple Square</a> — sung to the Hamburg tune, Lowell Mason's Gregorian-derived arrangement
 
 *Nutter & Tillett (1911) confirm the text is unaltered from *Hymns and Spiritual Songs*, Book III. Watts's original title for the hymn was "Crucifixion to the World by the Cross of Christ."*

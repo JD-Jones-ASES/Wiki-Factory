@@ -100,4 +100,4 @@ Nearer, my God, to thee,
 
 ## Listen
 
-- [Nearer My God to Thee - Anna Richey](https://www.youtube.com/watch?v=UAgm0AtPQ-g) — solo vocal performance, traditional tune Bethany (Lowell Mason)
+- <a href="https://www.youtube.com/watch?v=UAgm0AtPQ-g" target="_blank" rel="noopener">Nearer My God to Thee - Anna Richey</a> — solo vocal performance, traditional tune Bethany (Lowell Mason)

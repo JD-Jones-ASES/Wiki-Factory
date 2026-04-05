@@ -83,4 +83,4 @@ Shed kindly light amid the encircling gloom,
 
 ## Listen
 
-- [Lead Kindly Light - Traditional Hymn](https://www.youtube.com/watch?v=cvIJkteSnXQ) — choral performance, tune Lux Benigna (John Bacchus Dykes)
+- <a href="https://www.youtube.com/watch?v=cvIJkteSnXQ" target="_blank" rel="noopener">Lead Kindly Light - Traditional Hymn</a> — choral performance, tune Lux Benigna (John Bacchus Dykes)

@@ -96,4 +96,4 @@ Jesus, lover of my soul,
 
 ## Listen
 
-- [Jesus Lover of My Soul - Welsh Male Voice Choir](https://www.youtube.com/watch?v=moMR1dCwx8M) — sung to the Aberystwyth tune (Joseph Parry), traditional Welsh choral style
+- <a href="https://www.youtube.com/watch?v=moMR1dCwx8M" target="_blank" rel="noopener">Jesus Lover of My Soul - Welsh Male Voice Choir</a> — sung to the Aberystwyth tune (Joseph Parry), traditional Welsh choral style

@@ -21,12 +21,13 @@ This wiki covers **1,324 hymns** from the Christian tradition, spanning from the
 
 ### Browse by Type
 
-- **[[_index|Full Index]]** --- every page in the wiki, organized by type
 - **[[Hymns_Overview|Hymns]]** --- 1,324 hymn pages with text, meter, topic, and scripture references
-- **[[People_Overview|People]]** --- the hymn writers, composers, and translators who created these songs
-- **[[Concepts_Overview|Ideas]]** --- theological themes, musical forms, and historical movements
-- **[[Synthesis_Overview|Stories]]** --- synthesis pages connecting hymns, people, and ideas across the centuries
+- **[[People_Overview|People]]** --- 227 hymn writers, composers, and translators
+- **[[Concepts_Overview|Ideas & Traditions]]** --- 39 pages on theological themes, musical forms, and historical movements
+- **[[Sources_Overview|Sources]]** --- the 9 primary sources behind this wiki
+- **[[Synthesis_Overview|Stories]]** --- cross-cutting analyses connecting hymns, people, and ideas
 - **[[Christian_Hymnody_Timeline|Timeline]]** --- the history of hymnody told chronologically
+- **[[_index|Full Index]]** --- every page in the wiki, organized by type
 
 ### Browse by Era
 
@@ -43,23 +44,18 @@ This wiki covers **1,324 hymns** from the Christian tradition, spanning from the
 - [[Lutheran_Hymnody|Lutheran]] --- from Luther to the Scandinavian traditions
 - [[Methodist_Hymnody|Methodist]] --- the Wesley brothers and their legacy
 - [[Anglican_Hymnody|Anglican]] --- the Church of England's rich tradition
-- [[American_Hymnody|American]] --- from the colonies to the gospel songs
-
-### Browse by Tradition (continued)
-
 - [[Baptist_Hymnody|Baptist]] --- from Keach and Bunyan to Spurgeon
 - [[Presbyterian_Hymnody|Presbyterian]] --- the Psalmody Controversy and beyond
+- [[American_Hymnody|American]] --- from the colonies to the gospel songs
 - [[Moravian_Hymnody|Moravian]] --- Zinzendorf and the Brethren
-- [[Gospel_Hymn_Movement|Gospel Hymns]] --- Moody, Sankey, and the revival tradition
 - [[Scandinavian_Hymnody|Scandinavian]] --- Kingo, Brorson, Grundtvig, Wallin
+- [[Gospel_Hymn_Movement|Gospel Hymns]] --- Moody, Sankey, and the revival tradition
 
 ### Featured
 
-- **[[Famous_Hymns|100 Famous Hymns]]** --- the most beloved hymns with direct links to their pages
+- **[[Famous_Hymns|100 Famous Hymns]]** --- the most beloved hymns with direct links
+- **[[Hymns_with_Recordings|Hymns with Recordings]]** --- listen to performances on YouTube
 - **[[Random_Hymn|Random Hymn]]** --- discover a hymn at random
-
-### Scripture Connection
-
 - **[[_scripture_index|Scripture Index]]** --- find hymns connected to any Bible passage
 
 ## Sources

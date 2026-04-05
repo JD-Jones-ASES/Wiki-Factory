@@ -101,4 +101,4 @@ Our God, our help in ages past,
 
 ## Listen
 
-- [O God Our Help in Ages Past - Westminster Abbey](https://www.youtube.com/watch?v=rsHIwXTjAOU) — sung at Westminster Abbey, tune St Anne (William Croft, 1708), lyrics displayed
+- <a href="https://www.youtube.com/watch?v=rsHIwXTjAOU" target="_blank" rel="noopener">O God Our Help in Ages Past - Westminster Abbey</a> — sung at Westminster Abbey, tune St Anne (William Croft, 1708), lyrics displayed

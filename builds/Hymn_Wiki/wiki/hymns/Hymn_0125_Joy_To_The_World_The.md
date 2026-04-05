@@ -80,4 +80,4 @@ Joy to the world; the Lord is come!
 
 ## Listen
 
-- [Joy to the World - The Tabernacle Choir at Temple Square](https://www.youtube.com/watch?v=7r3vvMUHAXU) — orchestral choral arrangement, tune attributed to Handel, arranged by Lowell Mason
+- <a href="https://www.youtube.com/watch?v=7r3vvMUHAXU" target="_blank" rel="noopener">Joy to the World - The Tabernacle Choir at Temple Square</a> — orchestral choral arrangement, tune attributed to Handel, arranged by Lowell Mason

@@ -708,3 +708,20 @@ Added `## Listen` sections to 2 more hymn pages after additional web research:
 | Hymn_0495 | Blest Be the Tie That Binds | Sara Groves retuned version, *The Collection* (2013), tune Dennis |
 
 **One hymn still without a Listen section:** Hymn_0542 (My Faith Looks Up to Thee, Ray Palmer) — no confirmed YouTube video ID found after extensive searching.
+
+## 2026-04-05 | fix | Structural fixes and content polish
+
+**Overview page (`_overview.md`) updated:**
+- Sources section expanded from 4 to 9 sources with full listing
+- Browse by Tradition sections merged (removed duplicate "continued" section)
+- Browse by Type now includes Sources and explicit page counts
+- Featured section now includes Hymns with Recordings and Random Hymn
+
+**New pages created:**
+- `Sources_Overview.md` — navigation page for all 9 source pages (fixes broken breadcrumbs)
+- `Hymns_with_Recordings.md` — navigation page for 12 hymns with YouTube performance links
+- `Random_Hymn.md` — discovery page with sampling links across the collection
+
+**YouTube links:** Updated all 12 hymn pages to open YouTube links in new windows (`target="_blank"`).
+
+**Index rebuilt.** Total pages: ~1,616.

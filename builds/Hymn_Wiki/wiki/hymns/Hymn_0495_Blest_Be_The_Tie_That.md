@@ -93,4 +93,4 @@ Blest be the tie that binds
 
 ## Listen
 
-- [Blessed Be the Tie - Sara Groves](https://www.youtube.com/watch?v=gcYFtihSg_8) — retuned version from her 2013 album *The Collection*, tune Dennis (Nägeli/Lowell Mason)
+- <a href="https://www.youtube.com/watch?v=gcYFtihSg_8" target="_blank" rel="noopener">Blessed Be the Tie - Sara Groves</a> — retuned version from her 2013 album *The Collection*, tune Dennis (Nägeli/Lowell Mason)

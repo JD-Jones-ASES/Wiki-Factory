@@ -92,4 +92,4 @@ O thou Fount of every blessing!
 
 ## Listen
 
-- [Come Thou Fount of Every Blessing - Traditional Hymn](https://www.youtube.com/watch?v=iGmK9tR9lbQ) — full text with traditional tune, congregational arrangement
+- <a href="https://www.youtube.com/watch?v=iGmK9tR9lbQ" target="_blank" rel="noopener">Come Thou Fount of Every Blessing - Traditional Hymn</a> — full text with traditional tune, congregational arrangement

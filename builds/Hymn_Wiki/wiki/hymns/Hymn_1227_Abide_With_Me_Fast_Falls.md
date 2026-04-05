@@ -82,4 +82,4 @@ As Duffield noted, Lyte "made hymns for his little ones, and hymns for his hardy
 
 ## Listen
 
-- [Abide With Me - The Tabernacle Choir at Temple Square](https://www.youtube.com/watch?v=YvZsOTJEUUc) — orchestral arrangement, tune Eventide (William Henry Monk)
+- <a href="https://www.youtube.com/watch?v=YvZsOTJEUUc" target="_blank" rel="noopener">Abide With Me - The Tabernacle Choir at Temple Square</a> — orchestral arrangement, tune Eventide (William Henry Monk)

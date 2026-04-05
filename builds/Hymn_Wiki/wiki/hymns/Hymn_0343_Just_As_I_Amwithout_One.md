@@ -92,4 +92,4 @@ Just as I am—without one plea,
 
 ## Listen
 
-- [Just As I Am - Sing Along (HymnCharts)](https://www.youtube.com/watch?v=1Ia_YK6reTc) — lyrics video with traditional arrangement, tune Woodworth (William Bradbury)
+- <a href="https://www.youtube.com/watch?v=1Ia_YK6reTc" target="_blank" rel="noopener">Just As I Am - Sing Along (HymnCharts)</a> — lyrics video with traditional arrangement, tune Woodworth (William Bradbury)
