@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-10T14:00:24.366727+00:00",
+  "by_topic": {
+    "circles": [
+      {
+        "generator_id": "circles_equation_from_center_radius",
+        "display_name": "Find circle equation from center and radius",
+        "supports_difficulties": [
+          "easy",
+          "medium",
+          "hard"
+        ],
+        "counts": {
+          "easy": 100,
+          "medium": 100,
+          "hard": 100
+        },
+        "supports_word_problems": false
+      },
+      {
+        "generator_id": "circles_center_radius_from_equation",
+        "display_name": "Find center and radius from circle equation",
+        "supports_difficulties": [
+          "easy",
+          "medium",
+          "hard"
+        ],
+        "counts": {
+          "easy": 100,
+          "medium": 100,
+          "hard": 100
+        },
+        "supports_word_problems": false
+      },
+      {
+        "generator_id": "circles_area_from_radius",
+        "display_name": "Find circle area from radius",
+        "supports_difficulties": [
+          "easy",
+          "medium",
+          "hard"
+        ],
+        "counts": {
+          "easy": 30,
+          "medium": 50,
+          "hard": 100
+        },
+        "supports_word_problems": false
+      },
+      {
+        "generator_id": "circles_circumference_from_radius",
+        "display_name": "Find circle circumference from radius",
+        "supports_difficulties": [
+          "easy",
+          "medium",
+          "hard"
+        ],
+        "counts": {
+          "easy": 30,
+          "medium": 50,
+          "hard": 100
+        },
+        "supports_word_problems": false
+      },
+      {
+        "generator_id": "circles_area_from_diameter",
+        "display_name": "Find circle area from diameter",
+        "supports_difficulties": [
+          "easy",
+          "medium",
+          "hard"
+        ],
+        "counts": {
+          "easy": 30,
+          "medium": 50,
+          "hard": 100
+        },
+        "supports_word_problems": false
+      }
+    ]
+  },
+  "by_generator": {
+    "circles_equation_from_center_radius": {
+      "topic_slug": "circles",
+      "display_name": "Find circle equation from center and radius"
+    },
+    "circles_center_radius_from_equation": {
+      "topic_slug": "circles",
+      "display_name": "Find center and radius from circle equation"
+    },
+    "circles_area_from_radius": {
+      "topic_slug": "circles",
+      "display_name": "Find circle area from radius"
+    },
+    "circles_circumference_from_radius": {
+      "topic_slug": "circles",
+      "display_name": "Find circle circumference from radius"
+    },
+    "circles_area_from_diameter": {
+      "topic_slug": "circles",
+      "display_name": "Find circle area from diameter"
+    }
+  }
+}

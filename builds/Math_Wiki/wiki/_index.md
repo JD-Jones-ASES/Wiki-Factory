@@ -40,11 +40,18 @@ confidence: high
 
 ## Topics
 
-> Empty. Populated in Phase 1 (vertical slice) and Phase 2 (book ingest).
+### Geometry
+
+- [[Circles]] --- equations, area, circumference, and diameter (first full topic page, Phase 1 vertical slice)
+- [[Coordinate_Plane]] --- stub; foundational prerequisite for analytic geometry
+
+> More topics populate in Phase 2 (book ingest) and onward.
 
 ## Formulas
 
-> Empty. Populated in Phase 2+.
+- [[Pythagorean_Theorem]] --- stub; underlies the distance formula and circle equations
+
+> More formulas populate in Phase 2+.
 
 ## Techniques
 
@@ -52,8 +59,8 @@ confidence: high
 
 ## Problem Types
 
-> Empty. Populated in Phase 2 (catalog) and Phase 3 (generators).
+> The first 5 problem types are wired directly into the [[Circles]] page via the ProblemVaultWidget. Standalone `problem_type` pages populate in Phase 2 (catalog) and Phase 3 (generators).
 
 ## Sources
 
-> Empty. Populated when user provides the 5 books.
+> Empty. Populated when the user provides the 5 books.

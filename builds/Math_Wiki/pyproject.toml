@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["generators/tests"]
+pythonpath = ["."]
+filterwarnings = [
+  "ignore::DeprecationWarning:sympy.*",
+]

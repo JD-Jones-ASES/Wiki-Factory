@@ -15,7 +15,7 @@ confidence: high
 
 A practice-first math wiki and tutor for middle and high school students. Navigate to any topic, read a clear explanation, then add practice problems to your **Vault** and download a custom worksheet.
 
-> _Phase 0 scaffold. Topic pages and problem generators come online in Phase 1+._
+> _Phase 1 vertical slice is live: the [[Circles]] topic has a full lesson, figure, and 1,140 verified practice problems across 5 generators. Phase 2 will ingest 5 user-provided books to expand coverage across algebra, geometry, trigonometry, and pre-calculus._
 
 ---
 

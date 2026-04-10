@@ -25,7 +25,9 @@ Named formulas and theorems, each on its own page with the statement, conditions
 
 ## Geometry
 
-> Populates in Phase 2+: Pythagorean Theorem, Distance Formula, Midpoint Formula, Circle Standard Form, Area and Volume formulas, ...
+- [[Pythagorean_Theorem]] --- foundational stub
+
+> Populates more fully in Phase 2+: Distance Formula, Midpoint Formula, Circle Standard Form, Area and Volume formulas, ...
 
 ## Trigonometry
 

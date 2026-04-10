@@ -33,7 +33,10 @@ Geometry is the study of shapes, space, and measurement. It's the branch of math
 
 ## Topics
 
-> Topic pages populate in Phase 1 (starting with **Circles**) and Phase 2 (book ingest).
+- [[Circles]] --- equations, area, circumference, diameter (Phase 1 vertical slice; widget-ready with 1140 practice problems)
+- [[Coordinate_Plane]] --- the Cartesian plane (stub; foundational)
+
+> More topics populate in Phase 2 (book ingest) and beyond.
 
 ---
 
