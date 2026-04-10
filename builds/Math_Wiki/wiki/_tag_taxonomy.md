@@ -89,6 +89,7 @@ Every topic page carries exactly ONE branch tag matching its `branch:` frontmatt
 - `#key-formula` --- heavily used formula
 - `#key-technique` --- broadly applicable technique
 - `#word-problem-support` --- problem type supports word-problem variants
+- `#topic-auto-generated` --- stub page generated from the ingested textbook catalog (Phase 2b)
 
 ---
 

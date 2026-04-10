@@ -44,6 +44,68 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 
 ---
 
+<!-- AUTO:TOPICS:BEGIN -->
+
+### Pre-Calculus topics (Stitz-Zeager AlgTrig) (55 topics)
+
+- [[Algebraicfunctions|AlgebraicFunctions]] --- _3 worked example(s)_
+- [[Angles|Angles]] --- _5 worked example(s)_
+- [[Arctrig|ArcTrig]] --- _7 worked example(s)_
+- [[Augmatrices|AugMatrices]] --- _3 worked example(s)_
+- [[Binomial|Binomial]] --- _2 worked example(s)_
+- [[Cartesianplane|CartesianPlane]] --- _7 worked example(s)_
+- [[Circularfunctions|CircularFunctions]] --- _5 worked example(s)_
+- [[Complexzeros|ComplexZeros]] --- _4 worked example(s)_
+- [[Determinants|Determinants]] --- _1 worked example(s)_
+- [[Dotproduct|DotProduct]] --- _5 worked example(s)_
+- [[Expequations|ExpEquations]] --- _4 worked example(s)_
+- [[Explogapplications|ExpLogApplications]] --- _7 worked example(s)_
+- [[Functionarithmetic|FunctionArithmetic]] --- _3 worked example(s)_
+- [[Functioncomposition|FunctionComposition]] --- _3 worked example(s)_
+- [[Functionnotation|FunctionNotation]] --- _covered by 2 books, 9 worked example(s)_
+- [[Graphsofequations|GraphsofEquations]] --- _3 worked example(s)_
+- [[Graphsoffunctions|GraphsofFunctions]] --- _6 worked example(s)_
+- [[Graphsofpolynomials|GraphsofPolynomials]] --- _6 worked example(s)_
+- [[Identities|Identities]] --- _6 worked example(s)_
+- [[Induction|Induction]] --- _1 worked example(s)_
+- [[Inequalities|Inequalities]] --- _6 worked example(s)_
+- [[Introexplogs|IntroExpLogs]] --- _5 worked example(s)_
+- [[Intropolar|IntroPolar]] --- _3 worked example(s)_
+- [[Introrational|IntroRational]] --- _6 worked example(s)_
+- [[Introtoconics|IntrotoConics]]
+- [[Introtofunctions|IntrotoFunctions]] --- _5 worked example(s)_
+- [[Lawofcosines|LawofCosines]] --- _3 worked example(s)_
+- [[Lawofsines|LawofSines]] --- _4 worked example(s)_
+- [[Linsystems|LinSystems]] --- _3 worked example(s)_
+- [[Logequations|LogEquations]] --- _4 worked example(s)_
+- [[Logproperties|LogProperties]] --- _3 worked example(s)_
+- [[Matarithmetic|MatArithmetic]] --- _3 worked example(s)_
+- [[Matmethods|MatMethods]] --- _2 worked example(s)_
+- [[Nonlinear|NonLinear]] --- _3 worked example(s)_
+- [[Parfrac|ParFrac]] --- _1 worked example(s)_
+- [[Parametric|Parametric]] --- _5 worked example(s)_
+- [[Polarcomplex|PolarComplex]] --- _4 worked example(s)_
+- [[Polarconics|PolarConics]] --- _4 worked example(s)_
+- [[Polargraphs|PolarGraphs]] --- _4 worked example(s)_
+- [[Polydivision|Polydivision]] --- _3 worked example(s)_
+- [[Quadraticfunctions|QuadraticFunctions]] --- _5 worked example(s)_
+- [[Rationalgraphs|RationalGraphs]] --- _4 worked example(s)_
+- [[Rationalineq|RationalIneq]] --- _7 worked example(s)_
+- [[Realzeros|RealZeros]] --- _8 worked example(s)_
+- [[Realzeros_New|RealZeros_New]] --- _8 worked example(s)_
+- [[Regression|Regression]] --- _2 worked example(s)_
+- [[Relations|Relations]] --- _4 worked example(s)_
+- [[Sinusoid|Sinusoid]] --- _4 worked example(s)_
+- [[Summation|Summation]] --- _2 worked example(s)_
+- [[Theunitcircle|TheUnitCircle]] --- _8 worked example(s)_
+- [[Transformations|Transformations]] --- _5 worked example(s)_
+- [[Trigequineq|TrigEquIneq]] --- _4 worked example(s)_
+- [[Trigequineq_New|TrigEquIneq_New]] --- _5 worked example(s)_
+- [[Triggraphs|TrigGraphs]] --- _5 worked example(s)_
+- [[Vectors|Vectors]] --- _6 worked example(s)_
+
+<!-- AUTO:TOPICS:END -->
+
 ## See Also
 
 - [[Algebra_Overview]]
