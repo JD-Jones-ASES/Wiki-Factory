@@ -27,9 +27,18 @@ def extract_frontmatter(filepath):
         return None, text
 
 
+ASSET_EXT_RE = re.compile(r"\.(svg|png|jpe?g|gif|webp|mp4|webm|mp3|wav|pdf)$", re.IGNORECASE)
+
+
 def extract_wikilinks(text):
-    """Extract all [[wikilinks]] from text."""
-    return re.findall(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", text)
+    """Extract all [[wikilinks]] from text.
+
+    Skips image/asset embeds like ![[figure.svg]] and [[figure.svg]] --- any
+    target ending in a known asset extension is considered an embed, not a
+    page link, so it does not count toward link resolution or orphan checks.
+    """
+    all_targets = re.findall(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", text)
+    return [t for t in all_targets if not ASSET_EXT_RE.search(t)]
 
 
 def lint_wiki(wiki_dir):

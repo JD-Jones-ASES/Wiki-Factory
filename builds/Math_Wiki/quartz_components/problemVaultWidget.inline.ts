@@ -2,15 +2,19 @@
 //
 // Runs on every page via Quartz's afterDOMLoaded hook. Early-returns if the
 // current page does not contain a `.problem-vault-widget[data-topic-slug]`
-// mount point. On a topic page, fetches the problem bank JSON, filters by
-// topic_slug, and renders an interactive control strip with Add-to-Vault
-// buttons that write to localStorage.
+// mount point. On a topic page, fetches the small problem_types_index and
+// renders control rows. On first "Add to Vault" click for a given topic,
+// lazily fetches the per-topic shard `_data/problems/{topic_slug}.json`,
+// picks random problems, and writes their FULL content to localStorage so
+// the VaultViewer does not need to refetch anything.
+
+type Difficulty = "easy" | "medium" | "hard"
 
 type ProblemRecord = {
   id: string
   generator_id: string
   topic_slug: string
-  difficulty: "easy" | "medium" | "hard"
+  difficulty: Difficulty
   statement_latex: string
   answer_latex: string
   hints: string[]
@@ -18,43 +22,65 @@ type ProblemRecord = {
   tags: string[]
 }
 
-type ProblemTypeEntry = {
-  topic_slug: string
+type IndexGeneratorEntry = {
   generator_id: string
   display_name: string
   supports_word_problems: boolean
-  problems: Record<string, ProblemRecord[]>
+  counts: Partial<Record<Difficulty, number>>
 }
 
-type ProblemBank = {
+type ProblemTypesIndex = {
   version: string
-  generated_at: string
-  total_problems: number
-  problem_types: Record<string, ProblemTypeEntry>
+  by_topic: Record<string, IndexGeneratorEntry[]>
 }
 
-type VaultEntry = { generator_id: string; problem_id: string }
+type TopicShard = {
+  version: string
+  topic_slug: string
+  generators: Record<
+    string,
+    {
+      topic_slug: string
+      display_name: string
+      difficulties: Record<string, ProblemRecord[]>
+    }
+  >
+}
+
+// Vault entries in the new format are full problem records plus metadata.
+type VaultEntry = ProblemRecord & { added_at: number }
 
 const VAULT_KEY = "math-wiki-vault"
-let BANK_CACHE: ProblemBank | null = null
+const INDEX_CACHE_KEY = "__mathWikiIndex"
+const SHARD_CACHE_KEY = "__mathWikiShards"
 
 // --- URL helpers ------------------------------------------------------------
 
 function getMathWikiRoot(): string {
-  // Works for both local dev (/Math_Wiki/...) and prod (/Wiki-Factory/Math_Wiki/...).
   const match = location.pathname.match(/^(.*?\/Math_Wiki\/)/)
   return match ? match[1] : "/"
 }
 
-async function fetchBank(): Promise<ProblemBank> {
-  if (BANK_CACHE) return BANK_CACHE
-  const url = getMathWikiRoot() + "_data/problems.json"
+async function fetchIndex(): Promise<ProblemTypesIndex> {
+  const w = window as any
+  if (w[INDEX_CACHE_KEY]) return w[INDEX_CACHE_KEY]
+  const url = getMathWikiRoot() + "_data/problem_types_index.json"
   const res = await fetch(url)
-  if (!res.ok) {
-    throw new Error(`Problem bank fetch failed: ${res.status} at ${url}`)
-  }
-  BANK_CACHE = (await res.json()) as ProblemBank
-  return BANK_CACHE
+  if (!res.ok) throw new Error(`Index fetch failed: ${res.status}`)
+  w[INDEX_CACHE_KEY] = await res.json()
+  return w[INDEX_CACHE_KEY]
+}
+
+async function fetchTopicShard(topicSlug: string): Promise<TopicShard> {
+  const w = window as any
+  if (!w[SHARD_CACHE_KEY]) w[SHARD_CACHE_KEY] = {}
+  if (w[SHARD_CACHE_KEY][topicSlug]) return w[SHARD_CACHE_KEY][topicSlug]
+  const url = getMathWikiRoot() + `_data/problems/${topicSlug}.json`
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`Shard fetch failed for ${topicSlug}: ${res.status}`)
+  const shard = (await res.json()) as TopicShard
+  w[SHARD_CACHE_KEY][topicSlug] = shard
+  return shard
 }
 
 // --- Vault state ------------------------------------------------------------
@@ -64,38 +90,23 @@ function vaultGet(): VaultEntry[] {
     const raw = localStorage.getItem(VAULT_KEY)
     if (!raw) return []
     const parsed = JSON.parse(raw)
-    return Array.isArray(parsed) ? parsed : []
+    if (!Array.isArray(parsed)) return []
+    // Filter out any legacy Phase-1 entries that only have {generator_id, problem_id}.
+    return parsed.filter(
+      (e) => typeof e === "object" && e !== null && "statement_latex" in e,
+    ) as VaultEntry[]
   } catch {
     return []
   }
 }
 
-function vaultAdd(entries: VaultEntry[]) {
+function vaultAdd(newEntries: VaultEntry[]) {
   const current = vaultGet()
-  localStorage.setItem(VAULT_KEY, JSON.stringify([...current, ...entries]))
+  localStorage.setItem(VAULT_KEY, JSON.stringify([...current, ...newEntries]))
   document.dispatchEvent(new CustomEvent("math-wiki-vault-change"))
 }
 
-// --- Toast notifications ----------------------------------------------------
-
-function toast(message: string) {
-  const el = document.createElement("div")
-  el.className = "mwv-toast"
-  el.textContent = message
-  document.body.appendChild(el)
-  requestAnimationFrame(() => el.classList.add("mwv-toast-show"))
-  setTimeout(() => {
-    el.classList.remove("mwv-toast-show")
-    setTimeout(() => el.remove(), 300)
-  }, 2400)
-}
-
-// --- KaTeX runtime loading --------------------------------------------------
-
-// Quartz's Latex plugin ships KaTeX CSS but not the JS library (it renders
-// math server-side at build time). For our dynamic widget content we need
-// the JS library at runtime. This singleton promise loads it on demand,
-// shared across all components on the page via a window property.
+// --- KaTeX runtime loading (singleton across all components) ---------------
 
 function ensureKatex(): Promise<any> {
   const w = window as any
@@ -125,8 +136,6 @@ function ensureKatex(): Promise<any> {
 
   return w.__mathWikiKatexLoad
 }
-
-// --- KaTeX dynamic rendering ------------------------------------------------
 
 function renderKatexIn(root: HTMLElement) {
   const katex = (window as any).katex
@@ -166,6 +175,20 @@ function renderKatexWithRetry(el: HTMLElement) {
     .catch((err) => console.warn("[problem-vault-widget] KaTeX unavailable:", err))
 }
 
+// --- Toast ------------------------------------------------------------------
+
+function toast(message: string) {
+  const el = document.createElement("div")
+  el.className = "mwv-toast"
+  el.textContent = message
+  document.body.appendChild(el)
+  requestAnimationFrame(() => el.classList.add("mwv-toast-show"))
+  setTimeout(() => {
+    el.classList.remove("mwv-toast-show")
+    setTimeout(() => el.remove(), 300)
+  }, 2400)
+}
+
 // --- Random selection -------------------------------------------------------
 
 function pickRandomSubset<T>(arr: T[], n: number): T[] {
@@ -181,21 +204,15 @@ function pickRandomSubset<T>(arr: T[], n: number): T[] {
 
 // --- Widget rendering -------------------------------------------------------
 
-function renderWidget(mount: HTMLElement, bank: ProblemBank) {
-  const topicSlug = mount.getAttribute("data-topic-slug")
-  if (!topicSlug) {
-    mount.textContent = "(problem-vault-widget is missing data-topic-slug)"
-    return
-  }
-
-  const matching: ProblemTypeEntry[] = Object.values(bank.problem_types).filter(
-    (pt) => pt.topic_slug === topicSlug,
-  )
-
-  if (matching.length === 0) {
+function renderWidget(
+  mount: HTMLElement,
+  topicSlug: string,
+  generators: IndexGeneratorEntry[],
+) {
+  if (generators.length === 0) {
     mount.innerHTML =
       `<div class="mwv-empty">No problem types are registered for topic ` +
-      `<code>${topicSlug}</code> yet. Check back after Phase 2 ingest.</div>`
+      `<code>${topicSlug}</code> yet.</div>`
     return
   }
 
@@ -216,16 +233,18 @@ function renderWidget(mount: HTMLElement, bank: ProblemBank) {
   header.appendChild(vaultCount)
   mount.appendChild(header)
 
-  for (const pt of matching) {
+  for (const gen of generators) {
     const row = document.createElement("div")
     row.className = "mwv-row"
 
-    const diffs = Object.keys(pt.problems).filter((d) => pt.problems[d].length > 0)
+    const diffs = (Object.keys(gen.counts) as Difficulty[]).filter(
+      (d) => (gen.counts[d] ?? 0) > 0,
+    )
     const defaultDiff = diffs.includes("medium") ? "medium" : diffs[0] ?? "easy"
 
     const label = document.createElement("div")
     label.className = "mwv-row-label"
-    label.textContent = pt.display_name
+    label.textContent = gen.display_name
 
     const controls = document.createElement("div")
     controls.className = "mwv-row-controls"
@@ -254,20 +273,33 @@ function renderWidget(mount: HTMLElement, bank: ProblemBank) {
     button.className = "mwv-add"
     button.textContent = "+ Add to Vault"
 
-    button.addEventListener("click", () => {
+    button.addEventListener("click", async () => {
       const diff = diffSelect.value
       const n = Math.max(1, Math.min(20, parseInt(count.value, 10) || 3))
-      const pool = pt.problems[diff] ?? []
-      if (pool.length === 0) {
-        toast("No problems available at that difficulty.")
-        return
+      button.disabled = true
+      button.textContent = "…"
+      try {
+        const shard = await fetchTopicShard(topicSlug)
+        const pool =
+          shard.generators[gen.generator_id]?.difficulties[diff] ?? []
+        if (pool.length === 0) {
+          toast("No problems available at that difficulty.")
+          return
+        }
+        const picked = pickRandomSubset(pool, n) as ProblemRecord[]
+        const now = Date.now()
+        vaultAdd(picked.map((p) => ({ ...p, added_at: now })))
+        toast(
+          `Added ${picked.length} problem${picked.length !== 1 ? "s" : ""} to your Vault.`,
+        )
+        vaultCountBold.textContent = String(vaultGet().length)
+      } catch (err) {
+        console.error(err)
+        toast("Could not load problems. Check console.")
+      } finally {
+        button.disabled = false
+        button.textContent = "+ Add to Vault"
       }
-      const picked = pickRandomSubset(pool, n)
-      vaultAdd(
-        picked.map((p) => ({ generator_id: pt.generator_id, problem_id: p.id })),
-      )
-      toast(`Added ${picked.length} problem${picked.length !== 1 ? "s" : ""} to your Vault.`)
-      vaultCountBold.textContent = String(vaultGet().length)
     })
 
     controls.appendChild(diffSelect)
@@ -298,17 +330,20 @@ function initProblemVaultWidget() {
   )
   if (mounts.length === 0) return
 
-  fetchBank()
-    .then((bank) => {
-      mounts.forEach((m) => renderWidget(m, bank))
+  fetchIndex()
+    .then((index) => {
+      mounts.forEach((m) => {
+        const topicSlug = m.getAttribute("data-topic-slug") ?? ""
+        const generators = index.by_topic[topicSlug] ?? []
+        renderWidget(m, topicSlug, generators)
+      })
     })
     .catch((err) => {
       console.error("[problem-vault-widget]", err)
       mounts.forEach((m) => {
-        m.innerHTML = `<div class="mwv-error">Could not load problem bank: ${String(err)}</div>`
+        m.innerHTML = `<div class="mwv-error">Could not load problem index: ${String(err)}</div>`
       })
     })
 }
 
-// Run on Quartz SPA navigation and initial load
 document.addEventListener("nav", initProblemVaultWidget)

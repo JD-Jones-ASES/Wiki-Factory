@@ -1,17 +1,17 @@
 // Math Wiki VaultViewer --- renders the user's localStorage vault on /Vault.
 //
-// Runs on every page via afterDOMLoaded. Early-returns if #vault-mount is
-// absent. On the Vault page: fetches the bank, resolves each saved ID,
-// renders problems with collapsible hints/answers, and provides
-// shuffle/print/clear controls.
+// Phase 2 redesign: vault entries now store the FULL problem content, not
+// just IDs. VaultViewer reads them directly and does not fetch any bank.
+// Legacy entries from Phase 1 (which only stored {generator_id, problem_id})
+// are detected and the user is prompted to clear stale data.
 
-type VaultEntry = { generator_id: string; problem_id: string }
+type Difficulty = "easy" | "medium" | "hard"
 
 type ProblemRecord = {
   id: string
   generator_id: string
   topic_slug: string
-  difficulty: "easy" | "medium" | "hard"
+  difficulty: Difficulty
   statement_latex: string
   answer_latex: string
   hints: string[]
@@ -19,21 +19,9 @@ type ProblemRecord = {
   tags: string[]
 }
 
-type ProblemBank = {
-  version: string
-  generated_at: string
-  problem_types: Record<
-    string,
-    {
-      topic_slug: string
-      display_name: string
-      problems: Record<string, ProblemRecord[]>
-    }
-  >
-}
+type VaultEntry = ProblemRecord & { added_at?: number }
 
 const VAULT_KEY = "math-wiki-vault"
-let BANK_CACHE: ProblemBank | null = null
 
 // --- URL helpers ------------------------------------------------------------
 
@@ -42,18 +30,9 @@ function getMathWikiRoot(): string {
   return match ? match[1] : "/"
 }
 
-async function fetchBank(): Promise<ProblemBank> {
-  if (BANK_CACHE) return BANK_CACHE
-  const url = getMathWikiRoot() + "_data/problems.json"
-  const res = await fetch(url)
-  if (!res.ok) throw new Error(`Bank fetch failed: ${res.status} at ${url}`)
-  BANK_CACHE = (await res.json()) as ProblemBank
-  return BANK_CACHE
-}
-
 // --- Vault state ------------------------------------------------------------
 
-function vaultGet(): VaultEntry[] {
+function vaultGetRaw(): any[] {
   try {
     const raw = localStorage.getItem(VAULT_KEY)
     if (!raw) return []
@@ -64,26 +43,26 @@ function vaultGet(): VaultEntry[] {
   }
 }
 
+function vaultGet(): VaultEntry[] {
+  return vaultGetRaw().filter(
+    (e) => typeof e === "object" && e !== null && "statement_latex" in e,
+  ) as VaultEntry[]
+}
+
 function vaultSet(entries: VaultEntry[]) {
   localStorage.setItem(VAULT_KEY, JSON.stringify(entries))
 }
 
-// --- Lookup -----------------------------------------------------------------
-
-function findProblem(bank: ProblemBank, entry: VaultEntry): ProblemRecord | null {
-  const pt = bank.problem_types[entry.generator_id]
-  if (!pt) return null
-  for (const diff of Object.keys(pt.problems)) {
-    const match = pt.problems[diff].find((p) => p.id === entry.problem_id)
-    if (match) return match
-  }
-  return null
+function hasLegacyEntries(): boolean {
+  return vaultGetRaw().some(
+    (e) =>
+      typeof e === "object" && e !== null &&
+      !("statement_latex" in e) &&
+      "problem_id" in e,
+  )
 }
 
-// --- KaTeX runtime loading --------------------------------------------------
-
-// Same singleton loader used by ProblemVaultWidget.inline.ts. Both scripts
-// are bundled into postscript.js so they share global state.
+// --- KaTeX runtime loading (singleton) --------------------------------------
 
 function ensureKatex(): Promise<any> {
   const w = window as any
@@ -114,8 +93,6 @@ function ensureKatex(): Promise<any> {
   return w.__mathWikiKatexLoad
 }
 
-// --- KaTeX dynamic rendering ------------------------------------------------
-
 function renderKatexIn(root: HTMLElement) {
   const katex = (window as any).katex
   if (!katex || typeof katex.render !== "function") return
@@ -128,7 +105,6 @@ function renderKatexIn(root: HTMLElement) {
   for (const text of texts) {
     const content = text.textContent ?? ""
     if (!content.includes("$")) continue
-    // Split on $$...$$ (display) OR $...$ (inline)
     const parts = content.split(/(\$\$[^$]+\$\$|\$[^$\n]+\$)/g)
     if (parts.length <= 1) continue
     const frag = document.createDocumentFragment()
@@ -169,61 +145,52 @@ function renderKatexWithRetry(el: HTMLElement) {
 
 // --- Main rendering ---------------------------------------------------------
 
-function renderVault(mount: HTMLElement, bank: ProblemBank) {
+function renderVault(mount: HTMLElement) {
   const vault = vaultGet()
+  const legacyExists = hasLegacyEntries()
   mount.innerHTML = ""
   mount.classList.add("vv-root")
 
   if (vault.length === 0) {
     const empty = document.createElement("div")
     empty.className = "vv-empty"
-    empty.innerHTML = `
-      <p>Your vault is empty.</p>
-      <p>Navigate to any topic (for example,
-      <a href="${getMathWikiRoot()}topics/geometry/Circles">Circles</a>)
-      and use the <strong>Add to Vault</strong> button to start building a
-      practice set.</p>
-    `
+    if (legacyExists) {
+      empty.innerHTML = `
+        <p><strong>Your vault has legacy entries from before the Phase 2 refactor.</strong></p>
+        <p>The storage format changed so the VaultViewer no longer has to fetch the problem bank every time it loads. Please clear your vault and add fresh problems.</p>
+        <p><button type="button" class="vv-btn vv-clear-stale">Clear Legacy Vault</button></p>
+      `
+    } else {
+      empty.innerHTML = `
+        <p>Your vault is empty.</p>
+        <p>Navigate to any topic (for example,
+        <a href="${getMathWikiRoot()}topics/geometry/Circles">Circles</a>)
+        and use the <strong>Add to Vault</strong> button to start building a
+        practice set.</p>
+      `
+    }
     mount.appendChild(empty)
+    const clearBtn = empty.querySelector(".vv-clear-stale")
+    if (clearBtn) {
+      clearBtn.addEventListener("click", () => {
+        localStorage.removeItem(VAULT_KEY)
+        renderVault(mount)
+      })
+    }
     return
   }
 
-  // Resolve problems; skip any entries that can't be found (stale IDs)
-  const problems: Array<{ entry: VaultEntry; problem: ProblemRecord }> = []
-  for (const entry of vault) {
-    const problem = findProblem(bank, entry)
-    if (problem) problems.push({ entry, problem })
-  }
-
-  if (problems.length === 0) {
-    const empty = document.createElement("div")
-    empty.className = "vv-empty"
-    empty.innerHTML = `
-      <p>None of your saved problems were found in the current bank.</p>
-      <p>The bank may have been regenerated since you added them.
-      <button type="button" class="vv-btn vv-clear-stale">Clear Stale Vault</button></p>
-    `
-    mount.appendChild(empty)
-    empty.querySelector(".vv-clear-stale")?.addEventListener("click", () => {
-      vaultSet([])
-      renderVault(mount, bank)
-    })
-    return
-  }
-
-  // --- Header with counts and actions ---
+  // Header with counts and actions
   const header = document.createElement("div")
   header.className = "vv-header"
 
   const countDiv = document.createElement("div")
   countDiv.className = "vv-count"
   const countBold = document.createElement("strong")
-  countBold.textContent = String(problems.length)
+  countBold.textContent = String(vault.length)
   countDiv.appendChild(countBold)
   countDiv.appendChild(
-    document.createTextNode(
-      ` problem${problems.length !== 1 ? "s" : ""} in your vault`,
-    ),
+    document.createTextNode(` problem${vault.length !== 1 ? "s" : ""} in your vault`),
   )
 
   const actions = document.createElement("div")
@@ -252,11 +219,11 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
   header.appendChild(actions)
   mount.appendChild(header)
 
-  // --- Problems list ---
+  // Problems list
   const list = document.createElement("ol")
   list.className = "vv-problems"
 
-  problems.forEach(({ entry, problem }) => {
+  vault.forEach((problem, idx) => {
     const li = document.createElement("li")
     li.className = "vv-problem"
 
@@ -265,16 +232,16 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
     statement.textContent = problem.statement_latex
     li.appendChild(statement)
 
-    // Workspace area (blank lines for student work; shown in print)
+    // Workspace area (print-only)
     const workspace = document.createElement("div")
     workspace.className = "vv-workspace"
     li.appendChild(workspace)
 
-    // Interactive controls (hidden in print)
+    // Controls (hidden in print)
     const controls = document.createElement("div")
     controls.className = "vv-controls vv-no-print"
 
-    if (problem.hints.length > 0) {
+    if (problem.hints && problem.hints.length > 0) {
       const hintsDetails = document.createElement("details")
       hintsDetails.className = "vv-hints"
       const hintsSummary = document.createElement("summary")
@@ -302,7 +269,7 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
     answerDetails.appendChild(answerContent)
     controls.appendChild(answerDetails)
 
-    if (problem.solution_steps_latex.length > 0) {
+    if (problem.solution_steps_latex && problem.solution_steps_latex.length > 0) {
       const stepsDetails = document.createElement("details")
       stepsDetails.className = "vv-steps"
       const stepsSummary = document.createElement("summary")
@@ -325,12 +292,9 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
     removeBtn.textContent = "× Remove"
     removeBtn.addEventListener("click", () => {
       const current = vaultGet()
-      const filtered = current.filter(
-        (e) =>
-          !(e.generator_id === entry.generator_id && e.problem_id === entry.problem_id),
-      )
+      const filtered = current.filter((e) => e.id !== problem.id)
       vaultSet(filtered)
-      renderVault(mount, bank)
+      renderVault(mount)
     })
     controls.appendChild(removeBtn)
 
@@ -340,7 +304,7 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
 
   mount.appendChild(list)
 
-  // --- Answer key (opens automatically on print) ---
+  // Answer key
   const answerKey = document.createElement("details")
   answerKey.className = "vv-answer-key"
   const aks = document.createElement("summary")
@@ -348,7 +312,7 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
   answerKey.appendChild(aks)
   const akList = document.createElement("ol")
   akList.className = "vv-answer-key-list"
-  problems.forEach(({ problem }) => {
+  vault.forEach((problem) => {
     const akli = document.createElement("li")
     akli.textContent = problem.answer_latex
     akList.appendChild(akli)
@@ -356,7 +320,7 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
   answerKey.appendChild(akList)
   mount.appendChild(answerKey)
 
-  // --- Wire up actions ---
+  // Wire up actions
   shuffleBtn.addEventListener("click", () => {
     const shuffled = vaultGet().slice()
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -364,19 +328,18 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
       ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
     }
     vaultSet(shuffled)
-    renderVault(mount, bank)
+    renderVault(mount)
   })
 
   printBtn.addEventListener("click", () => {
-    // Open answer key so it prints
     answerKey.open = true
     window.print()
   })
 
   clearBtn.addEventListener("click", () => {
     if (!confirm("Clear all problems from your vault?")) return
-    vaultSet([])
-    renderVault(mount, bank)
+    localStorage.removeItem(VAULT_KEY)
+    renderVault(mount)
   })
 
   renderKatexWithRetry(mount)
@@ -387,20 +350,13 @@ function renderVault(mount: HTMLElement, bank: ProblemBank) {
 function initVaultViewer() {
   const mount = document.getElementById("vault-mount")
   if (!mount) return
-
-  fetchBank()
-    .then((bank) => renderVault(mount, bank))
-    .catch((err) => {
-      console.error("[vault-viewer]", err)
-      mount.innerHTML = `<div class="vv-error">Could not load the problem bank: ${String(err)}</div>`
-    })
+  renderVault(mount)
 }
 
 document.addEventListener("nav", initVaultViewer)
 
-// Re-render when the ProblemVaultWidget (or another tab) adds to the vault
+// Re-render on external vault changes (same tab, from ProblemVaultWidget)
 document.addEventListener("math-wiki-vault-change", () => {
   const mount = document.getElementById("vault-mount")
-  if (!mount || !BANK_CACHE) return
-  renderVault(mount, BANK_CACHE)
+  if (mount) renderVault(mount)
 })
