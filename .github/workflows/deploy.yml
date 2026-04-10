@@ -69,6 +69,17 @@ jobs:
               cp "$GITHUB_WORKSPACE/$wiki_dir/quartz.layout.ts" quartz.layout.ts
             fi
 
+            # Overlay custom Quartz components if this wiki defines any (Math Wiki et al.)
+            if [ -d "$GITHUB_WORKSPACE/$wiki_dir/quartz_components" ] && [ "$(ls -A "$GITHUB_WORKSPACE/$wiki_dir/quartz_components" 2>/dev/null)" ]; then
+              cp -r "$GITHUB_WORKSPACE/$wiki_dir/quartz_components/"* quartz/components/
+            fi
+
+            # Overlay static assets if this wiki defines any
+            if [ -d "$GITHUB_WORKSPACE/$wiki_dir/static" ] && [ "$(ls -A "$GITHUB_WORKSPACE/$wiki_dir/static" 2>/dev/null)" ]; then
+              mkdir -p quartz/static
+              cp -r "$GITHUB_WORKSPACE/$wiki_dir/static/"* quartz/static/
+            fi
+
             # Copy wiki content to Quartz content directory
             rm -rf content/*
             cp -r "$GITHUB_WORKSPACE/$wiki_dir/wiki/"* content/

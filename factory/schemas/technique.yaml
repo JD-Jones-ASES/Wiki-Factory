@@ -1,0 +1,44 @@
+# Technique Page Schema
+# A problem-solving method or algorithm independent of any single topic.
+# Wikilinkable from topic pages, problem_type pages, and from within example walkthroughs.
+
+required:
+  title: string
+  type: "technique"
+  aliases: list
+  tags: list
+  created: date
+  updated: date
+  source_refs: list
+  related: list
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  applies_to_topics: list    # Wikilinks to topic pages where this technique is useful
+  related_techniques: list   # Wikilinks to related technique pages
+  steps: list                # Ordered list of short step descriptions
+  summary: string            # One-line description of what the technique does
+
+# Example frontmatter:
+# ---
+# title: "Completing the Square"
+# type: technique
+# aliases: ["Square Completion"]
+# tags: ["#branch-algebra", "#skill-algebraic-manipulation"]
+# created: 2026-04-10
+# updated: 2026-04-10
+# source_refs: []
+# related: ["topics/Quadratic_Equations", "formulas/Quadratic_Formula"]
+# status: stub
+# confidence: high
+# applies_to_topics: ["topics/Quadratic_Equations", "topics/Conic_Sections"]
+# related_techniques: ["techniques/Factoring"]
+# summary: "Rewrite a quadratic expression as a perfect square plus a constant to solve or analyze it."
+# steps:
+#   - "Move the constant term to the right side."
+#   - "Divide through by the coefficient of x^2 if it is not 1."
+#   - "Take half the coefficient of x, square it, add to both sides."
+#   - "Rewrite the left side as a perfect square."
+#   - "Solve by taking square roots of both sides."
+# ---

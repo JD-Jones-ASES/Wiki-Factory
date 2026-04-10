@@ -1,0 +1,47 @@
+# Problem Type Page Schema
+# A parametrized problem category that the generator library produces.
+# One page per canonical problem type. Bridges a Topic page to a Python generator.
+
+required:
+  title: string
+  type: "problem_type"
+  aliases: list
+  tags: list
+  created: date
+  updated: date
+  source_refs: list
+  related: list
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  generator_id: string            # Python registry key (e.g., "circles_equation_from_center_radius")
+  topic_slug: string              # Lowercase slug of the parent topic (e.g., "circles")
+  parent_topic: string            # Wikilink to the topic page
+  difficulty_levels: list         # Subset of [easy, medium, hard]
+  supports_word_problems: bool
+  typical_techniques: list        # Wikilinks to technique/ pages
+  example_problem_statement_latex: string  # One hand-authored example (NOT from books)
+  example_problem_answer_latex: string
+
+# Example frontmatter:
+# ---
+# title: "Find Circle Equation from Center and Radius"
+# type: problem_type
+# aliases: ["Circle Equation Given Center and Radius"]
+# tags: ["#branch-geometry", "#skill-formula-substitution"]
+# created: 2026-04-10
+# updated: 2026-04-10
+# source_refs: []
+# related: ["topics/Circles", "formulas/Circle_Standard_Form"]
+# status: stub
+# confidence: high
+# generator_id: "circles_equation_from_center_radius"
+# topic_slug: "circles"
+# parent_topic: "[[Circles]]"
+# difficulty_levels: [easy, medium, hard]
+# supports_word_problems: false
+# typical_techniques: ["techniques/Formula_Substitution"]
+# example_problem_statement_latex: "Find the equation of the circle with center $(3, -2)$ and radius $5$."
+# example_problem_answer_latex: "$(x-3)^2 + (y+2)^2 = 25$"
+# ---

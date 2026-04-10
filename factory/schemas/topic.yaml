@@ -1,0 +1,45 @@
+# Topic Page Schema
+# A math topic — the primary noun of the Math Wiki.
+# One page per topic (e.g., Linear Equations, Circles, Quadratic Formula).
+
+required:
+  title: string
+  type: "topic"
+  aliases: list          # Alternative names ("Slope-Intercept Form" aliases "y = mx + b")
+  tags: list             # From controlled taxonomy
+  created: date          # YYYY-MM-DD
+  updated: date          # YYYY-MM-DD
+  source_refs: list      # Wikilinks to book source pages that discuss this topic
+  related: list          # Wikilinks to related topics, techniques, formulas
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  branch: enum           # pre-algebra | algebra-1 | geometry | algebra-2 | trigonometry | pre-calculus | statistics
+  prerequisites: list    # Topic wikilinks a student should know first
+  problem_type_ids: list # Generator IDs this topic exposes in the widget
+  figures: list          # SVG filenames in wiki/assets/figures/
+  key_formulas: list     # Wikilinks to formula/ pages
+  key_techniques: list   # Wikilinks to technique/ pages
+  summary: string        # One-line plain-English description
+
+# Example frontmatter:
+# ---
+# title: "Circles"
+# type: topic
+# aliases: ["Circle Equation", "Analytic Circles"]
+# tags: ["#branch-geometry", "#topic-analytic-geometry"]
+# created: 2026-04-10
+# updated: 2026-04-10
+# source_refs: []
+# related: ["topics/Conic_Sections", "formulas/Circle_Standard_Form"]
+# status: stub
+# confidence: high
+# branch: geometry
+# prerequisites: ["topics/Coordinate_Plane", "topics/Pythagorean_Theorem"]
+# problem_type_ids: ["circles_equation_from_center_radius", "circles_area_from_radius"]
+# figures: ["geometry/unit_circle.svg", "geometry/circle_parts.svg"]
+# key_formulas: ["formulas/Circle_Standard_Form", "formulas/Circle_Area"]
+# key_techniques: ["techniques/Completing_The_Square"]
+# summary: "The set of points equidistant from a center; its equation, area, and properties."
+# ---

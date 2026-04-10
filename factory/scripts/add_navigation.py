@@ -23,6 +23,11 @@ SECTION_MAP = {
     'synthesis': ('[[Synthesis_Overview|Stories]]', 'synthesis'),
     'timelines': ('[[Synthesis_Overview|Stories]]', 'timelines'),
     'sources': ('Sources', 'sources'),
+    # Math Wiki sections
+    'topics': ('[[Topics_Overview|Topics]]', 'topics'),
+    'problem_types': ('[[Problem_Types_Overview|Problem Types]]', 'problem_types'),
+    'techniques': ('[[Techniques_Overview|Techniques]]', 'techniques'),
+    'formulas': ('[[Formulas_Overview|Formulas]]', 'formulas'),
 }
 
 

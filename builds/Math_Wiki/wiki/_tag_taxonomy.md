@@ -1,0 +1,108 @@
+# Tag Taxonomy --- Math Wiki
+
+> Controlled vocabulary for all tags. No ad-hoc tags. Every tag used on a wiki page must exist in this list. New tags are proposed here first.
+
+All tags are written in YAML frontmatter with quotes and the leading `#`:
+
+```yaml
+tags: ["#branch-algebra", "#topic-quadratics"]
+```
+
+---
+
+## 1. Branch Tags --- which math course does this topic belong to?
+
+- `#branch-pre-algebra` --- middle school foundational topics
+- `#branch-algebra-1` --- first course in symbolic manipulation and equations
+- `#branch-geometry` --- Euclidean, coordinate, and transformational geometry
+- `#branch-algebra-2` --- functions, polynomials, advanced equations
+- `#branch-trigonometry` --- triangles, circular functions, identities, laws
+- `#branch-pre-calculus` --- limits, sequences, advanced functions
+- `#branch-statistics` --- (reserved; not in v1)
+- `#branch-calculus` --- (reserved; not in v1)
+
+Every topic page carries exactly ONE branch tag matching its `branch:` frontmatter.
+
+---
+
+## 2. Topic Area Tags --- what sub-area of math?
+
+- `#topic-numbers-and-operations` --- integers, fractions, decimals, real numbers, order of operations
+- `#topic-linear` --- linear equations, linear functions, slopes
+- `#topic-quadratics` --- quadratic equations, quadratic functions, parabolas
+- `#topic-polynomials` --- higher-degree polynomials, polynomial operations, factoring
+- `#topic-rational-expressions` --- rational functions, simplification, equations
+- `#topic-exponents-and-radicals` --- exponential rules, radicals, radical equations
+- `#topic-logarithms` --- log properties, exponential-log conversions, equations
+- `#topic-inequalities` --- linear, quadratic, compound, absolute value
+- `#topic-systems` --- systems of equations and inequalities
+- `#topic-functions` --- domain/range, transformations, composition, inverse
+- `#topic-sequences-and-series` --- arithmetic, geometric, summation
+- `#topic-matrices` --- matrix operations and applications
+- `#topic-probability` --- basic counting, probability rules
+- `#topic-statistics` --- mean/median/mode, distributions, interpretation
+- `#topic-euclidean-geometry` --- points, lines, angles, triangles, polygons, circles (synthetic)
+- `#topic-analytic-geometry` --- coordinate-plane geometry, distance/midpoint, circle/line equations
+- `#topic-solid-geometry` --- 3D shapes, volumes, surface areas
+- `#topic-transformations` --- translations, rotations, reflections, dilations
+- `#topic-similarity-and-congruence` --- ratio-based reasoning in geometry
+- `#topic-right-triangles` --- special right triangles, basic trig ratios
+- `#topic-unit-circle` --- radian measure, circular function definitions
+- `#topic-trig-identities` --- Pythagorean, sum/difference, double-angle
+- `#topic-trig-equations` --- solving trigonometric equations
+- `#topic-laws-of-sines-and-cosines` --- oblique triangle solving
+- `#topic-vectors` --- vector operations and applications
+- `#topic-complex-numbers` --- arithmetic, polar form, roots
+- `#topic-conic-sections` --- parabolas, ellipses, hyperbolas, circles analytically
+- `#topic-limits` --- (reserved; pre-calc use only)
+
+---
+
+## 3. Skill Tags --- what kind of cognitive move does a problem require?
+
+- `#skill-procedural-calculation` --- straightforward application of an algorithm
+- `#skill-formula-substitution` --- plug values into a known formula
+- `#skill-algebraic-manipulation` --- rearranging expressions
+- `#skill-visualization` --- interpreting or producing a graph/figure
+- `#skill-translation` --- converting a word problem to symbolic form
+- `#skill-multi-step` --- requires chaining several techniques
+- `#skill-proof-reasoning` --- requires justifying or deriving (sparingly used in middle/high school)
+- `#skill-estimation` --- sensible-approximation reasoning
+
+---
+
+## 4. Difficulty Tags --- expected difficulty of a generated problem or problem type
+
+- `#difficulty-easy` --- introductory, small numbers, single step
+- `#difficulty-medium` --- routine practice, moderate numbers, 2-3 steps
+- `#difficulty-hard` --- challenging, larger or messier numbers, multi-step, may require insight
+
+---
+
+## 5. Page Meta Tags --- for wiki maintenance and navigation
+
+- `#navigation` --- landing pages, overview hubs, vault page
+- `#needs-review` --- flagged for human review
+- `#needs-expansion` --- stub that needs more content
+- `#contradicted` --- contradictions across sources exist on this page
+- `#key-topic` --- foundational topic; high traffic expected
+- `#key-formula` --- heavily used formula
+- `#key-technique` --- broadly applicable technique
+- `#word-problem-support` --- problem type supports word-problem variants
+
+---
+
+## 6. Source Tags --- one per ingested book (added during Phase 2)
+
+- (Populated after books are ingested. Each source gets a tag like `#source-holt-algebra-1`.)
+
+---
+
+## 7. Representation Tags --- how is the math presented?
+
+- `#representation-symbolic` --- equations and expressions
+- `#representation-graphical` --- graphs and figures
+- `#representation-numerical` --- tables and patterns
+- `#representation-verbal` --- word problems, real-world context
+
+These are orthogonal to branch/topic tags and help surface problems of a given style.

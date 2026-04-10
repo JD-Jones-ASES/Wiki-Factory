@@ -1,0 +1,45 @@
+# Formula Page Schema
+# A named formula or theorem — small, focused, wikilinkable from anywhere.
+# One page per formula (Quadratic Formula, Pythagorean Theorem, Distance Formula, etc.).
+
+required:
+  title: string
+  type: "formula"
+  aliases: list
+  tags: list
+  created: date
+  updated: date
+  source_refs: list
+  related: list
+  status: enum           # stub | draft | complete
+  confidence: enum       # high | medium | low
+
+optional:
+  statement_latex: string          # The formula itself in LaTeX
+  variables: list                  # List of {name, meaning} dicts explaining each symbol
+  conditions: list                 # Preconditions (e.g., "a != 0", "triangle is right-angled")
+  applies_to_topics: list          # Topic wikilinks where the formula applies
+  derivation_sketch: string        # Short plain-language explanation of why it holds
+  summary: string                  # One-line description
+
+# Example frontmatter:
+# ---
+# title: "Quadratic Formula"
+# type: formula
+# aliases: ["Solution to Quadratic Equation"]
+# tags: ["#branch-algebra", "#topic-quadratics"]
+# created: 2026-04-10
+# updated: 2026-04-10
+# source_refs: []
+# related: ["topics/Quadratic_Equations", "techniques/Completing_The_Square"]
+# status: stub
+# confidence: high
+# statement_latex: "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+# variables:
+#   - {name: "a", meaning: "Coefficient of x^2"}
+#   - {name: "b", meaning: "Coefficient of x"}
+#   - {name: "c", meaning: "Constant term"}
+# conditions: ["a != 0"]
+# applies_to_topics: ["topics/Quadratic_Equations"]
+# summary: "The closed-form solution to any equation of the form ax^2 + bx + c = 0."
+# ---

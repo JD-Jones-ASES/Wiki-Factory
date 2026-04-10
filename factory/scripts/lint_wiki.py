@@ -8,7 +8,7 @@ from pathlib import Path
 from collections import defaultdict
 
 REQUIRED_FIELDS = ["title", "type", "tags", "created", "updated", "status"]
-VALID_TYPES = {"entity", "concept", "source", "synthesis", "timeline", "overview", "hymn"}
+VALID_TYPES = {"entity", "concept", "source", "synthesis", "timeline", "overview", "hymn", "topic", "problem_type", "technique", "formula"}
 VALID_STATUSES = {"stub", "draft", "complete"}
 VALID_CONFIDENCES = {"high", "medium", "low"}
 SYSTEM_FILES = {"_index.md", "_log.md", "_overview.md", "_tag_taxonomy.md"}
@@ -57,11 +57,17 @@ def lint_wiki(wiki_dir):
         rel_path = md_file.relative_to(wiki_path)
         name = md_file.name
 
-        # Skip system files for frontmatter checks
+        fm, text = extract_frontmatter(md_file)
+
+        # Collect wikilinks from every file (including system files like _overview.md)
+        # so that breadcrumb backlinks count toward inbound-link totals.
+        if text:
+            for link in extract_wikilinks(text):
+                all_wikilinks[link].append(str(rel_path))
+
+        # Skip system files for frontmatter validation only.
         if name in SYSTEM_FILES:
             continue
-
-        fm, text = extract_frontmatter(md_file)
 
         # Check frontmatter exists
         if fm is None:
@@ -96,11 +102,6 @@ def lint_wiki(wiki_dir):
                 if tag_taxonomy and tag_bare not in tag_taxonomy:
                     issues.append(("WARN", str(rel_path), f"Tag not in taxonomy: {tag}"))
 
-        # Collect wikilinks
-        links = extract_wikilinks(text)
-        for link in links:
-            all_wikilinks[link].append(str(rel_path))
-
     # Build resolvable names lookup: maps any resolvable name → page stem
     resolvable = {}  # normalized name → stem
     for stem, fm in pages.items():
@@ -111,6 +112,14 @@ def lint_wiki(wiki_dir):
         if "aliases" in fm and isinstance(fm["aliases"], list):
             for alias in fm["aliases"]:
                 resolvable[alias.lower()] = stem
+
+    # System files (_overview, _index, etc.) are skipped for frontmatter validation
+    # but wikilinks TO them from breadcrumbs (e.g., `[[_overview|Home]]`) must still resolve.
+    for md_file in md_files:
+        if md_file.name in SYSTEM_FILES:
+            stem = md_file.stem
+            resolvable[stem.lower()] = stem
+            resolvable[stem.replace("_", " ").lower()] = stem
 
     # Check for orphan pages (no inbound wikilinks)
     all_page_stems = {p.stem for p in md_files if p.name not in SYSTEM_FILES}
