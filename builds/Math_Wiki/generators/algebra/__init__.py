@@ -14,4 +14,7 @@ from . import exponent_rules  # noqa: F401
 from . import lines  # noqa: F401
 from . import inequalities  # noqa: F401
 from . import coord_scatter  # noqa: F401
+from . import polynomials  # noqa: F401
+from . import quadratics_methods  # noqa: F401
+from . import quadratic_functions  # noqa: F401
 

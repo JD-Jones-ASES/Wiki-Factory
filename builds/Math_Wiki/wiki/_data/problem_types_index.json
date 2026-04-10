@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T18:50:57.631219+00:00",
+  "generated_at": "2026-04-10T19:21:40.339726+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 152,
+  "generator_count": 194,
   "by_topic": {
     "circles": [
       {
@@ -758,6 +758,454 @@
           "easy": 20,
           "medium": 20,
           "hard": 20
+        }
+      }
+    ],
+    "adding_and_subtracting_polynomials": [
+      {
+        "generator_id": "poly_add_like_terms",
+        "display_name": "Add polynomials (combine like terms)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "poly_subtract",
+        "display_name": "Subtract polynomials",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "poly_combine_mixed",
+        "display_name": "Combine polynomials with mixed signs",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "multiplying_polynomials": [
+      {
+        "generator_id": "poly_monomial_times_polynomial",
+        "display_name": "Distribute a monomial over a polynomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "poly_binomial_times_binomial_foil",
+        "display_name": "Multiply (ax + b)(cx + d) using FOIL",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "poly_binomial_times_trinomial",
+        "display_name": "Multiply (x + a)(x^2 + bx + c)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "special_products": [
+      {
+        "generator_id": "special_product_difference_of_squares",
+        "display_name": "Expand (ax + b)(ax - b)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "special_product_perfect_square_sum",
+        "display_name": "Expand (ax + b)^2",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "special_product_perfect_square_diff",
+        "display_name": "Expand (ax - b)^2",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "greatest_common_factor": [
+      {
+        "generator_id": "gcf_of_monomials",
+        "display_name": "Find the GCF of monomials",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "gcf_factor_polynomial",
+        "display_name": "Factor the GCF from a polynomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "gcf_factor_binomial_common",
+        "display_name": "Factor out a common binomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "factoring_trinomials_general": [
+      {
+        "generator_id": "factor_general_trinomial_positive_leading",
+        "display_name": "Factor ax^2 + bx + c (a > 1)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "factor_general_trinomial_mixed_signs",
+        "display_name": "Factor ax^2 + bx + c with c negative",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "factor_trinomial_with_gcf_first",
+        "display_name": "Factor out a GCF, then a trinomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "factoring_special_forms": [
+      {
+        "generator_id": "factor_difference_of_squares_general",
+        "display_name": "Factor a difference of squares (general form)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "factor_perfect_square_trinomial_sum",
+        "display_name": "Factor a perfect square trinomial (sum form)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "factor_perfect_square_trinomial_diff",
+        "display_name": "Factor a perfect square trinomial (difference form)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "factoring_completely": [
+      {
+        "generator_id": "factor_completely_gcf_then_dos",
+        "display_name": "Factor completely: GCF, then difference of squares",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "factor_completely_gcf_then_trinomial",
+        "display_name": "Factor completely: GCF, then trinomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "factor_by_grouping_4_terms",
+        "display_name": "Factor by grouping (4 terms)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "solving_quadratics_by_factoring": [
+      {
+        "generator_id": "solve_quadratic_by_factoring_simple",
+        "display_name": "Solve a quadratic by factoring (leading coefficient 1)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_quadratic_by_factoring_rearranged",
+        "display_name": "Solve a quadratic by factoring (rearrange first)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_quadratic_by_factoring_gcf",
+        "display_name": "Solve ax^2 + bx = 0 (factor out the GCF)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "solving_quadratics_by_square_roots": [
+      {
+        "generator_id": "solve_x_squared_equals_k",
+        "display_name": "Solve x^2 = k (k a perfect square)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "solve_binomial_squared_equals_k",
+        "display_name": "Solve (x - h)^2 = k",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_quadratic_to_square_form",
+        "display_name": "Solve ax^2 - c = 0 (rearrange then square root)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "completing_the_square": [
+      {
+        "generator_id": "complete_square_leading_one",
+        "display_name": "Complete the square (leading coefficient 1)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "complete_square_integer_k",
+        "display_name": "Complete the square (integer answers)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "complete_square_with_a",
+        "display_name": "Complete the square (leading coefficient != 1)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "the_discriminant": [
+      {
+        "generator_id": "discriminant_compute",
+        "display_name": "Compute the discriminant b^2 - 4ac",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "discriminant_classify_root_count",
+        "display_name": "Classify root count via the discriminant",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "discriminant_from_graph_description",
+        "display_name": "Determine the sign of the discriminant from a graph description",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      }
+    ],
+    "graphing_quadratic_functions": [
+      {
+        "generator_id": "find_vertex_from_standard_form",
+        "display_name": "Find the vertex of y = ax^2 + bx + c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "axis_of_symmetry_from_standard_form",
+        "display_name": "Find the axis of symmetry of y = ax^2 + bx + c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "identify_parabola_features",
+        "display_name": "Identify direction, y-intercept, and vertex of a parabola",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "quadratic_functions": [
+      {
+        "generator_id": "evaluate_quadratic_function",
+        "display_name": "Evaluate f(x) = ax^2 + bx + c at a given input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "vertex_form_identify_vertex",
+        "display_name": "Identify the vertex of f(x) = a(x - h)^2 + k",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "standard_to_vertex_form_via_completing_square",
+        "display_name": "Convert x^2 + bx + c to vertex form by completing the square",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "applications_of_quadratic_functions": [
+      {
+        "generator_id": "projectile_max_height",
+        "display_name": "Find the maximum height of a projectile",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "projectile_time_to_ground",
+        "display_name": "Find when a projectile hits the ground",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rectangle_max_area",
+        "display_name": "Maximize the area of a rectangle with fixed fencing",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
         }
       }
     ],
@@ -2336,6 +2784,426 @@
         "hard": 20
       },
       "shard_file": "problems/scatter_plots_and_trend_lines.json"
+    },
+    "poly_add_like_terms": {
+      "topic_slug": "adding_and_subtracting_polynomials",
+      "display_name": "Add polynomials (combine like terms)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_polynomials.json"
+    },
+    "poly_subtract": {
+      "topic_slug": "adding_and_subtracting_polynomials",
+      "display_name": "Subtract polynomials",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_polynomials.json"
+    },
+    "poly_combine_mixed": {
+      "topic_slug": "adding_and_subtracting_polynomials",
+      "display_name": "Combine polynomials with mixed signs",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_polynomials.json"
+    },
+    "poly_monomial_times_polynomial": {
+      "topic_slug": "multiplying_polynomials",
+      "display_name": "Distribute a monomial over a polynomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_polynomials.json"
+    },
+    "poly_binomial_times_binomial_foil": {
+      "topic_slug": "multiplying_polynomials",
+      "display_name": "Multiply (ax + b)(cx + d) using FOIL",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_polynomials.json"
+    },
+    "poly_binomial_times_trinomial": {
+      "topic_slug": "multiplying_polynomials",
+      "display_name": "Multiply (x + a)(x^2 + bx + c)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_polynomials.json"
+    },
+    "special_product_difference_of_squares": {
+      "topic_slug": "special_products",
+      "display_name": "Expand (ax + b)(ax - b)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/special_products.json"
+    },
+    "special_product_perfect_square_sum": {
+      "topic_slug": "special_products",
+      "display_name": "Expand (ax + b)^2",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/special_products.json"
+    },
+    "special_product_perfect_square_diff": {
+      "topic_slug": "special_products",
+      "display_name": "Expand (ax - b)^2",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/special_products.json"
+    },
+    "gcf_of_monomials": {
+      "topic_slug": "greatest_common_factor",
+      "display_name": "Find the GCF of monomials",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/greatest_common_factor.json"
+    },
+    "gcf_factor_polynomial": {
+      "topic_slug": "greatest_common_factor",
+      "display_name": "Factor the GCF from a polynomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/greatest_common_factor.json"
+    },
+    "gcf_factor_binomial_common": {
+      "topic_slug": "greatest_common_factor",
+      "display_name": "Factor out a common binomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/greatest_common_factor.json"
+    },
+    "factor_general_trinomial_positive_leading": {
+      "topic_slug": "factoring_trinomials_general",
+      "display_name": "Factor ax^2 + bx + c (a > 1)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_trinomials_general.json"
+    },
+    "factor_general_trinomial_mixed_signs": {
+      "topic_slug": "factoring_trinomials_general",
+      "display_name": "Factor ax^2 + bx + c with c negative",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_trinomials_general.json"
+    },
+    "factor_trinomial_with_gcf_first": {
+      "topic_slug": "factoring_trinomials_general",
+      "display_name": "Factor out a GCF, then a trinomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_trinomials_general.json"
+    },
+    "factor_difference_of_squares_general": {
+      "topic_slug": "factoring_special_forms",
+      "display_name": "Factor a difference of squares (general form)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_special_forms.json"
+    },
+    "factor_perfect_square_trinomial_sum": {
+      "topic_slug": "factoring_special_forms",
+      "display_name": "Factor a perfect square trinomial (sum form)",
+      "counts": {
+        "easy": 25,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_special_forms.json"
+    },
+    "factor_perfect_square_trinomial_diff": {
+      "topic_slug": "factoring_special_forms",
+      "display_name": "Factor a perfect square trinomial (difference form)",
+      "counts": {
+        "easy": 25,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_special_forms.json"
+    },
+    "factor_completely_gcf_then_dos": {
+      "topic_slug": "factoring_completely",
+      "display_name": "Factor completely: GCF, then difference of squares",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/factoring_completely.json"
+    },
+    "factor_completely_gcf_then_trinomial": {
+      "topic_slug": "factoring_completely",
+      "display_name": "Factor completely: GCF, then trinomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_completely.json"
+    },
+    "factor_by_grouping_4_terms": {
+      "topic_slug": "factoring_completely",
+      "display_name": "Factor by grouping (4 terms)",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/factoring_completely.json"
+    },
+    "solve_quadratic_by_factoring_simple": {
+      "topic_slug": "solving_quadratics_by_factoring",
+      "display_name": "Solve a quadratic by factoring (leading coefficient 1)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_quadratics_by_factoring.json"
+    },
+    "solve_quadratic_by_factoring_rearranged": {
+      "topic_slug": "solving_quadratics_by_factoring",
+      "display_name": "Solve a quadratic by factoring (rearrange first)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_quadratics_by_factoring.json"
+    },
+    "solve_quadratic_by_factoring_gcf": {
+      "topic_slug": "solving_quadratics_by_factoring",
+      "display_name": "Solve ax^2 + bx = 0 (factor out the GCF)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_quadratics_by_factoring.json"
+    },
+    "solve_x_squared_equals_k": {
+      "topic_slug": "solving_quadratics_by_square_roots",
+      "display_name": "Solve x^2 = k (k a perfect square)",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 20
+      },
+      "shard_file": "problems/solving_quadratics_by_square_roots.json"
+    },
+    "solve_binomial_squared_equals_k": {
+      "topic_slug": "solving_quadratics_by_square_roots",
+      "display_name": "Solve (x - h)^2 = k",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_quadratics_by_square_roots.json"
+    },
+    "solve_quadratic_to_square_form": {
+      "topic_slug": "solving_quadratics_by_square_roots",
+      "display_name": "Solve ax^2 - c = 0 (rearrange then square root)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_quadratics_by_square_roots.json"
+    },
+    "complete_square_leading_one": {
+      "topic_slug": "completing_the_square",
+      "display_name": "Complete the square (leading coefficient 1)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/completing_the_square.json"
+    },
+    "complete_square_integer_k": {
+      "topic_slug": "completing_the_square",
+      "display_name": "Complete the square (integer answers)",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/completing_the_square.json"
+    },
+    "complete_square_with_a": {
+      "topic_slug": "completing_the_square",
+      "display_name": "Complete the square (leading coefficient != 1)",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/completing_the_square.json"
+    },
+    "discriminant_compute": {
+      "topic_slug": "the_discriminant",
+      "display_name": "Compute the discriminant b^2 - 4ac",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_discriminant.json"
+    },
+    "discriminant_classify_root_count": {
+      "topic_slug": "the_discriminant",
+      "display_name": "Classify root count via the discriminant",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_discriminant.json"
+    },
+    "discriminant_from_graph_description": {
+      "topic_slug": "the_discriminant",
+      "display_name": "Determine the sign of the discriminant from a graph description",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/the_discriminant.json"
+    },
+    "find_vertex_from_standard_form": {
+      "topic_slug": "graphing_quadratic_functions",
+      "display_name": "Find the vertex of y = ax^2 + bx + c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphing_quadratic_functions.json"
+    },
+    "axis_of_symmetry_from_standard_form": {
+      "topic_slug": "graphing_quadratic_functions",
+      "display_name": "Find the axis of symmetry of y = ax^2 + bx + c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphing_quadratic_functions.json"
+    },
+    "identify_parabola_features": {
+      "topic_slug": "graphing_quadratic_functions",
+      "display_name": "Identify direction, y-intercept, and vertex of a parabola",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphing_quadratic_functions.json"
+    },
+    "evaluate_quadratic_function": {
+      "topic_slug": "quadratic_functions",
+      "display_name": "Evaluate f(x) = ax^2 + bx + c at a given input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/quadratic_functions.json"
+    },
+    "vertex_form_identify_vertex": {
+      "topic_slug": "quadratic_functions",
+      "display_name": "Identify the vertex of f(x) = a(x - h)^2 + k",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/quadratic_functions.json"
+    },
+    "standard_to_vertex_form_via_completing_square": {
+      "topic_slug": "quadratic_functions",
+      "display_name": "Convert x^2 + bx + c to vertex form by completing the square",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/quadratic_functions.json"
+    },
+    "projectile_max_height": {
+      "topic_slug": "applications_of_quadratic_functions",
+      "display_name": "Find the maximum height of a projectile",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_quadratic_functions.json"
+    },
+    "projectile_time_to_ground": {
+      "topic_slug": "applications_of_quadratic_functions",
+      "display_name": "Find when a projectile hits the ground",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_quadratic_functions.json"
+    },
+    "rectangle_max_area": {
+      "topic_slug": "applications_of_quadratic_functions",
+      "display_name": "Maximize the area of a rectangle with fixed fencing",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_quadratic_functions.json"
     },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",

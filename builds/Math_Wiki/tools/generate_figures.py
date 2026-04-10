@@ -604,6 +604,350 @@ def fig_scatter_trend_line():
 
 
 # ---------------------------------------------------------------------------
+# Algebra: area model for (x + 3)(x + 5)
+
+def fig_area_model_multiplication():
+    """Area model showing (x + 3)(x + 5) = x^2 + 5x + 3x + 15."""
+    fig, ax = plt.subplots(figsize=(6, 6))
+    ax.set_aspect("equal")
+
+    # Use visual widths: x is drawn ~5 units, the constants at their numeric size
+    x_vis = 5.0   # visual length standing in for the algebraic "x"
+    left_w = x_vis
+    right_w = 5.0
+    bot_h = 3.0
+    top_h = x_vis
+    total_w = left_w + right_w
+    total_h = bot_h + top_h
+
+    ax.set_xlim(-1.6, total_w + 0.6)
+    ax.set_ylim(-1.1, total_h + 1.4)
+
+    # Pastel colors for the four sub-rectangles
+    c_xx = "#cde4f0"     # x^2 (top-left)
+    c_5x = "#fce1b7"     # 5x  (top-right)
+    c_3x = "#d7ecd0"     # 3x  (bottom-left)
+    c_15 = "#f4d0d6"     # 15  (bottom-right)
+
+    # Coordinates of the four cells (top row is "x" tall, bottom row is "3" tall)
+    # Top-left cell: x^2
+    ax.fill_between([0, left_w], bot_h, total_h,
+                    color=c_xx, linewidth=0)
+    # Top-right cell: 5x
+    ax.fill_between([left_w, total_w], bot_h, total_h,
+                    color=c_5x, linewidth=0)
+    # Bottom-left cell: 3x
+    ax.fill_between([0, left_w], 0, bot_h,
+                    color=c_3x, linewidth=0)
+    # Bottom-right cell: 15
+    ax.fill_between([left_w, total_w], 0, bot_h,
+                    color=c_15, linewidth=0)
+
+    # Outer rectangle outline
+    ax.plot([0, total_w, total_w, 0, 0],
+            [0, 0, total_h, total_h, 0],
+            color=C_LINE, linewidth=2.2)
+    # Inner dividers
+    ax.plot([left_w, left_w], [0, total_h],
+            color=C_LINE, linewidth=1.8)
+    ax.plot([0, total_w], [bot_h, bot_h],
+            color=C_LINE, linewidth=1.8)
+
+    # Cell labels
+    ax.text(left_w / 2, bot_h + top_h / 2, r"$x^{2}$",
+            ha="center", va="center",
+            fontsize=22, color=C_TEXT, fontweight="bold")
+    ax.text(left_w + right_w / 2, bot_h + top_h / 2, r"$5x$",
+            ha="center", va="center",
+            fontsize=20, color=C_TEXT, fontweight="bold")
+    ax.text(left_w / 2, bot_h / 2, r"$3x$",
+            ha="center", va="center",
+            fontsize=20, color=C_TEXT, fontweight="bold")
+    ax.text(left_w + right_w / 2, bot_h / 2, r"$15$",
+            ha="center", va="center",
+            fontsize=20, color=C_TEXT, fontweight="bold")
+
+    # Top side labels: x over the left column, 5 over the right column
+    ax.text(left_w / 2, total_h + 0.35, r"$x$",
+            ha="center", va="bottom",
+            fontsize=15, color=C_TEXT, fontweight="bold")
+    ax.text(left_w + right_w / 2, total_h + 0.35, r"$5$",
+            ha="center", va="bottom",
+            fontsize=15, color=C_TEXT, fontweight="bold")
+
+    # Left side labels: x beside the top row, 3 beside the bottom row
+    ax.text(-0.35, bot_h + top_h / 2, r"$x$",
+            ha="right", va="center",
+            fontsize=15, color=C_TEXT, fontweight="bold")
+    ax.text(-0.35, bot_h / 2, r"$3$",
+            ha="right", va="center",
+            fontsize=15, color=C_TEXT, fontweight="bold")
+
+    ax.set_title(r"Area model: $(x + 3)(x + 5)$", fontsize=14, pad=14)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/area_model_multiplication.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: the discriminant's three cases
+
+def fig_discriminant_three_cases():
+    """Three side-by-side parabolas showing Delta > 0, Delta = 0, Delta < 0."""
+    fig, axes = plt.subplots(1, 3, figsize=(8.4, 3.6))
+
+    xs = np.linspace(-3, 3, 300)
+
+    # Each panel: (y-values, label, x-intercepts to mark)
+    panels = [
+        (xs ** 2 - 4,
+         r"$\Delta > 0$ (two real roots)",
+         [-2.0, 2.0]),
+        (xs ** 2,
+         r"$\Delta = 0$ (one repeated root)",
+         [0.0]),
+        (xs ** 2 + 1,
+         r"$\Delta < 0$ (no real roots)",
+         []),
+    ]
+
+    for ax, (ys, label, roots) in zip(axes, panels):
+        ax.set_xlim(-3, 3)
+        ax.set_ylim(-5, 6)
+        ax.set_aspect("equal")
+
+        # Light grid
+        for i in range(-3, 4):
+            ax.plot([i, i], [-5, 6], color=C_GRID, linewidth=0.5, zorder=0)
+        for i in range(-5, 7):
+            ax.plot([-3, 3], [i, i], color=C_GRID, linewidth=0.5, zorder=0)
+
+        # Axes with arrowheads
+        ax.annotate(
+            "", xy=(2.9, 0), xytext=(-2.9, 0),
+            arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.2),
+        )
+        ax.annotate(
+            "", xy=(0, 5.7), xytext=(0, -4.7),
+            arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.2),
+        )
+        ax.text(2.95, 0.2, r"$x$", fontsize=10, color=C_TEXT,
+                ha="right", va="bottom")
+        ax.text(0.2, 5.7, r"$y$", fontsize=10, color=C_TEXT,
+                ha="left", va="top")
+
+        # Parabola
+        ax.plot(xs, ys, color=C_LINE, linewidth=2.2)
+
+        # Mark roots with red dots
+        for r in roots:
+            ax.plot(r, 0, "o", color=C_RADIUS,
+                    markersize=8, zorder=4)
+
+        ax.set_title(label, fontsize=10, color=C_TEXT, pad=6)
+        ax.set_xticks([])
+        ax.set_yticks([])
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+
+    fig.suptitle("The discriminant and the graph of a quadratic",
+                 fontsize=14, y=1.02)
+    fig.tight_layout()
+
+    _save(fig, "algebra/discriminant_three_cases.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: parabola with vertex, axis of symmetry, intercepts
+
+def fig_parabola_vertex_axis_of_symmetry():
+    """Parabola y = x^2 - 4x + 1 with vertex, axis of symmetry, intercepts."""
+    fig, ax = plt.subplots(figsize=(6.5, 6))
+    ax.set_aspect("equal")
+    ax.set_xlim(-2.4, 6.4)
+    ax.set_ylim(-4.6, 6.4)
+
+    # Light grid
+    for i in range(-2, 7):
+        ax.plot([i, i], [-4.5, 6.5], color=C_GRID,
+                linewidth=0.5, zorder=0)
+    for j in range(-4, 7):
+        ax.plot([-2.5, 6.5], [j, j], color=C_GRID,
+                linewidth=0.5, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(6.2, 0), xytext=(-2.2, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 6.2), xytext=(0, -4.4),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(6.3, 0.25, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.25, 6.3, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Integer tick labels on x-axis
+    for xt in range(-2, 7):
+        if xt == 0:
+            continue
+        ax.text(xt, -0.3, str(xt), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+
+    # Axis of symmetry x = 2 (dashed vertical line)
+    ax.plot([2, 2], [-4.5, 6.3], color=C_DASH,
+            linewidth=1.6, linestyle="--", zorder=1)
+    ax.text(2.15, 5.6, r"Axis of symmetry $x = 2$",
+            fontsize=10, color=C_DASH, ha="left", va="top")
+
+    # Parabola y = x^2 - 4x + 1
+    xs = np.linspace(-1.2, 5.2, 400)
+    ys = xs ** 2 - 4 * xs + 1
+    ax.plot(xs, ys, color=C_LINE, linewidth=2.4, zorder=2)
+
+    # Vertex (2, -3): red dot + label
+    ax.plot(2, -3, "o", color=C_RADIUS, markersize=10, zorder=4)
+    ax.annotate("Vertex $(2, -3)$",
+                xy=(2, -3), xytext=(2.5, -3.8),
+                fontsize=11, color=C_RADIUS, fontweight="bold",
+                arrowprops=dict(arrowstyle="->",
+                                color=C_RADIUS, lw=1.0))
+
+    # y-intercept (0, 1): blue dot + label
+    color_blue = "#2e86de"
+    ax.plot(0, 1, "o", color=color_blue, markersize=9, zorder=4)
+    ax.annotate(r"$y$-intercept $(0, 1)$",
+                xy=(0, 1), xytext=(-2.0, 2.6),
+                fontsize=10, color=color_blue, fontweight="bold",
+                arrowprops=dict(arrowstyle="->",
+                                color=color_blue, lw=1.0))
+
+    # Roots at 2 - sqrt(3) and 2 + sqrt(3)
+    sqrt3 = np.sqrt(3.0)
+    root_color = "#10ac84"
+    r1 = 2.0 - sqrt3
+    r2 = 2.0 + sqrt3
+    ax.plot(r1, 0, "o", color=root_color, markersize=8, zorder=4)
+    ax.plot(r2, 0, "o", color=root_color, markersize=8, zorder=4)
+    ax.annotate("roots",
+                xy=(r2, 0), xytext=(4.5, 1.4),
+                fontsize=10, color=root_color, fontweight="bold",
+                arrowprops=dict(arrowstyle="->",
+                                color=root_color, lw=1.0))
+    ax.annotate("",
+                xy=(r1, 0), xytext=(4.35, 1.3),
+                arrowprops=dict(arrowstyle="->",
+                                color=root_color, lw=1.0))
+
+    ax.set_title("Key features of a parabola", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/parabola_vertex_axis_of_symmetry.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: geometric completion of the square
+
+def fig_perfect_square_completion():
+    """Geometric completion of x^2 + 6x + 9 = (x + 3)^2."""
+    fig, ax = plt.subplots(figsize=(6.5, 6))
+    ax.set_aspect("equal")
+
+    x_vis = 5.0   # visual length standing in for "x"
+    three = 3.0
+    total = x_vis + three
+
+    ax.set_xlim(-1.6, total + 1.2)
+    ax.set_ylim(-1.1, total + 1.4)
+
+    # Pastel colors
+    c_xx = "#cde4f0"   # x^2
+    c_rect_a = "#fce1b7"  # top rectangle x by 3
+    c_rect_b = "#fce1b7"  # right rectangle 3 by x
+    c_corner = "#f4d0d6"  # 3 by 3 "completing" square
+
+    # Bottom-left: x^2 square
+    ax.fill_between([0, x_vis], 0, x_vis,
+                    color=c_xx, linewidth=0)
+    # Bottom-right: x by 3 rectangle
+    ax.fill_between([x_vis, total], 0, x_vis,
+                    color=c_rect_a, linewidth=0)
+    # Top-left: 3 by x rectangle
+    ax.fill_between([0, x_vis], x_vis, total,
+                    color=c_rect_b, linewidth=0)
+    # Top-right: 3 by 3 "completing" square (dashed outline)
+    ax.fill_between([x_vis, total], x_vis, total,
+                    color=c_corner, linewidth=0, alpha=0.9)
+
+    # Outer square outline of the completed big square (solid)
+    ax.plot([0, total, total, 0, 0],
+            [0, 0, total, total, 0],
+            color=C_LINE, linewidth=2.2)
+    # Inner dividers between the pieces
+    ax.plot([x_vis, x_vis], [0, total], color=C_LINE, linewidth=1.6)
+    ax.plot([0, total], [x_vis, x_vis], color=C_LINE, linewidth=1.6)
+
+    # Emphasize the "added" 3x3 square with a dashed outline
+    ax.plot([x_vis, total, total, x_vis, x_vis],
+            [x_vis, x_vis, total, total, x_vis],
+            color=C_RADIUS, linewidth=2.0, linestyle="--")
+
+    # Labels inside each piece
+    ax.text(x_vis / 2, x_vis / 2, r"$x^{2}$",
+            ha="center", va="center",
+            fontsize=22, color=C_TEXT, fontweight="bold")
+    ax.text(x_vis + three / 2, x_vis / 2, r"$3x$",
+            ha="center", va="center",
+            fontsize=18, color=C_TEXT, fontweight="bold")
+    ax.text(x_vis / 2, x_vis + three / 2, r"$3x$",
+            ha="center", va="center",
+            fontsize=18, color=C_TEXT, fontweight="bold")
+    ax.text(x_vis + three / 2, x_vis + three / 2, r"$9$",
+            ha="center", va="center",
+            fontsize=18, color=C_RADIUS, fontweight="bold")
+
+    # Bottom side labels
+    ax.text(x_vis / 2, -0.4, r"$x$",
+            ha="center", va="top",
+            fontsize=14, color=C_TEXT, fontweight="bold")
+    ax.text(x_vis + three / 2, -0.4, r"$3$",
+            ha="center", va="top",
+            fontsize=14, color=C_TEXT, fontweight="bold")
+
+    # Left side labels
+    ax.text(-0.35, x_vis / 2, r"$x$",
+            ha="right", va="center",
+            fontsize=14, color=C_TEXT, fontweight="bold")
+    ax.text(-0.35, x_vis + three / 2, r"$3$",
+            ha="right", va="center",
+            fontsize=14, color=C_TEXT, fontweight="bold")
+
+    # Bracket-style callout for the completed side length x + 3
+    ax.annotate("", xy=(total, total + 0.55), xytext=(0, total + 0.55),
+                arrowprops=dict(arrowstyle="<->", color=C_DASH, lw=1.2))
+    ax.text(total / 2, total + 0.75, r"$x + 3$",
+            ha="center", va="bottom",
+            fontsize=13, color=C_DASH, fontweight="bold")
+
+    ax.set_title(r"Completing the square: $x^{2} + 6x + 9 = (x+3)^{2}$",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/perfect_square_completion.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -616,6 +960,10 @@ FIGURES = [
     ("inequality_number_line", fig_inequality_number_line),
     ("parallel_perpendicular_lines", fig_parallel_perpendicular_lines),
     ("scatter_trend_line", fig_scatter_trend_line),
+    ("area_model_multiplication", fig_area_model_multiplication),
+    ("discriminant_three_cases", fig_discriminant_three_cases),
+    ("parabola_vertex_axis_of_symmetry", fig_parabola_vertex_axis_of_symmetry),
+    ("perfect_square_completion", fig_perfect_square_completion),
 ]
 
 

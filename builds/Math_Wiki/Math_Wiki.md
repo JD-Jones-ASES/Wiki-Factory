@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.8.0 --- Cluster 2 Linear world completion shipped (2026-04-10)
+### Version 1.9.0 --- Cluster 3 Polynomials + Quadratics deep shipped (2026-04-10)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 50 topics with working widgets, 152 generators, 13,335 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
+| **Scale** | Live: 64 topics with working widgets, 194 generators, 16,925 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -24,8 +24,9 @@
 - **Cluster 0** (infrastructure + alias merge) — **shipped** commit `8c1b4ac`
 - **Cluster 1** (pre-algebra foundations, 20 topics) — **shipped** commit `f27052f`
 - **Navigation UI redesign** — shipped commit `a0f4c4f`
-- **Cluster 2** (linear world completion, 14 topics) — **shipped** (this version)
-- **Next:** Cluster 3 (Polynomials + Quadratics deep, ~14 topics)
+- **Cluster 2** (linear world completion, 14 topics) — **shipped** commit `49dfa00`
+- **Cluster 3** (polynomials + quadratics deep, 14 topics) — **shipped** (this version)
+- **Next:** Cluster 4 (Rationals & Radicals, ~12 topics)
 
 ### 30-second mental model
 
@@ -956,9 +957,9 @@ The comprehensive buildout from the current state to complete integration of the
 |---|---|---:|---|
 | **0** | Infrastructure hardening + global alias merge | 0 | **shipped** |
 | **1** | Pre-algebra foundations | 20 | **shipped** |
-| **2** | Linear world completion | 14 | **shipped in this session** |
-| **3** | Polynomials + Quadratics deep | ~14 | **next** |
-| **4** | Rationals & Radicals | ~12 | pending |
+| **2** | Linear world completion | 14 | **shipped** |
+| **3** | Polynomials + Quadratics deep | 14 | **shipped in this session** |
+| **4** | Rationals & Radicals | ~12 | **next** |
 | **5** | Functions & Transformations | ~14 | pending |
 | **6** | Exponentials & Logarithms | ~10 | pending |
 | **7** | Trigonometry | ~15 | pending |
@@ -1072,6 +1073,69 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.9.0 --- Cluster 3 Polynomials + Quadratics deep (2026-04-10)
+
+**Stats:** 14 topics enriched (+14 live, now 64 total), 42 new generators (+42, now 194 total), 3,590 new verified problems (+3,590, now 16,925 total), 4 new matplotlib figures (area model, discriminant three cases, parabola features, perfect square completion).
+
+**Topics shipped (all at draft status, scores 80+):**
+
+- **Polynomial arithmetic (3):** Adding_And_Subtracting_Polynomials, Multiplying_Polynomials, Special_Products
+- **Factoring (4):** Greatest_Common_Factor, Factoring_Trinomials_General, Factoring_Special_Forms, Factoring_Completely
+- **Quadratic solving (4):** Solving_Quadratics_By_Factoring, Solving_Quadratics_By_Square_Roots, Completing_The_Square (algebra-2), The_Discriminant
+- **Quadratic graphs + functions (3):** Graphing_Quadratic_Functions, Quadratic_Functions (algebra-2), Applications_Of_Quadratic_Functions (algebra-2)
+
+**Generator modules added (3):**
+
+- `generators/algebra/polynomials.py` — 15 generators covering 5 polynomial topics (add-like-terms, subtract, combine-mixed, monomial×polynomial, FOIL, binomial×trinomial, 3 special products patterns, GCF of monomials, GCF polynomial factoring, GCF binomial factoring, 3 general trinomial factoring variants)
+- `generators/algebra/quadratics_methods.py` — 15 generators covering 5 factoring + solving topics (3 factoring special forms, 3 factoring-completely cases, 3 solve-by-factoring variants, 3 square-root solving variants, 3 completing-the-square variants)
+- `generators/algebra/quadratic_functions.py` — 12 generators covering 4 quadratic function + application topics (discriminant compute/classify/from-graph, vertex/axis/features from standard form, evaluate f(x), vertex form identification, standard-to-vertex conversion, projectile max height, projectile time to ground, rectangle max area)
+
+**Figures added** (all in `wiki/assets/figures/algebra/`, deterministic):
+
+- `area_model_multiplication.svg` — 2×2 pastel grid showing (x+3)(x+5) = x² + 5x + 3x + 15
+- `discriminant_three_cases.svg` — three side-by-side parabolas (two roots / one repeated / no real roots)
+- `parabola_vertex_axis_of_symmetry.svg` — single parabola y = x² - 4x + 1 with vertex, axis of symmetry, y-intercept, and roots labeled
+- `perfect_square_completion.svg` — L-shape plus dashed 3×3 corner forming (x+3)²
+
+**Execution model (parallelization):**
+
+- **Content wave:** 7 sub-agents across 2 batches (4 + 3), each owning 2 topics. Batch 1 ran polynomial arithmetic + factoring (8 topics); batch 2 ran quadratic methods + functions + applications (6 topics). Sequencing mattered — batch 2 agents could wikilink to the just-enriched factoring pages from batch 1.
+- **Figures agent:** 1 sub-agent extended `tools/generate_figures.py` in parallel with content batch 2, and also edited the 4 target topic pages with figure embeds.
+- **Generator wave:** 3 sub-agents in parallel, each owning a distinct generator module. Agent 1 owned `polynomials.py` (5 topics × 3 = 15 gens), agent 2 owned `quadratics_methods.py` (5 topics × 3 = 15 gens), agent 3 owned `quadratic_functions.py` (4 topics × 3 = 12 gens).
+- **Race-condition handling on `__init__.py`:** 3 generator agents all edited `generators/algebra/__init__.py` with distinct import lines. All 3 landed cleanly.
+
+**What worked:**
+
+- **Polynomial-then-quadratic sequencing.** Batch 1 finished all 8 polynomial/factoring topics before batch 2 started the quadratic topics, so the quadratic agents had fresh factoring prose to link to as prerequisites (`Solving_Quadratics_By_Factoring` depends on `Factoring_Trinomials_Leading_Coefficient_1` + `Greatest_Common_Factor`, both fresh in memory).
+- **Backward construction for quadratic generators.** Every quadratic generator picks the answer first (the roots, the vertex, or the discriminant case) and derives the input coefficients. This eliminates the "pick coefficients, factor, hope for clean integers" guess-and-check trap entirely.
+- **`bank_count_per_difficulty` overrides for tight parameter spaces.** Used on `DiscriminantFromGraphDescription` (20 problems — textual template set is small), `CompleteSquareWithA` (20 — only a ∈ {2, 3}), `FactorByGrouping4Terms` (25 — 4-term backward construction has fewer valid forms), and `FactorCompletelyGCFThenDOS` (25). All other generators hit the default 30/difficulty target.
+- **Word-problem template discipline.** The projectile and rectangle applications generators use paraphrased scenario lists (toy rocket / firework / cannonball / water balloon; vegetable garden / dog pen / playground / patio) that never match source book phrasings. Zero copyright hits on the applications topic.
+- **Gold-standard references in prompts.** Pointing each generator agent at 2-3 specific existing `.py` files (closest in structure to what they're writing) cut design time in half compared to letting them re-derive the pattern from `base.py`.
+
+**What failed and how it was fixed:**
+
+- **3 copyright near-misses in batch 1.** The shingle test caught three common textbook idioms:
+  - "a polynomial is written in standard form when its terms are arranged from highest degree to lowest" → rewrote as "a polynomial sits in standard form once you've reordered its terms so the degrees walk downward — highest power first, lowest power last"
+  - "group the first two terms and the last two terms, then pull the greatest common factor out of each group" → rewrote as "bracket the left pair of terms and the right pair of terms, then pull the greatest common factor out of each bracket separately"
+  - "never divide both sides of an equation by a variable" → rewrote as "never cancel a variable off both sides of an equation — that variable might secretly be zero"
+  
+  Batch 2 (which received an updated prompt listing these three idioms explicitly in the "AVOID" section) shipped with zero copyright hits. Lesson for Cluster 4+: keep growing the forbidden-phrase list as each cluster surfaces new ones.
+
+- **Tag taxonomy drift.** Two new tags slipped into batch 2: `#key-technique` and `#key-topic`. These already exist in `_tag_taxonomy.md` under the "Page Meta Tags" section, so they passed lint. But some topics used `#skill-visualization` and `#word-problem-support`, both also in the taxonomy. No actual ad-hoc tags invented this cluster, which is an improvement over Cluster 2's `#topic-modeling` incident.
+
+- **Agent prompts referenced `test_generators.py`, which doesn't exist** — the actual parametrized suite is `test_circles.py`. Three generator agents all flagged this and adapted, as in Cluster 2. This is now a known prompt-template bug; will fix in Cluster 4 by referencing the file by its actual name.
+
+**Gate checks after Cluster 3:**
+
+- **Pytest:** 29/29 green (8 circles-parametrized + 10 consolidate-snapshot + 3 copyright + 8 ingest smoke).
+- **Lint:** 0 errors, 0 warnings, 1 info (202 stub pages — down from 216).
+- **YAML:** 257/257 clean.
+- **Topic status:** 239 topics, avg score 31.2 / 100 (was 26.7). 62 topics now have 3+ generators (was 48). Algebra branch avg jumped from 24.6 → 35.6 (+11 points).
+- **Bank size:** 13.3 MB across 64 shards, all under 320 KB each. Largest: `applications_of_quadratic_functions.json` at 280.2 KB.
+- **Branch hubs:** Algebra_Overview regenerated via `tools/update_branch_hubs.py` — now shows 63 live algebra topics (62 algebra-1 + 1 algebra-2) + collapsed stubs.
+
+**What's next (Cluster 4):** Rationals & Radicals. ~12 topics covering simplifying rational expressions, adding/subtracting rationals, multiplying/dividing rationals, solving rational equations, radical simplification, operations with radicals, rational exponents, and the distance formula (which belongs here because it's just `√((x2-x1)² + (y2-y1)²)`). Same cadence as Clusters 2 and 3.
 
 ### Version 1.8.0 --- Cluster 2 Linear world completion (2026-04-10)
 
