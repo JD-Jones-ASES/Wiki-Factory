@@ -32,7 +32,15 @@ Trigonometry started as the study of triangles — specifically, the ratios of t
 
 ## Topics
 
-> Topic pages populate in Phase 2 (book ingest).
+**🟢 Live topics with practice widgets (0)**
+
+_None yet._
+
+**⚪ Stub topics (0)**
+
+_Trigonometry topics haven't been generated as stubs. Stitz-Zeager's trigonometry chapters are catalogued under [[Precalculus_Overview|Pre-Calculus]] until Cluster 7 carves them out into dedicated trig pages._
+
+**Scheduled for Cluster 7** of the [[_overview|comprehensive buildout plan]]: right-triangle trigonometry, the unit circle, sine/cosine/tangent graphs, trig identities, trig equations, the Law of Sines, the Law of Cosines, and applications.
 
 ---
 

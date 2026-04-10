@@ -29,6 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG_DIR = ROOT / "raw" / "catalog"
 WIKI_DIR = ROOT / "wiki"
+PROBLEM_TYPES_INDEX = WIKI_DIR / "_data" / "problem_types_index.json"
 
 
 # Map branches (as they appear in the catalog) to hub file and grouping title.
@@ -68,8 +69,30 @@ def load_catalog() -> dict[str, list]:
     return data
 
 
-def render_block_for_hub(hub_file: str, catalog: dict[str, list]) -> str:
-    """Render the auto-generated topic block for a given hub file."""
+def load_live_slugs() -> set[str]:
+    """Return the set of lowercase topic slugs that have registered generators.
+
+    A "live" topic is one that appears in ``wiki/_data/problem_types_index.json``
+    under ``by_topic``. These topics have at least one problem generator and
+    therefore show a populated practice widget on their page.
+    """
+    if not PROBLEM_TYPES_INDEX.exists():
+        return set()
+    idx = json.loads(PROBLEM_TYPES_INDEX.read_text(encoding="utf-8"))
+    return set(idx.get("by_topic", {}).keys())
+
+
+def render_block_for_hub(hub_file: str, catalog: dict[str, list], live_slugs: set[str]) -> str:
+    """Render the auto-generated topic block for a given hub file.
+
+    Emits two subsections per branch group:
+      1. "Live topics" --- those with a registered generator (🟢)
+      2. "Stub topics" --- everything else (⚪)
+
+    Each line carries a generator-count badge for live topics and a worked-
+    example count for stubs so students can see which source material is
+    richest.
+    """
     lines: list[str] = [BEGIN_MARKER, ""]
     for branch_slug, info in BRANCH_TO_HUB.items():
         if info["hub_file"] != hub_file:
@@ -77,20 +100,47 @@ def render_block_for_hub(hub_file: str, catalog: dict[str, list]) -> str:
         topics = sorted(catalog.get(branch_slug, []), key=lambda t: t["canonical_title"])
         if not topics:
             continue
-        lines.append(f"### {info['group_label']} ({len(topics)} topics)")
+
+        live = [t for t in topics if t["slug"].lower() in live_slugs]
+        stubs = [t for t in topics if t["slug"].lower() not in live_slugs]
+
+        group_label = info["group_label"]
+        lines.append(
+            f"### {group_label} --- "
+            f"{len(live)} live / {len(topics)} total"
+        )
         lines.append("")
-        for t in topics:
-            wikilink = f"[[{t['slug']}|{t['canonical_title']}]]"
-            source_count = len(t.get("sources", []))
-            example_count = len(t.get("examples", []))
-            annotation = []
-            if source_count > 1:
-                annotation.append(f"covered by {source_count} books")
-            if example_count > 0:
-                annotation.append(f"{example_count} worked example(s)")
-            suffix = f" --- _{', '.join(annotation)}_" if annotation else ""
-            lines.append(f"- {wikilink}{suffix}")
-        lines.append("")
+
+        if live:
+            lines.append(f"**🟢 Live topics with practice widgets ({len(live)})**")
+            lines.append("")
+            for t in live:
+                wikilink = f"[[{t['slug']}|{t['canonical_title']}]]"
+                lines.append(f"- 🟢 {wikilink}")
+            lines.append("")
+
+        if stubs:
+            lines.append(f"<details>")
+            lines.append(
+                f"<summary>⚪ {len(stubs)} stub topic(s) "
+                f"(click to expand)</summary>"
+            )
+            lines.append("")
+            for t in stubs:
+                wikilink = f"[[{t['slug']}|{t['canonical_title']}]]"
+                source_count = len(t.get("sources", []))
+                example_count = len(t.get("examples", []))
+                annotation = []
+                if source_count > 1:
+                    annotation.append(f"covered by {source_count} books")
+                if example_count > 0:
+                    annotation.append(f"{example_count} worked example(s)")
+                suffix = f" --- _{', '.join(annotation)}_" if annotation else ""
+                lines.append(f"- ⚪ {wikilink}{suffix}")
+            lines.append("")
+            lines.append("</details>")
+            lines.append("")
+
     lines.append(END_MARKER)
     return "\n".join(lines)
 
@@ -120,6 +170,8 @@ def main():
         sys.exit(1)
 
     catalog = load_catalog()
+    live_slugs = load_live_slugs()
+    print(f"  {len(live_slugs)} live topic slug(s) from problem_types_index.json")
 
     # Deduplicate hub files (multiple branches may point at the same hub)
     hub_files = sorted({info["hub_file"] for info in BRANCH_TO_HUB.values()})
@@ -131,7 +183,7 @@ def main():
             continue
 
         page_text = hub_path.read_text(encoding="utf-8")
-        block = render_block_for_hub(hub_filename, catalog)
+        block = render_block_for_hub(hub_filename, catalog, live_slugs)
         new_text = inject_block(page_text, block)
         if new_text == page_text:
             print(f"  {hub_filename}: unchanged")

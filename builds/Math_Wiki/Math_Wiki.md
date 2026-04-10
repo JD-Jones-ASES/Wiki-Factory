@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.6.0 --- Cluster 1 Pre-algebra Foundations shipped (2026-04-10)
+### Version 1.7.0 --- Cluster 1 shipped + navigation UI redesigned (2026-04-10)
 
 | Field | Value |
 |-------|-------|
@@ -19,20 +19,52 @@
 
 **Read this file top to bottom before doing anything else.** It is the single source of truth for what exists, what works, and what's next.
 
-### Quick start commands
+### Where the session is right now
+
+- **Cluster 0** (infrastructure + alias merge) — **shipped** commit `8c1b4ac`
+- **Cluster 1** (pre-algebra foundations, 20 topics) — **shipped** commit `f27052f`
+- **Navigation UI redesign** — shipped (this version)
+- **Next:** Cluster 2 (Linear world completion, ~14 topics)
+
+### 30-second mental model
+
+Math_Wiki is a **practice-first wiki**. Every live topic page has (a) rich prose paraphrased from 5 source textbooks and (b) an interactive problem-vault widget fed by SymPy-verified Python generators. Students read, add problems to a browser-local Vault, and download worksheets. The site deploys to GitHub Pages via Quartz v4 on every push to main.
+
+The 9-cluster buildout plan ships one topic cluster at a time (foundations → linear → quadratics → rationals → functions → exp/log → trig → seq/stats → conics). Each cluster delivers ~15 topics fully finished (content + generators + figures + cross-links).
+
+### First things to run in a fresh session
+
+```bash
+cd builds/Math_Wiki
+
+# 1. Sanity-check the project state (should all be green/clean)
+py -3 -m pytest generators/tests/                   # 29/29 passing
+py -3 tools/topic_status.py                         # see where we stand (baseline avg ~22/100)
+py -3 ../../factory/scripts/validate_yaml.py wiki/  # 257/257 clean
+py -3 ../../factory/scripts/lint_wiki.py wiki/      # 0 errors
+
+# 2. Skim this file, especially:
+#    - "Current Status" table (what's live now)
+#    - "Buildout Plan" table (what cluster is next)
+#    - "Navigation Design" section (how the UI serves students)
+#    - "Self-Improvement Log" top entry (most recent session's lessons)
+```
+
+### All the other useful commands
 
 All commands run from `builds/Math_Wiki/`:
 
 ```bash
 cd builds/Math_Wiki
 
-# Sanity checks (do these first)
-py -3 -m pytest generators/tests/                # generators + copyright + snapshot + smoke (29/29)
-py -3 tools/build_problem_bank.py                # should succeed, ~16 shards
-py -3 tools/topic_status.py                      # progress dashboard (writes wiki/Topic_Status.md)
-py -3 ../../factory/scripts/validate_yaml.py wiki/  # YAML frontmatter sanity
-py -3 ../../factory/scripts/build_index.py wiki/    # regenerate wiki/_index.md
-py -3 ../../factory/scripts/lint_wiki.py wiki/      # 0 errors expected
+# Rebuild the problem bank from generators (idempotent)
+py -3 tools/build_problem_bank.py
+
+# Regenerate branch hub live/stub topic lists (reads problem_types_index.json)
+py -3 tools/update_branch_hubs.py
+
+# Regenerate matplotlib figures
+py -3 tools/generate_figures.py
 
 # Re-parse books from LaTeX source (destructive: overwrites raw/extractions/)
 py -3 tools/ingest_math_book.py --all
@@ -48,12 +80,6 @@ py -3 tools/ingest_new_book.py --slug <new_book_slug>
 # Generate new stub pages for any catalog topics that don't already have one
 py -3 tools/generate_topic_stubs.py --branch all
 py -3 tools/generate_topic_stubs.py --branch all --force   # overwrite existing stubs
-
-# Regenerate branch hub pages' auto-generated topic lists
-py -3 tools/update_branch_hubs.py
-
-# Regenerate matplotlib figures
-py -3 tools/generate_figures.py
 ```
 
 ### Where things live
@@ -64,13 +90,19 @@ py -3 tools/generate_figures.py
 | `raw/extractions/{book_slug}/chapter_NN.json` | Per-chapter parsed blocks (gitignored, ~3.4 MB) |
 | `raw/catalog/topics_{branch}.json` | Per-branch canonical topic catalog |
 | `raw/catalog/index.json` | Catalog summary with counts by branch |
-| `wiki/topics/{pre_algebra,algebra,precalculus,geometry}/` | Topic pages (auto-stubs + hand-written) |
-| `wiki/formulas/` | Formula pages (currently just Pythagorean_Theorem stub) |
-| `wiki/_data/problem_types_index.json` | Widget lookup: topic_slug → [generators] |
-| `wiki/_data/problems/{topic_slug}.json` | Per-topic problem shards (committed) |
-| `wiki/assets/figures/{branch}/` | Matplotlib SVGs |
+| `wiki/_overview.md` | Landing page (hero + learning paths + cluster status) |
+| `wiki/Topics_Overview.md` | All live topics grouped by branch + sub-category |
+| `wiki/Topic_Status.md` | Auto-generated progress dashboard (regen with `topic_status.py`) |
 | `wiki/Vault.md` | Interactive vault page (mounts VaultViewer) |
-| `wiki/{Algebra,Precalculus,Geometry,Trigonometry}_Overview.md` | Branch hubs (auto-populated blocks) |
+| `wiki/{Algebra,Precalculus,Geometry,Trigonometry}_Overview.md` | Branch hubs (hand intro + AUTO:TOPICS live/stub block) |
+| `wiki/topics/{pre_algebra,algebra,precalculus,geometry}/` | Topic pages (auto-stubs + enriched lesson pages) |
+| `wiki/formulas/` | Formula pages (currently just Pythagorean_Theorem stub) |
+| `wiki/_data/problem_types_index.json` | Widget lookup: topic_slug → [generators] (drives live/stub classification) |
+| `wiki/_data/problems/{topic_slug}.json` | Per-topic problem shards (committed) |
+| `wiki/_data/topic_status.json` | Per-topic metrics from `topic_status.py` (CI artifact) |
+| `wiki/assets/figures/{branch}/` | Matplotlib SVGs |
+| `quartz.config.ts` | Quartz v4 site config (pageTitle, baseUrl, plugins) |
+| `quartz.layout.ts` | Layout component ordering, Explorer filter/map, widget mounts |
 | `generators/{pre_algebra,algebra,geometry}/*.py` | Python generator modules |
 | `generators/base.py` | Problem dataclass, Generator ABC, `@register`, `all_generators()` |
 | `generators/tests/test_circles.py` | Parametrized test suite (tests every registered generator) |
@@ -692,6 +724,211 @@ export const sharedPageComponents: SharedLayout = {
 
 ---
 
+## Navigation Design (what students see)
+
+Math_Wiki uses Quartz v4's three-pane layout with wiki-specific overrides. This section documents the current information architecture so future sessions extend it consistently.
+
+### Layout zones
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  header (empty)                                             │
+├────────────┬──────────────────────────────────┬────────────┤
+│            │                                  │            │
+│ LEFT       │  MAIN CONTENT                    │ RIGHT      │
+│ (Explorer  │  (article body)                  │ (graph,    │
+│  sidebar)  │                                  │  TOC,      │
+│            │                                  │  backlinks)│
+│            │                                  │            │
+├────────────┴──────────────────────────────────┴────────────┤
+│  afterBody: ProblemVaultWidget + VaultViewer (both mount   │
+│              only on pages with the right hook div)        │
+│  footer: "All Wikis", "Source" links                        │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Left sidebar (every page)
+
+Components in order, defined in `quartz.layout.ts`:
+
+1. **Page title** — "Math Wiki" (links to home)
+2. **Flex row** — Search (grows) + Darkmode toggle + Reader mode toggle
+3. **Explorer** — file tree, filtered + relabeled
+
+The Explorer is deliberately short and scannable. `mathExplorerFilter` HIDES the three large collections (`topics/` with ~239 pages, `problem_types/`, `entities/`) plus all underscore-prefixed internal files except `_overview`. `mathExplorerMap` REWRITES sidebar labels to emoji-prefixed friendly names:
+
+| Sidebar label | Points at |
+|---|---|
+| 🏠 Home | `_overview.md` |
+| 📘 Algebra | `Algebra_Overview.md` |
+| 📐 Geometry | `Geometry_Overview.md` |
+| 📏 Trigonometry | `Trigonometry_Overview.md` |
+| 🧮 Pre-Calculus | `Precalculus_Overview.md` |
+| 📖 All Topics | `Topics_Overview.md` |
+| 🎒 Your Vault | `Vault.md` |
+| 📊 Progress Dashboard | `Topic_Status.md` |
+| 🎯 Problem Types | `Problem_Types_Overview.md` |
+| 🧮 All Formulas | `Formulas_Overview.md` |
+| 🛠️ All Techniques | `Techniques_Overview.md` |
+| 📚 All Sources | `Sources_Overview.md` |
+| 📖 All Comparisons | `Synthesis_Overview.md` |
+| 👩‍🏫 Mathematicians | `Entities_Overview.md` |
+| 🧮 Formulas (folder) | `formulas/` |
+| 🛠️ Techniques (folder) | `techniques/` |
+| 📚 Sources (folder) | `sources/` |
+| 📖 Comparisons (folder) | `synthesis/` |
+
+Everything else (individual topic pages under `topics/`) is reachable through branch hubs, search, and wikilinks — not the sidebar.
+
+### Right sidebar (content pages only)
+
+Components in order:
+
+1. **Graph view** — `localGraph.depth=1` shows only direct connections (prevents visual overload on heavily-linked topics); global graph is also exposed but depth-unlimited
+2. **TableOfContents** (desktop only) — auto-generated from H2/H3 headings
+3. **Backlinks** — who links to this page
+
+Topic pages with many prerequisite/related wikilinks produce meaningful local graphs. The home page and hubs have thinner graphs but still render the graph widget.
+
+### Main content (every page)
+
+Before body (in order):
+1. **Breadcrumbs** (skipped on the home page via ConditionalRender)
+2. **Article title**
+3. **Content meta** (date, tags)
+4. **Tag list**
+
+After body (injected when the mount hook is present):
+1. **ProblemVaultWidget** — renders only when `<div class="problem-vault-widget" data-topic-slug="...">` exists in the page body. Every live topic page has this div.
+2. **VaultViewer** — renders only on `Vault.md` via the VaultViewer mount div. Reads problems from localStorage.
+
+### Landing page (`wiki/_overview.md`)
+
+The home page is structured as a student-first hero:
+
+```
+# Math Wiki
+<tagline + stats row: 36 topics · 110 generators · 9,621 problems>
+<copyright/privacy note>
+
+## Start Here
+- Browse live topics → Topics_Overview
+- Your Practice Vault → Vault
+- Progress Dashboard → Topic_Status
+
+## Live Learning Paths
+<7 curated topic sequences: Foundations, Proportional Reasoning, Expressions
+ and Variables, Linear Equations, Lines and Slopes, Quadratics/Exponents,
+ Geometry Cornerstones>
+
+## Explore by Branch
+<4 branch hub links with live/total counts>
+
+## Other Reference Pages
+<Formulas, Techniques, Problem Types, Sources, Comparisons, Mathematicians>
+
+## How to Use This Wiki
+<5-step workflow: pick → read → add → open vault → download>
+
+## Current Status
+<Cluster 0-L progress table>
+
+## About
+<source attribution, privacy, license, repo link>
+```
+
+Key design principle: the learning paths are the PRIMARY entry point for students who don't know where to start. They're hand-curated sequences of live topics, not exhaustive lists. As more clusters ship, new learning paths are added here.
+
+### Branch hub pages (`*_Overview.md`)
+
+Structure (hand-written intro + auto-generated topic block):
+
+```
+# {Branch} Overview
+
+{Hand-written intro paragraph: what is this branch about, warmly written}
+
+## What You'll Learn
+{Hand-written bullet list of sub-areas}
+
+## Topics
+{Hand-written note: N live, M stubs, link to comprehensive plan}
+
+## Key Formulas
+{Pointer to Formulas_Overview}
+
+## Common Techniques
+{Pointer to Techniques_Overview}
+
+<!-- AUTO:TOPICS:BEGIN -->
+### {Group label} --- N live / M total
+
+**🟢 Live topics with practice widgets (N)**
+- 🟢 [[Slug|Title]]
+- ...
+
+<details>
+<summary>⚪ M stub topic(s) (click to expand)</summary>
+- ⚪ [[Slug|Title]] --- _annotation_
+- ...
+</details>
+<!-- AUTO:TOPICS:END -->
+
+## See Also
+```
+
+The auto-generated block is regenerated by `tools/update_branch_hubs.py`, which reads the catalog AND `wiki/_data/problem_types_index.json` to distinguish live (has ≥1 generator) from stub topics. Live topics render as a flat bulleted list with 🟢 markers. Stub topics are wrapped in a collapsed `<details>` element so the page stays scannable even when a branch has hundreds of stubs.
+
+### Topic page layout
+
+Every live topic follows the same structure (established by `Circles.md`):
+
+```markdown
+---
+<frontmatter: title, type, tags, source_refs, related, prerequisites,
+ status, confidence, figures, problem_type_ids, summary>
+---
+
+> [[_overview|Home]] > [[{Branch}_Overview|{Branch}]] > {Title}
+
+# {Title}
+
+{Intuition paragraph}
+
+![[optional/figure.svg|caption]]
+
+## What it means
+## The rule ($$ display math $$)
+## Why it works
+## Worked examples (2-3 with step-by-step solutions)
+## Common mistakes
+## Prerequisites  (wikilinks to 2-4 prereq topics)
+## Problems Involving This Topic
+<div class="problem-vault-widget" data-topic-slug="{lowercase_slug}"></div>
+## See also  (wikilinks to 3-5 related topics)
+## Sources in the ingested textbooks
+```
+
+The `<div class="problem-vault-widget">` is the mount hook the Quartz custom component scans for.
+
+### Expandability (adding more pages to navigation)
+
+When Cluster N ships:
+
+1. **New topic pages** get the topic-page layout above. They automatically show in branch hubs (rerun `update_branch_hubs.py`) and in `Topics_Overview.md` (requires a hand edit to add them to the "Live Topics" section).
+2. **New learning paths** on the landing page: edit the "Live Learning Paths" section in `wiki/_overview.md` to add a new H3 and a sequence of wikilinks.
+3. **New category pages** (if a cluster needs one, e.g., "Trigonometry Cornerstones"): add an entry to `mathExplorerMap.friendlyFileNames` in `quartz.layout.ts` so the sidebar gets an emoji label.
+4. **New synthesis / comparison pages**: drop them in `wiki/synthesis/`; they auto-appear in the Explorer sidebar under "📖 Comparisons".
+
+### What the navigation deliberately does NOT do
+
+- **No "recently updated" feed.** Quartz has ContentIndex, but a feed needs curation to be useful. Defer until we have >100 live topics.
+- **No student progress tracking server-side.** Vault is localStorage-only by design.
+- **No sidebar enumeration of 239 topic pages.** The Explorer would become unnavigable. Students drill via hubs, search, and wikilinks instead.
+- **No custom landing-page components (hero CSS, animated counters, etc.).** Quartz strips `<script>` tags from markdown; any rich home page would need a new custom Quartz component. The current markdown-based home page is intentionally simple.
+
+---
+
 ## Conventions
 
 - **Topic titles:** Title Case with underscores in filenames (`Linear_Equations.md`). Frontmatter `title:` uses spaces ("Linear Equations").
@@ -834,6 +1071,37 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.7.0 --- Navigation UI redesign (2026-04-10)
+
+**Stats:** No new topics or generators. Pure information-architecture pass that redesigns the student-facing navigation to serve the 36 live topics shipped in Clusters 0+1.
+
+**What shipped:**
+
+- **`wiki/_overview.md`** — rewritten as a student-first hero landing. New structure: stats badge → Start Here (3 primary CTAs) → 7 curated Learning Paths listing live topics by sequence → Explore by Branch (with live/total counts) → Other Reference Pages → How to Use → Current Status cluster table → About. Deleted the Phase 1/2 vertical-slice language that was 4 clusters stale. Set `status: complete` (was `stub`).
+
+- **`wiki/Topics_Overview.md`** — rewritten from a 48-line placeholder into a proper index. Lists all 36 live topics grouped by branch + sub-category (Pre-Algebra: Numbers, Fractions, Decimals, Ratios, Expressions; Algebra 1: Equations, Systems, Lines, Polynomials; Geometry: 1 topic). Collapses stubs into branch hub pointers. Set `status: complete`.
+
+- **`tools/update_branch_hubs.py`** — extended to read `wiki/_data/problem_types_index.json` and split each branch group into a "🟢 Live topics with practice widgets (N)" section followed by a collapsed `<details>` "⚪ M stub topic(s)" section. The live section is flat-bulleted; the stub section is wrapped in `<details>` so the page stays scannable even at 90+ stubs per branch. Heading format: "### {Group label} --- N live / M total".
+
+- **`quartz.layout.ts`** — `mathExplorerMap` now maps 14 root-level files to emoji-prefixed friendly names (🏠 Home, 📘 Algebra, 🎒 Your Vault, 📊 Progress Dashboard, etc.) in addition to the 4 folder mappings. Root-level overview pages and high-traffic files (Vault, Topic_Status) now render as emoji-labeled sidebar entries instead of raw filenames.
+
+- **Branch hub intros** — fixed stale "Phase 1 / Phase 2 ingest" language in Algebra, Geometry, Trigonometry, Precalculus overview pages. Geometry and Trigonometry now show a hand-written live/stub section pointing at the cluster plan. Algebra shows a "35 live across pre-algebra + Algebra 1" summary above the auto-generated block.
+
+- **`Math_Wiki.md` (this file)** — new "Navigation Design (what students see)" section documents: the three-pane Quartz layout, the Explorer filter + mapFn, the emoji label table, the landing page structure, the branch hub structure, the topic page layout, and expandability rules for adding new pages. New "Orientation for a New Session" subsection at the top (where the session is right now, 30-second mental model, first commands to run in a fresh session).
+
+**What worked:**
+
+- **Live-vs-stub visual distinction (🟢 / ⚪)** is the single highest-value navigation improvement. Before this pass, a student clicking through Algebra_Overview had no way to know which of the 191 alphabetical links led to a real lesson vs an empty stub. Now they scan the top 35 links (all green) first and the 156 stubs are collapsed behind a disclosure.
+- **Data-driven live classification** — `update_branch_hubs.py` reads `problem_types_index.json` rather than guessing from frontmatter or filename. This means "live" automatically updates whenever a new generator ships: the next `py -3 tools/update_branch_hubs.py` re-classifies the topic.
+- **Curated learning paths on the home page** instead of "Start Here" as a dump of 4 branch links. A student who lands cold now sees 7 named sequences (Foundations, Proportional Reasoning, Expressions, Linear Equations, Lines and Slopes, Quadratics, Geometry Cornerstones) and can start at #1 of the most relevant path.
+- **`<details>` element for stub lists** keeps the page height reasonable. Pre-Algebra alone has 92 catalog topics; rendering all 92 in a flat list pushed live content below the fold. Collapsed stubs fix this without hiding information.
+- **Friendly sidebar labels via mapFn** — no layout code changes needed, just a dict update. Adds visual hierarchy (emoji act as icons) without any CSS.
+
+**What failed and how it was fixed:**
+
+- **`_overview.md` had been stale since Phase 1** — it still said "Phase 1 vertical slice is live: the Circles topic has a full lesson and 1,140 verified practice problems. Phase 2 will ingest 5 user-provided books." That was true 5 commits ago. Lesson: the landing page needs an update-per-cluster discipline, not update-per-major-version. Added a "Current Status" cluster table on the home page so it stays fresh; future clusters check off a row.
+- **No mechanism to surface Topic_Status in navigation** before this pass. The dashboard existed as a file but wasn't linked from the home page and had no sidebar label. Fix: added to both the home page Start Here section AND the sidebar mapFn.
 
 ### Version 1.6.0 --- Cluster 1 Pre-algebra Foundations (2026-04-10)
 

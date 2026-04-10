@@ -33,10 +33,15 @@ Geometry is the study of shapes, space, and measurement. It's the branch of math
 
 ## Topics
 
-- [[Circles]] --- equations, area, circumference, diameter (Phase 1 vertical slice; widget-ready with 1140 practice problems)
-- [[Coordinate_Plane]] --- the Cartesian plane (stub; foundational)
+**🟢 Live topics with practice widgets (1)**
 
-> More topics populate in Phase 2 (book ingest) and beyond.
+- 🟢 [[Circles]] --- equations, area, circumference, diameter (5 generators, 1140+ problems)
+
+**⚪ Stub topics (1)**
+
+- ⚪ [[Coordinate_Plane]] --- the Cartesian plane (partial stub)
+
+> Full geometry coverage (triangles, polygons, solid geometry, transformations) lands in Cluster 8 of the [[_overview|comprehensive buildout plan]]. A geometry-adjacent topic already live under Pre-Algebra: 🟢 [[The_Pythagorean_Theorem]].
 
 ---
 

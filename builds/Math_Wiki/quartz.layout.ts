@@ -20,6 +20,14 @@ export const sharedPageComponents: SharedLayout = {
 
 // Shared filter: hide large collections and internal files from the Explorer sidebar.
 // Navigation happens via overview hubs, search, and wikilinks.
+//
+// The Explorer sidebar aims to be a short, scannable list of navigation targets.
+// It currently shows: branch hubs (Algebra, Geometry, Trigonometry, Precalculus),
+// the landing page, Vault, Topic_Status, the category overviews (Formulas,
+// Techniques, Sources, Synthesis, Entities, Problem_Types), and small folders
+// (formulas/, techniques/, sources/, synthesis/). Large collections (topics/,
+// problem_types/, entities/) are hidden — students reach them via branch hubs,
+// search, and wikilinks.
 const mathExplorerFilter = (node: FileTrieNode) => {
   const name = node.slugSegment
   if (!name) return true
@@ -35,15 +43,38 @@ const mathExplorerFilter = (node: FileTrieNode) => {
   return true
 }
 
+// Friendlier sidebar labels. Folder-level mappings use an emoji + word.
+// File-level mappings pick out the few high-traffic root files (Vault,
+// Topic_Status) so they stand out from the branch-overview list. The rest of
+// the files in the sidebar render with their frontmatter title as usual.
 const mathExplorerMap = (node: FileTrieNode) => {
-  const friendlyNames: Record<string, string> = {
+  const friendlyFolderNames: Record<string, string> = {
     "formulas": "🧮 Formulas",
     "techniques": "🛠️ Techniques",
     "sources": "📚 Sources",
     "synthesis": "📖 Comparisons",
   }
-  if (node.isFolder && node.slugSegment && friendlyNames[node.slugSegment]) {
-    node.displayName = friendlyNames[node.slugSegment]
+  const friendlyFileNames: Record<string, string> = {
+    "Vault": "🎒 Your Vault",
+    "Topic_Status": "📊 Progress Dashboard",
+    "_overview": "🏠 Home",
+    "Algebra_Overview": "📘 Algebra",
+    "Geometry_Overview": "📐 Geometry",
+    "Trigonometry_Overview": "📏 Trigonometry",
+    "Precalculus_Overview": "🧮 Pre-Calculus",
+    "Topics_Overview": "📖 All Topics",
+    "Problem_Types_Overview": "🎯 Problem Types",
+    "Formulas_Overview": "🧮 All Formulas",
+    "Techniques_Overview": "🛠️ All Techniques",
+    "Sources_Overview": "📚 All Sources",
+    "Synthesis_Overview": "📖 All Comparisons",
+    "Entities_Overview": "👩‍🏫 Mathematicians",
+  }
+  if (node.isFolder && node.slugSegment && friendlyFolderNames[node.slugSegment]) {
+    node.displayName = friendlyFolderNames[node.slugSegment]
+  }
+  if (!node.isFolder && node.slugSegment && friendlyFileNames[node.slugSegment]) {
+    node.displayName = friendlyFileNames[node.slugSegment]
   }
 }
 
