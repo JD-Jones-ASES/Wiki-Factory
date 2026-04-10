@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T17:06:44.250879+00:00",
+  "generated_at": "2026-04-10T17:50:00.640141+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 50,
+  "generator_count": 110,
   "by_topic": {
     "circles": [
       {
@@ -536,6 +536,646 @@
           "hard": 30
         }
       }
+    ],
+    "integers_and_the_number_line": [
+      {
+        "generator_id": "find_opposite_integer",
+        "display_name": "Find the opposite of an integer",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "absolute_value",
+        "display_name": "Compute the absolute value of an integer",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "order_integers_ascending",
+        "display_name": "Order integers from smallest to largest",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "multiplying_and_dividing_integers": [
+      {
+        "generator_id": "multiply_two_integers",
+        "display_name": "Multiply two signed integers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "divide_two_integers",
+        "display_name": "Divide two signed integers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_three_integers_sign_chain",
+        "display_name": "Multiply three integers (sign chain)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "equivalent_fractions_and_simplifying": [
+      {
+        "generator_id": "simplify_fraction",
+        "display_name": "Simplify a fraction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "find_equivalent_fraction",
+        "display_name": "Find the missing part of an equivalent fraction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "equivalent_or_not",
+        "display_name": "Are two fractions equivalent?",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "mixed_numbers_and_improper_fractions": [
+      {
+        "generator_id": "improper_to_mixed",
+        "display_name": "Convert improper fraction to mixed number",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "mixed_to_improper",
+        "display_name": "Convert mixed number to improper fraction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "classify_fraction",
+        "display_name": "Classify a fraction (proper, improper, or whole)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "multiplying_fractions": [
+      {
+        "generator_id": "multiply_fractions_simple",
+        "display_name": "Multiply two fractions: (a/b) x (c/d)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_fraction_by_whole",
+        "display_name": "Multiply a whole number by a fraction: n x (a/b)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_three_fractions",
+        "display_name": "Multiply three fractions: (a/b) x (c/d) x (e/f)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "dividing_fractions": [
+      {
+        "generator_id": "divide_fractions_simple",
+        "display_name": "Divide two fractions: (a/b) / (c/d)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "divide_fraction_by_whole",
+        "display_name": "Divide a fraction by a whole number: (a/b) / n",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "divide_whole_by_fraction",
+        "display_name": "Divide a whole number by a fraction: n / (a/b)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "adding_and_subtracting_fractions": [
+      {
+        "generator_id": "add_fractions_same_denom",
+        "display_name": "Add fractions with the same denominator",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "add_fractions_unlike_denom",
+        "display_name": "Add fractions with unlike denominators",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "subtract_fractions_unlike_denom",
+        "display_name": "Subtract fractions with unlike denominators",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "comparing_and_ordering_fractions": [
+      {
+        "generator_id": "compare_two_fractions",
+        "display_name": "Compare two fractions",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "order_three_fractions",
+        "display_name": "Order three fractions from least to greatest",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "compare_fraction_to_half",
+        "display_name": "Compare a fraction to 1/2",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "adding_and_subtracting_decimals": [
+      {
+        "generator_id": "add_two_decimals",
+        "display_name": "Add two decimals",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "subtract_two_decimals",
+        "display_name": "Subtract two decimals",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "decimal_chain_add_subtract",
+        "display_name": "Compute a + b - c with decimals",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "multiplying_decimals": [
+      {
+        "generator_id": "multiply_two_decimals",
+        "display_name": "Multiply two decimals",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_decimal_by_whole",
+        "display_name": "Multiply a decimal by a whole number",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_decimal_by_power_of_ten",
+        "display_name": "Multiply or divide a decimal by a power of ten",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "dividing_decimals": [
+      {
+        "generator_id": "divide_decimal_by_whole",
+        "display_name": "Divide a decimal by a whole number",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "divide_decimal_by_decimal",
+        "display_name": "Divide a decimal by a decimal",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "divide_decimal_by_power_of_ten",
+        "display_name": "Divide a decimal by a power of 10",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "decimal_place_value_and_comparing_decimals": [
+      {
+        "generator_id": "compare_two_decimals",
+        "display_name": "Compare two decimals (<, >, or =)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "identify_place_value",
+        "display_name": "Identify a digit at a specified place value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "round_decimal",
+        "display_name": "Round a decimal to a specified place",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "place_value_rounding_and_estimation": [
+      {
+        "generator_id": "identify_digit_place_value",
+        "display_name": "Identify the place value of a digit",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "round_whole_number",
+        "display_name": "Round a whole number to a given place",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "estimate_sum_by_rounding",
+        "display_name": "Estimate a sum by rounding each addend",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "square_roots_and_cube_roots": [
+      {
+        "generator_id": "square_root_of_perfect_square",
+        "display_name": "Square root of a perfect square",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "cube_root_of_perfect_cube",
+        "display_name": "Cube root of a perfect cube",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "estimate_square_root",
+        "display_name": "Estimate a square root between two consecutive integers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "evaluating_expressions": [
+      {
+        "generator_id": "evaluate_linear_expression",
+        "display_name": "Evaluate a linear expression at a given value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "evaluate_expression_with_exponent",
+        "display_name": "Evaluate an expression with x^2",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "evaluate_two_variable_expression",
+        "display_name": "Evaluate a two-variable expression",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "ratios_and_equivalent_ratios": [
+      {
+        "generator_id": "simplify_ratio",
+        "display_name": "Simplify a ratio to lowest terms",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "find_equivalent_ratio",
+        "display_name": "Find an equivalent ratio with a given term",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "scale_ratio_to_context",
+        "display_name": "Scale a ratio to fit a real-world quantity",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "the_distributive_property": [
+      {
+        "generator_id": "distribute_numerical",
+        "display_name": "Apply the distributive property (numerical)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "distribute_with_negative",
+        "display_name": "Distribute across a signed expression",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "distribute_expression_with_variable",
+        "display_name": "Distribute into an expression with x",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "variables_and_algebraic_expressions": [
+      {
+        "generator_id": "identify_coefficient",
+        "display_name": "Identify the coefficient of a variable",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "count_terms",
+        "display_name": "Count the terms in an expression",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "translate_word_to_expression",
+        "display_name": "Translate a phrase to an algebraic expression",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "unit_rates": [
+      {
+        "generator_id": "compute_unit_price",
+        "display_name": "Compute a unit price",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "compute_unit_speed",
+        "display_name": "Compute a unit speed",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "compare_better_buy",
+        "display_name": "Which is the better buy?",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "proportions_and_cross_multiplication": [
+      {
+        "generator_id": "solve_proportion_for_unknown",
+        "display_name": "Solve a proportion for the unknown",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "scale_with_proportion_word",
+        "display_name": "Scale with a proportion (word problem)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "verify_is_proportion",
+        "display_name": "Do two ratios form a proportion?",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
     ]
   },
   "by_generator": {
@@ -1038,6 +1678,606 @@
         "hard": 30
       },
       "shard_file": "problems/adding_and_subtracting_integers.json"
+    },
+    "find_opposite_integer": {
+      "topic_slug": "integers_and_the_number_line",
+      "display_name": "Find the opposite of an integer",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/integers_and_the_number_line.json"
+    },
+    "absolute_value": {
+      "topic_slug": "integers_and_the_number_line",
+      "display_name": "Compute the absolute value of an integer",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/integers_and_the_number_line.json"
+    },
+    "order_integers_ascending": {
+      "topic_slug": "integers_and_the_number_line",
+      "display_name": "Order integers from smallest to largest",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/integers_and_the_number_line.json"
+    },
+    "multiply_two_integers": {
+      "topic_slug": "multiplying_and_dividing_integers",
+      "display_name": "Multiply two signed integers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_and_dividing_integers.json"
+    },
+    "divide_two_integers": {
+      "topic_slug": "multiplying_and_dividing_integers",
+      "display_name": "Divide two signed integers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_and_dividing_integers.json"
+    },
+    "multiply_three_integers_sign_chain": {
+      "topic_slug": "multiplying_and_dividing_integers",
+      "display_name": "Multiply three integers (sign chain)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_and_dividing_integers.json"
+    },
+    "simplify_fraction": {
+      "topic_slug": "equivalent_fractions_and_simplifying",
+      "display_name": "Simplify a fraction",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/equivalent_fractions_and_simplifying.json"
+    },
+    "find_equivalent_fraction": {
+      "topic_slug": "equivalent_fractions_and_simplifying",
+      "display_name": "Find the missing part of an equivalent fraction",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/equivalent_fractions_and_simplifying.json"
+    },
+    "equivalent_or_not": {
+      "topic_slug": "equivalent_fractions_and_simplifying",
+      "display_name": "Are two fractions equivalent?",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/equivalent_fractions_and_simplifying.json"
+    },
+    "improper_to_mixed": {
+      "topic_slug": "mixed_numbers_and_improper_fractions",
+      "display_name": "Convert improper fraction to mixed number",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/mixed_numbers_and_improper_fractions.json"
+    },
+    "mixed_to_improper": {
+      "topic_slug": "mixed_numbers_and_improper_fractions",
+      "display_name": "Convert mixed number to improper fraction",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/mixed_numbers_and_improper_fractions.json"
+    },
+    "classify_fraction": {
+      "topic_slug": "mixed_numbers_and_improper_fractions",
+      "display_name": "Classify a fraction (proper, improper, or whole)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/mixed_numbers_and_improper_fractions.json"
+    },
+    "multiply_fractions_simple": {
+      "topic_slug": "multiplying_fractions",
+      "display_name": "Multiply two fractions: (a/b) x (c/d)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_fractions.json"
+    },
+    "multiply_fraction_by_whole": {
+      "topic_slug": "multiplying_fractions",
+      "display_name": "Multiply a whole number by a fraction: n x (a/b)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_fractions.json"
+    },
+    "multiply_three_fractions": {
+      "topic_slug": "multiplying_fractions",
+      "display_name": "Multiply three fractions: (a/b) x (c/d) x (e/f)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_fractions.json"
+    },
+    "divide_fractions_simple": {
+      "topic_slug": "dividing_fractions",
+      "display_name": "Divide two fractions: (a/b) / (c/d)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dividing_fractions.json"
+    },
+    "divide_fraction_by_whole": {
+      "topic_slug": "dividing_fractions",
+      "display_name": "Divide a fraction by a whole number: (a/b) / n",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dividing_fractions.json"
+    },
+    "divide_whole_by_fraction": {
+      "topic_slug": "dividing_fractions",
+      "display_name": "Divide a whole number by a fraction: n / (a/b)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dividing_fractions.json"
+    },
+    "add_fractions_same_denom": {
+      "topic_slug": "adding_and_subtracting_fractions",
+      "display_name": "Add fractions with the same denominator",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_fractions.json"
+    },
+    "add_fractions_unlike_denom": {
+      "topic_slug": "adding_and_subtracting_fractions",
+      "display_name": "Add fractions with unlike denominators",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_fractions.json"
+    },
+    "subtract_fractions_unlike_denom": {
+      "topic_slug": "adding_and_subtracting_fractions",
+      "display_name": "Subtract fractions with unlike denominators",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_fractions.json"
+    },
+    "compare_two_fractions": {
+      "topic_slug": "comparing_and_ordering_fractions",
+      "display_name": "Compare two fractions",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/comparing_and_ordering_fractions.json"
+    },
+    "order_three_fractions": {
+      "topic_slug": "comparing_and_ordering_fractions",
+      "display_name": "Order three fractions from least to greatest",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/comparing_and_ordering_fractions.json"
+    },
+    "compare_fraction_to_half": {
+      "topic_slug": "comparing_and_ordering_fractions",
+      "display_name": "Compare a fraction to 1/2",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/comparing_and_ordering_fractions.json"
+    },
+    "add_two_decimals": {
+      "topic_slug": "adding_and_subtracting_decimals",
+      "display_name": "Add two decimals",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_decimals.json"
+    },
+    "subtract_two_decimals": {
+      "topic_slug": "adding_and_subtracting_decimals",
+      "display_name": "Subtract two decimals",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_decimals.json"
+    },
+    "decimal_chain_add_subtract": {
+      "topic_slug": "adding_and_subtracting_decimals",
+      "display_name": "Compute a + b - c with decimals",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_decimals.json"
+    },
+    "multiply_two_decimals": {
+      "topic_slug": "multiplying_decimals",
+      "display_name": "Multiply two decimals",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_decimals.json"
+    },
+    "multiply_decimal_by_whole": {
+      "topic_slug": "multiplying_decimals",
+      "display_name": "Multiply a decimal by a whole number",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_decimals.json"
+    },
+    "multiply_decimal_by_power_of_ten": {
+      "topic_slug": "multiplying_decimals",
+      "display_name": "Multiply or divide a decimal by a power of ten",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_decimals.json"
+    },
+    "divide_decimal_by_whole": {
+      "topic_slug": "dividing_decimals",
+      "display_name": "Divide a decimal by a whole number",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dividing_decimals.json"
+    },
+    "divide_decimal_by_decimal": {
+      "topic_slug": "dividing_decimals",
+      "display_name": "Divide a decimal by a decimal",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dividing_decimals.json"
+    },
+    "divide_decimal_by_power_of_ten": {
+      "topic_slug": "dividing_decimals",
+      "display_name": "Divide a decimal by a power of 10",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dividing_decimals.json"
+    },
+    "compare_two_decimals": {
+      "topic_slug": "decimal_place_value_and_comparing_decimals",
+      "display_name": "Compare two decimals (<, >, or =)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/decimal_place_value_and_comparing_decimals.json"
+    },
+    "identify_place_value": {
+      "topic_slug": "decimal_place_value_and_comparing_decimals",
+      "display_name": "Identify a digit at a specified place value",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/decimal_place_value_and_comparing_decimals.json"
+    },
+    "round_decimal": {
+      "topic_slug": "decimal_place_value_and_comparing_decimals",
+      "display_name": "Round a decimal to a specified place",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/decimal_place_value_and_comparing_decimals.json"
+    },
+    "identify_digit_place_value": {
+      "topic_slug": "place_value_rounding_and_estimation",
+      "display_name": "Identify the place value of a digit",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/place_value_rounding_and_estimation.json"
+    },
+    "round_whole_number": {
+      "topic_slug": "place_value_rounding_and_estimation",
+      "display_name": "Round a whole number to a given place",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/place_value_rounding_and_estimation.json"
+    },
+    "estimate_sum_by_rounding": {
+      "topic_slug": "place_value_rounding_and_estimation",
+      "display_name": "Estimate a sum by rounding each addend",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/place_value_rounding_and_estimation.json"
+    },
+    "square_root_of_perfect_square": {
+      "topic_slug": "square_roots_and_cube_roots",
+      "display_name": "Square root of a perfect square",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/square_roots_and_cube_roots.json"
+    },
+    "cube_root_of_perfect_cube": {
+      "topic_slug": "square_roots_and_cube_roots",
+      "display_name": "Cube root of a perfect cube",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/square_roots_and_cube_roots.json"
+    },
+    "estimate_square_root": {
+      "topic_slug": "square_roots_and_cube_roots",
+      "display_name": "Estimate a square root between two consecutive integers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/square_roots_and_cube_roots.json"
+    },
+    "evaluate_linear_expression": {
+      "topic_slug": "evaluating_expressions",
+      "display_name": "Evaluate a linear expression at a given value",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/evaluating_expressions.json"
+    },
+    "evaluate_expression_with_exponent": {
+      "topic_slug": "evaluating_expressions",
+      "display_name": "Evaluate an expression with x^2",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/evaluating_expressions.json"
+    },
+    "evaluate_two_variable_expression": {
+      "topic_slug": "evaluating_expressions",
+      "display_name": "Evaluate a two-variable expression",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/evaluating_expressions.json"
+    },
+    "simplify_ratio": {
+      "topic_slug": "ratios_and_equivalent_ratios",
+      "display_name": "Simplify a ratio to lowest terms",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_and_equivalent_ratios.json"
+    },
+    "find_equivalent_ratio": {
+      "topic_slug": "ratios_and_equivalent_ratios",
+      "display_name": "Find an equivalent ratio with a given term",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_and_equivalent_ratios.json"
+    },
+    "scale_ratio_to_context": {
+      "topic_slug": "ratios_and_equivalent_ratios",
+      "display_name": "Scale a ratio to fit a real-world quantity",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_and_equivalent_ratios.json"
+    },
+    "distribute_numerical": {
+      "topic_slug": "the_distributive_property",
+      "display_name": "Apply the distributive property (numerical)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distributive_property.json"
+    },
+    "distribute_with_negative": {
+      "topic_slug": "the_distributive_property",
+      "display_name": "Distribute across a signed expression",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distributive_property.json"
+    },
+    "distribute_expression_with_variable": {
+      "topic_slug": "the_distributive_property",
+      "display_name": "Distribute into an expression with x",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distributive_property.json"
+    },
+    "identify_coefficient": {
+      "topic_slug": "variables_and_algebraic_expressions",
+      "display_name": "Identify the coefficient of a variable",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/variables_and_algebraic_expressions.json"
+    },
+    "count_terms": {
+      "topic_slug": "variables_and_algebraic_expressions",
+      "display_name": "Count the terms in an expression",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/variables_and_algebraic_expressions.json"
+    },
+    "translate_word_to_expression": {
+      "topic_slug": "variables_and_algebraic_expressions",
+      "display_name": "Translate a phrase to an algebraic expression",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/variables_and_algebraic_expressions.json"
+    },
+    "compute_unit_price": {
+      "topic_slug": "unit_rates",
+      "display_name": "Compute a unit price",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/unit_rates.json"
+    },
+    "compute_unit_speed": {
+      "topic_slug": "unit_rates",
+      "display_name": "Compute a unit speed",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/unit_rates.json"
+    },
+    "compare_better_buy": {
+      "topic_slug": "unit_rates",
+      "display_name": "Which is the better buy?",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/unit_rates.json"
+    },
+    "solve_proportion_for_unknown": {
+      "topic_slug": "proportions_and_cross_multiplication",
+      "display_name": "Solve a proportion for the unknown",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/proportions_and_cross_multiplication.json"
+    },
+    "scale_with_proportion_word": {
+      "topic_slug": "proportions_and_cross_multiplication",
+      "display_name": "Scale with a proportion (word problem)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/proportions_and_cross_multiplication.json"
+    },
+    "verify_is_proportion": {
+      "topic_slug": "proportions_and_cross_multiplication",
+      "display_name": "Do two ratios form a proportion?",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/proportions_and_cross_multiplication.json"
     }
   }
 }

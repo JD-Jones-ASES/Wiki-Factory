@@ -41,8 +41,8 @@ Total pages: 253
 - [[Absolute_Value_Functions|Absolute Value Functions]] [stub]
 - [[Absolute_Value_Inequalities|Absolute Value Inequalities]] [stub]
 - [[Absolute_Value_And_Opposites|Absolute Value and Opposites]] [stub]
-- [[Adding_And_Subtracting_Decimals|Adding and Subtracting Decimals]] [stub]
-- [[Adding_And_Subtracting_Fractions|Adding and Subtracting Fractions]] [stub]
+- [[Adding_And_Subtracting_Decimals|Adding and Subtracting Decimals]] [draft] (1 sources)
+- [[Adding_And_Subtracting_Fractions|Adding and Subtracting Fractions]] [draft] (1 sources)
 - [[Adding_And_Subtracting_Integers|Adding and Subtracting Integers]] [stub]
 - [[Adding_And_Subtracting_Mixed_Numbers|Adding and Subtracting Mixed Numbers]] [stub]
 - [[Adding_And_Subtracting_Polynomials|Adding and Subtracting Polynomials]] [stub]
@@ -70,7 +70,7 @@ Total pages: 253
 - [[Circular_Functions|Circular Functions]] [stub]
 - [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]] [stub]
 - [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]] [stub]
-- [[Comparing_And_Ordering_Fractions|Comparing and Ordering Fractions]] [stub]
+- [[Comparing_And_Ordering_Fractions|Comparing and Ordering Fractions]] [draft] (1 sources)
 - [[Comparing_And_Ordering_Rational_Numbers|Comparing and Ordering Rational Numbers]] [stub]
 - [[Completing_The_Square|Completing the Square]] [stub]
 - [[Complex_Zeros|Complex Zeros of Polynomials]] [stub]
@@ -85,11 +85,11 @@ Total pages: 253
 
 - [[Data_Displays|Data Displays]] [stub]
 - [[Data_Displays_And_Measures_Of_Spread|Data Displays and Measures of Spread]] [stub]
-- [[Decimal_Place_Value_And_Comparing_Decimals|Decimal Place Value and Comparing Decimals]] [stub]
+- [[Decimal_Place_Value_And_Comparing_Decimals|Decimal Place Value and Comparing Decimals]] [draft] (1 sources)
 - [[Determinants|Determinants]] [stub]
 - [[Dimensional_Analysis|Dimensional Analysis]] [stub]
-- [[Dividing_Decimals|Dividing Decimals]] [stub]
-- [[Dividing_Fractions|Dividing Fractions]] [stub]
+- [[Dividing_Decimals|Dividing Decimals]] [draft] (1 sources)
+- [[Dividing_Fractions|Dividing Fractions]] [draft] (1 sources)
 - [[Dividing_Mixed_Numbers|Dividing Mixed Numbers]] [stub]
 - [[Divisibility_Factors_And_Prime_Factorization|Divisibility, Factors, and Prime Factorization]] [stub]
 
@@ -97,8 +97,8 @@ Total pages: 253
 
 - [[Ellipses|Ellipses]] [stub]
 - [[Equations_With_Variables_On_Both_Sides|Equations with Variables on Both Sides]] [stub]
-- [[Equivalent_Fractions_And_Simplifying|Equivalent Fractions and Simplifying]] [stub]
-- [[Evaluating_Expressions|Evaluating Expressions]] [stub]
+- [[Equivalent_Fractions_And_Simplifying|Equivalent Fractions and Simplifying]] [draft] (1 sources)
+- [[Evaluating_Expressions|Evaluating Expressions]] [draft] (1 sources)
 - [[Exponential_Equations|Exponential Equations]] [stub]
 - [[Exponential_Functions|Exponential Functions]] [stub]
 - [[Exponents_And_Powers|Exponents and Powers]] [stub]
@@ -144,7 +144,7 @@ Total pages: 253
 - [[Induction|Induction]] [stub]
 - [[Inequalities|Inequalities]] [stub]
 - [[Inequalities_And_Their_Graphs|Inequalities and Their Graphs]] [stub]
-- [[Integers_And_The_Number_Line|Integers and the Number Line]] [stub]
+- [[Integers_And_The_Number_Line|Integers and the Number Line]] [draft] (1 sources)
 - [[Introduction_To_Conics|Introduction to Conic Sections]] [stub]
 - [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]] [stub]
 - [[Introduction_To_Functions|Introduction to Functions]] [stub]
@@ -169,15 +169,15 @@ Total pages: 253
 - [[Matrix_Arithmetic|Matrix Arithmetic]] [stub]
 - [[Matrix_Methods|Matrix Methods for Systems]] [stub]
 - [[Mean_Median_Mode_And_Range|Mean, Median, Mode, and Range]] [stub]
-- [[Mixed_Numbers_And_Improper_Fractions|Mixed Numbers and Improper Fractions]] [stub]
+- [[Mixed_Numbers_And_Improper_Fractions|Mixed Numbers and Improper Fractions]] [draft] (1 sources)
 - [[Modeling_With_Linear_Functions|Modeling with Linear Functions]] [stub]
 - [[More_Exotic_Functions|More Exotic Functions]] [stub]
 - [[Multi_Step_Equations|Multi-Step Equations]] [stub]
-- [[Multiplying_Decimals|Multiplying Decimals]] [stub]
-- [[Multiplying_Fractions|Multiplying Fractions]] [stub]
+- [[Multiplying_Decimals|Multiplying Decimals]] [draft] (1 sources)
+- [[Multiplying_Fractions|Multiplying Fractions]] [draft] (1 sources)
 - [[Multiplying_Mixed_Numbers|Multiplying Mixed Numbers]] [stub]
 - [[Multiplying_Polynomials|Multiplying Polynomials]] [stub]
-- [[Multiplying_And_Dividing_Integers|Multiplying and Dividing Integers]] [stub]
+- [[Multiplying_And_Dividing_Integers|Multiplying and Dividing Integers]] [draft] (1 sources)
 - [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]] [stub]
 - [[Multiplying_And_Dividing_Real_Numbers|Multiplying and Dividing Real Numbers]] [stub]
 
@@ -204,7 +204,7 @@ Total pages: 253
 - [[Percent_Applications|Percent Applications]] [stub]
 - [[Percent_Increase_And_Decrease|Percent Increase and Decrease]] [stub]
 - [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]] [stub]
-- [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]] [stub]
+- [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]] [draft] (1 sources)
 - [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]] [stub]
 - [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]] [stub]
 - [[Polar_Form_Of_Complex_Numbers|Polar Form of Complex Numbers]] [stub]
@@ -221,7 +221,7 @@ Total pages: 253
 - [[Properties_Of_Exponents|Properties of Exponents]] [stub]
 - [[Properties_Of_Logarithms|Properties of Logarithms]] [stub]
 - [[Properties_Of_Real_Numbers|Properties of Real Numbers]] [stub]
-- [[Proportions_And_Cross_Multiplication|Proportions and Cross Multiplication]] [stub]
+- [[Proportions_And_Cross_Multiplication|Proportions and Cross Multiplication]] [draft] (1 sources)
 - [[Proportions_In_Similar_Figures|Proportions in Similar Figures]] [stub]
 
 ### Q
@@ -234,7 +234,7 @@ Total pages: 253
 - [[Rational_Exponents|Rational Exponents]] [stub]
 - [[Rational_Inequalities|Rational Inequalities]] [stub]
 - [[Rational_Numbers_On_The_Number_Line|Rational Numbers on the Number Line]] [stub]
-- [[Ratios_And_Equivalent_Ratios|Ratios and Equivalent Ratios]] [stub]
+- [[Ratios_And_Equivalent_Ratios|Ratios and Equivalent Ratios]] [draft] (1 sources)
 - [[Ratios_And_Proportions|Ratios and Proportions]] [stub]
 - [[Ratios_Rates_And_Proportions|Ratios, Rates, and Proportions]] [stub]
 - [[Real_Zeros_Of_Polynomials|Real Zeros of Polynomials]] [stub]
@@ -280,7 +280,7 @@ Total pages: 253
 - [[Solving_Two_Step_Equations|Solving Two-Step Equations]] [stub]
 - [[Special_Products|Special Products]] [stub]
 - [[Square_Root_Functions|Square Root Functions]] [stub]
-- [[Square_Roots_And_Cube_Roots|Square Roots and Cube Roots]] [stub]
+- [[Square_Roots_And_Cube_Roots|Square Roots and Cube Roots]] [draft] (1 sources)
 - [[Summation|Summation]] [stub]
 - [[Surface_Area_And_Volume_Of_Spheres|Surface Area and Volume of Spheres]] [stub]
 - [[Surface_Area_Of_Prisms_And_Cylinders|Surface Area of Prisms and Cylinders]] [stub]
@@ -294,7 +294,7 @@ Total pages: 253
 - [[The_Coordinate_Plane|The Coordinate Plane]] [stub]
 - [[The_Discriminant|The Discriminant]] [stub]
 - [[The_Distance_Formula|The Distance Formula]] [stub]
-- [[The_Distributive_Property|The Distributive Property]] [stub]
+- [[The_Distributive_Property|The Distributive Property]] [draft] (1 sources)
 - [[The_Distributive_Property_With_Variables|The Distributive Property with Variables]] [stub]
 - [[Dot_Product|The Dot Product]] [stub]
 - [[Law_Of_Cosines|The Law of Cosines]] [stub]
@@ -317,12 +317,12 @@ Total pages: 253
 ### U
 
 - [[Understanding_Percents|Understanding Percents]] [stub]
-- [[Unit_Rates|Unit Rates]] [stub]
+- [[Unit_Rates|Unit Rates]] [draft] (1 sources)
 - [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]] [stub]
 
 ### V
 
-- [[Variables_And_Algebraic_Expressions|Variables and Algebraic Expressions]] [stub]
+- [[Variables_And_Algebraic_Expressions|Variables and Algebraic Expressions]] [draft] (1 sources)
 - [[Variables_And_Expressions|Variables and Expressions]] [stub]
 - [[Vectors|Vectors]] [stub]
 - [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]] [stub]

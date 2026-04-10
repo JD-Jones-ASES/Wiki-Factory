@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.5.0 --- Cluster 0 infrastructure shipped (2026-04-10)
+### Version 1.6.0 --- Cluster 1 Pre-algebra Foundations shipped (2026-04-10)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 16 topics with working widgets, 50 generators, 4,335 verified problems. Catalog: 246 canonical topics (~230 still need generators). |
+| **Scale** | Live: 36 topics with working widgets, 110 generators, 9,621 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -834,6 +834,57 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.6.0 --- Cluster 1 Pre-algebra Foundations (2026-04-10)
+
+**Stats:** 20 topics enriched with rich prose + worked examples + cross-links, 60 new generators (110 total), 5,286 new verified problems (9,621 total), 4 new matplotlib figures, ~18,000 lines of new markdown content.
+
+**Topics shipped (all at draft status, scores 80-90):**
+- **Fractions (6):** Equivalent_Fractions_And_Simplifying, Mixed_Numbers_And_Improper_Fractions, Adding_And_Subtracting_Fractions, Comparing_And_Ordering_Fractions, Multiplying_Fractions, Dividing_Fractions
+- **Decimals (4):** Adding_And_Subtracting_Decimals, Multiplying_Decimals, Dividing_Decimals, Decimal_Place_Value_And_Comparing_Decimals
+- **Integers (2):** Integers_And_The_Number_Line, Multiplying_And_Dividing_Integers
+- **Foundations (3):** Place_Value_Rounding_And_Estimation, Square_Roots_And_Cube_Roots, The_Distributive_Property
+- **Variables & Expressions (2):** Variables_And_Algebraic_Expressions, Evaluating_Expressions
+- **Ratios & Proportions (3):** Ratios_And_Equivalent_Ratios, Unit_Rates, Proportions_And_Cross_Multiplication
+
+**Generator files added** (10 new modules under `generators/pre_algebra/`):
+- `fractions_basics.py`, `fractions_addsub.py`, `fractions_muldiv.py`
+- `decimals_arith.py`, `decimals_divplace.py`
+- `integers_ext.py`
+- `foundations.py`, `algebra_intro.py`, `eval_and_ratios.py`, `rates_and_proportions.py`
+
+**Figures added** (all in `wiki/assets/figures/pre_algebra/`):
+- `number_line.svg` — labeled integer number line
+- `fraction_bar.svg` — 3/8 vs 6/16 equivalence visualization
+- `area_model_distributive.svg` — 3(4+2) rectangle split into sub-rectangles
+- `place_value_chart.svg` — columnar chart for 34.0806 with hundredths highlighted
+
+**Execution model (parallelization):**
+- **Content wave:** 10 sub-agents total across 3 batches (4 + 4 + 2), each owning 2 topics. Total throughput: 20 topics in ~20 minutes of wall-clock (but lots of parallelism under the hood).
+- **Generator wave:** 10 sub-agents total across 3 waves (3 + 3 + 4), each owning 2 topics and writing a single module with 6 generators. Registry imports in `__init__.py` updated by each agent via Edit tool — no collisions because each added a distinct import line.
+- **Figures:** 1 sub-agent extended `tools/generate_figures.py` with 4 new figures + 2 determinism fixes (matplotlib's default SVG output embeds timestamps + randomized clip-path IDs; fixed via `plt.rcParams["svg.hashsalt"]` and `metadata={"Date": None}`).
+
+**What worked:**
+- **Sub-agent parallelization** as specified in the buildout plan. Review burden stayed manageable because each agent's scope was small (2 topics), the gold standard (Circles.md) gave a concrete template, and `test_copyright_safety.py` caught paraphrase failures mechanically.
+- **Same-file generator modules (6 generators per file, 2 topics per file)** kept the directory tidy and made registration straightforward (one import line per module).
+- **Separating content from generators into two waves** per the plan — content agents had no generator-code anxiety, generator agents could read the enriched prose to match their problem framings to the topic's examples.
+- **Race-condition handling on `__init__.py`** — multiple agents independently edited the same file via Edit tool with sufficient surrounding context. All 10 import lines landed without conflict.
+- **Copyright safety test** caught several near-misses in real time. Each agent that tripped the test rewrote the offending passage and re-ran the test before returning. No manual intervention needed.
+- **Generator `bank_count_per_difficulty` overrides** for topics with small parameter spaces (e.g., `square_root_of_perfect_square` limited to 12 since there are only 12 perfect squares in the easy range).
+
+**What failed and how it was fixed:**
+- **Matplotlib SVG determinism:** default `fig.savefig()` produces different bytes on every run because of embedded timestamps and randomized clip-path IDs. Fix: set `plt.rcParams["svg.hashsalt"]` for stable IDs, pass `metadata={"Date": None}` to strip the timestamp. All 5 figures now byte-identical across runs. This matters for git diff noise and CI reproducibility.
+- **Several content agents tripped copyright pytest on near-miss phrasings** (e.g., "set of all points in a plane that are the same distance" in Circles, "multiply the whole number by the denominator and add the numerator" in fraction pages). Each agent rewrote its offending passage. Pattern: definitional phrasings tend to converge across textbooks, so the allowlist in `test_copyright_safety.py` may need expansion as more content ships. For Cluster 1, the allowlist stayed at 7 phrases and agents paraphrased around the rest.
+- **Agent reported section numbers differ from catalog**: the catalog normalizes section numbers like "2.2.1" (two-dot chapter-section-subsection), but the JSON files use "2.1" (single-dot). Agents correctly used the actual JSON section numbers in `source_refs`. This is a legitimate catalog-schema inconsistency to watch in future clusters.
+
+**Gate checks after Cluster 1:**
+- **Pytest:** 29/29 green (generators + copyright + snapshot + smoke).
+- **Lint:** 0 errors, 0 warnings, 1 info (231 stub pages — down from 251).
+- **YAML:** 257/257 clean.
+- **Topic status:** Pre-algebra average 16.0 → 31.0 (+15 points). Overall average 16.4 → 22.2 (+5.8). 34 topics at 3+ generators (was 14).
+- **Bank size:** 7.5 MB across 36 shards, all under 320 KB each.
+
+**What's next (Cluster 2):** Linear world completion. Extends already-shipped Slope/Multi-Step/Systems/Slope-Intercept with: lines in all forms, parallel/perpendicular, linear inequalities deep, systems of inequalities, writing linear functions, applications. ~14 topics. Same cadence: content wave → generator wave → figures → close.
 
 ### Version 1.5.0 --- Cluster 0 infrastructure (2026-04-10)
 
