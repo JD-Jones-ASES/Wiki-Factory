@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T17:50:00.640141+00:00",
+  "generated_at": "2026-04-10T18:50:57.631219+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 110,
+  "generator_count": 152,
   "by_topic": {
     "circles": [
       {
@@ -374,6 +374,390 @@
           "easy": 30,
           "medium": 30,
           "hard": 30
+        }
+      }
+    ],
+    "writing_linear_equations": [
+      {
+        "generator_id": "write_line_slope_y_intercept",
+        "display_name": "Write y = mx + b given slope and y-intercept",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "write_line_slope_and_point",
+        "display_name": "Write y = mx + b given slope and a point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "write_line_from_two_points",
+        "display_name": "Write y = mx + b given two points",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "parallel_and_perpendicular_lines": [
+      {
+        "generator_id": "parallel_line_through_point",
+        "display_name": "Write the parallel line through a given point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "perpendicular_line_through_point",
+        "display_name": "Write the perpendicular line through a given point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "classify_parallel_perpendicular_or_neither",
+        "display_name": "Classify two lines: parallel, perpendicular, or neither",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "linear_functions": [
+      {
+        "generator_id": "evaluate_linear_function",
+        "display_name": "Evaluate f(x) = mx + b at a given input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "linear_function_from_slope_and_point",
+        "display_name": "Write f(x) = mx + b given slope and a point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "linear_function_find_zero",
+        "display_name": "Find the zero of f(x) = mx + b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "modeling_with_linear_functions": [
+      {
+        "generator_id": "linear_model_cost_problem",
+        "display_name": "Write a linear cost model C(x) = Rx + F",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "linear_model_predict_value",
+        "display_name": "Use a linear model to predict Y at a given X",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "linear_model_find_input_for_output",
+        "display_name": "Use a linear model to find X for a target Y",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "graphing_linear_equations_from_tables": [
+      {
+        "generator_id": "table_evaluate_linear",
+        "display_name": "Fill in a table of (x, y) values from y = mx + b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "table_is_linear_check",
+        "display_name": "Check whether a table of (x, y) values is linear",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "table_find_equation_from_table",
+        "display_name": "Find y = mx + b from a table of (x, y) values",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "inequalities_and_their_graphs": [
+      {
+        "generator_id": "inequality_classify_from_symbol",
+        "display_name": "Translate inequality phrase <-> symbol",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "inequality_check_solution",
+        "display_name": "Check whether a value is a solution to an inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "inequality_graph_open_closed",
+        "display_name": "Describe the graph of a one-variable inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "solving_multi_step_inequalities": [
+      {
+        "generator_id": "multi_step_ineq_two_step",
+        "display_name": "Solve ax + b <op> c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multi_step_ineq_distribution",
+        "display_name": "Solve a(bx + c) <op> d",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multi_step_ineq_variables_both_sides",
+        "display_name": "Solve ax + b <op> cx + d",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "compound_inequalities": [
+      {
+        "generator_id": "compound_ineq_and_three_part",
+        "display_name": "Solve L < ax + b < U",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "compound_ineq_and_two_parts",
+        "display_name": "Solve a compound AND inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "compound_ineq_or",
+        "display_name": "Solve a compound OR inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "absolute_value_inequalities": [
+      {
+        "generator_id": "abs_val_ineq_less_than",
+        "display_name": "Solve |ax + b| < c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "abs_val_ineq_greater_than",
+        "display_name": "Solve |ax + b| > c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "abs_val_ineq_edge_cases",
+        "display_name": "Edge cases: all real numbers or no solution",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      }
+    ],
+    "systems_of_linear_inequalities": [
+      {
+        "generator_id": "system_lin_ineq_test_point",
+        "display_name": "Is a point in the solution region of a system?",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "system_lin_ineq_identify_inequality",
+        "display_name": "Write the inequality for a half-plane description",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "system_lin_ineq_slope_intercept_form",
+        "display_name": "Identify slopes and boundaries of a system",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "plotting_points_and_the_coordinate_plane": [
+      {
+        "generator_id": "point_identify_quadrant",
+        "display_name": "Identify the quadrant or axis of a point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "point_describe_from_instructions",
+        "display_name": "Find a point from a movement instruction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "point_distance_between_on_same_axis",
+        "display_name": "Distance between two points on the same axis",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "scatter_plots_and_trend_lines": [
+      {
+        "generator_id": "scatter_classify_trend_direction",
+        "display_name": "Classify a scatter plot's trend direction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "scatter_predict_from_trend_line",
+        "display_name": "Predict from a trend line",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "scatter_slope_interpretation",
+        "display_name": "Interpret the slope of a trend line",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
         }
       }
     ],
@@ -1176,6 +1560,70 @@
           "hard": 30
         }
       }
+    ],
+    "writing_and_graphing_inequalities": [
+      {
+        "generator_id": "write_inequality_from_phrase",
+        "display_name": "Write an inequality from a phrase",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "graph_inequality_describe",
+        "display_name": "Describe the graph of an inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "read_inequality_from_graph_description",
+        "display_name": "Write an inequality from a graph description",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "solving_one_step_and_two_step_inequalities": [
+      {
+        "generator_id": "one_step_ineq_addsub",
+        "display_name": "Solve a one-step add/subtract inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "one_step_ineq_muldiv",
+        "display_name": "Solve a one-step multiply/divide inequality (sign-flip)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "two_step_ineq",
+        "display_name": "Solve a two-step inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
     ]
   },
   "by_generator": {
@@ -1528,6 +1976,366 @@
         "hard": 30
       },
       "shard_file": "problems/properties_of_exponents.json"
+    },
+    "write_line_slope_y_intercept": {
+      "topic_slug": "writing_linear_equations",
+      "display_name": "Write y = mx + b given slope and y-intercept",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/writing_linear_equations.json"
+    },
+    "write_line_slope_and_point": {
+      "topic_slug": "writing_linear_equations",
+      "display_name": "Write y = mx + b given slope and a point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/writing_linear_equations.json"
+    },
+    "write_line_from_two_points": {
+      "topic_slug": "writing_linear_equations",
+      "display_name": "Write y = mx + b given two points",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/writing_linear_equations.json"
+    },
+    "parallel_line_through_point": {
+      "topic_slug": "parallel_and_perpendicular_lines",
+      "display_name": "Write the parallel line through a given point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/parallel_and_perpendicular_lines.json"
+    },
+    "perpendicular_line_through_point": {
+      "topic_slug": "parallel_and_perpendicular_lines",
+      "display_name": "Write the perpendicular line through a given point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/parallel_and_perpendicular_lines.json"
+    },
+    "classify_parallel_perpendicular_or_neither": {
+      "topic_slug": "parallel_and_perpendicular_lines",
+      "display_name": "Classify two lines: parallel, perpendicular, or neither",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/parallel_and_perpendicular_lines.json"
+    },
+    "evaluate_linear_function": {
+      "topic_slug": "linear_functions",
+      "display_name": "Evaluate f(x) = mx + b at a given input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/linear_functions.json"
+    },
+    "linear_function_from_slope_and_point": {
+      "topic_slug": "linear_functions",
+      "display_name": "Write f(x) = mx + b given slope and a point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/linear_functions.json"
+    },
+    "linear_function_find_zero": {
+      "topic_slug": "linear_functions",
+      "display_name": "Find the zero of f(x) = mx + b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/linear_functions.json"
+    },
+    "linear_model_cost_problem": {
+      "topic_slug": "modeling_with_linear_functions",
+      "display_name": "Write a linear cost model C(x) = Rx + F",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/modeling_with_linear_functions.json"
+    },
+    "linear_model_predict_value": {
+      "topic_slug": "modeling_with_linear_functions",
+      "display_name": "Use a linear model to predict Y at a given X",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/modeling_with_linear_functions.json"
+    },
+    "linear_model_find_input_for_output": {
+      "topic_slug": "modeling_with_linear_functions",
+      "display_name": "Use a linear model to find X for a target Y",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/modeling_with_linear_functions.json"
+    },
+    "table_evaluate_linear": {
+      "topic_slug": "graphing_linear_equations_from_tables",
+      "display_name": "Fill in a table of (x, y) values from y = mx + b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphing_linear_equations_from_tables.json"
+    },
+    "table_is_linear_check": {
+      "topic_slug": "graphing_linear_equations_from_tables",
+      "display_name": "Check whether a table of (x, y) values is linear",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphing_linear_equations_from_tables.json"
+    },
+    "table_find_equation_from_table": {
+      "topic_slug": "graphing_linear_equations_from_tables",
+      "display_name": "Find y = mx + b from a table of (x, y) values",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphing_linear_equations_from_tables.json"
+    },
+    "inequality_classify_from_symbol": {
+      "topic_slug": "inequalities_and_their_graphs",
+      "display_name": "Translate inequality phrase <-> symbol",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/inequalities_and_their_graphs.json"
+    },
+    "inequality_check_solution": {
+      "topic_slug": "inequalities_and_their_graphs",
+      "display_name": "Check whether a value is a solution to an inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/inequalities_and_their_graphs.json"
+    },
+    "inequality_graph_open_closed": {
+      "topic_slug": "inequalities_and_their_graphs",
+      "display_name": "Describe the graph of a one-variable inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/inequalities_and_their_graphs.json"
+    },
+    "multi_step_ineq_two_step": {
+      "topic_slug": "solving_multi_step_inequalities",
+      "display_name": "Solve ax + b <op> c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_multi_step_inequalities.json"
+    },
+    "multi_step_ineq_distribution": {
+      "topic_slug": "solving_multi_step_inequalities",
+      "display_name": "Solve a(bx + c) <op> d",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_multi_step_inequalities.json"
+    },
+    "multi_step_ineq_variables_both_sides": {
+      "topic_slug": "solving_multi_step_inequalities",
+      "display_name": "Solve ax + b <op> cx + d",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_multi_step_inequalities.json"
+    },
+    "compound_ineq_and_three_part": {
+      "topic_slug": "compound_inequalities",
+      "display_name": "Solve L < ax + b < U",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/compound_inequalities.json"
+    },
+    "compound_ineq_and_two_parts": {
+      "topic_slug": "compound_inequalities",
+      "display_name": "Solve a compound AND inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/compound_inequalities.json"
+    },
+    "compound_ineq_or": {
+      "topic_slug": "compound_inequalities",
+      "display_name": "Solve a compound OR inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/compound_inequalities.json"
+    },
+    "abs_val_ineq_less_than": {
+      "topic_slug": "absolute_value_inequalities",
+      "display_name": "Solve |ax + b| < c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_inequalities.json"
+    },
+    "abs_val_ineq_greater_than": {
+      "topic_slug": "absolute_value_inequalities",
+      "display_name": "Solve |ax + b| > c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_inequalities.json"
+    },
+    "abs_val_ineq_edge_cases": {
+      "topic_slug": "absolute_value_inequalities",
+      "display_name": "Edge cases: all real numbers or no solution",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/absolute_value_inequalities.json"
+    },
+    "system_lin_ineq_test_point": {
+      "topic_slug": "systems_of_linear_inequalities",
+      "display_name": "Is a point in the solution region of a system?",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/systems_of_linear_inequalities.json"
+    },
+    "system_lin_ineq_identify_inequality": {
+      "topic_slug": "systems_of_linear_inequalities",
+      "display_name": "Write the inequality for a half-plane description",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/systems_of_linear_inequalities.json"
+    },
+    "system_lin_ineq_slope_intercept_form": {
+      "topic_slug": "systems_of_linear_inequalities",
+      "display_name": "Identify slopes and boundaries of a system",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/systems_of_linear_inequalities.json"
+    },
+    "point_identify_quadrant": {
+      "topic_slug": "plotting_points_and_the_coordinate_plane",
+      "display_name": "Identify the quadrant or axis of a point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/plotting_points_and_the_coordinate_plane.json"
+    },
+    "point_describe_from_instructions": {
+      "topic_slug": "plotting_points_and_the_coordinate_plane",
+      "display_name": "Find a point from a movement instruction",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/plotting_points_and_the_coordinate_plane.json"
+    },
+    "point_distance_between_on_same_axis": {
+      "topic_slug": "plotting_points_and_the_coordinate_plane",
+      "display_name": "Distance between two points on the same axis",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/plotting_points_and_the_coordinate_plane.json"
+    },
+    "scatter_classify_trend_direction": {
+      "topic_slug": "scatter_plots_and_trend_lines",
+      "display_name": "Classify a scatter plot's trend direction",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/scatter_plots_and_trend_lines.json"
+    },
+    "scatter_predict_from_trend_line": {
+      "topic_slug": "scatter_plots_and_trend_lines",
+      "display_name": "Predict from a trend line",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/scatter_plots_and_trend_lines.json"
+    },
+    "scatter_slope_interpretation": {
+      "topic_slug": "scatter_plots_and_trend_lines",
+      "display_name": "Interpret the slope of a trend line",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/scatter_plots_and_trend_lines.json"
     },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",
@@ -2278,6 +3086,66 @@
         "hard": 30
       },
       "shard_file": "problems/proportions_and_cross_multiplication.json"
+    },
+    "write_inequality_from_phrase": {
+      "topic_slug": "writing_and_graphing_inequalities",
+      "display_name": "Write an inequality from a phrase",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/writing_and_graphing_inequalities.json"
+    },
+    "graph_inequality_describe": {
+      "topic_slug": "writing_and_graphing_inequalities",
+      "display_name": "Describe the graph of an inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/writing_and_graphing_inequalities.json"
+    },
+    "read_inequality_from_graph_description": {
+      "topic_slug": "writing_and_graphing_inequalities",
+      "display_name": "Write an inequality from a graph description",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/writing_and_graphing_inequalities.json"
+    },
+    "one_step_ineq_addsub": {
+      "topic_slug": "solving_one_step_and_two_step_inequalities",
+      "display_name": "Solve a one-step add/subtract inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_and_two_step_inequalities.json"
+    },
+    "one_step_ineq_muldiv": {
+      "topic_slug": "solving_one_step_and_two_step_inequalities",
+      "display_name": "Solve a one-step multiply/divide inequality (sign-flip)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_and_two_step_inequalities.json"
+    },
+    "two_step_ineq": {
+      "topic_slug": "solving_one_step_and_two_step_inequalities",
+      "display_name": "Solve a two-step inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_and_two_step_inequalities.json"
     }
   }
 }

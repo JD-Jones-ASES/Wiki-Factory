@@ -47,9 +47,9 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Algebra topics (middle-school foundations) --- 26 live / 92 total
+### Pre-Algebra topics (middle-school foundations) --- 30 live / 92 total
 
-**🟢 Live topics with practice widgets (26)**
+**🟢 Live topics with practice widgets (30)**
 
 - 🟢 [[Adding_And_Subtracting_Decimals|Adding and Subtracting Decimals]]
 - 🟢 [[Adding_And_Subtracting_Fractions|Adding and Subtracting Fractions]]
@@ -61,6 +61,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Equivalent_Fractions_And_Simplifying|Equivalent Fractions and Simplifying]]
 - 🟢 [[Evaluating_Expressions|Evaluating Expressions]]
 - 🟢 [[Finding_A_Percent_Of_A_Number|Finding a Percent of a Number]]
+- 🟢 [[Graphing_Linear_Equations_From_Tables|Graphing Linear Equations from Tables]]
 - 🟢 [[Integers_And_The_Number_Line|Integers and the Number Line]]
 - 🟢 [[Mixed_Numbers_And_Improper_Fractions|Mixed Numbers and Improper Fractions]]
 - 🟢 [[Multiplying_Decimals|Multiplying Decimals]]
@@ -69,17 +70,20 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Order_Of_Operations|Order of Operations]]
 - 🟢 [[Percent_Increase_And_Decrease|Percent Increase and Decrease]]
 - 🟢 [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]]
+- 🟢 [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
 - 🟢 [[Proportions_And_Cross_Multiplication|Proportions and Cross Multiplication]]
 - 🟢 [[Ratios_And_Equivalent_Ratios|Ratios and Equivalent Ratios]]
 - 🟢 [[Slope_Intercept_Form|Slope-Intercept Form]]
+- 🟢 [[Solving_One_Step_And_Two_Step_Inequalities|Solving One-Step and Two-Step Inequalities]]
 - 🟢 [[Square_Roots_And_Cube_Roots|Square Roots and Cube Roots]]
 - 🟢 [[The_Distributive_Property|The Distributive Property]]
 - 🟢 [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
 - 🟢 [[Unit_Rates|Unit Rates]]
 - 🟢 [[Variables_And_Algebraic_Expressions|Variables and Algebraic Expressions]]
+- 🟢 [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 
 <details>
-<summary>⚪ 66 stub topic(s) (click to expand)</summary>
+<summary>⚪ 62 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value|Absolute Value]] --- _4 worked example(s)_
 - ⚪ [[Absolute_Value_And_Opposites|Absolute Value and Opposites]] --- _4 worked example(s)_
@@ -100,7 +104,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Divisibility_Factors_And_Prime_Factorization|Divisibility, Factors, and Prime Factorization]] --- _4 worked example(s)_
 - ⚪ [[Exponents_And_Powers|Exponents and Powers]] --- _4 worked example(s)_
 - ⚪ [[Fractions_Decimals_And_Percents|Fractions, Decimals, and Percents]] --- _5 worked example(s)_
-- ⚪ [[Graphing_Linear_Equations_From_Tables|Graphing Linear Equations from Tables]] --- _4 worked example(s)_
 - ⚪ [[Greatest_Common_Factor_And_Least_Common_Multiple|Greatest Common Factor and Least Common Multiple]] --- _4 worked example(s)_
 - ⚪ [[Irrational_Numbers_And_Real_Numbers|Irrational Numbers and Real Numbers]] --- _3 worked example(s)_
 - ⚪ [[Markup_Discount_And_Commission|Markup, Discount, and Commission]] --- _4 worked example(s)_
@@ -110,7 +113,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Order_Of_Operations_With_Fractions|Order of Operations with Fractions]] --- _4 worked example(s)_
 - ⚪ [[Order_Of_Operations_With_Integers|Order of Operations with Integers]] --- _5 worked example(s)_
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]] --- _4 worked example(s)_
-- ⚪ [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]] --- _3 worked example(s)_
 - ⚪ [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]] --- _4 worked example(s)_
 - ⚪ [[Powers_And_Exponent_Notation|Powers and Exponent Notation]] --- _4 worked example(s)_
 - ⚪ [[Probability_Of_Simple_And_Compound_Events|Probability of Simple and Compound Events]] --- _5 worked example(s)_
@@ -131,7 +133,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Solving_Equations_With_The_Distributive_Property|Solving Equations with the Distributive Property]] --- _4 worked example(s)_
 - ⚪ [[Solving_One_Step_Equations_Addition_And_Subtraction|Solving One-Step Equations (Addition and Subtraction)]] --- _4 worked example(s)_
 - ⚪ [[Solving_One_Step_Equations_Multiplication_And_Division|Solving One-Step Equations (Multiplication and Division)]] --- _4 worked example(s)_
-- ⚪ [[Solving_One_Step_And_Two_Step_Inequalities|Solving One-Step and Two-Step Inequalities]] --- _4 worked example(s)_
 - ⚪ [[Solving_Two_Step_Equations|Solving Two-Step Equations]] --- _4 worked example(s)_
 - ⚪ [[Surface_Area_And_Volume_Of_Spheres|Surface Area and Volume of Spheres]] --- _4 worked example(s)_
 - ⚪ [[Surface_Area_Of_Prisms_And_Cylinders|Surface Area of Prisms and Cylinders]] --- _3 worked example(s)_
@@ -145,80 +146,81 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]] --- _4 worked example(s)_
 - ⚪ [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]] --- _4 worked example(s)_
 - ⚪ [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]] --- _4 worked example(s)_
-- ⚪ [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]] --- _4 worked example(s)_
 - ⚪ [[Writing_And_Solving_Equations_From_Word_Problems|Writing and Solving Equations from Word Problems]] --- _5 worked example(s)_
 
 </details>
 
-### Algebra 1 topics --- 9 live / 50 total
+### Algebra 1 topics --- 17 live / 50 total
 
-**🟢 Live topics with practice widgets (9)**
+**🟢 Live topics with practice widgets (17)**
 
 - 🟢 [[Absolute_Value_Equations|Absolute Value Equations]]
+- 🟢 [[Absolute_Value_Inequalities|Absolute Value Inequalities]]
+- 🟢 [[Compound_Inequalities|Compound Inequalities]]
 - 🟢 [[Factoring_Trinomials_Leading_Coefficient_1|Factoring Trinomials: Leading Coefficient 1]]
+- 🟢 [[Inequalities_And_Their_Graphs|Inequalities and Their Graphs]]
 - 🟢 [[Multi_Step_Equations|Multi-Step Equations]]
 - 🟢 [[One_Step_Equations|One-Step Equations]]
+- 🟢 [[Parallel_And_Perpendicular_Lines|Parallel and Perpendicular Lines]]
 - 🟢 [[Properties_Of_Exponents|Properties of Exponents]]
+- 🟢 [[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]]
 - 🟢 [[Slope|Slope]]
+- 🟢 [[Solving_Multi_Step_Inequalities|Solving Multi-Step Inequalities]]
 - 🟢 [[Solving_Systems_By_Elimination|Solving Systems by Elimination]]
 - 🟢 [[Solving_Systems_By_Substitution|Solving Systems by Substitution]]
+- 🟢 [[Systems_Of_Linear_Inequalities|Systems of Linear Inequalities]]
 - 🟢 [[The_Quadratic_Formula|The Quadratic Formula]]
+- 🟢 [[Writing_Linear_Equations|Writing Linear Equations]]
 
 <details>
-<summary>⚪ 41 stub topic(s) (click to expand)</summary>
+<summary>⚪ 33 stub topic(s) (click to expand)</summary>
 
-- ⚪ [[Absolute_Value_Inequalities|Absolute Value Inequalities]] --- _3 worked example(s)_
 - ⚪ [[Adding_And_Subtracting_Polynomials|Adding and Subtracting Polynomials]] --- _3 worked example(s)_
 - ⚪ [[Adding_And_Subtracting_Real_Numbers|Adding and Subtracting Real Numbers]] --- _3 worked example(s)_
 - ⚪ [[Applications_Of_Quadratics|Applications of Quadratics]] --- _3 worked example(s)_
 - ⚪ [[Applications_Of_Systems|Applications of Systems]] --- _3 worked example(s)_
-- ⚪ [[Compound_Inequalities|Compound Inequalities]] --- _3 worked example(s)_
 - ⚪ [[Equations_With_Variables_On_Both_Sides|Equations with Variables on Both Sides]] --- _3 worked example(s)_
 - ⚪ [[Factoring_Completely|Factoring Completely]] --- _3 worked example(s)_
 - ⚪ [[Factoring_Special_Forms|Factoring Special Forms]] --- _3 worked example(s)_
 - ⚪ [[Factoring_Trinomials_General|Factoring Trinomials: General]] --- _3 worked example(s)_
 - ⚪ [[Graphing_Quadratic_Functions|Graphing Quadratic Functions]] --- _3 worked example(s)_
 - ⚪ [[Greatest_Common_Factor|Greatest Common Factor]] --- _4 worked example(s)_
-- ⚪ [[Inequalities_And_Their_Graphs|Inequalities and Their Graphs]] --- _3 worked example(s)_
 - ⚪ [[Literal_Equations_And_Formulas|Literal Equations and Formulas]] --- _2 worked example(s)_
 - ⚪ [[Multiplying_Polynomials|Multiplying Polynomials]] --- _covered by 2 books, 8 worked example(s)_
 - ⚪ [[Multiplying_And_Dividing_Real_Numbers|Multiplying and Dividing Real Numbers]] --- _4 worked example(s)_
 - ⚪ [[Operations_With_Radicals|Operations with Radicals]] --- _3 worked example(s)_
 - ⚪ [[Operations_With_Rational_Expressions|Operations with Rational Expressions]] --- _4 worked example(s)_
-- ⚪ [[Parallel_And_Perpendicular_Lines|Parallel and Perpendicular Lines]] --- _3 worked example(s)_
 - ⚪ [[Percent_Applications|Percent Applications]] --- _3 worked example(s)_
 - ⚪ [[Properties_Of_Real_Numbers|Properties of Real Numbers]] --- _2 worked example(s)_
 - ⚪ [[Ratios_And_Proportions|Ratios and Proportions]] --- _3 worked example(s)_
 - ⚪ [[Relations_And_Functions|Relations and Functions]] --- _covered by 2 books, 7 worked example(s)_
-- ⚪ [[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]] --- _2 worked example(s)_
 - ⚪ [[Scientific_Notation|Scientific Notation]] --- _covered by 2 books, 8 worked example(s)_
 - ⚪ [[Simplifying_Radical_Expressions|Simplifying Radical Expressions]] --- _3 worked example(s)_
 - ⚪ [[Simplifying_Rational_Expressions|Simplifying Rational Expressions]] --- _covered by 2 books, 7 worked example(s)_
-- ⚪ [[Solving_Multi_Step_Inequalities|Solving Multi-Step Inequalities]] --- _covered by 2 books, 7 worked example(s)_
 - ⚪ [[Solving_Quadratics_By_Factoring|Solving Quadratics by Factoring]] --- _3 worked example(s)_
 - ⚪ [[Solving_Quadratics_By_Square_Roots|Solving Quadratics by Square Roots]] --- _3 worked example(s)_
 - ⚪ [[Solving_Rational_Equations|Solving Rational Equations]] --- _3 worked example(s)_
 - ⚪ [[Solving_Systems_By_Graphing|Solving Systems by Graphing]] --- _3 worked example(s)_
 - ⚪ [[Special_Products|Special Products]] --- _3 worked example(s)_
-- ⚪ [[Systems_Of_Linear_Inequalities|Systems of Linear Inequalities]] --- _3 worked example(s)_
 - ⚪ [[The_Coordinate_Plane|The Coordinate Plane]] --- _3 worked example(s)_
 - ⚪ [[The_Discriminant|The Discriminant]] --- _3 worked example(s)_
 - ⚪ [[The_Pythagorean_Theorem_And_Distance_Formula|The Pythagorean Theorem and Distance Formula]] --- _3 worked example(s)_
 - ⚪ [[The_Real_Numbers|The Real Numbers]] --- _3 worked example(s)_
 - ⚪ [[Variables_And_Expressions|Variables and Expressions]] --- _3 worked example(s)_
-- ⚪ [[Writing_Linear_Equations|Writing Linear Equations]] --- _3 worked example(s)_
 - ⚪ [[Zero_And_Negative_Exponents|Zero and Negative Exponents]] --- _covered by 2 books, 7 worked example(s)_
 
 </details>
 
-### Algebra 2 topics --- 1 live / 49 total
+### Algebra 2 topics --- 3 live / 49 total
 
-**🟢 Live topics with practice widgets (1)**
+**🟢 Live topics with practice widgets (3)**
 
 - 🟢 [[Circles|Circles]]
+- 🟢 [[Linear_Functions|Linear Functions]]
+- 🟢 [[Modeling_With_Linear_Functions|Modeling with Linear Functions]]
 
 <details>
-<summary>⚪ 48 stub topic(s) (click to expand)</summary>
+<summary>⚪ 46 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value_Equations_And_Inequalities|Absolute Value Equations and Inequalities]] --- _5 worked example(s)_
 - ⚪ [[Absolute_Value_Functions|Absolute Value Functions]] --- _covered by 2 books, 9 worked example(s)_
@@ -239,11 +241,9 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Growth_Decay_And_Applications|Growth, Decay, and Applications]] --- _6 worked example(s)_
 - ⚪ [[Hyperbolas|Hyperbolas]] --- _covered by 2 books, 14 worked example(s)_
 - ⚪ [[Inverse_Functions|Inverse Functions]] --- _covered by 2 books, 10 worked example(s)_
-- ⚪ [[Linear_Functions|Linear Functions]] --- _covered by 2 books, 12 worked example(s)_
 - ⚪ [[Logarithmic_Equations|Logarithmic Equations]] --- _covered by 2 books, 9 worked example(s)_
 - ⚪ [[Logarithmic_Functions|Logarithmic Functions]] --- _4 worked example(s)_
 - ⚪ [[Logarithms|Logarithms]] --- _5 worked example(s)_
-- ⚪ [[Modeling_With_Linear_Functions|Modeling with Linear Functions]] --- _5 worked example(s)_
 - ⚪ [[More_Exotic_Functions|More Exotic Functions]] --- _11 worked example(s)_
 - ⚪ [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]] --- _4 worked example(s)_
 - ⚪ [[Parabolas|Parabolas]] --- _covered by 2 books, 10 worked example(s)_

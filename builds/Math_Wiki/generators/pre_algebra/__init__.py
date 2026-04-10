@@ -17,3 +17,4 @@ from . import foundations  # noqa: F401
 from . import eval_and_ratios  # noqa: F401
 from . import algebra_intro  # noqa: F401
 from . import rates_and_proportions  # noqa: F401
+from . import inequalities_intro  # noqa: F401

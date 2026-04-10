@@ -9,24 +9,24 @@ source_refs: []
 related: []
 status: complete
 confidence: high
-summary: "Index of every live topic (36) and stub topic (203) in Math Wiki."
+summary: "Index of every live topic (50) and stub topic (189) in Math Wiki."
 ---
 
 # Topics Overview
 
 > [[_overview|Home]] > Topics
 
-Every math topic covered by the wiki lives on one page. This index lists the **36 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
+Every math topic covered by the wiki lives on one page. This index lists the **50 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
 
 Use **search** (the box in the left sidebar) to jump directly to a topic by name.
 
 ---
 
-## 🟢 Live Topics (36)
+## 🟢 Live Topics (50)
 
 Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed problem types, and cross-references to prerequisite and related topics.
 
-### Pre-Algebra (26 topics)
+### Pre-Algebra (28 topics)
 
 **Numbers and operations**
 - [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]]
@@ -64,7 +64,12 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Slope_Intercept_Form|Slope-Intercept Form]]
 - [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
 
-### Algebra 1 (9 topics)
+**Coordinate plane and inequalities** (new in Cluster 2)
+- [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
+- [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
+- [[Solving_One_Step_And_Two_Step_Inequalities|Solving One-Step and Two-Step Inequalities]]
+
+### Algebra 1 (20 topics)
 
 **Equations**
 - [[One_Step_Equations|One-Step Equations]]
@@ -75,13 +80,29 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Solving_Systems_By_Substitution|Solving Systems by Substitution]]
 - [[Solving_Systems_By_Elimination|Solving Systems by Elimination]]
 
-**Lines**
+**Lines** (expanded in Cluster 2)
 - [[Slope|Slope]]
+- [[Writing_Linear_Equations|Writing Linear Equations]]
+- [[Parallel_And_Perpendicular_Lines|Parallel and Perpendicular Lines]]
+- [[Graphing_Linear_Equations_From_Tables|Graphing Linear Equations from Tables]]
+- [[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]]
+
+**Inequalities** (new in Cluster 2)
+- [[Inequalities_And_Their_Graphs|Inequalities and Their Graphs]]
+- [[Solving_Multi_Step_Inequalities|Solving Multi-Step Inequalities]]
+- [[Compound_Inequalities|Compound Inequalities]]
+- [[Absolute_Value_Inequalities|Absolute Value Inequalities]]
+- [[Systems_Of_Linear_Inequalities|Systems of Linear Inequalities]]
 
 **Polynomials and exponents**
 - [[Properties_Of_Exponents|Properties of Exponents]]
 - [[Factoring_Trinomials_Leading_Coefficient_1|Factoring Trinomials (Leading Coefficient 1)]]
 - [[The_Quadratic_Formula|The Quadratic Formula]]
+
+### Algebra 2 (2 topics) (new in Cluster 2)
+
+- [[Linear_Functions|Linear Functions]]
+- [[Modeling_With_Linear_Functions|Modeling with Linear Functions]]
 
 ### Geometry (1 topic)
 
@@ -89,11 +110,11 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 
 ---
 
-## ⚪ Stub Topics (203)
+## ⚪ Stub Topics (189)
 
 Every remaining topic is listed under its branch hub with the full catalog coverage. Stubs have the frontmatter and source references but no prose or practice widgets yet. They become live one cluster at a time.
 
-- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~156 stubs)
+- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~142 stubs)
 - [[Geometry_Overview|Geometry branch hub]] (coordinate plane, ~1 stub)
 - [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~47 stubs)
 

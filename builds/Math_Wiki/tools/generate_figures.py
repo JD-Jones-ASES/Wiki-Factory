@@ -316,6 +316,294 @@ def fig_place_value_chart():
 
 
 # ---------------------------------------------------------------------------
+# Algebra: coordinate plane
+
+def fig_coordinate_plane():
+    """A standard coordinate plane from -5 to 5 with four labeled example points."""
+    fig, ax = plt.subplots(figsize=(6, 6))
+    ax.set_aspect("equal")
+    ax.set_xlim(-5.8, 5.8)
+    ax.set_ylim(-5.8, 5.8)
+
+    # Light grid at every integer
+    for i in range(-5, 6):
+        ax.plot([i, i], [-5, 5], color=C_GRID, linewidth=0.6, zorder=0)
+        ax.plot([-5, 5], [i, i], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # x-axis and y-axis with arrowheads on both ends
+    ax.annotate(
+        "", xy=(5.5, 0), xytext=(-5.5, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.6),
+    )
+    ax.annotate(
+        "", xy=(0, 5.5), xytext=(0, -5.5),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.6),
+    )
+
+    # Axis labels
+    ax.text(5.7, 0.25, r"$x$", fontsize=14, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.25, 5.7, r"$y$", fontsize=14, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Origin label (lower-left of (0,0))
+    ax.text(-0.25, -0.25, "O", fontsize=12, color=C_TEXT,
+            ha="right", va="top", fontweight="bold")
+
+    # Quadrant labels in the corners
+    quadrant_color = "#8a8a8a"
+    ax.text(4.5, 4.5, "I", fontsize=16, color=quadrant_color,
+            ha="center", va="center", fontstyle="italic")
+    ax.text(-4.5, 4.5, "II", fontsize=16, color=quadrant_color,
+            ha="center", va="center", fontstyle="italic")
+    ax.text(-4.5, -4.5, "III", fontsize=16, color=quadrant_color,
+            ha="center", va="center", fontstyle="italic")
+    ax.text(4.5, -4.5, "IV", fontsize=16, color=quadrant_color,
+            ha="center", va="center", fontstyle="italic")
+
+    # Example points: (coord, label, color)
+    points = [
+        ((3, 2), "A", "#2e86de"),    # blue
+        ((-2, 3), "B", "#10ac84"),   # green
+        ((-4, -1), "C", "#c44569"),  # red
+        ((1, -3), "D", "#ee7c2a"),   # orange
+    ]
+    for (px, py), label, color in points:
+        ax.plot(px, py, "o", color=color, markersize=9, zorder=4)
+        ax.text(px + 0.25, py + 0.25, label, fontsize=13, color=color,
+                ha="left", va="bottom", fontweight="bold")
+
+    ax.set_title("The Coordinate Plane", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/coordinate_plane.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: inequality number line (4 stacked examples)
+
+def fig_inequality_number_line():
+    """Four stacked inequality number lines from -5 to 5."""
+    fig, ax = plt.subplots(figsize=(7.5, 5.5))
+    ax.set_xlim(-7.5, 6)
+    ax.set_ylim(-0.6, 4.6)
+
+    shade_color = C_RADIUS
+    shade_alpha = 0.35
+
+    # Each row: (y, label, draw callback)
+    rows = [
+        (4.0, r"$x > 2$"),
+        (2.8, r"$x \leq -1$"),
+        (1.6, r"$-2 < x \leq 3$"),
+        (0.4, r"$x < 0$ or $x \geq 4$"),
+    ]
+
+    def draw_baseline(y):
+        # Main line with arrow caps from -5 to 5
+        ax.annotate(
+            "", xy=(5.3, y), xytext=(-5.3, y),
+            arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.6),
+        )
+        # Integer ticks
+        for i in range(-5, 6):
+            ax.plot([i, i], [y - 0.09, y + 0.09],
+                    color=C_LINE, linewidth=1.0)
+            ax.text(i, y - 0.33, str(i), ha="center", va="top",
+                    fontsize=8, color=C_TEXT)
+
+    def open_circle(x, y):
+        ax.plot(x, y, "o", markerfacecolor="white",
+                markeredgecolor=shade_color,
+                markeredgewidth=2.2, markersize=11, zorder=4)
+
+    def closed_circle(x, y):
+        ax.plot(x, y, "o", color=shade_color, markersize=11, zorder=4)
+
+    def shaded_ray(x_from, x_to, y):
+        ax.plot([x_from, x_to], [y, y],
+                color=shade_color, linewidth=4.0, alpha=0.75,
+                solid_capstyle="round", zorder=3)
+
+    # Row 1: x > 2
+    y1 = rows[0][0]
+    draw_baseline(y1)
+    open_circle(2, y1)
+    shaded_ray(2, 5.1, y1)
+
+    # Row 2: x <= -1
+    y2 = rows[1][0]
+    draw_baseline(y2)
+    closed_circle(-1, y2)
+    shaded_ray(-1, -5.1, y2)
+
+    # Row 3: -2 < x <= 3
+    y3 = rows[2][0]
+    draw_baseline(y3)
+    open_circle(-2, y3)
+    closed_circle(3, y3)
+    shaded_ray(-2, 3, y3)
+
+    # Row 4: x < 0 or x >= 4
+    y4 = rows[3][0]
+    draw_baseline(y4)
+    open_circle(0, y4)
+    shaded_ray(0, -5.1, y4)
+    closed_circle(4, y4)
+    shaded_ray(4, 5.1, y4)
+
+    # Left-side row labels
+    for y, label in rows:
+        ax.text(-7.3, y, label, ha="left", va="center",
+                fontsize=12, color=C_TEXT)
+
+    ax.set_title("Graphing Inequalities on a Number Line",
+                 fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/inequality_number_line.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: parallel & perpendicular lines
+
+def fig_parallel_perpendicular_lines():
+    """Coordinate plane showing two parallel lines and one perpendicular line."""
+    fig, ax = plt.subplots(figsize=(6, 6))
+    ax.set_aspect("equal")
+    ax.set_xlim(-5.8, 5.8)
+    ax.set_ylim(-5.8, 5.8)
+
+    # Light grid
+    for i in range(-5, 6):
+        ax.plot([i, i], [-5, 5], color=C_GRID, linewidth=0.6, zorder=0)
+        ax.plot([-5, 5], [i, i], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(5.5, 0), xytext=(-5.5, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 5.5), xytext=(0, -5.5),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(5.7, 0.25, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.25, 5.7, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # x values for plotting lines
+    xs = np.linspace(-5, 5, 200)
+
+    # Line A: y = (1/2)x + 1 (solid blue)
+    color_blue = "#2e86de"
+    color_red = "#c44569"
+    ya = 0.5 * xs + 1
+    ax.plot(xs, ya, color=color_blue, linewidth=2.2, label="A")
+
+    # Line B: y = (1/2)x - 2 (dashed blue, parallel)
+    yb = 0.5 * xs - 2
+    ax.plot(xs, yb, color=color_blue, linewidth=2.2, linestyle="--",
+            label="B")
+
+    # Line C: y = -2x + 3 (solid red, perpendicular)
+    yc = -2 * xs + 3
+    # Clip to the visible window so the label sits inside
+    mask_c = (yc >= -5) & (yc <= 5)
+    ax.plot(xs[mask_c], yc[mask_c], color=color_red, linewidth=2.2,
+            label="C")
+
+    # In-figure labels near each line
+    ax.text(4.5, 0.5 * 4.5 + 1 + 0.25, r"A: $y = \frac{1}{2}x + 1$",
+            fontsize=11, color=color_blue, ha="right", va="bottom")
+    ax.text(4.5, 0.5 * 4.5 - 2 + 0.25, r"B: $y = \frac{1}{2}x - 2$",
+            fontsize=11, color=color_blue, ha="right", va="bottom")
+    ax.text(-0.2, -2 * (-0.2) + 3 + 0.35, r"C: $y = -2x + 3$",
+            fontsize=11, color=color_red, ha="right", va="bottom")
+
+    # Annotation box explaining the relationships
+    info_text = (
+        "A "
+        + chr(0x2225)  # ∥
+        + " B  (same slope)\n"
+        + "A "
+        + chr(0x22A5)  # ⊥
+        + " C  (slopes multiply to -1)"
+    )
+    ax.text(-5.5, -5.4, info_text, fontsize=10, color=C_TEXT,
+            ha="left", va="bottom",
+            bbox=dict(boxstyle="round,pad=0.35",
+                      facecolor="white",
+                      edgecolor=C_DASH, linewidth=0.8))
+
+    ax.set_title("Parallel and Perpendicular Lines", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/parallel_perpendicular_lines.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: scatter plot with trend line
+
+def fig_scatter_trend_line():
+    """Scatter plot of 10 data points with a fitted trend line."""
+    # Local RNG so we don't leak state to other figure builders
+    rng = np.random.RandomState(42)
+
+    # 10 study-hours values spread across the range
+    x = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], dtype=float)
+    # y ≈ 1.5x + 2 with small deterministic jitter
+    jitter = rng.normal(0.0, 1.2, size=x.shape)
+    y = 1.5 * x + 2.0 + jitter
+
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(0, 11)
+    ax.set_ylim(0, 22)
+
+    # Axis ticks visible here (this is a real plot, not a concept diagram)
+    ax.set_xticks(range(0, 12, 2))
+    ax.set_yticks(range(0, 23, 4))
+    ax.tick_params(axis="both", colors=C_TEXT, labelsize=10)
+
+    # Grid
+    ax.grid(True, color=C_GRID, linewidth=0.7, zorder=0)
+
+    # Scatter points (blue)
+    ax.scatter(x, y, s=55, color="#2e86de",
+               edgecolors="#1c4e80", linewidth=0.8, zorder=3)
+
+    # Trend line: use the known generating slope/intercept so the line is
+    # a clean positive straight line regardless of jitter details.
+    xt = np.array([0.0, 11.0])
+    yt = 1.5 * xt + 2.0
+    ax.plot(xt, yt, color=C_RADIUS, linewidth=2.2, zorder=2,
+            label="Trend line")
+
+    ax.set_xlabel("Study Hours", fontsize=12, color=C_TEXT)
+    ax.set_ylabel("Test Score", fontsize=12, color=C_TEXT)
+    ax.set_title("Scatter Plot with Trend Line", fontsize=14, pad=12)
+
+    for spine_name, spine in ax.spines.items():
+        if spine_name in ("top", "right"):
+            spine.set_visible(False)
+        else:
+            spine.set_color(C_LINE)
+            spine.set_linewidth(1.2)
+
+    _save(fig, "algebra/scatter_trend_line.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -324,6 +612,10 @@ FIGURES = [
     ("fraction_bar", fig_fraction_bar),
     ("area_model_distributive", fig_area_model_distributive),
     ("place_value_chart", fig_place_value_chart),
+    ("coordinate_plane", fig_coordinate_plane),
+    ("inequality_number_line", fig_inequality_number_line),
+    ("parallel_perpendicular_lines", fig_parallel_perpendicular_lines),
+    ("scatter_trend_line", fig_scatter_trend_line),
 ]
 
 

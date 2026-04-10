@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.7.0 --- Cluster 1 shipped + navigation UI redesigned (2026-04-10)
+### Version 1.8.0 --- Cluster 2 Linear world completion shipped (2026-04-10)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 36 topics with working widgets, 110 generators, 9,621 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
+| **Scale** | Live: 50 topics with working widgets, 152 generators, 13,335 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -23,8 +23,9 @@
 
 - **Cluster 0** (infrastructure + alias merge) — **shipped** commit `8c1b4ac`
 - **Cluster 1** (pre-algebra foundations, 20 topics) — **shipped** commit `f27052f`
-- **Navigation UI redesign** — shipped (this version)
-- **Next:** Cluster 2 (Linear world completion, ~14 topics)
+- **Navigation UI redesign** — shipped commit `a0f4c4f`
+- **Cluster 2** (linear world completion, 14 topics) — **shipped** (this version)
+- **Next:** Cluster 3 (Polynomials + Quadratics deep, ~14 topics)
 
 ### 30-second mental model
 
@@ -953,10 +954,10 @@ The comprehensive buildout from the current state to complete integration of the
 
 | Cluster | Name | Topics | Status |
 |---|---|---:|---|
-| **0** | Infrastructure hardening + global alias merge | 0 | **shipping in this session** |
-| **1** | Pre-algebra foundations | ~18 | pending |
-| **2** | Linear world completion | ~14 | pending |
-| **3** | Polynomials + Quadratics deep | ~14 | pending |
+| **0** | Infrastructure hardening + global alias merge | 0 | **shipped** |
+| **1** | Pre-algebra foundations | 20 | **shipped** |
+| **2** | Linear world completion | 14 | **shipped in this session** |
+| **3** | Polynomials + Quadratics deep | ~14 | **next** |
 | **4** | Rationals & Radicals | ~12 | pending |
 | **5** | Functions & Transformations | ~14 | pending |
 | **6** | Exponentials & Logarithms | ~10 | pending |
@@ -1071,6 +1072,66 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.8.0 --- Cluster 2 Linear world completion (2026-04-10)
+
+**Stats:** 14 topics enriched (+14 live, now 50 total), 42 new generators (+42, now 152 total), 3,714 new verified problems (+3,714, now 13,335 total), 4 new matplotlib figures (coordinate plane, inequality number lines, parallel/perpendicular lines, scatter with trend line).
+
+**Topics shipped (all at draft status, scores 80+):**
+
+- **Pre-algebra intro inequalities (2):** Writing_And_Graphing_Inequalities, Solving_One_Step_And_Two_Step_Inequalities
+- **Pre-algebra coordinate plane (1):** Plotting_Points_And_The_Coordinate_Plane
+- **Pre-algebra lines bridge (1):** Graphing_Linear_Equations_From_Tables
+- **Algebra 1 inequalities deep (5):** Inequalities_And_Their_Graphs, Solving_Multi_Step_Inequalities, Compound_Inequalities, Absolute_Value_Inequalities, Systems_Of_Linear_Inequalities
+- **Algebra 1 lines (3):** Writing_Linear_Equations, Parallel_And_Perpendicular_Lines, Scatter_Plots_And_Trend_Lines
+- **Algebra 2 linear functions (2):** Linear_Functions, Modeling_With_Linear_Functions
+
+**Generator modules added (4):**
+
+- `generators/algebra/inequalities.py` — 15 generators covering 5 inequality topic slugs (two-step, distribution, variables-both-sides, compound three-part, compound AND, compound OR, abs-val LT/GT, abs-val edge cases, system test point, system identify half-plane, system slope-intercept form)
+- `generators/algebra/lines.py` — 15 generators covering 5 linear-line topic slugs (slope+y-int, slope+point, two points, parallel through point, perpendicular through point, classify parallel/perp/neither, evaluate f(x), function from slope+point, find zero, modeling cost, modeling predict, modeling inverse, table evaluate, table linearity check, table find equation)
+- `generators/pre_algebra/inequalities_intro.py` — 6 generators for the pre-algebra inequality intro (phrase-to-symbol, graph describe, inverse graph read, one-step add/sub, one-step mul/div with sign flip, two-step with sign flip)
+- `generators/algebra/coord_scatter.py` — 6 generators for coordinate plane + scatter plots (identify quadrant, point from instructions, distance on same axis, classify trend direction, predict from trend line, interpret slope in context)
+
+**Figures added** (all in `wiki/assets/figures/algebra/`, deterministic via local `np.random.RandomState(42)`):
+
+- `coordinate_plane.svg` — axes ±5, four quadrant labels, four example points A/B/C/D
+- `inequality_number_line.svg` — four stacked number lines showing `x > 2`, `x ≤ -1`, `-2 < x ≤ 3`, and OR case
+- `parallel_perpendicular_lines.svg` — three lines demonstrating same slope (parallel) + negative reciprocal (perpendicular) on a coordinate grid
+- `scatter_trend_line.svg` — 10 deterministic data points with trend line `y = 1.5x + 2` (study hours vs test score)
+
+**Execution model (parallelization):**
+
+- **Content wave:** 7 sub-agents total across 2 batches (4 + 3), each owning 2 topics. Total throughput: 14 topics enriched in ~25 minutes of wall-clock. Batch 1 ran inequalities (8 topics), batch 2 ran lines + linear functions (6 topics).
+- **Figures agent:** 1 sub-agent extended `tools/generate_figures.py` with 4 new figures in parallel with content batch 2. Also edited the 4 topic pages to embed `![[figure.svg|caption]]` references and update frontmatter `figures` field.
+- **Generator wave:** 3 sub-agents in parallel, each writing a generator module (or two). Agent 1 owned `inequalities.py` (5 topics × 3 = 15 gens), agent 2 owned `lines.py` (5 topics × 3 = 15 gens), agent 3 owned `inequalities_intro.py` + `coord_scatter.py` (4 topics × 3 = 12 gens).
+- **Race-condition handling on `__init__.py`:** 4 agents across batches edited both `generators/algebra/__init__.py` and `generators/pre_algebra/__init__.py` via Edit tool with distinct surrounding context. All 4 import lines landed cleanly.
+
+**What worked:**
+
+- **Splitting the cluster into inequalities-first and lines-second** let batch 1 agents work on a coherent theme without needing the linear-equation work that batch 2 would produce. Agents in batch 2 had the inequality pages already on disk to wikilink against.
+- **Topic-family generator modules** (one file per 5 topics, 15 generators) stayed well under any reasonable file-size limit and made the registration step trivial — one import line per module.
+- **Backward construction everywhere** — every one of the 42 generators picks the answer first and derives parameters, so there are zero guess-and-check loops and zero infinite-loop bugs. Wave 1's `quadratic_formula_radical_roots` hiccup from Cluster 1 is not going to repeat.
+- **Sign-flip coverage as a deliberate constraint** — inequality generators were explicitly prompted to produce ~1/3 sign-flip problems. The pedagogical goal is the student encountering the flip *frequently*, not just once, so the muscle memory builds.
+- **`<details>` collapsing for stub lists in branch hubs** (from v1.7.0) held up perfectly. Algebra_Overview now shows 49 live topics followed by a collapsed stub list, and the page stays scannable.
+- **Copyright allowlist discipline** — three copyright-safety failures were caught in the first pass of `test_copyright_safety.py`. All three were common textbook phrasings ("write the equation of the line with slope... that passes through...", "trend line, also called a line of best fit", "multiply or divide both sides by a negative number"). Fixing each took a 1-line rewrite — no allowlist expansion needed.
+
+**What failed and how it was fixed:**
+
+- **Copyright near-misses on generic textbook phrasing.** Three separate topics tripped 15-word shingle matches on phrases that are more "definitional idiom" than "verbatim paragraph": the canonical "write the equation of the line..." problem-statement template across Writing_Linear_Equations and Parallel_And_Perpendicular_Lines, and the "(also called a line of best fit)" parenthetical in Scatter_Plots_And_Trend_Lines. Fix: rewrote each offending phrase with new syntax ("A line has slope... Find its equation..." instead of "Write the equation of the line with slope..."). Total repair time: 5 minutes.
+- **Ad-hoc tag `#topic-modeling` on `Modeling_With_Linear_Functions`.** The content agent invented a tag not in `_tag_taxonomy.md`. Lint caught it immediately. Fix: removed the tag (the remaining `#topic-functions` + `#topic-linear` cover the topic adequately). No need to extend the taxonomy for a single topic.
+- **Obsolete generator-wave test path in prompts.** The agent prompts referenced `generators/tests/test_generators.py` but that file is actually `generators/tests/test_circles.py` (the parametrized all-generators smoke test). All 3 generator agents flagged this and adapted. Fix for future clusters: update the generator prompt template to reference `test_circles.py` by name.
+
+**Gate checks after Cluster 2:**
+
+- **Pytest:** 29/29 green (8 circles-parametrized + 10 consolidate-snapshot + 3 copyright + 8 ingest smoke). All 152 generators pass the parametrized test suite automatically.
+- **Lint:** 0 errors, 0 warnings, 1 info (216 stub pages — down from 231).
+- **YAML:** 257/257 clean.
+- **Topic status:** 239 topics across 4 branches, avg score 26.7 / 100 (was 22.2 after Cluster 1). 48 topics now have 3+ generators (was 34). Pre-algebra branch average 34.3 (was 31.0); Algebra branch average 24.6 (was ~18).
+- **Bank size:** 10.3 MB across 50 shards, all under 320 KB each. Largest shard: `systems_of_linear_inequalities.json` at 291.5 KB.
+- **Branch hubs:** Algebra_Overview now shows 49 live topics; the auto-generated block updated cleanly via `tools/update_branch_hubs.py`.
+
+**What's next (Cluster 3):** Polynomials + Quadratics deep. Extends the already-live `Factoring_Trinomials_Leading_Coefficient_1` and `The_Quadratic_Formula` with: polynomial arithmetic (add/sub/mul), special products (difference of squares, perfect square trinomials as first-class topics), factoring general form `ax² + bx + c`, factoring completely, quadratic graphing (vertex form, direction, range), completing the square, the discriminant as a theoretical tool, and quadratic applications. ~14 topics. Same cadence as Cluster 2: inequalities-batch → lines-batch structure mapped to polynomials-batch → quadratics-batch.
 
 ### Version 1.7.0 --- Navigation UI redesign (2026-04-10)
 
