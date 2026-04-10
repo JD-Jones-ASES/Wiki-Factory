@@ -15,20 +15,43 @@ import os
 import yaml
 
 
-# Map page type/directory to breadcrumb section
+# Map each wiki subdirectory to an ordered list of (label, hub_stem)
+# candidates. At runtime the first candidate whose ``{wiki_dir}/{stem}.md``
+# file exists wins. This lets multiple wikis share the same subdir name
+# (e.g., both Hymn Wiki and Math Wiki have ``entities/``) but render the
+# breadcrumb with the wiki-appropriate label and target.
 SECTION_MAP = {
-    'hymns': ('[[Hymns_Overview|Hymns]]', 'hymns'),
-    'entities': ('[[People_Overview|People]]', 'entities'),
-    'concepts': ('[[Concepts_Overview|Ideas]]', 'concepts'),
-    'synthesis': ('[[Synthesis_Overview|Stories]]', 'synthesis'),
-    'timelines': ('[[Synthesis_Overview|Stories]]', 'timelines'),
-    'sources': ('Sources', 'sources'),
+    'hymns': [('Hymns', 'Hymns_Overview')],
+    'entities': [
+        ('People', 'People_Overview'),                # Hymn Wiki
+        ('Mathematicians', 'Entities_Overview'),      # Math Wiki
+    ],
+    'concepts': [('Ideas', 'Concepts_Overview')],
+    'synthesis': [('Stories', 'Synthesis_Overview')],
+    'timelines': [('Stories', 'Synthesis_Overview')],
+    'sources': [('Sources', 'Sources_Overview')],
     # Math Wiki sections
-    'topics': ('[[Topics_Overview|Topics]]', 'topics'),
-    'problem_types': ('[[Problem_Types_Overview|Problem Types]]', 'problem_types'),
-    'techniques': ('[[Techniques_Overview|Techniques]]', 'techniques'),
-    'formulas': ('[[Formulas_Overview|Formulas]]', 'formulas'),
+    'topics':        [('Topics',        'Topics_Overview')],
+    'problem_types': [('Problem Types', 'Problem_Types_Overview')],
+    'techniques':    [('Techniques',    'Techniques_Overview')],
+    'formulas':      [('Formulas',      'Formulas_Overview')],
 }
+
+
+def resolve_section_hub(candidates, wiki_dir):
+    """Return a wikilink string for the first candidate hub that exists.
+
+    If none of the candidate hub files exist yet, emit the first candidate
+    as a link anyway so the breadcrumb starts resolving the moment the hub
+    is created.
+    """
+    for label, stem in candidates:
+        if os.path.exists(os.path.join(wiki_dir, stem + '.md')):
+            return f'[[{stem}|{label}]]'
+    if candidates:
+        label, stem = candidates[0]
+        return f'[[{stem}|{label}]]'
+    return ''
 
 
 def get_section(filepath, wiki_dir):
@@ -39,7 +62,8 @@ def get_section(filepath, wiki_dir):
     if len(parts) > 1:
         subdir = parts[0]
         if subdir in SECTION_MAP:
-            return SECTION_MAP[subdir]
+            candidates = SECTION_MAP[subdir]
+            return (resolve_section_hub(candidates, wiki_dir), subdir)
 
     return None
 

@@ -1,0 +1,61 @@
+{
+  "book_slug": "book_mini",
+  "book_title": "Mini Test Book",
+  "branch_hint": "pre-algebra",
+  "chapter_number": "1",
+  "chapter_title": "Foundations",
+  "sections": [
+    {
+      "number": "1.1",
+      "title": "Variables and Expressions",
+      "title_plain": "Variables and Expressions",
+      "label": "sec:ch01:vars",
+      "source_file": "chapters/ch01/sections/sec01.tex",
+      "block_counts": {
+        "definition": 1,
+        "example": 1
+      },
+      "blocks": [
+        {
+          "env": "keyterm",
+          "kind": "definition",
+          "title": "Variable",
+          "title_plain": "Variable",
+          "label": "def:variable",
+          "body_latex": "A variable is a symbol that represents a number.",
+          "body_preview": "A variable is a symbol that represents a number."
+        },
+        {
+          "env": "example",
+          "kind": "example",
+          "title": "Substituting a value",
+          "title_plain": "Substituting a value",
+          "label": "ex:subst",
+          "body_latex": "Evaluate $2x+3$ when $x=4$. The answer is $11$.",
+          "body_preview": "Evaluate 2x+3 when x=4. The answer is 11."
+        }
+      ]
+    },
+    {
+      "number": "1.2",
+      "title": "Order of Operations",
+      "title_plain": "Order of Operations",
+      "label": "sec:ch01:order",
+      "source_file": "chapters/ch01/sections/sec02.tex",
+      "block_counts": {
+        "property": 1
+      },
+      "blocks": [
+        {
+          "env": "property",
+          "kind": "property",
+          "title": "PEMDAS",
+          "title_plain": "PEMDAS",
+          "label": "prop:pemdas",
+          "body_latex": "Parentheses, exponents, multiply/divide, add/subtract.",
+          "body_preview": "Parentheses, exponents, multiply/divide, add/subtract."
+        }
+      ]
+    }
+  ]
+}

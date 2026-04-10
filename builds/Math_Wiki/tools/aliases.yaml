@@ -1,0 +1,304 @@
+# Math_Wiki canonical-topic alias rules.
+#
+# This file is a LIVING RECORD of manual merge decisions the conservative
+# exact-title consolidator in tools/consolidate_extractions.py can't make on
+# its own. It is applied in consolidate_extractions.py AFTER titles are
+# normalized and topics are keyed by normalized-title, but BEFORE the catalog
+# shards are written.
+#
+# Location: builds/Math_Wiki/tools/aliases.yaml (version-controlled). The
+# raw/ tree is gitignored, so this file lives alongside the consolidation
+# tool it configures rather than inside raw/catalog/.
+#
+# WORKFLOW
+# --------
+# 1. Run consolidate_extractions.py with no aliases active (or with any
+#    existing ones) to produce a catalog.
+# 2. Review the catalog and spot topics that should be merged, renamed, or
+#    split. Edit this file.
+# 3. Rerun consolidate_extractions.py. Your rules apply; the affected slugs
+#    and canonical titles change in a single pass.
+# 4. Rerun tools/generate_topic_stubs.py --branch all --force (scoped to the
+#    affected slugs) to regenerate any wiki pages that changed slugs.
+# 5. Commit the updated aliases.yaml, the regenerated catalog, and any
+#    regenerated stubs together.
+#
+# ORDER OF OPERATIONS (inside apply_aliases)
+#   1. RENAMES are applied first (so downstream merges/splits can refer to
+#      either the old or the new slug).
+#   2. MERGES are applied next (after renames, so merge rules can refer to
+#      renamed slugs).
+#   3. SPLITS are applied last (a split on a merged target is well-defined).
+#
+# SLUG CONVENTIONS
+# ----------------
+# Slugs are Title_Case_With_Underscores (e.g., "Polynomial_Division"), matching
+# the filenames in wiki/topics/. Slugs are case-sensitive.
+#
+# SCHEMA VERSION 1
+# ----------------
+# merges:
+#   - from: ["Slug_A", "Slug_B", ...]   # two or more slugs to collapse
+#     into: "Canonical_Slug"            # target slug (may or may not appear in 'from')
+#     canonical_title: "Human Title"    # optional; defaults to the 'into' slug with underscores->spaces
+#     rationale: "Short reason"         # required; documents the merge decision
+#
+# renames:
+#   - from: "Old_Slug"
+#     to: "New_Slug"
+#     canonical_title: "Human Title"    # optional
+#     rationale: "Short reason"
+#
+# splits:
+#   - from: "Overloaded_Slug"
+#     into:
+#       - slug: "Child_A"
+#         canonical_title: "Child A"
+#         keep_sources_matching:        # which sources move to this child
+#           - book_slug: "algtrig"
+#             section_prefix: "1.1"
+#       - slug: "Child_B"
+#         canonical_title: "Child B"
+#         keep_sources_matching:
+#           - book_slug: "algebra_2"
+#     rationale: "Short reason"
+#
+# NOTES
+# -----
+# - An empty merges/renames/splits list (or omitting the key entirely) is
+#   valid. A fresh file just has `version: 1` and nothing else.
+# - Destructive operations (delete slug, remove from catalog) are NOT
+#   supported. Use a merge into the intended canonical slug instead.
+# - A slug appearing in multiple destination rules is an error; apply_aliases
+#   will raise.
+# - Live wiki pages whose slug gets renamed will need their files moved on
+#   disk; that move is NOT done by consolidate_extractions.py. Use
+#   `py -3 tools/generate_topic_stubs.py --force` to regenerate stubs at the
+#   new slug. Hand-written topic pages (Circles, etc.) need manual `git mv`.
+#
+# -----------------------------------------------------------------------------
+
+version: 1
+
+# -----------------------------------------------------------------------------
+# RENAMES --- Stitz-Zeager CamelCase slugs that didn't normalize correctly.
+# Each fixes a single-source topic (no cross-branch duplicate). These rename
+# the slug AND set a proper human-readable canonical_title.
+# -----------------------------------------------------------------------------
+renames:
+  - from: "Algebraicfunctions"
+    to: "Algebraic_Functions"
+    canonical_title: "Algebraic Functions"
+    rationale: "Stitz-Zeager CamelCase (AlgebraicFunctions) didn't split; no algebra-2 dup."
+
+  - from: "Augmatrices"
+    to: "Augmented_Matrices"
+    canonical_title: "Augmented Matrices"
+    rationale: "Stitz-Zeager abbreviation (AugMatrices); no algebra-2 dup."
+
+  - from: "Cartesianplane"
+    to: "Cartesian_Plane"
+    canonical_title: "The Cartesian Plane"
+    rationale: "Stitz-Zeager CamelCase (CartesianPlane) didn't split; no algebra-2 dup."
+
+  - from: "Circularfunctions"
+    to: "Circular_Functions"
+    canonical_title: "Circular Functions"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Complexzeros"
+    to: "Complex_Zeros"
+    canonical_title: "Complex Zeros of Polynomials"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Dotproduct"
+    to: "Dot_Product"
+    canonical_title: "The Dot Product"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Functionnotation"
+    to: "Function_Notation"
+    canonical_title: "Function Notation"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Graphsofequations"
+    to: "Graphs_Of_Equations"
+    canonical_title: "Graphs of Equations"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Graphsoffunctions"
+    to: "Graphs_Of_Functions"
+    canonical_title: "Graphs of Functions"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Graphsofpolynomials"
+    to: "Graphs_Of_Polynomials"
+    canonical_title: "Graphs of Polynomials"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Introexplogs"
+    to: "Introduction_To_Exponentials_And_Logarithms"
+    canonical_title: "Introduction to Exponentials and Logarithms"
+    rationale: "Stitz-Zeager chapter-intro abbreviation; covers broader material than any single algebra-2 topic so kept as its own overview."
+
+  - from: "Intropolar"
+    to: "Introduction_To_Polar_Coordinates"
+    canonical_title: "Introduction to Polar Coordinates"
+    rationale: "Stitz-Zeager chapter-intro abbreviation; no algebra-2 dup."
+
+  - from: "Introrational"
+    to: "Introduction_To_Rational_Functions"
+    canonical_title: "Introduction to Rational Functions"
+    rationale: "Stitz-Zeager chapter-intro abbreviation; no algebra-2 dup."
+
+  - from: "Introtoconics"
+    to: "Introduction_To_Conics"
+    canonical_title: "Introduction to Conic Sections"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Introtofunctions"
+    to: "Introduction_To_Functions"
+    canonical_title: "Introduction to Functions"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Lawofcosines"
+    to: "Law_Of_Cosines"
+    canonical_title: "The Law of Cosines"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Lawofsines"
+    to: "Law_Of_Sines"
+    canonical_title: "The Law of Sines"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Logproperties"
+    to: "Properties_Of_Logarithms"
+    canonical_title: "Properties of Logarithms"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup (algebra-2 has Logarithmic_Equations which is different)."
+
+  - from: "Matarithmetic"
+    to: "Matrix_Arithmetic"
+    canonical_title: "Matrix Arithmetic"
+    rationale: "Stitz-Zeager abbreviation; no algebra-2 dup."
+
+  - from: "Matmethods"
+    to: "Matrix_Methods"
+    canonical_title: "Matrix Methods for Systems"
+    rationale: "Stitz-Zeager abbreviation; no algebra-2 dup."
+
+  - from: "Nonlinear"
+    to: "Nonlinear_Systems"
+    canonical_title: "Nonlinear Systems"
+    rationale: "Stitz-Zeager generic slug; narrowed to match the actual topic content."
+
+  - from: "Polarcomplex"
+    to: "Polar_Form_Of_Complex_Numbers"
+    canonical_title: "Polar Form of Complex Numbers"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Polarconics"
+    to: "Conic_Sections_In_Polar_Coordinates"
+    canonical_title: "Conic Sections in Polar Coordinates"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Polargraphs"
+    to: "Polar_Graphs"
+    canonical_title: "Graphs of Polar Equations"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Rationalgraphs"
+    to: "Graphs_Of_Rational_Functions"
+    canonical_title: "Graphs of Rational Functions"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup (algebra-2 has Rational_Functions_Introduction)."
+
+  - from: "Realzeros"
+    to: "Real_Zeros_Of_Polynomials"
+    canonical_title: "Real Zeros of Polynomials"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Realzeros_New"
+    to: "Real_Zeros_Of_Polynomials_Advanced"
+    canonical_title: "Real Zeros of Polynomials (Advanced)"
+    rationale: "Stitz-Zeager has two consecutive sections with 'Real Zeros' naming; consolidator added _New suffix to disambiguate. Kept as a second topic (advanced continuation) rather than merging."
+
+  - from: "Theunitcircle"
+    to: "The_Unit_Circle"
+    canonical_title: "The Unit Circle"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Trigequineq"
+    to: "Trigonometric_Equations"
+    canonical_title: "Trigonometric Equations"
+    rationale: "Stitz-Zeager abbreviation (TrigEquIneq); section 7.6 covers equations primarily."
+
+  - from: "Trigequineq_New"
+    to: "Trigonometric_Inequalities"
+    canonical_title: "Trigonometric Inequalities"
+    rationale: "Stitz-Zeager has two 7.6/7.7 sections; the second focuses on inequalities. Kept separate from Trigonometric_Equations."
+
+  - from: "Triggraphs"
+    to: "Graphs_Of_Trigonometric_Functions"
+    canonical_title: "Graphs of Trigonometric Functions"
+    rationale: "Stitz-Zeager CamelCase; no algebra-2 dup."
+
+  - from: "Explogapplications"
+    to: "Applications_Of_Exponentials_And_Logarithms"
+    canonical_title: "Applications of Exponentials and Logarithms"
+    rationale: "Stitz-Zeager CamelCase; no direct algebra-2 dup (algebra-2 covers specific applications, Stitz-Zeager has the broader chapter)."
+
+  - from: "Arctrig"
+    to: "Inverse_Trigonometric_Functions"
+    canonical_title: "Inverse Trigonometric Functions"
+    rationale: "Stitz-Zeager short-form (ArcTrig); proper name for the topic."
+
+  - from: "Regression"
+    to: "Linear_Regression"
+    canonical_title: "Linear Regression"
+    rationale: "Stitz-Zeager generic slug; narrowed to the actual topic."
+
+
+# -----------------------------------------------------------------------------
+# MERGES --- cross-branch duplicates the conservative consolidator missed.
+# Pre-calc (Stitz-Zeager) and algebra-2 both cover several topics; where the
+# content clearly overlaps, we fold them into a single canonical topic with
+# multiple sources.
+# -----------------------------------------------------------------------------
+merges:
+  - from: ["Polydivision", "Polynomial_Division"]
+    into: "Polynomial_Division"
+    canonical_title: "Polynomial Division"
+    rationale: "Stitz-Zeager 'Polydivision' and algebra-2 'Polynomial_Division' cover the same dividing-polynomial material; merge into the more descriptive slug."
+
+  - from: ["Rationalineq", "Rational_Inequalities"]
+    into: "Rational_Inequalities"
+    canonical_title: "Rational Inequalities"
+    rationale: "Stitz-Zeager abbreviation collides with algebra-2's full name; merge."
+
+  - from: ["Expequations", "Exponential_Equations"]
+    into: "Exponential_Equations"
+    canonical_title: "Exponential Equations"
+    rationale: "Stitz-Zeager 'ExpEquations' and algebra-2 'Exponential_Equations' are the same topic; merge."
+
+  - from: ["Logequations", "Logarithmic_Equations"]
+    into: "Logarithmic_Equations"
+    canonical_title: "Logarithmic Equations"
+    rationale: "Stitz-Zeager 'LogEquations' and algebra-2 'Logarithmic_Equations' are the same topic; merge."
+
+  - from: ["Linsystems", "Systems_Of_Linear_Equations"]
+    into: "Systems_Of_Linear_Equations"
+    canonical_title: "Systems of Linear Equations"
+    rationale: "Stitz-Zeager 'LinSystems' chapter overlaps substantially with algebra-2's systems chapter; merge."
+
+  - from: ["Functioncomposition", "Functionarithmetic", "Function_Arithmetic_And_Composition"]
+    into: "Function_Arithmetic_And_Composition"
+    canonical_title: "Function Arithmetic and Composition"
+    rationale: "Stitz-Zeager separates function composition and function arithmetic into two sections; algebra-2 covers both in one chapter. Merge all three into the combined algebra-2 slug."
+
+  - from: ["Quadraticfunctions", "Quadratic_Functions_And_Vertex_Form"]
+    into: "Quadratic_Functions"
+    branch: "algebra-2"
+    canonical_title: "Quadratic Functions"
+    rationale: "Stitz-Zeager 'QuadraticFunctions' is the general chapter; algebra-2 'Quadratic_Functions_And_Vertex_Form' is a subset. Merge into a cleaner canonical slug; pin to algebra-2 branch so it appears in that hub."
+
+
+splits: []

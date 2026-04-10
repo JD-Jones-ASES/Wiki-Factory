@@ -26,6 +26,46 @@ jobs:
         with:
           node-version: 22
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyyaml pytest sympy
+
+      - name: Run Math_Wiki pytest (generators + copyright + snapshot + smoke)
+        run: |
+          if [ -f builds/Math_Wiki/pyproject.toml ]; then
+            cd builds/Math_Wiki
+            python -m pytest generators/tests/ -q
+            cd "$GITHUB_WORKSPACE"
+          fi
+
+      - name: Validate YAML frontmatter in every wiki
+        run: |
+          for wiki_dir in builds/*/; do
+            wiki_name=$(basename "$wiki_dir")
+            if [[ "$wiki_name" == _* ]] || [ ! -d "$wiki_dir/wiki" ]; then
+              continue
+            fi
+            echo "Validating YAML in $wiki_name"
+            python factory/scripts/validate_yaml.py "$wiki_dir/wiki"
+          done
+
+      - name: Regenerate _index.md for every wiki
+        run: |
+          for wiki_dir in builds/*/; do
+            wiki_name=$(basename "$wiki_dir")
+            if [[ "$wiki_name" == _* ]] || [ ! -d "$wiki_dir/wiki" ]; then
+              continue
+            fi
+            echo "Rebuilding _index.md for $wiki_name"
+            python factory/scripts/build_index.py "$wiki_dir/wiki"
+          done
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 

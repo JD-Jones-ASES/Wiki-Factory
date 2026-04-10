@@ -205,12 +205,12 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - [[Completing_The_Square|Completing the Square]] --- _6 worked example(s)_
 - [[Cube_Root_And_Other_Radical_Functions|Cube Root and Other Radical Functions]] --- _3 worked example(s)_
 - [[Ellipses|Ellipses]] --- _covered by 2 books, 9 worked example(s)_
-- [[Exponential_Equations|Exponential Equations]] --- _5 worked example(s)_
+- [[Exponential_Equations|Exponential Equations]] --- _covered by 2 books, 9 worked example(s)_
 - [[Exponential_Functions|Exponential Functions]] --- _4 worked example(s)_
 - [[Factoring_Expressions|Factoring Expressions]] --- _7 worked example(s)_
 - [[Factoring_I|Factoring I]] --- _8 worked example(s)_
 - [[Factoring_Ii|Factoring II]] --- _6 worked example(s)_
-- [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]] --- _5 worked example(s)_
+- [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]] --- _covered by 3 books, 11 worked example(s)_
 - [[Function_Basics|Function Basics]] --- _5 worked example(s)_
 - [[Graphing_Rational_Functions_Part_1|Graphing Rational Functions: Part~1]] --- _4 worked example(s)_
 - [[Graphing_Rational_Functions_Part_2|Graphing Rational Functions: Part~2]] --- _6 worked example(s)_
@@ -218,7 +218,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - [[Hyperbolas|Hyperbolas]] --- _covered by 2 books, 14 worked example(s)_
 - [[Inverse_Functions|Inverse Functions]] --- _covered by 2 books, 10 worked example(s)_
 - [[Linear_Functions|Linear Functions]] --- _covered by 2 books, 12 worked example(s)_
-- [[Logarithmic_Equations|Logarithmic Equations]] --- _5 worked example(s)_
+- [[Logarithmic_Equations|Logarithmic Equations]] --- _covered by 2 books, 9 worked example(s)_
 - [[Logarithmic_Functions|Logarithmic Functions]] --- _4 worked example(s)_
 - [[Logarithms|Logarithms]] --- _5 worked example(s)_
 - [[Modeling_With_Linear_Functions|Modeling with Linear Functions]] --- _5 worked example(s)_
@@ -226,14 +226,14 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]] --- _4 worked example(s)_
 - [[Parabolas|Parabolas]] --- _covered by 2 books, 10 worked example(s)_
 - [[Polynomial_Basics|Polynomial Basics]] --- _6 worked example(s)_
-- [[Polynomial_Division|Polynomial Division]] --- _4 worked example(s)_
+- [[Polynomial_Division|Polynomial Division]] --- _covered by 2 books, 7 worked example(s)_
 - [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]] --- _4 worked example(s)_
 - [[Polynomial_Inequalities|Polynomial Inequalities]] --- _6 worked example(s)_
 - [[Power_Functions|Power Functions]] --- _4 worked example(s)_
 - [[Powers_And_Roots|Powers and Roots]] --- _8 worked example(s)_
-- [[Quadratic_Functions_And_Vertex_Form|Quadratic Functions and Vertex Form]] --- _5 worked example(s)_
+- [[Quadratic_Functions|Quadratic Functions]] --- _covered by 2 books, 10 worked example(s)_
 - [[Rational_Equations_And_Applications|Rational Equations and Applications]] --- _5 worked example(s)_
-- [[Rational_Inequalities|Rational Inequalities]] --- _4 worked example(s)_
+- [[Rational_Inequalities|Rational Inequalities]] --- _covered by 2 books, 11 worked example(s)_
 - [[Sequences|Sequences]] --- _covered by 2 books, 9 worked example(s)_
 - [[Set_Notation_And_The_Real_Numbers|Set Notation and the Real Numbers]] --- _3 worked example(s)_
 - [[Slopes_Of_Lines|Slopes of Lines]] --- _5 worked example(s)_
@@ -242,7 +242,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - [[Solving_Equations_In_One_Variable|Solving Equations in One Variable]] --- _5 worked example(s)_
 - [[Solving_Inequalities_In_One_Variable|Solving Inequalities in One Variable]] --- _5 worked example(s)_
 - [[Square_Root_Functions|Square Root Functions]] --- _4 worked example(s)_
-- [[Systems_Of_Linear_Equations|Systems of Linear Equations]] --- _5 worked example(s)_
+- [[Systems_Of_Linear_Equations|Systems of Linear Equations]] --- _covered by 2 books, 8 worked example(s)_
 - [[The_Complex_Number_System|The Complex Number System]] --- _5 worked example(s)_
 - [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]] --- _5 worked example(s)_
 - [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, and Combined]] --- _4 worked example(s)_
