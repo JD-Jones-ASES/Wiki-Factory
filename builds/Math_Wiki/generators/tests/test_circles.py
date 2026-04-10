@@ -47,19 +47,24 @@ def test_generator_topic_slugs_set(registered):
 
 @pytest.mark.parametrize("difficulty", DIFFICULTIES)
 def test_each_generator_produces_batch(registered, difficulty):
-    """Every generator produces 15 unique verified problems at every difficulty.
+    """Every generator produces a small verified batch at every difficulty.
 
-    Note: the bank build uses a larger count per difficulty; this smoke test
-    stays small so it runs fast and works for every generator regardless of
-    parameter-space size.
+    Respects each generator's ``bank_count_per_difficulty`` override so
+    small-parameter-space generators (e.g., Pythagorean triples) aren't
+    asked for more problems than they can produce. Caps at 10 problems
+    to keep the test fast.
     """
+    TEST_FLOOR = 5  # must produce at least this many per difficulty
+    TEST_CEIL = 10  # but no more than this (keeps tests fast)
     for gen in registered:
         if difficulty not in gen.supports_difficulties:
             continue
-        batch = gen.generate_batch(difficulty, count=15, seed=42)
-        assert len(batch) == 15, f"{gen.generator_id}/{difficulty}: wrong count"
+        generator_cap = getattr(gen, "bank_count_per_difficulty", None) or TEST_CEIL
+        count = max(TEST_FLOOR, min(TEST_CEIL, generator_cap))
+        batch = gen.generate_batch(difficulty, count=count, seed=42)
+        assert len(batch) == count, f"{gen.generator_id}/{difficulty}: wrong count"
         ids = {p.id for p in batch}
-        assert len(ids) == 15, f"{gen.generator_id}/{difficulty}: duplicate IDs"
+        assert len(ids) == count, f"{gen.generator_id}/{difficulty}: duplicate IDs"
         for p in batch:
             _assert_problem_well_formed(p, gen.generator_id, difficulty)
 

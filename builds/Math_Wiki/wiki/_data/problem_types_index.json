@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T14:48:07.794771+00:00",
+  "generated_at": "2026-04-10T15:16:25.282829+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 5,
+  "generator_count": 22,
   "by_topic": {
     "circles": [
       {
@@ -49,6 +49,186 @@
       {
         "generator_id": "circles_area_from_diameter",
         "display_name": "Find circle area from diameter",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "the_pythagorean_theorem": [
+      {
+        "generator_id": "pythagoras_find_hypotenuse",
+        "display_name": "Find hypotenuse given legs",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "pythagoras_find_leg",
+        "display_name": "Find a leg given hypotenuse and other leg",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "pythagoras_check_right_triangle",
+        "display_name": "Is a triangle a right triangle?",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "one_step_equations": [
+      {
+        "generator_id": "one_step_eq_add",
+        "display_name": "Solve x + a = b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "one_step_eq_sub",
+        "display_name": "Solve x - a = b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "one_step_eq_mul",
+        "display_name": "Solve a·x = b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "one_step_eq_div",
+        "display_name": "Solve x/a = b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "slope": [
+      {
+        "generator_id": "slope_from_two_points",
+        "display_name": "Find slope from two points",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "slope_from_slope_intercept_form",
+        "display_name": "Find slope from y = mx + b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "slope_classify_from_points",
+        "display_name": "Classify slope as positive, negative, zero, or undefined",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "slope_parallel_perpendicular",
+        "display_name": "Find slopes of parallel and perpendicular lines",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "the_quadratic_formula": [
+      {
+        "generator_id": "quadratic_formula_integer_roots",
+        "display_name": "Solve ax^2 + bx + c = 0 (integer roots)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "quadratic_discriminant",
+        "display_name": "Compute the discriminant and classify roots",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "quadratic_formula_radical_roots",
+        "display_name": "Solve using the quadratic formula (radical answers)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "finding_a_percent_of_a_number": [
+      {
+        "generator_id": "percent_of_number",
+        "display_name": "Find p% of a number",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_one_is_of_other",
+        "display_name": "x is what percent of y?",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_find_whole",
+        "display_name": "x is p% of what number?",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -108,6 +288,176 @@
         "hard": 30
       },
       "shard_file": "problems/circles.json"
+    },
+    "pythagoras_find_hypotenuse": {
+      "topic_slug": "the_pythagorean_theorem",
+      "display_name": "Find hypotenuse given legs",
+      "counts": {
+        "easy": 10,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/the_pythagorean_theorem.json"
+    },
+    "pythagoras_find_leg": {
+      "topic_slug": "the_pythagorean_theorem",
+      "display_name": "Find a leg given hypotenuse and other leg",
+      "counts": {
+        "easy": 10,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/the_pythagorean_theorem.json"
+    },
+    "pythagoras_check_right_triangle": {
+      "topic_slug": "the_pythagorean_theorem",
+      "display_name": "Is a triangle a right triangle?",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_pythagorean_theorem.json"
+    },
+    "one_step_eq_add": {
+      "topic_slug": "one_step_equations",
+      "display_name": "Solve x + a = b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/one_step_equations.json"
+    },
+    "one_step_eq_sub": {
+      "topic_slug": "one_step_equations",
+      "display_name": "Solve x - a = b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/one_step_equations.json"
+    },
+    "one_step_eq_mul": {
+      "topic_slug": "one_step_equations",
+      "display_name": "Solve a·x = b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/one_step_equations.json"
+    },
+    "one_step_eq_div": {
+      "topic_slug": "one_step_equations",
+      "display_name": "Solve x/a = b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/one_step_equations.json"
+    },
+    "slope_from_two_points": {
+      "topic_slug": "slope",
+      "display_name": "Find slope from two points",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/slope.json"
+    },
+    "slope_from_slope_intercept_form": {
+      "topic_slug": "slope",
+      "display_name": "Find slope from y = mx + b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/slope.json"
+    },
+    "slope_classify_from_points": {
+      "topic_slug": "slope",
+      "display_name": "Classify slope as positive, negative, zero, or undefined",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/slope.json"
+    },
+    "slope_parallel_perpendicular": {
+      "topic_slug": "slope",
+      "display_name": "Find slopes of parallel and perpendicular lines",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/slope.json"
+    },
+    "quadratic_formula_integer_roots": {
+      "topic_slug": "the_quadratic_formula",
+      "display_name": "Solve ax^2 + bx + c = 0 (integer roots)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_quadratic_formula.json"
+    },
+    "quadratic_discriminant": {
+      "topic_slug": "the_quadratic_formula",
+      "display_name": "Compute the discriminant and classify roots",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_quadratic_formula.json"
+    },
+    "quadratic_formula_radical_roots": {
+      "topic_slug": "the_quadratic_formula",
+      "display_name": "Solve using the quadratic formula (radical answers)",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/the_quadratic_formula.json"
+    },
+    "percent_of_number": {
+      "topic_slug": "finding_a_percent_of_a_number",
+      "display_name": "Find p% of a number",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/finding_a_percent_of_a_number.json"
+    },
+    "percent_one_is_of_other": {
+      "topic_slug": "finding_a_percent_of_a_number",
+      "display_name": "x is what percent of y?",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/finding_a_percent_of_a_number.json"
+    },
+    "percent_find_whole": {
+      "topic_slug": "finding_a_percent_of_a_number",
+      "display_name": "x is p% of what number?",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/finding_a_percent_of_a_number.json"
     }
   }
 }

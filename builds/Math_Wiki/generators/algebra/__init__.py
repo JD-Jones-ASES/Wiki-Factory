@@ -1,1 +1,8 @@
-"""Algebra generators. Populated in Phase 3."""
+"""Algebra generators.
+
+Importing this package side-effects each submodule into the central registry.
+"""
+from . import linear_equations  # noqa: F401
+from . import slope  # noqa: F401
+from . import quadratic_formula  # noqa: F401
+
