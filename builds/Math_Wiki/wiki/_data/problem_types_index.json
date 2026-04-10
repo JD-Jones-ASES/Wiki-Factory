@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T15:33:38.750362+00:00",
+  "generated_at": "2026-04-10T15:52:04.077086+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 36,
+  "generator_count": 50,
   "by_topic": {
     "circles": [
       {
@@ -291,6 +291,92 @@
         }
       }
     ],
+    "solving_systems_by_elimination": [
+      {
+        "generator_id": "systems_elimination_direct",
+        "display_name": "Solve by elimination (no scaling needed)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "systems_elimination_with_multiplication",
+        "display_name": "Solve by elimination (multiply one equation first)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "absolute_value_equations": [
+      {
+        "generator_id": "abs_val_eq_simple",
+        "display_name": "Solve |x + b| = c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "abs_val_eq_linear",
+        "display_name": "Solve |ax + b| = c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "abs_val_eq_no_solution",
+        "display_name": "Identify when |ax + b| = c has no solution",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "properties_of_exponents": [
+      {
+        "generator_id": "exponent_product_rule",
+        "display_name": "Simplify x^a * x^b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "exponent_quotient_rule",
+        "display_name": "Simplify x^a / x^b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "exponent_power_rule",
+        "display_name": "Simplify (x^a)^b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
     "finding_a_percent_of_a_number": [
       {
         "generator_id": "percent_of_number",
@@ -379,6 +465,70 @@
       {
         "generator_id": "slope_intercept_identify_from_equation",
         "display_name": "Identify slope and y-intercept from y = mx + b",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "order_of_operations": [
+      {
+        "generator_id": "order_of_ops_basic",
+        "display_name": "Evaluate with +, -, *, / (PEMDAS)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "order_of_ops_with_exponents",
+        "display_name": "Evaluate with parentheses and exponents",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "order_of_ops_nested_parens",
+        "display_name": "Evaluate with nested parentheses",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "adding_and_subtracting_integers": [
+      {
+        "generator_id": "add_two_integers",
+        "display_name": "Add two integers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "subtract_two_integers",
+        "display_name": "Subtract two integers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "integer_sum_chain",
+        "display_name": "Compute a + b - c (chain of integer operations)",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -659,6 +809,86 @@
       },
       "shard_file": "problems/solving_systems_by_substitution.json"
     },
+    "systems_elimination_direct": {
+      "topic_slug": "solving_systems_by_elimination",
+      "display_name": "Solve by elimination (no scaling needed)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_elimination.json"
+    },
+    "systems_elimination_with_multiplication": {
+      "topic_slug": "solving_systems_by_elimination",
+      "display_name": "Solve by elimination (multiply one equation first)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_elimination.json"
+    },
+    "abs_val_eq_simple": {
+      "topic_slug": "absolute_value_equations",
+      "display_name": "Solve |x + b| = c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_equations.json"
+    },
+    "abs_val_eq_linear": {
+      "topic_slug": "absolute_value_equations",
+      "display_name": "Solve |ax + b| = c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_equations.json"
+    },
+    "abs_val_eq_no_solution": {
+      "topic_slug": "absolute_value_equations",
+      "display_name": "Identify when |ax + b| = c has no solution",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/absolute_value_equations.json"
+    },
+    "exponent_product_rule": {
+      "topic_slug": "properties_of_exponents",
+      "display_name": "Simplify x^a * x^b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/properties_of_exponents.json"
+    },
+    "exponent_quotient_rule": {
+      "topic_slug": "properties_of_exponents",
+      "display_name": "Simplify x^a / x^b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/properties_of_exponents.json"
+    },
+    "exponent_power_rule": {
+      "topic_slug": "properties_of_exponents",
+      "display_name": "Simplify (x^a)^b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/properties_of_exponents.json"
+    },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",
       "display_name": "Find p% of a number",
@@ -748,6 +978,66 @@
         "hard": 30
       },
       "shard_file": "problems/slope_intercept_form.json"
+    },
+    "order_of_ops_basic": {
+      "topic_slug": "order_of_operations",
+      "display_name": "Evaluate with +, -, *, / (PEMDAS)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/order_of_operations.json"
+    },
+    "order_of_ops_with_exponents": {
+      "topic_slug": "order_of_operations",
+      "display_name": "Evaluate with parentheses and exponents",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/order_of_operations.json"
+    },
+    "order_of_ops_nested_parens": {
+      "topic_slug": "order_of_operations",
+      "display_name": "Evaluate with nested parentheses",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/order_of_operations.json"
+    },
+    "add_two_integers": {
+      "topic_slug": "adding_and_subtracting_integers",
+      "display_name": "Add two integers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_integers.json"
+    },
+    "subtract_two_integers": {
+      "topic_slug": "adding_and_subtracting_integers",
+      "display_name": "Subtract two integers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_integers.json"
+    },
+    "integer_sum_chain": {
+      "topic_slug": "adding_and_subtracting_integers",
+      "display_name": "Compute a + b - c (chain of integer operations)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_integers.json"
     }
   }
 }
