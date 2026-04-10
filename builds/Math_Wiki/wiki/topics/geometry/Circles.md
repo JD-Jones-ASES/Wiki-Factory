@@ -37,7 +37,9 @@ You already know circles. What algebra adds is a recipe for describing any circl
 
 The most useful way to write a circle's equation is the **standard form**:
 
-$$(x - h)^2 + (y - k)^2 = r^2$$
+$$
+(x - h)^2 + (y - k)^2 = r^2
+$$
 
 where $(h, k)$ is the center and $r$ is the radius. Plug any point $(x, y)$ on the circle into the left side and you get $r^2$. Points off the circle give a different value.
 
@@ -45,7 +47,9 @@ where $(h, k)$ is the center and $r$ is the radius. Plug any point $(x, y)$ on t
 
 Pick any point $(x, y)$ on a circle centered at $(h, k)$ with radius $r$. The distance from the center to that point is, by the distance formula:
 
-$$\sqrt{(x - h)^2 + (y - k)^2}$$
+$$
+\sqrt{(x - h)^2 + (y - k)^2}
+$$
 
 This distance equals $r$ for every point on the circle. Squaring both sides to get rid of the square root gives the standard form. So the circle's equation is just the distance formula (which itself comes from the [[Pythagorean_Theorem]]) with both sides squared.
 
@@ -72,15 +76,21 @@ The **diameter** $d$ of a circle is twice the radius: $d = 2r$, so $r = d / 2$. 
 
 Start from the standard form:
 
-$$(x - h)^2 + (y - k)^2 = r^2$$
+$$
+(x - h)^2 + (y - k)^2 = r^2
+$$
 
 Substitute $h = 3$, $k = -2$, $r = 5$:
 
-$$(x - 3)^2 + (y - (-2))^2 = 5^2$$
+$$
+(x - 3)^2 + (y - (-2))^2 = 5^2
+$$
 
 Simplify the double negative and square the radius:
 
-$$(x - 3)^2 + (y + 2)^2 = 25$$
+$$
+(x - 3)^2 + (y + 2)^2 = 25
+$$
 
 That's the answer.
 
