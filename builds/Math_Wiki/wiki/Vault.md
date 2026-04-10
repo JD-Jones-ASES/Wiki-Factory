@@ -1,7 +1,7 @@
 ---
 title: "Your Practice Vault"
 type: overview
-aliases: ["Vault", "Practice"]
+aliases: ["Practice", "Practice Vault", "My Vault"]
 tags: ["#navigation"]
 created: 2026-04-10
 updated: 2026-04-10
