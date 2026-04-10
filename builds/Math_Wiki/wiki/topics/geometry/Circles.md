@@ -29,7 +29,7 @@ A **circle** is the set of all points in a plane that are the same distance from
 
 You already know circles. What algebra adds is a recipe for describing any circle with one equation. Once you have the equation, you can answer every question about the circle with nothing more than careful substitution.
 
-![Parts of a circle](../../assets/figures/geometry/circle_parts.svg)
+![[circle_parts.svg|Parts of a circle]]
 
 ---
 

@@ -90,6 +90,42 @@ function toast(message: string) {
   }, 2400)
 }
 
+// --- KaTeX runtime loading --------------------------------------------------
+
+// Quartz's Latex plugin ships KaTeX CSS but not the JS library (it renders
+// math server-side at build time). For our dynamic widget content we need
+// the JS library at runtime. This singleton promise loads it on demand,
+// shared across all components on the page via a window property.
+
+function ensureKatex(): Promise<any> {
+  const w = window as any
+  if (w.katex) return Promise.resolve(w.katex)
+  if (w.__mathWikiKatexLoad) return w.__mathWikiKatexLoad
+
+  w.__mathWikiKatexLoad = new Promise((resolve, reject) => {
+    const existing = document.querySelector<HTMLScriptElement>(
+      'script[data-math-wiki-katex="1"]',
+    )
+    if (existing) {
+      existing.addEventListener("load", () => resolve(w.katex))
+      existing.addEventListener("error", () => reject(new Error("katex load failed")))
+      return
+    }
+    const script = document.createElement("script")
+    script.src = "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+    script.async = true
+    script.dataset.mathWikiKatex = "1"
+    script.onload = () => resolve(w.katex)
+    script.onerror = () => {
+      w.__mathWikiKatexLoad = null
+      reject(new Error("katex load failed"))
+    }
+    document.head.appendChild(script)
+  })
+
+  return w.__mathWikiKatexLoad
+}
+
 // --- KaTeX dynamic rendering ------------------------------------------------
 
 function renderKatexIn(root: HTMLElement) {
@@ -124,14 +160,10 @@ function renderKatexIn(root: HTMLElement) {
   }
 }
 
-function renderKatexWithRetry(el: HTMLElement, attempts = 8) {
-  const katex = (window as any).katex
-  if (katex) {
-    renderKatexIn(el)
-    return
-  }
-  if (attempts <= 0) return
-  setTimeout(() => renderKatexWithRetry(el, attempts - 1), 150)
+function renderKatexWithRetry(el: HTMLElement) {
+  ensureKatex()
+    .then(() => renderKatexIn(el))
+    .catch((err) => console.warn("[problem-vault-widget] KaTeX unavailable:", err))
 }
 
 // --- Random selection -------------------------------------------------------

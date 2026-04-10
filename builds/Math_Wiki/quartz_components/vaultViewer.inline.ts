@@ -80,7 +80,41 @@ function findProblem(bank: ProblemBank, entry: VaultEntry): ProblemRecord | null
   return null
 }
 
-// --- KaTeX rendering --------------------------------------------------------
+// --- KaTeX runtime loading --------------------------------------------------
+
+// Same singleton loader used by ProblemVaultWidget.inline.ts. Both scripts
+// are bundled into postscript.js so they share global state.
+
+function ensureKatex(): Promise<any> {
+  const w = window as any
+  if (w.katex) return Promise.resolve(w.katex)
+  if (w.__mathWikiKatexLoad) return w.__mathWikiKatexLoad
+
+  w.__mathWikiKatexLoad = new Promise((resolve, reject) => {
+    const existing = document.querySelector<HTMLScriptElement>(
+      'script[data-math-wiki-katex="1"]',
+    )
+    if (existing) {
+      existing.addEventListener("load", () => resolve(w.katex))
+      existing.addEventListener("error", () => reject(new Error("katex load failed")))
+      return
+    }
+    const script = document.createElement("script")
+    script.src = "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+    script.async = true
+    script.dataset.mathWikiKatex = "1"
+    script.onload = () => resolve(w.katex)
+    script.onerror = () => {
+      w.__mathWikiKatexLoad = null
+      reject(new Error("katex load failed"))
+    }
+    document.head.appendChild(script)
+  })
+
+  return w.__mathWikiKatexLoad
+}
+
+// --- KaTeX dynamic rendering ------------------------------------------------
 
 function renderKatexIn(root: HTMLElement) {
   const katex = (window as any).katex
@@ -127,13 +161,10 @@ function renderKatexIn(root: HTMLElement) {
   }
 }
 
-function renderKatexWithRetry(el: HTMLElement, attempts = 8) {
-  if ((window as any).katex) {
-    renderKatexIn(el)
-    return
-  }
-  if (attempts <= 0) return
-  setTimeout(() => renderKatexWithRetry(el, attempts - 1), 150)
+function renderKatexWithRetry(el: HTMLElement) {
+  ensureKatex()
+    .then(() => renderKatexIn(el))
+    .catch((err) => console.warn("[vault-viewer] KaTeX unavailable:", err))
 }
 
 // --- Main rendering ---------------------------------------------------------
