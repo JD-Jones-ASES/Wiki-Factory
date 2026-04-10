@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T15:16:25.282829+00:00",
+  "generated_at": "2026-04-10T15:33:38.750362+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 22,
+  "generator_count": 36,
   "by_topic": {
     "circles": [
       {
@@ -205,6 +205,92 @@
         }
       }
     ],
+    "multi_step_equations": [
+      {
+        "generator_id": "multi_step_eq_two_step",
+        "display_name": "Solve ax + b = c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multi_step_eq_distribution",
+        "display_name": "Solve a(x + b) = c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multi_step_eq_variables_both_sides",
+        "display_name": "Solve ax + b = cx + d",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "factoring_trinomials_leading_coefficient_1": [
+      {
+        "generator_id": "factor_trinomial_leading_1",
+        "display_name": "Factor x^2 + bx + c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "factor_difference_of_squares",
+        "display_name": "Factor x^2 - k^2 (difference of squares)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "factor_perfect_square_trinomial",
+        "display_name": "Factor a perfect square trinomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "solving_systems_by_substitution": [
+      {
+        "generator_id": "systems_substitution_isolated_y",
+        "display_name": "Solve a system by substitution (y isolated)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "systems_substitution_isolated_x",
+        "display_name": "Solve a system by substitution (x isolated)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
     "finding_a_percent_of_a_number": [
       {
         "generator_id": "percent_of_number",
@@ -229,6 +315,70 @@
       {
         "generator_id": "percent_find_whole",
         "display_name": "x is p% of what number?",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "percent_increase_and_decrease": [
+      {
+        "generator_id": "percent_change_find_percent",
+        "display_name": "Find the percent change",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_change_find_new_value",
+        "display_name": "Find the new value after a percent change",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_change_find_original",
+        "display_name": "Find the original value from a percent change",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "slope_intercept_form": [
+      {
+        "generator_id": "slope_intercept_from_slope_and_point",
+        "display_name": "Write y = mx + b given slope and a point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "slope_intercept_from_two_points",
+        "display_name": "Write y = mx + b given two points",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "slope_intercept_identify_from_equation",
+        "display_name": "Identify slope and y-intercept from y = mx + b",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -429,6 +579,86 @@
       },
       "shard_file": "problems/the_quadratic_formula.json"
     },
+    "multi_step_eq_two_step": {
+      "topic_slug": "multi_step_equations",
+      "display_name": "Solve ax + b = c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multi_step_equations.json"
+    },
+    "multi_step_eq_distribution": {
+      "topic_slug": "multi_step_equations",
+      "display_name": "Solve a(x + b) = c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multi_step_equations.json"
+    },
+    "multi_step_eq_variables_both_sides": {
+      "topic_slug": "multi_step_equations",
+      "display_name": "Solve ax + b = cx + d",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multi_step_equations.json"
+    },
+    "factor_trinomial_leading_1": {
+      "topic_slug": "factoring_trinomials_leading_coefficient_1",
+      "display_name": "Factor x^2 + bx + c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_trinomials_leading_coefficient_1.json"
+    },
+    "factor_difference_of_squares": {
+      "topic_slug": "factoring_trinomials_leading_coefficient_1",
+      "display_name": "Factor x^2 - k^2 (difference of squares)",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 20
+      },
+      "shard_file": "problems/factoring_trinomials_leading_coefficient_1.json"
+    },
+    "factor_perfect_square_trinomial": {
+      "topic_slug": "factoring_trinomials_leading_coefficient_1",
+      "display_name": "Factor a perfect square trinomial",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/factoring_trinomials_leading_coefficient_1.json"
+    },
+    "systems_substitution_isolated_y": {
+      "topic_slug": "solving_systems_by_substitution",
+      "display_name": "Solve a system by substitution (y isolated)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_substitution.json"
+    },
+    "systems_substitution_isolated_x": {
+      "topic_slug": "solving_systems_by_substitution",
+      "display_name": "Solve a system by substitution (x isolated)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_substitution.json"
+    },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",
       "display_name": "Find p% of a number",
@@ -458,6 +688,66 @@
         "hard": 30
       },
       "shard_file": "problems/finding_a_percent_of_a_number.json"
+    },
+    "percent_change_find_percent": {
+      "topic_slug": "percent_increase_and_decrease",
+      "display_name": "Find the percent change",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/percent_increase_and_decrease.json"
+    },
+    "percent_change_find_new_value": {
+      "topic_slug": "percent_increase_and_decrease",
+      "display_name": "Find the new value after a percent change",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/percent_increase_and_decrease.json"
+    },
+    "percent_change_find_original": {
+      "topic_slug": "percent_increase_and_decrease",
+      "display_name": "Find the original value from a percent change",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/percent_increase_and_decrease.json"
+    },
+    "slope_intercept_from_slope_and_point": {
+      "topic_slug": "slope_intercept_form",
+      "display_name": "Write y = mx + b given slope and a point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/slope_intercept_form.json"
+    },
+    "slope_intercept_from_two_points": {
+      "topic_slug": "slope_intercept_form",
+      "display_name": "Write y = mx + b given two points",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/slope_intercept_form.json"
+    },
+    "slope_intercept_identify_from_equation": {
+      "topic_slug": "slope_intercept_form",
+      "display_name": "Identify slope and y-intercept from y = mx + b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/slope_intercept_form.json"
     }
   }
 }
