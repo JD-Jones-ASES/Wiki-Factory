@@ -948,6 +948,253 @@ def fig_perfect_square_completion():
 
 
 # ---------------------------------------------------------------------------
+# Algebra: distance formula derivation (Pythagoras on a grid)
+
+def fig_distance_formula_derivation():
+    """Distance formula shown as the Pythagorean theorem on a coordinate grid."""
+    fig, ax = plt.subplots(figsize=(6, 5.5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-1.5, 7.5)
+    ax.set_ylim(-1.5, 7.5)
+
+    # Light grid at every integer
+    for i in range(-1, 8):
+        ax.plot([i, i], [-1, 7], color=C_GRID, linewidth=0.6, zorder=0)
+        ax.plot([-1, 7], [i, i], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(7.3, 0), xytext=(-1.3, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 7.3), xytext=(0, -1.3),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(7.4, 0.25, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.25, 7.4, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Integer tick labels along x and y axes
+    for t in range(1, 8):
+        ax.text(t, -0.3, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+        ax.text(-0.2, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    color_blue = "#2e86de"
+
+    # Points A = (1, 2), B = (5, 5), C = (5, 2)
+    Ax, Ay = 1, 2
+    Bx, By = 5, 5
+    Cx, Cy = 5, 2
+
+    # Horizontal leg from A to C (dashed red)
+    ax.plot([Ax, Cx], [Ay, Cy], color=C_RADIUS, linewidth=2.0,
+            linestyle="--", zorder=2)
+    # Vertical leg from C to B (dashed red)
+    ax.plot([Cx, Bx], [Cy, By], color=C_RADIUS, linewidth=2.0,
+            linestyle="--", zorder=2)
+    # Hypotenuse from A to B (solid blue)
+    ax.plot([Ax, Bx], [Ay, By], color=color_blue, linewidth=2.6, zorder=3)
+
+    # Point dots
+    ax.plot(Ax, Ay, "o", color=color_blue, markersize=10, zorder=4)
+    ax.plot(Bx, By, "o", color=color_blue, markersize=10, zorder=4)
+
+    # Point labels A and B
+    ax.text(Ax - 0.2, Ay - 0.2, r"$A = (1, 2)$",
+            fontsize=11, color=color_blue,
+            ha="right", va="top", fontweight="bold")
+    ax.text(Bx + 0.2, By + 0.2, r"$B = (5, 5)$",
+            fontsize=11, color=color_blue,
+            ha="left", va="bottom", fontweight="bold")
+
+    # Horizontal leg label
+    ax.text((Ax + Cx) / 2, Ay - 0.5, r"$|x_2 - x_1| = 4$",
+            ha="center", va="top",
+            fontsize=11, color=C_RADIUS)
+    # Vertical leg label
+    ax.text(Cx + 0.25, (Cy + By) / 2, r"$|y_2 - y_1| = 3$",
+            ha="left", va="center",
+            fontsize=11, color=C_RADIUS)
+    # Hypotenuse label (bold)
+    ax.text((Ax + Bx) / 2 - 0.35, (Ay + By) / 2 + 0.35,
+            r"$\sqrt{4^{2} + 3^{2}} = 5$",
+            ha="right", va="bottom",
+            fontsize=12, color=color_blue, fontweight="bold")
+
+    ax.set_title("The distance formula as Pythagoras on a grid",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/distance_formula_derivation.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: square root parent function f(x) = sqrt(x)
+
+def fig_square_root_function():
+    """Plot of y = sqrt(x) with key points (0,0), (1,1), (4,2), (9,3)."""
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(-1.5, 10.5)
+    ax.set_ylim(-1.2, 4.2)
+
+    # Light grid at every integer
+    for i in range(-1, 11):
+        ax.plot([i, i], [-1.2, 4.2], color=C_GRID, linewidth=0.6, zorder=0)
+    for j in range(-1, 5):
+        ax.plot([-1.5, 10.5], [j, j], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(10.3, 0), xytext=(-1.3, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 4.0), xytext=(0, -1.1),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(10.4, 0.2, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.2, 4.1, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Integer tick labels on x-axis
+    for t in range(1, 11):
+        ax.text(t, -0.22, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+    # Integer tick labels on y-axis
+    for t in range(1, 5):
+        ax.text(-0.18, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Dashed vertical "wall" at x = 0 marking where the domain starts
+    ax.plot([0, 0], [-1.1, 4.0], color=C_DASH,
+            linewidth=1.4, linestyle="--", zorder=1)
+
+    # Smooth curve y = sqrt(x) from 0 to 10
+    xs = np.linspace(0, 10, 400)
+    ys = np.sqrt(xs)
+    ax.plot(xs, ys, color=C_LINE, linewidth=2.6, zorder=2)
+
+    # Key points
+    key_points = [(0, 0), (1, 1), (4, 2), (9, 3)]
+    for px, py in key_points:
+        ax.plot(px, py, "o", color=C_RADIUS, markersize=8, zorder=4)
+        ax.text(px + 0.2, py - 0.15, f"$({px}, {py})$",
+                fontsize=10, color=C_RADIUS,
+                ha="left", va="top", fontweight="bold")
+
+    # Caption inside the plot area
+    ax.text(6.5, 0.6, r"Domain: $x \geq 0$,   Range: $y \geq 0$",
+            ha="center", va="center",
+            fontsize=11, color=C_TEXT,
+            bbox=dict(boxstyle="round,pad=0.35",
+                      facecolor="white",
+                      edgecolor=C_DASH, linewidth=0.8))
+
+    ax.set_title(r"$f(x) = \sqrt{x}$: the parent square root function",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/square_root_function.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: cube root parent function f(x) = cbrt(x)
+
+def fig_cube_root_function():
+    """Plot of y = cbrt(x) with key points (-8,-2), (0,0), (8,2)."""
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(-11, 11)
+    ax.set_ylim(-3.3, 3.3)
+
+    # Light grid at every 2 units
+    for i in range(-10, 11, 2):
+        ax.plot([i, i], [-3.3, 3.3], color=C_GRID, linewidth=0.6, zorder=0)
+    for j in range(-3, 4):
+        ax.plot([-11, 11], [j, j], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(10.6, 0), xytext=(-10.6, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 3.1), xytext=(0, -3.1),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(10.8, 0.15, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.2, 3.2, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Integer tick labels on x-axis (every 2 except 0)
+    for t in range(-10, 11, 2):
+        if t == 0:
+            continue
+        ax.text(t, -0.18, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+    # Integer tick labels on y-axis
+    for t in range(-3, 4):
+        if t == 0:
+            continue
+        ax.text(-0.25, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Smooth curve y = cbrt(x) from -10 to 10
+    # Use sign * |x|^(1/3) to get the real cube root for negatives
+    xs = np.linspace(-10, 10, 600)
+    ys = np.sign(xs) * np.abs(xs) ** (1.0 / 3.0)
+    ax.plot(xs, ys, color=C_LINE, linewidth=2.6, zorder=2)
+
+    # Key points (label only three: endpoints and origin)
+    labeled_points = [(-8, -2), (0, 0), (8, 2)]
+    for px, py in labeled_points:
+        ax.plot(px, py, "o", color=C_RADIUS, markersize=8, zorder=4)
+
+    # Hand-place labels so they don't overlap the curve
+    ax.text(-8, -2.35, r"$(-8, -2)$",
+            fontsize=10, color=C_RADIUS,
+            ha="center", va="top", fontweight="bold")
+    ax.text(0.4, -0.35, r"$(0, 0)$",
+            fontsize=10, color=C_RADIUS,
+            ha="left", va="top", fontweight="bold")
+    ax.text(8, 2.35, r"$(8, 2)$",
+            fontsize=10, color=C_RADIUS,
+            ha="center", va="bottom", fontweight="bold")
+
+    # Extra unlabeled key points the curve passes through
+    ax.plot(-1, -1, "o", color=C_RADIUS, markersize=6, zorder=4)
+    ax.plot(1, 1, "o", color=C_RADIUS, markersize=6, zorder=4)
+
+    # Caption inside the plot area (top-left corner)
+    ax.text(-10, 2.6, "Domain: all reals,  Range: all reals",
+            ha="left", va="center",
+            fontsize=10, color=C_TEXT,
+            bbox=dict(boxstyle="round,pad=0.35",
+                      facecolor="white",
+                      edgecolor=C_DASH, linewidth=0.8))
+
+    ax.set_title(r"$f(x) = \sqrt[3]{x}$: the parent cube root function",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/cube_root_function.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -964,6 +1211,9 @@ FIGURES = [
     ("discriminant_three_cases", fig_discriminant_three_cases),
     ("parabola_vertex_axis_of_symmetry", fig_parabola_vertex_axis_of_symmetry),
     ("perfect_square_completion", fig_perfect_square_completion),
+    ("distance_formula_derivation", fig_distance_formula_derivation),
+    ("square_root_function", fig_square_root_function),
+    ("cube_root_function", fig_cube_root_function),
 ]
 
 

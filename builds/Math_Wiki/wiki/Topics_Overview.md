@@ -9,24 +9,24 @@ source_refs: []
 related: []
 status: complete
 confidence: high
-summary: "Index of every live topic (64) and stub topic (175) in Math Wiki."
+summary: "Index of every live topic (76) and stub topic (163) in Math Wiki."
 ---
 
 # Topics Overview
 
 > [[_overview|Home]] > Topics
 
-Every math topic covered by the wiki lives on one page. This index lists the **64 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
+Every math topic covered by the wiki lives on one page. This index lists the **76 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
 
 Use **search** (the box in the left sidebar) to jump directly to a topic by name.
 
 ---
 
-## 🟢 Live Topics (64)
+## 🟢 Live Topics (76)
 
 Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed problem types, and cross-references to prerequisite and related topics.
 
-### Pre-Algebra (28 topics)
+### Pre-Algebra (30 topics)
 
 **Numbers and operations**
 - [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]]
@@ -64,12 +64,16 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Slope_Intercept_Form|Slope-Intercept Form]]
 - [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
 
-**Coordinate plane and inequalities** (new in Cluster 2)
+**Coordinate plane and inequalities**
 - [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
 - [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 - [[Solving_One_Step_And_Two_Step_Inequalities|Solving One-Step and Two-Step Inequalities]]
 
-### Algebra 1 (32 topics)
+**Radicals and distance** (new in Cluster 4)
+- [[Rational_Exponents|Rational Exponents]]
+- [[The_Distance_Formula|The Distance Formula]]
+
+### Algebra 1 (38 topics)
 
 **Equations**
 - [[One_Step_Equations|One-Step Equations]]
@@ -105,20 +109,41 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Factoring_Special_Forms|Factoring Special Forms]]
 - [[Factoring_Completely|Factoring Completely]]
 
-**Quadratics** (new in Cluster 3)
+**Quadratics**
 - [[Solving_Quadratics_By_Factoring|Solving Quadratics by Factoring]]
 - [[Solving_Quadratics_By_Square_Roots|Solving Quadratics by Square Roots]]
 - [[The_Quadratic_Formula|The Quadratic Formula]]
 - [[The_Discriminant|The Discriminant]]
 - [[Graphing_Quadratic_Functions|Graphing Quadratic Functions]]
 
-### Algebra 2 (5 topics) (expanded in Cluster 3)
+**Rational expressions** (new in Cluster 4)
+- [[Simplifying_Rational_Expressions|Simplifying Rational Expressions]]
+- [[Solving_Rational_Equations|Solving Rational Equations]]
 
+**Radicals and exponents** (new in Cluster 4)
+- [[Zero_And_Negative_Exponents|Zero and Negative Exponents]]
+- [[Simplifying_Radical_Expressions|Simplifying Radical Expressions]]
+- [[Operations_With_Radicals|Operations with Radicals]]
+
+### Algebra 2 (10 topics) (expanded in Cluster 4)
+
+**Functions and Modeling**
 - [[Linear_Functions|Linear Functions]]
 - [[Modeling_With_Linear_Functions|Modeling with Linear Functions]]
+
+**Quadratics**
 - [[Completing_The_Square|Completing the Square]]
 - [[Quadratic_Functions|Quadratic Functions]]
 - [[Applications_Of_Quadratic_Functions|Applications of Quadratic Functions]]
+
+**Rational expressions** (new in Cluster 4)
+- [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]]
+- [[Adding_And_Subtracting_Rational_Expressions|Adding and Subtracting Rational Expressions]]
+- [[Rational_Equations_And_Applications|Rational Equations and Applications]]
+
+**Radical functions** (new in Cluster 4)
+- [[Square_Root_Functions|Square Root Functions]]
+- [[Cube_Root_And_Other_Radical_Functions|Cube Root and Other Radical Functions]]
 
 ### Geometry (1 topic)
 
@@ -126,11 +151,11 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 
 ---
 
-## ⚪ Stub Topics (175)
+## ⚪ Stub Topics (163)
 
 Every remaining topic is listed under its branch hub with the full catalog coverage. Stubs have the frontmatter and source references but no prose or practice widgets yet. They become live one cluster at a time.
 
-- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~128 stubs)
+- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~116 stubs)
 - [[Geometry_Overview|Geometry branch hub]] (coordinate plane, ~1 stub)
 - [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~47 stubs)
 

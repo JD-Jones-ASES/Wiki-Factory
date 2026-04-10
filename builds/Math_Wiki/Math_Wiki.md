@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.9.0 --- Cluster 3 Polynomials + Quadratics deep shipped (2026-04-10)
+### Version 1.10.0 --- Cluster 4 Rationals & Radicals shipped (2026-04-10)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 64 topics with working widgets, 194 generators, 16,925 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
+| **Scale** | Live: 76 topics with working widgets, 230 generators, 19,977 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -25,8 +25,9 @@
 - **Cluster 1** (pre-algebra foundations, 20 topics) — **shipped** commit `f27052f`
 - **Navigation UI redesign** — shipped commit `a0f4c4f`
 - **Cluster 2** (linear world completion, 14 topics) — **shipped** commit `49dfa00`
-- **Cluster 3** (polynomials + quadratics deep, 14 topics) — **shipped** (this version)
-- **Next:** Cluster 4 (Rationals & Radicals, ~12 topics)
+- **Cluster 3** (polynomials + quadratics deep, 14 topics) — **shipped** commit `bb768cc`
+- **Cluster 4** (rationals & radicals, 12 topics) — **shipped** (this version)
+- **Next:** Cluster 5 (Functions & Transformations, ~14 topics)
 
 ### 30-second mental model
 
@@ -958,9 +959,9 @@ The comprehensive buildout from the current state to complete integration of the
 | **0** | Infrastructure hardening + global alias merge | 0 | **shipped** |
 | **1** | Pre-algebra foundations | 20 | **shipped** |
 | **2** | Linear world completion | 14 | **shipped** |
-| **3** | Polynomials + Quadratics deep | 14 | **shipped in this session** |
-| **4** | Rationals & Radicals | ~12 | **next** |
-| **5** | Functions & Transformations | ~14 | pending |
+| **3** | Polynomials + Quadratics deep | 14 | **shipped** |
+| **4** | Rationals & Radicals | 12 | **shipped in this session** |
+| **5** | Functions & Transformations | ~14 | **next** |
 | **6** | Exponentials & Logarithms | ~10 | pending |
 | **7** | Trigonometry | ~15 | pending |
 | **8** | Sequences, probability, statistics | ~10 | pending |
@@ -1073,6 +1074,67 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.10.0 --- Cluster 4 Rationals & Radicals (2026-04-10)
+
+**Stats:** 12 topics enriched (+12 live, now 76 total), 36 new generators (+36, now 230 total), 3,052 new verified problems (+3,052, now 19,977 total), 3 new matplotlib figures (distance formula derivation, square root parent function, cube root parent function).
+
+**Topics shipped (all at draft status, scores 80+):**
+
+- **Rational expressions (5):** Simplifying_Rational_Expressions, Multiplying_And_Dividing_Rational_Expressions, Adding_And_Subtracting_Rational_Expressions, Solving_Rational_Equations, Rational_Equations_And_Applications (algebra-2)
+- **Exponents and radicals (5):** Zero_And_Negative_Exponents, Rational_Exponents (pre-algebra), Simplifying_Radical_Expressions, Operations_With_Radicals, The_Distance_Formula (pre-algebra)
+- **Radical functions (2):** Square_Root_Functions (algebra-2), Cube_Root_And_Other_Radical_Functions (algebra-2)
+
+**Generator modules added (3):**
+
+- `generators/algebra/rationals.py` — 15 generators covering 5 rational-expression topics (3 simplify variants, 3 mult/div variants, 3 add/sub variants, 3 solve variants including one with deliberate extraneous solution, 3 word-problem applications)
+- `generators/algebra/radicals.py` — 15 generators covering 5 exponent + radical topics (3 zero/negative exponent, 3 rational exponent, 3 radical simplification, 3 radical operations, 3 distance formula)
+- `generators/algebra/radical_functions.py` — 6 generators covering 2 radical function topics (sqrt domain/evaluate/transformation, cube root evaluate/nth-root domain/transformation)
+
+**Figures added** (all deterministic, in `wiki/assets/figures/algebra/`):
+
+- `distance_formula_derivation.svg` — right triangle on a coordinate plane showing the Pythagorean derivation of the distance formula (A=(1,2), B=(5,5), legs labeled, hypotenuse = √(4² + 3²) = 5)
+- `square_root_function.svg` — the parent function `f(x) = √x` with labeled key points, domain wall at x=0, domain/range caption
+- `cube_root_function.svg` — the parent function `f(x) = ∛x` showing the symmetric-about-origin shape that handles negative inputs
+
+**Execution model (parallelization):**
+
+- **Content wave:** 6 sub-agents across 2 batches (4 + 2) covering 12 topics total. Batch 1 ran rational expressions + zero/negative exponents + rational exponents + simplifying radicals (8 topics). Batch 2 ran operations with radicals + distance formula + both radical function pages (4 topics).
+- **Figures agent:** 1 sub-agent extended `tools/generate_figures.py` in parallel with content batch 2, also edited the 3 target topic pages with figure embeds.
+- **Generator wave:** 3 sub-agents in parallel, each owning a distinct generator module (rationals, radicals, radical_functions). All 3 edited `generators/algebra/__init__.py` with distinct import lines without collision.
+
+**What worked:**
+
+- **Targeted idiom warnings in prompts.** Each content agent prompt included a growing list of textbook idioms to avoid, based on hits from Clusters 2 and 3. Batch 2 shipped with zero copyright hits. Batch 1 had 3 hits, all on common textbook phrases that came out of the expanded warning list for Cluster 5.
+- **The "fresh scenario templates" discipline** paid off again. Rational_Equations_And_Applications ships with work/distance/round-trip word problems using invented names (Alex, Bailey, Chris, Dana) and vehicles (kayak, canoe, rowboat, swimmer, cyclist) rather than the source's Alice/Bob or boat/train scenarios. Zero copyright hits on applications.
+- **Distance formula as "Pythagoras on a grid"** turned out to be the cleanest pedagogical framing. The figure shows exactly that: two points, dashed legs, the hypotenuse IS the distance. Students who already understand Pythagoras get the formula for free.
+- **Square root function as "the inverse of x²"** worked as a unifying thread for Square_Root_Functions. Same for cube root as the inverse of x³ (without the domain restriction, since cubing is bijective on reals).
+- **Generator backward construction for rational expressions** was trickier than previous clusters because the construction has to avoid accidentally making denominators zero at valid test points. The rationals module carefully builds rational forms from factored answers, then multiplies out to disguise them. Zero guess-and-check loops.
+- **Word problem templates in the rationals generator** use clean (A, B) pairs precomputed so that answer formulas like `AB/(A+B)` and `2r₁r₂/(r₁+r₂)` always reduce to nice fractions. No runtime rejection loops.
+
+**What failed and how it was fixed:**
+
+- **3 copyright near-misses in batch 1** — all common textbook phrasings:
+  - "multiply every term on both sides by the LCD" → rewrote as "rescale each side by that LCD"
+  - "negative exponent rule applied to the whole fraction" → rewrote as "negative-exponent rule acting on a fraction base"
+  - "take the root first and then raise to the power" → rewrote as "peel off the root before the power"
+  
+  A follow-up hit on Solving_Rational_Equations used the phrase "collect the x terms on the left and the constants on the right" (a common step-by-step template in textbooks) — rewrote as "move the x pieces to one side and the numbers to the other". And another hit on "multiply every term by that LCD" in Example 3 — rewrote as "scale each piece of the equation by that LCD". Four total rewrites in Cluster 4, all one-line fixes.
+
+- **Dead wikilink in Square_Root_Functions.md** — the agent used `[[Quadratic_Formula|quadratic formula]]` but the actual page is `The_Quadratic_Formula`. Fix: changed to `[[The_Quadratic_Formula|the quadratic formula]]`. Lint caught this; no CI disruption.
+
+- **`rational_exponent_evaluate` generator had a parameter space too small** on easy difficulty initially. The agent flagged this and widened the `_RANGES` dict for easy from (3,3,4) to (4,3,5) before returning. Zero manual fix required.
+
+**Gate checks after Cluster 4:**
+
+- **Pytest:** 29/29 green (8 circles-parametrized + 10 consolidate-snapshot + 3 copyright + 8 ingest smoke). All 230 generators pass the parametrized test.
+- **Lint:** 0 errors, 0 warnings, 1 info (190 stub pages — down from 202).
+- **YAML:** 257/257 clean.
+- **Topic status:** 239 topics, avg score 34.9 / 100 (was 31.2). 74 topics now have 3+ generators (was 62). Algebra branch avg jumped from 35.6 → 43.1 (+7.5 points).
+- **Bank size:** 16.3 MB across 76 shards, all under 320 KB each. Largest: `square_root_functions.json` at 250.5 KB.
+- **Branch hubs:** Algebra_Overview regenerated — now shows 75 live algebra topics + collapsed stubs.
+
+**What's next (Cluster 5):** Functions & Transformations. ~14 topics covering: function notation in depth, domain and range as first-class topics, function arithmetic and composition, inverse functions, piecewise functions, absolute value functions, transformations of parent functions (shifts, reflections, stretches) applied to multiple families. This is the bridge from algebra into pre-calculus. Same cadence as Clusters 2-4.
 
 ### Version 1.9.0 --- Cluster 3 Polynomials + Quadratics deep (2026-04-10)
 

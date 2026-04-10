@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T19:21:40.339726+00:00",
+  "generated_at": "2026-04-10T19:51:28.336914+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 194,
+  "generator_count": 230,
   "by_topic": {
     "circles": [
       {
@@ -1202,6 +1202,390 @@
         "generator_id": "rectangle_max_area",
         "display_name": "Maximize the area of a rectangle with fixed fencing",
         "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "square_root_functions": [
+      {
+        "generator_id": "sqrt_function_domain",
+        "display_name": "Find the domain of f(x) = sqrt(expression)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "sqrt_function_evaluate",
+        "display_name": "Evaluate f(x) = a*sqrt(x - h) + k at a given input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "sqrt_function_transformation_identify",
+        "display_name": "Identify transformations of f(x) = a*sqrt(x - h) + k from sqrt(x)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "cube_root_and_other_radical_functions": [
+      {
+        "generator_id": "cube_root_evaluate",
+        "display_name": "Evaluate f(x) = a*cbrt(x - h) + k at a given input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "nth_root_domain",
+        "display_name": "Find the domain of f(x) = nth-root(expression)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 24,
+          "medium": 24,
+          "hard": 24
+        }
+      },
+      {
+        "generator_id": "cube_root_transformation",
+        "display_name": "Identify transformations of f(x) = a*cbrt(x - h) + k from cbrt(x)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "simplifying_rational_expressions": [
+      {
+        "generator_id": "simplify_rational_quadratic_over_linear",
+        "display_name": "Simplify (x^2 + bx + c)/(x - r)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "simplify_rational_trinomial_over_trinomial",
+        "display_name": "Simplify a trinomial over a trinomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "simplify_rational_with_gcf",
+        "display_name": "Simplify (ax^2 + bx)/(cx^2 + dx) via GCF",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "multiplying_and_dividing_rational_expressions": [
+      {
+        "generator_id": "multiply_rationals_basic",
+        "display_name": "Multiply two rational expressions (basic)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "divide_rationals_reciprocal",
+        "display_name": "Divide two rational expressions via reciprocal",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_rationals_factor_first",
+        "display_name": "Multiply rationals after factoring",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "adding_and_subtracting_rational_expressions": [
+      {
+        "generator_id": "add_rationals_same_denom",
+        "display_name": "Add two rationals with the same denominator",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "add_rationals_linear_denoms",
+        "display_name": "Add A/(x+a) + B/(x+b) with unlike linear denominators",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "subtract_rationals_factor_denom",
+        "display_name": "Subtract with a factorable denominator",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "solving_rational_equations": [
+      {
+        "generator_id": "solve_rational_linear_cross_multiply",
+        "display_name": "Solve A/(x+p) = C/(x+q) by cross-multiplying",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_rational_linear_multiply_lcd",
+        "display_name": "Solve A/x + B = C/x by multiplying by LCD",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_rational_with_extraneous",
+        "display_name": "Solve a rational equation with an extraneous solution",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "rational_equations_and_applications": [
+      {
+        "generator_id": "work_problem_combined_rate",
+        "display_name": "Work problem: combined rate (1/t = 1/A + 1/B)",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "distance_rate_time_upstream",
+        "display_name": "Distance / rate / time: upstream-downstream (find still-water speed)",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "average_rate_round_trip",
+        "display_name": "Average rate on a round trip (harmonic mean)",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "zero_and_negative_exponents": [
+      {
+        "generator_id": "zero_exponent_simplify",
+        "display_name": "Evaluate expressions with zero exponents",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "negative_exponent_rewrite",
+        "display_name": "Rewrite negative exponents as positive",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "combined_zero_negative_exponents",
+        "display_name": "Simplify expressions with zero and negative exponents",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "rational_exponents": [
+      {
+        "generator_id": "rational_exponent_to_radical",
+        "display_name": "Convert rational exponent to radical form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "radical_to_rational_exponent",
+        "display_name": "Convert radical form to rational exponent",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rational_exponent_evaluate",
+        "display_name": "Evaluate a^(m/n) with a perfect power base",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "simplifying_radical_expressions": [
+      {
+        "generator_id": "simplify_sqrt_perfect_factor",
+        "display_name": "Simplify a square root with a perfect-square factor",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "simplify_sqrt_with_variable",
+        "display_name": "Simplify a square root containing a variable",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rationalize_single_radical_denom",
+        "display_name": "Rationalize a single radical denominator",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "operations_with_radicals": [
+      {
+        "generator_id": "add_like_radicals_after_simplify",
+        "display_name": "Add or subtract like radicals after simplification",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_radicals_product_rule",
+        "display_name": "Multiply radicals using the product rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "divide_radicals_quotient_rule",
+        "display_name": "Divide radicals using the quotient rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "the_distance_formula": [
+      {
+        "generator_id": "distance_formula_integer_answer",
+        "display_name": "Distance formula with integer answer",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "distance_formula_radical_answer",
+        "display_name": "Distance formula with radical answer",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "distance_check_right_triangle",
+        "display_name": "Check if three points form a right triangle",
+        "supports_word_problems": false,
         "counts": {
           "easy": 30,
           "medium": 30,
@@ -3204,6 +3588,366 @@
         "hard": 30
       },
       "shard_file": "problems/applications_of_quadratic_functions.json"
+    },
+    "sqrt_function_domain": {
+      "topic_slug": "square_root_functions",
+      "display_name": "Find the domain of f(x) = sqrt(expression)",
+      "counts": {
+        "easy": 10,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/square_root_functions.json"
+    },
+    "sqrt_function_evaluate": {
+      "topic_slug": "square_root_functions",
+      "display_name": "Evaluate f(x) = a*sqrt(x - h) + k at a given input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/square_root_functions.json"
+    },
+    "sqrt_function_transformation_identify": {
+      "topic_slug": "square_root_functions",
+      "display_name": "Identify transformations of f(x) = a*sqrt(x - h) + k from sqrt(x)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/square_root_functions.json"
+    },
+    "cube_root_evaluate": {
+      "topic_slug": "cube_root_and_other_radical_functions",
+      "display_name": "Evaluate f(x) = a*cbrt(x - h) + k at a given input",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/cube_root_and_other_radical_functions.json"
+    },
+    "nth_root_domain": {
+      "topic_slug": "cube_root_and_other_radical_functions",
+      "display_name": "Find the domain of f(x) = nth-root(expression)",
+      "counts": {
+        "easy": 24,
+        "medium": 24,
+        "hard": 24
+      },
+      "shard_file": "problems/cube_root_and_other_radical_functions.json"
+    },
+    "cube_root_transformation": {
+      "topic_slug": "cube_root_and_other_radical_functions",
+      "display_name": "Identify transformations of f(x) = a*cbrt(x - h) + k from cbrt(x)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/cube_root_and_other_radical_functions.json"
+    },
+    "simplify_rational_quadratic_over_linear": {
+      "topic_slug": "simplifying_rational_expressions",
+      "display_name": "Simplify (x^2 + bx + c)/(x - r)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_rational_expressions.json"
+    },
+    "simplify_rational_trinomial_over_trinomial": {
+      "topic_slug": "simplifying_rational_expressions",
+      "display_name": "Simplify a trinomial over a trinomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_rational_expressions.json"
+    },
+    "simplify_rational_with_gcf": {
+      "topic_slug": "simplifying_rational_expressions",
+      "display_name": "Simplify (ax^2 + bx)/(cx^2 + dx) via GCF",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_rational_expressions.json"
+    },
+    "multiply_rationals_basic": {
+      "topic_slug": "multiplying_and_dividing_rational_expressions",
+      "display_name": "Multiply two rational expressions (basic)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_and_dividing_rational_expressions.json"
+    },
+    "divide_rationals_reciprocal": {
+      "topic_slug": "multiplying_and_dividing_rational_expressions",
+      "display_name": "Divide two rational expressions via reciprocal",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/multiplying_and_dividing_rational_expressions.json"
+    },
+    "multiply_rationals_factor_first": {
+      "topic_slug": "multiplying_and_dividing_rational_expressions",
+      "display_name": "Multiply rationals after factoring",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/multiplying_and_dividing_rational_expressions.json"
+    },
+    "add_rationals_same_denom": {
+      "topic_slug": "adding_and_subtracting_rational_expressions",
+      "display_name": "Add two rationals with the same denominator",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_rational_expressions.json"
+    },
+    "add_rationals_linear_denoms": {
+      "topic_slug": "adding_and_subtracting_rational_expressions",
+      "display_name": "Add A/(x+a) + B/(x+b) with unlike linear denominators",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/adding_and_subtracting_rational_expressions.json"
+    },
+    "subtract_rationals_factor_denom": {
+      "topic_slug": "adding_and_subtracting_rational_expressions",
+      "display_name": "Subtract with a factorable denominator",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/adding_and_subtracting_rational_expressions.json"
+    },
+    "solve_rational_linear_cross_multiply": {
+      "topic_slug": "solving_rational_equations",
+      "display_name": "Solve A/(x+p) = C/(x+q) by cross-multiplying",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_rational_equations.json"
+    },
+    "solve_rational_linear_multiply_lcd": {
+      "topic_slug": "solving_rational_equations",
+      "display_name": "Solve A/x + B = C/x by multiplying by LCD",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_rational_equations.json"
+    },
+    "solve_rational_with_extraneous": {
+      "topic_slug": "solving_rational_equations",
+      "display_name": "Solve a rational equation with an extraneous solution",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/solving_rational_equations.json"
+    },
+    "work_problem_combined_rate": {
+      "topic_slug": "rational_equations_and_applications",
+      "display_name": "Work problem: combined rate (1/t = 1/A + 1/B)",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/rational_equations_and_applications.json"
+    },
+    "distance_rate_time_upstream": {
+      "topic_slug": "rational_equations_and_applications",
+      "display_name": "Distance / rate / time: upstream-downstream (find still-water speed)",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/rational_equations_and_applications.json"
+    },
+    "average_rate_round_trip": {
+      "topic_slug": "rational_equations_and_applications",
+      "display_name": "Average rate on a round trip (harmonic mean)",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/rational_equations_and_applications.json"
+    },
+    "zero_exponent_simplify": {
+      "topic_slug": "zero_and_negative_exponents",
+      "display_name": "Evaluate expressions with zero exponents",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/zero_and_negative_exponents.json"
+    },
+    "negative_exponent_rewrite": {
+      "topic_slug": "zero_and_negative_exponents",
+      "display_name": "Rewrite negative exponents as positive",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/zero_and_negative_exponents.json"
+    },
+    "combined_zero_negative_exponents": {
+      "topic_slug": "zero_and_negative_exponents",
+      "display_name": "Simplify expressions with zero and negative exponents",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/zero_and_negative_exponents.json"
+    },
+    "rational_exponent_to_radical": {
+      "topic_slug": "rational_exponents",
+      "display_name": "Convert rational exponent to radical form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rational_exponents.json"
+    },
+    "radical_to_rational_exponent": {
+      "topic_slug": "rational_exponents",
+      "display_name": "Convert radical form to rational exponent",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rational_exponents.json"
+    },
+    "rational_exponent_evaluate": {
+      "topic_slug": "rational_exponents",
+      "display_name": "Evaluate a^(m/n) with a perfect power base",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rational_exponents.json"
+    },
+    "simplify_sqrt_perfect_factor": {
+      "topic_slug": "simplifying_radical_expressions",
+      "display_name": "Simplify a square root with a perfect-square factor",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_radical_expressions.json"
+    },
+    "simplify_sqrt_with_variable": {
+      "topic_slug": "simplifying_radical_expressions",
+      "display_name": "Simplify a square root containing a variable",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_radical_expressions.json"
+    },
+    "rationalize_single_radical_denom": {
+      "topic_slug": "simplifying_radical_expressions",
+      "display_name": "Rationalize a single radical denominator",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_radical_expressions.json"
+    },
+    "add_like_radicals_after_simplify": {
+      "topic_slug": "operations_with_radicals",
+      "display_name": "Add or subtract like radicals after simplification",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/operations_with_radicals.json"
+    },
+    "multiply_radicals_product_rule": {
+      "topic_slug": "operations_with_radicals",
+      "display_name": "Multiply radicals using the product rule",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/operations_with_radicals.json"
+    },
+    "divide_radicals_quotient_rule": {
+      "topic_slug": "operations_with_radicals",
+      "display_name": "Divide radicals using the quotient rule",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/operations_with_radicals.json"
+    },
+    "distance_formula_integer_answer": {
+      "topic_slug": "the_distance_formula",
+      "display_name": "Distance formula with integer answer",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distance_formula.json"
+    },
+    "distance_formula_radical_answer": {
+      "topic_slug": "the_distance_formula",
+      "display_name": "Distance formula with radical answer",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distance_formula.json"
+    },
+    "distance_check_right_triangle": {
+      "topic_slug": "the_distance_formula",
+      "display_name": "Check if three points form a right triangle",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distance_formula.json"
     },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",

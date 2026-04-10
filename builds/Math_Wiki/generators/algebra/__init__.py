@@ -17,4 +17,7 @@ from . import coord_scatter  # noqa: F401
 from . import polynomials  # noqa: F401
 from . import quadratics_methods  # noqa: F401
 from . import quadratic_functions  # noqa: F401
+from . import radical_functions  # noqa: F401
+from . import rationals  # noqa: F401
+from . import radicals  # noqa: F401
 
