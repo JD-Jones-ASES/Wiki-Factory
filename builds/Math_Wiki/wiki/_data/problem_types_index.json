@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T22:20:09.076933+00:00",
+  "generated_at": "2026-04-10T23:16:55.129291+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 272,
+  "generator_count": 302,
   "by_topic": {
     "circles": [
       {
@@ -2038,6 +2038,326 @@
           "easy": 30,
           "medium": 30,
           "hard": 30
+        }
+      }
+    ],
+    "exponential_functions": [
+      {
+        "generator_id": "exp_function_evaluate",
+        "display_name": "Evaluate f(x) = a * b^x at a given input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "exp_function_classify_growth_decay",
+        "display_name": "Classify f(x) = a * b^x as growth or decay and find initial value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "exp_function_from_initial_and_factor",
+        "display_name": "Write f(x) = N * b^x from initial value and factor",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "exponential_equations": [
+      {
+        "generator_id": "exp_eq_common_base_simple",
+        "display_name": "Solve b^x = N where both sides share the same base",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "exp_eq_common_base_rewrite",
+        "display_name": "Solve a^x = b^k after rewriting with a common base",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "exp_eq_logarithm_method",
+        "display_name": "Solve b^x = N using logarithms",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "growth_decay_and_applications": [
+      {
+        "generator_id": "compound_interest_discrete",
+        "display_name": "Compound interest A = P(1 + r/n)^(nt)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "exp_growth_population",
+        "display_name": "Population growth P(t) = P_0 * (1 + r)^t",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "half_life_decay",
+        "display_name": "Half-life decay A(t) = A_0 * (1/2)^(t/T)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "introduction_to_exponentials_and_logarithms": [
+      {
+        "generator_id": "exp_log_convert_forms",
+        "display_name": "Convert between exponential and logarithmic form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "natural_log_evaluate_clean_powers",
+        "display_name": "Evaluate natural log of clean powers of e",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "log_base_evaluate_clean",
+        "display_name": "Evaluate log_b(b^n) for clean bases",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 30
+        }
+      }
+    ],
+    "simple_and_compound_interest": [
+      {
+        "generator_id": "simple_interest_compute",
+        "display_name": "Compute simple interest I = Prt",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "simple_interest_find_time_or_rate",
+        "display_name": "Find rate or time from simple interest formula",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "compound_interest_pre_algebra",
+        "display_name": "Compute compound interest (pre-algebra level)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      }
+    ],
+    "logarithms": [
+      {
+        "generator_id": "log_evaluate_clean_base",
+        "display_name": "Evaluate log_b(b^n) for clean integer base and exponent",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "log_evaluate_natural_and_common",
+        "display_name": "Evaluate common logs and natural logs at clean powers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 16,
+          "hard": 16
+        }
+      },
+      {
+        "generator_id": "log_convert_to_exponential_form",
+        "display_name": "Convert between log form and exponential form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "logarithmic_functions": [
+      {
+        "generator_id": "log_function_domain",
+        "display_name": "Find the domain of f(x) = log_b(x - h)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "log_function_evaluate",
+        "display_name": "Evaluate f(x) = a * log_b(x - h) + k at a clean input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "log_function_key_features",
+        "display_name": "Key features (asymptote, x-intercept, direction) of a log function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "logarithmic_equations": [
+      {
+        "generator_id": "log_eq_single_log",
+        "display_name": "Solve log_b(x) = c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "log_eq_combine_logs",
+        "display_name": "Solve a log equation using the product rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "log_eq_extraneous_solution",
+        "display_name": "Solve a log equation and reject the extraneous root",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "properties_of_logarithms": [
+      {
+        "generator_id": "log_product_rule_expand_contract",
+        "display_name": "Expand or contract log_b(xy) using the product rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "log_power_rule_expand_contract",
+        "display_name": "Expand or contract log_b(x^n) using the power rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "log_change_of_base",
+        "display_name": "Change of base: rewrite log_b(x) using log or ln",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "applications_of_exponentials_and_logarithms": [
+      {
+        "generator_id": "continuous_compound_interest",
+        "display_name": "Continuous compound interest: A = P e^(rt)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "exponential_model_solve_for_time",
+        "display_name": "Solve A_0 e^(rt) = A for t",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "richter_or_ph_or_decibel_scale",
+        "display_name": "Log-scale word problems (Richter, pH, decibel)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 18,
+          "hard": 18
         }
       }
     ],
@@ -4816,6 +5136,306 @@
         "hard": 30
       },
       "shard_file": "problems/introduction_to_rational_functions.json"
+    },
+    "exp_function_evaluate": {
+      "topic_slug": "exponential_functions",
+      "display_name": "Evaluate f(x) = a * b^x at a given input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/exponential_functions.json"
+    },
+    "exp_function_classify_growth_decay": {
+      "topic_slug": "exponential_functions",
+      "display_name": "Classify f(x) = a * b^x as growth or decay and find initial value",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/exponential_functions.json"
+    },
+    "exp_function_from_initial_and_factor": {
+      "topic_slug": "exponential_functions",
+      "display_name": "Write f(x) = N * b^x from initial value and factor",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/exponential_functions.json"
+    },
+    "exp_eq_common_base_simple": {
+      "topic_slug": "exponential_equations",
+      "display_name": "Solve b^x = N where both sides share the same base",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/exponential_equations.json"
+    },
+    "exp_eq_common_base_rewrite": {
+      "topic_slug": "exponential_equations",
+      "display_name": "Solve a^x = b^k after rewriting with a common base",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/exponential_equations.json"
+    },
+    "exp_eq_logarithm_method": {
+      "topic_slug": "exponential_equations",
+      "display_name": "Solve b^x = N using logarithms",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/exponential_equations.json"
+    },
+    "compound_interest_discrete": {
+      "topic_slug": "growth_decay_and_applications",
+      "display_name": "Compound interest A = P(1 + r/n)^(nt)",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/growth_decay_and_applications.json"
+    },
+    "exp_growth_population": {
+      "topic_slug": "growth_decay_and_applications",
+      "display_name": "Population growth P(t) = P_0 * (1 + r)^t",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/growth_decay_and_applications.json"
+    },
+    "half_life_decay": {
+      "topic_slug": "growth_decay_and_applications",
+      "display_name": "Half-life decay A(t) = A_0 * (1/2)^(t/T)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/growth_decay_and_applications.json"
+    },
+    "exp_log_convert_forms": {
+      "topic_slug": "introduction_to_exponentials_and_logarithms",
+      "display_name": "Convert between exponential and logarithmic form",
+      "counts": {
+        "easy": 20,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_exponentials_and_logarithms.json"
+    },
+    "natural_log_evaluate_clean_powers": {
+      "topic_slug": "introduction_to_exponentials_and_logarithms",
+      "display_name": "Evaluate natural log of clean powers of e",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/introduction_to_exponentials_and_logarithms.json"
+    },
+    "log_base_evaluate_clean": {
+      "topic_slug": "introduction_to_exponentials_and_logarithms",
+      "display_name": "Evaluate log_b(b^n) for clean bases",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_exponentials_and_logarithms.json"
+    },
+    "simple_interest_compute": {
+      "topic_slug": "simple_and_compound_interest",
+      "display_name": "Compute simple interest I = Prt",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/simple_and_compound_interest.json"
+    },
+    "simple_interest_find_time_or_rate": {
+      "topic_slug": "simple_and_compound_interest",
+      "display_name": "Find rate or time from simple interest formula",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/simple_and_compound_interest.json"
+    },
+    "compound_interest_pre_algebra": {
+      "topic_slug": "simple_and_compound_interest",
+      "display_name": "Compute compound interest (pre-algebra level)",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/simple_and_compound_interest.json"
+    },
+    "log_evaluate_clean_base": {
+      "topic_slug": "logarithms",
+      "display_name": "Evaluate log_b(b^n) for clean integer base and exponent",
+      "counts": {
+        "easy": 10,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/logarithms.json"
+    },
+    "log_evaluate_natural_and_common": {
+      "topic_slug": "logarithms",
+      "display_name": "Evaluate common logs and natural logs at clean powers",
+      "counts": {
+        "easy": 10,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/logarithms.json"
+    },
+    "log_convert_to_exponential_form": {
+      "topic_slug": "logarithms",
+      "display_name": "Convert between log form and exponential form",
+      "counts": {
+        "easy": 20,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/logarithms.json"
+    },
+    "log_function_domain": {
+      "topic_slug": "logarithmic_functions",
+      "display_name": "Find the domain of f(x) = log_b(x - h)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/logarithmic_functions.json"
+    },
+    "log_function_evaluate": {
+      "topic_slug": "logarithmic_functions",
+      "display_name": "Evaluate f(x) = a * log_b(x - h) + k at a clean input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/logarithmic_functions.json"
+    },
+    "log_function_key_features": {
+      "topic_slug": "logarithmic_functions",
+      "display_name": "Key features (asymptote, x-intercept, direction) of a log function",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/logarithmic_functions.json"
+    },
+    "log_eq_single_log": {
+      "topic_slug": "logarithmic_equations",
+      "display_name": "Solve log_b(x) = c",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/logarithmic_equations.json"
+    },
+    "log_eq_combine_logs": {
+      "topic_slug": "logarithmic_equations",
+      "display_name": "Solve a log equation using the product rule",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/logarithmic_equations.json"
+    },
+    "log_eq_extraneous_solution": {
+      "topic_slug": "logarithmic_equations",
+      "display_name": "Solve a log equation and reject the extraneous root",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/logarithmic_equations.json"
+    },
+    "log_product_rule_expand_contract": {
+      "topic_slug": "properties_of_logarithms",
+      "display_name": "Expand or contract log_b(xy) using the product rule",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/properties_of_logarithms.json"
+    },
+    "log_power_rule_expand_contract": {
+      "topic_slug": "properties_of_logarithms",
+      "display_name": "Expand or contract log_b(x^n) using the power rule",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/properties_of_logarithms.json"
+    },
+    "log_change_of_base": {
+      "topic_slug": "properties_of_logarithms",
+      "display_name": "Change of base: rewrite log_b(x) using log or ln",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/properties_of_logarithms.json"
+    },
+    "continuous_compound_interest": {
+      "topic_slug": "applications_of_exponentials_and_logarithms",
+      "display_name": "Continuous compound interest: A = P e^(rt)",
+      "counts": {
+        "easy": 20,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/applications_of_exponentials_and_logarithms.json"
+    },
+    "exponential_model_solve_for_time": {
+      "topic_slug": "applications_of_exponentials_and_logarithms",
+      "display_name": "Solve A_0 e^(rt) = A for t",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_exponentials_and_logarithms.json"
+    },
+    "richter_or_ph_or_decibel_scale": {
+      "topic_slug": "applications_of_exponentials_and_logarithms",
+      "display_name": "Log-scale word problems (Richter, pH, decibel)",
+      "counts": {
+        "easy": 15,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/applications_of_exponentials_and_logarithms.json"
     },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",

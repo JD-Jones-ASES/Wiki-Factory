@@ -1551,6 +1551,292 @@ def fig_piecewise_function():
 
 
 # ---------------------------------------------------------------------------
+# Algebra: exponential growth vs decay (Cluster 6)
+
+def fig_exponential_growth_decay():
+    """y = 2^x and y = (1/2)^x on a single plane with a shared asymptote."""
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(-3, 5)
+    ax.set_ylim(-1, 20)
+
+    # Light grid at each integer
+    for i in range(-3, 6):
+        ax.plot([i, i], [-1, 20], color=C_GRID, linewidth=0.6, zorder=0)
+    for j in range(-1, 21):
+        ax.plot([-3, 5], [j, j], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(4.85, 0), xytext=(-2.85, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 19.6), xytext=(0, -0.85),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(4.9, 0.4, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.15, 19.7, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Integer x tick labels
+    for t in range(-2, 5):
+        if t == 0:
+            continue
+        ax.text(t, -0.55, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+    # y tick labels at a few values (every 4)
+    for t in [4, 8, 12, 16]:
+        ax.text(-0.1, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Dashed horizontal asymptote at y = 0
+    ax.plot([-3, 5], [0, 0], color=C_DASH,
+            linewidth=1.4, linestyle="--", zorder=1)
+    ax.text(4.75, 0.55, r"$y = 0$", fontsize=9, color=C_DASH,
+            ha="right", va="bottom", fontweight="bold")
+
+    # Colors
+    color_growth = "#2e86de"   # blue
+    color_decay = "#c44569"    # red
+
+    # Growth: y = 2^x (clipped to the y window)
+    xg = np.linspace(-3, 5, 400)
+    yg = 2.0 ** xg
+    mask_g = yg <= 20
+    ax.plot(xg[mask_g], yg[mask_g], color=color_growth,
+            linewidth=2.4, zorder=3)
+
+    # Decay: y = (1/2)^x (clipped to the y window)
+    xd = np.linspace(-3, 5, 400)
+    yd = 0.5 ** xd
+    mask_d = yd <= 20
+    ax.plot(xd[mask_d], yd[mask_d], color=color_decay,
+            linewidth=2.4, zorder=3)
+
+    # Curve labels near the top of each plotted curve
+    ax.text(4.3, 17.5, r"$y = 2^{x}$",
+            fontsize=11, color=color_growth, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_growth, linewidth=0.8))
+    ax.text(-2.3, 17.5, r"$y = (1/2)^{x}$",
+            fontsize=11, color=color_decay, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_decay, linewidth=0.8))
+
+    ax.set_title("Exponential growth vs decay", fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/exponential_growth_decay.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: logarithm as inverse of exponential (Cluster 6)
+
+def fig_log_exp_inverses():
+    """y = 2^x and y = log_2(x) reflected across y = x."""
+    fig, ax = plt.subplots(figsize=(6, 6))
+    ax.set_aspect("equal")
+    ax.set_xlim(-4, 8)
+    ax.set_ylim(-4, 8)
+
+    # Light grid
+    for i in range(-4, 9):
+        ax.plot([i, i], [-4, 8], color=C_GRID, linewidth=0.6, zorder=0)
+        ax.plot([-4, 8], [i, i], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(7.85, 0), xytext=(-3.85, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 7.85), xytext=(0, -3.85),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(7.9, 0.2, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.2, 7.9, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Integer tick labels
+    for t in range(-3, 8):
+        if t == 0:
+            continue
+        ax.text(t, -0.25, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+        ax.text(-0.15, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Colors
+    color_exp = "#2e86de"    # blue
+    color_log = "#c44569"    # red
+
+    # Mirror line y = x (dashed gray)
+    ax.plot([-4, 8], [-4, 8], color=C_DASH,
+            linewidth=1.4, linestyle="--", zorder=1)
+    ax.text(6.4, 6.9, r"$y = x$", fontsize=10, color=C_DASH,
+            ha="left", va="bottom", fontweight="bold")
+
+    # Exponential: y = 2^x (clipped to window)
+    xe = np.linspace(-4, 4, 400)
+    ye = 2.0 ** xe
+    mask_e = ye <= 8
+    ax.plot(xe[mask_e], ye[mask_e], color=color_exp,
+            linewidth=2.4, zorder=3)
+
+    # Logarithm: y = log_2(x), only for x > 0, clipped to window
+    xl = np.linspace(0.01, 8, 400)
+    yl = np.log2(xl)
+    mask_l = (yl >= -4) & (yl <= 8)
+    ax.plot(xl[mask_l], yl[mask_l], color=color_log,
+            linewidth=2.4, zorder=3)
+
+    # Matching reflection points
+    # (0, 1) on exponential <-> (1, 0) on logarithm
+    # (1, 2) on exponential <-> (2, 1) on logarithm
+    pair_pts = [
+        ((0, 1), (1, 0)),
+        ((1, 2), (2, 1)),
+    ]
+    for (ex, ey), (lx, ly) in pair_pts:
+        ax.plot(ex, ey, "o", color=color_exp, markersize=7, zorder=5)
+        ax.plot(lx, ly, "o", color=color_log, markersize=7, zorder=5)
+        # Thin connector across the mirror line
+        ax.plot([ex, lx], [ey, ly], color=C_DASH,
+                linewidth=0.9, linestyle=":", zorder=2)
+
+    # Point labels
+    ax.text(0.15, 1.2, r"$(0,\,1)$", fontsize=8, color=color_exp,
+            ha="left", va="bottom")
+    ax.text(1.2, -0.1, r"$(1,\,0)$", fontsize=8, color=color_log,
+            ha="left", va="top")
+    ax.text(1.2, 2.1, r"$(1,\,2)$", fontsize=8, color=color_exp,
+            ha="left", va="bottom")
+    ax.text(2.2, 1.1, r"$(2,\,1)$", fontsize=8, color=color_log,
+            ha="left", va="bottom")
+
+    # Curve labels
+    ax.text(3.1, 7.3, r"$y = 2^{x}$",
+            fontsize=11, color=color_exp, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_exp, linewidth=0.8))
+    ax.text(6.7, 2.3, r"$y = \log_{2}(x)$",
+            fontsize=11, color=color_log, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_log, linewidth=0.8))
+
+    ax.set_title("The logarithm is the mirror of the exponential",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/log_exp_inverses.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: compound growth comparison (Cluster 6)
+
+def fig_compound_growth_comparison():
+    """Simple, annual, monthly, and continuous compounding on $1000 at 5%."""
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.set_xlim(0, 30)
+    ax.set_ylim(0, 5000)
+
+    # Light grid: vertical every 5 years, horizontal every 500 dollars
+    for i in range(0, 31, 5):
+        ax.plot([i, i], [0, 5000], color=C_GRID,
+                linewidth=0.6, zorder=0)
+    for j in range(0, 5001, 500):
+        ax.plot([0, 30], [j, j], color=C_GRID,
+                linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(29.7, 0), xytext=(0, 0),
+        arrowprops=dict(arrowstyle="-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 4950), xytext=(0, 0),
+        arrowprops=dict(arrowstyle="-|>", color=C_LINE, lw=1.4),
+    )
+
+    # Tick labels
+    for t in range(0, 31, 5):
+        ax.text(t, -90, str(t), ha="center", va="top",
+                fontsize=9, color=C_TEXT)
+    for t in range(0, 5001, 1000):
+        ax.text(-0.25, t, f"${t}", ha="right", va="center",
+                fontsize=9, color=C_TEXT)
+
+    # Axis labels
+    ax.text(15, -330, "time (years)", fontsize=11,
+            color=C_TEXT, ha="center", va="top")
+    ax.text(-2.8, 2500, "balance (dollars)", fontsize=11,
+            color=C_TEXT, ha="center", va="center", rotation=90)
+
+    # Time array for smooth curves
+    t = np.linspace(0, 30, 400)
+    P = 1000.0
+    r = 0.05
+
+    # Colors per spec
+    color_simple = "#888888"      # gray
+    color_annual = "#10ac84"      # green
+    color_monthly = "#2e86de"     # blue
+    color_cont = "#c44569"        # red
+
+    # Simple interest: straight line A = P(1 + r*t)
+    A_simple = P * (1.0 + r * t)
+    ax.plot(t, A_simple, color=color_simple, linewidth=2.2,
+            label=r"simple: $A = 1000(1 + 0.05t)$", zorder=3)
+
+    # Annual: A = P(1.05)^t
+    A_annual = P * (1.0 + r) ** t
+    ax.plot(t, A_annual, color=color_annual, linewidth=2.2,
+            label=r"annual: $A = 1000(1.05)^{t}$", zorder=3)
+
+    # Monthly: A = P(1 + r/12)^(12 t)
+    A_monthly = P * (1.0 + r / 12.0) ** (12.0 * t)
+    ax.plot(t, A_monthly, color=color_monthly, linewidth=2.2,
+            label=r"monthly: $A = 1000(1 + 0.05/12)^{12t}$",
+            zorder=3)
+
+    # Continuous: A = P * e^(r t)
+    A_cont = P * np.exp(r * t)
+    ax.plot(t, A_cont, color=color_cont, linewidth=2.2,
+            label=r"continuous: $A = 1000\,e^{0.05t}$", zorder=3)
+
+    # Legend
+    ax.legend(loc="upper left", fontsize=9, framealpha=0.95,
+              edgecolor=C_DASH)
+
+    ax.set_title(
+        "Simple, annual, monthly, and continuous compounding on $1000 at 5%",
+        fontsize=12, pad=12,
+    )
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/compound_growth_comparison.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -1574,6 +1860,9 @@ FIGURES = [
     ("transformation_shifts", fig_transformation_shifts),
     ("rational_asymptotes", fig_rational_asymptotes),
     ("piecewise_function", fig_piecewise_function),
+    ("exponential_growth_decay", fig_exponential_growth_decay),
+    ("log_exp_inverses", fig_log_exp_inverses),
+    ("compound_growth_comparison", fig_compound_growth_comparison),
 ]
 
 

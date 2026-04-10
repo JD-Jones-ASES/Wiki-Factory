@@ -9,20 +9,20 @@ source_refs: []
 related: []
 status: complete
 confidence: high
-summary: "Index of every live topic (90) and stub topic (149) in Math Wiki."
+summary: "Index of every live topic (100) and stub topic (139) in Math Wiki."
 ---
 
 # Topics Overview
 
 > [[_overview|Home]] > Topics
 
-Every math topic covered by the wiki lives on one page. This index lists the **90 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
+Every math topic covered by the wiki lives on one page. This index lists the **100 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
 
 Use **search** (the box in the left sidebar) to jump directly to a topic by name.
 
 ---
 
-## 🟢 Live Topics (90)
+## 🟢 Live Topics (100)
 
 Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed problem types, and cross-references to prerequisite and related topics.
 
@@ -72,6 +72,9 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 **Radicals and distance** (new in Cluster 4)
 - [[Rational_Exponents|Rational Exponents]]
 - [[The_Distance_Formula|The Distance Formula]]
+
+**Money math** (new in Cluster 6)
+- [[Simple_And_Compound_Interest|Simple and Compound Interest]]
 
 ### Algebra 1 (41 topics)
 
@@ -130,7 +133,7 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Function_Basics|Function Basics]]
 - [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]]
 
-### Algebra 2 (19 topics) (expanded in Cluster 5)
+### Algebra 2 (25 topics) (expanded in Cluster 6)
 
 **Functions and Modeling**
 - [[Linear_Functions|Linear Functions]]
@@ -163,10 +166,21 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Graphing_Rational_Functions_Part_2|Graphing Rational Functions (Part 2)]]
 - [[More_Exotic_Functions|More Exotic Functions]]
 
-### Pre-Calculus (2 topics) (new in Cluster 5)
+**Exponentials and logarithms** (new in Cluster 6)
+- [[Exponential_Functions|Exponential Functions]]
+- [[Exponential_Equations|Exponential Equations]]
+- [[Growth_Decay_And_Applications|Growth, Decay, and Applications]]
+- [[Logarithms|Logarithms]]
+- [[Logarithmic_Functions|Logarithmic Functions]]
+- [[Logarithmic_Equations|Logarithmic Equations]]
+
+### Pre-Calculus (5 topics) (expanded in Cluster 6)
 
 - [[Function_Notation|Function Notation]]
 - [[Introduction_To_Rational_Functions|Introduction to Rational Functions]]
+- [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]]
+- [[Properties_Of_Logarithms|Properties of Logarithms]]
+- [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]]
 
 ### Geometry (1 topic)
 
@@ -174,13 +188,13 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 
 ---
 
-## ⚪ Stub Topics (149)
+## ⚪ Stub Topics (139)
 
 Every remaining topic is listed under its branch hub with the full catalog coverage. Stubs have the frontmatter and source references but no prose or practice widgets yet. They become live one cluster at a time.
 
-- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~103 stubs)
+- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~96 stubs)
 - [[Geometry_Overview|Geometry branch hub]] (coordinate plane, ~1 stub)
-- [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~45 stubs)
+- [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~42 stubs)
 
 See [[Topic_Status|Progress Dashboard]] for per-topic scores and status.
 

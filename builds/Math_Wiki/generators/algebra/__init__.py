@@ -23,4 +23,6 @@ from . import radicals  # noqa: F401
 from . import function_fundamentals  # noqa: F401
 from . import function_families  # noqa: F401
 from . import advanced_functions  # noqa: F401
+from . import exponentials  # noqa: F401
+from . import logarithms  # noqa: F401
 

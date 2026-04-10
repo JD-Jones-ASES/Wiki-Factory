@@ -48,19 +48,21 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Calculus topics (Stitz-Zeager AlgTrig) --- 2 live / 47 total
+### Pre-Calculus topics (Stitz-Zeager AlgTrig) --- 5 live / 47 total
 
-**🟢 Live topics with practice widgets (2)**
+**🟢 Live topics with practice widgets (5)**
 
+- 🟢 [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]]
 - 🟢 [[Function_Notation|Function Notation]]
+- 🟢 [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]]
 - 🟢 [[Introduction_To_Rational_Functions|Introduction to Rational Functions]]
+- 🟢 [[Properties_Of_Logarithms|Properties of Logarithms]]
 
 <details>
-<summary>⚪ 45 stub topic(s) (click to expand)</summary>
+<summary>⚪ 42 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Algebraic_Functions|Algebraic Functions]] --- _3 worked example(s)_
 - ⚪ [[Angles|Angles]] --- _5 worked example(s)_
-- ⚪ [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]] --- _7 worked example(s)_
 - ⚪ [[Augmented_Matrices|Augmented Matrices]] --- _3 worked example(s)_
 - ⚪ [[Binomial|Binomial]] --- _2 worked example(s)_
 - ⚪ [[Circular_Functions|Circular Functions]] --- _5 worked example(s)_
@@ -77,7 +79,6 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 - ⚪ [[Induction|Induction]] --- _1 worked example(s)_
 - ⚪ [[Inequalities|Inequalities]] --- _6 worked example(s)_
 - ⚪ [[Introduction_To_Conics|Introduction to Conic Sections]]
-- ⚪ [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]] --- _5 worked example(s)_
 - ⚪ [[Introduction_To_Functions|Introduction to Functions]] --- _5 worked example(s)_
 - ⚪ [[Introduction_To_Polar_Coordinates|Introduction to Polar Coordinates]] --- _3 worked example(s)_
 - ⚪ [[Inverse_Trigonometric_Functions|Inverse Trigonometric Functions]] --- _7 worked example(s)_
@@ -88,7 +89,6 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 - ⚪ [[Parfrac|ParFrac]] --- _1 worked example(s)_
 - ⚪ [[Parametric|Parametric]] --- _5 worked example(s)_
 - ⚪ [[Polar_Form_Of_Complex_Numbers|Polar Form of Complex Numbers]] --- _4 worked example(s)_
-- ⚪ [[Properties_Of_Logarithms|Properties of Logarithms]] --- _3 worked example(s)_
 - ⚪ [[Real_Zeros_Of_Polynomials|Real Zeros of Polynomials]] --- _8 worked example(s)_
 - ⚪ [[Real_Zeros_Of_Polynomials_Advanced|Real Zeros of Polynomials (Advanced)]] --- _8 worked example(s)_
 - ⚪ [[Relations|Relations]] --- _4 worked example(s)_

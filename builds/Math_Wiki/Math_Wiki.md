@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.11.0 --- Cluster 5 Functions & Transformations shipped (2026-04-10)
+### Version 1.12.0 --- Cluster 6 Exponentials & Logarithms shipped, 100 live topics! (2026-04-10)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 90 topics with working widgets, 272 generators, 23,330 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
+| **Scale** | Live: 100 topics with working widgets, 302 generators, 25,414 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -27,8 +27,9 @@
 - **Cluster 2** (linear world completion, 14 topics) — **shipped** commit `49dfa00`
 - **Cluster 3** (polynomials + quadratics deep, 14 topics) — **shipped** commit `bb768cc`
 - **Cluster 4** (rationals & radicals, 12 topics) — **shipped** commit `a3db819`
-- **Cluster 5** (functions & transformations, 14 topics) — **shipped** (this version)
-- **Next:** Cluster 6 (Exponentials & Logarithms, ~10 topics)
+- **Cluster 5** (functions & transformations, 14 topics) — **shipped** commit `bedee97`
+- **Cluster 6** (exponentials & logarithms, 10 topics) — **shipped** (this version, **100 live topics total**)
+- **Next:** Cluster 7 (Trigonometry, ~15 topics)
 
 ### 30-second mental model
 
@@ -962,9 +963,9 @@ The comprehensive buildout from the current state to complete integration of the
 | **2** | Linear world completion | 14 | **shipped** |
 | **3** | Polynomials + Quadratics deep | 14 | **shipped** |
 | **4** | Rationals & Radicals | 12 | **shipped** |
-| **5** | Functions & Transformations | 14 | **shipped in this session** |
-| **6** | Exponentials & Logarithms | ~10 | **next** |
-| **7** | Trigonometry | ~15 | pending |
+| **5** | Functions & Transformations | 14 | **shipped** |
+| **6** | Exponentials & Logarithms | 10 | **shipped in this session** |
+| **7** | Trigonometry | ~15 | **next** |
 | **8** | Sequences, probability, statistics | ~10 | pending |
 | **9** | Conics, matrices, complex numbers, vectors | ~12 | pending |
 | **L** | Lint/polish + prereq-graph widget + ingest smoke test | 0 | pending |
@@ -1075,6 +1076,61 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.12.0 --- Cluster 6 Exponentials & Logarithms (2026-04-10)
+
+**Stats:** 10 topics enriched (+10 live, now **100 total** — a milestone), 30 new generators (+30, now 302 total), 2,084 new verified problems (+2,084, now 25,414 total), 3 new matplotlib figures (exponential growth vs decay, log/exp inverse mirror, compound growth comparison).
+
+**Topics shipped (all at draft status, scores 80+):**
+
+- **Exponentials (3):** Exponential_Functions, Exponential_Equations (2 sources), Growth_Decay_And_Applications
+- **Logarithms (3):** Logarithms, Logarithmic_Functions, Logarithmic_Equations (2 sources)
+- **Pre-calculus overview + depth (3):** Introduction_To_Exponentials_And_Logarithms, Properties_Of_Logarithms, Applications_Of_Exponentials_And_Logarithms
+- **Pre-algebra money math (1):** Simple_And_Compound_Interest
+
+**Three more pre-calc topics go live** — the precalculus branch now has 5/47 topics enriched (up from 2/47 after Cluster 5), with Properties_Of_Logarithms and Applications_Of_Exponentials_And_Logarithms representing the first deep-dive pre-calc content beyond the Cluster 5 intros.
+
+**Generator modules added (2):**
+
+- `generators/algebra/exponentials.py` — 15 generators covering 5 topics (exponential_functions × 3, exponential_equations × 3, growth_decay_and_applications × 3, introduction_to_exponentials_and_logarithms × 3, simple_and_compound_interest × 3)
+- `generators/algebra/logarithms.py` — 15 generators covering 5 topics (logarithms × 3, logarithmic_functions × 3, logarithmic_equations × 3, properties_of_logarithms × 3, applications_of_exponentials_and_logarithms × 3)
+
+**Figures added** (deterministic SVGs in `wiki/assets/figures/algebra/`):
+
+- `exponential_growth_decay.svg` — `y = 2^x` vs `y = (1/2)^x` on the same axes, shared horizontal asymptote at y = 0
+- `log_exp_inverses.svg` — `y = 2^x` and `y = log_2(x)` with `y = x` as the reflection line, four matched pairs of reflection points
+- `compound_growth_comparison.svg` — simple, annual, monthly, and continuous compounding of $1000 at 5% over 30 years, all four curves labeled
+
+**Execution model:**
+
+Back to the standard cadence — 3 parallel content sub-agents (3+3+4 topics) + 2 parallel generator sub-agents (15+15) + 1 figures sub-agent. All six sub-agents dispatched together; sub-agent usage limit held up. No hybrid execution needed this cluster.
+
+**What worked:**
+
+- **The pre-calc bridge is paying off.** Cluster 5 shipped the first pre-calc pages, and now Cluster 6 added three more, which makes the Properties_Of_Logarithms and Applications_Of_Exponentials_And_Logarithms pages feel like they belong to an actual pre-calc sub-section rather than orphans. The Precalculus_Overview hub now genuinely shows progress.
+- **Rich inverse-relationship framing for logs.** Treating `log_b(x)` as "the inverse of `b^x`" throughout the Logarithmic_Functions page gave every feature a free derivation — the domain, range, asymptote, and graph shape all fall out of the inverse relationship rather than needing to be memorized. This is a cleaner pedagogy than the usual "here are the rules" approach and shows up in the student-facing wiki.
+- **The log vs exp mirror figure** is the single most pedagogically valuable figure in the cluster. Looking at the two curves with the `y = x` line between them makes the inverse relationship unmistakable in one glance. More topics that hinge on inverse relationships could benefit from similar "mirror" figures.
+- **Compound interest comparison figure** makes the difference between simple and compound immediately visible — at 30 years on $1000 at 5%, simple gives $2500 while continuous gives ~$4482. That visual gap sells the whole topic.
+- **Word-problem discipline is now reflex.** Every applications generator in Cluster 6 uses paraphrased, non-source scenarios. Toy rocket/half-life/population/bank balance scenarios all invented; zero copyright hits on the applications topic.
+
+**What failed and how it was fixed:**
+
+- **1 copyright near-miss and 2 tag/wikilink warnings** in content batches. The copyright hit was a multi-part example prompt listing "domain, range, vertical asymptote, x-intercept, and y-intercept" that matched a source sequence — rewrote the prompt to describe the features conceptually rather than as an enumerated list. The tag hit was `#topic-equations-and-inequalities` (not in the taxonomy) on Logarithmic_Equations — removed. The dead wikilink was `[[Quadratic_Formula]]` (actual target is `The_Quadratic_Formula`) — fixed.
+- **1 sub-agent race condition**: Two generator agents both modified `generators/algebra/__init__.py` to add import lines, and briefly one had a syntax error from a partial write. The second agent reported it and kept going. After final rebuild, all imports resolved cleanly.
+- **Parameter-space-too-small on 2 generators**: `natural_log_evaluate_clean_powers` (only ~12 clean powers of e) and `log_evaluate_natural_and_common` needed `bank_count_per_difficulty` overrides. Both agents fixed in place.
+
+**Gate checks after Cluster 6:**
+
+- **Pytest:** 29/29 green (8 circles-parametrized across 302 generators + 10 consolidate-snapshot + 3 copyright + 8 ingest smoke).
+- **Lint:** 0 errors, 0 warnings, 1 info (166 stub pages — down from 176).
+- **YAML:** 257/257 clean.
+- **Topic status:** 239 topics, avg score 43.4 / 100 projected (was 39.3). 100 topics with 3+ generators (was 88). Algebra branch avg jumped from 52.3 → ~57 as the late-algebra-2 topics came online. Pre-calculus avg from 18.0 → 22.6 with the three new pre-calc topics contributing.
+- **Bank size:** 21.1 MB across 100 shards, all under 320 KB each. Largest: `logarithmic_functions.json` at 236.3 KB.
+- **Branch hubs:** Both Algebra_Overview (95 live) and Precalculus_Overview (5 live) auto-regenerated.
+
+**Milestone: 100 live topics!** Math_Wiki has crossed the triple-digit live-topic mark. Six clusters into the nine-cluster plan, the wiki now covers the full algebra curriculum from pre-algebra foundations through algebra-2 with exponentials and logarithms, plus a handful of pre-calculus anchors. What remains is trigonometry, sequences/probability/stats, and conic sections — all of which have smaller footprints in the source books than the algebra core.
+
+**What's next (Cluster 7):** Trigonometry. ~15 topics covering: right-triangle trig (SOH-CAH-TOA), angles and radian measure, the unit circle, graphs of sine/cosine/tangent, Pythagorean and sum/difference identities, trigonometric equations, Law of Sines, Law of Cosines. This is the first cluster to populate the `#branch-trigonometry` tag — until now that branch has been 100% stub. Expect to ship ~15 topics in one session if sub-agent limits stay friendly.
 
 ### Version 1.11.0 --- Cluster 5 Functions & Transformations (2026-04-10)
 
