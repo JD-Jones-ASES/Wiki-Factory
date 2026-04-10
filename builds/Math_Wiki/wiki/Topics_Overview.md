@@ -9,20 +9,20 @@ source_refs: []
 related: []
 status: complete
 confidence: high
-summary: "Index of every live topic (76) and stub topic (163) in Math Wiki."
+summary: "Index of every live topic (90) and stub topic (149) in Math Wiki."
 ---
 
 # Topics Overview
 
 > [[_overview|Home]] > Topics
 
-Every math topic covered by the wiki lives on one page. This index lists the **76 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
+Every math topic covered by the wiki lives on one page. This index lists the **90 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
 
 Use **search** (the box in the left sidebar) to jump directly to a topic by name.
 
 ---
 
-## 🟢 Live Topics (76)
+## 🟢 Live Topics (90)
 
 Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed problem types, and cross-references to prerequisite and related topics.
 
@@ -73,7 +73,7 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Rational_Exponents|Rational Exponents]]
 - [[The_Distance_Formula|The Distance Formula]]
 
-### Algebra 1 (38 topics)
+### Algebra 1 (41 topics)
 
 **Equations**
 - [[One_Step_Equations|One-Step Equations]]
@@ -125,7 +125,12 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Simplifying_Radical_Expressions|Simplifying Radical Expressions]]
 - [[Operations_With_Radicals|Operations with Radicals]]
 
-### Algebra 2 (10 topics) (expanded in Cluster 4)
+**Functions** (new in Cluster 5)
+- [[Relations_And_Functions|Relations and Functions]]
+- [[Function_Basics|Function Basics]]
+- [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]]
+
+### Algebra 2 (19 topics) (expanded in Cluster 5)
 
 **Functions and Modeling**
 - [[Linear_Functions|Linear Functions]]
@@ -145,19 +150,37 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Square_Root_Functions|Square Root Functions]]
 - [[Cube_Root_And_Other_Radical_Functions|Cube Root and Other Radical Functions]]
 
+**Parent function families** (new in Cluster 5)
+- [[Inverse_Functions|Inverse Functions]]
+- [[Absolute_Value_Functions|Absolute Value Functions]]
+- [[Power_Functions|Power Functions]]
+- [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]]
+
+**Transformations and exotic functions** (new in Cluster 5)
+- [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]]
+- [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, Combined]]
+- [[Graphing_Rational_Functions_Part_1|Graphing Rational Functions (Part 1)]]
+- [[Graphing_Rational_Functions_Part_2|Graphing Rational Functions (Part 2)]]
+- [[More_Exotic_Functions|More Exotic Functions]]
+
+### Pre-Calculus (2 topics) (new in Cluster 5)
+
+- [[Function_Notation|Function Notation]]
+- [[Introduction_To_Rational_Functions|Introduction to Rational Functions]]
+
 ### Geometry (1 topic)
 
 - [[Circles|Circles]]
 
 ---
 
-## ⚪ Stub Topics (163)
+## ⚪ Stub Topics (149)
 
 Every remaining topic is listed under its branch hub with the full catalog coverage. Stubs have the frontmatter and source references but no prose or practice widgets yet. They become live one cluster at a time.
 
-- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~116 stubs)
+- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~103 stubs)
 - [[Geometry_Overview|Geometry branch hub]] (coordinate plane, ~1 stub)
-- [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~47 stubs)
+- [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~45 stubs)
 
 See [[Topic_Status|Progress Dashboard]] for per-topic scores and status.
 

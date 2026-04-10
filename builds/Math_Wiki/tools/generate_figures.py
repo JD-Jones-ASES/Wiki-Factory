@@ -1195,6 +1195,362 @@ def fig_cube_root_function():
 
 
 # ---------------------------------------------------------------------------
+# Algebra: gallery of parent functions (Cluster 5)
+
+def fig_parent_function_gallery():
+    """A 2x4 grid showing eight common parent functions."""
+    fig, axes = plt.subplots(2, 4, figsize=(8, 5))
+
+    def draw_linear(ax):
+        xs = np.linspace(-5, 5, 400)
+        ax.plot(xs, xs, color=C_LINE, linewidth=1.6)
+
+    def draw_quadratic(ax):
+        xs = np.linspace(-5, 5, 400)
+        ax.plot(xs, xs ** 2, color=C_LINE, linewidth=1.6)
+
+    def draw_cubic(ax):
+        xs = np.linspace(-3, 3, 400)
+        ax.plot(xs, xs ** 3, color=C_LINE, linewidth=1.6)
+
+    def draw_abs(ax):
+        xs = np.linspace(-5, 5, 400)
+        ax.plot(xs, np.abs(xs), color=C_LINE, linewidth=1.6)
+
+    def draw_sqrt(ax):
+        xs = np.linspace(0, 5, 400)
+        ax.plot(xs, np.sqrt(xs), color=C_LINE, linewidth=1.6)
+
+    def draw_cbrt(ax):
+        xs = np.linspace(-5, 5, 400)
+        ys = np.sign(xs) * np.abs(xs) ** (1.0 / 3.0)
+        ax.plot(xs, ys, color=C_LINE, linewidth=1.6)
+
+    def draw_reciprocal(ax):
+        # Two branches: avoid x = 0
+        xl = np.linspace(-5, -0.2, 200)
+        xr = np.linspace(0.2, 5, 200)
+        ax.plot(xl, 1.0 / xl, color=C_LINE, linewidth=1.6)
+        ax.plot(xr, 1.0 / xr, color=C_LINE, linewidth=1.6)
+
+    def draw_exponential(ax):
+        xs = np.linspace(-5, 4, 400)
+        ax.plot(xs, 2.0 ** xs, color=C_LINE, linewidth=1.6)
+
+    # 2 rows x 4 columns = 8 panels
+    panels = [
+        (r"$y = x$", draw_linear, (-5, 5), (-5, 5)),
+        (r"$y = x^{2}$", draw_quadratic, (-5, 5), (-1, 10)),
+        (r"$y = x^{3}$", draw_cubic, (-3, 3), (-10, 10)),
+        (r"$y = |x|$", draw_abs, (-5, 5), (-1, 6)),
+        (r"$y = \sqrt{x}$", draw_sqrt, (-1, 6), (-1, 4)),
+        (r"$y = \sqrt[3]{x}$", draw_cbrt, (-5, 5), (-3, 3)),
+        (r"$y = 1/x$", draw_reciprocal, (-5, 5), (-5, 5)),
+        (r"$y = 2^{x}$", draw_exponential, (-5, 4), (-1, 10)),
+    ]
+
+    for ax, (title, draw, xlim, ylim) in zip(axes.flat, panels):
+        ax.set_xlim(xlim)
+        ax.set_ylim(ylim)
+
+        # Lightweight axes through origin (no grid lines inside subplots)
+        ax.axhline(0, color=C_GRID, linewidth=0.7, zorder=0)
+        ax.axvline(0, color=C_GRID, linewidth=0.7, zorder=0)
+
+        draw(ax)
+
+        ax.set_title(title, fontsize=11, color=C_TEXT, pad=4)
+        ax.set_xticks([])
+        ax.set_yticks([])
+        for spine_name, spine in ax.spines.items():
+            if spine_name in ("top", "right"):
+                spine.set_visible(False)
+            else:
+                spine.set_color(C_DASH)
+                spine.set_linewidth(0.6)
+
+    fig.suptitle("A gallery of parent functions", fontsize=14, y=1.00)
+    fig.tight_layout()
+
+    _save(fig, "algebra/parent_function_gallery.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: transformation shifts on y = x^2 (Cluster 5)
+
+def fig_transformation_shifts():
+    """y = x^2 parent plus three shifted variants on a single coordinate plane."""
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(-6, 6)
+    ax.set_ylim(-2, 10)
+
+    # Light grid
+    for i in range(-6, 7):
+        ax.plot([i, i], [-2, 10], color=C_GRID, linewidth=0.6, zorder=0)
+    for j in range(-2, 11):
+        ax.plot([-6, 6], [j, j], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(5.8, 0), xytext=(-5.8, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 9.8), xytext=(0, -1.8),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(5.9, 0.2, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.2, 9.85, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Integer tick labels
+    for t in range(-5, 6):
+        if t == 0:
+            continue
+        ax.text(t, -0.35, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+    for t in range(-1, 11):
+        if t == 0:
+            continue
+        ax.text(-0.15, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Colors for the three transformed parabolas
+    color_blue = "#2e86de"
+    color_green = "#10ac84"
+    color_red = "#c44569"
+
+    # Parent y = x^2 in light gray, thin dashed line
+    x_parent = np.linspace(-3.2, 3.2, 400)
+    ax.plot(x_parent, x_parent ** 2, color="#bbbbbb", linewidth=1.4,
+            linestyle="--", label=r"$y = x^{2}$", zorder=2)
+
+    # Shift right 3:  y = (x - 3)^2
+    x_a = np.linspace(-0.2, 6.0, 400)
+    ya = (x_a - 3) ** 2
+    mask_a = ya <= 10
+    ax.plot(x_a[mask_a], ya[mask_a], color=color_blue, linewidth=2.2,
+            label=r"$y = (x - 3)^{2}$", zorder=3)
+
+    # Shift up 2: y = x^2 + 2
+    x_b = np.linspace(-2.85, 2.85, 400)
+    yb = x_b ** 2 + 2
+    mask_b = yb <= 10
+    ax.plot(x_b[mask_b], yb[mask_b], color=color_green, linewidth=2.2,
+            label=r"$y = x^{2} + 2$", zorder=3)
+
+    # Shift left 2, down 1: y = (x + 2)^2 - 1
+    x_c = np.linspace(-5.3, 1.3, 400)
+    yc = (x_c + 2) ** 2 - 1
+    mask_c = yc <= 10
+    ax.plot(x_c[mask_c], yc[mask_c], color=color_red, linewidth=2.2,
+            label=r"$y = (x + 2)^{2} - 1$", zorder=3)
+
+    # Legend labeling each curve
+    ax.legend(loc="upper left", fontsize=9, framealpha=0.95,
+              edgecolor=C_DASH)
+
+    ax.set_title(r"Shifts of $f(x) = x^{2}$", fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/transformation_shifts.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: rational function with asymptotes (Cluster 5)
+
+def fig_rational_asymptotes():
+    """Plot f(x) = (x^2 - 4)/(x^2 - 1) with its asymptotes labeled."""
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(-5, 5)
+    ax.set_ylim(-5, 5)
+
+    # Light grid
+    for i in range(-5, 6):
+        ax.plot([i, i], [-5, 5], color=C_GRID, linewidth=0.6, zorder=0)
+        ax.plot([-5, 5], [i, i], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(4.85, 0), xytext=(-4.85, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 4.85), xytext=(0, -4.85),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(4.9, 0.2, r"$x$", fontsize=12, color=C_TEXT,
+            ha="right", va="bottom")
+    ax.text(0.2, 4.9, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Integer tick labels
+    for t in range(-4, 5):
+        if t == 0:
+            continue
+        ax.text(t, -0.25, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+        ax.text(-0.18, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Asymptotes (dashed)
+    # Vertical at x = -1 and x = 1
+    ax.plot([-1, -1], [-5, 5], color=C_DASH,
+            linewidth=1.6, linestyle="--", zorder=1)
+    ax.plot([1, 1], [-5, 5], color=C_DASH,
+            linewidth=1.6, linestyle="--", zorder=1)
+    # Horizontal at y = 1
+    ax.plot([-5, 5], [1, 1], color=C_DASH,
+            linewidth=1.6, linestyle="--", zorder=1)
+
+    # Compute f(x) = (x^2 - 4) / (x^2 - 1) across the full range, then mask
+    # out regions where |y| leaves the y-window so the curve is drawn as
+    # three separate pieces around the vertical asymptotes at x = +/-1.
+    xs = np.linspace(-5, 5, 1200)
+    # Exclude points too close to the asymptotes to avoid divide-by-zero.
+    eps = 1e-6
+    safe = np.abs(np.abs(xs) - 1) > eps
+    xs_safe = xs[safe]
+    ys = (xs_safe ** 2 - 4) / (xs_safe ** 2 - 1)
+
+    # Only keep points whose |y| is within the plot window. Breaks in the
+    # underlying index sequence become breaks in the drawn line, so the curve
+    # renders as three visually disconnected pieces.
+    in_window = np.abs(ys) <= 5.0
+    xs_plot = np.where(in_window, xs_safe, np.nan)
+    ys_plot = np.where(in_window, ys, np.nan)
+    ax.plot(xs_plot, ys_plot, color=C_LINE, linewidth=2.4, zorder=3)
+
+    # Asymptote labels
+    ax.text(-1.15, -4.3, r"$x = -1$", fontsize=10, color=C_DASH,
+            ha="right", va="bottom", fontweight="bold")
+    ax.text(1.15, -4.3, r"$x = 1$", fontsize=10, color=C_DASH,
+            ha="left", va="bottom", fontweight="bold")
+    ax.text(4.6, 1.25, r"$y = 1$", fontsize=10, color=C_DASH,
+            ha="right", va="bottom", fontweight="bold")
+
+    ax.set_title(r"A rational function and its asymptotes",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/rational_asymptotes.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: piecewise function with 3 pieces (Cluster 5)
+
+def fig_piecewise_function():
+    """A 3-piece piecewise function with labeled formulas and boundary dots."""
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(-4, 6)
+    ax.set_ylim(-2, 6)
+
+    # Light grid
+    for i in range(-4, 7):
+        ax.plot([i, i], [-2, 6], color=C_GRID,
+                linewidth=0.6, zorder=0)
+    for j in range(-2, 7):
+        ax.plot([-4, 6], [j, j], color=C_GRID,
+                linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(5.85, 0), xytext=(-3.85, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 5.85), xytext=(0, -1.85),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(5.9, 0.15, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.15, 5.9, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Integer tick labels on x-axis
+    for t in range(-3, 6):
+        if t == 0:
+            continue
+        ax.text(t, -0.25, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+    # Integer tick labels on y-axis
+    for t in range(-1, 6):
+        if t == 0:
+            continue
+        ax.text(-0.12, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Colors for the three pieces
+    color_blue = "#2e86de"
+    color_green = "#10ac84"
+    color_red = "#c44569"
+
+    # Piece 1: y = x + 3 for x < 0 (open dot at x = 0, y = 3)
+    x1 = np.linspace(-4, 0, 200)
+    y1 = x1 + 3
+    ax.plot(x1, y1, color=color_blue, linewidth=2.4, zorder=3)
+    # Open circle at (0, 3)
+    ax.plot(0, 3, "o", markerfacecolor="white",
+            markeredgecolor=color_blue, markeredgewidth=2.2,
+            markersize=10, zorder=4)
+
+    # Piece 2: y = x^2 for 0 <= x <= 2 (closed both ends)
+    x2 = np.linspace(0, 2, 200)
+    y2 = x2 ** 2
+    ax.plot(x2, y2, color=color_green, linewidth=2.4, zorder=3)
+
+    # Piece 3: y = 4 for x > 2 (open dot at x = 2)
+    x3 = np.linspace(2, 6, 200)
+    y3 = np.full_like(x3, 4.0)
+    ax.plot(x3, y3, color=color_red, linewidth=2.4, zorder=3)
+    # Open circle at (2, 4) for piece 3
+    ax.plot(2, 4, "o", markerfacecolor="white",
+            markeredgecolor=color_red, markeredgewidth=2.2,
+            markersize=10, zorder=5)
+
+    # Closed circles at (0, 0) and (2, 4) from piece 2 drawn last so they
+    # sit on top of the open circle at (2, 4) from piece 3.
+    ax.plot(0, 0, "o", color=color_green, markersize=10, zorder=6)
+    ax.plot(2, 4, "o", color=color_green, markersize=10, zorder=6)
+
+    # In-figure formula labels for each piece
+    ax.text(-3.2, 0.4, r"$y = x + 3$",
+            fontsize=11, color=color_blue, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_blue, linewidth=0.8))
+    ax.text(1.1, 5.1, r"$y = x^{2}$",
+            fontsize=11, color=color_green, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_green, linewidth=0.8))
+    ax.text(4.3, 4.7, r"$y = 4$",
+            fontsize=11, color=color_red, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_red, linewidth=0.8))
+
+    ax.set_title("A three-piece piecewise function",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/piecewise_function.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -1214,6 +1570,10 @@ FIGURES = [
     ("distance_formula_derivation", fig_distance_formula_derivation),
     ("square_root_function", fig_square_root_function),
     ("cube_root_function", fig_cube_root_function),
+    ("parent_function_gallery", fig_parent_function_gallery),
+    ("transformation_shifts", fig_transformation_shifts),
+    ("rational_asymptotes", fig_rational_asymptotes),
+    ("piecewise_function", fig_piecewise_function),
 ]
 
 

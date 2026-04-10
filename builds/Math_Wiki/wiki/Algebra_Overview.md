@@ -150,9 +150,9 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 
 </details>
 
-### Algebra 1 topics --- 33 live / 50 total
+### Algebra 1 topics --- 34 live / 50 total
 
-**🟢 Live topics with practice widgets (33)**
+**🟢 Live topics with practice widgets (34)**
 
 - 🟢 [[Absolute_Value_Equations|Absolute Value Equations]]
 - 🟢 [[Absolute_Value_Inequalities|Absolute Value Inequalities]]
@@ -171,6 +171,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Operations_With_Radicals|Operations with Radicals]]
 - 🟢 [[Parallel_And_Perpendicular_Lines|Parallel and Perpendicular Lines]]
 - 🟢 [[Properties_Of_Exponents|Properties of Exponents]]
+- 🟢 [[Relations_And_Functions|Relations and Functions]]
 - 🟢 [[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]]
 - 🟢 [[Simplifying_Radical_Expressions|Simplifying Radical Expressions]]
 - 🟢 [[Simplifying_Rational_Expressions|Simplifying Rational Expressions]]
@@ -189,7 +190,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Zero_And_Negative_Exponents|Zero and Negative Exponents]]
 
 <details>
-<summary>⚪ 17 stub topic(s) (click to expand)</summary>
+<summary>⚪ 16 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Adding_And_Subtracting_Real_Numbers|Adding and Subtracting Real Numbers]] --- _3 worked example(s)_
 - ⚪ [[Applications_Of_Quadratics|Applications of Quadratics]] --- _3 worked example(s)_
@@ -201,7 +202,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Percent_Applications|Percent Applications]] --- _3 worked example(s)_
 - ⚪ [[Properties_Of_Real_Numbers|Properties of Real Numbers]] --- _2 worked example(s)_
 - ⚪ [[Ratios_And_Proportions|Ratios and Proportions]] --- _3 worked example(s)_
-- ⚪ [[Relations_And_Functions|Relations and Functions]] --- _covered by 2 books, 7 worked example(s)_
 - ⚪ [[Scientific_Notation|Scientific Notation]] --- _covered by 2 books, 8 worked example(s)_
 - ⚪ [[Solving_Systems_By_Graphing|Solving Systems by Graphing]] --- _3 worked example(s)_
 - ⚪ [[The_Coordinate_Plane|The Coordinate Plane]] --- _3 worked example(s)_
@@ -211,50 +211,52 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 
 </details>
 
-### Algebra 2 topics --- 11 live / 49 total
+### Algebra 2 topics --- 22 live / 49 total
 
-**🟢 Live topics with practice widgets (11)**
+**🟢 Live topics with practice widgets (22)**
 
+- 🟢 [[Absolute_Value_Functions|Absolute Value Functions]]
 - 🟢 [[Adding_And_Subtracting_Rational_Expressions|Adding and Subtracting Rational Expressions]]
 - 🟢 [[Applications_Of_Quadratic_Functions|Applications of Quadratic Functions]]
 - 🟢 [[Circles|Circles]]
 - 🟢 [[Completing_The_Square|Completing the Square]]
 - 🟢 [[Cube_Root_And_Other_Radical_Functions|Cube Root and Other Radical Functions]]
+- 🟢 [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]]
+- 🟢 [[Function_Basics|Function Basics]]
+- 🟢 [[Graphing_Rational_Functions_Part_1|Graphing Rational Functions: Part~1]]
+- 🟢 [[Graphing_Rational_Functions_Part_2|Graphing Rational Functions: Part~2]]
+- 🟢 [[Inverse_Functions|Inverse Functions]]
 - 🟢 [[Linear_Functions|Linear Functions]]
 - 🟢 [[Modeling_With_Linear_Functions|Modeling with Linear Functions]]
+- 🟢 [[More_Exotic_Functions|More Exotic Functions]]
 - 🟢 [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]]
+- 🟢 [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]]
+- 🟢 [[Power_Functions|Power Functions]]
 - 🟢 [[Quadratic_Functions|Quadratic Functions]]
 - 🟢 [[Rational_Equations_And_Applications|Rational Equations and Applications]]
 - 🟢 [[Square_Root_Functions|Square Root Functions]]
+- 🟢 [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]]
+- 🟢 [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, and Combined]]
 
 <details>
-<summary>⚪ 38 stub topic(s) (click to expand)</summary>
+<summary>⚪ 27 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value_Equations_And_Inequalities|Absolute Value Equations and Inequalities]] --- _5 worked example(s)_
-- ⚪ [[Absolute_Value_Functions|Absolute Value Functions]] --- _covered by 2 books, 9 worked example(s)_
 - ⚪ [[Ellipses|Ellipses]] --- _covered by 2 books, 9 worked example(s)_
 - ⚪ [[Exponential_Equations|Exponential Equations]] --- _covered by 2 books, 9 worked example(s)_
 - ⚪ [[Exponential_Functions|Exponential Functions]] --- _4 worked example(s)_
 - ⚪ [[Factoring_Expressions|Factoring Expressions]] --- _7 worked example(s)_
 - ⚪ [[Factoring_I|Factoring I]] --- _8 worked example(s)_
 - ⚪ [[Factoring_Ii|Factoring II]] --- _6 worked example(s)_
-- ⚪ [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]] --- _covered by 3 books, 11 worked example(s)_
-- ⚪ [[Function_Basics|Function Basics]] --- _5 worked example(s)_
-- ⚪ [[Graphing_Rational_Functions_Part_1|Graphing Rational Functions: Part~1]] --- _4 worked example(s)_
-- ⚪ [[Graphing_Rational_Functions_Part_2|Graphing Rational Functions: Part~2]] --- _6 worked example(s)_
 - ⚪ [[Growth_Decay_And_Applications|Growth, Decay, and Applications]] --- _6 worked example(s)_
 - ⚪ [[Hyperbolas|Hyperbolas]] --- _covered by 2 books, 14 worked example(s)_
-- ⚪ [[Inverse_Functions|Inverse Functions]] --- _covered by 2 books, 10 worked example(s)_
 - ⚪ [[Logarithmic_Equations|Logarithmic Equations]] --- _covered by 2 books, 9 worked example(s)_
 - ⚪ [[Logarithmic_Functions|Logarithmic Functions]] --- _4 worked example(s)_
 - ⚪ [[Logarithms|Logarithms]] --- _5 worked example(s)_
-- ⚪ [[More_Exotic_Functions|More Exotic Functions]] --- _11 worked example(s)_
 - ⚪ [[Parabolas|Parabolas]] --- _covered by 2 books, 10 worked example(s)_
 - ⚪ [[Polynomial_Basics|Polynomial Basics]] --- _6 worked example(s)_
 - ⚪ [[Polynomial_Division|Polynomial Division]] --- _covered by 2 books, 7 worked example(s)_
-- ⚪ [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]] --- _4 worked example(s)_
 - ⚪ [[Polynomial_Inequalities|Polynomial Inequalities]] --- _6 worked example(s)_
-- ⚪ [[Power_Functions|Power Functions]] --- _4 worked example(s)_
 - ⚪ [[Powers_And_Roots|Powers and Roots]] --- _8 worked example(s)_
 - ⚪ [[Rational_Inequalities|Rational Inequalities]] --- _covered by 2 books, 11 worked example(s)_
 - ⚪ [[Sequences|Sequences]] --- _covered by 2 books, 9 worked example(s)_
@@ -266,8 +268,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Solving_Inequalities_In_One_Variable|Solving Inequalities in One Variable]] --- _5 worked example(s)_
 - ⚪ [[Systems_Of_Linear_Equations|Systems of Linear Equations]] --- _covered by 2 books, 8 worked example(s)_
 - ⚪ [[The_Complex_Number_System|The Complex Number System]] --- _5 worked example(s)_
-- ⚪ [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]] --- _5 worked example(s)_
-- ⚪ [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, and Combined]] --- _4 worked example(s)_
 
 </details>
 

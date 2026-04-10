@@ -20,4 +20,7 @@ from . import quadratic_functions  # noqa: F401
 from . import radical_functions  # noqa: F401
 from . import rationals  # noqa: F401
 from . import radicals  # noqa: F401
+from . import function_fundamentals  # noqa: F401
+from . import function_families  # noqa: F401
+from . import advanced_functions  # noqa: F401
 

@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.10.0 --- Cluster 4 Rationals & Radicals shipped (2026-04-10)
+### Version 1.11.0 --- Cluster 5 Functions & Transformations shipped (2026-04-10)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 76 topics with working widgets, 230 generators, 19,977 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
+| **Scale** | Live: 90 topics with working widgets, 272 generators, 23,330 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -26,8 +26,9 @@
 - **Navigation UI redesign** — shipped commit `a0f4c4f`
 - **Cluster 2** (linear world completion, 14 topics) — **shipped** commit `49dfa00`
 - **Cluster 3** (polynomials + quadratics deep, 14 topics) — **shipped** commit `bb768cc`
-- **Cluster 4** (rationals & radicals, 12 topics) — **shipped** (this version)
-- **Next:** Cluster 5 (Functions & Transformations, ~14 topics)
+- **Cluster 4** (rationals & radicals, 12 topics) — **shipped** commit `a3db819`
+- **Cluster 5** (functions & transformations, 14 topics) — **shipped** (this version)
+- **Next:** Cluster 6 (Exponentials & Logarithms, ~10 topics)
 
 ### 30-second mental model
 
@@ -960,9 +961,9 @@ The comprehensive buildout from the current state to complete integration of the
 | **1** | Pre-algebra foundations | 20 | **shipped** |
 | **2** | Linear world completion | 14 | **shipped** |
 | **3** | Polynomials + Quadratics deep | 14 | **shipped** |
-| **4** | Rationals & Radicals | 12 | **shipped in this session** |
-| **5** | Functions & Transformations | ~14 | **next** |
-| **6** | Exponentials & Logarithms | ~10 | pending |
+| **4** | Rationals & Radicals | 12 | **shipped** |
+| **5** | Functions & Transformations | 14 | **shipped in this session** |
+| **6** | Exponentials & Logarithms | ~10 | **next** |
 | **7** | Trigonometry | ~15 | pending |
 | **8** | Sequences, probability, statistics | ~10 | pending |
 | **9** | Conics, matrices, complex numbers, vectors | ~12 | pending |
@@ -1074,6 +1075,66 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.11.0 --- Cluster 5 Functions & Transformations (2026-04-10)
+
+**Stats:** 14 topics enriched (+14 live, now 90 total), 42 new generators (+42, now 272 total), 3,353 new verified problems (+3,353, now 23,330 total), 4 new matplotlib figures (parent gallery, shifts, rational asymptotes, piecewise).
+
+**Topics shipped (all at draft status, scores 80+):**
+
+- **Function fundamentals (3):** Relations_And_Functions (algebra-1), Function_Basics (algebra-2), Function_Notation (pre-calculus)
+- **Function operations (2):** Function_Arithmetic_And_Composition (algebra-2), Inverse_Functions (algebra-2)
+- **Parent function families (3):** Absolute_Value_Functions (algebra-2), Power_Functions (algebra-2), Polynomial_Functions_And_Graphs (algebra-2)
+- **Transformations (2):** Transformations_I_Shifts_And_Reflections (algebra-2), Transformations_Ii_Stretches_Compressions_And_Combined (algebra-2)
+- **Rational graphing + exotic (4):** Graphing_Rational_Functions_Part_1 (algebra-2), Graphing_Rational_Functions_Part_2 (algebra-2), More_Exotic_Functions (algebra-2), Introduction_To_Rational_Functions (pre-calculus)
+
+**Two pre-calculus topics (`Function_Notation` and `Introduction_To_Rational_Functions`) are the first Stitz-Zeager chapters to go live** — the pre-calc branch, which had been entirely stub, is now 2/47 populated.
+
+**Generator modules added (4):**
+
+- `generators/algebra/function_fundamentals.py` — 15 generators (relations_and_functions × 3, function_basics × 3, function_notation × 3, function_arithmetic_and_composition × 3, inverse_functions × 3)
+- `generators/algebra/function_families.py` — 12 generators (absolute_value_functions × 3, power_functions × 3, polynomial_functions_and_graphs × 3, transformations_i × 3)
+- `generators/algebra/advanced_functions.py` — 15 generators (transformations_ii × 3, graphing_rational_1 × 3, graphing_rational_2 × 3, more_exotic × 3, introduction_to_rational × 3)
+- Registry updates in `generators/algebra/__init__.py` — 3 new import lines
+
+**Figures added** (deterministic SVGs in `wiki/assets/figures/algebra/`):
+
+- `parent_function_gallery.svg` — 2×4 grid showing eight parent functions (linear, quadratic, cubic, absolute value, square root, cube root, reciprocal, exponential)
+- `transformation_shifts.svg` — three shifted parabolas overlaid on the dashed parent to illustrate horizontal + vertical shifts
+- `rational_asymptotes.svg` — `(x² - 4)/(x² - 1)` plotted with its vertical asymptotes at ±1 and horizontal asymptote at y = 1 all dashed and labeled
+- `piecewise_function.svg` — three-piece piecewise function with open/closed dot handling at the boundaries
+
+**Execution model (hybrid parallelization):**
+
+This was the first cluster to pivot mid-flight. The session started normally with 4 content sub-agents in batch 1 and 3 content + 1 figures sub-agents in batch 2, but the batch 2 agents **all hit the daily sub-agent usage limit** simultaneously. The remaining 6 content pages (Transformations I and II, Graphing Rational Functions Parts 1 and 2, More Exotic Functions, Introduction to Rational Functions) were written **directly by the main session** — ~10,000 words of prose across 6 files, each following the same template and idiom discipline as the sub-agent work.
+
+After the 6 pages shipped, the sub-agent limit had reset, and the remaining figures + 3 generator waves ran in parallel sub-agents without issue. The total cluster shipped with the same counts and quality gates as any other cluster.
+
+**What worked:**
+
+- **Template memorization paid off.** By Cluster 5, the main session had internalized the structural template (frontmatter, breadcrumb, intuition, key ideas, 3 examples, pitfalls, prerequisites, widget, See Also) and could write directly at the same quality as a sub-agent, just more slowly. The six directly-written pages all passed copyright, lint, and YAML gates on the first attempt.
+- **The forbidden-idiom list kept growing and kept working.** Batches 1 and 2 of content each passed copyright pytest on the first run; the only fixes were dead wikilinks (not copyright issues). The idiom discipline has become a reliable mechanical guard.
+- **Sub-agent limits recover quickly.** The "resets 5pm Central" message was accurate; the limit cleared within ~20 minutes of real time, enough for the main session to complete the direct-write portion and then dispatch the next wave.
+- **Hybrid execution is a feasible fallback.** Losing parallelism on 6 pages cost roughly 20 minutes of main-session work but preserved the cluster's completeness. Going forward, any cluster where sub-agent limits get in the way can be completed via direct writing without any quality loss.
+- **Pre-calculus branch activation.** Shipping `Function_Notation` and `Introduction_To_Rational_Functions` inside the algebra-2 cluster was a cheap win — the pre-calc hub now has two live green-dot topics instead of all stubs, which signals progress toward that branch and makes the next pre-calc-focused cluster easier.
+
+**What failed and how it was fixed:**
+
+- **Batch 2 sub-agent limit exhaustion.** Four sub-agents dispatched simultaneously all returned "You've hit your limit, resets 5pm Central." No content was lost — the sub-agents had read a lot of context but hadn't written anything. The main session pivoted to direct writing immediately.
+- **Two dead wikilinks from batch 1.** A sub-agent used `[[Polynomial_Arithmetic]]` and `[[Factoring_Polynomials]]` — neither topic exists on disk. Lint caught both. Fix: rewired to `[[Multiplying_Polynomials]]` and `[[Factoring_Completely]]` respectively. Both targets already live.
+- **Figures builders already existed for the 4 target names but were outdated.** When the figures sub-agent read `tools/generate_figures.py`, it discovered builders with the target names already present from earlier exploratory work, but their implementations didn't match the current spec (wrong layouts, sizes, pieces). The agent interpreted "don't modify existing builders" as "don't modify OTHER builders" and rewrote the four target builder bodies to match the spec. Output SVGs are correct and deterministic.
+- **Two generator parameter-space-too-small bugs caught by the test suite.** `PowerFunctionDomainByExponent` and `VerticalStretchCompressClassify` each started with easy parameter pools below the pytest floor of 10 unique problems. Agents self-corrected by widening ranges and adding `bank_count_per_difficulty` overrides.
+
+**Gate checks after Cluster 5:**
+
+- **Pytest:** 29/29 green (8 circles-parametrized across 272 generators + 10 consolidate-snapshot + 3 copyright + 8 ingest smoke).
+- **Lint:** 0 errors, 0 warnings, 1 info (176 stub pages — down from 190).
+- **YAML:** 257/257 clean.
+- **Topic status:** 239 topics, avg score 39.3 / 100 (was 34.9). 88 topics now have 3+ generators (was 74). Algebra branch avg jumped from 43.1 → 52.3 (+9.2 points). Pre-calculus avg ticked up from 15.0 → 18.0 as the first two Stitz-Zeager pages went live.
+- **Bank size:** 19.4 MB across 90 shards, all under 320 KB each. Largest: `polynomial_functions_and_graphs.json` at 294.3 KB.
+- **Branch hubs:** Algebra_Overview and Precalculus_Overview both regenerated — Algebra now shows 88 live topics + collapsed stubs, and Precalculus shows 2 live topics + 45 stubs (the first time Precalculus has had anything green in its hub).
+
+**What's next (Cluster 6):** Exponentials & Logarithms. ~10 topics covering: exponential functions (parent `b^x`), the natural base $e$, logarithm properties, solving exponential equations, solving logarithmic equations, change of base, growth and decay models, compound interest, and half-life. Depends on Function_Basics, Inverse_Functions, and Function_Arithmetic_And_Composition (all just shipped in Cluster 5), so the prerequisite chain is clean. Same cadence: content wave → generator wave → figures → close.
 
 ### Version 1.10.0 --- Cluster 4 Rationals & Radicals (2026-04-10)
 

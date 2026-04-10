@@ -48,10 +48,15 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Calculus topics (Stitz-Zeager AlgTrig) --- 0 live / 47 total
+### Pre-Calculus topics (Stitz-Zeager AlgTrig) --- 2 live / 47 total
+
+**🟢 Live topics with practice widgets (2)**
+
+- 🟢 [[Function_Notation|Function Notation]]
+- 🟢 [[Introduction_To_Rational_Functions|Introduction to Rational Functions]]
 
 <details>
-<summary>⚪ 47 stub topic(s) (click to expand)</summary>
+<summary>⚪ 45 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Algebraic_Functions|Algebraic Functions]] --- _3 worked example(s)_
 - ⚪ [[Angles|Angles]] --- _5 worked example(s)_
@@ -62,7 +67,6 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 - ⚪ [[Complex_Zeros|Complex Zeros of Polynomials]] --- _4 worked example(s)_
 - ⚪ [[Conic_Sections_In_Polar_Coordinates|Conic Sections in Polar Coordinates]] --- _4 worked example(s)_
 - ⚪ [[Determinants|Determinants]] --- _1 worked example(s)_
-- ⚪ [[Function_Notation|Function Notation]] --- _covered by 2 books, 9 worked example(s)_
 - ⚪ [[Graphs_Of_Equations|Graphs of Equations]] --- _3 worked example(s)_
 - ⚪ [[Graphs_Of_Functions|Graphs of Functions]] --- _6 worked example(s)_
 - ⚪ [[Polar_Graphs|Graphs of Polar Equations]] --- _4 worked example(s)_
@@ -76,7 +80,6 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 - ⚪ [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]] --- _5 worked example(s)_
 - ⚪ [[Introduction_To_Functions|Introduction to Functions]] --- _5 worked example(s)_
 - ⚪ [[Introduction_To_Polar_Coordinates|Introduction to Polar Coordinates]] --- _3 worked example(s)_
-- ⚪ [[Introduction_To_Rational_Functions|Introduction to Rational Functions]] --- _6 worked example(s)_
 - ⚪ [[Inverse_Trigonometric_Functions|Inverse Trigonometric Functions]] --- _7 worked example(s)_
 - ⚪ [[Linear_Regression|Linear Regression]] --- _2 worked example(s)_
 - ⚪ [[Matrix_Arithmetic|Matrix Arithmetic]] --- _3 worked example(s)_

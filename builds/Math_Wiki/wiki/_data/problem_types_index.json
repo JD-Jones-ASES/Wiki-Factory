@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T19:51:28.336914+00:00",
+  "generated_at": "2026-04-10T22:20:09.076933+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 230,
+  "generator_count": 272,
   "by_topic": {
     "circles": [
       {
@@ -1585,6 +1585,454 @@
       {
         "generator_id": "distance_check_right_triangle",
         "display_name": "Check if three points form a right triangle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "relations_and_functions": [
+      {
+        "generator_id": "is_it_a_function_from_pairs",
+        "display_name": "Is this set of ordered pairs a function?",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "apply_vertical_line_test",
+        "display_name": "Apply the vertical line test (verbal descriptions)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "find_domain_and_range_finite",
+        "display_name": "Find domain and range of a finite relation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "function_basics": [
+      {
+        "generator_id": "evaluate_function_at_integer",
+        "display_name": "Evaluate f(x) at an integer input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "find_domain_denominator",
+        "display_name": "Find the domain of a rational function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "find_domain_sqrt",
+        "display_name": "Find the domain of a square-root function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "function_notation": [
+      {
+        "generator_id": "function_notation_evaluate_numeric",
+        "display_name": "Evaluate f(x) = ax^2 + bx + c at a number",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "function_notation_with_algebraic_input",
+        "display_name": "Evaluate f at an algebraic expression like f(t + 3)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "function_notation_difference_quotient",
+        "display_name": "Difference quotient of a quadratic function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "function_arithmetic_and_composition": [
+      {
+        "generator_id": "function_arithmetic_add_subtract",
+        "display_name": "Compute (f+g)(a) or (f-g)(a)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "function_composition_evaluate",
+        "display_name": "Evaluate a composition at a number: f(g(a))",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "function_composition_symbolic",
+        "display_name": "Symbolic composition (f o g)(x)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "inverse_functions": [
+      {
+        "generator_id": "find_inverse_linear",
+        "display_name": "Find the inverse of a linear function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "verify_inverse_by_composition",
+        "display_name": "Verify inverses using composition",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "horizontal_line_test_classify",
+        "display_name": "One-to-one classification (horizontal line test)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 15
+        }
+      }
+    ],
+    "absolute_value_functions": [
+      {
+        "generator_id": "abs_val_function_evaluate",
+        "display_name": "Evaluate f(x) = a|x - h| + k at a given input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "abs_val_function_find_vertex",
+        "display_name": "Find the vertex of f(x) = a|x - h| + k",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "abs_val_function_from_vertex_and_direction",
+        "display_name": "Write f(x) = a|x - h| + k from vertex and direction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "power_functions": [
+      {
+        "generator_id": "power_function_evaluate",
+        "display_name": "Evaluate f(x) = k * x^n at a given input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "power_function_classify_end_behavior",
+        "display_name": "Classify end behavior of f(x) = k * x^n",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 24,
+          "hard": 24
+        }
+      },
+      {
+        "generator_id": "power_function_domain_by_exponent",
+        "display_name": "Find the domain of f(x) = x^n for integer/rational n",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "polynomial_functions_and_graphs": [
+      {
+        "generator_id": "polynomial_end_behavior",
+        "display_name": "Determine end behavior of a polynomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "polynomial_roots_from_factored",
+        "display_name": "Find zeros and multiplicities from a factored polynomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "polynomial_count_features",
+        "display_name": "Count max x-intercepts and turning points of a polynomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "transformations_i_shifts_and_reflections": [
+      {
+        "generator_id": "identify_shifts_from_formula",
+        "display_name": "Identify horizontal and vertical shifts from g(x) = f(x - h) + k",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "identify_reflection_from_formula",
+        "display_name": "Identify reflection across x-axis or y-axis from formula",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "describe_transformation_combined",
+        "display_name": "Describe all transformations of a parent function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "transformations_ii_stretches_compressions_and_combined": [
+      {
+        "generator_id": "vertical_stretch_compress_classify",
+        "display_name": "Classify g(x) = a*f(x) as vertical stretch or compression",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "horizontal_stretch_compress_classify",
+        "display_name": "Classify g(x) = f(bx) as horizontal stretch or compression",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "combined_transformation_parabola",
+        "display_name": "Describe all transformations from f(x) = x^2 to a(x - h)^2 + k",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "graphing_rational_functions_part_1": [
+      {
+        "generator_id": "rational_vertical_asymptotes",
+        "display_name": "Find vertical asymptotes of a rational function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rational_horizontal_asymptote_degree",
+        "display_name": "Find the horizontal asymptote via the degree rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rational_holes_and_intercepts",
+        "display_name": "Find holes and intercepts of a rational function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "graphing_rational_functions_part_2": [
+      {
+        "generator_id": "slant_asymptote_from_division",
+        "display_name": "Find the slant asymptote via polynomial long division",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "rational_sign_analysis_three_intervals",
+        "display_name": "Sign analysis of a rational on three intervals",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "rational_complete_feature_list",
+        "display_name": "List complete features of a rational function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "more_exotic_functions": [
+      {
+        "generator_id": "evaluate_piecewise",
+        "display_name": "Evaluate a piecewise function at several inputs",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "identify_piece_at_input",
+        "display_name": "Identify which piece of a piecewise function applies",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "floor_function_evaluate",
+        "display_name": "Evaluate the floor function at various inputs",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "introduction_to_rational_functions": [
+      {
+        "generator_id": "reciprocal_function_domain",
+        "display_name": "Find the domain of f(x) = k/(x - h)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "reciprocal_shifted_asymptotes",
+        "display_name": "State the asymptotes of f(x) = k/(x - h) + c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "reciprocal_evaluate",
+        "display_name": "Evaluate f(x) = k/(x - h) + c at a given input",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -3948,6 +4396,426 @@
         "hard": 30
       },
       "shard_file": "problems/the_distance_formula.json"
+    },
+    "is_it_a_function_from_pairs": {
+      "topic_slug": "relations_and_functions",
+      "display_name": "Is this set of ordered pairs a function?",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/relations_and_functions.json"
+    },
+    "apply_vertical_line_test": {
+      "topic_slug": "relations_and_functions",
+      "display_name": "Apply the vertical line test (verbal descriptions)",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/relations_and_functions.json"
+    },
+    "find_domain_and_range_finite": {
+      "topic_slug": "relations_and_functions",
+      "display_name": "Find domain and range of a finite relation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/relations_and_functions.json"
+    },
+    "evaluate_function_at_integer": {
+      "topic_slug": "function_basics",
+      "display_name": "Evaluate f(x) at an integer input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/function_basics.json"
+    },
+    "find_domain_denominator": {
+      "topic_slug": "function_basics",
+      "display_name": "Find the domain of a rational function",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/function_basics.json"
+    },
+    "find_domain_sqrt": {
+      "topic_slug": "function_basics",
+      "display_name": "Find the domain of a square-root function",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/function_basics.json"
+    },
+    "function_notation_evaluate_numeric": {
+      "topic_slug": "function_notation",
+      "display_name": "Evaluate f(x) = ax^2 + bx + c at a number",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/function_notation.json"
+    },
+    "function_notation_with_algebraic_input": {
+      "topic_slug": "function_notation",
+      "display_name": "Evaluate f at an algebraic expression like f(t + 3)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/function_notation.json"
+    },
+    "function_notation_difference_quotient": {
+      "topic_slug": "function_notation",
+      "display_name": "Difference quotient of a quadratic function",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/function_notation.json"
+    },
+    "function_arithmetic_add_subtract": {
+      "topic_slug": "function_arithmetic_and_composition",
+      "display_name": "Compute (f+g)(a) or (f-g)(a)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/function_arithmetic_and_composition.json"
+    },
+    "function_composition_evaluate": {
+      "topic_slug": "function_arithmetic_and_composition",
+      "display_name": "Evaluate a composition at a number: f(g(a))",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/function_arithmetic_and_composition.json"
+    },
+    "function_composition_symbolic": {
+      "topic_slug": "function_arithmetic_and_composition",
+      "display_name": "Symbolic composition (f o g)(x)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/function_arithmetic_and_composition.json"
+    },
+    "find_inverse_linear": {
+      "topic_slug": "inverse_functions",
+      "display_name": "Find the inverse of a linear function",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/inverse_functions.json"
+    },
+    "verify_inverse_by_composition": {
+      "topic_slug": "inverse_functions",
+      "display_name": "Verify inverses using composition",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/inverse_functions.json"
+    },
+    "horizontal_line_test_classify": {
+      "topic_slug": "inverse_functions",
+      "display_name": "One-to-one classification (horizontal line test)",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 15
+      },
+      "shard_file": "problems/inverse_functions.json"
+    },
+    "abs_val_function_evaluate": {
+      "topic_slug": "absolute_value_functions",
+      "display_name": "Evaluate f(x) = a|x - h| + k at a given input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_functions.json"
+    },
+    "abs_val_function_find_vertex": {
+      "topic_slug": "absolute_value_functions",
+      "display_name": "Find the vertex of f(x) = a|x - h| + k",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_functions.json"
+    },
+    "abs_val_function_from_vertex_and_direction": {
+      "topic_slug": "absolute_value_functions",
+      "display_name": "Write f(x) = a|x - h| + k from vertex and direction",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_functions.json"
+    },
+    "power_function_evaluate": {
+      "topic_slug": "power_functions",
+      "display_name": "Evaluate f(x) = k * x^n at a given input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/power_functions.json"
+    },
+    "power_function_classify_end_behavior": {
+      "topic_slug": "power_functions",
+      "display_name": "Classify end behavior of f(x) = k * x^n",
+      "counts": {
+        "easy": 15,
+        "medium": 24,
+        "hard": 24
+      },
+      "shard_file": "problems/power_functions.json"
+    },
+    "power_function_domain_by_exponent": {
+      "topic_slug": "power_functions",
+      "display_name": "Find the domain of f(x) = x^n for integer/rational n",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/power_functions.json"
+    },
+    "polynomial_end_behavior": {
+      "topic_slug": "polynomial_functions_and_graphs",
+      "display_name": "Determine end behavior of a polynomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_functions_and_graphs.json"
+    },
+    "polynomial_roots_from_factored": {
+      "topic_slug": "polynomial_functions_and_graphs",
+      "display_name": "Find zeros and multiplicities from a factored polynomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_functions_and_graphs.json"
+    },
+    "polynomial_count_features": {
+      "topic_slug": "polynomial_functions_and_graphs",
+      "display_name": "Count max x-intercepts and turning points of a polynomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_functions_and_graphs.json"
+    },
+    "identify_shifts_from_formula": {
+      "topic_slug": "transformations_i_shifts_and_reflections",
+      "display_name": "Identify horizontal and vertical shifts from g(x) = f(x - h) + k",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/transformations_i_shifts_and_reflections.json"
+    },
+    "identify_reflection_from_formula": {
+      "topic_slug": "transformations_i_shifts_and_reflections",
+      "display_name": "Identify reflection across x-axis or y-axis from formula",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/transformations_i_shifts_and_reflections.json"
+    },
+    "describe_transformation_combined": {
+      "topic_slug": "transformations_i_shifts_and_reflections",
+      "display_name": "Describe all transformations of a parent function",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/transformations_i_shifts_and_reflections.json"
+    },
+    "vertical_stretch_compress_classify": {
+      "topic_slug": "transformations_ii_stretches_compressions_and_combined",
+      "display_name": "Classify g(x) = a*f(x) as vertical stretch or compression",
+      "counts": {
+        "easy": 15,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/transformations_ii_stretches_compressions_and_combined.json"
+    },
+    "horizontal_stretch_compress_classify": {
+      "topic_slug": "transformations_ii_stretches_compressions_and_combined",
+      "display_name": "Classify g(x) = f(bx) as horizontal stretch or compression",
+      "counts": {
+        "easy": 15,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/transformations_ii_stretches_compressions_and_combined.json"
+    },
+    "combined_transformation_parabola": {
+      "topic_slug": "transformations_ii_stretches_compressions_and_combined",
+      "display_name": "Describe all transformations from f(x) = x^2 to a(x - h)^2 + k",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/transformations_ii_stretches_compressions_and_combined.json"
+    },
+    "rational_vertical_asymptotes": {
+      "topic_slug": "graphing_rational_functions_part_1",
+      "display_name": "Find vertical asymptotes of a rational function",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphing_rational_functions_part_1.json"
+    },
+    "rational_horizontal_asymptote_degree": {
+      "topic_slug": "graphing_rational_functions_part_1",
+      "display_name": "Find the horizontal asymptote via the degree rule",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphing_rational_functions_part_1.json"
+    },
+    "rational_holes_and_intercepts": {
+      "topic_slug": "graphing_rational_functions_part_1",
+      "display_name": "Find holes and intercepts of a rational function",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/graphing_rational_functions_part_1.json"
+    },
+    "slant_asymptote_from_division": {
+      "topic_slug": "graphing_rational_functions_part_2",
+      "display_name": "Find the slant asymptote via polynomial long division",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/graphing_rational_functions_part_2.json"
+    },
+    "rational_sign_analysis_three_intervals": {
+      "topic_slug": "graphing_rational_functions_part_2",
+      "display_name": "Sign analysis of a rational on three intervals",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/graphing_rational_functions_part_2.json"
+    },
+    "rational_complete_feature_list": {
+      "topic_slug": "graphing_rational_functions_part_2",
+      "display_name": "List complete features of a rational function",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/graphing_rational_functions_part_2.json"
+    },
+    "evaluate_piecewise": {
+      "topic_slug": "more_exotic_functions",
+      "display_name": "Evaluate a piecewise function at several inputs",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/more_exotic_functions.json"
+    },
+    "identify_piece_at_input": {
+      "topic_slug": "more_exotic_functions",
+      "display_name": "Identify which piece of a piecewise function applies",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/more_exotic_functions.json"
+    },
+    "floor_function_evaluate": {
+      "topic_slug": "more_exotic_functions",
+      "display_name": "Evaluate the floor function at various inputs",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/more_exotic_functions.json"
+    },
+    "reciprocal_function_domain": {
+      "topic_slug": "introduction_to_rational_functions",
+      "display_name": "Find the domain of f(x) = k/(x - h)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_rational_functions.json"
+    },
+    "reciprocal_shifted_asymptotes": {
+      "topic_slug": "introduction_to_rational_functions",
+      "display_name": "State the asymptotes of f(x) = k/(x - h) + c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_rational_functions.json"
+    },
+    "reciprocal_evaluate": {
+      "topic_slug": "introduction_to_rational_functions",
+      "display_name": "Evaluate f(x) = k/(x - h) + c at a given input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_rational_functions.json"
     },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",
