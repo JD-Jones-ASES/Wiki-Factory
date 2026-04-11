@@ -69,7 +69,9 @@ So the equation $x^2 - x - 12 = 0$ has exactly the roots $4$ and $-3$. Running t
 
 ## Worked examples
 
-**Example 1.** Find all real values of $x$ for which $x^2 - 5x + 6 = 0$.
+### Example 1
+
+Find all real values of $x$ for which $x^2 - 5x + 6 = 0$.
 
 The equation is already in standard form with zero on the right, so jump to factoring. Look for two numbers whose product is $6$ and whose sum is $-5$. The pair $-2$ and $-3$ does it, because $(-2)(-3) = 6$ and $(-2) + (-3) = -5$. So
 
@@ -81,7 +83,9 @@ By the zero-product principle, either $x - 2 = 0$ or $x - 3 = 0$. Solving each g
 
 Verification: $2^2 - 5(2) + 6 = 4 - 10 + 6 = 0$ (check), and $3^2 - 5(3) + 6 = 9 - 15 + 6 = 0$ (check). The solution set is $x = 2$ or $x = 3$.
 
-**Example 2.** Give all real values of $x$ for which $2x^2 + 7x - 4 = 0$.
+### Example 2
+
+Give all real values of $x$ for which $2x^2 + 7x - 4 = 0$.
 
 The leading coefficient is $2$, not $1$, so this calls for the general trinomial procedure from [[Factoring_Trinomials_General]]. Compute the product $a \cdot c = 2 \cdot (-4) = -8$. Now search for a pair of integers multiplying to $-8$ and adding to $7$. The pair $8$ and $-1$ satisfies both conditions: $8 \cdot (-1) = -8$ and $8 + (-1) = 7$.
 
@@ -103,7 +107,9 @@ Apply the zero-product principle: either $2x - 1 = 0$ or $x + 4 = 0$. The first 
 
 Verification: for $x = \tfrac{1}{2}$, the left side of the original is $2(\tfrac{1}{4}) + 7(\tfrac{1}{2}) - 4 = \tfrac{1}{2} + \tfrac{7}{2} - 4 = 4 - 4 = 0$ (check). For $x = -4$, it is $2(16) + 7(-4) - 4 = 32 - 28 - 4 = 0$ (check). The solutions are $x = \tfrac{1}{2}$ and $x = -4$.
 
-**Example 3.** Priya is trying to find every value of $x$ that satisfies
+### Example 3
+
+Priya is trying to find every value of $x$ that satisfies
 
 $$
 x^2 - 9 = 0.

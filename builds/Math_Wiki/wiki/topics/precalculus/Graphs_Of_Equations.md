@@ -74,7 +74,9 @@ Plotting a curve from scratch is a huge amount of work if you do it one dot at a
 
 ## Worked examples
 
-**Example 1.** Sketch the graph of $y = x^2 - 4$ by finding its intercepts, testing its symmetry, and plotting a short table of values.
+### Example 1
+
+Sketch the graph of $y = x^2 - 4$ by finding its intercepts, testing its symmetry, and plotting a short table of values.
 
 **Intercepts.** Set $y = 0$: $x^2 - 4 = 0$, so $x^2 = 4$, giving $x = \pm 2$. The $x$-intercepts are $(-2, 0)$ and $(2, 0)$. Set $x = 0$: $y = -4$, so the $y$-intercept is $(0, -4)$.
 
@@ -88,7 +90,9 @@ Plotting a curve from scratch is a huge amount of work if you do it one dot at a
 
 Plotting $(0, -4)$, $(1, -3)$, $(2, 0)$, $(3, 5)$ and their $y$-axis mirrors $(-1, -3)$, $(-2, 0)$, $(-3, 5)$ gives seven points. Connecting them smoothly produces an upward-opening parabola with its lowest point at $(0, -4)$. The vertex sits at the $y$-intercept here because the equation has no linear term in $x$ — whenever a quadratic has the form $y = ax^2 + c$, its vertex sits on the $y$-axis at $(0, c)$.
 
-**Example 2.** Sketch the graph of $x^2 + y^2 = 25$ and identify its center, radius, and intercepts.
+### Example 2
+
+Sketch the graph of $x^2 + y^2 = 25$ and identify its center, radius, and intercepts.
 
 Compare the equation to the standard circle form $(x - h)^2 + (y - k)^2 = r^2$. Here $h = 0$, $k = 0$, and $r^2 = 25$, so $r = 5$. The graph is a **circle of radius 5 centered at the origin**.
 
@@ -100,7 +104,9 @@ To sketch the circle by hand, draw the four intercepts first — those are ancho
 
 Worth noting: this circle is not the graph of a single function $y = f(x)$, because most vertical lines cross it in two places. Solving for $y$ gives $y = \pm\sqrt{25 - x^2}$, which is really two functions stacked on top of each other — the upper semicircle and the lower semicircle.
 
-**Example 3.** Determine whether the points $(3, 4)$ and $(2, -1)$ lie on the graph of $y = 2x - 2$, and if either does not, find the point on the line directly above or below it.
+### Example 3
+
+Determine whether the points $(3, 4)$ and $(2, -1)$ lie on the graph of $y = 2x - 2$, and if either does not, find the point on the line directly above or below it.
 
 Substitute the first candidate into the equation. The right-hand side at $x = 3$ is $2 \cdot 3 - 2 = 4$, matching the $y$-coordinate of $(3, 4)$. So **$(3, 4)$ is on the graph**.
 

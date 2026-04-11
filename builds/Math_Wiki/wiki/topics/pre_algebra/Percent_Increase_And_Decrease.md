@@ -70,7 +70,9 @@ The multiplier shortcut works because percent change can always be written as an
 
 ## Worked examples
 
-**Example 1.** A jewelry maker sells a pair of silver earrings for $\$24$. Silver prices jumped over the winter, and she now sells the same earrings for $\$30$. By what percent did the price increase?
+### Example 1
+
+A jewelry maker sells a pair of silver earrings for $\$24$. Silver prices jumped over the winter, and she now sells the same earrings for $\$30$. By what percent did the price increase?
 
 Pick out the old and the new. Old = $\$24$. New = $\$30$. Raw change:
 
@@ -86,7 +88,9 @@ $$
 
 The earrings are $25\%$ more expensive than before. Notice that dividing by $24$ (the old price) is what made the result a clean $25\%$. If you had mistakenly divided by $30$ (the new price), you would have gotten $20\%$ — close enough to look right, but still wrong. Always divide by the starting value.
 
-**Example 2.** A pair of hiking boots was priced at $\$90$, and the store marked them down by $35\%$ for a holiday sale. What is the new sale price?
+### Example 2
+
+A pair of hiking boots was priced at $\$90$, and the store marked them down by $35\%$ for a holiday sale. What is the new sale price?
 
 Two roads reach the same answer. The first is the "multiplier" road. A $35\%$ decrease means the sale price is $100\% - 35\% = 65\%$ of the original, and $65\%$ is the multiplier $0.65$:
 
@@ -102,7 +106,9 @@ $$
 
 Then $90 - 31.50 = 58.50$. Same answer either way. The multiplier road is faster when the percent is clean; the split-and-subtract road is easier to explain to yourself the first few times you meet the idea.
 
-**Example 3.** A town had a population of $1{,}200$ five years ago. Today it has $1{,}536$ residents. What is the percent increase in population?
+### Example 3
+
+A town had a population of $1{,}200$ five years ago. Today it has $1{,}536$ residents. What is the percent increase in population?
 
 Old = $1{,}200$. New = $1{,}536$. Raw change:
 

@@ -56,7 +56,9 @@ Each move you make produces an equivalent equation — one with exactly the same
 
 ## Worked examples
 
-**Example 1.** At a local bakery, Rohan is planning a birthday order. He will pay a flat $\$5$ decorating fee plus $\$2$ per cookie. If his total bill is $\$17$, how many cookies does he order? The equation is $2x + 5 = 17$.
+### Example 1
+
+At a local bakery, Rohan is planning a birthday order. He will pay a flat $\$5$ decorating fee plus $\$2$ per cookie. If his total bill is $\$17$, how many cookies does he order? The equation is $2x + 5 = 17$.
 
 Start by peeling the $+5$ from the left side. Subtract $5$ from both sides:
 
@@ -80,7 +82,9 @@ $$
 
 Rohan orders $6$ cookies. Check: $2 \cdot 6 + 5 = 12 + 5 = 17$. 
 
-**Example 2.** Zoe is setting up a row of identical photo frames for a school display. Each frame takes up $(x - 4)$ inches of width, the display fits three frames in a row, and the total width comes out to $15$ inches. Determine $x$. The equation is $3(x - 4) = 15$.
+### Example 2
+
+Zoe is setting up a row of identical photo frames for a school display. Each frame takes up $(x - 4)$ inches of width, the display fits three frames in a row, and the total width comes out to $15$ inches. Determine $x$. The equation is $3(x - 4) = 15$.
 
 Here the left side is wrapped in parentheses, so the first move is to distribute the $3$:
 
@@ -108,7 +112,9 @@ So $x = 9$ inches. Check by substituting back into the **original** equation: $3
 
 An alternative worth knowing: instead of distributing first, you can divide both sides by $3$ right away, giving $x - 4 = 5$ and then $x = 9$. When the coefficient in front of the parenthesis divides the right side cleanly, that shortcut is faster. When it does not, fall back to distributing.
 
-**Example 3.** In a tutoring center, Emilia tracks how many practice problems two students finish. The equation $4x + 2 = x + 14$ describes the moment their totals are equal. What is $x$? Here the variable appears on **both** sides, which is the one twist this topic throws at you.
+### Example 3
+
+In a tutoring center, Emilia tracks how many practice problems two students finish. The equation $4x + 2 = x + 14$ describes the moment their totals are equal. What is $x$? Here the variable appears on **both** sides, which is the one twist this topic throws at you.
 
 The fix is to move every $x$ to one side and every plain number to the other. Start by getting all the $x$s together. Subtract $x$ from both sides so only the left keeps a variable term:
 

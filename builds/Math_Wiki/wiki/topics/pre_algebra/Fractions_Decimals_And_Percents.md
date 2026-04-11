@@ -74,7 +74,9 @@ Multiplying or dividing by $100$ is just moving between "out of one" (decimal) a
 
 ## Worked examples
 
-**Example 1.** Express $\tfrac{3}{8}$ as a decimal and then as a percent.
+### Example 1
+
+Express $\tfrac{3}{8}$ as a decimal and then as a percent.
 
 First, rewrite the fraction as division:
 
@@ -90,7 +92,9 @@ $$
 
 So $\tfrac{3}{8} = 0.375 = 37.5\%$. All three names refer to the same slice — a little over a third of the whole.
 
-**Example 2.** Compute a fraction and a percent equivalent to $0.25$.
+### Example 2
+
+Compute a fraction and a percent equivalent to $0.25$.
 
 The decimal $0.25$ is already saying "twenty-five hundredths," so writing it as a fraction is direct:
 
@@ -112,7 +116,9 @@ $$
 
 Final answer: $0.25 = \tfrac{1}{4} = 25\%$. A quarter of the pie, however you prefer to label it.
 
-**Example 3.** Determine the fraction (in lowest terms) and the decimal that match $65\%$.
+### Example 3
+
+Determine the fraction (in lowest terms) and the decimal that match $65\%$.
 
 Start with the fraction. Percent means hundredths, so plant $65$ over $100$:
 

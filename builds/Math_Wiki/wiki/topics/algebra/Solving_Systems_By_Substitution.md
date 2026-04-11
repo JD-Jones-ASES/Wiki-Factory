@@ -63,7 +63,9 @@ Substitution is slower than elimination when both equations are in standard form
 
 ## Worked examples
 
-**Example 1 (a variable is already isolated).** Find the ordered pair $(x, y)$ that satisfies
+### Example 1: a variable is already isolated
+
+Find the ordered pair $(x, y)$ that satisfies
 
 $$
 \begin{cases} y = 4x - 1 \\ 2x + 3y = 11 \end{cases}
@@ -91,7 +93,9 @@ Peel off the $-3$ by adding $3$ to each side: $14x = 14$. Divide each side by $1
 
 Verification: first equation, $y = 4(1) - 1 = 3$ (check). Second equation, $2(1) + 3(3) = 2 + 9 = 11$ (check). Both originals hold, confirming $(1, 3)$.
 
-**Example 2 (isolate first, then substitute).** Determine the ordered pair $(x, y)$ that satisfies
+### Example 2: isolate first, then substitute
+
+Determine the ordered pair $(x, y)$ that satisfies
 
 $$
 \begin{cases} x + 2y = 10 \\ 3x - y = 9 \end{cases}
@@ -127,7 +131,9 @@ Verification: $4 + 2(3) = 4 + 6 = 10$ (check), and $3(4) - 3 = 12 - 3 = 9$ (chec
 
 The note about picking the coefficient-$1$ variable is worth savoring here. If you had instead tried to solve for $y$ from the second equation (where $y$ has a coefficient of $-1$), you would have gotten $y = 3x - 9$, which also works. Either isolation leads to the same answer; the point is to avoid isolating a variable that has an awkward coefficient and create fractions.
 
-**Example 3 (fractions in the system).** Kai is solving the system
+### Example 3: fractions in the system
+
+Kai is solving the system
 
 $$
 \begin{cases} x = 2y + 1 \\ \tfrac{1}{2}x + y = 4 \end{cases}

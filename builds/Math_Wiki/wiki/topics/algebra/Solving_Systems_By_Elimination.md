@@ -64,7 +64,9 @@ Sometimes the coefficients on **both** variables are ugly, and you will need to 
 
 ## Worked examples
 
-**Example 1 (no multiplication needed).** Find the ordered pair $(x, y)$ that satisfies
+### Example 1: no multiplication needed
+
+Find the ordered pair $(x, y)$ that satisfies
 
 $$
 \begin{cases} 2x + 3y = 12 \\ 2x - y = 4 \end{cases}
@@ -90,7 +92,9 @@ The $2x$ terms cancel as planned. Divide each side by $4$: $y = 2$. Back-substit
 
 Verification: $2(3) + 3(2) = 6 + 6 = 12$ (check), and $2(3) - 2 = 4$ (check). Both equations hold, confirming $(3, 2)$.
 
-**Example 2 (one multiplier).** Determine the ordered pair $(x, y)$ satisfying
+### Example 2: one multiplier
+
+Determine the ordered pair $(x, y)$ satisfying
 
 $$
 \begin{cases} 3x + 2y = 5 \\ x + 4y = 11 \end{cases}
@@ -134,7 +138,9 @@ $$
 
 The solution is $\left(-\tfrac{1}{5}, \tfrac{14}{5}\right)$. Verification in the first original: $3 \cdot (-\tfrac{1}{5}) + 2 \cdot \tfrac{14}{5} = -\tfrac{3}{5} + \tfrac{28}{5} = \tfrac{25}{5} = 5$ (check). Verification in the second: $-\tfrac{1}{5} + 4 \cdot \tfrac{14}{5} = -\tfrac{1}{5} + \tfrac{56}{5} = \tfrac{55}{5} = 11$ (check).
 
-**Example 3 (both equations need multipliers).** Maya encounters the system
+### Example 3: both equations need multipliers
+
+Maya encounters the system
 
 $$
 \begin{cases} 4x + 3y = 18 \\ 3x - 2y = 5 \end{cases}

@@ -78,7 +78,9 @@ Every precalculus course makes you translate between these three forms constantl
 
 ## Worked examples
 
-**Example 1.** Determine whether the equation $y = x^2$ defines $y$ as a function of $x$, and compute the output at $x = -3$.
+### Example 1
+
+Determine whether the equation $y = x^2$ defines $y$ as a function of $x$, and compute the output at $x = -3$.
 
 For $y = x^2$ to define $y$ as a function of $x$, every legal input $x$ must produce exactly one output $y$. Pick any real number $x$ and compute $x^2$. You get a single, unambiguous real number — squaring never produces two different answers. So yes, $y = x^2$ does define $y$ as a function of $x$. Writing it with function notation, you can name the function $f$ and say $f(x) = x^2$.
 
@@ -92,7 +94,9 @@ The output is $9$. The coordinate pair $(-3, 9)$ lies on the graph of $f$.
 
 A useful contrast: the equation $y^2 = x$ does **not** define $y$ as a function of $x$. At $x = 9$, both $y = 3$ and $y = -3$ satisfy the equation, so the same input produces two outputs, which breaks the single-output rule. The graph of $y^2 = x$ is a sideways parabola that fails the vertical line test, and you cannot write it in the form $y = f(x)$ without splitting it into two pieces.
 
-**Example 2.** Given $f(x) = 2x - 7$, compute $f(3)$, $f(-2)$, and $f(a + 1)$.
+### Example 2
+
+Given $f(x) = 2x - 7$, compute $f(3)$, $f(-2)$, and $f(a + 1)$.
 
 Each of these is a substitution into the rule "$2x - 7$."
 
@@ -112,7 +116,9 @@ $$
 
 The output is the simplified algebraic expression $2a - 5$. This kind of symbolic evaluation comes up constantly — when you compose functions, when you shift graphs, when you compute the difference quotient that opens calculus. The move is always the same: wherever you see $x$ in the rule, stick the new expression in, parentheses and all, then simplify.
 
-**Example 3.** Determine whether the set of coordinate pairs $\{(1, 2),\, (2, 3),\, (1, 4),\, (5, 6)\}$ describes a function of $x$.
+### Example 3
+
+Determine whether the set of coordinate pairs $\{(1, 2),\, (2, 3),\, (1, 4),\, (5, 6)\}$ describes a function of $x$.
 
 A function from $x$ to $y$ demands that each $x$-value appear at most once in the input column. Scan the first coordinates: $1, 2, 1, 5$. The value $1$ shows up twice — once paired with $2$, once paired with $4$. That is two different outputs for the same input $x = 1$, exactly the single-output rule being broken.
 

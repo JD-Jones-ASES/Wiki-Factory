@@ -66,7 +66,9 @@ One easy-to-miss point: the grid you are using is *one* coordinate system, not *
 
 ## Worked examples
 
-**Example 1.** The graph of $y = -(x - 2)^2 + 9$ is a parabola. Identify the vertex, the $y$-intercept, the $x$-intercepts, and any symmetry of the graph.
+### Example 1
+
+The graph of $y = -(x - 2)^2 + 9$ is a parabola. Identify the vertex, the $y$-intercept, the $x$-intercepts, and any symmetry of the graph.
 
 The expression is already in vertex form $y = a(x - h)^2 + k$ with $a = -1$, $h = 2$, $k = 9$. That makes the **vertex** the point $(2, 9)$. Because $a < 0$, the parabola opens downward, so the vertex is a maximum. The curve climbs toward that peak from the left, reaches $y = 9$ at $x = 2$, then falls symmetrically on the other side.
 
@@ -82,7 +84,9 @@ so $x = 5$ or $x = -1$. The $x$-intercepts are $(-1, 0)$ and $(5, 0)$.
 
 For the **symmetry**, every parabola $y = a(x - h)^2 + k$ is symmetric about the vertical line $x = h$. Here that line is $x = 2$. The curve is not symmetric about either axis or about the origin (the axis of symmetry is shifted sideways), but it *is* symmetric about the line $x = 2$, and you can see this by noting that the two $x$-intercepts $-1$ and $5$ sit equally far from $x = 2$ — both at distance $3$.
 
-**Example 2.** The function $f(x) = x^3 - 3x$ has the following table of values for $-2 \le x \le 2$:
+### Example 2
+
+The function $f(x) = x^3 - 3x$ has the following table of values for $-2 \le x \le 2$:
 
 | $x$ | $-2$ | $-1.5$ | $-1$ | $0$ | $1$ | $1.5$ | $2$ |
 |---|---|---|---|---|---|---|---|
@@ -97,7 +101,9 @@ Placing the dots in order, you get a curve that starts low at $(-2, -2)$, rises 
 
 This is the right shape for a cubic with a negative turning region. Once you have the shape, a quick sanity check: the three $x$-intercepts of $x^3 - 3x = x(x^2 - 3)$ are $x = 0$ and $x = \pm\sqrt{3} \approx \pm 1.73$, which is consistent with the curve crossing zero between your plotted dots.
 
-**Example 3.** The point $P(-4, 7)$ is reflected across the $y$-axis, then reflected across the $x$-axis. Give the coordinates of the final image, and give the distance from $P$ to its final image.
+### Example 3
+
+The point $P(-4, 7)$ is reflected across the $y$-axis, then reflected across the $x$-axis. Give the coordinates of the final image, and give the distance from $P$ to its final image.
 
 Reflecting across the $y$-axis flips the sign of the $x$-coordinate and leaves the $y$-coordinate alone:
 

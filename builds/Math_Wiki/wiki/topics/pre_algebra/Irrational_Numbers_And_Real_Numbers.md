@@ -84,7 +84,9 @@ Adding the irrationals to the rationals is what makes the number line **complete
 
 ## Worked examples
 
-**Example 1.** Classify each of these numbers as rational or irrational: $\tfrac{3}{4}$, $0.\overline{3}$, $\sqrt{7}$, $\pi$.
+### Example 1
+
+Classify each of these numbers as rational or irrational: $\tfrac{3}{4}$, $0.\overline{3}$, $\sqrt{7}$, $\pi$.
 
 Start with $\tfrac{3}{4}$. It is already a fraction of two integers, so it is rational.
 
@@ -96,7 +98,9 @@ Finally, $\pi$. This is the classic irrational. Its decimal expansion $3.1415926
 
 Final classification: $\tfrac{3}{4}$ and $0.\overline{3}$ are rational; $\sqrt{7}$ and $\pi$ are irrational. All four are real numbers — they all sit somewhere on the number line.
 
-**Example 2.** Locate $\sqrt{2}$ between two consecutive integers on the number line, and estimate to the nearest tenth.
+### Example 2
+
+Locate $\sqrt{2}$ between two consecutive integers on the number line, and estimate to the nearest tenth.
 
 First, find the perfect squares around $2$. The perfect squares nearest to $2$ are $1$ and $4$, so:
 
@@ -110,7 +114,9 @@ $$
 
 So $\sqrt{2}$ is between $1$ and $2$. To refine, test a few one-decimal guesses. $1.4^2 = 1.96$, which is just under $2$. $1.5^2 = 2.25$, which is just over $2$. So $\sqrt{2}$ is between $1.4$ and $1.5$, and closer to $1.4$ since $1.96$ is closer to $2$ than $2.25$ is. To the nearest tenth, $\sqrt{2} \approx 1.4$.
 
-**Example 3.** Determine whether $\sqrt{9}$ and $\sqrt{10}$ are rational or irrational, and explain why they land in different categories.
+### Example 3
+
+Determine whether $\sqrt{9}$ and $\sqrt{10}$ are rational or irrational, and explain why they land in different categories.
 
 For $\sqrt{9}$: $9$ is a perfect square because $3 \cdot 3 = 9$. So $\sqrt{9} = 3$, a whole number. Write it as $\tfrac{3}{1}$ and you have a ratio of two integers, making it rational.
 

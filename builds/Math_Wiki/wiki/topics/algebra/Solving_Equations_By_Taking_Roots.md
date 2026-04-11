@@ -69,7 +69,9 @@ Any quadratic after [[Completing_The_Square]] always has this shape — in fact,
 
 ## Worked examples
 
-**Example 1.** Find all real values of $x$ for which $x^2 = 81$.
+### Example 1
+
+Find all real values of $x$ for which $x^2 = 81$.
 
 The square is already alone on the left side, and $81 > 0$, so the square root property applies directly. Apply a square root to each side and include the plus-or-minus:
 
@@ -81,7 +83,9 @@ That gives two solutions: $x = 9$ or $x = -9$. A fast verification: $9^2 = 81$ (
 
 If you had written only $x = 9$, you would have handed in half the answer. The equation $x^2 = 81$ has two real solutions, and the $\pm$ keeps both of them visible throughout your work.
 
-**Example 2.** Determine all values of $x$ for which $(x + 2)^2 = 25$.
+### Example 2
+
+Determine all values of $x$ for which $(x + 2)^2 = 25$.
 
 The squared expression $(x + 2)^2$ is already isolated on the left. Think of $x + 2$ as a single quantity $X$. The equation says $X^2 = 25$, so apply the square root property:
 
@@ -103,7 +107,9 @@ $$
 
 Verification in the original: $(3 + 2)^2 = 5^2 = 25$ (check), and $(-7 + 2)^2 = (-5)^2 = 25$ (check). The two solutions are $x = 3$ and $x = -7$.
 
-**Example 3.** Rohan is solving the equation $3x^2 - 48 = 0$. What are all real values of $x$?
+### Example 3
+
+Rohan is solving the equation $3x^2 - 48 = 0$. What are all real values of $x$?
 
 The squared term is not yet alone. First rearrange so the $x^2$ is isolated. Add $48$ to each side:
 

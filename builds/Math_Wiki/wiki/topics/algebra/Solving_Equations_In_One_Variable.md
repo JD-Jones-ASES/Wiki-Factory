@@ -87,7 +87,9 @@ A **radical equation** has $x$ under a square root (or another root). To solve o
 
 ## Worked examples
 
-**Example 1 (linear).** Determine the value of $x$ that makes the equation $3x + 7 = 22$ true.
+### Example 1: linear
+
+Determine the value of $x$ that makes the equation $3x + 7 = 22$ true.
 
 The variable is not inside any container — this is a plain multi-step linear equation. Peel the $+7$ away from the $3x$ by subtracting $7$ from each side:
 
@@ -103,7 +105,9 @@ $$
 
 Verification in the original: $3(5) + 7 = 15 + 7 = 22$. The equation holds, so $x = 5$ is the solution.
 
-**Example 2 (absolute value).** Find all $x$ for which $|x - 4| = 9$.
+### Example 2: absolute value
+
+Find all $x$ for which $|x - 4| = 9$.
 
 The absolute value is already by itself, and $9$ is positive, so there will be two cases. The quantity inside, $x - 4$, is either $9$ or $-9$. Write both equations:
 
@@ -119,7 +123,9 @@ $$
 
 Both candidates check: $|13 - 4| = |9| = 9$, and $|{-5} - 4| = |{-9}| = 9$. The solution set is $x = 13$ or $x = -5$.
 
-**Example 3 (radical).** Kai is solving the equation $\sqrt{x + 3} = 5$. What is the value of $x$?
+### Example 3: radical
+
+Kai is solving the equation $\sqrt{x + 3} = 5$. What is the value of $x$?
 
 The radical is already by itself on the left side, so square both sides to remove it:
 

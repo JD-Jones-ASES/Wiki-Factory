@@ -63,7 +63,9 @@ The procedure works for percents of any size. A $150\%$ "slice" of a quantity is
 
 ## Worked examples
 
-**Example 1.** The hiking club has $50$ members, and $20\%$ of them are new this year. How many new members joined?
+### Example 1
+
+The hiking club has $50$ members, and $20\%$ of them are new this year. How many new members joined?
 
 Convert the percent to a decimal: $20\% = 0.20$. Multiply:
 
@@ -73,7 +75,9 @@ $$
 
 Ten new members joined. A fraction-based check is easy here — $20\%$ is $\tfrac{1}{5}$, and $\tfrac{1}{5}$ of $50$ is $10$. Same answer.
 
-**Example 2.** A jeweler is pricing a new ring at $\$175$, and her state charges $8\%$ sales tax. How much tax will a buyer pay?
+### Example 2
+
+A jeweler is pricing a new ring at $\$175$, and her state charges $8\%$ sales tax. How much tax will a buyer pay?
 
 Convert the percent: $8\% = 0.08$. Notice the leading zero — you shifted the decimal point two places to the left, and that required inserting a zero as a placeholder. Now multiply:
 
@@ -83,7 +87,9 @@ $$
 
 Break the multiplication into two easier parts if you want to do it by hand. $0.08 \times 100 = 8$, and $0.08 \times 75 = 6$. Adding gives $8 + 6 = 14$. The sales tax is $\$14$. A shopper who forgets the tax at checkout is in for an unwelcome surprise.
 
-**Example 3.** A city's $2025$ water-quality report notes that a particular reservoir holds $240{,}000$ gallons and lost $0.5\%$ of its volume to evaporation on one especially hot weekend. How many gallons evaporated?
+### Example 3
+
+A city's $2025$ water-quality report notes that a particular reservoir holds $240{,}000$ gallons and lost $0.5\%$ of its volume to evaporation on one especially hot weekend. How many gallons evaporated?
 
 The temptation is to read $0.5\%$ as "half" and be done in one second — but that would be $50\%$, which is a very different number. Half of a percent is much smaller. Convert carefully: $0.5\% = 0.005$. Then multiply:
 

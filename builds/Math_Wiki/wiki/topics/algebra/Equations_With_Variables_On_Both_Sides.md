@@ -62,7 +62,9 @@ A second reason the method works: the variable $x$ is a number. It might be $3$ 
 
 ## Worked examples
 
-**Example 1.** Determine the value of $x$ that makes the equation $3x + 4 = x + 10$ true.
+### Example 1
+
+Determine the value of $x$ that makes the equation $3x + 4 = x + 10$ true.
 
 The variable sits on both sides: a $3x$ on the left and a smaller $x$ on the right. Since the larger coefficient is on the left, collect the $x$'s there by removing the $x$ from the right. Do this by subtracting $x$ from each side:
 
@@ -88,7 +90,9 @@ $$
 
 Verification in the original: $3(3) + 4 = 9 + 4 = 13$ on the left, and $3 + 10 = 13$ on the right. Both sides read $13$, so $x = 3$ is correct.
 
-**Example 2.** Find all $x$ for which $5x - 7 = 2x + 8$.
+### Example 2
+
+Find all $x$ for which $5x - 7 = 2x + 8$.
 
 Both sides carry a positive variable term, but the left has the larger coefficient ($5$ versus $2$), so collect the variable on the left. Subtract $2x$ from both sides:
 
@@ -114,7 +118,9 @@ $$
 
 Verification: the left side becomes $5(5) - 7 = 25 - 7 = 18$, and the right side becomes $2(5) + 8 = 10 + 8 = 18$. The two sides match, so $x = 5$ is the solution.
 
-**Example 3.** Maya is working on the equation
+### Example 3
+
+Maya is working on the equation
 
 $$
 4(x - 2) = 2x + 6.

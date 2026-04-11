@@ -59,7 +59,9 @@ The deeper reason the theorem holds is that the right angle fits the two legs on
 
 ## Worked examples
 
-**Example 1.** A right triangle has legs measuring $9$ and $12$ units. How long is the hypotenuse?
+### Example 1
+
+A right triangle has legs measuring $9$ and $12$ units. How long is the hypotenuse?
 
 Plug the leg values into the theorem:
 
@@ -75,7 +77,9 @@ $$
 
 The hypotenuse is $15$ units long. This triangle is one of the **Pythagorean triples** — triangles whose three sides are all whole numbers. The $9$-$12$-$15$ triangle is really the $3$-$4$-$5$ triple scaled up by a factor of $3$, and once you spot the $3$-$4$-$5$ inside any right triangle the answer is almost automatic.
 
-**Example 2.** A right triangle has hypotenuse $17$ and one leg $8$. What is the length of the other leg?
+### Example 2
+
+A right triangle has hypotenuse $17$ and one leg $8$. What is the length of the other leg?
 
 Now the unknown is a leg, not the hypotenuse, so you rearrange before you solve. Let the missing leg be $a$:
 
@@ -101,7 +105,9 @@ $$
 
 The missing leg measures $15$ units. This is another Pythagorean triple — the $8$-$15$-$17$ — and it is worth adding to your mental list alongside $3$-$4$-$5$ and $5$-$12$-$13$, because these triples show up constantly in problem sets.
 
-**Example 3.** A carpenter is installing a $10$-foot ladder against the side of a garage to reach a second-story window. The base of the ladder is placed $4$ feet away from the garage wall. How high up the wall does the top of the ladder touch? Round your answer to one decimal place.
+### Example 3
+
+A carpenter is installing a $10$-foot ladder against the side of a garage to reach a second-story window. The base of the ladder is placed $4$ feet away from the garage wall. How high up the wall does the top of the ladder touch? Round your answer to one decimal place.
 
 The ladder, the wall, and the ground form a right triangle. The right angle sits where the wall meets the ground. The ladder itself is the slanted side, so the ladder is the hypotenuse. The distance along the ground is one leg; the height on the wall is the other leg, and it is what you want to find. Call the height $h$:
 

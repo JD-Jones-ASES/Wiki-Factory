@@ -79,7 +79,9 @@ Absolute value is just the raw distance — how many steps, ignoring which direc
 
 ## Worked examples
 
-**Example 1.** Compute the opposite of $-13$ and the absolute value of $-13$. Are they the same?
+### Example 1
+
+Compute the opposite of $-13$ and the absolute value of $-13$. Are they the same?
 
 The opposite of $-13$ is the number on the other side of zero, the same distance away: $13$. You can check it: $-13 + 13 = 0$, so $13$ is indeed the additive inverse.
 
@@ -91,7 +93,9 @@ $$
 
 So yes — in this case the opposite and the absolute value are the same number, $13$. That happens whenever you start with a negative number. For a positive number, the two ideas pull apart: the opposite of $5$ is $-5$, but $|5| = 5$.
 
-**Example 2.** Simplify $|{-15}| - |7| + |{-2}|$.
+### Example 2
+
+Simplify $|{-15}| - |7| + |{-2}|$.
 
 Evaluate each absolute value first, then combine.
 
@@ -115,7 +119,9 @@ $$
 
 A common slip here is to try to bring the minus sign inside the bars — for example, writing $|{-15}| = -15$. The bars always produce a non-negative number. Evaluate the absolute values first, then worry about the signs sitting outside them.
 
-**Example 3.** Maya is tracking the daily temperature change in her town over a week. On Monday the temperature drops $7$ degrees, and on Tuesday it rises $4$ degrees. She records Monday as $-7$ and Tuesday as $+4$. Which day had the bigger **size** of change, and how much?
+### Example 3
+
+Maya is tracking the daily temperature change in her town over a week. On Monday the temperature drops $7$ degrees, and on Tuesday it rises $4$ degrees. She records Monday as $-7$ and Tuesday as $+4$. Which day had the bigger **size** of change, and how much?
 
 The question is about size, not direction, so it calls for absolute value. Compare:
 

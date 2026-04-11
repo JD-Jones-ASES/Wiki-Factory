@@ -65,7 +65,9 @@ The formula is really a statement about **ratios** of change. Because the line i
 
 ## Worked examples
 
-**Example 1.** Leilani is tracking her walking pace on a pedometer app that plots time in minutes on the $x$-axis and steps taken on the $y$-axis. Two recorded points on her walk are $(2, 240)$ and $(7, 840)$. Compute the slope of the line through these points.
+### Example 1
+
+Leilani is tracking her walking pace on a pedometer app that plots time in minutes on the $x$-axis and steps taken on the $y$-axis. Two recorded points on her walk are $(2, 240)$ and $(7, 840)$. Compute the slope of the line through these points.
 
 Pick the first as $(x_1, y_1) = (2, 240)$ and the second as $(x_2, y_2) = (7, 840)$. Rise is $840 - 240 = 600$. Run is $7 - 2 = 5$. Slope is
 
@@ -75,7 +77,9 @@ $$
 
 Leilani's line has slope $120$, which in this context means she is taking $120$ steps per minute. That is the **rate of change** interpretation working alongside the geometric one.
 
-**Example 2.** Give the slope of the line that passes through $(3, 8)$ and $(-1, -4)$.
+### Example 2
+
+Give the slope of the line that passes through $(3, 8)$ and $(-1, -4)$.
 
 Take the first as $(x_1, y_1) = (3, 8)$ and the second as $(x_2, y_2) = (-1, -4)$. Rise is $-4 - 8 = -12$. Run is $-1 - 3 = -4$. Slope is
 
@@ -85,7 +89,9 @@ $$
 
 The two negatives cancel, leaving $m = 3$. The line climbs $3$ units vertically for every $1$ unit horizontally. Notice I could have swapped which point I called first — if I had used $(-1, -4)$ as $(x_1, y_1)$ and $(3, 8)$ as $(x_2, y_2)$, rise would have been $8 - (-4) = 12$ and run would have been $3 - (-1) = 4$, so $m = 12/4 = 3$. Same answer, which is the guarantee I was promising — the labeling does not change the result as long as it stays consistent.
 
-**Example 3.** A horizontal line passes through the points $(-5, 6)$ and $(10, 6)$. Determine its slope.
+### Example 3
+
+A horizontal line passes through the points $(-5, 6)$ and $(10, 6)$. Determine its slope.
 
 Apply the formula with $(x_1, y_1) = (-5, 6)$ and $(x_2, y_2) = (10, 6)$. Rise is $6 - 6 = 0$. Run is $10 - (-5) = 15$. Slope is
 

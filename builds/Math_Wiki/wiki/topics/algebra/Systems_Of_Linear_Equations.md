@@ -80,7 +80,9 @@ When a system has no solution, all three methods produce an unmistakable symptom
 
 ## Worked examples
 
-**Example 1 (substitution).** Solve the system
+### Example 1: substitution
+
+Solve the system
 
 $$
 \begin{cases} y = 2x + 1 \\ 3x + y = 16 \end{cases}
@@ -102,7 +104,9 @@ Peel off the $+1$ by subtracting $1$ from each side: $5x = 15$. Divide each side
 
 Verification in both originals: first equation, $7 = 2(3) + 1 = 7$ (check). Second equation, $3(3) + 7 = 9 + 7 = 16$ (check). The point $(3, 7)$ satisfies both equations, confirming the solution.
 
-**Example 2 (elimination).** Find the ordered pair $(x, y)$ that satisfies
+### Example 2: elimination
+
+Find the ordered pair $(x, y)$ that satisfies
 
 $$
 \begin{cases} 2x + 3y = 12 \\ 2x - y = 4 \end{cases}
@@ -126,7 +130,9 @@ Divide each side by $4$ to get $y = 2$. Back-substitute into either original equ
 
 Verification: $2(3) + 3(2) = 6 + 6 = 12$ (check), and $2(3) - 2 = 4$ (check). Both equations hold, so $(3, 2)$ is correct.
 
-**Example 3 (no solution case).** Emilia encounters the system
+### Example 3: no solution case
+
+Emilia encounters the system
 
 $$
 \begin{cases} 4x - 2y = 8 \\ 2x - y = 5 \end{cases}

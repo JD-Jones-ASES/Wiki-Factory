@@ -67,7 +67,9 @@ The convention is also mandatory in the sense that nothing else works. Any commu
 
 ## Worked examples
 
-**Example 1.** Compute the value of $2 + 3 \times 4^2 - 6$.
+### Example 1
+
+Compute the value of $2 + 3 \times 4^2 - 6$.
 
 Climb the PEMDAS ladder one step at a time. There are no parentheses, so skip straight to exponents:
 
@@ -89,7 +91,9 @@ $$
 
 Last rung is addition and subtraction, done strictly left to right. First $2 + 48 = 50$, then $50 - 6 = 44$. The expression evaluates to $44$.
 
-**Example 2.** Simplify $\dfrac{20 - 2(3 + 1)^2}{2 \cdot 3 - 2}$.
+### Example 2
+
+Simplify $\dfrac{20 - 2(3 + 1)^2}{2 \cdot 3 - 2}$.
 
 The fraction bar is a grouping symbol in disguise: it forces you to finish the top and bottom separately before dividing. Start on the numerator. The innermost group is $(3 + 1) = 4$, which gives:
 
@@ -109,7 +113,9 @@ $$
 
 The whole expression equals $-3$.
 
-**Example 3.** Maya is packing lunches for a field trip. She buys $5$ sandwiches at $\$4$ each, $3$ juice boxes at $\$2$ each, and a single box of cookies for $\$7$ that the group will share. She wants a single expression that represents her total cost and its final value. Build and evaluate
+### Example 3
+
+Maya is packing lunches for a field trip. She buys $5$ sandwiches at $\$4$ each, $3$ juice boxes at $\$2$ each, and a single box of cookies for $\$7$ that the group will share. She wants a single expression that represents her total cost and its final value. Build and evaluate
 
 $$
 5 \times 4 + 3 \times 2 + 7

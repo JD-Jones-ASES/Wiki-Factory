@@ -65,7 +65,9 @@ Every equation is a statement that two expressions name the same number. If you 
 
 ## Worked examples
 
-**Example 1.** Maya is tallying up the mileage she logged with her hiking club. She knows the equation $3x = 18$ describes the unknown number of weekend hikes $x$ (each hike is $3$ miles) that produced $18$ miles total. Determine $x$.
+### Example 1
+
+Maya is tallying up the mileage she logged with her hiking club. She knows the equation $3x = 18$ describes the unknown number of weekend hikes $x$ (each hike is $3$ miles) that produced $18$ miles total. Determine $x$.
 
 On the left side, $x$ is being multiplied by $3$. The inverse of multiplying by $3$ is dividing by $3$, so divide both sides by $3$:
 
@@ -79,7 +81,9 @@ $$
 
 Maya went on $6$ hikes. A quick check: $3 \cdot 6 = 18$, which matches the original equation.
 
-**Example 2.** At a photography class, Kai was told that after giving away $7$ of his printed photos he had $12$ left. If $x$ is the number of prints he started with, the relationship is $x - 7 = 12$. What is $x$?
+### Example 2
+
+At a photography class, Kai was told that after giving away $7$ of his printed photos he had $12$ left. If $x$ is the number of prints he started with, the relationship is $x - 7 = 12$. What is $x$?
 
 On the left side, $7$ is being subtracted from $x$. The inverse of subtracting $7$ is adding $7$, so add $7$ to both sides:
 
@@ -93,7 +97,9 @@ $$
 
 Kai started with $19$ prints. Check: $19 - 7 = 12$. The original equation holds.
 
-**Example 3.** Priya is splitting a large tray of brownies from the school bakery into four equal portions, and each portion has $5$ brownies in it. If $x$ is the total number of brownies in the tray, then $x/4 = 5$. Compute $x$.
+### Example 3
+
+Priya is splitting a large tray of brownies from the school bakery into four equal portions, and each portion has $5$ brownies in it. If $x$ is the total number of brownies in the tray, then $x/4 = 5$. Compute $x$.
 
 On the left side, $x$ is being divided by $4$. The inverse of dividing by $4$ is multiplying by $4$, so multiply both sides by $4$:
 

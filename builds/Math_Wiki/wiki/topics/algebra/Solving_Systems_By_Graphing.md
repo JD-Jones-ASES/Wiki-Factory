@@ -63,7 +63,9 @@ Graphing is wonderful for understanding, but it has a real limitation: **accurac
 
 ## Worked examples
 
-**Example 1 (clean integer intersection).** Find the ordered pair $(x, y)$ that satisfies
+### Example 1: clean integer intersection
+
+Find the ordered pair $(x, y)$ that satisfies
 
 $$
 \begin{cases} y = x + 2 \\ y = -2x + 8 \end{cases}
@@ -75,7 +77,9 @@ Sketching both lines on a single coordinate plane, the first climbs gently from 
 
 Algebraic verification: first equation, $y = 2 + 2 = 4$ (check). Second equation, $y = -2(2) + 8 = -4 + 8 = 4$ (check). Both confirm, so the solution is $(2, 4)$.
 
-**Example 2 (no solution).** Mateo graphs the system
+### Example 2: no solution
+
+Mateo graphs the system
 
 $$
 \begin{cases} y = 3x + 1 \\ y = 3x - 2 \end{cases}
@@ -87,7 +91,9 @@ On the graph, you would see two lines rising at the same steep angle of $3$, one
 
 Algebraic confirmation using substitution: plug $y = 3x + 1$ into the second equation. The second reads $y = 3x - 2$, so $3x + 1 = 3x - 2$, which simplifies to $1 = -2$, a false statement. That is the algebraic signature of a no-solution system — the variables cancel and the remainder is false.
 
-**Example 3 (infinitely many solutions).** Leilani is graphing
+### Example 3: infinitely many solutions
+
+Leilani is graphing
 
 $$
 \begin{cases} 2x + y = 6 \\ 4x + 2y = 12 \end{cases}

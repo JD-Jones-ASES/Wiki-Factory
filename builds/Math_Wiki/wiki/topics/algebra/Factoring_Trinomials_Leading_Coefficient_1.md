@@ -75,7 +75,9 @@ Multiply $(x + p)(x + q)$ out and watch what happens. FOIL gives $x^2 + qx + px 
 
 ## Worked examples
 
-**Example 1.** Express $x^2 + 7x + 12$ as a product of two binomials.
+### Example 1
+
+Express $x^2 + 7x + 12$ as a product of two binomials.
 
 We need two integers with product $12$ and sum $7$. Because $c = 12$ is positive and $b = 7$ is positive, both integers should be positive. Walk the positive factor pairs of $12$:
 
@@ -93,7 +95,9 @@ $$
 
 Check by FOIL: $(x + 3)(x + 4) = x^2 + 4x + 3x + 12 = x^2 + 7x + 12$. Matches. 
 
-**Example 2.** Express $x^2 - 5x + 6$ as a product of two binomials.
+### Example 2
+
+Express $x^2 - 5x + 6$ as a product of two binomials.
 
 We need two integers with product $6$ and sum $-5$. The constant $c = 6$ is still positive, but the middle coefficient $b = -5$ is negative. That means both integers should be **negative** — a positive times a positive cannot be negative, so the only way to get a positive product from a negative sum is for both factors to be negative. Walk the negative factor pairs of $6$:
 
@@ -110,7 +114,9 @@ $$
 
 Check: $(x - 2)(x - 3) = x^2 - 3x - 2x + 6 = x^2 - 5x + 6$. Matches.
 
-**Example 3.** Express $x^2 + 2x - 15$ as a product of two binomials.
+### Example 3
+
+Express $x^2 + 2x - 15$ as a product of two binomials.
 
 Now we need two integers with product $-15$ and sum $2$. Because $c = -15$ is negative, one of the integers is positive and the other is negative. The middle coefficient is $b = 2$, which is positive, so the **positive** one should have the larger absolute value. Walk the factor pairs of $-15$ where the positive one dominates:
 

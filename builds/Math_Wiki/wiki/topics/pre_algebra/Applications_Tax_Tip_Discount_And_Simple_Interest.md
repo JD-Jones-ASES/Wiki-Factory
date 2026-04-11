@@ -98,7 +98,9 @@ Each application is a practical instance of the percent equation you already kno
 
 ## Worked examples
 
-**Example 1. Restaurant bill with tip.** The school band stops at a diner after rehearsal. Their pre-tip total is $\$42.50$, and the director plans to add an $18\%$ gratuity. Determine the gratuity amount and the final cost the band will pay.
+### Example 1: Restaurant bill with tip
+
+The school band stops at a diner after rehearsal. Their pre-tip total is $\$42.50$, and the director plans to add an $18\%$ gratuity. Determine the gratuity amount and the final cost the band will pay.
 
 Convert the rate to a decimal: $18\% = 0.18$. Compute the tip as a percent of the bill:
 
@@ -114,7 +116,9 @@ $$
 
 The final charge is $\$50.15$. You could also do this in one step using the shortcut: $42.50 \cdot 1.18 = 50.15$. Same answer.
 
-**Example 2. Clearance sweater.** A sweater originally priced at $\$85$ is on sale for $25\%$ off. Determine the sale price.
+### Example 2: Clearance sweater
+
+A sweater originally priced at $\$85$ is on sale for $25\%$ off. Determine the sale price.
 
 Convert $25\%$ to the decimal $0.25$. Compute the discount:
 
@@ -130,7 +134,9 @@ $$
 
 The sale price is $\$63.75$. Using the one-step version, the sale price is $85 \cdot (1 - 0.25) = 85 \cdot 0.75 = 63.75$. Same number.
 
-**Example 3. Savings account with simple interest.** A coffee shop deposits $\$2000$ into a savings account that pays $4\%$ simple interest per year. How much interest will the account earn in $3$ years, and what will the total balance be?
+### Example 3: Savings account with simple interest
+
+A coffee shop deposits $\$2000$ into a savings account that pays $4\%$ simple interest per year. How much interest will the account earn in $3$ years, and what will the total balance be?
 
 Here the principal is $P = 2000$, the annual rate is $r = 0.04$, and the time is $t = 3$ years. The interest is:
 

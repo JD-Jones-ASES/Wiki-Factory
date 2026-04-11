@@ -78,7 +78,9 @@ If there are no denominators and no even roots — just a polynomial — the dom
 
 ## Worked examples
 
-**Example 1.** Determine whether $f(x) = \dfrac{x^3 - 2}{x^2 + 1}$ is an algebraic function, and give its domain.
+### Example 1
+
+Determine whether $f(x) = \dfrac{x^3 - 2}{x^2 + 1}$ is an algebraic function, and give its domain.
 
 Every ingredient in $f(x)$ is polynomial (numerator $x^3 - 2$, denominator $x^2 + 1$), and the only operation between them is division. That is a rational function, which is a subfamily of algebraic functions, so yes — $f$ is algebraic.
 
@@ -90,7 +92,9 @@ $$
 
 This is a nice illustration that "rational function" does not automatically mean "missing points" — you have to actually check the denominator. When it has no real roots, the domain is as big as a polynomial's.
 
-**Example 2.** Determine whether $g(x) = 3^x$ is an algebraic function.
+### Example 2
+
+Determine whether $g(x) = 3^x$ is an algebraic function.
 
 The output is $3$ raised to the variable power $x$. The definition of algebraic allows rational-exponent powers like $x^{2/3}$, but notice carefully which slot the variable sits in: in $x^{2/3}$, the variable is the *base* and the rational number is the *exponent*. In $3^x$, the variable is the *exponent* and the number is the *base*. That is a fundamentally different move, and it is exactly the move that escapes the algebraic family.
 
@@ -98,7 +102,9 @@ No finite sequence of additions, subtractions, multiplications, divisions, and r
 
 A good mental shortcut: if the variable shows up in an exponent slot, the function is transcendental. If the variable only shows up as a base (possibly raised to rational powers), the function is algebraic.
 
-**Example 3.** Construct an algebraic function whose domain is exactly $[4, \infty)$.
+### Example 3
+
+Construct an algebraic function whose domain is exactly $[4, \infty)$.
 
 The phrase "domain is exactly $[4, \infty)$" is code for "the function is defined when $x \ge 4$ and undefined when $x < 4$." To force that cutoff, use an even radical with a radicand that is zero at $x = 4$ and negative below it — the simplest choice is a square root.
 

@@ -75,7 +75,9 @@ The midpoint is the point halfway along the segment, which means its $x$-coordin
 
 ## Worked examples
 
-**Example 1.** Determine the midpoint of the segment with endpoints $(2, 8)$ and $(10, 4)$.
+### Example 1
+
+Determine the midpoint of the segment with endpoints $(2, 8)$ and $(10, 4)$.
 
 Label the endpoints: $(x_1, y_1) = (2, 8)$ and $(x_2, y_2) = (10, 4)$. Apply the formula one coordinate at a time.
 
@@ -93,7 +95,9 @@ $$
 
 So the midpoint is $(6, 6)$. A quick plotting check: the segment runs from upper-left-ish to the right, and $(6, 6)$ is visibly between the two endpoints. Good.
 
-**Example 2.** Find the midpoint of the segment with endpoints $(-3, 5)$ and $(7, -1)$.
+### Example 2
+
+Find the midpoint of the segment with endpoints $(-3, 5)$ and $(7, -1)$.
 
 Label: $(x_1, y_1) = (-3, 5)$ and $(x_2, y_2) = (7, -1)$.
 
@@ -111,7 +115,9 @@ $$
 
 So the midpoint is $(2, 2)$. The important move here is keeping the signs on the negative coordinates. If you wrote $-3 + 7$ as $-10$ instead of $4$, you would have subtracted when you meant to add. The formula calls for addition, not for "distance between the two numbers."
 
-**Example 3.** The midpoint of a segment is $(5, 3)$, and one endpoint is $(1, 1)$. Determine the other endpoint.
+### Example 3
+
+The midpoint of a segment is $(5, 3)$, and one endpoint is $(1, 1)$. Determine the other endpoint.
 
 This is the reverse-direction problem. Call the unknown endpoint $(x_2, y_2)$, and use the rearranged formula. For the $x$-coordinate:
 

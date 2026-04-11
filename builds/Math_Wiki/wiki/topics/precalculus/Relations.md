@@ -74,7 +74,9 @@ The domain and range of a relation come directly from the coordinates of the pai
 
 ## Worked examples
 
-**Example 1.** Identify which of the following sets of coordinate pairs describe a function of $x$, and give the domain and range of each.
+### Example 1
+
+Identify which of the following sets of coordinate pairs describe a function of $x$, and give the domain and range of each.
 
 $A = \{(-2, 3),\, (0, 3),\, (2, 3),\, (4, 3)\}$, $B = \{(1, -1),\, (1, 1),\, (4, 2),\, (9, 3)\}$, $C = \{(-3, 9),\, (-2, 4),\, (0, 0),\, (2, 4),\, (3, 9)\}$.
 
@@ -84,7 +86,9 @@ For $B$, the first coordinates are $1, 1, 4, 9$ — the value $1$ appears twice,
 
 For $C$, the first coordinates are $-3, -2, 0, 2, 3$ — all distinct. So $C$ is a **function**. Notice that the second coordinates repeat: both $-3$ and $3$ pair with $9$, and both $-2$ and $2$ pair with $4$. That is allowed. What is forbidden is a repeated first coordinate, not a repeated second. The domain is $\{-3, -2, 0, 2, 3\}$ and the range is $\{0, 4, 9\}$.
 
-**Example 2.** Describe the relation defined by the inequality $y \ge x$, state its domain and range, and decide whether it is a function.
+### Example 2
+
+Describe the relation defined by the inequality $y \ge x$, state its domain and range, and decide whether it is a function.
 
 The relation is the set $\{(x, y) : y \ge x\}$ — every coordinate pair whose second coordinate is greater than or equal to its first. Geometrically this is a **half-plane**. Draw the line $y = x$ (a diagonal through the origin with slope $1$); every point on the line itself satisfies $y = x$, which counts as $\ge$, so the boundary is included. Every point above the line satisfies $y > x$, also in the relation. Every point below the line fails, so it is excluded.
 
@@ -92,7 +96,9 @@ The domain is $(-\infty, \infty)$: for any real number $x$, you can always find 
 
 Is this relation a function of $x$? Take $x = 0$. Then every $y$ with $y \ge 0$ is paired with the input $0$, so the relation contains the pairs $(0, 0)$, $(0, 1)$, $(0, 2)$, and infinitely many more. That is an enormous number of outputs for the single input $x = 0$, so the single-output rule fails violently. The relation is **not** a function. It is a perfectly respectable half-plane, and it is the kind of object that appears whenever you graph a two-variable inequality, but it is not a function.
 
-**Example 3.** Determine whether the equation $x = y^2$ defines $y$ as a function of $x$. Give the domain of the relation, the range of the relation, and a description of the curve it draws.
+### Example 3
+
+Determine whether the equation $x = y^2$ defines $y$ as a function of $x$. Give the domain of the relation, the range of the relation, and a description of the curve it draws.
 
 First, solve for $y$: $y^2 = x$, so $y = \pm\sqrt{x}$. This tells you two things at once. For $x > 0$, there are two $y$-values — one positive and one negative — both satisfying the equation. For $x = 0$, there is one $y$-value, namely $y = 0$. For $x < 0$, there is no real $y$-value at all, because $y^2$ cannot be negative.
 

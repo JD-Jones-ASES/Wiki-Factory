@@ -65,7 +65,9 @@ The specific form $y = mx + b$ also makes it effortless to compute $y$ for any $
 
 ## Worked examples
 
-**Example 1.** Write the slope-intercept form of a line with slope $3$ and $y$-intercept $-4$.
+### Example 1
+
+Write the slope-intercept form of a line with slope $3$ and $y$-intercept $-4$.
 
 This one is a straight substitution. The template is $y = mx + b$. With $m = 3$ and $b = -4$:
 
@@ -81,7 +83,9 @@ $$
 
 The line climbs three units of $y$ for every one unit of $x$, and it crosses the $y$-axis at $-4$.
 
-**Example 2.** Put the equation $4x + 2y = 10$ into slope-intercept form, and state the slope and the $y$-intercept.
+### Example 2
+
+Put the equation $4x + 2y = 10$ into slope-intercept form, and state the slope and the $y$-intercept.
 
 The equation is in what is called standard form, but you want the $y$ alone. Start by subtracting $4x$ from both sides so only the $y$-term stays on the left:
 
@@ -97,7 +101,9 @@ $$
 
 The equation is now in slope-intercept form. Read off the values: $m = -2$ and $b = 5$. The slope is $-2$, meaning the line drops two units of $y$ for every one unit of $x$ you move to the right, and the line crosses the $y$-axis at the point $(0, 5)$.
 
-**Example 3.** Graph the line $y = \tfrac{1}{2}x + 3$ on the coordinate plane, using only the slope and intercept to locate points.
+### Example 3
+
+Graph the line $y = \tfrac{1}{2}x + 3$ on the coordinate plane, using only the slope and intercept to locate points.
 
 Start at the $y$-intercept. $b = 3$, so the anchor point is $(0, 3)$. Mark it clearly on the $y$-axis.
 

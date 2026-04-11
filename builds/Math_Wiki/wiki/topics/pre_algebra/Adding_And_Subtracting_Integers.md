@@ -69,7 +69,9 @@ Subtraction is trickier only because the word hides the motion. When you "subtra
 
 ## Worked examples
 
-**Example 1.** Compute $-7 + 12$.
+### Example 1
+
+Compute $-7 + 12$.
 
 The two addends point in opposite directions. Start by comparing their magnitudes: $|-7| = 7$ and $|12| = 12$. The positive number has the larger magnitude, so the final answer will be positive. Subtract the smaller magnitude from the larger:
 
@@ -79,7 +81,9 @@ $$
 
 Attach the positive sign: $-7 + 12 = 5$. Number-line check: start at $-7$, take twelve steps to the right. After seven steps you arrive at zero; five more steps carry you to $+5$. Same answer.
 
-**Example 2.** A hiking club member starts the weekend with $\$45$ in her wallet, spends $\$18$ on snacks at the trailhead store, and is handed a $\$10$ refund for a trip fee that was accidentally charged twice. What does her wallet look like after the refund?
+### Example 2
+
+A hiking club member starts the weekend with $\$45$ in her wallet, spends $\$18$ on snacks at the trailhead store, and is handed a $\$10$ refund for a trip fee that was accidentally charged twice. What does her wallet look like after the refund?
 
 Write the running total as an integer expression. Spending is a subtraction; a refund is addition:
 
@@ -89,7 +93,9 @@ $$
 
 Evaluate left to right. First, $45 - 18$. Rewrite as $45 + (-18)$. Opposite directions, so subtract magnitudes: $45 - 18 = 27$, and since $45$ had the larger magnitude, the answer keeps the positive sign. So the first step gives $27$. Then add $10$: $27 + 10 = 37$. Her wallet now holds $\$37$.
 
-**Example 3.** Compute $-6 - (-11)$.
+### Example 3
+
+Compute $-6 - (-11)$.
 
 This is the classic "double negative" setup, and the $a - b = a + (-b)$ identity dissolves it in one line. The number being subtracted is $-11$, and the opposite of $-11$ is $+11$. Rewrite:
 

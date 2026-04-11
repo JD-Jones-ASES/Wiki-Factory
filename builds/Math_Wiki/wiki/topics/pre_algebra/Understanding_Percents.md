@@ -64,7 +64,9 @@ Percents above $100$ are perfectly legal. They just say "more than the whole." A
 
 ## Worked examples
 
-**Example 1.** A survey asks $200$ students which elective they would like to add next semester. $72$ students pick a pottery studio. What percent picked pottery?
+### Example 1
+
+A survey asks $200$ students which elective they would like to add next semester. $72$ students pick a pottery studio. What percent picked pottery?
 
 Set up the ratio of part to whole:
 
@@ -80,7 +82,9 @@ $$
 
 So $36\%$ of the students voted for pottery. A sanity check: $72$ is a little over a third of $200$, and $36\%$ is a little over a third of $100$. The two estimates agree.
 
-**Example 2.** Kai watches a battery meter on his tablet. It starts the morning full and now shows a bar that is filled in for the first $3$ segments out of $10$ equal segments. What percent of the battery is left?
+### Example 2
+
+Kai watches a battery meter on his tablet. It starts the morning full and now shows a bar that is filled in for the first $3$ segments out of $10$ equal segments. What percent of the battery is left?
 
 The picture is a ratio of part to whole: $3$ out of $10$ equal pieces. Turn it into hundredths by scaling the denominator to $100$:
 
@@ -90,7 +94,9 @@ $$
 
 The battery is at $30\%$. You can double-check with a grid picture: $3$ out of $10$ columns shaded is the same as $30$ out of $100$ squares shaded.
 
-**Example 3.** A school band has $25$ members. $18$ of them are woodwinds, and the rest are brass. What percent of the band plays woodwinds, and what percent plays brass?
+### Example 3
+
+A school band has $25$ members. $18$ of them are woodwinds, and the rest are brass. What percent of the band plays woodwinds, and what percent plays brass?
 
 Start with woodwinds. The ratio is $18$ out of $25$. To turn this into a percent, find an equivalent fraction with denominator $100$:
 

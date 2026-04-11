@@ -88,7 +88,9 @@ The square-root relationship between $n$ and the margin is the fingerprint of av
 
 ## Worked examples
 
-**Example 1.** Emilia, a research analyst for a student newspaper, surveys a random sample of undergraduates and reports that $\hat{p} = 58\%$ of students plan to vote in the next student-government election, with a margin of error of $\pm 4$ percentage points at $95\%$ confidence. (a) Write the corresponding $95\%$ confidence interval. (b) State what the interval claims in plain English.
+### Example 1
+
+Emilia, a research analyst for a student newspaper, surveys a random sample of undergraduates and reports that $\hat{p} = 58\%$ of students plan to vote in the next student-government election, with a margin of error of $\pm 4$ percentage points at $95\%$ confidence. (a) Write the corresponding $95\%$ confidence interval. (b) State what the interval claims in plain English.
 
 (a) The interval's endpoints are
 
@@ -100,7 +102,9 @@ So the $95\%$ confidence interval is $(54\%, \; 62\%)$.
 
 (b) The newspaper is $95\%$ confident that the true fraction of all undergraduates who plan to vote is somewhere in the interval from $54\%$ to $62\%$. Another way to phrase it: Emilia used a sampling procedure that, in the long run, catches the real value inside its interval about $19$ times out of $20$. She does **not** mean there is a "$95\%$ chance" that the true percentage is exactly between $54$ and $62$ — the true percentage is a fixed number — but she does mean that her method is reliable enough that $(54\%, 62\%)$ is the range she is willing to stand behind.
 
-**Example 2.** Mateo reads a nutrition-magazine poll claiming that $46\%$ of adults eat breakfast at home on weekday mornings, with a margin of error of $\pm 3$ percentage points. Two different people make two different follow-up claims about the true value:
+### Example 2
+
+Mateo reads a nutrition-magazine poll claiming that $46\%$ of adults eat breakfast at home on weekday mornings, with a margin of error of $\pm 3$ percentage points. Two different people make two different follow-up claims about the true value:
 
 - Claim A: "The true rate is $50\%$."
 - Claim B: "The true rate is $42\%$."
@@ -116,7 +120,9 @@ Now test each claim against the interval.
 
 A value like $44\%$ or $48\%$ would have been consistent with Mateo's poll, because both of those lie inside $(43\%, 49\%)$. The interval is the clean test: any claim inside it is compatible with the data (at the given confidence level), and any claim outside it is not.
 
-**Example 3.** Leilani designs polls for a market-research firm and runs a pilot poll with $n = 400$ respondents that produces a margin of error of $\pm 5$ percentage points at $95\%$ confidence. Her client wants the margin reduced. (a) Qualitatively, what happens to the margin if Leilani doubles the sample size to $n = 800$? (b) Roughly how many respondents would she need for the margin to fall to $\pm 2.5$ percentage points — that is, to cut the margin in half?
+### Example 3
+
+Leilani designs polls for a market-research firm and runs a pilot poll with $n = 400$ respondents that produces a margin of error of $\pm 5$ percentage points at $95\%$ confidence. Her client wants the margin reduced. (a) Qualitatively, what happens to the margin if Leilani doubles the sample size to $n = 800$? (b) Roughly how many respondents would she need for the margin to fall to $\pm 2.5$ percentage points — that is, to cut the margin in half?
 
 (a) Because the margin shrinks like $1/\sqrt{n}$, multiplying the sample size by $2$ divides the margin by $\sqrt{2} \approx 1.41$. So the new margin is approximately
 

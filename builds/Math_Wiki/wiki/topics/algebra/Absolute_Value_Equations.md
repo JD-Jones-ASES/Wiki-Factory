@@ -68,7 +68,9 @@ The definition of $|y|$ is "the distance from $y$ to zero," which is the same as
 
 ## Worked examples
 
-**Example 1.** Determine all values of $x$ satisfying $|x - 5| = 3$.
+### Example 1
+
+Determine all values of $x$ satisfying $|x - 5| = 3$.
 
 The bars are already alone on the left side, and the right side is $3$, which is positive, so there are two linear cases:
 
@@ -84,7 +86,9 @@ $$
 
 Check each in the original. For $x = 8$: $|8 - 5| = |3| = 3$. For $x = 2$: $|2 - 5| = |-3| = 3$. Both check, so the solutions are $x = 2$ and $x = 8$. Notice that these two answers sit equally far from $5$ on the number line — that makes sense, because the equation literally said "$x$ is $3$ units away from $5$."
 
-**Example 2.** Give all values of $x$ satisfying $|2x + 1| = 9$.
+### Example 2
+
+Give all values of $x$ satisfying $|2x + 1| = 9$.
 
 The bars are alone, and $9$ is positive, so split into two cases:
 
@@ -98,7 +102,9 @@ Solve the second: subtract $1$ from both sides to get $2x = -10$, then divide by
 
 Check. For $x = 4$: $|2(4) + 1| = |9| = 9$. For $x = -5$: $|2(-5) + 1| = |-9| = 9$. Both check. The solutions are $x = 4$ and $x = -5$.
 
-**Example 3.** Find all $x$ such that $|x + 4| = 0$.
+### Example 3
+
+Find all $x$ such that $|x + 4| = 0$.
 
 The bars are alone, and the right side is $0$. That is the special case: the only number whose distance from zero is zero is zero itself, so you do **not** write two cases. You write one:
 

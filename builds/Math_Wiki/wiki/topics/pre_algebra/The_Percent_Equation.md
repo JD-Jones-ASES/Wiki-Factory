@@ -80,7 +80,9 @@ You can think of the three forms as three spots on the same scale: the part, the
 
 ## Worked examples
 
-**Example 1. Finding the part.** What is $15\%$ of $240$?
+### Example 1: Finding the part
+
+What is $15\%$ of $240$?
 
 The percent is $15\%$, the whole is $240$, and the part is the unknown. Rewrite $15\%$ as a decimal, then multiply:
 
@@ -96,7 +98,9 @@ $$
 
 So $15\%$ of $240$ is $36$. A quick gut check: $10\%$ of $240$ is $24$, and half of that is $12$, so $15\%$ should be $24 + 12 = 36$. The answer checks.
 
-**Example 2. Finding the percent.** Maya's hiking club has $180$ members. $45$ of them signed up for the spring trip. What percent of the club is going?
+### Example 2: Finding the percent
+
+Maya's hiking club has $180$ members. $45$ of them signed up for the spring trip. What percent of the club is going?
 
 The part is $45$, the whole is $180$, and the percent is what we are after. Use the second form:
 
@@ -118,7 +122,9 @@ $$
 
 So $25\%$ of the club signed up for the trip. A sanity check: a quarter of $180$ is $45$, which matches what the problem said.
 
-**Example 3. Finding the whole.** A jewelry maker sold $72$ bracelets at a craft fair and later learned that this was $30\%$ of her total inventory. How many bracelets did she bring to the fair?
+### Example 3: Finding the whole
+
+A jewelry maker sold $72$ bracelets at a craft fair and later learned that this was $30\%$ of her total inventory. How many bracelets did she bring to the fair?
 
 Identify the three roles: the known part is $72$, the known percent is $30\% = 0.30$, and the missing piece is the whole. Use the third form:
 

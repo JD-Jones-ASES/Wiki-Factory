@@ -79,7 +79,9 @@ As you sweep $x$ from left to right, the graph might be climbing or falling at e
 
 ## Worked examples
 
-**Example 1.** The graph of a function $f$ is a smooth curve that starts at the point $(-4, -3)$, rises to a high point at $(0, 5)$, falls to a low point at $(3, -2)$, and then rises again to end at the point $(6, 4)$. Give the domain, range, zeros, and intervals of increase and decrease.
+### Example 1
+
+The graph of a function $f$ is a smooth curve that starts at the point $(-4, -3)$, rises to a high point at $(0, 5)$, falls to a low point at $(3, -2)$, and then rises again to end at the point $(6, 4)$. Give the domain, range, zeros, and intervals of increase and decrease.
 
 The curve begins at $x = -4$ and ends at $x = 6$, so collapsing horizontally gives the domain $[-4, 6]$. The lowest height reached anywhere on the curve is $-3$ at the left endpoint, and the highest height is $5$ at $(0, 5)$. The range is therefore $[-3, 5]$.
 
@@ -93,7 +95,9 @@ For the intervals of increase and decrease, look at where the curve is climbing 
 
 The local maximum is at $(0, 5)$ and the local minimum is at $(3, -2)$. The point $(0, 5)$ is also the global maximum (no height anywhere else reaches $5$). The global minimum is $(-4, -3)$, reached at the left endpoint of the domain.
 
-**Example 2.** Determine whether the curve defined by $x = y^2 - 1$ is the graph of a function of $x$. If it is not, explain what the vertical line test reveals.
+### Example 2
+
+Determine whether the curve defined by $x = y^2 - 1$ is the graph of a function of $x$. If it is not, explain what the vertical line test reveals.
 
 Solve the equation for $y$ to see the two-valued output: $y^2 = x + 1$, so $y = \pm\sqrt{x + 1}$. For any $x > -1$, there are two different $y$-values that both satisfy the equation — $\sqrt{x+1}$ and $-\sqrt{x+1}$. That is exactly the situation the vertical line test is designed to catch.
 
@@ -101,7 +105,9 @@ Concretely, pick $x = 3$. Substituting gives $3 = y^2 - 1$, so $y^2 = 4$, so $y 
 
 So the equation $x = y^2 - 1$ is **not** the graph of a function of $x$. It is a perfectly legitimate graph of an equation — it traces out a sideways parabola opening to the right with its vertex at $(-1, 0)$ — but the curve is not a function in the $y = f(x)$ sense. You *can* split it into two functions, $y = \sqrt{x+1}$ (the top half) and $y = -\sqrt{x+1}$ (the bottom half), each of which is a valid function on its own.
 
-**Example 3.** A function $h$ has domain $[-5, 5]$ and its graph is a semicircle forming the upper half of a circle of radius $5$ centered at the origin. Give the range, the $x$-intercepts, the $y$-intercept, and the interval on which $h$ is increasing.
+### Example 3
+
+A function $h$ has domain $[-5, 5]$ and its graph is a semicircle forming the upper half of a circle of radius $5$ centered at the origin. Give the range, the $x$-intercepts, the $y$-intercept, and the interval on which $h$ is increasing.
 
 The upper semicircle satisfies $x^2 + y^2 = 25$ with $y \ge 0$, which is $h(x) = \sqrt{25 - x^2}$. The domain is $[-5, 5]$ as given, because the radicand is non-negative exactly when $x^2 \le 25$.
 

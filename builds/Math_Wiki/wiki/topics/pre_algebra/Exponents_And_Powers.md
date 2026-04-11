@@ -94,7 +94,9 @@ The rule $b^0 = 1$ is not a random convention. It is the only value that keeps t
 
 ## Worked examples
 
-**Example 1.** Evaluate $2^5$, $3^4$, and $10^3$.
+### Example 1
+
+Evaluate $2^5$, $3^4$, and $10^3$.
 
 For $2^5$, multiply five copies of $2$:
 
@@ -118,7 +120,9 @@ $$
 
 Powers of $10$ have a tidy pattern: $10^n$ is a $1$ followed by $n$ zeros. That fact is the basis for scientific notation.
 
-**Example 2.** Determine $(-2)^3$ and $(-2)^4$. Is the answer positive or negative each time?
+### Example 2
+
+Determine $(-2)^3$ and $(-2)^4$. Is the answer positive or negative each time?
 
 For $(-2)^3$, multiply three copies of $-2$:
 
@@ -146,7 +150,9 @@ $$
 
 Pattern: a negative base raised to an **odd** exponent gives a negative result (an odd number of sign flips), and a negative base raised to an **even** exponent gives a positive result (an even number of sign flips).
 
-**Example 3.** Compute the difference between $(-5)^2$ and $-5^2$.
+### Example 3
+
+Compute the difference between $(-5)^2$ and $-5^2$.
 
 These look identical but are not. For $(-5)^2$, the parentheses lock $-5$ in as the base:
 

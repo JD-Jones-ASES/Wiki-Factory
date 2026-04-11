@@ -70,7 +70,9 @@ This phenomenon repeats for every inequality. Scaling or splitting each side by 
 
 ## Worked examples
 
-**Example 1.** Find all real values of $x$ for which $2x - 5 > 7$.
+### Example 1
+
+Find all real values of $x$ for which $2x - 5 > 7$.
 
 The variable is only on the left, and there are no parentheses to expand. Start by pushing the $-5$ away from the variable. Add $5$ to each side:
 
@@ -90,7 +92,9 @@ $$
 
 The solution set is every real number greater than $6$. In interval notation, that is $(6, \infty)$. Quick test: try $x = 10$. The original becomes $2(10) - 5 = 15$, and $15 > 7$ is true, so $x = 10$ is correctly in the solution set. Try $x = 5$: $2(5) - 5 = 5$, and $5 > 7$ is false — $x = 5$ is correctly not in the solution set.
 
-**Example 2.** Give all values of $x$ that satisfy $3 - 4x \le 11$.
+### Example 2
+
+Give all values of $x$ that satisfy $3 - 4x \le 11$.
 
 The variable lives inside a $-4x$ term on the left. Push the $3$ away from the variable by subtracting $3$ from each side. Subtraction does not flip the symbol:
 
@@ -110,7 +114,9 @@ $$
 
 The solution set is every real number greater than or equal to $-2$, or $[-2, \infty)$ in interval notation. Test with $x = 0$: the original becomes $3 - 4(0) = 3$, and $3 \le 11$ is true. Test with $x = -5$: $3 - 4(-5) = 3 + 20 = 23$, and $23 \le 11$ is false. The sign flipped correctly.
 
-**Example 3.** Zoe is working on the inequality $5(x + 2) < 3x + 10$. Determine every $x$ that satisfies it.
+### Example 3
+
+Zoe is working on the inequality $5(x + 2) < 3x + 10$. Determine every $x$ that satisfies it.
 
 Start by expanding the parentheses on the left using the distributive property:
 

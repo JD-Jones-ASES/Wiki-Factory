@@ -73,7 +73,9 @@ Apply a square root to each side, simplify the radical on the right, and solve f
 
 ## Worked examples
 
-**Example 1.** Find all real solutions to $2x^2 + 5x - 3 = 0$.
+### Example 1
+
+Find all real solutions to $2x^2 + 5x - 3 = 0$.
 
 The equation is already in standard form. Read off $a = 2$, $b = 5$, $c = -3$. Write the formula with these values:
 
@@ -95,7 +97,9 @@ $$
 
 So $x = \tfrac{1}{2}$ or $x = -3$. As a double-check, this quadratic does factor: $2x^2 + 5x - 3 = (2x - 1)(x + 3)$, and those same roots pop out of the factored form.
 
-**Example 2.** Find all real solutions to $x^2 - 6x + 9 = 0$.
+### Example 2
+
+Find all real solutions to $x^2 - 6x + 9 = 0$.
 
 Here $a = 1$, $b = -6$, $c = 9$. Plug in:
 
@@ -113,7 +117,9 @@ There is exactly one real solution, $x = 3$, and it is sometimes called a "repea
 
 Notice carefully what happened to the sign on $b$. The coefficient was $-6$, and the formula begins with $-b$, so we computed $-(-6) = +6$. A very frequent mistake is to forget the outer negative and write $-6$ instead of $+6$. Watch the signs.
 
-**Example 3.** Find all real solutions to $x^2 + x + 1 = 0$.
+### Example 3
+
+Find all real solutions to $x^2 + x + 1 = 0$.
 
 Now $a = 1$, $b = 1$, $c = 1$. Plug in:
 

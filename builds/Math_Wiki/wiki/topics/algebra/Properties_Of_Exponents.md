@@ -85,7 +85,9 @@ Quotients work by canceling: $b^5 / b^2$ means $(b \cdot b \cdot b \cdot b \cdot
 
 ## Worked examples
 
-**Example 1.** Simplify $3^4 \cdot 3^2$.
+### Example 1
+
+Simplify $3^4 \cdot 3^2$.
 
 Both powers have the same base, $3$, so the **product of powers** rule applies. Add the exponents:
 
@@ -95,7 +97,9 @@ $$
 
 If the problem wants a numerical answer, $3^6 = 729$. If it wants the form with the exponent, $3^6$ is fine. Either way, the point is that the exponents added because the bases matched and the operation was multiplication.
 
-**Example 2.** Simplify $(2^3)^5$.
+### Example 2
+
+Simplify $(2^3)^5$.
 
 Here you have a power raised to another power, which is the **power of a power** rule. Multiply the exponents:
 
@@ -105,7 +109,9 @@ $$
 
 A common early mistake is to add instead of multiply here, writing $(2^3)^5 = 2^{3 + 5} = 2^8$. That is wrong. Adding is for the product rule, where the powers sit side by side. Multiplying is for the power-of-a-power rule, where one power is raised to another. The distinction between "side by side" and "stacked" is the whole difference.
 
-**Example 3.** Simplify $\dfrac{7^8}{7^3}$.
+### Example 3
+
+Simplify $\dfrac{7^8}{7^3}$.
 
 Both powers have the same base, $7$, so the **quotient of powers** rule applies. Subtract the bottom exponent from the top:
 
