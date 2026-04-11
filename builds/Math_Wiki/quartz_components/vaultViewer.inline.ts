@@ -143,6 +143,71 @@ function renderKatexWithRetry(el: HTMLElement) {
     .catch((err) => console.warn("[vault-viewer] KaTeX unavailable:", err))
 }
 
+// --- jsPDF + html2canvas runtime loading (singletons) ----------------------
+//
+// Both follow the same pattern as ensureKatex() above: lazy CDN load on first
+// call, shared-load promise on window so concurrent callers reuse the fetch,
+// dedupe marker on the script tag so a reload of this inline bundle does not
+// re-inject. Null out the shared promise on error so a retry can try again.
+
+function ensureJsPdf(): Promise<any> {
+  const w = window as any
+  if (w.jspdf) return Promise.resolve(w.jspdf)
+  if (w.__mathWikiJsPdfLoad) return w.__mathWikiJsPdfLoad
+
+  w.__mathWikiJsPdfLoad = new Promise((resolve, reject) => {
+    const existing = document.querySelector<HTMLScriptElement>(
+      'script[data-math-wiki-jspdf="1"]',
+    )
+    if (existing) {
+      existing.addEventListener("load", () => resolve(w.jspdf))
+      existing.addEventListener("error", () => reject(new Error("jspdf load failed")))
+      return
+    }
+    const script = document.createElement("script")
+    script.src = "https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"
+    script.async = true
+    script.dataset.mathWikiJspdf = "1"
+    script.onload = () => resolve(w.jspdf)
+    script.onerror = () => {
+      w.__mathWikiJsPdfLoad = null
+      reject(new Error("jspdf load failed"))
+    }
+    document.head.appendChild(script)
+  })
+
+  return w.__mathWikiJsPdfLoad
+}
+
+function ensureHtml2Canvas(): Promise<any> {
+  const w = window as any
+  if (w.html2canvas) return Promise.resolve(w.html2canvas)
+  if (w.__mathWikiHtml2CanvasLoad) return w.__mathWikiHtml2CanvasLoad
+
+  w.__mathWikiHtml2CanvasLoad = new Promise((resolve, reject) => {
+    const existing = document.querySelector<HTMLScriptElement>(
+      'script[data-math-wiki-html2canvas="1"]',
+    )
+    if (existing) {
+      existing.addEventListener("load", () => resolve(w.html2canvas))
+      existing.addEventListener("error", () => reject(new Error("html2canvas load failed")))
+      return
+    }
+    const script = document.createElement("script")
+    script.src = "https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"
+    script.async = true
+    script.dataset.mathWikiHtml2canvas = "1"
+    script.onload = () => resolve(w.html2canvas)
+    script.onerror = () => {
+      w.__mathWikiHtml2CanvasLoad = null
+      reject(new Error("html2canvas load failed"))
+    }
+    document.head.appendChild(script)
+  })
+
+  return w.__mathWikiHtml2CanvasLoad
+}
+
 // --- Main rendering ---------------------------------------------------------
 
 function renderVault(mount: HTMLElement) {
