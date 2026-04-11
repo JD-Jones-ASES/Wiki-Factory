@@ -2943,3 +2943,1420 @@ class ClassifyCorrelationFromScatterDescription(Generator):
             ],
             tags=REGRESSION_VIS_TAGS,
         )
+
+
+# ===========================================================================
+# Wave D: permutations_and_combinations  (pre-calculus)
+# ===========================================================================
+
+
+PERM_COMB_TAGS = [
+    "#branch-pre-calculus",
+    "#topic-probability",
+    "#skill-procedural-calculation",
+    "#skill-formula-substitution",
+]
+
+
+@register
+class NPrDirectCompute(Generator):
+    """Compute $P(n, r) = \\dfrac{n!}{(n - r)!}$ for small $n$ and $r$.
+
+    Backward: pick small $n \\le 10$ and $r \\le n$, compute the permutation
+    count directly.
+    """
+    generator_id = "nPr_direct_compute"
+    topic_slug = "permutations_and_combinations"
+    display_name = "Compute a permutation count P(n, r)"
+    bank_count_per_difficulty = 6
+
+    _N_RANGES = {"easy": (4, 6), "medium": (5, 8), "hard": (7, 10)}
+    _R_RANGES = {"easy": (2, 3), "medium": (2, 4), "hard": (3, 5)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        n_lo, n_hi = self._N_RANGES[difficulty]
+        r_lo, r_hi = self._R_RANGES[difficulty]
+        n = rng.randint(n_lo, n_hi)
+        r = rng.randint(r_lo, min(r_hi, n - 1))
+
+        n_fact = math.factorial(n)
+        nmr_fact = math.factorial(n - r)
+        value = n_fact // nmr_fact
+
+        # Build the "falling factorial" product display: n * (n-1) * ... * (n-r+1)
+        falling = " \\cdot ".join(str(n - i) for i in range(r))
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (n, r)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"Compute the number of permutations $P({n}, {r})$ --- the "
+                f"number of ways to arrange ${r}$ objects chosen from a pool "
+                f"of ${n}$ distinct objects in order."
+            ),
+            answer_latex=f"$P({n}, {r}) = {value}$",
+            hints=[
+                r"The formula is $P(n, r) = \dfrac{n!}{(n - r)!}$.",
+                (
+                    f"The $(n - r)!$ factor cancels everything below "
+                    f"$n - r + 1 = {n - r + 1}$, so $P({n}, {r})$ reduces to a "
+                    "short product."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    rf"Start with the definition: "
+                    rf"$P({n}, {r}) = \dfrac{{{n}!}}{{({n} - {r})!}} "
+                    rf"= \dfrac{{{n}!}}{{{n - r}!}}$."
+                ),
+                (
+                    rf"Cancel the common factors: "
+                    rf"$P({n}, {r}) = {falling}$."
+                ),
+                f"Multiply: $P({n}, {r}) = {value}$.",
+            ],
+            tags=PERM_COMB_TAGS + ["#skill-multi-step"],
+        )
+
+
+@register
+class NCrDirectCompute(Generator):
+    """Compute $C(n, r) = \\binom{n}{r} = \\dfrac{n!}{r!(n - r)!}$ for small
+    $n$ and $r$ drawn from Pascal's triangle.
+
+    Backward: pick small $n \\le 10$ and $r \\le n$, compute the combination.
+    """
+    generator_id = "nCr_direct_compute"
+    topic_slug = "permutations_and_combinations"
+    display_name = "Compute a combination count C(n, r)"
+    bank_count_per_difficulty = 6
+
+    _N_RANGES = {"easy": (4, 6), "medium": (5, 8), "hard": (7, 10)}
+    _R_RANGES = {"easy": (2, 3), "medium": (2, 4), "hard": (3, 5)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        n_lo, n_hi = self._N_RANGES[difficulty]
+        r_lo, r_hi = self._R_RANGES[difficulty]
+        n = rng.randint(n_lo, n_hi)
+        r = rng.randint(r_lo, min(r_hi, n - 1))
+
+        n_fact = math.factorial(n)
+        r_fact = math.factorial(r)
+        nmr_fact = math.factorial(n - r)
+        value = math.comb(n, r)
+
+        # Falling factorial display for the numerator-after-cancellation
+        falling = " \\cdot ".join(str(n - i) for i in range(r))
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (n, r)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"Compute the number of combinations $C({n}, {r})$ --- the "
+                f"number of ways to choose ${r}$ objects from a pool of ${n}$ "
+                f"distinct objects when order does not matter."
+            ),
+            answer_latex=f"$C({n}, {r}) = {value}$",
+            hints=[
+                r"The formula is $C(n, r) = \dfrac{n!}{r!\,(n - r)!}$.",
+                (
+                    "Cancel the larger factorial first, then divide what "
+                    "remains by $r!$."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    rf"Start with the definition: "
+                    rf"$C({n}, {r}) = \dfrac{{{n}!}}{{{r}!\,({n} - {r})!}} "
+                    rf"= \dfrac{{{n}!}}{{{r}!\,{n - r}!}}$."
+                ),
+                (
+                    rf"Cancel $(n - r)!$ against the top: "
+                    rf"$C({n}, {r}) = \dfrac{{{falling}}}{{{r}!}} "
+                    rf"= \dfrac{{{n_fact // nmr_fact}}}{{{r_fact}}}$."
+                ),
+                f"Divide: $C({n}, {r}) = {value}$.",
+            ],
+            tags=PERM_COMB_TAGS + ["#skill-multi-step"],
+        )
+
+
+@register
+class PermCombWordProblem(Generator):
+    """Word problem that asks whether a real-world selection is a permutation
+    or a combination, and compute the count.
+
+    Backward: pick scenarios whose correct answer is either $P(n, r)$ or
+    $C(n, r)$, and evaluate with the right formula.
+    """
+    generator_id = "perm_comb_word_problem"
+    topic_slug = "permutations_and_combinations"
+    display_name = "Permutation vs combination word problem"
+    supports_word_problems = True
+
+    bank_count_per_difficulty = 15
+
+    # Each entry: (key, statement_text, is_permutation, n, r, justification)
+    _SCENARIOS: tuple[tuple[str, str, bool, int, int, str], ...] = (
+        (
+            "relay_team",
+            "A track coach selects 4 students from a group of 9 to run a relay "
+            "team in which each leg is a distinct position. How many different "
+            "relay teams are possible?",
+            True, 9, 4,
+            "Each runner is assigned to a specific leg (first, second, third, "
+            "fourth), so order matters and this is a permutation.",
+        ),
+        (
+            "book_club_committee",
+            "A book club selects 3 members from its 10 members to serve on a "
+            "planning committee. How many different committees are possible?",
+            False, 10, 3,
+            "All committee members have the same role, so order does not "
+            "matter and this is a combination.",
+        ),
+        (
+            "podium_finish",
+            "In a race with 8 runners, gold, silver, and bronze medals are "
+            "awarded. In how many ways can the medals be given out?",
+            True, 8, 3,
+            "The three medals are distinct, so the order of finish matters "
+            "and this is a permutation.",
+        ),
+        (
+            "pizza_toppings",
+            "A pizza shop offers 7 toppings. A customer chooses 3 different "
+            "toppings. How many different topping combinations are possible?",
+            False, 7, 3,
+            "The toppings together form a single set, so order does not "
+            "matter and this is a combination.",
+        ),
+        (
+            "passcode_digits",
+            "A security keypad uses passcodes formed by selecting 4 different "
+            "digits from the 9 nonzero digits and arranging them in order. "
+            "How many passcodes are possible?",
+            True, 9, 4,
+            "Digits are placed in a specific sequence, so order matters and "
+            "this is a permutation.",
+        ),
+        (
+            "card_hand",
+            "From a special 8-card deck, a player is dealt a hand of 5 cards. "
+            "How many distinct hands are possible?",
+            False, 8, 5,
+            "The hand is just a set of cards held all at once, so order does "
+            "not matter and this is a combination.",
+        ),
+        (
+            "lineup_batting",
+            "A baseball coach has 9 equally capable players and fills the first "
+            "4 spots of the batting order. How many different batting orders "
+            "for those 4 spots are possible?",
+            True, 9, 4,
+            "Each spot is a specific position in the lineup, so order matters "
+            "and this is a permutation.",
+        ),
+        (
+            "music_playlist",
+            "A DJ is building a playlist and must choose 3 songs from a list "
+            "of 8, with the playlist order mattering (first, second, third). "
+            "How many ordered playlists are possible?",
+            True, 8, 3,
+            "Songs are played in a particular order, so order matters and "
+            "this is a permutation.",
+        ),
+        (
+            "student_council",
+            "A student council has 10 members. A subcommittee of 4 members "
+            "will be chosen to work on a project together. How many different "
+            "subcommittees are possible?",
+            False, 10, 4,
+            "The subcommittee members all have the same role, so order does "
+            "not matter and this is a combination.",
+        ),
+        (
+            "secret_handshake",
+            "A secret club has 6 members. Three of them will be chosen to "
+            "stand in a line for a group photo, in a specific order. How "
+            "many arrangements are possible?",
+            True, 6, 3,
+            "Positions in the line are distinct, so order matters and this "
+            "is a permutation.",
+        ),
+        (
+            "trail_mix",
+            "A hiker is building a trail mix by selecting 3 ingredients from a "
+            "shelf of 7. How many different trail mix blends are possible?",
+            False, 7, 3,
+            "Ingredients are mixed together, so order does not matter and "
+            "this is a combination.",
+        ),
+        (
+            "elected_officers",
+            "A club with 9 members elects a president, a secretary, and a "
+            "treasurer, all different people. In how many ways can the "
+            "offices be filled?",
+            True, 9, 3,
+            "Each office is a distinct role, so order matters and this is "
+            "a permutation.",
+        ),
+        (
+            "survey_sample",
+            "A researcher chooses a focus group of 4 students out of a pool "
+            "of 10 volunteers. How many different focus groups are possible?",
+            False, 10, 4,
+            "All focus group members have equal status, so order does not "
+            "matter and this is a combination.",
+        ),
+        (
+            "bookshelf_display",
+            "A librarian is arranging 3 books on a display shelf, chosen from "
+            "a set of 6 featured books. How many different ordered displays "
+            "are possible?",
+            True, 6, 3,
+            "The books occupy specific positions on the shelf (left, middle, "
+            "right), so order matters and this is a permutation.",
+        ),
+        (
+            "fruit_basket",
+            "A shopper fills a basket with 3 different fruits chosen from 8 "
+            "types available at the market. How many different baskets are "
+            "possible?",
+            False, 8, 3,
+            "The fruits share the basket without a ranking, so order does "
+            "not matter and this is a combination.",
+        ),
+    )
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        idx = rng.randrange(len(self._SCENARIOS))
+        key, text, is_perm, n, r, justification = self._SCENARIOS[idx]
+
+        if is_perm:
+            value = math.perm(n, r)
+            formula_name = "permutation"
+            formula_latex = rf"P({n}, {r}) = \dfrac{{{n}!}}{{({n} - {r})!}}"
+            shortcut = " \\cdot ".join(str(n - i) for i in range(r))
+            answer_form = f"$P({n}, {r}) = {value}$"
+        else:
+            value = math.comb(n, r)
+            formula_name = "combination"
+            formula_latex = rf"C({n}, {r}) = \dfrac{{{n}!}}{{{r}!\,({n} - {r})!}}"
+            num_shortcut = " \\cdot ".join(str(n - i) for i in range(r))
+            shortcut = rf"\dfrac{{{num_shortcut}}}{{{r}!}}"
+            answer_form = f"$C({n}, {r}) = {value}$"
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (key,)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=text,
+            answer_latex=answer_form,
+            hints=[
+                (
+                    "Decide first whether the order of the chosen objects "
+                    "matters: if yes, use a permutation; if no, use a "
+                    "combination."
+                ),
+                (
+                    rf"The formulas are $P(n, r) = \dfrac{{n!}}{{(n - r)!}}$ "
+                    rf"and $C(n, r) = \dfrac{{n!}}{{r!\,(n - r)!}}$."
+                ),
+            ],
+            solution_steps_latex=[
+                justification,
+                f"This is a {formula_name} with $n = {n}$ and $r = {r}$.",
+                f"Apply the formula: ${formula_latex}$.",
+                rf"Simplify: ${shortcut} = {value}$.",
+            ],
+            tags=PERM_COMB_TAGS + ["#word-problem-support", "#skill-multi-step"],
+        )
+
+
+# ===========================================================================
+# Wave D: normal_distribution  (pre-calculus)
+# ===========================================================================
+
+
+NORMAL_TAGS = [
+    "#branch-pre-calculus",
+    "#topic-statistics",
+    "#skill-formula-substitution",
+    "#skill-estimation",
+]
+
+
+@register
+class NormalEmpiricalRuleRange(Generator):
+    """Given $\\mu$, $\\sigma$, and a $k$, report the percent of data in
+    $(\\mu - k\\sigma,\\ \\mu + k\\sigma)$ via the 68-95-99.7 rule.
+
+    Backward: pick clean integer $\\mu$ and $\\sigma$ and pick $k \\in \\{1, 2, 3\\}$.
+    """
+    generator_id = "normal_empirical_rule_range"
+    topic_slug = "normal_distribution"
+    display_name = "Use the empirical rule to report the percent in a symmetric interval"
+
+    _MU_RANGES = {"easy": (20, 80), "medium": (50, 150), "hard": (100, 500)}
+    _SIGMA_RANGES = {"easy": (2, 8), "medium": (3, 12), "hard": (5, 25)}
+    _K_CHOICES = (1, 2, 3)
+
+    _PERCENTS = {1: "68\\%", 2: "95\\%", 3: "99.7\\%"}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        mu_lo, mu_hi = self._MU_RANGES[difficulty]
+        s_lo, s_hi = self._SIGMA_RANGES[difficulty]
+        mu = rng.randint(mu_lo, mu_hi)
+        sigma = rng.randint(s_lo, s_hi)
+        k = rng.choice(self._K_CHOICES)
+
+        low = mu - k * sigma
+        high = mu + k * sigma
+        answer = self._PERCENTS[k]
+
+        if k == 1:
+            range_words = "one standard deviation"
+        elif k == 2:
+            range_words = "two standard deviations"
+        else:
+            range_words = "three standard deviations"
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (mu, sigma, k)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"A data set is normally distributed with mean $\\mu = {mu}$ "
+                f"and standard deviation $\\sigma = {sigma}$. Using the "
+                f"empirical (68-95-99.7) rule, determine the percent of the "
+                f"data that lies within ${range_words}$ of the mean, i.e. in "
+                f"the interval $({low},\\ {high})$."
+            ),
+            answer_latex=f"${answer}$",
+            hints=[
+                (
+                    "The empirical rule says that for a normal distribution, "
+                    "about $68\\%$ of the data lies within $1$ standard "
+                    "deviation of the mean, about $95\\%$ within $2$ standard "
+                    "deviations, and about $99.7\\%$ within $3$ standard "
+                    "deviations."
+                ),
+                (
+                    f"Compute $\\mu - {k}\\sigma$ and $\\mu + {k}\\sigma$ and "
+                    "match the interval to one of the standard percentages."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    f"Compute the endpoints: $\\mu - {k}\\sigma = {mu} - "
+                    f"{k}({sigma}) = {low}$ and $\\mu + {k}\\sigma = {mu} + "
+                    f"{k}({sigma}) = {high}$."
+                ),
+                (
+                    f"The interval $({low},\\ {high})$ spans ${range_words}$ "
+                    "on either side of the mean."
+                ),
+                (
+                    f"By the empirical rule, this interval contains about "
+                    f"${answer}$ of the data."
+                ),
+            ],
+            tags=NORMAL_TAGS,
+        )
+
+
+@register
+class NormalZScoreCompute(Generator):
+    """Compute $z = \\dfrac{x - \\mu}{\\sigma}$ for clean integer parameters.
+
+    Backward: pick target $z$ (small integer or half-integer), then pick
+    $\\mu$ and $\\sigma$, derive $x = \\mu + z\\sigma$.
+    """
+    generator_id = "normal_zscore_compute"
+    topic_slug = "normal_distribution"
+    display_name = "Compute a z-score for a given value"
+
+    _MU_RANGES = {"easy": (20, 80), "medium": (40, 150), "hard": (60, 300)}
+    _SIGMA_RANGES = {"easy": (2, 8), "medium": (3, 12), "hard": (5, 20)}
+    _Z_CHOICES_INT = {
+        "easy": (-2, -1, 1, 2),
+        "medium": (-3, -2, -1, 1, 2, 3),
+        "hard": (-3, -2, -1, 1, 2, 3),
+    }
+    _Z_CHOICES_HALF = (
+        sp.Rational(1, 2), sp.Rational(-1, 2),
+        sp.Rational(3, 2), sp.Rational(-3, 2),
+    )
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        mu_lo, mu_hi = self._MU_RANGES[difficulty]
+        s_lo, s_hi = self._SIGMA_RANGES[difficulty]
+        mu = rng.randint(mu_lo, mu_hi)
+        sigma = rng.randint(s_lo, s_hi)
+        # Ensure sigma is even if we may pick a half-integer z so that x remains an integer
+        use_half = (difficulty != "easy") and (rng.random() < 0.3)
+        if use_half:
+            if sigma % 2 == 1:
+                sigma += 1
+            z_val = rng.choice(self._Z_CHOICES_HALF)
+            x = mu + int(z_val * sigma)
+            z_latex = _render_rational(z_val)
+        else:
+            z_int = rng.choice(self._Z_CHOICES_INT[difficulty])
+            z_val = sp.Rational(z_int)
+            x = mu + z_int * sigma
+            z_latex = str(z_int)
+
+        diff = x - mu
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (mu, sigma, x)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"A data set is normally distributed with mean $\\mu = {mu}$ "
+                f"and standard deviation $\\sigma = {sigma}$. Compute the "
+                f"$z$-score for the value $x = {x}$."
+            ),
+            answer_latex=f"$z = {z_latex}$",
+            hints=[
+                r"The $z$-score formula is $z = \dfrac{x - \mu}{\sigma}$.",
+                (
+                    f"First compute the difference $x - \\mu$, then divide by "
+                    f"$\\sigma = {sigma}$."
+                ),
+            ],
+            solution_steps_latex=[
+                r"Start with the formula $z = \dfrac{x - \mu}{\sigma}$.",
+                (
+                    rf"Substitute: $z = \dfrac{{{x} - {mu}}}{{{sigma}}} "
+                    rf"= \dfrac{{{diff}}}{{{sigma}}}$."
+                ),
+                f"Simplify: $z = {z_latex}$.",
+            ],
+            tags=NORMAL_TAGS + ["#key-formula"],
+        )
+
+
+@register
+class NormalPercentageAboveOrBelow(Generator):
+    """Using only the empirical rule, compute the percent of data above or
+    below a cutoff at $\\mu \\pm k\\sigma$ for $k \\in \\{1, 2, 3\\}$.
+
+    Backward: pick $\\mu$, $\\sigma$, $k$, and direction (above/below).
+    """
+    generator_id = "normal_percentage_above_or_below"
+    topic_slug = "normal_distribution"
+    display_name = "Empirical-rule percent above or below a one-sided cutoff"
+
+    bank_count_per_difficulty = 12
+
+    _MU_RANGES = {"easy": (20, 80), "medium": (50, 150), "hard": (100, 400)}
+    _SIGMA_RANGES = {"easy": (2, 8), "medium": (3, 12), "hard": (5, 20)}
+
+    # percent "outside" the symmetric interval, split evenly between the two tails
+    _TAIL_PERCENT = {1: "16\\%", 2: "2.5\\%", 3: "0.15\\%"}
+    # percent "up to" the cutoff (below or above depending on direction)
+    _INSIDE_PLUS_FAR_TAIL = {1: "84\\%", 2: "97.5\\%", 3: "99.85\\%"}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        mu_lo, mu_hi = self._MU_RANGES[difficulty]
+        s_lo, s_hi = self._SIGMA_RANGES[difficulty]
+        mu = rng.randint(mu_lo, mu_hi)
+        sigma = rng.randint(s_lo, s_hi)
+        k = rng.choice((1, 2, 3))
+        # direction in {"above_upper", "below_lower", "below_upper", "above_lower"}
+        direction = rng.choice(("above_upper", "below_lower", "below_upper", "above_lower"))
+
+        upper = mu + k * sigma
+        lower = mu - k * sigma
+
+        if direction == "above_upper":
+            # Percent ABOVE the upper cutoff -> upper tail
+            cutoff = upper
+            word = "above"
+            answer = self._TAIL_PERCENT[k]
+            explanation = (
+                f"Values above $\\mu + {k}\\sigma$ lie in the upper tail of "
+                f"the symmetric interval, which contains the remaining "
+                f"probability after the central portion."
+            )
+        elif direction == "below_lower":
+            # Percent BELOW the lower cutoff -> lower tail
+            cutoff = lower
+            word = "below"
+            answer = self._TAIL_PERCENT[k]
+            explanation = (
+                f"Values below $\\mu - {k}\\sigma$ lie in the lower tail of "
+                f"the symmetric interval."
+            )
+        elif direction == "below_upper":
+            # Percent BELOW the upper cutoff = central + lower tail
+            cutoff = upper
+            word = "below"
+            answer = self._INSIDE_PLUS_FAR_TAIL[k]
+            explanation = (
+                f"Values below $\\mu + {k}\\sigma$ include the central "
+                f"interval plus the lower tail beyond $\\mu - {k}\\sigma$."
+            )
+        else:  # "above_lower"
+            # Percent ABOVE the lower cutoff = central + upper tail
+            cutoff = lower
+            word = "above"
+            answer = self._INSIDE_PLUS_FAR_TAIL[k]
+            explanation = (
+                f"Values above $\\mu - {k}\\sigma$ include the central "
+                f"interval plus the upper tail beyond $\\mu + {k}\\sigma$."
+            )
+
+        # Central percentages for the summary
+        central_pct = {1: "68\\%", 2: "95\\%", 3: "99.7\\%"}[k]
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (mu, sigma, k, direction)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"A data set is normally distributed with $\\mu = {mu}$ and "
+                f"$\\sigma = {sigma}$. Using only the empirical "
+                f"(68-95-99.7) rule, determine the approximate percent of "
+                f"the data that is {word} ${cutoff}$."
+            ),
+            answer_latex=f"${answer}$",
+            hints=[
+                (
+                    "Write the cutoff in the form $\\mu + k\\sigma$ (or "
+                    "$\\mu - k\\sigma$) to figure out how many standard "
+                    "deviations it is from the mean."
+                ),
+                (
+                    "The empirical rule gives central percentages of "
+                    "$68\\%$, $95\\%$, and $99.7\\%$ for $k = 1, 2, 3$; "
+                    "the remaining probability is split evenly between the "
+                    "two tails."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    f"Express the cutoff in terms of standard deviations: "
+                    f"${cutoff} = {mu} {'+' if cutoff >= mu else '-'} "
+                    f"{k} \\cdot {sigma} = \\mu "
+                    f"{'+' if cutoff >= mu else '-'} {k}\\sigma$."
+                ),
+                (
+                    f"By the empirical rule, ${central_pct}$ of the data lies "
+                    f"within ${k}$ standard deviations of the mean. The "
+                    f"remaining probability is split evenly between the upper "
+                    f"and lower tails."
+                ),
+                explanation,
+                f"Therefore the percent {word} ${cutoff}$ is about ${answer}$.",
+            ],
+            tags=NORMAL_TAGS + ["#skill-multi-step"],
+        )
+
+
+# ===========================================================================
+# Wave D: expected_value  (pre-calculus)
+# ===========================================================================
+
+
+EXPECTED_VALUE_TAGS = [
+    "#branch-pre-calculus",
+    "#topic-probability",
+    "#skill-formula-substitution",
+    "#skill-procedural-calculation",
+]
+
+
+@register
+class ExpectedValueDiscrete3Outcomes(Generator):
+    """Given a discrete random variable with $3$ outcomes and clean fractional
+    probabilities summing to $1$, compute $E[X] = \\sum x_i p_i$.
+
+    Backward: pick denominators that divide a common $D$, pick numerators
+    summing to $D$, pick clean integer values $x_i$.
+    """
+    generator_id = "expected_value_discrete_3_outcomes"
+    topic_slug = "expected_value"
+    display_name = "Compute E[X] for a 3-outcome discrete random variable"
+
+    _X_RANGES = {"easy": (-5, 10), "medium": (-10, 15), "hard": (-15, 25)}
+
+    # Triples (p1, p2, p3) that sum to 1 with small denominators.
+    _PROB_TRIPLES = (
+        (sp.Rational(1, 4), sp.Rational(1, 4), sp.Rational(1, 2)),
+        (sp.Rational(1, 3), sp.Rational(1, 3), sp.Rational(1, 3)),
+        (sp.Rational(1, 2), sp.Rational(1, 4), sp.Rational(1, 4)),
+        (sp.Rational(1, 6), sp.Rational(1, 3), sp.Rational(1, 2)),
+        (sp.Rational(1, 5), sp.Rational(2, 5), sp.Rational(2, 5)),
+        (sp.Rational(1, 8), sp.Rational(3, 8), sp.Rational(1, 2)),
+        (sp.Rational(1, 10), sp.Rational(3, 10), sp.Rational(3, 5)),
+        (sp.Rational(2, 5), sp.Rational(1, 5), sp.Rational(2, 5)),
+        (sp.Rational(1, 4), sp.Rational(1, 2), sp.Rational(1, 4)),
+        (sp.Rational(1, 3), sp.Rational(1, 6), sp.Rational(1, 2)),
+    )
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        x_lo, x_hi = self._X_RANGES[difficulty]
+        probs = rng.choice(self._PROB_TRIPLES)
+        # Permute the triple for variety
+        probs = list(probs)
+        rng.shuffle(probs)
+
+        # Pick three distinct integer values
+        while True:
+            xs = [rng.randint(x_lo, x_hi) for _ in range(3)]
+            if len(set(xs)) == 3:
+                break
+        xs.sort()
+
+        # Compute E[X]
+        ev = sum(sp.Rational(xs[i]) * probs[i] for i in range(3))
+        ev = sp.Rational(ev)
+
+        # Render a simple table of (x_i, p_i)
+        rows = []
+        for i in range(3):
+            rows.append(
+                f"| ${xs[i]}$ | ${_render_rational(probs[i])}$ |"
+            )
+        table = (
+            "| $x_i$ | $P(X = x_i)$ |\n"
+            "|:---:|:---:|\n"
+            + "\n".join(rows)
+        )
+
+        # Inline statement (without table) as a sentence listing the outcomes
+        outcome_pairs = ", ".join(
+            f"$P(X = {xs[i]}) = {_render_rational(probs[i])}$" for i in range(3)
+        )
+
+        terms_latex = " + ".join(
+            f"({xs[i]})\\cdot {_render_rational(probs[i])}"
+            for i in range(3)
+        )
+        ev_latex = _render_rational(ev)
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id,
+                difficulty,
+                (tuple(xs), tuple((p.p, p.q) for p in probs)),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"A discrete random variable $X$ takes values ${xs[0]}$, "
+                f"${xs[1]}$, and ${xs[2]}$ with probabilities {outcome_pairs}. "
+                f"Compute the expected value $E[X]$."
+            ),
+            answer_latex=f"$E[X] = {ev_latex}$",
+            hints=[
+                (
+                    "Expected value is a weighted average: "
+                    r"$E[X] = \sum_i x_i\, P(X = x_i)$."
+                ),
+                (
+                    "Multiply each value by its probability, then add the "
+                    "results. Check that the probabilities sum to $1$."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    r"Write out the expected-value formula: "
+                    r"$E[X] = \sum_i x_i\, P(X = x_i)$."
+                ),
+                (
+                    f"Substitute the three outcomes: "
+                    f"$E[X] = {terms_latex}$."
+                ),
+                (
+                    f"Multiply each term, then combine to get "
+                    f"$E[X] = {ev_latex}$."
+                ),
+            ],
+            tags=EXPECTED_VALUE_TAGS + ["#key-formula"],
+        )
+
+
+@register
+class ExpectedValueFairGameCheck(Generator):
+    """Given a game with a cost to play and a set of payouts, compute $E[X]$
+    (net winnings) and decide whether the game is fair, favorable, or
+    unfavorable to the player.
+
+    Backward: pick probabilities summing to $1$ and clean integer gross
+    payouts, then set the cost to play so the answer is decisive.
+    """
+    generator_id = "expected_value_fair_game_check"
+    topic_slug = "expected_value"
+    display_name = "Fair-game check: compute E[X] and classify the game"
+    supports_word_problems = True
+
+    bank_count_per_difficulty = 12
+
+    # Each scenario fixes prob/payout pairs; the cost to play is set in _generate_one.
+    # Entry: (label, scene_text, list of (prob, gross_payout))
+    _SCENARIOS = (
+        (
+            "coin_match",
+            "A game is played by flipping two fair coins. You win \\$10 if "
+            "both coins match (both heads or both tails), otherwise you win "
+            "nothing.",
+            [
+                (sp.Rational(1, 2), 10),
+                (sp.Rational(1, 2), 0),
+            ],
+        ),
+        (
+            "die_six",
+            "A game is played by rolling a fair six-sided die. You win \\$12 "
+            "if the die shows a $6$, otherwise you win nothing.",
+            [
+                (sp.Rational(1, 6), 12),
+                (sp.Rational(5, 6), 0),
+            ],
+        ),
+        (
+            "spinner_4",
+            "A spinner has $4$ equal sections labeled \\$20, \\$5, \\$5, and "
+            "\\$0. You spin once and receive the amount shown.",
+            [
+                (sp.Rational(1, 4), 20),
+                (sp.Rational(1, 2), 5),
+                (sp.Rational(1, 4), 0),
+            ],
+        ),
+        (
+            "card_face",
+            "You draw one card from a standard $52$-card deck. You win \\$13 "
+            "if the card is a face card (jack, queen, or king) and nothing "
+            "otherwise.",
+            [
+                (sp.Rational(3, 13), 13),
+                (sp.Rational(10, 13), 0),
+            ],
+        ),
+        (
+            "two_dice_sum_7",
+            "Two fair six-sided dice are rolled. You win \\$18 if the sum is "
+            "$7$ and nothing otherwise.",
+            [
+                (sp.Rational(1, 6), 18),
+                (sp.Rational(5, 6), 0),
+            ],
+        ),
+        (
+            "red_marble",
+            "A bag contains $3$ red marbles and $7$ blue marbles. You draw one "
+            "marble at random: red pays \\$20, blue pays \\$0.",
+            [
+                (sp.Rational(3, 10), 20),
+                (sp.Rational(7, 10), 0),
+            ],
+        ),
+        (
+            "die_even",
+            "You roll a fair six-sided die. You win \\$8 if the die shows an "
+            "even number and nothing if it shows an odd number.",
+            [
+                (sp.Rational(1, 2), 8),
+                (sp.Rational(1, 2), 0),
+            ],
+        ),
+        (
+            "triple_spinner",
+            "A spinner has $3$ equal sections labeled \\$6, \\$9, and \\$15. "
+            "You spin and receive the amount shown.",
+            [
+                (sp.Rational(1, 3), 6),
+                (sp.Rational(1, 3), 9),
+                (sp.Rational(1, 3), 15),
+            ],
+        ),
+        (
+            "green_marble",
+            "A jar holds $2$ gold marbles and $8$ silver marbles. You draw one "
+            "marble at random. Gold pays \\$25, silver pays \\$0.",
+            [
+                (sp.Rational(1, 5), 25),
+                (sp.Rational(4, 5), 0),
+            ],
+        ),
+        (
+            "card_heart",
+            "You draw one card from a standard $52$-card deck. You win \\$16 "
+            "if the card is a heart and nothing otherwise.",
+            [
+                (sp.Rational(1, 4), 16),
+                (sp.Rational(3, 4), 0),
+            ],
+        ),
+        (
+            "five_spinner",
+            "A spinner has $5$ equal sections labeled \\$10, \\$10, \\$5, "
+            "\\$0, and \\$0. You spin once and receive the amount shown.",
+            [
+                (sp.Rational(2, 5), 10),
+                (sp.Rational(1, 5), 5),
+                (sp.Rational(2, 5), 0),
+            ],
+        ),
+        (
+            "six_die_prime",
+            "You roll a fair six-sided die. You win \\$10 if the die shows a "
+            "prime number ($2$, $3$, or $5$), otherwise you win nothing.",
+            [
+                (sp.Rational(1, 2), 10),
+                (sp.Rational(1, 2), 0),
+            ],
+        ),
+    )
+
+    _OUTCOMES = ("favorable", "fair", "unfavorable")
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        idx = rng.randrange(len(self._SCENARIOS))
+        key, scene, outcomes = self._SCENARIOS[idx]
+
+        # Compute gross E[X]
+        gross_ev = sum(p * v for p, v in outcomes)
+        gross_ev = sp.Rational(gross_ev)
+
+        # Pick a cost so that net E[X] is decisive. We want net in
+        # {-2, -1, 0, +1, +2} depending on difficulty.
+        if difficulty == "easy":
+            # Favor fair or small favorable/unfavorable
+            net_target = rng.choice((sp.Rational(0), sp.Rational(1), sp.Rational(-1)))
+        elif difficulty == "medium":
+            net_target = rng.choice(
+                (sp.Rational(0), sp.Rational(1), sp.Rational(-1), sp.Rational(2), sp.Rational(-2))
+            )
+        else:
+            net_target = rng.choice(
+                (
+                    sp.Rational(0), sp.Rational(1), sp.Rational(-1),
+                    sp.Rational(2), sp.Rational(-2), sp.Rational(3), sp.Rational(-3),
+                )
+            )
+        # Net E[X] = gross E[X] - cost => cost = gross_ev - net_target
+        cost = gross_ev - net_target
+        # Ensure cost is positive and reasonable
+        if cost <= 0:
+            cost = gross_ev
+            net_target = sp.Rational(0)
+        # Prefer integer costs: if cost has a denominator, rescale net_target
+        if cost.q != 1:
+            # Round cost up to nearest integer and recompute net
+            new_cost = sp.Rational(int(sp.ceiling(cost)))
+            if new_cost <= 0:
+                new_cost = sp.Rational(1)
+            cost = new_cost
+            net_target = gross_ev - cost
+
+        net_ev = gross_ev - cost
+
+        if net_ev > 0:
+            verdict = "favorable"
+            verdict_reason = "$E[X] > 0$ means the player profits on average."
+        elif net_ev == 0:
+            verdict = "fair"
+            verdict_reason = "$E[X] = 0$ means the game neither favors the player nor the house."
+        else:
+            verdict = "unfavorable"
+            verdict_reason = "$E[X] < 0$ means the player loses on average."
+
+        cost_latex = _render_rational(cost)
+        gross_latex = _render_rational(gross_ev)
+        net_latex = _render_rational(net_ev)
+
+        terms_latex = " + ".join(
+            rf"({v})\cdot {_render_rational(p)}" for p, v in outcomes
+        )
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id,
+                difficulty,
+                (key, cost.p, cost.q, net_target.p, net_target.q),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"{scene} The cost to play one round is $\\${cost_latex}$. "
+                f"Compute the expected net winnings $E[X]$ and determine "
+                f"whether the game is favorable, fair, or unfavorable to "
+                f"the player."
+            ),
+            answer_latex=f"$E[X] = {net_latex}$; the game is **{verdict}**.",
+            hints=[
+                (
+                    "First compute the expected gross payout by summing "
+                    r"$\sum_i p_i\, v_i$ over every possible outcome."
+                ),
+                (
+                    "Then subtract the cost to play to get the expected net "
+                    "winnings. A positive net is favorable, a zero net is "
+                    "fair, and a negative net is unfavorable."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    "Compute the expected gross payout: "
+                    rf"$E[\text{{gross}}] = {terms_latex} = {gross_latex}$."
+                ),
+                (
+                    f"Subtract the cost to play: "
+                    rf"$E[X] = {gross_latex} - {cost_latex} = {net_latex}$."
+                ),
+                verdict_reason,
+                f"Conclusion: the game is **{verdict}** to the player.",
+            ],
+            tags=EXPECTED_VALUE_TAGS + ["#word-problem-support", "#skill-multi-step"],
+        )
+
+
+@register
+class ExpectedValueWeightedAverage(Generator):
+    """Weighted-average framing: grade computation or similar.
+
+    Backward: pick clean integer scores, weight fractions that sum to $1$,
+    compute the weighted average exactly.
+    """
+    generator_id = "expected_value_weighted_average"
+    topic_slug = "expected_value"
+    display_name = "Compute a weighted average (grade)"
+    supports_word_problems = True
+
+    _SCORE_RANGES = {"easy": (70, 100), "medium": (50, 100), "hard": (40, 100)}
+
+    # Weight triples that sum to 1 with integer-percentage form
+    _WEIGHT_TRIPLES = (
+        ((30, 30, 40), "homework", "midterm", "final exam"),
+        ((20, 40, 40), "quizzes", "midterm", "final exam"),
+        ((40, 20, 40), "projects", "midterm", "final exam"),
+        ((25, 25, 50), "homework", "midterm", "final exam"),
+        ((20, 30, 50), "quizzes", "midterm", "final exam"),
+        ((10, 40, 50), "participation", "midterm", "final exam"),
+        ((25, 35, 40), "labs", "midterm", "final exam"),
+        ((40, 30, 30), "homework", "midterm", "final exam"),
+        ((30, 40, 30), "quizzes", "projects", "final exam"),
+        ((20, 20, 60), "homework", "midterm", "final exam"),
+    )
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        weights, cat1, cat2, cat3 = rng.choice(self._WEIGHT_TRIPLES)
+        w1, w2, w3 = weights  # integer percents summing to 100
+        s_lo, s_hi = self._SCORE_RANGES[difficulty]
+
+        # Backward: pick scores so the weighted sum is an integer or clean fraction
+        # weighted_sum = (w1*s1 + w2*s2 + w3*s3) / 100
+        # To keep the final answer clean, we just compute as a Rational.
+        s1 = rng.randint(s_lo, s_hi)
+        s2 = rng.randint(s_lo, s_hi)
+        s3 = rng.randint(s_lo, s_hi)
+
+        weighted_sum = sp.Rational(w1 * s1 + w2 * s2 + w3 * s3, 100)
+
+        # Render the three weights as fractions
+        w1_frac = sp.Rational(w1, 100)
+        w2_frac = sp.Rational(w2, 100)
+        w3_frac = sp.Rational(w3, 100)
+
+        w1_latex = _render_rational(w1_frac)
+        w2_latex = _render_rational(w2_frac)
+        w3_latex = _render_rational(w3_frac)
+
+        terms_latex = (
+            rf"({s1})\cdot {w1_latex} + ({s2})\cdot {w2_latex} "
+            rf"+ ({s3})\cdot {w3_latex}"
+        )
+        weighted_latex = _render_rational(weighted_sum)
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id,
+                difficulty,
+                (w1, w2, w3, s1, s2, s3, cat1, cat2, cat3),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"In a course the grade is computed with {cat1} worth "
+                f"${w1}\\%$, {cat2} worth ${w2}\\%$, and {cat3} worth "
+                f"${w3}\\%$. A student's scores are ${s1}$, ${s2}$, and "
+                f"${s3}$ respectively. Compute the student's weighted "
+                f"average grade."
+            ),
+            answer_latex=f"${weighted_latex}$",
+            hints=[
+                (
+                    "A weighted average is an expected value in disguise: "
+                    r"$\text{average} = \sum_i w_i\, x_i$ where the weights "
+                    "$w_i$ sum to $1$."
+                ),
+                (
+                    "Convert each percent to a fraction by dividing by $100$, "
+                    "then multiply by the matching score and add the three "
+                    "products."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    f"Convert the percents to fractions: "
+                    f"${w1}\\% = {w1_latex}$, ${w2}\\% = {w2_latex}$, "
+                    f"${w3}\\% = {w3_latex}$."
+                ),
+                (
+                    r"Apply the weighted-average formula "
+                    r"$\text{avg} = w_1 s_1 + w_2 s_2 + w_3 s_3$."
+                ),
+                (
+                    rf"Substitute: $\text{{avg}} = {terms_latex}$."
+                ),
+                f"Combine: the weighted average is ${weighted_latex}$.",
+            ],
+            tags=EXPECTED_VALUE_TAGS + ["#word-problem-support"],
+        )
+
+
+# ===========================================================================
+# Wave D: binomial_probability  (pre-calculus)
+# ===========================================================================
+
+
+BINOMIAL_PROB_TAGS = [
+    "#branch-pre-calculus",
+    "#topic-probability",
+    "#skill-formula-substitution",
+    "#skill-procedural-calculation",
+]
+
+
+@register
+class BinomialExactlyKSuccesses(Generator):
+    """Compute $P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$ for small $n \\le 6$
+    and clean $p$ (from $\\{1/2, 1/3, 1/4, 2/3\\}$).
+
+    Backward: pick small $n$, $p$, and $k \\in \\{0, 1, \\ldots, n\\}$.
+    Compute the exact Rational probability.
+    """
+    generator_id = "binomial_exactly_k_successes"
+    topic_slug = "binomial_probability"
+    display_name = "Compute P(X = k) for a binomial random variable"
+
+    _N_RANGES = {"easy": (3, 4), "medium": (4, 5), "hard": (5, 6)}
+    _P_CHOICES = (
+        sp.Rational(1, 2),
+        sp.Rational(1, 3),
+        sp.Rational(1, 4),
+        sp.Rational(2, 3),
+    )
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        n_lo, n_hi = self._N_RANGES[difficulty]
+        n = rng.randint(n_lo, n_hi)
+        p = rng.choice(self._P_CHOICES)
+        # pick k in a range that gives non-trivial numerators (avoid k=0 when p is very small)
+        k = rng.randint(1, n - 1)
+
+        q = 1 - p
+        binom_coef = math.comb(n, k)
+        prob = sp.Rational(binom_coef) * p ** k * q ** (n - k)
+        prob = sp.Rational(prob)
+        prob_latex = _render_rational(prob)
+
+        p_latex = _render_rational(p)
+        q_latex = _render_rational(q)
+
+        pk_latex = _render_rational(sp.Rational(p ** k))
+        qnk_latex = _render_rational(sp.Rational(q ** (n - k)))
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (n, k, p.p, p.q)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"A binomial experiment has $n = {n}$ trials and probability "
+                f"of success $p = {p_latex}$ on each trial. Compute "
+                f"$P(X = {k})$, the probability of exactly ${k}$ successes. "
+                "Give your answer as a fraction in lowest terms."
+            ),
+            answer_latex=f"$P(X = {k}) = {prob_latex}$",
+            hints=[
+                (
+                    "The binomial probability formula is "
+                    r"$P(X = k) = \dbinom{n}{k} p^k (1 - p)^{n - k}$."
+                ),
+                (
+                    f"Compute $\\dbinom{{{n}}}{{{k}}}$ first, then multiply "
+                    f"by $p^{{{k}}}$ and $(1 - p)^{{{n - k}}}$."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    r"Apply the binomial probability formula: "
+                    r"$P(X = k) = \dbinom{n}{k} p^k (1 - p)^{n - k}$."
+                ),
+                (
+                    rf"Substitute: $P(X = {k}) = \dbinom{{{n}}}{{{k}}} "
+                    rf"({p_latex})^{{{k}}} ({q_latex})^{{{n - k}}}$."
+                ),
+                (
+                    rf"Compute the pieces: "
+                    rf"$\dbinom{{{n}}}{{{k}}} = {binom_coef}$, "
+                    rf"$({p_latex})^{{{k}}} = {pk_latex}$, and "
+                    rf"$({q_latex})^{{{n - k}}} = {qnk_latex}$."
+                ),
+                (
+                    rf"Multiply and simplify: "
+                    rf"$P(X = {k}) = {prob_latex}$."
+                ),
+            ],
+            tags=BINOMIAL_PROB_TAGS + ["#key-formula", "#skill-multi-step"],
+        )
+
+
+@register
+class BinomialAtLeastKSuccesses(Generator):
+    """Compute $P(X \\ge k)$ for a binomial random variable via the complement
+    $1 - P(X = 0) - P(X = 1) - \\cdots - P(X = k - 1)$ for small $n$.
+
+    Backward: pick small $n$, clean $p$, and small $k$.
+    """
+    generator_id = "binomial_at_least_k_successes"
+    topic_slug = "binomial_probability"
+    display_name = "Compute P(X >= k) for a binomial random variable via complement"
+
+    _N_RANGES = {"easy": (3, 4), "medium": (4, 5), "hard": (5, 6)}
+    _P_CHOICES = (
+        sp.Rational(1, 2),
+        sp.Rational(1, 3),
+        sp.Rational(1, 4),
+        sp.Rational(2, 3),
+    )
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        n_lo, n_hi = self._N_RANGES[difficulty]
+        n = rng.randint(n_lo, n_hi)
+        p = rng.choice(self._P_CHOICES)
+        # k between 1 and n - 1 so complement has at least one term
+        k = rng.randint(1, n - 1)
+
+        q = 1 - p
+
+        # Probability mass for i = 0, 1, ..., k - 1
+        def _pmf(i: int) -> sp.Rational:
+            return sp.Rational(math.comb(n, i)) * p ** i * q ** (n - i)
+
+        below_terms = [sp.Rational(_pmf(i)) for i in range(k)]
+        below_sum = sum(below_terms, sp.Rational(0))
+        answer = sp.Rational(1) - below_sum
+        answer = sp.Rational(answer)
+
+        p_latex = _render_rational(p)
+        q_latex = _render_rational(q)
+        below_sum_latex = _render_rational(below_sum)
+        answer_latex = _render_rational(answer)
+
+        term_displays = []
+        for i in range(k):
+            term_displays.append(
+                rf"\dbinom{{{n}}}{{{i}}}({p_latex})^{{{i}}}({q_latex})^{{{n - i}}} "
+                rf"= {_render_rational(below_terms[i])}"
+            )
+        sub_list_latex = ",\\ ".join(term_displays)
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (n, k, p.p, p.q)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"A binomial experiment has $n = {n}$ trials and probability "
+                f"of success $p = {p_latex}$ on each trial. Compute "
+                f"$P(X \\ge {k})$, the probability of at least ${k}$ "
+                "successes. Give your answer as a fraction in lowest terms."
+            ),
+            answer_latex=f"$P(X \\ge {k}) = {answer_latex}$",
+            hints=[
+                (
+                    r"Use the complement: "
+                    rf"$P(X \ge {k}) = 1 - P(X < {k}) "
+                    rf"= 1 - \sum_{{i=0}}^{{{k - 1}}} P(X = i)$."
+                ),
+                (
+                    "Compute each $P(X = i)$ with the binomial formula "
+                    r"$P(X = i) = \dbinom{n}{i} p^i (1 - p)^{n - i}$, "
+                    "then subtract the total from $1$."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    rf"Rewrite using the complement: "
+                    rf"$P(X \ge {k}) = 1 - \sum_{{i=0}}^{{{k - 1}}} P(X = i)$."
+                ),
+                (
+                    f"Compute the individual probabilities using the binomial "
+                    f"formula: ${sub_list_latex}$."
+                ),
+                (
+                    rf"Add the terms: $\sum_{{i=0}}^{{{k - 1}}} P(X = i) = {below_sum_latex}$."
+                ),
+                (
+                    rf"Subtract from $1$: "
+                    rf"$P(X \ge {k}) = 1 - {below_sum_latex} = {answer_latex}$."
+                ),
+            ],
+            tags=BINOMIAL_PROB_TAGS + ["#skill-multi-step"],
+        )
+
+
+@register
+class BinomialExpectedValueNp(Generator):
+    """Apply the shortcut $E[X] = np$ for a binomial random variable.
+
+    Backward: pick $n$ and a clean $p$ so $np$ is a clean integer or simple
+    fraction, present as a word problem.
+    """
+    generator_id = "binomial_expected_value_np"
+    topic_slug = "binomial_probability"
+    display_name = "Compute E[X] = np for a binomial random variable"
+    supports_word_problems = True
+
+    _N_RANGES = {"easy": (4, 10), "medium": (8, 20), "hard": (12, 40)}
+    _P_CHOICES = (
+        sp.Rational(1, 2),
+        sp.Rational(1, 3),
+        sp.Rational(1, 4),
+        sp.Rational(2, 3),
+        sp.Rational(3, 4),
+        sp.Rational(1, 5),
+        sp.Rational(2, 5),
+    )
+
+    # Flavor scenarios for the word problem
+    _SCENARIOS = (
+        (
+            "free_throw",
+            "A basketball player attempts $n$ free throws. Each shot is "
+            "independent and has probability $p$ of going in. Let $X$ be the "
+            "number of successful free throws.",
+        ),
+        (
+            "coin_flip",
+            "A fair (or biased) coin with probability $p$ of landing heads is "
+            "flipped $n$ times. Let $X$ be the number of heads.",
+        ),
+        (
+            "quality_check",
+            "A factory produces widgets that each have probability $p$ of "
+            "passing inspection, independently. A batch of $n$ widgets is "
+            "inspected, and $X$ counts the number that pass.",
+        ),
+        (
+            "quiz_guess",
+            "A student guesses on each of $n$ independent multiple-choice "
+            "questions, where each question has probability $p$ of being "
+            "answered correctly. Let $X$ be the number of correct answers.",
+        ),
+        (
+            "phone_success",
+            "A salesperson makes $n$ independent cold calls. Each call has "
+            "probability $p$ of ending in a sale. Let $X$ be the number of "
+            "sales.",
+        ),
+        (
+            "dart_throw",
+            "A player throws $n$ independent darts at a target and each hits "
+            "the bullseye with probability $p$. Let $X$ be the number of "
+            "bullseyes.",
+        ),
+        (
+            "seed_germinate",
+            "A gardener plants $n$ seeds; each seed germinates with "
+            "probability $p$, independently. Let $X$ be the number of seeds "
+            "that germinate.",
+        ),
+    )
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        n_lo, n_hi = self._N_RANGES[difficulty]
+        # Pick p first, then pick n so that n*p is a clean number.
+        p = rng.choice(self._P_CHOICES)
+        # Round n to a multiple of p.q when possible (keeps product integer)
+        base_n = rng.randint(n_lo, n_hi)
+        # Snap base_n to the nearest multiple of p.q in the allowed range
+        if p.q > 1:
+            snapped = round(base_n / p.q) * p.q
+            if snapped < n_lo:
+                snapped = n_lo + (p.q - (n_lo % p.q)) % p.q
+            if snapped > n_hi:
+                snapped = n_hi - (n_hi % p.q)
+            n = int(snapped) if snapped >= n_lo else int(base_n)
+        else:
+            n = base_n
+
+        ev = sp.Rational(n) * p
+        ev = sp.Rational(ev)
+
+        scenario_key, scene_template = rng.choice(self._SCENARIOS)
+
+        p_latex = _render_rational(p)
+        ev_latex = _render_rational(ev)
+
+        scene_text = scene_template.replace("$n$", f"${n}$").replace("$p$", f"${p_latex}$")
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id,
+                difficulty,
+                (scenario_key, n, p.p, p.q),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"{scene_text} Compute the expected value $E[X]$ using the "
+                "shortcut for a binomial random variable."
+            ),
+            answer_latex=f"$E[X] = {ev_latex}$",
+            hints=[
+                (
+                    "For a binomial random variable with $n$ trials and "
+                    "success probability $p$, the expected value is "
+                    r"$E[X] = np$."
+                ),
+                (
+                    f"Substitute $n = {n}$ and $p = {p_latex}$, then "
+                    "simplify."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    r"For a binomial random variable, $E[X] = n p$."
+                ),
+                (
+                    f"Substitute $n = {n}$ and $p = {p_latex}$: "
+                    rf"$E[X] = {n} \cdot {p_latex}$."
+                ),
+                (
+                    f"Multiply: $E[X] = {ev_latex}$."
+                ),
+            ],
+            tags=BINOMIAL_PROB_TAGS + ["#key-formula", "#word-problem-support"],
+        )

@@ -59,15 +59,17 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Algebra 2 topics --- 37 live / 45 total
+### Algebra 2 topics --- 42 live / 50 total
 
-**🟢 Live topics with practice widgets (37)**
+**🟢 Live topics with practice widgets (42)**
 
 - 🟢 [[Absolute_Value_Equations|Absolute Value Equations]]
 - 🟢 [[Absolute_Value_Functions|Absolute Value Functions]]
 - 🟢 [[Adding_And_Subtracting_Rational_Expressions|Adding and Subtracting Rational Expressions]]
 - 🟢 [[Applications_Of_Quadratic_Functions|Applications of Quadratic Functions]]
 - 🟢 [[Completing_The_Square|Completing the Square]]
+- 🟢 [[Conditional_Probability|Conditional Probability]]
+- 🟢 [[Correlation_And_Residuals|Correlation and Residuals]]
 - 🟢 [[Cube_Root_And_Other_Radical_Functions|Cube Root and Other Radical Functions]]
 - 🟢 [[Ellipses|Ellipses]]
 - 🟢 [[Exponential_Equations|Exponential Equations]]
@@ -83,15 +85,18 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Logarithmic_Equations|Logarithmic Equations]]
 - 🟢 [[Logarithmic_Functions|Logarithmic Functions]]
 - 🟢 [[Logarithms|Logarithms]]
+- 🟢 [[Margin_Of_Error_And_Confidence_Intervals|Margin of Error and Confidence Intervals]]
 - 🟢 [[Modeling_With_Linear_Functions|Modeling with Linear Functions]]
 - 🟢 [[More_Exotic_Functions|More Exotic Functions]]
 - 🟢 [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]]
 - 🟢 [[Parabolas|Parabolas]]
+- 🟢 [[Piecewise_Functions|Piecewise Functions]]
 - 🟢 [[Polynomial_Division|Polynomial Division]]
 - 🟢 [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]]
 - 🟢 [[Power_Functions|Power Functions]]
 - 🟢 [[Quadratic_Functions|Quadratic Functions]]
 - 🟢 [[Rational_Equations_And_Applications|Rational Equations and Applications]]
+- 🟢 [[Sampling_Methods_And_Bias|Sampling Methods and Bias]]
 - 🟢 [[Sequences|Sequences]]
 - 🟢 [[Solving_Equations_By_Factoring|Solving Equations by Factoring]]
 - 🟢 [[Solving_Equations_By_Taking_Roots|Solving Equations by Taking Roots]]

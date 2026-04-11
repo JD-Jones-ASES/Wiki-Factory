@@ -58,17 +58,19 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Calculus & Trigonometry topics --- 43 live / 47 total
+### Pre-Calculus & Trigonometry topics --- 47 live / 51 total
 
-**🟢 Live topics with practice widgets (43)**
+**🟢 Live topics with practice widgets (47)**
 
 - 🟢 [[Algebraic_Functions|Algebraic Functions]]
 - 🟢 [[Angles|Angles]]
 - 🟢 [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]]
 - 🟢 [[Augmented_Matrices|Augmented Matrices]]
+- 🟢 [[Binomial_Probability|Binomial Probability]]
 - 🟢 [[Circular_Functions|Circular Functions]]
 - 🟢 [[Complex_Zeros|Complex Zeros of Polynomials]]
 - 🟢 [[Determinants|Determinants]]
+- 🟢 [[Expected_Value|Expected Value]]
 - 🟢 [[Function_Notation|Function Notation]]
 - 🟢 [[Graphs_Of_Equations|Graphs of Equations]]
 - 🟢 [[Graphs_Of_Functions|Graphs of Functions]]
@@ -88,7 +90,9 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Matrix_Arithmetic|Matrix Arithmetic]]
 - 🟢 [[Matrix_Methods|Matrix Methods for Systems]]
 - 🟢 [[Nonlinear_Systems|Nonlinear Systems]]
+- 🟢 [[Normal_Distribution|Normal Distribution]]
 - 🟢 [[Parametric|Parametric Equations]]
+- 🟢 [[Permutations_And_Combinations|Permutations and Combinations]]
 - 🟢 [[Polar_Form_Of_Complex_Numbers|Polar Form of Complex Numbers]]
 - 🟢 [[Properties_Of_Logarithms|Properties of Logarithms]]
 - 🟢 [[Real_Zeros_Of_Polynomials|Real Zeros of Polynomials]]

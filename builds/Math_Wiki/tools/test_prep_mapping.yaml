@@ -289,6 +289,20 @@ mappings:
   parametric:                              [test-act]
   trigonometric_inequalities:              [test-act]
 
+  # =========================================================================
+  # Wave D additions (brand-new gap topics created 2026-04-11)
+  # =========================================================================
+  piecewise_functions:                     [test-sat, test-act]
+  conditional_probability:                 [test-sat, test-act]
+  margin_of_error_and_confidence_intervals: [test-sat, test-psat]
+  sampling_methods_and_bias:               [test-sat, test-act]
+  histograms_and_box_plots:                [test-sat, test-psat, test-act, test-clt]
+  correlation_and_residuals:               [test-sat, test-psat, test-act]
+  permutations_and_combinations:           [test-act]
+  normal_distribution:                     [test-act]
+  expected_value:                          [test-act]
+  binomial_probability:                    [test-act]
+
   # ==========================================================================
   # Out of scope (no standardized test coverage) -- intentionally unmapped:
   #   induction -- mathematical induction is not on any standardized math test

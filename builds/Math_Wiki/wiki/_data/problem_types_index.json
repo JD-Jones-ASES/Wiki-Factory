@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T16:45:03.171631+00:00",
+  "generated_at": "2026-04-11T17:01:22.196919+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 608,
+  "generator_count": 638,
   "by_topic": {
     "circles": [
       {
@@ -1500,6 +1500,38 @@
           "easy": 20,
           "medium": 20,
           "hard": 20
+        }
+      }
+    ],
+    "correlation_and_residuals": [
+      {
+        "generator_id": "correlation_sign_and_strength_classify",
+        "display_name": "Classify correlation sign and strength from a description",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "residual_compute_single",
+        "display_name": "Compute a residual for one data point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "residual_plot_interpret_linearity",
+        "display_name": "Interpret a residual plot for linearity",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
         }
       }
     ],
@@ -3437,6 +3469,166 @@
       {
         "generator_id": "similar_figures_proportion",
         "display_name": "Missing side of similar figures",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "piecewise_functions": [
+      {
+        "generator_id": "piecewise_evaluate_at_point",
+        "display_name": "Evaluate a piecewise function at a point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "piecewise_match_formula_to_graph",
+        "display_name": "Match a formula to a described piecewise graph",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "piecewise_domain_and_range",
+        "display_name": "Find the domain and range of a piecewise function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 6,
+          "medium": 6,
+          "hard": 6
+        }
+      }
+    ],
+    "conditional_probability": [
+      {
+        "generator_id": "cond_prob_from_two_way_table",
+        "display_name": "Conditional probability from a two-way table",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "cond_prob_multiplication_rule",
+        "display_name": "Multiplication rule for conditional probability",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 8,
+          "medium": 8,
+          "hard": 8
+        }
+      },
+      {
+        "generator_id": "cond_prob_independence_check",
+        "display_name": "Check if two events are independent",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 8,
+          "medium": 8,
+          "hard": 8
+        }
+      }
+    ],
+    "margin_of_error_and_confidence_intervals": [
+      {
+        "generator_id": "margin_of_error_interval_construct",
+        "display_name": "Construct a confidence interval from p-hat and margin",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "margin_of_error_interpret_claim",
+        "display_name": "Check whether a claim is consistent with a confidence interval",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "margin_of_error_shrink_with_sample_size",
+        "display_name": "Find the new margin after scaling the sample size",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      }
+    ],
+    "sampling_methods_and_bias": [
+      {
+        "generator_id": "sampling_classify_method",
+        "display_name": "Classify a described sampling method",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "sampling_identify_bias_source",
+        "display_name": "Identify the source of sampling bias",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "sampling_generalizability_check",
+        "display_name": "Decide whether results can be generalized",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      }
+    ],
+    "histograms_and_box_plots": [
+      {
+        "generator_id": "box_plot_five_number_summary",
+        "display_name": "Five-number summary of a small dataset",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "box_plot_iqr_and_outliers",
+        "display_name": "IQR and the 1.5 x IQR outlier rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "histogram_read_frequency",
+        "display_name": "Read total frequency from a histogram range",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -5618,6 +5810,134 @@
           "easy": 12,
           "medium": 12,
           "hard": 12
+        }
+      }
+    ],
+    "permutations_and_combinations": [
+      {
+        "generator_id": "nPr_direct_compute",
+        "display_name": "Compute a permutation count P(n, r)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 6,
+          "medium": 6,
+          "hard": 6
+        }
+      },
+      {
+        "generator_id": "nCr_direct_compute",
+        "display_name": "Compute a combination count C(n, r)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 6,
+          "medium": 6,
+          "hard": 6
+        }
+      },
+      {
+        "generator_id": "perm_comb_word_problem",
+        "display_name": "Permutation vs combination word problem",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      }
+    ],
+    "normal_distribution": [
+      {
+        "generator_id": "normal_empirical_rule_range",
+        "display_name": "Use the empirical rule to report the percent in a symmetric interval",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "normal_zscore_compute",
+        "display_name": "Compute a z-score for a given value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "normal_percentage_above_or_below",
+        "display_name": "Empirical-rule percent above or below a one-sided cutoff",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      }
+    ],
+    "expected_value": [
+      {
+        "generator_id": "expected_value_discrete_3_outcomes",
+        "display_name": "Compute E[X] for a 3-outcome discrete random variable",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "expected_value_fair_game_check",
+        "display_name": "Fair-game check: compute E[X] and classify the game",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "expected_value_weighted_average",
+        "display_name": "Compute a weighted average (grade)",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "binomial_probability": [
+      {
+        "generator_id": "binomial_exactly_k_successes",
+        "display_name": "Compute P(X = k) for a binomial random variable",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 25,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "binomial_at_least_k_successes",
+        "display_name": "Compute P(X >= k) for a binomial random variable via complement",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 25,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "binomial_expected_value_np",
+        "display_name": "Compute E[X] = np for a binomial random variable",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
         }
       }
     ],
@@ -7897,6 +8217,36 @@
       },
       "shard_file": "problems/scatter_plots_and_trend_lines.json"
     },
+    "correlation_sign_and_strength_classify": {
+      "topic_slug": "correlation_and_residuals",
+      "display_name": "Classify correlation sign and strength from a description",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/correlation_and_residuals.json"
+    },
+    "residual_compute_single": {
+      "topic_slug": "correlation_and_residuals",
+      "display_name": "Compute a residual for one data point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/correlation_and_residuals.json"
+    },
+    "residual_plot_interpret_linearity": {
+      "topic_slug": "correlation_and_residuals",
+      "display_name": "Interpret a residual plot for linearity",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/correlation_and_residuals.json"
+    },
     "poly_add_like_terms": {
       "topic_slug": "adding_and_subtracting_polynomials",
       "display_name": "Add polynomials (combine like terms)",
@@ -9716,6 +10066,156 @@
         "hard": 30
       },
       "shard_file": "problems/ratios_and_proportions.json"
+    },
+    "piecewise_evaluate_at_point": {
+      "topic_slug": "piecewise_functions",
+      "display_name": "Evaluate a piecewise function at a point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/piecewise_functions.json"
+    },
+    "piecewise_match_formula_to_graph": {
+      "topic_slug": "piecewise_functions",
+      "display_name": "Match a formula to a described piecewise graph",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/piecewise_functions.json"
+    },
+    "piecewise_domain_and_range": {
+      "topic_slug": "piecewise_functions",
+      "display_name": "Find the domain and range of a piecewise function",
+      "counts": {
+        "easy": 6,
+        "medium": 6,
+        "hard": 6
+      },
+      "shard_file": "problems/piecewise_functions.json"
+    },
+    "cond_prob_from_two_way_table": {
+      "topic_slug": "conditional_probability",
+      "display_name": "Conditional probability from a two-way table",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/conditional_probability.json"
+    },
+    "cond_prob_multiplication_rule": {
+      "topic_slug": "conditional_probability",
+      "display_name": "Multiplication rule for conditional probability",
+      "counts": {
+        "easy": 8,
+        "medium": 8,
+        "hard": 8
+      },
+      "shard_file": "problems/conditional_probability.json"
+    },
+    "cond_prob_independence_check": {
+      "topic_slug": "conditional_probability",
+      "display_name": "Check if two events are independent",
+      "counts": {
+        "easy": 8,
+        "medium": 8,
+        "hard": 8
+      },
+      "shard_file": "problems/conditional_probability.json"
+    },
+    "margin_of_error_interval_construct": {
+      "topic_slug": "margin_of_error_and_confidence_intervals",
+      "display_name": "Construct a confidence interval from p-hat and margin",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/margin_of_error_and_confidence_intervals.json"
+    },
+    "margin_of_error_interpret_claim": {
+      "topic_slug": "margin_of_error_and_confidence_intervals",
+      "display_name": "Check whether a claim is consistent with a confidence interval",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/margin_of_error_and_confidence_intervals.json"
+    },
+    "margin_of_error_shrink_with_sample_size": {
+      "topic_slug": "margin_of_error_and_confidence_intervals",
+      "display_name": "Find the new margin after scaling the sample size",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/margin_of_error_and_confidence_intervals.json"
+    },
+    "sampling_classify_method": {
+      "topic_slug": "sampling_methods_and_bias",
+      "display_name": "Classify a described sampling method",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/sampling_methods_and_bias.json"
+    },
+    "sampling_identify_bias_source": {
+      "topic_slug": "sampling_methods_and_bias",
+      "display_name": "Identify the source of sampling bias",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/sampling_methods_and_bias.json"
+    },
+    "sampling_generalizability_check": {
+      "topic_slug": "sampling_methods_and_bias",
+      "display_name": "Decide whether results can be generalized",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/sampling_methods_and_bias.json"
+    },
+    "box_plot_five_number_summary": {
+      "topic_slug": "histograms_and_box_plots",
+      "display_name": "Five-number summary of a small dataset",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/histograms_and_box_plots.json"
+    },
+    "box_plot_iqr_and_outliers": {
+      "topic_slug": "histograms_and_box_plots",
+      "display_name": "IQR and the 1.5 x IQR outlier rule",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/histograms_and_box_plots.json"
+    },
+    "histogram_read_frequency": {
+      "topic_slug": "histograms_and_box_plots",
+      "display_name": "Read total frequency from a histogram range",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/histograms_and_box_plots.json"
     },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",
@@ -11756,6 +12256,126 @@
         "hard": 12
       },
       "shard_file": "problems/linear_regression.json"
+    },
+    "nPr_direct_compute": {
+      "topic_slug": "permutations_and_combinations",
+      "display_name": "Compute a permutation count P(n, r)",
+      "counts": {
+        "easy": 6,
+        "medium": 6,
+        "hard": 6
+      },
+      "shard_file": "problems/permutations_and_combinations.json"
+    },
+    "nCr_direct_compute": {
+      "topic_slug": "permutations_and_combinations",
+      "display_name": "Compute a combination count C(n, r)",
+      "counts": {
+        "easy": 6,
+        "medium": 6,
+        "hard": 6
+      },
+      "shard_file": "problems/permutations_and_combinations.json"
+    },
+    "perm_comb_word_problem": {
+      "topic_slug": "permutations_and_combinations",
+      "display_name": "Permutation vs combination word problem",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/permutations_and_combinations.json"
+    },
+    "normal_empirical_rule_range": {
+      "topic_slug": "normal_distribution",
+      "display_name": "Use the empirical rule to report the percent in a symmetric interval",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/normal_distribution.json"
+    },
+    "normal_zscore_compute": {
+      "topic_slug": "normal_distribution",
+      "display_name": "Compute a z-score for a given value",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/normal_distribution.json"
+    },
+    "normal_percentage_above_or_below": {
+      "topic_slug": "normal_distribution",
+      "display_name": "Empirical-rule percent above or below a one-sided cutoff",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/normal_distribution.json"
+    },
+    "expected_value_discrete_3_outcomes": {
+      "topic_slug": "expected_value",
+      "display_name": "Compute E[X] for a 3-outcome discrete random variable",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/expected_value.json"
+    },
+    "expected_value_fair_game_check": {
+      "topic_slug": "expected_value",
+      "display_name": "Fair-game check: compute E[X] and classify the game",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/expected_value.json"
+    },
+    "expected_value_weighted_average": {
+      "topic_slug": "expected_value",
+      "display_name": "Compute a weighted average (grade)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/expected_value.json"
+    },
+    "binomial_exactly_k_successes": {
+      "topic_slug": "binomial_probability",
+      "display_name": "Compute P(X = k) for a binomial random variable",
+      "counts": {
+        "easy": 20,
+        "medium": 25,
+        "hard": 30
+      },
+      "shard_file": "problems/binomial_probability.json"
+    },
+    "binomial_at_least_k_successes": {
+      "topic_slug": "binomial_probability",
+      "display_name": "Compute P(X >= k) for a binomial random variable via complement",
+      "counts": {
+        "easy": 20,
+        "medium": 25,
+        "hard": 30
+      },
+      "shard_file": "problems/binomial_probability.json"
+    },
+    "binomial_expected_value_np": {
+      "topic_slug": "binomial_probability",
+      "display_name": "Compute E[X] = np for a binomial random variable",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/binomial_probability.json"
     },
     "matrix_add_subtract": {
       "topic_slug": "matrix_arithmetic",

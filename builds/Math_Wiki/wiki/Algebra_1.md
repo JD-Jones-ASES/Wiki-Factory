@@ -57,9 +57,9 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Algebra 1 topics --- 46 live / 53 total
+### Algebra 1 topics --- 47 live / 54 total
 
-**🟢 Live topics with practice widgets (46)**
+**🟢 Live topics with practice widgets (47)**
 
 - 🟢 [[Absolute_Value_Inequalities|Absolute Value Inequalities]]
 - 🟢 [[Adding_And_Subtracting_Polynomials|Adding and Subtracting Polynomials]]
@@ -73,6 +73,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Factoring_Trinomials_Leading_Coefficient_1|Factoring Trinomials: Leading Coefficient 1]]
 - 🟢 [[Graphing_Quadratic_Functions|Graphing Quadratic Functions]]
 - 🟢 [[Greatest_Common_Factor|Greatest Common Factor]]
+- 🟢 [[Histograms_And_Box_Plots|Histograms and Box Plots]]
 - 🟢 [[Inequalities_And_Their_Graphs|Inequalities and Their Graphs]]
 - 🟢 [[Literal_Equations_And_Formulas|Literal Equations and Formulas]]
 - 🟢 [[Multi_Step_Equations|Multi-Step Equations]]

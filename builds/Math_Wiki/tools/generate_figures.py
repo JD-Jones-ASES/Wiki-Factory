@@ -4591,6 +4591,562 @@ def fig_nonlinear_system_intersection():
 
 
 # ---------------------------------------------------------------------------
+# Algebra: piecewise function with open/closed endpoints (Wave D)
+
+def fig_piecewise_step_graph():
+    """Piecewise f(x) = {x+2, x^2, 6-x} with clear open/closed endpoints."""
+    fig, ax = plt.subplots(figsize=(6.5, 6))
+    ax.set_xlim(-4.5, 6.5)
+    ax.set_ylim(-2.8, 6.8)
+
+    # Light integer grid
+    for i in range(-4, 7):
+        ax.plot([i, i], [-2.8, 6.8], color=C_GRID,
+                linewidth=0.6, zorder=0)
+    for j in range(-2, 7):
+        ax.plot([-4.5, 6.5], [j, j], color=C_GRID,
+                linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(6.35, 0), xytext=(-4.35, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 6.65), xytext=(0, -2.65),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(6.4, 0.2, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.2, 6.7, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Integer tick labels on x-axis
+    for t in range(-4, 7):
+        if t == 0:
+            continue
+        ax.text(t, -0.3, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+    # Integer tick labels on y-axis
+    for t in range(-2, 7):
+        if t == 0:
+            continue
+        ax.text(-0.12, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Colors for the three pieces
+    color_blue = "#2e86de"
+    color_green = "#10ac84"
+    color_red = "#c44569"
+
+    # Piece 1: y = x + 2 for x < 0  (open dot at x = 0)
+    x1 = np.linspace(-4, 0, 200)
+    y1 = x1 + 2
+    ax.plot(x1, y1, color=color_blue, linewidth=2.4, zorder=3)
+
+    # Piece 2: y = x^2 for 0 <= x < 2  (closed at 0, open at 2)
+    x2 = np.linspace(0, 2, 200)
+    y2 = x2 ** 2
+    ax.plot(x2, y2, color=color_green, linewidth=2.4, zorder=3)
+
+    # Piece 3: y = 6 - x for x >= 2  (closed at 2)
+    x3 = np.linspace(2, 6, 200)
+    y3 = 6 - x3
+    ax.plot(x3, y3, color=color_red, linewidth=2.4, zorder=3)
+
+    # Endpoint markers
+    # At x = 0: open from piece 1 (value 2), closed from piece 2 (value 0)
+    ax.plot(0, 2, "o", markerfacecolor="white",
+            markeredgecolor=color_blue, markeredgewidth=2.2,
+            markersize=11, zorder=5)
+    ax.plot(0, 0, "o", color=color_green, markersize=11, zorder=5)
+
+    # At x = 2: open from piece 2 (value 4), closed from piece 3 (value 4)
+    # Draw the open circle first, then the closed circle sits on top.
+    ax.plot(2, 4, "o", markerfacecolor="white",
+            markeredgecolor=color_green, markeredgewidth=2.2,
+            markersize=11, zorder=5)
+    ax.plot(2, 4, "o", color=color_red, markersize=11, zorder=6)
+
+    # Formula labels for each piece (boxed)
+    ax.text(-3.2, -1.3, r"$y = x + 2$",
+            fontsize=11, color=color_blue, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_blue, linewidth=0.8))
+    ax.text(1.15, 5.6, r"$y = x^{2}$",
+            fontsize=11, color=color_green, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_green, linewidth=0.8))
+    ax.text(4.8, 2.4, r"$y = 6 - x$",
+            fontsize=11, color=color_red, fontweight="bold",
+            ha="center", va="center",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_red, linewidth=0.8))
+
+    ax.set_title("Piecewise function with open and closed endpoints",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/piecewise_step_graph.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: two-way table of categorical data (Wave D)
+
+def fig_two_way_table():
+    """A labeled 2x2 two-way table with row, column, and grand totals."""
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.set_aspect("equal")
+
+    # Grid dimensions: 4 columns (row header + 2 data + totals)
+    # and 4 rows (col header + 2 data + totals).
+    cell_w = 1.5
+    cell_h = 0.9
+    n_cols = 4
+    n_rows = 4
+
+    total_w = n_cols * cell_w
+    total_h = n_rows * cell_h
+
+    ax.set_xlim(-0.4, total_w + 0.4)
+    ax.set_ylim(-1.1, total_h + 0.9)
+
+    # Cell counts (invented): 15 club+sport, 10 club only,
+    # 8 sport only, 17 neither.
+    both = 15
+    club_only = 10
+    sport_only = 8
+    neither = 17
+    row_club = both + club_only         # 25
+    row_no_club = sport_only + neither  # 25
+    col_sport = both + sport_only       # 23
+    col_no_sport = club_only + neither  # 27
+    grand = row_club + row_no_club      # 50
+
+    # Colors
+    header_fill = "#cde4f0"
+    total_fill = "#fce1b7"
+    grand_fill = "#f4d0d6"
+
+    # Row index: 0 = bottom row (totals), 3 = top row (header)
+    # Draw the grid starting from top-left going down.
+    # We'll define a helper that draws a cell given col, row (0-indexed from
+    # the top), a fill color, and a text label + bold flag.
+    def draw_cell(col, row_from_top, fill, text, bold=False, fs=13):
+        # row_from_top 0 is the top row of the table.
+        # Convert to axes coords (y grows upward).
+        x0 = col * cell_w
+        x1 = x0 + cell_w
+        y_top = total_h - row_from_top * cell_h
+        y_bot = y_top - cell_h
+        if fill is not None:
+            ax.fill_between([x0, x1], y_bot, y_top,
+                            color=fill, linewidth=0)
+        ax.plot([x0, x1, x1, x0, x0],
+                [y_bot, y_bot, y_top, y_top, y_bot],
+                color=C_LINE, linewidth=1.6)
+        if text:
+            ax.text((x0 + x1) / 2, (y_top + y_bot) / 2, text,
+                    ha="center", va="center",
+                    fontsize=fs, color=C_TEXT,
+                    fontweight="bold" if bold else "normal")
+
+    # Row 0 (top header): blank corner, "Sport: Yes", "Sport: No", "Total"
+    draw_cell(0, 0, None, "", bold=True)
+    draw_cell(1, 0, header_fill, "Sport: Yes", bold=True, fs=11)
+    draw_cell(2, 0, header_fill, "Sport: No", bold=True, fs=11)
+    draw_cell(3, 0, total_fill, "Total", bold=True, fs=12)
+
+    # Row 1: "Club: Yes", both, club_only, row_club
+    draw_cell(0, 1, header_fill, "Club: Yes", bold=True, fs=11)
+    draw_cell(1, 1, None, str(both))
+    draw_cell(2, 1, None, str(club_only))
+    draw_cell(3, 1, total_fill, str(row_club), bold=True)
+
+    # Row 2: "Club: No", sport_only, neither, row_no_club
+    draw_cell(0, 2, header_fill, "Club: No", bold=True, fs=11)
+    draw_cell(1, 2, None, str(sport_only))
+    draw_cell(2, 2, None, str(neither))
+    draw_cell(3, 2, total_fill, str(row_no_club), bold=True)
+
+    # Row 3 (bottom totals): "Total", col_sport, col_no_sport, grand
+    draw_cell(0, 3, total_fill, "Total", bold=True, fs=12)
+    draw_cell(1, 3, total_fill, str(col_sport), bold=True)
+    draw_cell(2, 3, total_fill, str(col_no_sport), bold=True)
+    draw_cell(3, 3, grand_fill, str(grand), bold=True, fs=15)
+
+    # Caption below the table
+    ax.text(total_w / 2, -0.6,
+            "Row totals, column totals, and grand total",
+            ha="center", va="top",
+            fontsize=10, color=C_TEXT, fontstyle="italic")
+
+    ax.set_title("Two-way table: Club vs. Sport",
+                 fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/two_way_table.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: box plot with five-number summary and IQR bracket (Wave D)
+
+def fig_box_plot_five_number():
+    """Labeled box plot with min, Q1, median, Q3, max and IQR bracket."""
+    data_min = 4
+    q1 = 7
+    median = 10
+    q3 = 14
+    data_max = 18
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+    ax.set_xlim(1, 21)
+    ax.set_ylim(-3.0, 4.2)
+
+    # y-position of the box plot
+    y_mid = 1.6
+    box_half = 0.55
+    box_top = y_mid + box_half
+    box_bot = y_mid - box_half
+    whisker_cap = 0.35
+
+    box_color = "#cde4f0"
+    edge_color = C_LINE
+    median_color = C_RADIUS
+
+    # Box from Q1 to Q3 filled
+    ax.fill_between([q1, q3], box_bot, box_top,
+                    color=box_color, linewidth=0)
+    # Box outline
+    ax.plot([q1, q3, q3, q1, q1],
+            [box_bot, box_bot, box_top, box_top, box_bot],
+            color=edge_color, linewidth=2.0)
+    # Median line inside the box
+    ax.plot([median, median], [box_bot, box_top],
+            color=median_color, linewidth=2.8)
+
+    # Whisker: min to Q1
+    ax.plot([data_min, q1], [y_mid, y_mid],
+            color=edge_color, linewidth=1.8)
+    # Whisker: Q3 to max
+    ax.plot([q3, data_max], [y_mid, y_mid],
+            color=edge_color, linewidth=1.8)
+    # Vertical caps on each whisker end
+    for x in (data_min, data_max):
+        ax.plot([x, x],
+                [y_mid - whisker_cap, y_mid + whisker_cap],
+                color=edge_color, linewidth=1.8)
+
+    # Number line below the plot
+    line_y = -0.8
+    ax.annotate(
+        "", xy=(20.2, line_y), xytext=(1.8, line_y),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    for t in range(2, 21, 2):
+        ax.plot([t, t], [line_y - 0.12, line_y + 0.12],
+                color=C_LINE, linewidth=1.0)
+        ax.text(t, line_y - 0.28, str(t),
+                ha="center", va="top",
+                fontsize=9, color=C_TEXT)
+
+    # Dashed connectors from each of the five points down to the number line
+    for x in (data_min, q1, median, q3, data_max):
+        ax.plot([x, x], [y_mid - box_half - 0.05, line_y + 0.12],
+                color=C_DASH, linewidth=0.9, linestyle=":", zorder=1)
+
+    # Labels above each of the five points
+    label_pairs = [
+        (data_min, f"min = {data_min}"),
+        (q1,       f"Q1 = {q1}"),
+        (median,   f"median = {median}"),
+        (q3,       f"Q3 = {q3}"),
+        (data_max, f"max = {data_max}"),
+    ]
+    for x, text in label_pairs:
+        ax.text(x, box_top + 0.35, text,
+                ha="center", va="bottom",
+                fontsize=10, color=C_TEXT, fontweight="bold")
+
+    # IQR bracket from Q1 to Q3, drawn below the number line
+    bracket_y = -1.75
+    tick_h = 0.18
+    # Horizontal line of the bracket
+    ax.plot([q1, q3], [bracket_y, bracket_y],
+            color=C_RADIUS, linewidth=2.0)
+    # Vertical ticks at each end
+    ax.plot([q1, q1], [bracket_y, bracket_y + tick_h],
+            color=C_RADIUS, linewidth=2.0)
+    ax.plot([q3, q3], [bracket_y, bracket_y + tick_h],
+            color=C_RADIUS, linewidth=2.0)
+    # IQR label below the bracket
+    iqr = q3 - q1
+    ax.text((q1 + q3) / 2, bracket_y - 0.25,
+            f"IQR = Q3 - Q1 = {iqr}",
+            ha="center", va="top",
+            fontsize=11, color=C_RADIUS, fontweight="bold")
+
+    ax.set_title("Box plot with five-number summary",
+                 fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/box_plot_five_number.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: residual plots (linear OK vs not OK) (Wave D)
+
+def fig_residual_plot_pattern():
+    """1x2 grid of residual plots: random scatter vs U-shaped pattern."""
+    fig, (ax_left, ax_right) = plt.subplots(1, 2, figsize=(9, 4.5))
+
+    # Fitted values along the x-axis
+    fitted = np.linspace(1, 10, 12)
+
+    # Left panel: random-looking scatter around 0 (deterministic values)
+    random_res = np.array([
+        0.6, -0.9, 0.4, -0.3, 0.8, -0.5,
+        0.2, -0.7, 0.5, 0.1, -0.4, 0.3,
+    ])
+
+    # Right panel: U-shaped residuals (pattern indicates nonlinearity)
+    # Center around fitted ~ 5.5 so residuals dip negative in the middle,
+    # positive at the ends.
+    u_res = 0.6 * (fitted - 5.5) ** 2 / 5.0 - 1.0
+
+    point_color = "#2e86de"
+    pattern_color = "#c44569"
+
+    for ax, res, color, title in (
+        (ax_left, random_res, point_color,
+         "Random scatter: linear model OK"),
+        (ax_right, u_res, pattern_color,
+         "U-shaped pattern: linear model not OK"),
+    ):
+        ax.set_xlim(0, 11)
+        ax.set_ylim(-2.2, 2.2)
+
+        # Light grid
+        for i in range(0, 12, 2):
+            ax.plot([i, i], [-2.2, 2.2], color=C_GRID,
+                    linewidth=0.6, zorder=0)
+        for j in (-2, -1, 0, 1, 2):
+            ax.plot([0, 11], [j, j], color=C_GRID,
+                    linewidth=0.6, zorder=0)
+
+        # Horizontal reference line at y = 0 (solid, highlighted)
+        ax.plot([0, 11], [0, 0], color=C_DASH,
+                linewidth=1.6, linestyle="--", zorder=1)
+
+        # Data points
+        ax.scatter(fitted, res, s=60, color=color,
+                   edgecolors=C_LINE, linewidth=0.8, zorder=3)
+
+        # Optional: draw a faint trend curve on the right panel to
+        # emphasize the U shape (not a fit, just a guide)
+        if title.startswith("U-shaped"):
+            xs = np.linspace(1, 10, 80)
+            ys = 0.6 * (xs - 5.5) ** 2 / 5.0 - 1.0
+            ax.plot(xs, ys, color=pattern_color,
+                    linewidth=1.2, linestyle="--",
+                    alpha=0.6, zorder=2)
+
+        # Tick labels
+        ax.set_xticks([2, 4, 6, 8, 10])
+        ax.set_xticklabels(["2", "4", "6", "8", "10"],
+                           fontsize=9, color=C_TEXT)
+        ax.set_yticks([-2, -1, 0, 1, 2])
+        ax.set_yticklabels(["-2", "-1", "0", "1", "2"],
+                           fontsize=9, color=C_TEXT)
+        ax.tick_params(axis="both", colors=C_TEXT, length=3)
+
+        ax.set_xlabel("fitted value", fontsize=11, color=C_TEXT)
+        ax.set_ylabel("residual", fontsize=11, color=C_TEXT)
+        ax.set_title(title, fontsize=11, color=C_TEXT, pad=8)
+
+        for spine_name in ("top", "right"):
+            ax.spines[spine_name].set_visible(False)
+        ax.spines["left"].set_color(C_LINE)
+        ax.spines["bottom"].set_color(C_LINE)
+
+    fig.suptitle("Residual plots: spotting a bad linear fit",
+                 fontsize=13, y=1.02)
+    fig.tight_layout()
+
+    _save(fig, "algebra/residual_plot_pattern.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: normal curve and the empirical rule (Wave D)
+
+def fig_normal_curve_empirical_rule():
+    """Standard normal curve with 68-95-99.7 shaded bands."""
+    fig, ax = plt.subplots(figsize=(8, 5))
+    ax.set_xlim(-4.2, 4.2)
+    ax.set_ylim(-0.09, 0.48)
+
+    # x values and the standard normal PDF
+    x = np.linspace(-4, 4, 600)
+    y = np.exp(-0.5 * x ** 2) / np.sqrt(2 * np.pi)
+
+    # Shaded band colors (darkest for innermost band)
+    c_68 = "#284b63"
+    c_95 = "#6a8caa"
+    c_997 = "#b7cfdc"
+
+    # Build the three nested bands. Fill from outside in so darker colors
+    # overlay lighter ones correctly.
+    mask_997 = (x >= -3) & (x <= 3)
+    ax.fill_between(x[mask_997], 0, y[mask_997],
+                    color=c_997, linewidth=0, zorder=1)
+    mask_95 = (x >= -2) & (x <= 2)
+    ax.fill_between(x[mask_95], 0, y[mask_95],
+                    color=c_95, linewidth=0, zorder=2)
+    mask_68 = (x >= -1) & (x <= 1)
+    ax.fill_between(x[mask_68], 0, y[mask_68],
+                    color=c_68, linewidth=0, zorder=3)
+
+    # The bell curve outline
+    ax.plot(x, y, color=C_LINE, linewidth=2.4, zorder=4)
+
+    # Horizontal baseline
+    ax.plot([-4, 4], [0, 0], color=C_LINE, linewidth=1.4, zorder=4)
+
+    # Vertical dashed lines at each sigma boundary
+    for xv in (-3, -2, -1, 0, 1, 2, 3):
+        ax.plot([xv, xv], [0, float(np.exp(-0.5 * xv ** 2)
+                                    / np.sqrt(2 * np.pi))],
+                color=C_DASH, linewidth=1.0,
+                linestyle="--", zorder=5)
+
+    # x-axis labels under each sigma boundary
+    sigma_labels = [
+        (-3, r"$\mu - 3\sigma$"),
+        (-2, r"$\mu - 2\sigma$"),
+        (-1, r"$\mu - \sigma$"),
+        (0,  r"$\mu$"),
+        (1,  r"$\mu + \sigma$"),
+        (2,  r"$\mu + 2\sigma$"),
+        (3,  r"$\mu + 3\sigma$"),
+    ]
+    for xv, label in sigma_labels:
+        ax.text(xv, -0.025, label, ha="center", va="top",
+                fontsize=9, color=C_TEXT)
+
+    # Percentage labels inside each band
+    # 68% in the center (white text on dark band)
+    ax.text(0, 0.17, "68%", ha="center", va="center",
+            fontsize=13, color="white", fontweight="bold")
+    # 95% label in the 95 band (between -2..-1 on the left side)
+    ax.text(-1.5, 0.08, "95%", ha="center", va="center",
+            fontsize=11, color="white", fontweight="bold")
+    ax.text(1.5, 0.08, "95%", ha="center", va="center",
+            fontsize=11, color="white", fontweight="bold")
+    # 99.7% label in the outermost band
+    ax.text(-2.5, 0.02, "99.7%", ha="center", va="center",
+            fontsize=10, color=C_TEXT, fontweight="bold")
+    ax.text(2.5, 0.02, "99.7%", ha="center", va="center",
+            fontsize=10, color=C_TEXT, fontweight="bold")
+
+    ax.set_title("The empirical (68-95-99.7) rule",
+                 fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/normal_curve_empirical_rule.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: binomial PMF bar chart (Wave D)
+
+def fig_binomial_pmf_bar_chart():
+    """Bar chart of Bin(n=5, p=0.5) PMF: heights C(5,k)/32."""
+    n = 5
+    # Binomial coefficients C(5, k) for k = 0..5
+    coeffs = [1, 5, 10, 10, 5, 1]
+    total = 2 ** n  # 32
+    probs = [c / total for c in coeffs]
+    ks = list(range(n + 1))
+
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.set_xlim(-0.8, n + 0.8)
+    ax.set_ylim(0, 0.42)
+
+    bar_face = "#cde4f0"
+    bar_edge = C_LINE
+
+    bar_w = 0.7
+    for k, p in zip(ks, probs):
+        x0 = k - bar_w / 2
+        x1 = k + bar_w / 2
+        ax.fill_between([x0, x1], 0, p,
+                        color=bar_face, linewidth=0)
+        ax.plot([x0, x1, x1, x0, x0],
+                [0, 0, p, p, 0],
+                color=bar_edge, linewidth=1.6)
+        # Probability label above each bar
+        ax.text(k, p + 0.012,
+                f"{coeffs[ks.index(k)]}/{total}",
+                ha="center", va="bottom",
+                fontsize=10, color=C_TEXT, fontweight="bold")
+
+    # x-axis line
+    ax.plot([-0.6, n + 0.6], [0, 0],
+            color=C_LINE, linewidth=1.4)
+    # x-axis ticks + labels
+    for k in ks:
+        ax.plot([k, k], [-0.006, 0.006],
+                color=C_LINE, linewidth=1.2)
+        ax.text(k, -0.018, str(k),
+                ha="center", va="top",
+                fontsize=11, color=C_TEXT)
+
+    # y-axis line
+    ax.plot([-0.6, -0.6], [0, 0.4],
+            color=C_LINE, linewidth=1.4)
+    # y-axis ticks + labels at 0, 0.1, 0.2, 0.3
+    for yv in (0.0, 0.1, 0.2, 0.3):
+        ax.plot([-0.66, -0.54], [yv, yv],
+                color=C_LINE, linewidth=1.2)
+        ax.text(-0.72, yv, f"{yv:.1f}",
+                ha="right", va="center",
+                fontsize=9, color=C_TEXT)
+
+    # Axis labels
+    ax.text(n / 2, -0.042, r"$k$ (number of successes)",
+            ha="center", va="top",
+            fontsize=12, color=C_TEXT)
+    ax.text(-1.25, 0.2, r"$P(X = k)$",
+            ha="center", va="center",
+            fontsize=12, color=C_TEXT, rotation=90)
+
+    ax.set_title(r"Binomial PMF: $n=5$, $p=0.5$",
+                 fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/binomial_pmf_bar_chart.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -4652,6 +5208,12 @@ FIGURES = [
     ("conic_sections_quartet", fig_conic_sections_quartet),
     ("polar_rose_cardioid", fig_polar_rose_cardioid),
     ("nonlinear_system_intersection", fig_nonlinear_system_intersection),
+    ("piecewise_step_graph", fig_piecewise_step_graph),
+    ("two_way_table", fig_two_way_table),
+    ("box_plot_five_number", fig_box_plot_five_number),
+    ("residual_plot_pattern", fig_residual_plot_pattern),
+    ("normal_curve_empirical_rule", fig_normal_curve_empirical_rule),
+    ("binomial_pmf_bar_chart", fig_binomial_pmf_bar_chart),
 ]
 
 

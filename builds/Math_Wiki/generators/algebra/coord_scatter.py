@@ -639,3 +639,537 @@ class ScatterSlopeInterpretation(Generator):
                 "#skill-interpretation",
             ],
         )
+
+
+# ---------------------------------------------------------------------------
+# Topic 3: correlation_and_residuals (Wave D gap)
+# ---------------------------------------------------------------------------
+
+
+_CORRELATION_DESCRIPTIONS: tuple[dict, ...] = (
+    # Strong positive
+    {
+        "text": (
+            "the points are tightly clustered around a clearly rising line "
+            "from left to right"
+        ),
+        "label": "strong positive",
+    },
+    {
+        "text": (
+            "the scatter shows dots closely packed along a steep upward line"
+        ),
+        "label": "strong positive",
+    },
+    {
+        "text": (
+            "the dots hug a rising line with very little spread, increasing "
+            "steadily as $x$ grows"
+        ),
+        "label": "strong positive",
+    },
+    # Weak positive
+    {
+        "text": (
+            "the dots generally rise from left to right but are spread far "
+            "from any imagined trend line"
+        ),
+        "label": "weak positive",
+    },
+    {
+        "text": (
+            "the points have a slight upward drift but a lot of scatter "
+            "around the trend"
+        ),
+        "label": "weak positive",
+    },
+    {
+        "text": (
+            "the data slowly trends upward, but many points fall well above "
+            "or below the line"
+        ),
+        "label": "weak positive",
+    },
+    # Strong negative
+    {
+        "text": (
+            "the dots are tightly clustered around a clearly falling line "
+            "from left to right"
+        ),
+        "label": "strong negative",
+    },
+    {
+        "text": (
+            "the scatter shows points packed tightly along a steep downward "
+            "line"
+        ),
+        "label": "strong negative",
+    },
+    {
+        "text": (
+            "the data falls quickly and the points are very close to a "
+            "steep descending line"
+        ),
+        "label": "strong negative",
+    },
+    # Weak negative
+    {
+        "text": (
+            "the dots generally drift downward from left to right but are "
+            "widely scattered"
+        ),
+        "label": "weak negative",
+    },
+    {
+        "text": (
+            "the points show a slight downward tendency with plenty of "
+            "spread"
+        ),
+        "label": "weak negative",
+    },
+    {
+        "text": (
+            "the data slowly trends down, but the spread around the trend "
+            "line is large"
+        ),
+        "label": "weak negative",
+    },
+    # None
+    {
+        "text": (
+            "the dots are scattered everywhere on the plot with no rising "
+            "or falling pattern"
+        ),
+        "label": "none",
+    },
+    {
+        "text": (
+            "the points look randomly placed and don't seem to follow any "
+            "upward or downward trend"
+        ),
+        "label": "none",
+    },
+    {
+        "text": (
+            "there is no visible pattern as $x$ increases - the $y$-values "
+            "just hop around"
+        ),
+        "label": "none",
+    },
+    # Extra descriptions for bank coverage
+    {
+        "text": (
+            "the dots are tightly lined up along a gentle upward ridge with "
+            "very little spread"
+        ),
+        "label": "strong positive",
+    },
+    {
+        "text": (
+            "the dots barely lean downward and are scattered widely on "
+            "either side of any trend line"
+        ),
+        "label": "weak negative",
+    },
+    {
+        "text": (
+            "the points are packed neatly along a steep falling line"
+        ),
+        "label": "strong negative",
+    },
+    {
+        "text": (
+            "the points jitter in every direction, showing no clean rising "
+            "or falling tendency"
+        ),
+        "label": "none",
+    },
+)
+
+
+@register
+class CorrelationSignAndStrengthClassify(Generator):
+    """Classify a verbally described scatter as strong/weak positive/negative/none."""
+    generator_id = "correlation_sign_and_strength_classify"
+    topic_slug = "correlation_and_residuals"
+    display_name = "Classify correlation sign and strength from a description"
+    bank_count_per_difficulty = 15
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        entry = rng.choice(_CORRELATION_DESCRIPTIONS)
+        text = entry["text"]
+        label = entry["label"]
+
+        options = (
+            "strong positive",
+            "weak positive",
+            "strong negative",
+            "weak negative",
+            "none",
+        )
+        options_text = " | ".join(options)
+
+        statement = (
+            f"A scatter plot is described as follows: {text}. Classify the "
+            f"correlation as one of: {options_text}."
+        )
+
+        if label.endswith("positive"):
+            direction_note = (
+                "rising from left to right suggests a positive correlation"
+            )
+        elif label.endswith("negative"):
+            direction_note = (
+                "falling from left to right suggests a negative correlation"
+            )
+        else:
+            direction_note = (
+                "no rising or falling pattern suggests no correlation"
+            )
+
+        if label.startswith("strong"):
+            strength_note = (
+                "tightly clustered points around the trend suggest a strong "
+                "correlation"
+            )
+        elif label.startswith("weak"):
+            strength_note = (
+                "a wide spread around the trend suggests a weak correlation"
+            )
+        else:
+            strength_note = "without a trend, strength is not applicable"
+
+        key = (text, label)
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, key),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=label,
+            hints=[
+                (
+                    "Sign: rising = positive, falling = negative, no pattern "
+                    "= none. Strength: tight cluster = strong, wide spread "
+                    "= weak."
+                ),
+                (
+                    "Combine the sign and strength words to pick the best "
+                    "label."
+                ),
+            ],
+            solution_steps_latex=[
+                f"Read the description: {text}.",
+                f"Direction: {direction_note}.",
+                f"Strength: {strength_note}.",
+                f"Putting it together, the correlation is {label}.",
+            ],
+            tags=[
+                "#branch-algebra-1",
+                "#topic-linear",
+                "#skill-visualization",
+            ],
+        )
+
+
+# ---------------------------------------------------------------------------
+
+
+_RESIDUAL_CONTEXTS: tuple[tuple[str, str, str], ...] = (
+    ("hours studied", "quiz score", "points"),
+    ("pages drafted", "total word count", "words"),
+    ("miles jogged", "calories burned", "calories"),
+    ("bags of feed bought", "pounds of feed", "pounds"),
+    ("days of practice", "free throws made", "throws"),
+    ("tickets sold", "fundraiser total", "dollars"),
+    ("hours of rehearsal", "lines memorized", "lines"),
+    ("ounces of milk used", "grams of cheese produced", "grams"),
+)
+
+
+@register
+class ResidualComputeSingle(Generator):
+    """Compute a residual y - (m*x + b) for a single data point.
+
+    Backward construction: choose m, b, x, and a target residual explicitly,
+    then set the observed y = m*x + b + residual.
+    """
+    generator_id = "residual_compute_single"
+    topic_slug = "correlation_and_residuals"
+    display_name = "Compute a residual for one data point"
+
+    _M_RANGE = {"easy": (1, 5), "medium": (1, 8), "hard": (1, 12)}
+    _B_RANGE = {"easy": (0, 10), "medium": (-10, 20), "hard": (-20, 30)}
+    _X_RANGE = {"easy": (1, 8), "medium": (1, 12), "hard": (1, 20)}
+    _R_RANGE = {"easy": (-4, 4), "medium": (-7, 7), "hard": (-12, 12)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        m_lo, m_hi = self._M_RANGE[difficulty]
+        b_lo, b_hi = self._B_RANGE[difficulty]
+        x_lo, x_hi = self._X_RANGE[difficulty]
+        r_lo, r_hi = self._R_RANGE[difficulty]
+
+        m = rng.randint(m_lo, m_hi)
+        b = rng.randint(b_lo, b_hi)
+        x = rng.randint(x_lo, x_hi)
+        residual = rng.randint(r_lo, r_hi)
+        # Avoid residual 0 (too trivial) unless forced by a small range
+        if residual == 0:
+            residual = rng.choice([1, -1, 2, -2])
+
+        predicted = m * x + b
+        observed = predicted + residual
+
+        x_label, y_label, unit = rng.choice(_RESIDUAL_CONTEXTS)
+
+        if b >= 0:
+            line_latex = f"y = {m}x + {b}"
+            eval_latex = f"{m} \\cdot {x} + {b}"
+        else:
+            line_latex = f"y = {m}x - {abs(b)}"
+            eval_latex = f"{m} \\cdot {x} - {abs(b)}"
+
+        statement = (
+            f"A regression line $${line_latex}$$ models how {y_label} "
+            f"depend on {x_label}. For one data point, the observed "
+            f"{y_label} is ${observed}$ {unit} when ${x_label} = {x}$. "
+            f"Compute the residual for this data point."
+        )
+
+        answer = f"Residual $= {residual}$"
+
+        key = (m, b, x, residual, x_label[:6])
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, key),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=answer,
+            hints=[
+                (
+                    r"A residual is $y_{\text{observed}} - "
+                    r"y_{\text{predicted}}$, where the prediction comes "
+                    r"from substituting $x$ into the regression line."
+                ),
+                (
+                    f"First compute the predicted value ${line_latex}$ at "
+                    f"$x = {x}$."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    f"Compute the predicted value: $\\hat y = {eval_latex} "
+                    f"= {predicted}$."
+                ),
+                (
+                    f"Subtract the prediction from the observed value: "
+                    f"${observed} - {predicted} = {residual}$."
+                ),
+                f"The residual is ${residual}$.",
+            ],
+            tags=[
+                "#branch-algebra-1",
+                "#topic-linear",
+                "#skill-formula-substitution",
+            ],
+        )
+
+
+# ---------------------------------------------------------------------------
+
+
+_RESIDUAL_PLOT_CASES: tuple[dict, ...] = (
+    # Good-fit cases (yes, linear model appropriate)
+    {
+        "description": (
+            "the residuals are scattered randomly above and below zero with "
+            "no clear pattern, and their spread stays roughly constant"
+        ),
+        "answer": "yes",
+        "rationale": (
+            "random scatter around zero with constant spread is a sign that "
+            "a linear model fits the data well"
+        ),
+    },
+    {
+        "description": (
+            "the residuals bounce unpredictably between positive and negative "
+            "values with no bend or trend"
+        ),
+        "answer": "yes",
+        "rationale": (
+            "unpatterned residuals support a linear fit"
+        ),
+    },
+    {
+        "description": (
+            "the residuals show no curve or funnel, just an even cloud of "
+            "points around the horizontal axis"
+        ),
+        "answer": "yes",
+        "rationale": (
+            "an even, unpatterned cloud of residuals means the linear model "
+            "captures the trend"
+        ),
+    },
+    {
+        "description": (
+            "the residuals look like random noise centered on zero, with no "
+            "obvious shape"
+        ),
+        "answer": "yes",
+        "rationale": (
+            "random noise centered at zero is consistent with an appropriate "
+            "linear fit"
+        ),
+    },
+    {
+        "description": (
+            "the residuals appear randomly scattered with no systematic "
+            "tendency to be high on one side of the plot and low on the "
+            "other"
+        ),
+        "answer": "yes",
+        "rationale": (
+            "no systematic drift means the linear model is a good fit"
+        ),
+    },
+    {
+        "description": (
+            "the residuals wander randomly around the zero line, keeping a "
+            "similar average distance from zero across the plot"
+        ),
+        "answer": "yes",
+        "rationale": (
+            "random wandering with constant spread supports using a linear "
+            "model"
+        ),
+    },
+    # Bad-fit cases (no, linear model not appropriate)
+    {
+        "description": (
+            "the residuals form a clear U-shape: negative on the sides and "
+            "positive in the middle"
+        ),
+        "answer": "no",
+        "rationale": (
+            "a U-shape (or any curved pattern) in the residuals signals "
+            "that the relationship is not linear"
+        ),
+    },
+    {
+        "description": (
+            "the residuals start large and positive, sweep down through "
+            "zero, and end large and negative as $x$ increases"
+        ),
+        "answer": "no",
+        "rationale": (
+            "a systematic drift from positive to negative residuals shows "
+            "the linear model is missing curvature"
+        ),
+    },
+    {
+        "description": (
+            "the residuals fan out from left to right, getting wider as $x$ "
+            "increases"
+        ),
+        "answer": "no",
+        "rationale": (
+            "a fanning or funnel pattern shows that variability is not "
+            "constant, violating an assumption of linear regression"
+        ),
+    },
+    {
+        "description": (
+            "the residuals show a clear curved pattern: they arch upward "
+            "and then drop back down"
+        ),
+        "answer": "no",
+        "rationale": (
+            "an arched or curved pattern in residuals means a nonlinear "
+            "model would be more appropriate"
+        ),
+    },
+    {
+        "description": (
+            "the residuals form a curved band that dips below zero at both "
+            "ends and rises above zero in the middle"
+        ),
+        "answer": "no",
+        "rationale": (
+            "a curved residual pattern indicates the data has nonlinear "
+            "structure"
+        ),
+    },
+    {
+        "description": (
+            "the residuals consistently decrease as $x$ grows, producing a "
+            "clearly downward trend in the residual plot"
+        ),
+        "answer": "no",
+        "rationale": (
+            "any trend in the residual plot means the linear model is "
+            "systematically off"
+        ),
+    },
+)
+
+
+@register
+class ResidualPlotInterpretLinearity(Generator):
+    """Given a described residual plot, decide whether a linear model fits."""
+    generator_id = "residual_plot_interpret_linearity"
+    topic_slug = "correlation_and_residuals"
+    display_name = "Interpret a residual plot for linearity"
+    bank_count_per_difficulty = 12
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        case = rng.choice(_RESIDUAL_PLOT_CASES)
+        answer = case["answer"]
+        verdict = (
+            "Yes, a linear model is appropriate."
+            if answer == "yes"
+            else "No, a linear model is not appropriate."
+        )
+
+        statement = (
+            f"A residual plot is described as follows: {case['description']}. "
+            "Is a linear model appropriate for the original data? Answer "
+            "yes or no."
+        )
+
+        key = (case["description"][:30], answer)
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, key),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=verdict,
+            hints=[
+                (
+                    "If the residuals look like random scatter centered at "
+                    "zero with constant spread, a linear model is a good "
+                    "fit. Any curve, trend, or funnel in the residuals is "
+                    "a warning sign."
+                ),
+                (
+                    "Ask: is there a pattern? If yes, the linear model is "
+                    "missing something."
+                ),
+            ],
+            solution_steps_latex=[
+                f"Read the residual-plot description: {case['description']}.",
+                f"Interpretation: {case['rationale']}.",
+                verdict,
+            ],
+            tags=[
+                "#branch-algebra-1",
+                "#topic-linear",
+                "#skill-visualization",
+            ],
+        )

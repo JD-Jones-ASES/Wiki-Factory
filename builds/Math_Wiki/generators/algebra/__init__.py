@@ -33,4 +33,8 @@ from . import coordinate_plane_intro  # noqa: F401
 from . import applications_of_quadratics  # noqa: F401
 from . import percent_applications  # noqa: F401
 from . import ratios_and_proportions_algebra  # noqa: F401
+from . import piecewise_functions  # noqa: F401
+from . import conditional_probability  # noqa: F401
+from . import stats_inference  # noqa: F401
+from . import stats_displays  # noqa: F401
 

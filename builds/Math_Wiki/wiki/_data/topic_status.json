@@ -1,26 +1,26 @@
 {
   "summary": {
     "overall": {
-      "total_topics": 249,
+      "total_topics": 259,
       "complete": 0,
-      "draft": 198,
+      "draft": 208,
       "stub": 51,
-      "with_3plus_generators": 194,
-      "with_300plus_words": 198,
-      "avg_score": 70.9
+      "with_3plus_generators": 204,
+      "with_300plus_words": 208,
+      "avg_score": 71.6
     },
     "by_branch": {
       "algebra": {
         "branch": "algebra",
-        "topic_count": 98,
-        "with_generators": 82,
-        "with_prose_300": 80,
-        "with_examples_2": 64,
-        "with_figure": 17,
-        "avg_score": 73.7,
+        "topic_count": 104,
+        "with_generators": 88,
+        "with_prose_300": 86,
+        "with_examples_2": 67,
+        "with_figure": 21,
+        "avg_score": 74.4,
         "status_counts": {
           "stub": 18,
-          "draft": 80,
+          "draft": 86,
           "complete": 0,
           "unknown": 0
         }
@@ -57,15 +57,15 @@
       },
       "precalculus": {
         "branch": "precalculus",
-        "topic_count": 47,
-        "with_generators": 43,
-        "with_prose_300": 43,
-        "with_examples_2": 37,
-        "with_figure": 6,
-        "avg_score": 81.2,
+        "topic_count": 51,
+        "with_generators": 47,
+        "with_prose_300": 47,
+        "with_examples_2": 41,
+        "with_figure": 8,
+        "avg_score": 82.1,
         "status_counts": {
           "stub": 4,
-          "draft": 43,
+          "draft": 47,
           "complete": 0,
           "unknown": 0
         }
@@ -299,6 +299,46 @@
       "prerequisite_count": 3,
       "related_count": 4,
       "score": 90
+    },
+    {
+      "slug": "Conditional_Probability",
+      "branch": "algebra",
+      "relpath": "wiki/topics/algebra/Conditional_Probability.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1887,
+      "example_count": 0,
+      "figure_count": 1,
+      "wikilink_count": 11,
+      "generator_count": 3,
+      "generators": [
+        "cond_prob_from_two_way_table",
+        "cond_prob_multiplication_rule",
+        "cond_prob_independence_check"
+      ],
+      "prerequisite_count": 4,
+      "related_count": 5,
+      "score": 80
+    },
+    {
+      "slug": "Correlation_And_Residuals",
+      "branch": "algebra",
+      "relpath": "wiki/topics/algebra/Correlation_And_Residuals.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 2264,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 25,
+      "generator_count": 3,
+      "generators": [
+        "correlation_sign_and_strength_classify",
+        "residual_compute_single",
+        "residual_plot_interpret_linearity"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 6,
+      "score": 95
     },
     {
       "slug": "Cube_Root_And_Other_Radical_Functions",
@@ -673,6 +713,26 @@
       "score": 95
     },
     {
+      "slug": "Histograms_And_Box_Plots",
+      "branch": "algebra",
+      "relpath": "wiki/topics/algebra/Histograms_And_Box_Plots.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1770,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 15,
+      "generator_count": 3,
+      "generators": [
+        "box_plot_five_number_summary",
+        "box_plot_iqr_and_outliers",
+        "histogram_read_frequency"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 95
+    },
+    {
       "slug": "Hyperbolas",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Hyperbolas.md",
@@ -831,6 +891,26 @@
       "prerequisite_count": 3,
       "related_count": 6,
       "score": 90
+    },
+    {
+      "slug": "Margin_Of_Error_And_Confidence_Intervals",
+      "branch": "algebra",
+      "relpath": "wiki/topics/algebra/Margin_Of_Error_And_Confidence_Intervals.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 2292,
+      "example_count": 0,
+      "figure_count": 0,
+      "wikilink_count": 13,
+      "generator_count": 3,
+      "generators": [
+        "margin_of_error_interval_construct",
+        "margin_of_error_interpret_claim",
+        "margin_of_error_shrink_with_sample_size"
+      ],
+      "prerequisite_count": 4,
+      "related_count": 6,
+      "score": 75
     },
     {
       "slug": "Modeling_With_Linear_Functions",
@@ -1064,6 +1144,26 @@
       "prerequisite_count": 0,
       "related_count": 0,
       "score": 25
+    },
+    {
+      "slug": "Piecewise_Functions",
+      "branch": "algebra",
+      "relpath": "wiki/topics/algebra/Piecewise_Functions.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1699,
+      "example_count": 0,
+      "figure_count": 1,
+      "wikilink_count": 14,
+      "generator_count": 3,
+      "generators": [
+        "piecewise_evaluate_at_point",
+        "piecewise_match_formula_to_graph",
+        "piecewise_domain_and_range"
+      ],
+      "prerequisite_count": 4,
+      "related_count": 6,
+      "score": 80
     },
     {
       "slug": "Polynomial_Basics",
@@ -1307,6 +1407,26 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
+      "score": 90
+    },
+    {
+      "slug": "Sampling_Methods_And_Bias",
+      "branch": "algebra",
+      "relpath": "wiki/topics/algebra/Sampling_Methods_And_Bias.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 2176,
+      "example_count": 3,
+      "figure_count": 0,
+      "wikilink_count": 16,
+      "generator_count": 3,
+      "generators": [
+        "sampling_classify_method",
+        "sampling_identify_bias_source",
+        "sampling_generalizability_check"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
       "score": 90
     },
     {
@@ -4042,6 +4162,26 @@
       "score": 90
     },
     {
+      "slug": "Binomial_Probability",
+      "branch": "precalculus",
+      "relpath": "wiki/topics/precalculus/Binomial_Probability.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1363,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 15,
+      "generator_count": 3,
+      "generators": [
+        "binomial_exactly_k_successes",
+        "binomial_at_least_k_successes",
+        "binomial_expected_value_np"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 95
+    },
+    {
       "slug": "Cartesian_Plane",
       "branch": "precalculus",
       "relpath": "wiki/topics/precalculus/Cartesian_Plane.md",
@@ -4152,6 +4292,26 @@
         "dot_product_compute",
         "dot_product_angle_between",
         "dot_product_perpendicular_test"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 90
+    },
+    {
+      "slug": "Expected_Value",
+      "branch": "precalculus",
+      "relpath": "wiki/topics/precalculus/Expected_Value.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1224,
+      "example_count": 3,
+      "figure_count": 0,
+      "wikilink_count": 13,
+      "generator_count": 3,
+      "generators": [
+        "expected_value_discrete_3_outcomes",
+        "expected_value_fair_game_check",
+        "expected_value_weighted_average"
       ],
       "prerequisite_count": 3,
       "related_count": 4,
@@ -4574,6 +4734,26 @@
       "score": 90
     },
     {
+      "slug": "Normal_Distribution",
+      "branch": "precalculus",
+      "relpath": "wiki/topics/precalculus/Normal_Distribution.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1360,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 13,
+      "generator_count": 3,
+      "generators": [
+        "normal_empirical_rule_range",
+        "normal_zscore_compute",
+        "normal_percentage_above_or_below"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 95
+    },
+    {
       "slug": "Parametric",
       "branch": "precalculus",
       "relpath": "wiki/topics/precalculus/Parametric.md",
@@ -4608,6 +4788,26 @@
       "prerequisite_count": 0,
       "related_count": 0,
       "score": 5
+    },
+    {
+      "slug": "Permutations_And_Combinations",
+      "branch": "precalculus",
+      "relpath": "wiki/topics/precalculus/Permutations_And_Combinations.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1374,
+      "example_count": 3,
+      "figure_count": 0,
+      "wikilink_count": 14,
+      "generator_count": 3,
+      "generators": [
+        "nPr_direct_compute",
+        "nCr_direct_compute",
+        "perm_comb_word_problem"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 90
     },
     {
       "slug": "Polar_Form_Of_Complex_Numbers",
