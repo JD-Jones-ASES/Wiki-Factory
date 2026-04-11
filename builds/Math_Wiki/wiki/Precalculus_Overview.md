@@ -48,24 +48,34 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Calculus topics (Stitz-Zeager AlgTrig) --- 5 live / 47 total
+### Pre-Calculus topics (Stitz-Zeager AlgTrig) --- 17 live / 47 total
 
-**🟢 Live topics with practice widgets (5)**
+**🟢 Live topics with practice widgets (17)**
 
+- 🟢 [[Angles|Angles]]
 - 🟢 [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]]
+- 🟢 [[Circular_Functions|Circular Functions]]
 - 🟢 [[Function_Notation|Function Notation]]
+- 🟢 [[Graphs_Of_Trigonometric_Functions|Graphs of Trigonometric Functions]]
+- 🟢 [[Identities|Identities]]
 - 🟢 [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]]
 - 🟢 [[Introduction_To_Rational_Functions|Introduction to Rational Functions]]
+- 🟢 [[Inverse_Trigonometric_Functions|Inverse Trigonometric Functions]]
 - 🟢 [[Properties_Of_Logarithms|Properties of Logarithms]]
+- 🟢 [[Sinusoid|Sinusoid]]
+- 🟢 [[Dot_Product|The Dot Product]]
+- 🟢 [[Law_Of_Cosines|The Law of Cosines]]
+- 🟢 [[Law_Of_Sines|The Law of Sines]]
+- 🟢 [[The_Unit_Circle|The Unit Circle]]
+- 🟢 [[Trigonometric_Equations|Trigonometric Equations]]
+- 🟢 [[Vectors|Vectors]]
 
 <details>
-<summary>⚪ 42 stub topic(s) (click to expand)</summary>
+<summary>⚪ 30 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Algebraic_Functions|Algebraic Functions]] --- _3 worked example(s)_
-- ⚪ [[Angles|Angles]] --- _5 worked example(s)_
 - ⚪ [[Augmented_Matrices|Augmented Matrices]] --- _3 worked example(s)_
 - ⚪ [[Binomial|Binomial]] --- _2 worked example(s)_
-- ⚪ [[Circular_Functions|Circular Functions]] --- _5 worked example(s)_
 - ⚪ [[Complex_Zeros|Complex Zeros of Polynomials]] --- _4 worked example(s)_
 - ⚪ [[Conic_Sections_In_Polar_Coordinates|Conic Sections in Polar Coordinates]] --- _4 worked example(s)_
 - ⚪ [[Determinants|Determinants]] --- _1 worked example(s)_
@@ -74,14 +84,11 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 - ⚪ [[Polar_Graphs|Graphs of Polar Equations]] --- _4 worked example(s)_
 - ⚪ [[Graphs_Of_Polynomials|Graphs of Polynomials]] --- _6 worked example(s)_
 - ⚪ [[Graphs_Of_Rational_Functions|Graphs of Rational Functions]] --- _4 worked example(s)_
-- ⚪ [[Graphs_Of_Trigonometric_Functions|Graphs of Trigonometric Functions]] --- _5 worked example(s)_
-- ⚪ [[Identities|Identities]] --- _6 worked example(s)_
 - ⚪ [[Induction|Induction]] --- _1 worked example(s)_
 - ⚪ [[Inequalities|Inequalities]] --- _6 worked example(s)_
 - ⚪ [[Introduction_To_Conics|Introduction to Conic Sections]]
 - ⚪ [[Introduction_To_Functions|Introduction to Functions]] --- _5 worked example(s)_
 - ⚪ [[Introduction_To_Polar_Coordinates|Introduction to Polar Coordinates]] --- _3 worked example(s)_
-- ⚪ [[Inverse_Trigonometric_Functions|Inverse Trigonometric Functions]] --- _7 worked example(s)_
 - ⚪ [[Linear_Regression|Linear Regression]] --- _2 worked example(s)_
 - ⚪ [[Matrix_Arithmetic|Matrix Arithmetic]] --- _3 worked example(s)_
 - ⚪ [[Matrix_Methods|Matrix Methods for Systems]] --- _2 worked example(s)_
@@ -92,17 +99,10 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 - ⚪ [[Real_Zeros_Of_Polynomials|Real Zeros of Polynomials]] --- _8 worked example(s)_
 - ⚪ [[Real_Zeros_Of_Polynomials_Advanced|Real Zeros of Polynomials (Advanced)]] --- _8 worked example(s)_
 - ⚪ [[Relations|Relations]] --- _4 worked example(s)_
-- ⚪ [[Sinusoid|Sinusoid]] --- _4 worked example(s)_
 - ⚪ [[Summation|Summation]] --- _2 worked example(s)_
 - ⚪ [[Cartesian_Plane|The Cartesian Plane]] --- _7 worked example(s)_
-- ⚪ [[Dot_Product|The Dot Product]] --- _5 worked example(s)_
-- ⚪ [[Law_Of_Cosines|The Law of Cosines]] --- _3 worked example(s)_
-- ⚪ [[Law_Of_Sines|The Law of Sines]] --- _4 worked example(s)_
-- ⚪ [[The_Unit_Circle|The Unit Circle]] --- _8 worked example(s)_
 - ⚪ [[Transformations|Transformations]] --- _5 worked example(s)_
-- ⚪ [[Trigonometric_Equations|Trigonometric Equations]] --- _4 worked example(s)_
 - ⚪ [[Trigonometric_Inequalities|Trigonometric Inequalities]] --- _5 worked example(s)_
-- ⚪ [[Vectors|Vectors]] --- _6 worked example(s)_
 
 </details>
 

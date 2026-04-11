@@ -47,13 +47,14 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Algebra topics (middle-school foundations) --- 33 live / 92 total
+### Pre-Algebra topics (middle-school foundations) --- 36 live / 92 total
 
-**🟢 Live topics with practice widgets (33)**
+**🟢 Live topics with practice widgets (36)**
 
 - 🟢 [[Adding_And_Subtracting_Decimals|Adding and Subtracting Decimals]]
 - 🟢 [[Adding_And_Subtracting_Fractions|Adding and Subtracting Fractions]]
 - 🟢 [[Adding_And_Subtracting_Integers|Adding and Subtracting Integers]]
+- 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 - 🟢 [[Comparing_And_Ordering_Fractions|Comparing and Ordering Fractions]]
 - 🟢 [[Decimal_Place_Value_And_Comparing_Decimals|Decimal Place Value and Comparing Decimals]]
 - 🟢 [[Dividing_Decimals|Dividing Decimals]]
@@ -74,6 +75,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Proportions_And_Cross_Multiplication|Proportions and Cross Multiplication]]
 - 🟢 [[Rational_Exponents|Rational Exponents]]
 - 🟢 [[Ratios_And_Equivalent_Ratios|Ratios and Equivalent Ratios]]
+- 🟢 [[Similar_Triangles|Similar Triangles]]
 - 🟢 [[Simple_And_Compound_Interest|Simple and Compound Interest]]
 - 🟢 [[Slope_Intercept_Form|Slope-Intercept Form]]
 - 🟢 [[Solving_One_Step_And_Two_Step_Inequalities|Solving One-Step and Two-Step Inequalities]]
@@ -81,18 +83,18 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[The_Distance_Formula|The Distance Formula]]
 - 🟢 [[The_Distributive_Property|The Distributive Property]]
 - 🟢 [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
+- 🟢 [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]]
 - 🟢 [[Unit_Rates|Unit Rates]]
 - 🟢 [[Variables_And_Algebraic_Expressions|Variables and Algebraic Expressions]]
 - 🟢 [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 
 <details>
-<summary>⚪ 59 stub topic(s) (click to expand)</summary>
+<summary>⚪ 56 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value|Absolute Value]] --- _4 worked example(s)_
 - ⚪ [[Absolute_Value_And_Opposites|Absolute Value and Opposites]] --- _4 worked example(s)_
 - ⚪ [[Adding_And_Subtracting_Mixed_Numbers|Adding and Subtracting Mixed Numbers]] --- _4 worked example(s)_
 - ⚪ [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]] --- _4 worked example(s)_
-- ⚪ [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]] --- _6 worked example(s)_
 - ⚪ [[Applications_Tax_Tip_Discount_And_Simple_Interest|Applications: Tax, Tip, Discount, and Simple Interest]] --- _4 worked example(s)_
 - ⚪ [[Arithmetic_Sequences_And_Linear_Patterns|Arithmetic Sequences and Linear Patterns]] --- _5 worked example(s)_
 - ⚪ [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]] --- _4 worked example(s)_
@@ -127,7 +129,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Repeating_Decimals_As_Fractions|Repeating Decimals as Fractions]] --- _5 worked example(s)_
 - ⚪ [[Review_Of_Perimeter_And_Area|Review of Perimeter and Area]] --- _4 worked example(s)_
 - ⚪ [[Scale_Drawings_And_Maps|Scale Drawings and Maps]] --- _4 worked example(s)_
-- ⚪ [[Similar_Triangles|Similar Triangles]] --- _4 worked example(s)_
 - ⚪ [[Simplifying_Expressions|Simplifying Expressions]] --- _4 worked example(s)_
 - ⚪ [[Slope_As_Rate_Of_Change|Slope as Rate of Change]] --- _4 worked example(s)_
 - ⚪ [[Solving_Equations_With_Fractions_And_Decimals|Solving Equations with Fractions and Decimals]] --- _4 worked example(s)_
@@ -141,7 +142,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[The_Midpoint_Formula|The Midpoint Formula]] --- _4 worked example(s)_
 - ⚪ [[The_Percent_Equation|The Percent Equation]] --- _4 worked example(s)_
 - ⚪ [[Translating_Words_To_Algebraic_Expressions|Translating Words to Algebraic Expressions]] --- _4 worked example(s)_
-- ⚪ [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]] --- _4 worked example(s)_
 - ⚪ [[Understanding_Percents|Understanding Percents]] --- _4 worked example(s)_
 - ⚪ [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]] --- _4 worked example(s)_
 - ⚪ [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]] --- _4 worked example(s)_

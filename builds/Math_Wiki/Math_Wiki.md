@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.12.0 --- Cluster 6 Exponentials & Logarithms shipped, 100 live topics! (2026-04-10)
+### Version 1.13.0 --- Cluster 7 Trigonometry shipped, 115 live topics (2026-04-10)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 100 topics with working widgets, 302 generators, 25,414 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
+| **Scale** | Live: 115 topics with working widgets, 347 generators, 28,008 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -28,8 +28,9 @@
 - **Cluster 3** (polynomials + quadratics deep, 14 topics) — **shipped** commit `bb768cc`
 - **Cluster 4** (rationals & radicals, 12 topics) — **shipped** commit `a3db819`
 - **Cluster 5** (functions & transformations, 14 topics) — **shipped** commit `bedee97`
-- **Cluster 6** (exponentials & logarithms, 10 topics) — **shipped** (this version, **100 live topics total**)
-- **Next:** Cluster 7 (Trigonometry, ~15 topics)
+- **Cluster 6** (exponentials & logarithms, 10 topics) — **shipped** commit `db5421c`
+- **Cluster 7** (trigonometry, 15 topics) — **shipped** (this version, **115 live topics total**)
+- **Next:** Cluster 8 (Sequences, probability, statistics, ~10 topics)
 
 ### 30-second mental model
 
@@ -964,9 +965,9 @@ The comprehensive buildout from the current state to complete integration of the
 | **3** | Polynomials + Quadratics deep | 14 | **shipped** |
 | **4** | Rationals & Radicals | 12 | **shipped** |
 | **5** | Functions & Transformations | 14 | **shipped** |
-| **6** | Exponentials & Logarithms | 10 | **shipped in this session** |
-| **7** | Trigonometry | ~15 | **next** |
-| **8** | Sequences, probability, statistics | ~10 | pending |
+| **6** | Exponentials & Logarithms | 10 | **shipped** |
+| **7** | Trigonometry | 15 | **shipped in this session** |
+| **8** | Sequences, probability, statistics | ~10 | **next** |
 | **9** | Conics, matrices, complex numbers, vectors | ~12 | pending |
 | **L** | Lint/polish + prereq-graph widget + ingest smoke test | 0 | pending |
 
@@ -1076,6 +1077,66 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.13.0 --- Cluster 7 Trigonometry (2026-04-10)
+
+**Stats:** 15 topics enriched (+15 live, now **115 total**), 45 new generators (+45, now 347 total), 2,594 new verified problems (+2,594, now 28,008 total), 4 new matplotlib figures (unit circle with 16 special angles, sine/cosine graphs, SOH-CAH-TOA 3-4-5 triangle, vector addition head-to-tail). First cluster to populate the `#branch-pre-calculus` trigonometry pages AND the `#topic-trig-*` tag family.
+
+**Topics shipped (all at draft status):**
+
+- **Pre-algebra geometry foundations (3):** Similar_Triangles, Triangle_Angle_Sum_And_Exterior_Angles, Applications_Of_The_Pythagorean_Theorem
+- **Angles and definitions (1):** Angles (pre-calculus)
+- **Unit circle and circular functions (3):** Circular_Functions, The_Unit_Circle, Inverse_Trigonometric_Functions (pre-calculus)
+- **Identities, equations, graphs, sinusoids (4):** Identities, Trigonometric_Equations, Graphs_Of_Trigonometric_Functions, Sinusoid (pre-calculus)
+- **Laws and vectors (4):** Law_Of_Sines, Law_Of_Cosines, Vectors, Dot_Product (pre-calculus)
+
+**12 new pre-calc topics** shipped in this cluster, bringing the pre-calculus branch from 5/47 → 17/47 live. The precalculus hub now shows a genuine body of content (angles, unit circle, identities, equations, laws, vectors) rather than scattered orphans.
+
+**Generator modules added (2, in a new subdirectory):**
+
+- **Created `generators/precalculus/` directory** — new package for pre-calc-specific generators, with its own `__init__.py`. Top-level `generators/__init__.py` now imports it.
+- `generators/precalculus/trig_core.py` — 15 generators covering 5 core topics (angles × 3, circular_functions × 3, the_unit_circle × 3, inverse_trigonometric_functions × 3, graphs_of_trigonometric_functions × 3)
+- `generators/precalculus/trig_advanced.py` — 30 generators covering 10 topics (similar_triangles × 3, triangle_angle_sum × 3, applications_of_pythagorean × 3, identities × 3, trigonometric_equations × 3, sinusoid × 3, law_of_sines × 3, law_of_cosines × 3, vectors × 3, dot_product × 3)
+
+**Figures added** (all in NEW `wiki/assets/figures/precalculus/` subdirectory):
+
+- `unit_circle.svg` — 8×8 square unit circle with all 16 special angles plotted, radius lines drawn, and $(x, y)$ coordinates labeled in exact form (fractions of $\sqrt{2}/2, \sqrt{3}/2, 1/2$, etc.)
+- `sine_cosine_graphs.svg` — stacked subplots of $y = \sin x$ and $y = \cos x$ over $[-2\pi, 2\pi]$, x-axis labeled in π units, reference lines at ±1 and 0
+- `right_triangle_soh_cah_toa.svg` — 3-4-5 right triangle with labeled sides (opposite, adjacent, hypotenuse), angle θ marked with an arc, and the three trig ratio equations displayed underneath
+- `vector_addition.svg` — $\vec{u} = \langle 5, 1 \rangle$ and $\vec{v} = \langle 2, 4 \rangle$ added head-to-tail to produce $\vec{u} + \vec{v} = \langle 7, 5 \rangle$, with all three vectors drawn as arrows
+
+**Execution model:**
+
+4 parallel content sub-agents (4+4+4+3 topics) + 2 parallel generator sub-agents (15+30 generators) + 1 figures sub-agent. All 7 sub-agents succeeded on the first dispatch. The trig_advanced agent authored 30 generators in a single module — the largest single-agent generator batch this session, and it handled it cleanly.
+
+**What worked:**
+
+- **Trig pedagogy anchored on the unit circle.** Rather than treating SOH-CAH-TOA as the starting point (which limits you to 0-90° angles), the cluster uses the unit-circle definition as the foundation and presents right-triangle trig as a special case of it. That unified view pays off immediately when trig functions need to accept angles beyond 90°.
+- **Pre-calc directory organization.** Moving pre-calc generators to their own `generators/precalculus/` subdirectory (instead of lumping them under `generators/algebra/`) is cleaner and makes the import graph match the content graph. This is a good precedent for Cluster 9 (where conics, matrices, and complex numbers will also get their own home).
+- **Identity derivations.** The Identities page derives $\sin^2\theta + \cos^2\theta = 1$ from the unit-circle equation $x^2 + y^2 = 1$, then builds the derived identities from that single fact. Students don't have to memorize a pile of disconnected rules; they can regenerate the whole family from one anchor.
+- **SSA ambiguous case for Law of Sines.** Including an explicit zero/one/two-triangle classification in both the content and the generator is the right pedagogical move — this is the single most confusing case in oblique-triangle solving, and every student should see it.
+- **Backward construction for trig generators.** All 45 generators pick clean answer values (unit-circle exact values, Pythagorean-triple triangle sides, integer angles) and derive the problem parameters. No guess-and-check, no parameter-space-too-small failures after first iteration.
+- **Figures with exact values on the unit circle.** The unit circle figure shows all 16 special angles with their exact $(x, y)$ coordinates labeled. This turns the figure into a genuine reference students can come back to rather than just a decorative diagram.
+
+**What failed and how it was fixed:**
+
+- **2 copyright near-misses on idiomatic phrasings**: "equals the sum of the two remote interior angles" on Triangle_Angle_Sum (rewrote) and "an identity is an equation that is true for every angle" on Identities (rewrote). Both one-line fixes.
+- **2 dead wikilinks**: Triangle_Angle_Sum referenced `[[Solving_One_Step_Equations]]` and `[[Parallel_Lines_And_Transversals]]`. The first was a typo (actual target: `[[One_Step_Equations]]`); the second doesn't exist in this cluster (rewired to `[[Similar_Triangles]]`).
+- **Additional copyright hits on Pythagorean Applications**: "the hypotenuse is always opposite the right angle and always the longest side" (rewrote) and "every positive number has two square roots one positive and one negative" (rewrote).
+- **Mathtext `\tfrac` incompatibility**: The figures agent's first run failed because matplotlib's mathtext parser doesn't support `\tfrac`. Switched to `\frac` and the script ran cleanly.
+
+**Gate checks after Cluster 7:**
+
+- **Pytest:** 29/29 green (8 circles-parametrized across 347 generators + 10 consolidate-snapshot + 3 copyright + 8 ingest smoke).
+- **Lint:** 0 errors, 0 warnings, 1 info (151 stub pages — down from 166).
+- **YAML:** 257/257 clean.
+- **Topic status:** 239 topics, avg score **47.2** / 100 (was 43.4). 113 topics with 3+ generators (was 100). Pre-calculus avg jumped dramatically from 22.6 → **42.1** as the 12 new pre-calc topics came online with full generators.
+- **Bank size:** 23.2 MB across 115 shards, all under 320 KB each. Largest: `sinusoid.json` at 238.9 KB.
+- **Branch hubs:** Algebra_Overview (98 live) and Precalculus_Overview (17 live) both regenerated. The Precalculus hub now genuinely shows a trig section alongside the functions section.
+
+**Milestone: Trigonometry activated.** The trig branch of the catalog — 9 pre-calc trig topics plus 3 pre-algebra geometry prerequisites plus vectors and dot product — is now 100% populated. Combined with the 10 exp/log topics in Cluster 6 and the 14 functions topics in Cluster 5, Math_Wiki now covers essentially all of algebra-2 and most of pre-calculus. What remains is sequences/series/probability/statistics and conic sections/matrices/complex numbers.
+
+**What's next (Cluster 8):** Sequences, probability, statistics. ~10 topics covering arithmetic and geometric sequences and series, induction (light), permutations and combinations, probability of simple and compound events, data displays and measures of spread, histograms and box plots. Smaller cluster than Cluster 7; should fit in one session.
 
 ### Version 1.12.0 --- Cluster 6 Exponentials & Logarithms (2026-04-10)
 

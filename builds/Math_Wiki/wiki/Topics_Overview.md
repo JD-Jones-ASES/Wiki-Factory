@@ -9,20 +9,20 @@ source_refs: []
 related: []
 status: complete
 confidence: high
-summary: "Index of every live topic (100) and stub topic (139) in Math Wiki."
+summary: "Index of every live topic (115) and stub topic (124) in Math Wiki."
 ---
 
 # Topics Overview
 
 > [[_overview|Home]] > Topics
 
-Every math topic covered by the wiki lives on one page. This index lists the **100 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
+Every math topic covered by the wiki lives on one page. This index lists the **115 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
 
 Use **search** (the box in the left sidebar) to jump directly to a topic by name.
 
 ---
 
-## 🟢 Live Topics (100)
+## 🟢 Live Topics (115)
 
 Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed problem types, and cross-references to prerequisite and related topics.
 
@@ -75,6 +75,11 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 
 **Money math** (new in Cluster 6)
 - [[Simple_And_Compound_Interest|Simple and Compound Interest]]
+
+**Geometry foundations** (new in Cluster 7)
+- [[Similar_Triangles|Similar Triangles]]
+- [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]]
+- [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 
 ### Algebra 1 (41 topics)
 
@@ -174,13 +179,32 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Logarithmic_Functions|Logarithmic Functions]]
 - [[Logarithmic_Equations|Logarithmic Equations]]
 
-### Pre-Calculus (5 topics) (expanded in Cluster 6)
+### Pre-Calculus (17 topics) (expanded in Cluster 7)
 
+**Functions and rationals**
 - [[Function_Notation|Function Notation]]
 - [[Introduction_To_Rational_Functions|Introduction to Rational Functions]]
+
+**Exponentials and logarithms**
 - [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]]
 - [[Properties_Of_Logarithms|Properties of Logarithms]]
 - [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]]
+
+**Trigonometry** (new in Cluster 7)
+- [[Angles|Angles and Radian Measure]]
+- [[Circular_Functions|Circular Functions]]
+- [[The_Unit_Circle|The Unit Circle]]
+- [[Inverse_Trigonometric_Functions|Inverse Trigonometric Functions]]
+- [[Identities|Trigonometric Identities]]
+- [[Trigonometric_Equations|Trigonometric Equations]]
+- [[Graphs_Of_Trigonometric_Functions|Graphs of Trigonometric Functions]]
+- [[Sinusoid|Sinusoids]]
+- [[Law_Of_Sines|Law of Sines]]
+- [[Law_Of_Cosines|Law of Cosines]]
+
+**Vectors** (new in Cluster 7)
+- [[Vectors|Vectors]]
+- [[Dot_Product|Dot Product]]
 
 ### Geometry (1 topic)
 
@@ -188,13 +212,13 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 
 ---
 
-## ⚪ Stub Topics (139)
+## ⚪ Stub Topics (124)
 
 Every remaining topic is listed under its branch hub with the full catalog coverage. Stubs have the frontmatter and source references but no prose or practice widgets yet. They become live one cluster at a time.
 
-- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~96 stubs)
+- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~93 stubs)
 - [[Geometry_Overview|Geometry branch hub]] (coordinate plane, ~1 stub)
-- [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~42 stubs)
+- [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~30 stubs)
 
 See [[Topic_Status|Progress Dashboard]] for per-topic scores and status.
 

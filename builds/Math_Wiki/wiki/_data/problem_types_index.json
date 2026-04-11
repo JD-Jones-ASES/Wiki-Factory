@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T23:16:55.129291+00:00",
+  "generated_at": "2026-04-10T23:57:19.133751+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 302,
+  "generator_count": 347,
   "by_topic": {
     "circles": [
       {
@@ -3224,6 +3224,486 @@
           "hard": 30
         }
       }
+    ],
+    "angles": [
+      {
+        "generator_id": "convert_degrees_to_radians",
+        "display_name": "Convert an angle from degrees to radians",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 25,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "convert_radians_to_degrees",
+        "display_name": "Convert an angle from radians to degrees",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "coterminal_angle",
+        "display_name": "Find a coterminal angle in the standard interval",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "circular_functions": [
+      {
+        "generator_id": "circ_fn_from_unit_circle_point",
+        "display_name": "Read sine, cosine, tangent from a unit circle point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "circ_fn_sign_in_quadrant",
+        "display_name": "State the signs of sin, cos, tan in a given quadrant",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "circ_fn_reciprocal_evaluate",
+        "display_name": "Compute reciprocal trig values (csc, sec, cot)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      }
+    ],
+    "the_unit_circle": [
+      {
+        "generator_id": "unit_circle_exact_value",
+        "display_name": "Compute sin or cos of a standard unit-circle angle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 16,
+          "medium": 16,
+          "hard": 16
+        }
+      },
+      {
+        "generator_id": "unit_circle_reference_angle",
+        "display_name": "Find the reference angle of a standard angle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "unit_circle_coordinate_from_angle",
+        "display_name": "State the (x, y) terminal point for a standard angle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 16,
+          "medium": 16,
+          "hard": 16
+        }
+      }
+    ],
+    "inverse_trigonometric_functions": [
+      {
+        "generator_id": "arcsin_exact_value",
+        "display_name": "Evaluate arcsin at an exact value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 9,
+          "medium": 9,
+          "hard": 9
+        }
+      },
+      {
+        "generator_id": "arccos_exact_value",
+        "display_name": "Evaluate arccos at an exact value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 9,
+          "medium": 9,
+          "hard": 9
+        }
+      },
+      {
+        "generator_id": "arctan_exact_value",
+        "display_name": "Evaluate arctan at an exact value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 7,
+          "medium": 7,
+          "hard": 7
+        }
+      }
+    ],
+    "graphs_of_trigonometric_functions": [
+      {
+        "generator_id": "trig_period_amplitude",
+        "display_name": "Find amplitude and period of y = A sin(Bx) or A cos(Bx)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "trig_graph_intercepts",
+        "display_name": "Find x-intercepts of a basic sinusoid in [0, 2pi]",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "trig_identify_function_from_features",
+        "display_name": "Identify a trig function from its amplitude, period, and initial behaviour",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      }
+    ],
+    "similar_triangles": [
+      {
+        "generator_id": "similar_triangles_find_missing_side",
+        "display_name": "Find a missing side using similar triangles",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "similar_triangles_check_aa",
+        "display_name": "Decide if two triangles are similar (AA criterion)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "similar_triangles_scale_factor",
+        "display_name": "Find the scale factor between two similar triangles",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "triangle_angle_sum_and_exterior_angles": [
+      {
+        "generator_id": "triangle_find_missing_angle",
+        "display_name": "Find the missing angle of a triangle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "exterior_angle_theorem",
+        "display_name": "Apply the Exterior Angle Theorem",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "triangle_angle_from_equation",
+        "display_name": "Solve for $x$ given algebraic angle expressions",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      }
+    ],
+    "applications_of_the_pythagorean_theorem": [
+      {
+        "generator_id": "ladder_problem",
+        "display_name": "Ladder against a wall (Pythagorean triple)",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 24,
+          "medium": 24,
+          "hard": 24
+        }
+      },
+      {
+        "generator_id": "diagonal_of_rectangle",
+        "display_name": "Find the diagonal of a rectangle",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 20,
+          "medium": 24,
+          "hard": 24
+        }
+      },
+      {
+        "generator_id": "distance_between_points_2d",
+        "display_name": "Distance between two points on a grid",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "identities": [
+      {
+        "generator_id": "pythagorean_identity_apply",
+        "display_name": "Apply the Pythagorean identity to find sin or cos",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 24,
+          "medium": 24,
+          "hard": 24
+        }
+      },
+      {
+        "generator_id": "double_angle_apply",
+        "display_name": "Apply a double-angle formula to find sin(2t) or cos(2t)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "sum_difference_apply",
+        "display_name": "Apply a sum/difference formula to find an exact trig value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      }
+    ],
+    "trigonometric_equations": [
+      {
+        "generator_id": "trig_eq_sin_equals_value",
+        "display_name": "Solve $\\sin x = v$ for clean unit-circle values",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 6,
+          "medium": 6,
+          "hard": 6
+        }
+      },
+      {
+        "generator_id": "trig_eq_cos_equals_value",
+        "display_name": "Solve $\\cos x = v$ for clean unit-circle values",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 6,
+          "medium": 6,
+          "hard": 6
+        }
+      },
+      {
+        "generator_id": "trig_eq_quadratic_in_sin",
+        "display_name": "Solve a quadratic-in-sine trigonometric equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        }
+      }
+    ],
+    "sinusoid": [
+      {
+        "generator_id": "sinusoid_identify_parameters",
+        "display_name": "Identify amplitude, period, phase shift, vertical shift of a sinusoid",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "sinusoid_max_min_midline",
+        "display_name": "Max, min, and midline of a sinusoid",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "sinusoid_from_features",
+        "display_name": "Write a sinusoid function from its features",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "law_of_sines": [
+      {
+        "generator_id": "law_of_sines_find_side",
+        "display_name": "Find a side using the Law of Sines (AAS/ASA)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "law_of_sines_find_angle",
+        "display_name": "Find an angle using the Law of Sines (SSA, non-ambiguous)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 7,
+          "medium": 7,
+          "hard": 7
+        }
+      },
+      {
+        "generator_id": "law_of_sines_ambiguous_case",
+        "display_name": "Classify SSA: ambiguous case (0, 1, or 2 triangles)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      }
+    ],
+    "law_of_cosines": [
+      {
+        "generator_id": "law_of_cosines_find_side",
+        "display_name": "Find a side using the Law of Cosines (SAS)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 8,
+          "medium": 8,
+          "hard": 8
+        }
+      },
+      {
+        "generator_id": "law_of_cosines_find_angle",
+        "display_name": "Find an angle using the Law of Cosines (SSS)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 7,
+          "medium": 7,
+          "hard": 7
+        }
+      },
+      {
+        "generator_id": "law_of_cosines_sas_integer",
+        "display_name": "Law of Cosines (SAS): clean 60/120 integer case",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 8,
+          "medium": 8,
+          "hard": 8
+        }
+      }
+    ],
+    "vectors": [
+      {
+        "generator_id": "vector_magnitude",
+        "display_name": "Magnitude of a 2D vector using Pythagorean triples",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "vector_addition_and_scalar",
+        "display_name": "Compute $c\\vec{u} + \\vec{v}$ for given vectors",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "vector_polar_to_rectangular",
+        "display_name": "Convert polar (magnitude, angle) to rectangular components",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "dot_product": [
+      {
+        "generator_id": "dot_product_compute",
+        "display_name": "Compute the dot product of two 2D vectors",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "dot_product_angle_between",
+        "display_name": "Angle between two vectors via the dot product",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "dot_product_perpendicular_test",
+        "display_name": "Perpendicular test via the dot product",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
     ]
   },
   "by_generator": {
@@ -6246,6 +6726,456 @@
         "hard": 30
       },
       "shard_file": "problems/solving_one_step_and_two_step_inequalities.json"
+    },
+    "convert_degrees_to_radians": {
+      "topic_slug": "angles",
+      "display_name": "Convert an angle from degrees to radians",
+      "counts": {
+        "easy": 15,
+        "medium": 25,
+        "hard": 30
+      },
+      "shard_file": "problems/angles.json"
+    },
+    "convert_radians_to_degrees": {
+      "topic_slug": "angles",
+      "display_name": "Convert an angle from radians to degrees",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/angles.json"
+    },
+    "coterminal_angle": {
+      "topic_slug": "angles",
+      "display_name": "Find a coterminal angle in the standard interval",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/angles.json"
+    },
+    "circ_fn_from_unit_circle_point": {
+      "topic_slug": "circular_functions",
+      "display_name": "Read sine, cosine, tangent from a unit circle point",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/circular_functions.json"
+    },
+    "circ_fn_sign_in_quadrant": {
+      "topic_slug": "circular_functions",
+      "display_name": "State the signs of sin, cos, tan in a given quadrant",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/circular_functions.json"
+    },
+    "circ_fn_reciprocal_evaluate": {
+      "topic_slug": "circular_functions",
+      "display_name": "Compute reciprocal trig values (csc, sec, cot)",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/circular_functions.json"
+    },
+    "unit_circle_exact_value": {
+      "topic_slug": "the_unit_circle",
+      "display_name": "Compute sin or cos of a standard unit-circle angle",
+      "counts": {
+        "easy": 16,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/the_unit_circle.json"
+    },
+    "unit_circle_reference_angle": {
+      "topic_slug": "the_unit_circle",
+      "display_name": "Find the reference angle of a standard angle",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_unit_circle.json"
+    },
+    "unit_circle_coordinate_from_angle": {
+      "topic_slug": "the_unit_circle",
+      "display_name": "State the (x, y) terminal point for a standard angle",
+      "counts": {
+        "easy": 16,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/the_unit_circle.json"
+    },
+    "arcsin_exact_value": {
+      "topic_slug": "inverse_trigonometric_functions",
+      "display_name": "Evaluate arcsin at an exact value",
+      "counts": {
+        "easy": 9,
+        "medium": 9,
+        "hard": 9
+      },
+      "shard_file": "problems/inverse_trigonometric_functions.json"
+    },
+    "arccos_exact_value": {
+      "topic_slug": "inverse_trigonometric_functions",
+      "display_name": "Evaluate arccos at an exact value",
+      "counts": {
+        "easy": 9,
+        "medium": 9,
+        "hard": 9
+      },
+      "shard_file": "problems/inverse_trigonometric_functions.json"
+    },
+    "arctan_exact_value": {
+      "topic_slug": "inverse_trigonometric_functions",
+      "display_name": "Evaluate arctan at an exact value",
+      "counts": {
+        "easy": 7,
+        "medium": 7,
+        "hard": 7
+      },
+      "shard_file": "problems/inverse_trigonometric_functions.json"
+    },
+    "trig_period_amplitude": {
+      "topic_slug": "graphs_of_trigonometric_functions",
+      "display_name": "Find amplitude and period of y = A sin(Bx) or A cos(Bx)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_trigonometric_functions.json"
+    },
+    "trig_graph_intercepts": {
+      "topic_slug": "graphs_of_trigonometric_functions",
+      "display_name": "Find x-intercepts of a basic sinusoid in [0, 2pi]",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_trigonometric_functions.json"
+    },
+    "trig_identify_function_from_features": {
+      "topic_slug": "graphs_of_trigonometric_functions",
+      "display_name": "Identify a trig function from its amplitude, period, and initial behaviour",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/graphs_of_trigonometric_functions.json"
+    },
+    "similar_triangles_find_missing_side": {
+      "topic_slug": "similar_triangles",
+      "display_name": "Find a missing side using similar triangles",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/similar_triangles.json"
+    },
+    "similar_triangles_check_aa": {
+      "topic_slug": "similar_triangles",
+      "display_name": "Decide if two triangles are similar (AA criterion)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/similar_triangles.json"
+    },
+    "similar_triangles_scale_factor": {
+      "topic_slug": "similar_triangles",
+      "display_name": "Find the scale factor between two similar triangles",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/similar_triangles.json"
+    },
+    "triangle_find_missing_angle": {
+      "topic_slug": "triangle_angle_sum_and_exterior_angles",
+      "display_name": "Find the missing angle of a triangle",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/triangle_angle_sum_and_exterior_angles.json"
+    },
+    "exterior_angle_theorem": {
+      "topic_slug": "triangle_angle_sum_and_exterior_angles",
+      "display_name": "Apply the Exterior Angle Theorem",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/triangle_angle_sum_and_exterior_angles.json"
+    },
+    "triangle_angle_from_equation": {
+      "topic_slug": "triangle_angle_sum_and_exterior_angles",
+      "display_name": "Solve for $x$ given algebraic angle expressions",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/triangle_angle_sum_and_exterior_angles.json"
+    },
+    "ladder_problem": {
+      "topic_slug": "applications_of_the_pythagorean_theorem",
+      "display_name": "Ladder against a wall (Pythagorean triple)",
+      "counts": {
+        "easy": 24,
+        "medium": 24,
+        "hard": 24
+      },
+      "shard_file": "problems/applications_of_the_pythagorean_theorem.json"
+    },
+    "diagonal_of_rectangle": {
+      "topic_slug": "applications_of_the_pythagorean_theorem",
+      "display_name": "Find the diagonal of a rectangle",
+      "counts": {
+        "easy": 20,
+        "medium": 24,
+        "hard": 24
+      },
+      "shard_file": "problems/applications_of_the_pythagorean_theorem.json"
+    },
+    "distance_between_points_2d": {
+      "topic_slug": "applications_of_the_pythagorean_theorem",
+      "display_name": "Distance between two points on a grid",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_the_pythagorean_theorem.json"
+    },
+    "pythagorean_identity_apply": {
+      "topic_slug": "identities",
+      "display_name": "Apply the Pythagorean identity to find sin or cos",
+      "counts": {
+        "easy": 24,
+        "medium": 24,
+        "hard": 24
+      },
+      "shard_file": "problems/identities.json"
+    },
+    "double_angle_apply": {
+      "topic_slug": "identities",
+      "display_name": "Apply a double-angle formula to find sin(2t) or cos(2t)",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/identities.json"
+    },
+    "sum_difference_apply": {
+      "topic_slug": "identities",
+      "display_name": "Apply a sum/difference formula to find an exact trig value",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/identities.json"
+    },
+    "trig_eq_sin_equals_value": {
+      "topic_slug": "trigonometric_equations",
+      "display_name": "Solve $\\sin x = v$ for clean unit-circle values",
+      "counts": {
+        "easy": 6,
+        "medium": 6,
+        "hard": 6
+      },
+      "shard_file": "problems/trigonometric_equations.json"
+    },
+    "trig_eq_cos_equals_value": {
+      "topic_slug": "trigonometric_equations",
+      "display_name": "Solve $\\cos x = v$ for clean unit-circle values",
+      "counts": {
+        "easy": 6,
+        "medium": 6,
+        "hard": 6
+      },
+      "shard_file": "problems/trigonometric_equations.json"
+    },
+    "trig_eq_quadratic_in_sin": {
+      "topic_slug": "trigonometric_equations",
+      "display_name": "Solve a quadratic-in-sine trigonometric equation",
+      "counts": {
+        "easy": 5,
+        "medium": 5,
+        "hard": 5
+      },
+      "shard_file": "problems/trigonometric_equations.json"
+    },
+    "sinusoid_identify_parameters": {
+      "topic_slug": "sinusoid",
+      "display_name": "Identify amplitude, period, phase shift, vertical shift of a sinusoid",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/sinusoid.json"
+    },
+    "sinusoid_max_min_midline": {
+      "topic_slug": "sinusoid",
+      "display_name": "Max, min, and midline of a sinusoid",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/sinusoid.json"
+    },
+    "sinusoid_from_features": {
+      "topic_slug": "sinusoid",
+      "display_name": "Write a sinusoid function from its features",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/sinusoid.json"
+    },
+    "law_of_sines_find_side": {
+      "topic_slug": "law_of_sines",
+      "display_name": "Find a side using the Law of Sines (AAS/ASA)",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/law_of_sines.json"
+    },
+    "law_of_sines_find_angle": {
+      "topic_slug": "law_of_sines",
+      "display_name": "Find an angle using the Law of Sines (SSA, non-ambiguous)",
+      "counts": {
+        "easy": 7,
+        "medium": 7,
+        "hard": 7
+      },
+      "shard_file": "problems/law_of_sines.json"
+    },
+    "law_of_sines_ambiguous_case": {
+      "topic_slug": "law_of_sines",
+      "display_name": "Classify SSA: ambiguous case (0, 1, or 2 triangles)",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/law_of_sines.json"
+    },
+    "law_of_cosines_find_side": {
+      "topic_slug": "law_of_cosines",
+      "display_name": "Find a side using the Law of Cosines (SAS)",
+      "counts": {
+        "easy": 8,
+        "medium": 8,
+        "hard": 8
+      },
+      "shard_file": "problems/law_of_cosines.json"
+    },
+    "law_of_cosines_find_angle": {
+      "topic_slug": "law_of_cosines",
+      "display_name": "Find an angle using the Law of Cosines (SSS)",
+      "counts": {
+        "easy": 7,
+        "medium": 7,
+        "hard": 7
+      },
+      "shard_file": "problems/law_of_cosines.json"
+    },
+    "law_of_cosines_sas_integer": {
+      "topic_slug": "law_of_cosines",
+      "display_name": "Law of Cosines (SAS): clean 60/120 integer case",
+      "counts": {
+        "easy": 8,
+        "medium": 8,
+        "hard": 8
+      },
+      "shard_file": "problems/law_of_cosines.json"
+    },
+    "vector_magnitude": {
+      "topic_slug": "vectors",
+      "display_name": "Magnitude of a 2D vector using Pythagorean triples",
+      "counts": {
+        "easy": 20,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/vectors.json"
+    },
+    "vector_addition_and_scalar": {
+      "topic_slug": "vectors",
+      "display_name": "Compute $c\\vec{u} + \\vec{v}$ for given vectors",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/vectors.json"
+    },
+    "vector_polar_to_rectangular": {
+      "topic_slug": "vectors",
+      "display_name": "Convert polar (magnitude, angle) to rectangular components",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/vectors.json"
+    },
+    "dot_product_compute": {
+      "topic_slug": "dot_product",
+      "display_name": "Compute the dot product of two 2D vectors",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dot_product.json"
+    },
+    "dot_product_angle_between": {
+      "topic_slug": "dot_product",
+      "display_name": "Angle between two vectors via the dot product",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/dot_product.json"
+    },
+    "dot_product_perpendicular_test": {
+      "topic_slug": "dot_product",
+      "display_name": "Perpendicular test via the dot product",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dot_product.json"
     }
   }
 }

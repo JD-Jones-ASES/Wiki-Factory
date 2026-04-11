@@ -7,9 +7,9 @@ calls `from generators import all_generators` after importing this package.
 from . import geometry  # noqa: F401 (circles + pythagoras)
 from . import algebra  # noqa: F401 (linear_equations, slope, quadratic_formula)
 from . import pre_algebra  # noqa: F401 (percents)
+from . import precalculus  # noqa: F401 (trig_core)
 # Future branches are imported here as they come online:
 # from . import trigonometry
-# from . import precalculus
 
 from .base import all_generators, get_generator, Problem, Generator, Difficulty, DIFFICULTIES
 

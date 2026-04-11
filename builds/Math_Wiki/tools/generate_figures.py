@@ -1837,6 +1837,352 @@ def fig_compound_growth_comparison():
 
 
 # ---------------------------------------------------------------------------
+# Precalculus: the unit circle with 16 special angles (Cluster 7)
+
+def fig_unit_circle():
+    """Unit circle with the 16 special angles labeled with exact (x, y)."""
+    fig, ax = plt.subplots(figsize=(8, 8))
+    ax.set_aspect("equal")
+    ax.set_xlim(-1.9, 1.9)
+    ax.set_ylim(-1.9, 1.9)
+
+    # Axes through the origin
+    ax.annotate(
+        "", xy=(1.8, 0), xytext=(-1.8, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.3),
+    )
+    ax.annotate(
+        "", xy=(0, 1.8), xytext=(0, -1.8),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.3),
+    )
+    ax.text(1.85, 0.05, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.05, 1.85, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # The unit circle itself
+    theta_c = np.linspace(0, 2 * np.pi, 400)
+    ax.plot(np.cos(theta_c), np.sin(theta_c),
+            color=C_LINE, linewidth=2.2, zorder=2)
+
+    # The 16 special angles as (angle, pretty pi label, (x, y) label)
+    # Exact coordinates using radical expressions.
+    specials = [
+        (0,               r"$0$",            r"$(1,\, 0)$"),
+        (np.pi / 6,       r"$\pi/6$",        r"$(\frac{\sqrt{3}}{2},\, \frac{1}{2})$"),
+        (np.pi / 4,       r"$\pi/4$",        r"$(\frac{\sqrt{2}}{2},\, \frac{\sqrt{2}}{2})$"),
+        (np.pi / 3,       r"$\pi/3$",        r"$(\frac{1}{2},\, \frac{\sqrt{3}}{2})$"),
+        (np.pi / 2,       r"$\pi/2$",        r"$(0,\, 1)$"),
+        (2 * np.pi / 3,   r"$2\pi/3$",       r"$(-\frac{1}{2},\, \frac{\sqrt{3}}{2})$"),
+        (3 * np.pi / 4,   r"$3\pi/4$",       r"$(-\frac{\sqrt{2}}{2},\, \frac{\sqrt{2}}{2})$"),
+        (5 * np.pi / 6,   r"$5\pi/6$",       r"$(-\frac{\sqrt{3}}{2},\, \frac{1}{2})$"),
+        (np.pi,           r"$\pi$",          r"$(-1,\, 0)$"),
+        (7 * np.pi / 6,   r"$7\pi/6$",       r"$(-\frac{\sqrt{3}}{2},\, -\frac{1}{2})$"),
+        (5 * np.pi / 4,   r"$5\pi/4$",       r"$(-\frac{\sqrt{2}}{2},\, -\frac{\sqrt{2}}{2})$"),
+        (4 * np.pi / 3,   r"$4\pi/3$",       r"$(-\frac{1}{2},\, -\frac{\sqrt{3}}{2})$"),
+        (3 * np.pi / 2,   r"$3\pi/2$",       r"$(0,\, -1)$"),
+        (5 * np.pi / 3,   r"$5\pi/3$",       r"$(\frac{1}{2},\, -\frac{\sqrt{3}}{2})$"),
+        (7 * np.pi / 4,   r"$7\pi/4$",       r"$(\frac{\sqrt{2}}{2},\, -\frac{\sqrt{2}}{2})$"),
+        (11 * np.pi / 6,  r"$11\pi/6$",      r"$(\frac{\sqrt{3}}{2},\, -\frac{1}{2})$"),
+    ]
+
+    dot_color = "#c44569"   # red dots
+    radius_color = "#bfbfbf"
+
+    # Draw radius lines from the origin to each special point first so the
+    # dots and labels sit on top of them.
+    for ang, _pi_label, _xy_label in specials:
+        xr = np.cos(ang)
+        yr = np.sin(ang)
+        ax.plot([0, xr], [0, yr],
+                color=radius_color, linewidth=1.0, zorder=1)
+
+    # Now draw dots and (x, y) coordinate labels outside the circle.
+    for ang, _pi_label, xy_label in specials:
+        xd = np.cos(ang)
+        yd = np.sin(ang)
+        ax.plot(xd, yd, "o", color=dot_color, markersize=6, zorder=4)
+
+        # Place the (x, y) label just outside the circle in the direction of
+        # the radius so it never overlaps the circle interior.
+        label_r = 1.28
+        lx = label_r * np.cos(ang)
+        ly = label_r * np.sin(ang)
+
+        # Pick alignment based on the quadrant / axis to avoid clipping.
+        if abs(np.cos(ang)) < 1e-9:
+            ha = "center"
+        elif np.cos(ang) > 0:
+            ha = "left"
+        else:
+            ha = "right"
+        if abs(np.sin(ang)) < 1e-9:
+            va = "center"
+        elif np.sin(ang) > 0:
+            va = "bottom"
+        else:
+            va = "top"
+
+        ax.text(lx, ly, xy_label, fontsize=8, color=C_TEXT,
+                ha=ha, va=va)
+
+    ax.set_title("The unit circle with the 16 special angles",
+                 fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/unit_circle.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: sine and cosine graphs (Cluster 7)
+
+def fig_sine_cosine_graphs():
+    """Two stacked subplots showing y = sin x and y = cos x over [-2 pi, 2 pi]."""
+    fig, (ax_sin, ax_cos) = plt.subplots(2, 1, figsize=(7, 6))
+
+    x = np.linspace(-2 * np.pi, 2 * np.pi, 500)
+    y_sin = np.sin(x)
+    y_cos = np.cos(x)
+
+    pi_ticks = [-2 * np.pi, -np.pi, 0, np.pi, 2 * np.pi]
+    pi_labels = [r"$-2\pi$", r"$-\pi$", r"$0$", r"$\pi$", r"$2\pi$"]
+
+    color_sin = "#2e86de"   # blue
+    color_cos = "#c44569"   # red
+
+    for ax, y, color, title in (
+        (ax_sin, y_sin, color_sin, r"$y = \sin x$"),
+        (ax_cos, y_cos, color_cos, r"$y = \cos x$"),
+    ):
+        ax.set_xlim(-2 * np.pi - 0.3, 2 * np.pi + 0.3)
+        ax.set_ylim(-1.5, 1.5)
+
+        # Dashed reference lines at y = -1, 0, 1
+        for y_ref in (-1.0, 0.0, 1.0):
+            ax.plot(
+                [-2 * np.pi - 0.3, 2 * np.pi + 0.3],
+                [y_ref, y_ref],
+                color=C_DASH, linewidth=1.0, linestyle="--", zorder=1,
+            )
+
+        # Vertical axis through x = 0
+        ax.plot([0, 0], [-1.5, 1.5], color=C_GRID, linewidth=0.8, zorder=0)
+
+        # The curve
+        ax.plot(x, y, color=color, linewidth=2.4, zorder=3)
+
+        # x ticks labeled in terms of pi
+        ax.set_xticks(pi_ticks)
+        ax.set_xticklabels(pi_labels, fontsize=10, color=C_TEXT)
+        ax.set_yticks([-1, 0, 1])
+        ax.set_yticklabels(["-1", "0", "1"], fontsize=10, color=C_TEXT)
+        ax.tick_params(axis="both", colors=C_TEXT, length=3)
+
+        ax.set_title(title, fontsize=13, pad=10)
+        for spine_name in ("top", "right"):
+            ax.spines[spine_name].set_visible(False)
+        ax.spines["left"].set_color(C_LINE)
+        ax.spines["bottom"].set_color(C_LINE)
+
+    fig.tight_layout()
+    _save(fig, "precalculus/sine_cosine_graphs.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: 3-4-5 right triangle with SOH-CAH-TOA (Cluster 7)
+
+def fig_right_triangle_soh_cah_toa():
+    """A 3-4-5 right triangle with labeled sides and the three trig ratios."""
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-1.2, 6.0)
+    ax.set_ylim(-2.5, 4.0)
+
+    # Vertices:
+    #   A at origin (the angle theta)
+    #   B at (4, 0) (the right angle)
+    #   C at (4, 3) (top of the opposite side)
+    A = (0.0, 0.0)
+    B = (4.0, 0.0)
+    C = (4.0, 3.0)
+
+    tri_color = "#284b63"
+    fill_color = "#d9e2ec"
+
+    # Fill the triangle
+    ax.fill(
+        [A[0], B[0], C[0]],
+        [A[1], B[1], C[1]],
+        color=fill_color, zorder=1,
+    )
+
+    # Outline
+    ax.plot([A[0], B[0]], [A[1], B[1]],
+            color=tri_color, linewidth=2.4, zorder=3)
+    ax.plot([B[0], C[0]], [B[1], C[1]],
+            color=tri_color, linewidth=2.4, zorder=3)
+    ax.plot([C[0], A[0]], [C[1], A[1]],
+            color=tri_color, linewidth=2.4, zorder=3)
+
+    # Right angle marker at B
+    box = 0.25
+    ax.plot(
+        [B[0] - box, B[0] - box, B[0]],
+        [B[1],       B[1] + box, B[1] + box],
+        color=tri_color, linewidth=1.5, zorder=4,
+    )
+
+    # theta arc at vertex A
+    arc_r = 0.55
+    # The angle at A opens from the adjacent side (along +x) up to AC.
+    # AC has angle atan2(3, 4).
+    theta_top = np.arctan2(C[1] - A[1], C[0] - A[0])
+    arc_t = np.linspace(0.0, theta_top, 60)
+    ax.plot(arc_r * np.cos(arc_t), arc_r * np.sin(arc_t),
+            color=C_RADIUS, linewidth=1.8, zorder=4)
+    ax.text(0.75, 0.28, r"$\theta$",
+            fontsize=14, color=C_RADIUS, fontweight="bold",
+            ha="left", va="bottom")
+
+    # Side labels
+    # Adjacent side (bottom), length 4
+    ax.text(2.0, -0.35, "adjacent = 4",
+            fontsize=11, color=C_TEXT, ha="center", va="top")
+    # Opposite side (right vertical), length 3
+    ax.text(4.15, 1.5, "opposite = 3",
+            fontsize=11, color=C_TEXT, ha="left", va="center")
+    # Hypotenuse (from A to C), length 5
+    # Midpoint is (2, 1.5). Place label slightly above-left.
+    ax.text(1.75, 1.85, "hypotenuse = 5",
+            fontsize=11, color=C_TEXT,
+            ha="center", va="bottom",
+            rotation=np.degrees(theta_top))
+
+    # Three trig-ratio equations below the triangle
+    ax.text(
+        2.4, -1.35,
+        r"$\sin\theta = \dfrac{\text{opp}}{\text{hyp}} = \dfrac{3}{5}$",
+        fontsize=12, color=C_TEXT, ha="center", va="center",
+    )
+    ax.text(
+        2.4, -1.95,
+        r"$\cos\theta = \dfrac{\text{adj}}{\text{hyp}} = \dfrac{4}{5}, \qquad "
+        r"\tan\theta = \dfrac{\text{opp}}{\text{adj}} = \dfrac{3}{4}$",
+        fontsize=12, color=C_TEXT, ha="center", va="center",
+    )
+
+    ax.set_title("SOH-CAH-TOA on a 3-4-5 right triangle",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/right_triangle_soh_cah_toa.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: vector addition by the head-to-tail rule (Cluster 7)
+
+def fig_vector_addition():
+    """Three arrows from the origin plus a head-to-tail construction."""
+    fig, ax = plt.subplots(figsize=(6, 6))
+    ax.set_aspect("equal")
+    ax.set_xlim(-1, 8)
+    ax.set_ylim(-1, 8)
+
+    # Light integer grid
+    for i in range(-1, 9):
+        ax.plot([i, i], [-1, 8], color=C_GRID, linewidth=0.6, zorder=0)
+        ax.plot([-1, 8], [i, i], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(7.85, 0), xytext=(-0.85, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.3),
+    )
+    ax.annotate(
+        "", xy=(0, 7.85), xytext=(0, -0.85),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.3),
+    )
+    ax.text(7.9, 0.15, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.15, 7.9, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Integer tick labels on the axes
+    for t in range(1, 8):
+        ax.text(t, -0.2, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+        ax.text(-0.15, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    color_u = "#2e86de"   # blue
+    color_v = "#3c9a5f"   # green
+    color_sum = "#c44569"  # red
+
+    # u = (5, 1) from the origin (blue)
+    ax.annotate(
+        "", xy=(5, 1), xytext=(0, 0),
+        arrowprops=dict(arrowstyle="-|>", color=color_u,
+                        lw=2.4, mutation_scale=18),
+        zorder=4,
+    )
+    ax.text(2.5, 0.35, r"$\vec{u} = \langle 5,\, 1 \rangle$",
+            fontsize=11, color=color_u, fontweight="bold",
+            ha="center", va="top")
+
+    # v = (2, 4) from the origin (green, solid)
+    ax.annotate(
+        "", xy=(2, 4), xytext=(0, 0),
+        arrowprops=dict(arrowstyle="-|>", color=color_v,
+                        lw=2.4, mutation_scale=18),
+        zorder=4,
+    )
+    ax.text(0.7, 2.1, r"$\vec{v} = \langle 2,\, 4 \rangle$",
+            fontsize=11, color=color_v, fontweight="bold",
+            ha="right", va="center")
+
+    # Head-to-tail copy of v starting at the head of u, dashed green
+    ax.annotate(
+        "", xy=(7, 5), xytext=(5, 1),
+        arrowprops=dict(arrowstyle="-|>", color=color_v,
+                        lw=2.2, mutation_scale=18,
+                        linestyle="dashed"),
+        zorder=3,
+    )
+    ax.text(6.25, 2.7, r"$\vec{v}$ (shifted)",
+            fontsize=10, color=color_v,
+            ha="left", va="center")
+
+    # Sum u + v = (7, 5) from the origin (red)
+    ax.annotate(
+        "", xy=(7, 5), xytext=(0, 0),
+        arrowprops=dict(arrowstyle="-|>", color=color_sum,
+                        lw=2.6, mutation_scale=20),
+        zorder=5,
+    )
+    ax.text(3.6, 3.2, r"$\vec{u} + \vec{v} = \langle 7,\, 5 \rangle$",
+            fontsize=11, color=color_sum, fontweight="bold",
+            ha="center", va="bottom",
+            bbox=dict(boxstyle="round,pad=0.25",
+                      facecolor="white",
+                      edgecolor=color_sum, linewidth=0.8))
+
+    ax.set_title(r"Vector addition: $\vec{u} + \vec{v}$ by the head-to-tail rule",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/vector_addition.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -1863,6 +2209,10 @@ FIGURES = [
     ("exponential_growth_decay", fig_exponential_growth_decay),
     ("log_exp_inverses", fig_log_exp_inverses),
     ("compound_growth_comparison", fig_compound_growth_comparison),
+    ("unit_circle", fig_unit_circle),
+    ("sine_cosine_graphs", fig_sine_cosine_graphs),
+    ("right_triangle_soh_cah_toa", fig_right_triangle_soh_cah_toa),
+    ("vector_addition", fig_vector_addition),
 ]
 
 
