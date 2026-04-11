@@ -208,6 +208,232 @@ function ensureHtml2Canvas(): Promise<any> {
   return w.__mathWikiHtml2CanvasLoad
 }
 
+// --- PDF export pipeline ---------------------------------------------------
+//
+// The export flow:
+//   1. Build an off-screen, fixed-width DOM container that lists every vault
+//      problem (and, on a second pass, every answer row).
+//   2. Render KaTeX into the container so $...$ and $$...$$ become proper
+//      math glyphs. Wait for web fonts so html2canvas captures real glyphs
+//      instead of fallback system font.
+//   3. html2canvas the whole container into one tall canvas.
+//   4. Slice that canvas vertically into page-height strips and addImage
+//      each strip into jsPDF at the correct page offset.
+//   5. doc.addPage() is called before the answer-key pass to force the
+//      answer key to start on its own fresh page regardless of how many
+//      pages the problems consumed.
+
+function buildOffscreenProblemDom(
+  problem: VaultEntry,
+  indexOneBased: number,
+): HTMLElement {
+  const wrap = document.createElement("div")
+  wrap.className = "vv-pdf-problem"
+
+  const num = document.createElement("div")
+  num.className = "vv-pdf-num"
+  num.textContent = `${indexOneBased}.`
+
+  const body = document.createElement("div")
+  body.className = "vv-pdf-body"
+
+  const stmt = document.createElement("div")
+  stmt.className = "vv-pdf-statement"
+  // Text node content: the $...$ walker (renderKatexIn) will replace math.
+  stmt.textContent = problem.statement_latex
+  body.appendChild(stmt)
+
+  const workspace = document.createElement("div")
+  workspace.className = "vv-pdf-workspace"
+  body.appendChild(workspace)
+
+  wrap.appendChild(num)
+  wrap.appendChild(body)
+  return wrap
+}
+
+function buildOffscreenAnswerDom(
+  problem: VaultEntry,
+  indexOneBased: number,
+): HTMLElement {
+  const row = document.createElement("div")
+  row.className = "vv-pdf-answer-row"
+
+  const num = document.createElement("span")
+  num.className = "vv-pdf-num-inline"
+  num.textContent = `${indexOneBased}. `
+
+  const ans = document.createElement("span")
+  ans.className = "vv-pdf-answer-text"
+  ans.textContent = problem.answer_latex
+
+  row.appendChild(num)
+  row.appendChild(ans)
+  return row
+}
+
+async function renderBlockToCanvas(
+  node: HTMLElement,
+  widthPx: number,
+): Promise<HTMLCanvasElement> {
+  const host = document.createElement("div")
+  host.className = "vv-pdf-offscreen"
+  host.style.width = `${widthPx}px`
+  host.appendChild(node)
+  document.body.appendChild(host)
+
+  try {
+    await ensureKatex()
+    renderKatexIn(host)
+
+    // Wait for KaTeX's web fonts so html2canvas captures real glyphs
+    // instead of a fallback system font. FontFaceSet.ready is supported in
+    // every evergreen browser; guard defensively just in case.
+    const fonts = (document as any).fonts
+    if (fonts && fonts.ready) {
+      try {
+        await fonts.ready
+      } catch {}
+    }
+
+    // One animation-frame yield so layout settles after renderKatexIn has
+    // replaced text nodes with DocumentFragments of rendered KaTeX markup.
+    await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()))
+
+    const html2canvas = (window as any).html2canvas
+    const canvas: HTMLCanvasElement = await html2canvas(host, {
+      scale: 2,
+      backgroundColor: "#ffffff",
+      useCORS: true,
+      logging: false,
+      windowWidth: widthPx,
+    })
+    return canvas
+  } finally {
+    host.remove()
+  }
+}
+
+function sliceCanvasToPdfPages(
+  doc: any,
+  srcCanvas: HTMLCanvasElement,
+  contentWmm: number,
+  contentHmm: number,
+  marginMm: number,
+): void {
+  // Canvas intrinsic width corresponds to contentWmm in paper units; this
+  // gives us a consistent px-per-mm factor for slice-height math.
+  const pxPerMm = srcCanvas.width / contentWmm
+  const pageHeightPx = Math.floor(contentHmm * pxPerMm)
+  if (pageHeightPx <= 0) return
+
+  let yOffset = 0
+  let firstSlice = true
+
+  while (yOffset < srcCanvas.height) {
+    const sliceHeightPx = Math.min(pageHeightPx, srcCanvas.height - yOffset)
+    const sliceCanvas = document.createElement("canvas")
+    sliceCanvas.width = srcCanvas.width
+    sliceCanvas.height = sliceHeightPx
+
+    const ctx = sliceCanvas.getContext("2d")
+    if (!ctx) break
+    // Solid white background so transparent source pixels do not become
+    // black in the final PNG encoding.
+    ctx.fillStyle = "#ffffff"
+    ctx.fillRect(0, 0, sliceCanvas.width, sliceCanvas.height)
+    ctx.drawImage(
+      srcCanvas,
+      0,
+      yOffset,
+      srcCanvas.width,
+      sliceHeightPx,
+      0,
+      0,
+      srcCanvas.width,
+      sliceHeightPx,
+    )
+
+    const dataUrl = sliceCanvas.toDataURL("image/png")
+    if (!firstSlice) doc.addPage()
+    const sliceHeightMm = sliceHeightPx / pxPerMm
+    doc.addImage(
+      dataUrl,
+      "PNG",
+      marginMm,
+      marginMm,
+      contentWmm,
+      sliceHeightMm,
+      undefined,
+      "FAST",
+    )
+
+    yOffset += sliceHeightPx
+    firstSlice = false
+  }
+}
+
+async function exportVaultToPdf(vault: VaultEntry[]): Promise<void> {
+  // US Letter, portrait, 1 inch margins.
+  const PAGE_W_MM = 215.9 // 8.5 in
+  const PAGE_H_MM = 279.4 // 11 in
+  const MARGIN_MM = 25.4 // 1 in
+  const CONTENT_W_MM = PAGE_W_MM - 2 * MARGIN_MM // 165.1 mm
+  const CONTENT_H_MM = PAGE_H_MM - 2 * MARGIN_MM // 228.6 mm
+  // Off-screen CSS width chosen at 96 dpi so px ratios match CSS inch units.
+  const OFFSCREEN_W_PX = Math.round((CONTENT_W_MM * 96) / 25.4) // ~624 px
+
+  await Promise.all([ensureJsPdf(), ensureHtml2Canvas(), ensureKatex()])
+  const { jsPDF } = (window as any).jspdf
+  const doc = new jsPDF({
+    unit: "mm",
+    format: "letter",
+    orientation: "portrait",
+  })
+
+  // --- Problems page(s) ---
+  const problemsContainer = document.createElement("div")
+  problemsContainer.className = "vv-pdf-page"
+
+  const heading = document.createElement("div")
+  heading.className = "vv-pdf-heading"
+  heading.textContent = `Math Wiki Worksheet — ${vault.length} problem${
+    vault.length !== 1 ? "s" : ""
+  }`
+  problemsContainer.appendChild(heading)
+
+  vault.forEach((p, i) =>
+    problemsContainer.appendChild(buildOffscreenProblemDom(p, i + 1)),
+  )
+
+  const problemsCanvas = await renderBlockToCanvas(
+    problemsContainer,
+    OFFSCREEN_W_PX,
+  )
+  sliceCanvasToPdfPages(doc, problemsCanvas, CONTENT_W_MM, CONTENT_H_MM, MARGIN_MM)
+
+  // --- Answer key on its own fresh page ---
+  doc.addPage()
+
+  const answerContainer = document.createElement("div")
+  answerContainer.className = "vv-pdf-page"
+
+  const akHeading = document.createElement("div")
+  akHeading.className = "vv-pdf-heading"
+  akHeading.textContent = "Answer Key"
+  answerContainer.appendChild(akHeading)
+
+  vault.forEach((p, i) =>
+    answerContainer.appendChild(buildOffscreenAnswerDom(p, i + 1)),
+  )
+
+  const answerCanvas = await renderBlockToCanvas(answerContainer, OFFSCREEN_W_PX)
+  sliceCanvasToPdfPages(doc, answerCanvas, CONTENT_W_MM, CONTENT_H_MM, MARGIN_MM)
+
+  const stamp = new Date().toISOString().slice(0, 10)
+  doc.save(`math-wiki-worksheet-${stamp}.pdf`)
+}
+
 // --- Main rendering ---------------------------------------------------------
 
 function renderVault(mount: HTMLElement) {
