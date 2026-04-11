@@ -14,4 +14,5 @@ from . import transformations  # noqa: F401
 from . import volume  # noqa: F401
 from . import surface_area  # noqa: F401
 from . import coord_geometry  # noqa: F401
+from . import cross_sections  # noqa: F401
 

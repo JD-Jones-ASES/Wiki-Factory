@@ -58,9 +58,9 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Core Geometry topics --- 24 live / 30 total
+### Core Geometry topics --- 25 live / 30 total
 
-**🟢 Live topics with practice widgets (24)**
+**🟢 Live topics with practice widgets (25)**
 
 - 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 - 🟢 [[Chords_Secants_And_Tangents|Chords, Secants, and Tangents]]
@@ -68,6 +68,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
 - 🟢 [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]]
 - 🟢 [[Coordinate_Geometry_Proofs|Coordinate Geometry Proofs]]
+- 🟢 [[Cross_Sections_Of_Solids|Cross Sections of Solids]]
 - 🟢 [[Dilations_And_Similarity|Dilations and Similarity]]
 - 🟢 [[Equations_Of_Circles|Equations of Circles]]
 - 🟢 [[Inscribed_Angles_And_Arcs|Inscribed Angles and Arcs]]
@@ -88,10 +89,9 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 
 <details>
-<summary>⚪ 6 stub topic(s) (click to expand)</summary>
+<summary>⚪ 5 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Composite_Figures|Composite Figures]]
-- ⚪ [[Cross_Sections_Of_Solids|Cross Sections of Solids]]
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
 - ⚪ [[Proportions_In_Similar_Figures|Proportions in Similar Figures]]
 - ⚪ [[Review_Of_Perimeter_And_Area|Review of Perimeter and Area]]

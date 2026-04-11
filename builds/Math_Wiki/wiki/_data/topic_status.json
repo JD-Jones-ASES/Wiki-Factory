@@ -5,9 +5,9 @@
       "complete": 0,
       "draft": 208,
       "stub": 42,
-      "with_3plus_generators": 204,
+      "with_3plus_generators": 205,
       "with_300plus_words": 208,
-      "avg_score": 73.8
+      "avg_score": 76.1
     },
     "by_branch": {
       "algebra": {
@@ -15,9 +15,9 @@
         "topic_count": 98,
         "with_generators": 88,
         "with_prose_300": 86,
-        "with_examples_2": 67,
+        "with_examples_2": 84,
         "with_figure": 21,
-        "avg_score": 78.5,
+        "avg_score": 81.1,
         "status_counts": {
           "stub": 12,
           "draft": 86,
@@ -28,11 +28,11 @@
       "geometry": {
         "branch": "geometry",
         "topic_count": 11,
-        "with_generators": 6,
+        "with_generators": 7,
         "with_prose_300": 11,
         "with_examples_2": 11,
         "with_figure": 11,
-        "avg_score": 89.3,
+        "avg_score": 91.5,
         "status_counts": {
           "stub": 0,
           "draft": 11,
@@ -45,9 +45,9 @@
         "topic_count": 91,
         "with_generators": 63,
         "with_prose_300": 64,
-        "with_examples_2": 50,
+        "with_examples_2": 64,
         "with_figure": 14,
-        "avg_score": 61.6,
+        "avg_score": 63.9,
         "status_counts": {
           "stub": 27,
           "draft": 64,
@@ -60,9 +60,9 @@
         "topic_count": 50,
         "with_generators": 47,
         "with_prose_300": 47,
-        "with_examples_2": 41,
+        "with_examples_2": 47,
         "with_figure": 8,
-        "avg_score": 83.4,
+        "avg_score": 85.2,
         "status_counts": {
           "stub": 3,
           "draft": 47,
@@ -80,7 +80,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1161,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 13,
       "generator_count": 3,
@@ -91,7 +91,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Absolute_Value_Functions",
@@ -355,7 +355,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1212,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 15,
       "generator_count": 3,
@@ -366,7 +366,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Exponential_Equations",
@@ -527,7 +527,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1075,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 16,
       "generator_count": 3,
@@ -538,7 +538,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Function_Arithmetic_And_Composition",
@@ -867,7 +867,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 2292,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 13,
       "generator_count": 3,
@@ -878,7 +878,7 @@
       ],
       "prerequisite_count": 4,
       "related_count": 6,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Modeling_With_Linear_Functions",
@@ -927,7 +927,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1209,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 13,
       "generator_count": 3,
@@ -938,7 +938,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Multiplying_And_Dividing_Rational_Expressions",
@@ -1003,7 +1003,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1021,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 12,
       "generator_count": 4,
@@ -1015,7 +1015,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Operations_With_Radicals",
@@ -1220,7 +1220,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1089,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 19,
       "generator_count": 3,
@@ -1231,7 +1231,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Properties_Of_Real_Numbers",
@@ -1488,7 +1488,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1228,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 12,
       "generator_count": 4,
@@ -1500,7 +1500,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Solving_Equations_By_Factoring",
@@ -1509,7 +1509,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1085,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 19,
       "generator_count": 3,
@@ -1520,7 +1520,7 @@
       ],
       "prerequisite_count": 4,
       "related_count": 6,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Solving_Equations_By_Taking_Roots",
@@ -1529,7 +1529,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1069,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 17,
       "generator_count": 3,
@@ -1540,7 +1540,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Solving_Equations_In_One_Variable",
@@ -1549,7 +1549,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1232,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 22,
       "generator_count": 3,
@@ -1560,7 +1560,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Solving_Inequalities_In_One_Variable",
@@ -1569,7 +1569,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1190,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 12,
       "generator_count": 3,
@@ -1580,7 +1580,7 @@
       ],
       "prerequisite_count": 4,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Solving_Multi_Step_Inequalities",
@@ -1669,7 +1669,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1233,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 14,
       "generator_count": 3,
@@ -1680,7 +1680,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Solving_Systems_By_Graphing",
@@ -1689,7 +1689,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1486,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 17,
       "generator_count": 3,
@@ -1700,7 +1700,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Solving_Systems_By_Substitution",
@@ -1709,7 +1709,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1190,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 16,
       "generator_count": 3,
@@ -1720,7 +1720,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Special_Products",
@@ -1769,7 +1769,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1503,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 16,
       "generator_count": 3,
@@ -1780,7 +1780,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Systems_Of_Linear_Inequalities",
@@ -1885,7 +1885,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1146,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 16,
       "generator_count": 3,
@@ -1896,7 +1896,7 @@
       ],
       "prerequisite_count": 4,
       "related_count": 5,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Transformations_I_Shifts_And_Reflections",
@@ -2070,11 +2070,15 @@
       "example_count": 3,
       "figure_count": 1,
       "wikilink_count": 18,
-      "generator_count": 0,
-      "generators": [],
+      "generator_count": 3,
+      "generators": [
+        "cube_hex_cross_section_side",
+        "classify_cube_cross_section",
+        "classify_cone_cross_section"
+      ],
       "prerequisite_count": 3,
       "related_count": 6,
-      "score": 70
+      "score": 95
     },
     {
       "slug": "Dilations_And_Similarity",
@@ -2242,7 +2246,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 966,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 9,
       "generator_count": 3,
@@ -2253,7 +2257,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Adding_And_Subtracting_Decimals",
@@ -2302,7 +2306,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1126,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -2313,7 +2317,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Adding_And_Subtracting_Mixed_Numbers",
@@ -2374,7 +2378,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 936,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -2385,7 +2389,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Arithmetic_Sequences_And_Linear_Patterns",
@@ -2715,7 +2719,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 812,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -2726,7 +2730,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Finding_A_Percent_Of_A_Number",
@@ -2735,7 +2739,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 953,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -2746,7 +2750,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Fractions_Decimals_And_Percents",
@@ -2755,7 +2759,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 815,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -2766,7 +2770,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Graphing_Linear_Equations_From_Tables",
@@ -2835,7 +2839,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1110,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -2846,7 +2850,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Markup_Discount_And_Commission",
@@ -3003,7 +3007,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1110,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -3014,7 +3018,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Order_Of_Operations_With_Fractions",
@@ -3055,7 +3059,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1046,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 11,
       "generator_count": 3,
@@ -3066,7 +3070,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Perimeter_And_Area_Of_Polygons",
@@ -3437,7 +3441,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1124,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -3448,7 +3452,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Solving_Equations_With_Fractions_And_Decimals",
@@ -3688,7 +3692,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 830,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -3699,7 +3703,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "The_Percent_Equation",
@@ -3708,7 +3712,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 921,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -3719,7 +3723,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "The_Pythagorean_Theorem",
@@ -3728,7 +3732,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1213,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 11,
       "generator_count": 3,
@@ -3739,7 +3743,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Translating_Words_To_Algebraic_Expressions",
@@ -3788,7 +3792,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 970,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
       "generator_count": 3,
@@ -3799,7 +3803,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 4,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Unit_Rates",
@@ -3940,7 +3944,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1373,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 18,
       "generator_count": 3,
@@ -3951,7 +3955,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Angles",
@@ -4060,7 +4064,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1425,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 14,
       "generator_count": 3,
@@ -4071,7 +4075,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Circular_Functions",
@@ -4216,7 +4220,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1482,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 16,
       "generator_count": 3,
@@ -4227,7 +4231,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Graphs_Of_Functions",
@@ -4236,7 +4240,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1926,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 11,
       "generator_count": 3,
@@ -4247,7 +4251,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Graphs_Of_Polynomials",
@@ -4412,7 +4416,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1526,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 14,
       "generator_count": 3,
@@ -4423,7 +4427,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Introduction_To_Polar_Coordinates",
@@ -4788,7 +4792,7 @@
       "status": "draft",
       "confidence": "high",
       "word_count": 1825,
-      "example_count": 0,
+      "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 11,
       "generator_count": 3,
@@ -4799,7 +4803,7 @@
       ],
       "prerequisite_count": 3,
       "related_count": 3,
-      "score": 75
+      "score": 90
     },
     {
       "slug": "Sinusoid",

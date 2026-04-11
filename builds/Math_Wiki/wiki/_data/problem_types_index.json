@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T17:01:22.196919+00:00",
+  "generated_at": "2026-04-11T20:56:23.298758+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 638,
+  "generator_count": 641,
   "by_topic": {
     "circles": [
       {
@@ -616,6 +616,38 @@
           "easy": 25,
           "medium": 25,
           "hard": 25
+        }
+      }
+    ],
+    "cross_sections_of_solids": [
+      {
+        "generator_id": "cube_hex_cross_section_side",
+        "display_name": "Find the hexagonal cross-section side of a cube",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "classify_cube_cross_section",
+        "display_name": "Classify a cube's cross-section shape",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "classify_cone_cross_section",
+        "display_name": "Classify a cone's cross-section shape",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
         }
       }
     ],
@@ -7386,6 +7418,36 @@
         "hard": 25
       },
       "shard_file": "problems/coordinate_geometry_proofs.json"
+    },
+    "cube_hex_cross_section_side": {
+      "topic_slug": "cross_sections_of_solids",
+      "display_name": "Find the hexagonal cross-section side of a cube",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 25
+      },
+      "shard_file": "problems/cross_sections_of_solids.json"
+    },
+    "classify_cube_cross_section": {
+      "topic_slug": "cross_sections_of_solids",
+      "display_name": "Classify a cube's cross-section shape",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/cross_sections_of_solids.json"
+    },
+    "classify_cone_cross_section": {
+      "topic_slug": "cross_sections_of_solids",
+      "display_name": "Classify a cone's cross-section shape",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/cross_sections_of_solids.json"
     },
     "one_step_eq_add": {
       "topic_slug": "one_step_equations",
