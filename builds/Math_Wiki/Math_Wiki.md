@@ -57,8 +57,8 @@ Ten content clusters shipped (9 original + Cluster 10 HS Geometry). Each cluster
 | `wiki/_data/problem_types_index.json` | Widget lookup: topic_slug → generators. Drives live/stub classification. |
 | `wiki/_data/problems/{topic_slug}.json` | Per-topic problem shards (committed, <320 KB each) |
 | `wiki/_data/prereq_graph.json` | Directed prereq graph generated from YAML frontmatter. Fetched once per session by `PrereqWidget`. |
-| `wiki/assets/figures/{branch}/*.svg` | 45 matplotlib SVG figures across branches |
-| `generators/{algebra,pre_algebra,precalculus,geometry}/*.py` | 460 generators across 4 branch packages |
+| `wiki/assets/figures/{branch}/*.svg` | 62 matplotlib SVG figures across branches |
+| `generators/{algebra,pre_algebra,precalculus,geometry}/*.py` | 638 generators across 4 branch packages (82 modules total) |
 | `generators/base.py` | `Problem` dataclass, `Generator` ABC, `@register`, `all_generators()` |
 | `generators/tests/` | Pytest: parametrized all-generators suite, copyright shingle check, consolidate snapshot, ingest smoke |
 | `generators/latex_helpers.py` | `format_fraction`, `format_point`, `shift_expr`, `signed_int` |
@@ -120,7 +120,7 @@ py -3 tools/ingest_new_book.py --slug new_book
 
 **Raw** (`raw/books/`, `raw/extractions/`, `raw/catalog/`) — build inputs and intermediaries from initial ingestion. All gitignored except `raw/catalog/`. Never surface in the wiki.
 
-**Wiki** (`wiki/`) — LLM-owned markdown. 151 live topic pages + ~98 auto-stubs still on disk + 5 course hubs + problem bank shards + prereq graph.
+**Wiki** (`wiki/`) — LLM-owned markdown. 210 live topic pages + 51 leftover stubs + 5 course hubs + problem bank shards + prereq graph + standardized-test tag overlay (~200 topics carry `#test-{sat,psat,act,clt}`).
 
 **Outputs** — derived artifacts at build time (Quartz HTML). Not committed.
 
@@ -216,21 +216,24 @@ Factory-level (run from repo root `/c/Wiki_Factory/`):
 
 ```
 generators/
-├── algebra/                   # 23 modules, ~200 generators
+├── algebra/                   # 35 modules, ~270 generators
 │   (linear equations, slopes, systems, absolute value, quadratic methods,
 │    polynomials, factoring, rationals, radicals, functions & families,
-│    transformations, exponentials, logarithms)
-├── pre_algebra/               # 16 modules, ~50 generators
+│    transformations, exponentials, logarithms, piecewise, probability,
+│    stats inference, stats displays, ratios_and_proportions_algebra,
+│    variables_and_expressions, scientific_notation, coordinate_plane_intro)
+├── pre_algebra/               # 22 modules, ~190 generators
 │   (integers, fractions, decimals, percents, ratios, order of operations,
-│    algebra intro, inequalities intro, slope intercept)
-├── precalculus/               # 5 modules, ~90 generators
-│   (trig core + advanced, sequences & stats, conics & complex, matrices)
-├── geometry/                  # 12 modules, ~60 generators  (expanded in Cluster 10)
-│   ├── circles.py pythagoras.py                                    # pre-Cluster-10
-│   ├── parallel_lines.py triangle_congruence.py                    # Cluster 10
-│   ├── special_right_triangles.py polygon_angles.py quadrilaterals.py
-│   ├── circle_theorems.py transformations.py
-│   ├── volume.py surface_area.py coord_geometry.py
+│    algebra intro, inequalities intro, slope intercept, absolute value ops,
+│    exponents intro, real numbers, midpoint, word translation, number theory)
+├── precalculus/               # 13 modules, ~140 generators
+│   (trig core + advanced, sequences & stats, conics & complex, matrices,
+│    function foundations, polynomial foundations, graphs_of_rational,
+│    polar_parametric, trig_inequalities, relations, nonlinear_systems)
+├── geometry/                  # 12 modules, ~60 generators
+│   (circles, pythagoras, parallel_lines, triangle_congruence,
+│    special_right_triangles, polygon_angles, quadrilaterals, circle_theorems,
+│    transformations, volume, surface_area, coord_geometry)
 ├── base.py                    # Generator, Problem, @register, make_problem_id, all_generators
 ├── latex_helpers.py           # format_fraction, format_point, shift_expr, signed_int
 └── tests/
@@ -271,10 +274,10 @@ These are the mechanical rules the build system enforces. Violating them breaks 
 
 ### Generator authoring rules
 
-8. **Parameter space needs ≥30 unique problems per difficulty** or set `bank_count_per_difficulty = N`.
-9. **Backward construction beats forward.** Pick the answer first (integer roots, Pythagorean triples, clean unit-circle values), derive the parameters. Forward construction with retries can infinite-loop on edge cases.
+8. **Parameter space needs ≥30 unique problems per difficulty** or set `bank_count_per_difficulty = N`. Pytest's floor is **5 unique problems per difficulty** — `bank_count_per_difficulty` must be ≥ 5, and the *actual* number of unique outputs at each difficulty must be ≥ `min(10, bank_count_per_difficulty)`. Count your real parameter-space cardinality before shipping. v2.3.0 shipped 6 generators that declared `bank_count = 20` but only produced 6-9 unique outputs at easy difficulty — each needed a post-hoc floor reduction. Agent prompts should explicitly ask: "if your parameter space is < 10, set `bank_count_per_difficulty = actual_count`."
+9. **Backward construction beats forward.** Pick the answer first (integer roots, Pythagorean triples, clean unit-circle values), derive the parameters. Forward construction with retries can infinite-loop on edge cases. Concrete anti-pattern that shipped in v2.3.0 and hung pytest for 60s: `while True: a = rng.randint(...); if numerator % a == 0: break`. Rewrite rule: if you find yourself writing a `while True` that retries until a cleanliness/divisibility condition holds, that's a red flag. Pick the clean output first, derive the parameters.
 10. **Use `sp.latex(sp.Eq(...))` for signed equations** — handles negative coefficients correctly where string formatting does not.
-11. **Named tags, not freehand.** Use `#skill-algebraic-manipulation`, `#skill-visualization`, `#word-problem-support` etc. from the taxonomy.
+11. **Named tags, not freehand.** Use `#skill-algebraic-manipulation`, `#skill-visualization`, `#word-problem-support` etc. from the taxonomy. Inline the FULL taxonomy (all 7 sections as of v2.3.0) in every agent prompt — don't just reference the file. v2.3.0 had 3 ad-hoc tags (`#skill-equation-solving`, `#skill-modeling`, `#skill-proportional-reasoning`) slip past because the prompts listed only the most common skill tags. Copy the taxonomy wholesale.
 
 ### Process rules
 
@@ -284,19 +287,37 @@ These are the mechanical rules the build system enforces. Violating them breaks 
 15. **CI runs pytest + validate_yaml + build_index before Quartz.** A broken test fails the deploy. Fix local before pushing.
 16. **Rewrite the hub script before deleting old hubs.** Cluster 10 planning caught this: `update_course_hubs.py` must exist and point at the new hub filenames before you delete `Algebra_Overview.md` etc. Otherwise the old script errors or silently no-ops.
 17. **Breadcrumb sweeps touch every topic file.** A breadcrumb rewrite script needs `--dry-run` mode and a unified-diff preview before execution. One bad regex and every topic's navigation breaks. Phase 1's `rewrite_breadcrumbs.py` is the template.
+18. **Cross-branch wikilinks must use the canonical live-topic slug + pipe display.** Wave C3 shipped 10 dead wikilinks to invented names (`[[Scatter_Plots]]` → should be `[[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]]`, `[[Correlation]]` → doesn't exist, `[[Functions_And_Relations]]` → should be `[[Relations_And_Functions|...]]`, `[[Substitution_Method]]` → should be `[[Solving_Systems_By_Substitution|...]]`, `[[Quadratic_Equations]]` → should be `[[The_Quadratic_Formula|...]]`, `[[Conic_Sections]]` → should be `[[Introduction_To_Conics]]`). Prevention: inline the live-topics list in every agent prompt **organized by branch**, and state explicitly: "cross-branch links use pipe form `[[Target|Display]]`; never invent a target name."
+19. **Frontmatter `related:` and `prerequisites:` paths use `topics/{branch}/Name` form** — not `topics/{branch_underscored_hyphenated}/Name`. Wave C3 had several `topics/algebra_1/Slope` entries (wrong) instead of `topics/algebra/Slope`. These are informational in the graph (don't break lint) but break the prereq widget. Use the ACTUAL directory name.
 
-### Copyright discipline (8 clusters' worth of forbidden idioms)
+### Copyright discipline (accumulated across 10 clusters + v2.3.0 test-prep phase)
 
-The copyright pytest caught many near-misses across clusters. These are the **textbook phrasings that reliably collide with 15-word shingles** in the source corpus — avoid them in future content:
+The copyright pytest caught many near-misses. These are the **textbook phrasings that reliably collide with 15-word shingles** in the source corpus — avoid them in future content. Every content sub-agent prompt MUST inline this list.
 
-- Problem statement starters: don't use "Find the equation of the line...", "Write the equation of the line with slope...", "Solve the equation...", "Evaluate..." as bare openers. Use "Give...", "Determine...", "What is...", "Compute...", "Find all real solutions to...", "Express...".
-- Definitional phrasings: "an identity is an equation that is true for every angle", "a rational function is a quotient of polynomials", "a sequence is an ordered list of numbers", "a complex number is a number of the form a + bi where a and b are real", "a matrix is a rectangular array of numbers", "the hypotenuse is always opposite the right angle", "in an arithmetic sequence, each term is obtained by adding a constant", "multiply every term on both sides by the LCD" — all rephrase.
-- Theorem openers: "The Law of Sines states that...", "The Pythagorean theorem states that...", "De Moivre's theorem states that..." — paraphrase the content.
-- "(also called ...)" parenthetical for synonyms — use an em-dash aside instead: "— sometimes called a —".
-- Idiomatic step phrases: "take the log of both sides", "take the root first and then raise to the power", "check for extraneous solutions", "equals the sum of the two remote interior angles", "group the first two terms and the last two terms", "collect the terms on the left and the constants on the right", "the parabola opens to the right because p > 0", "every positive number has two square roots", "the midpoint of the segment joining the foci".
-- Word-problem scenarios: don't reuse textbook scenarios verbatim (Alice/Bob working together, a ball thrown upward, a taxi fare, a PortaBoy). Invent fresh names and contexts.
+**Problem statement openers to avoid** (use "Give...", "Determine...", "What is...", "Compute...", "Find all real solutions to...", "Express...", "Classify...", "Identify..." instead):
+- "Find the equation of the line..."
+- "Write the equation of the line with slope..."
+- "Solve the equation..."
+- "Evaluate..." as a bare opener
+- "Find the value of x..."
 
-When a new content agent is dispatched, include this list in its prompt so it avoids the traps proactively.
+**Banned definitional phrasings** (paraphrase each one freshly):
+- *Core algebra/arithmetic:* "the absolute value of a number is its distance from zero", "a rational number is any number that can be written as a fraction", "an algebraic expression is any combination of variables constants and operations", "a polynomial is an expression with one or more terms", "like terms are terms with the same variable and exponent", "the degree of a polynomial is the highest power of the variable", "a literal equation is an equation with more than one variable", "a number is in scientific notation when it is written as", "isolate the variable", "do the same thing to both sides", "the coordinate plane is a two-dimensional surface with two perpendicular number lines", "a ratio is a comparison of two quantities", "a proportion is an equation stating that two ratios are equal", "a prime is a whole number greater than 1 whose only factors are 1 and itself"
+- *Number theory / factoring:* "every whole number greater than 1 can be written as a product of primes in exactly one way", "the greatest common factor of two or more whole numbers is the", "the least common multiple of two or more whole numbers is the", "two numbers whose product is and whose sum is"
+- *Trig / functions:* "an identity is an equation that is true for every angle", "a rational function is a quotient of polynomials", "a sequence is an ordered list of numbers", "a complex number is a number of the form a + bi where a and b are real", "a matrix is a rectangular array of numbers", "the hypotenuse is always opposite the right angle", "in an arithmetic sequence, each term is obtained by adding a constant", "multiply every term on both sides by the LCD", "a function is a relation that assigns exactly one output to each input", "a relation is a set of ordered pairs", "the domain of a function is the set of all possible input values", "the range of a function is the set of all possible output values", "the vertical line test states that a graph represents a function if and only if no vertical line crosses it more than once", "a polynomial function is of the form", "vertical asymptotes occur where the denominator is zero"
+- *Stats / probability:* "a piecewise function is defined by different formulas on different intervals", "conditional probability is the probability of an event given that another event has occurred", "the margin of error tells you how far the true population value is likely to be from the sample estimate", "a confidence interval is a range of values likely to contain the true parameter", "a sample is a subset of a population", "bias in sampling occurs when a sample is not representative of the population", "a histogram is a bar graph of frequencies", "a box plot displays the five-number summary", "correlation measures the strength and direction of a linear relationship", "a residual is the difference between the observed value and the predicted value", "a permutation is an arrangement of objects in a specific order", "a combination is a selection of objects without regard to order", "the empirical rule states that approximately 68, 95, and 99.7 percent of data lies within 1, 2, and 3 standard deviations", "a z-score measures how many standard deviations a value is from the mean", "expected value is the long-run average of a random variable", "a binomial distribution describes the number of successes in n independent trials with probability p"
+
+**Theorem openers to paraphrase** — never "The X theorem states that..." or "The Rule of Y states..." verbatim. Examples: Law of Sines, Pythagorean theorem, De Moivre's theorem, Zero Product Property, Rational Root Theorem, Descartes's Rule of Signs, Fundamental Theorem of Arithmetic.
+
+**Banned step phrases:** "take the log of both sides", "take the root first and then raise to the power", "check for extraneous solutions", "equals the sum of the two remote interior angles", "group the first two terms and the last two terms", "collect the terms on the left and the constants on the right", "the parabola opens to the right because p > 0", "every positive number has two square roots", "the midpoint of the segment joining the foci", "follow the order of operations", "add the same quantity to both sides", "multiply both sides by 2", "when you multiply or divide both sides of an inequality by a negative, flip the inequality".
+
+**Banned parenthetical:** "(also called ...)" for synonyms — use an em-dash aside instead: "— sometimes called a —".
+
+**Banned hedges / filler:** "it is important to note that", "as you can see", "in other words", "another way to say this is", "clearly", "it can be shown that".
+
+**Word-problem scenarios:** don't reuse textbook scenarios verbatim (Alice/Bob working together, a ball thrown upward, a taxi fare, a PortaBoy). Invent fresh names and contexts. The approved name pool: Maya, Kai, Priya, Rohan, Zoe, Emilia, Mateo, Leilani. Approved context pool: community garden, school newspaper, coffee shop, tutoring center, science fair, local band, food pantry, maker space, hiking club, jewelry maker, photography class, farmer's market, pop-up book, school pep rally.
+
+**Workflow:** run the shingle test after every wave, not just at the end. If a hit fires, grep for the flagged phrase across `wiki/topics/`, do 1-line rewrites, re-run. Expect **rework rings** — the `hits[:3]` truncation in the test masks subsequent hits, so fixing the first three often surfaces three more. Budget ~2 rework passes per pre-algebra/algebra wave, 0 per precalc wave.
 
 ---
 
@@ -478,11 +499,13 @@ These were in scope for Phase 5 but deferred for a future session. They ride on 
 
 ### Future content expansion
 
-~98 auto-stubs still live on disk — secondary catalog entries that were not in any cluster's scope. Activating one is the normal loop:
+**51 leftover stubs** remain on disk after v2.3.0 — mostly redundant duplicates (e.g., `Absolute_Value_Equations_And_Inequalities` overlaps with existing `Absolute_Value_Equations` + `Absolute_Value_Inequalities`), niche specialty topics (`Parfrac`), or pre-algebra stubs that were de-prioritized for test-prep. The correct next move for most of these is **merge via `tools/aliases.yaml`** rather than activate — they duplicate live topics with different slug conventions. Run `py -3 tools/topic_status.py` and read the dashboard to triage.
+
+For activating an individual stub (when it's genuinely new content):
 
 1. Write the content following the topic skeleton below (the existing stub file is fine to overwrite).
 2. Add 3+ generators under the appropriate branch package, imported in that package's `__init__.py`.
-3. `build_problem_bank.py` → `topic_status.py` → `update_course_hubs.py` → `build_prereq_graph.py` → commit → push.
+3. `build_problem_bank.py` → `topic_status.py` → `update_course_hubs.py` → `build_prereq_graph.py` → add slug to `tools/test_prep_mapping.yaml` if test-relevant → `apply_test_tags.py` → commit → push.
 
 Cluster 10's pattern (enrich several pre-algebra geometry stubs while creating new HS-branch geometry topics) is a good template for future geometry/measurement work — enriching an existing stub surfaces it in both Middle School Math and Geometry course hubs for the cost of one file.
 
@@ -602,7 +625,7 @@ py -3 ../../factory/scripts/validate_yaml.py wiki/
 py -3 ../../factory/scripts/lint_wiki.py wiki/
 ```
 
-Expected: 3 pytest passes, 263/263 YAML clean, 0 lint errors. If you get copyright hits, grep for the flagged phrase across `wiki/topics/` to find all occurrences, then do 1-line rewrites.
+Expected: all tests green, 273/273 YAML clean, 0 lint errors. If you get copyright hits, grep for the flagged phrase across `wiki/topics/` to find all occurrences, then do 1-line rewrites. Expect 2-3 rework rings on pre-algebra/algebra waves — the `hits[:3]` test truncation masks subsequent offenders.
 
 ### What NOT to do
 
@@ -620,7 +643,7 @@ Expected: 3 pytest passes, 263/263 YAML clean, 0 lint errors. If you get copyrig
 
 - **Repo:** `JD-Jones-ASES/Wiki-Factory`
 - **URL:** https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/
-- **Build time:** ~2 minutes for ~260 pages including overlay + Quartz build
+- **Build time:** ~2 minutes for ~269 pages including overlay + Quartz build
 - **CI workflow:** `.github/workflows/deploy.yml` (shared with Hymn Wiki). Runs pytest + validate_yaml + build_index, then clones Quartz v4 fresh, overlays `quartz.config.ts` / `quartz.layout.ts` / `quartz_components/` / `static/` from the build root, copies `wiki/*` into `content/`, runs `npx quartz build`, deploys. Overlays are directory-existence-guarded so Hymn Wiki's build is unaffected.
 - **Per-build Quartz settings:** `enableSPA: false`, `Plugin.Latex({ renderEngine: "katex" })`, Explorer `filterFn` hides `topics/` + `problem_types/` + empty-shell folders, `localGraph.depth: 1`.
 
@@ -646,53 +669,43 @@ export const sharedPageComponents: SharedLayout = {
 
 Full cluster-by-cluster detail lives in git history. This section keeps forward-looking lessons future sessions can skim quickly.
 
-### Versions 2.0 → 2.2 — from content buildout to student-first wiki
+### Versions 2.0 → 2.3 — from content buildout to test-prep-ready
 
 **v2.0.0 (Clusters 0-9, content buildout).** Nine clusters shipped in a single multi-day session. Wiki grew from 36 live topics to 136, from 9,621 problems to 32,698. Infrastructure (copyright pytest, YAML validator, topic status dashboard, alias merge pipeline, ingest smoke test) was laid down in Cluster 0 and paid off for every subsequent cluster — most shipped green on first validation after small idiom fixes.
 
 **v2.1.0 (Phase 1, standalone + course nav).** Replaced 4 branch hubs with 5 course hubs (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus & Trig). Purged source-book boilerplate from 133 stub topic files. Rewrote breadcrumbs in 239 topic files in a single sweep. Deleted 9 empty-shell overviews. Trimmed the sidebar from 14 to 10 entries. `tools/update_course_hubs.py` replaces `update_branch_hubs.py`; uses a `GEOMETRY_ADJACENT_ALLOWLIST` second pass so pre-algebra geometry topics surface in both hubs.
 
-**v2.2.0 (Cluster 10 + Phase 4 + Phase 5a, previous session).** Cluster 10 shipped 10 new HS Geometry topic pages + enriched 6 pre-algebra geometry stubs + 50 new generators in 10 modules + 14 new figures. Executed by 4 parallel sub-agents (2 content, 1 generators, 1 figures) with zero first-pass copyright hits. PrereqWidget shipped: `tools/build_prereq_graph.py` writes `wiki/_data/prereq_graph.json` from YAML frontmatter (400 edges across 137 topics); `quartz_components/PrereqWidget.tsx` injects a "Review these first" card into the right sidebar on topic pages. Vault gained JSON export/import buttons via a bump to `vaultViewer.inline.ts`. Geometry branch score jumped from 47.5 to 82.7.
+**v2.2.0 (Cluster 10 + Phase 4 + Phase 5a).** Cluster 10 shipped 10 new HS Geometry topic pages + enriched 6 pre-algebra geometry stubs + 50 new generators in 10 modules + 14 new figures. PrereqWidget shipped: `tools/build_prereq_graph.py` writes `wiki/_data/prereq_graph.json` from YAML frontmatter; `quartz_components/PrereqWidget.tsx` injects a "Review these first" card into the right sidebar on topic pages. Vault gained JSON export/import buttons. Geometry branch score jumped from 47.5 to 82.7.
 
-**v2.3.0 (Test-Prep Phase, this session).** Shipped in four commits over one session:
-- **Nav fix (commit `3aa7986`):** `wiki/Precalculus.md` had `"Precalculus"` in its `aliases:` list. Quartz's `AliasRedirects` plugin generated a self-redirect HTML that overwrote the canonical hub, serving blank. Same bug class as the Vault.md fix. 1-token deletion; Gotcha #4 generalized to "never put the filename in aliases."
-- **Test tagging (commit `c8e855e`):** new `tools/test_prep_mapping.yaml` (150 slugs -> 209 by phase end) + new `tools/apply_test_tags.py` (idempotent, surgical, --dry-run / --check modes). Added Section 7 `#test-sat/#test-psat/#test-act/#test-clt` to `_tag_taxonomy.md`. No lint_wiki.py changes (it reads taxonomy dynamically via regex). Auto-generated Quartz tag index pages `/tags/test-*` become de-facto per-exam hubs with zero custom authoring.
-- **Stub activation (commits `1933ef0` Wave A, `6e0994a` Wave B, `1d8dd3d` Wave C):** 63 stubs activated across 3 branches. Wave A (pre-algebra, 22 stubs) pushed branch avg 45.4 -> 61.1. Wave B (algebra, 25 stubs) pushed 58.1 -> 73.7. Wave C (precalc, 16 stubs) pushed 54.4 -> 82.1 (biggest per-branch jump). Each wave = 3-4 content + 2 generator + 1 figure sub-agents in parallel.
-- **New gap topics (commit `b891393` Wave D):** 10 brand-new topic pages filling identified test-prep gaps (Piecewise_Functions, Conditional_Probability, Permutations_And_Combinations, Normal_Distribution, Margin_Of_Error, Expected_Value, Binomial_Probability, Sampling_Methods_And_Bias, Histograms_And_Box_Plots, Correlation_And_Residuals). 30 new generators + 6 new figures. Wave D first-pass copyright-clean.
-- **Net delta:** 144 -> 210 live topics (+66), 460 -> 638 generators (+178), 36,010 -> 49,443 problems (+13,433), 45 -> 62 figures (+17), 112 -> 51 stubs (-61). Overall avg 53.9 -> 71.6.
+**v2.3.0 (Test-Prep Phase).** Seven commits in one session: Precalculus nav bugfix (alias-redirect collision, same bug class as Vault.md — Gotcha #4 generalized), standardized-test tagging infrastructure (new `tools/test_prep_mapping.yaml` + idempotent `tools/apply_test_tags.py`, Section 7 in the tag taxonomy, Quartz auto-generated `/tags/test-*` index pages as de-facto per-exam hubs with zero custom authoring), three stub-activation waves (pre-algebra, algebra, precalc — 63 stubs activated across 3 branches), and a Wave D of 10 brand-new gap topics for test-prep areas that had no stubs (piecewise, conditional probability, permutations/combinations, normal distribution, margin of error, expected value, binomial, sampling & bias, histograms/box plots, correlation/residuals). Net delta: 144 → 210 live topics, 460 → 638 generators, 36,010 → 49,443 problems, 45 → 62 figures, 112 → 51 stubs, overall avg score 53.9 → 71.6, ~200 topics now carry at least one test tag. All forbidden-idiom additions from the ~10 rework rings during this phase are folded into the Gotchas list above. Cross-wave wikilink drift surfaced as Gotcha #18.
 
-### Forbidden-idiom additions shipped this phase
+### What works at session scale (proven across 4 versions)
 
-Phase 2-3 content reviews added ~15 more near-verbatim textbook phrasings to the banned list (the `hits[:3]` truncation in the copyright test masks subsequent hits, so each pass typically surfaces a new ring). Key adds:
-
-- **Pre-algebra foundations:** "the absolute value of a number is its distance from zero", "a rational number is any number that can be written as a fraction", "every whole number greater than 1 can be written as a product of primes in exactly one way", "every point on the number line corresponds to exactly one real number", "the greatest common factor of two or more whole numbers is the", "the least common multiple of two or more whole numbers is the", "a prime is a whole number greater than 1 whose only factors are", "the principal (the original amount) is the annual interest rate as a decimal", "the bill comes to ... how much is the tip and what is the total"
-- **Algebra 1 / 2:** "a number is in scientific notation when it is written as", "an algebraic expression is any combination of variables constants and operations", "two numbers whose product is and whose sum is", "less than ... greater than ... on the number line is farther to the left", "strict less than strict greater than less than or equal to greater than or equal to", "multiplying or dividing both sides by a negative number reflects every real number", "slope is rise over run, not run over rise", "the part is X, the percent is Y, and the whole is the unknown", "the leading coefficient ... multiply the leading coefficient by the constant. Now find two numbers whose product is ... and whose sum is"
-- **Algebra/Precalc (surfaced in Wave C/D subagent guidance):** "a polynomial function is of the form", "a rational function is a quotient of two polynomials", "vertical asymptotes occur where the denominator is zero", "a function is a relation that assigns exactly one output to each input", "a graph of an equation is the set of all points whose coordinates satisfy the equation"
-
-Include these in every future content-agent prompt alongside the original Cluster-0-through-9 forbidden list.
-
-### What works at session scale (proven across 3 versions)
-
-- **Parallel sub-agent dispatch** (3-4 content + 2-3 generators + 1 figures per cluster) sustains ~15 topics per cluster without review-burden collapse. Four agents in one message with no file-overlap works cleanly.
-- **Backward construction for all generators** eliminates guess-and-check infinite loops. Pick the answer, derive the parameters.
-- **Forbidden-idiom list in every content prompt.** By Cluster 10, first-pass copyright hits dropped to zero. The list keeps growing — see the Gotchas section.
-- **Enrich-and-create hybrid** (Cluster 10 pattern): when planning a new cluster, check for existing auto-stubs whose titles match your intended content. Enriching a stub is cheaper than creating a new file, and an enriched pre-algebra stub surfaces in two course hubs (Middle School Math + the relevant HS course) via the allowlist.
-- **Single 136-file sweep for nav changes.** Phase 1 proved that breadcrumb rewrites + source purges should be batched into one sweep over topic files, not two.
-- **Gold-standard read first.** Every content sub-agent prompt starts with "read these 3 files and match their tone." Agents trained to imitate a specific file produce consistently better prose than agents given a bare template.
+- **Parallel sub-agent dispatch** (3-4 content + 2-3 generators + 1 figures per wave) sustains 15-25 topics per wave without review-burden collapse. v2.3.0 ran four waves × 6-7 parallel agents each with clean file-partitioning — no collisions, no rework beyond the expected copyright-shingle rings.
+- **Plan-then-execute with a Plan agent.** v2.3.0 used the Plan sub-agent to design the 4-wave strategy before any implementation. Worth the upfront cost when the phase involves 70+ topic activations. Agent reads `Topic_Status.md`, `problem_types_index.json`, and the project spec, then produces a wave-by-wave file manifest.
+- **Count parameter-space cardinality from the index, not from guessing.** v2.3.0 Plan agent estimated "15 prose-only stubs per branch" but reality was only 6 pre-algebra + 7 algebra + 0 precalc. Fix: before dispatching Wave X, run a one-liner over `wiki/_data/problem_types_index.json` to get exact prose-only vs full-work counts per branch, and size waves accordingly.
+- **Backward construction everywhere in generators.** Pick the answer, derive the parameters. A `while True:` that retries until a cleanliness condition holds is an infinite-loop smell (see Gotcha #9).
+- **Forbidden-idiom list + FULL taxonomy inlined in every content prompt.** By Cluster 10, first-pass copyright hits dropped to zero on geometry. v2.3.0 pre-algebra/algebra waves took 2-3 rework rings because the list was narrower then; Wave C/D shipped copyright-clean on first pass after the expansion. Tag taxonomy drift is prevented the same way — copy all 7 sections wholesale.
+- **Enrich-and-create hybrid.** Cluster 10 pattern: enrich existing auto-stubs instead of creating new files when titles match. An enriched pre-algebra stub surfaces in two course hubs via the allowlist. v2.3.0 Wave A's 6 prose-only enrichments (stubs that already had generators) were the cheapest wins in the phase.
+- **Gold-standard read first.** Every content sub-agent prompt starts with "read these 3 files and match their tone." Agents trained to imitate a specific file produce consistently better prose than agents given a bare template. Pick gold-standards that scored ≥85 on `topic_status.py`.
+- **Test-prep tagging via YAML + apply script** (v2.3.0 infrastructure). Hand-curated `tools/test_prep_mapping.yaml` is the source of truth; `tools/apply_test_tags.py` is idempotent, surgical-edit (preserves existing tags, appends only missing), and supports `--dry-run` / `--check`. Re-run after every wave that adds new live topics. Quartz auto-generates the `/tags/test-*` index pages for free.
 
 ### What to watch
 
-- **Dead wikilink drift** when agents invent topic names. Lint catches them, but pre-seeding every agent prompt with the current live-topics list prevents them.
-- **Tag taxonomy drift.** Same prevention: include the actual taxonomy contents in agent prompts, not just a reference to the file.
+- **Dead wikilink drift** when agents invent topic names. Lint catches them, but pre-seeding every agent prompt with the current live-topics list — organized by branch — prevents them. Wave C3 shipped 10 dead links that got through because the cross-branch live-topics list wasn't inlined (see Gotcha #18).
+- **Tag taxonomy drift.** Include the actual taxonomy contents in agent prompts, not just a reference to the file. Copy ALL 7 sections; partial lists let agents slip in "close-sounding" tags that lint flags post-hoc (v2.3.0: `#skill-equation-solving`, `#skill-modeling`, `#skill-proportional-reasoning`).
+- **Parameter-space underestimate.** Agents often set `bank_count_per_difficulty = 20` when the actual parameter space has < 10 unique outputs at a given difficulty. Each such miss needs a post-hoc floor reduction + push. Prompt generator agents to compute cardinality before declaring the bank count.
 - **Shard size budget.** Every shard stays under 320 KB today. If a generator goes over, prefer reducing `bank_count_per_difficulty` over raising the cap.
+- **Copyright shingle ring-effect.** The test's `hits[:3]` truncation masks hits 4+. A single pass is never enough on pre-algebra/algebra content. Budget 2-3 rework rings per wave.
 - **Hub script rewrite order.** Rewrite `update_course_hubs.py` (or its successor) BEFORE deleting any old hub files it references — or the script will error or silently no-op.
 
 ### What to do first in a next session
 
 1. Run the four sanity-check commands at the top of this file. Confirm all green.
 2. `gh run list --limit 3` — confirm the last CI runs are all green.
-3. Read `wiki/Topic_Status.md` for the current distribution. No live topic should score below 80; any outlier probably needs a figure, an example, or a cross-link bump.
-4. Pick one from **Remaining Work** (custom worksheet builder, jsPDF PDF export, input-and-check grader, difficulty auto-tune, new textbook ingest, stub activation wave) and ship it. Follow the Session Patterns section — parallel sub-agents for anything that can be split across files.
+3. Read `wiki/Topic_Status.md` for the current distribution. Overall avg should be ~71.6. No live topic should score below 80; any outlier probably needs a figure, an example, or a cross-link bump.
+4. Triage the 51 leftover stubs via `wiki/Topic_Status.md`. Most are merge candidates (duplicate slugs of live topics) — the correct move is `tools/aliases.yaml` plus `consolidate_extractions.py`, not another activation wave.
+5. Pick one from **Remaining Work** (custom worksheet builder, jsPDF PDF export, input-and-check grader, difficulty auto-tune, new textbook ingest) and ship it. Follow the Session Patterns section — parallel sub-agents for anything that can be split across files.
 
 ---
 
