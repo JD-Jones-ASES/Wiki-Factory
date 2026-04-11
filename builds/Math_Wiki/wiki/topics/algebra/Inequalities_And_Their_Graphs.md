@@ -120,7 +120,7 @@ Try $x = 3$ in the same inequality: $2(3) - 1 = 5$, which gives $5 \geq 7$ — f
 Before tackling practice on this topic, make sure you are comfortable with:
 
 - [[Integers_And_The_Number_Line]] — positive and negative numbers, and how they are ordered left to right
-- [[Rational_Numbers_On_The_Number_Line]] — placing fractions and decimals between the whole number tick marks
+- [[Integers_And_The_Number_Line]] — placing rational numbers between the whole number tick marks
 - [[Variables_And_Algebraic_Expressions]] — so that $2x - 1$ and similar expressions feel routine
 
 If any of those is shaky, start there, then come back.

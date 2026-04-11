@@ -1,25 +1,25 @@
 {
   "summary": {
     "overall": {
-      "total_topics": 250,
+      "total_topics": 220,
       "complete": 0,
       "draft": 208,
-      "stub": 42,
-      "with_3plus_generators": 205,
+      "stub": 12,
+      "with_3plus_generators": 203,
       "with_300plus_words": 208,
-      "avg_score": 76.1
+      "avg_score": 85.4
     },
     "by_branch": {
       "algebra": {
         "branch": "algebra",
-        "topic_count": 98,
-        "with_generators": 88,
+        "topic_count": 89,
+        "with_generators": 86,
         "with_prose_300": 86,
         "with_examples_2": 84,
         "with_figure": 21,
-        "avg_score": 81.1,
+        "avg_score": 87.8,
         "status_counts": {
-          "stub": 12,
+          "stub": 3,
           "draft": 86,
           "complete": 0,
           "unknown": 0
@@ -42,14 +42,14 @@
       },
       "pre_algebra": {
         "branch": "pre_algebra",
-        "topic_count": 91,
+        "topic_count": 73,
         "with_generators": 63,
         "with_prose_300": 64,
         "with_examples_2": 64,
         "with_figure": 14,
-        "avg_score": 63.9,
+        "avg_score": 78.4,
         "status_counts": {
-          "stub": 27,
+          "stub": 9,
           "draft": 64,
           "complete": 0,
           "unknown": 0
@@ -57,14 +57,14 @@
       },
       "precalculus": {
         "branch": "precalculus",
-        "topic_count": 50,
+        "topic_count": 47,
         "with_generators": 47,
         "with_prose_300": 47,
         "with_examples_2": 47,
         "with_figure": 8,
-        "avg_score": 85.2,
+        "avg_score": 90.2,
         "status_counts": {
-          "stub": 3,
+          "stub": 0,
           "draft": 47,
           "complete": 0,
           "unknown": 0
@@ -174,22 +174,6 @@
       "score": 90
     },
     {
-      "slug": "Adding_And_Subtracting_Real_Numbers",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Adding_And_Subtracting_Real_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 105,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "Applications_Of_Quadratic_Functions",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Applications_Of_Quadratic_Functions.md",
@@ -199,34 +183,17 @@
       "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 15,
-      "generator_count": 3,
+      "generator_count": 5,
       "generators": [
         "projectile_max_height",
         "projectile_time_to_ground",
-        "rectangle_max_area"
+        "rectangle_max_area",
+        "area_quadratic_word_problem",
+        "quadratic_revenue_or_cost_optimization"
       ],
       "prerequisite_count": 4,
       "related_count": 5,
       "score": 90
-    },
-    {
-      "slug": "Applications_Of_Quadratics",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Applications_Of_Quadratics.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 19,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 2,
-      "generators": [
-        "area_quadratic_word_problem",
-        "quadratic_revenue_or_cost_optimization"
-      ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 18
     },
     {
       "slug": "Completing_The_Square",
@@ -447,38 +414,6 @@
       "prerequisite_count": 3,
       "related_count": 5,
       "score": 90
-    },
-    {
-      "slug": "Factoring_I",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Factoring_I.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 253,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
-    },
-    {
-      "slug": "Factoring_Ii",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Factoring_Ii.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 189,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
     },
     {
       "slug": "Factoring_Special_Forms",
@@ -726,7 +661,7 @@
       "relpath": "wiki/topics/algebra/Inequalities_And_Their_Graphs.md",
       "status": "draft",
       "confidence": "high",
-      "word_count": 1012,
+      "word_count": 1011,
       "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 14,
@@ -961,22 +896,6 @@
       "score": 90
     },
     {
-      "slug": "Multiplying_And_Dividing_Real_Numbers",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Multiplying_And_Dividing_Real_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 111,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "Multiplying_Polynomials",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Multiplying_Polynomials.md",
@@ -1076,26 +995,6 @@
       "prerequisite_count": 3,
       "related_count": 4,
       "score": 95
-    },
-    {
-      "slug": "Percent_Applications",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Percent_Applications.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 43,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 3,
-      "generators": [
-        "percent_change_with_algebra",
-        "sales_tax_or_tip_algebra",
-        "word_problem_two_step_percent"
-      ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 25
     },
     {
       "slug": "Piecewise_Functions",
@@ -1234,22 +1133,6 @@
       "score": 90
     },
     {
-      "slug": "Properties_Of_Real_Numbers",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Properties_Of_Real_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 163,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
-    },
-    {
       "slug": "Quadratic_Functions",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Quadratic_Functions.md",
@@ -1304,26 +1187,6 @@
       "prerequisite_count": 0,
       "related_count": 0,
       "score": 5
-    },
-    {
-      "slug": "Ratios_And_Proportions",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Ratios_And_Proportions.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 90,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 3,
-      "generators": [
-        "solve_proportion_with_variable",
-        "proportion_word_problem_scale",
-        "similar_figures_proportion"
-      ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 30
     },
     {
       "slug": "Relations_And_Functions",
@@ -1863,22 +1726,6 @@
       "score": 90
     },
     {
-      "slug": "The_Pythagorean_Theorem_And_Distance_Formula",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/The_Pythagorean_Theorem_And_Distance_Formula.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 92,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "The_Quadratic_Formula",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/The_Quadratic_Formula.md",
@@ -2224,22 +2071,6 @@
       "score": 95
     },
     {
-      "slug": "Absolute_Value",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Absolute_Value.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 47,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 0
-    },
-    {
       "slug": "Absolute_Value_And_Opposites",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Absolute_Value_And_Opposites.md",
@@ -2320,22 +2151,6 @@
       "score": 90
     },
     {
-      "slug": "Adding_And_Subtracting_Mixed_Numbers",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Adding_And_Subtracting_Mixed_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 100,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "Applications_Of_Proportional_Reasoning",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Applications_Of_Proportional_Reasoning.md",
@@ -2381,8 +2196,11 @@
       "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 10,
-      "generator_count": 3,
+      "generator_count": 6,
       "generators": [
+        "percent_change_with_algebra",
+        "sales_tax_or_tip_algebra",
+        "word_problem_two_step_percent",
         "sales_tax_or_tip",
         "percent_discount",
         "simple_interest_calc"
@@ -2458,10 +2276,10 @@
       "relpath": "wiki/topics/pre_algebra/Comparing_And_Ordering_Fractions.md",
       "status": "draft",
       "confidence": "high",
-      "word_count": 847,
+      "word_count": 846,
       "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 10,
+      "wikilink_count": 9,
       "generator_count": 3,
       "generators": [
         "compare_two_fractions",
@@ -2471,22 +2289,6 @@
       "prerequisite_count": 2,
       "related_count": 4,
       "score": 85
-    },
-    {
-      "slug": "Comparing_And_Ordering_Rational_Numbers",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Comparing_And_Ordering_Rational_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 125,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
     },
     {
       "slug": "Composite_Figures",
@@ -2503,22 +2305,6 @@
       "prerequisite_count": 0,
       "related_count": 0,
       "score": 0
-    },
-    {
-      "slug": "Converting_Between_Fractions_And_Decimals",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Converting_Between_Fractions_And_Decimals.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 158,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
     },
     {
       "slug": "Data_Displays",
@@ -2581,22 +2367,6 @@
       "score": 85
     },
     {
-      "slug": "Dimensional_Analysis",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Dimensional_Analysis.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 82,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "Dividing_Decimals",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Dividing_Decimals.md",
@@ -2635,22 +2405,6 @@
       "prerequisite_count": 2,
       "related_count": 4,
       "score": 85
-    },
-    {
-      "slug": "Dividing_Mixed_Numbers",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Dividing_Mixed_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 57,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
     },
     {
       "slug": "Divisibility_Factors_And_Prime_Factorization",
@@ -2853,22 +2607,6 @@
       "score": 90
     },
     {
-      "slug": "Markup_Discount_And_Commission",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Markup_Discount_And_Commission.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 106,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "Mean_Median_Mode_And_Range",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Mean_Median_Mode_And_Range.md",
@@ -2969,38 +2707,6 @@
       "score": 85
     },
     {
-      "slug": "Multiplying_Mixed_Numbers",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Multiplying_Mixed_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 54,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
-      "slug": "Operations_With_Rational_Numbers",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Operations_With_Rational_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 75,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "Order_Of_Operations",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Order_Of_Operations.md",
@@ -3019,38 +2725,6 @@
       "prerequisite_count": 3,
       "related_count": 3,
       "score": 90
-    },
-    {
-      "slug": "Order_Of_Operations_With_Fractions",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Order_Of_Operations_With_Fractions.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 58,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
-      "slug": "Order_Of_Operations_With_Integers",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Order_Of_Operations_With_Integers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 58,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
     },
     {
       "slug": "Percent_Increase_And_Decrease",
@@ -3212,8 +2886,11 @@
       "example_count": 3,
       "figure_count": 0,
       "wikilink_count": 11,
-      "generator_count": 3,
+      "generator_count": 6,
       "generators": [
+        "solve_proportion_with_variable",
+        "proportion_word_problem_scale",
+        "similar_figures_proportion",
         "solve_proportion_for_unknown",
         "scale_with_proportion_word",
         "verify_is_proportion"
@@ -3221,22 +2898,6 @@
       "prerequisite_count": 2,
       "related_count": 5,
       "score": 85
-    },
-    {
-      "slug": "Proportions_In_Similar_Figures",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Proportions_In_Similar_Figures.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 64,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
     },
     {
       "slug": "Rational_Exponents",
@@ -3257,22 +2918,6 @@
       "prerequisite_count": 3,
       "related_count": 5,
       "score": 90
-    },
-    {
-      "slug": "Rational_Numbers_On_The_Number_Line",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Rational_Numbers_On_The_Number_Line.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 189,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
     },
     {
       "slug": "Ratios_And_Equivalent_Ratios",
@@ -3331,22 +2976,6 @@
       "score": 5
     },
     {
-      "slug": "Review_Of_Perimeter_And_Area",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Review_Of_Perimeter_And_Area.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 25,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 0
-    },
-    {
       "slug": "Scale_Drawings_And_Maps",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Scale_Drawings_And_Maps.md",
@@ -3368,10 +2997,10 @@
       "relpath": "wiki/topics/pre_algebra/Similar_Triangles.md",
       "status": "draft",
       "confidence": "high",
-      "word_count": 1275,
+      "word_count": 1274,
       "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 13,
+      "wikilink_count": 12,
       "generator_count": 3,
       "generators": [
         "similar_triangles_find_missing_side",
@@ -3419,22 +3048,6 @@
       "score": 5
     },
     {
-      "slug": "Slope_As_Rate_Of_Change",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Slope_As_Rate_Of_Change.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 67,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "Slope_Intercept_Form",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Slope_Intercept_Form.md",
@@ -3453,38 +3066,6 @@
       "prerequisite_count": 3,
       "related_count": 3,
       "score": 90
-    },
-    {
-      "slug": "Solving_Equations_With_Fractions_And_Decimals",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Solving_Equations_With_Fractions_And_Decimals.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 81,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
-      "slug": "Solving_Equations_With_The_Distributive_Property",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Solving_Equations_With_The_Distributive_Property.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 64,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
     },
     {
       "slug": "Solving_One_Step_And_Two_Step_Inequalities",
@@ -3651,10 +3232,10 @@
       "relpath": "wiki/topics/pre_algebra/The_Distributive_Property.md",
       "status": "draft",
       "confidence": "high",
-      "word_count": 661,
+      "word_count": 660,
       "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 15,
+      "wikilink_count": 14,
       "generator_count": 3,
       "generators": [
         "distribute_numerical",
@@ -3922,22 +3503,6 @@
       "score": 95
     },
     {
-      "slug": "Writing_And_Solving_Equations_From_Word_Problems",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Writing_And_Solving_Equations_From_Word_Problems.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 49,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 0
-    },
-    {
       "slug": "Algebraic_Functions",
       "branch": "precalculus",
       "relpath": "wiki/topics/precalculus/Algebraic_Functions.md",
@@ -4116,22 +3681,6 @@
       "prerequisite_count": 3,
       "related_count": 3,
       "score": 90
-    },
-    {
-      "slug": "Conic_Sections_In_Polar_Coordinates",
-      "branch": "precalculus",
-      "relpath": "wiki/topics/precalculus/Conic_Sections_In_Polar_Coordinates.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 279,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
     },
     {
       "slug": "Determinants",
@@ -4352,22 +3901,6 @@
       "prerequisite_count": 2,
       "related_count": 2,
       "score": 80
-    },
-    {
-      "slug": "Inequalities",
-      "branch": "precalculus",
-      "relpath": "wiki/topics/precalculus/Inequalities.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 45,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 0
     },
     {
       "slug": "Introduction_To_Conics",
@@ -4648,22 +4181,6 @@
       "prerequisite_count": 3,
       "related_count": 4,
       "score": 90
-    },
-    {
-      "slug": "Parfrac",
-      "branch": "precalculus",
-      "relpath": "wiki/topics/precalculus/Parfrac.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 119,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
     },
     {
       "slug": "Permutations_And_Combinations",

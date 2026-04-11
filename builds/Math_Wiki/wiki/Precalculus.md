@@ -58,7 +58,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Calculus & Trigonometry topics --- 47 live / 50 total
+### Pre-Calculus & Trigonometry topics --- 47 live / 47 total
 
 **🟢 Live topics with practice widgets (47)**
 
@@ -109,15 +109,6 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Trigonometric_Equations|Trigonometric Equations]]
 - 🟢 [[Trigonometric_Inequalities|Trigonometric Inequalities]]
 - 🟢 [[Vectors|Vectors]]
-
-<details>
-<summary>⚪ 3 stub topic(s) (click to expand)</summary>
-
-- ⚪ [[Conic_Sections_In_Polar_Coordinates|Conic Sections in Polar Coordinates]]
-- ⚪ [[Inequalities|Inequalities]]
-- ⚪ [[Parfrac|ParFrac]]
-
-</details>
 
 <!-- AUTO:TOPICS:END -->
 

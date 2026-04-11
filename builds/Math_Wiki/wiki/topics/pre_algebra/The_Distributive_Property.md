@@ -132,7 +132,7 @@ $$
 5(x + 3) = 5x + 15
 $$
 
-That step is the whole subject of [[The_Distributive_Property_With_Variables]], where you'll also use the property in reverse (pulling a common factor back out of a sum). Pairing that skill with [[Simplifying_Expressions]] and [[Solving_Equations_With_The_Distributive_Property]] is how you start moving from arithmetic into real algebra.
+That step is the whole subject of [[The_Distributive_Property_With_Variables]], where you'll also use the property in reverse (pulling a common factor back out of a sum). Pairing that skill with [[Simplifying_Expressions]] and [[Multi_Step_Equations]] is how you start moving from arithmetic into real algebra.
 
 ---
 
@@ -165,7 +165,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 
 - [[Variables_And_Algebraic_Expressions]]
 - [[The_Distributive_Property_With_Variables]]
-- [[Solving_Equations_With_The_Distributive_Property]]
 - [[Simplifying_Expressions]]
 - [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]

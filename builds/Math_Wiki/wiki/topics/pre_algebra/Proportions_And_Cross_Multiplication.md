@@ -202,7 +202,7 @@ _More problem types are coming soon._
 - [[Unit_Rates]]
 - [[Applications_Of_Proportional_Reasoning]]
 - [[Ratios_Rates_And_Proportions]]
-- [[Proportions_In_Similar_Figures]]
+- [[Similar_Triangles]]
 - [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -1,12 +1,20 @@
-"""Percent application generators (Phase 2c Wave B).
+"""Algebra-level percent application generators.
 
-Canonical topic slug ``percent_applications``.
+History: this module originally targeted a separate ``percent_applications``
+stub topic. In the v2.4 stub cleanup the stub was folded into the live
+``Applications_Tax_Tip_Discount_And_Simple_Interest`` topic and the three
+classes here had their ``topic_slug`` retargeted accordingly. They remain
+in the ``algebra/`` package because they operate at an algebra level
+(successive percent operations solved via a single multiplier) rather than
+the pre-algebra arithmetic approach.
 
-- percent_change_with_algebra: net percent change after a p% increase
+Classes:
+
+- ``percent_change_with_algebra``: net percent change after a p% increase
   followed by a q% decrease.
-- sales_tax_or_tip_algebra: solve algebraically for the pre-tax or pre-tip
-  amount given the total and the rate.
-- word_problem_two_step_percent: chained percent operations
+- ``sales_tax_or_tip_algebra``: solve algebraically for the pre-tax or
+  pre-tip amount given the total and the rate.
+- ``word_problem_two_step_percent``: chained percent operations
   (markup, then markdown, etc.).
 """
 from __future__ import annotations
@@ -47,7 +55,7 @@ class PercentChangeWithAlgebra(Generator):
     is a clean rational number.
     """
     generator_id = "percent_change_with_algebra"
-    topic_slug = "percent_applications"
+    topic_slug = "applications_tax_tip_discount_and_simple_interest"
     display_name = "Net percent change after two successive changes"
 
     _P = {"easy": [10, 15, 20, 25], "medium": [10, 15, 20, 25, 30, 40], "hard": [15, 20, 25, 30, 40, 50]}
@@ -124,7 +132,7 @@ class SalesTaxOrTipAlgebra(Generator):
     the tax rate $r$ (as an integer percent that gives a clean total).
     """
     generator_id = "sales_tax_or_tip_algebra"
-    topic_slug = "percent_applications"
+    topic_slug = "applications_tax_tip_discount_and_simple_interest"
     display_name = "Solve for the pre-tax amount given total + rate"
 
     _P = {"easy": (10, 60), "medium": (15, 150), "hard": (20, 300)}
@@ -191,7 +199,7 @@ class WordProblemTwoStepPercent(Generator):
     q (discount) so all arithmetic is clean.
     """
     generator_id = "word_problem_two_step_percent"
-    topic_slug = "percent_applications"
+    topic_slug = "applications_tax_tip_discount_and_simple_interest"
     display_name = "Chained markup and markdown"
 
     _P0 = {"easy": (20, 60), "medium": (30, 120), "hard": (40, 250)}

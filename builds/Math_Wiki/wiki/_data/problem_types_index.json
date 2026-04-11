@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T20:56:23.298758+00:00",
+  "generated_at": "2026-04-11T21:18:09.901386+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
   "generator_count": 641,
@@ -2109,6 +2109,26 @@
           "medium": 30,
           "hard": 30
         }
+      },
+      {
+        "generator_id": "area_quadratic_word_problem",
+        "display_name": "Rectangle dimensions from area (quadratic)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "quadratic_revenue_or_cost_optimization",
+        "display_name": "Optimal price for a quadratic revenue model",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
       }
     ],
     "square_root_functions": [
@@ -3423,29 +3443,7 @@
         }
       }
     ],
-    "applications_of_quadratics": [
-      {
-        "generator_id": "area_quadratic_word_problem",
-        "display_name": "Rectangle dimensions from area (quadratic)",
-        "supports_word_problems": false,
-        "counts": {
-          "easy": 30,
-          "medium": 30,
-          "hard": 30
-        }
-      },
-      {
-        "generator_id": "quadratic_revenue_or_cost_optimization",
-        "display_name": "Optimal price for a quadratic revenue model",
-        "supports_word_problems": false,
-        "counts": {
-          "easy": 15,
-          "medium": 30,
-          "hard": 30
-        }
-      }
-    ],
-    "percent_applications": [
+    "applications_tax_tip_discount_and_simple_interest": [
       {
         "generator_id": "percent_change_with_algebra",
         "display_name": "Net percent change after two successive changes",
@@ -3475,9 +3473,39 @@
           "medium": 30,
           "hard": 30
         }
+      },
+      {
+        "generator_id": "sales_tax_or_tip",
+        "display_name": "Sales tax or tip total",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_discount",
+        "display_name": "Sale price after a percent discount",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "simple_interest_calc",
+        "display_name": "Simple interest (I = Prt)",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
       }
     ],
-    "ratios_and_proportions": [
+    "proportions_and_cross_multiplication": [
       {
         "generator_id": "solve_proportion_with_variable",
         "display_name": "Solve a proportion with a variable",
@@ -3501,6 +3529,36 @@
       {
         "generator_id": "similar_figures_proportion",
         "display_name": "Missing side of similar figures",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_proportion_for_unknown",
+        "display_name": "Solve a proportion for the unknown",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "scale_with_proportion_word",
+        "display_name": "Scale with a proportion (word problem)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "verify_is_proportion",
+        "display_name": "Do two ratios form a proportion?",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -3822,38 +3880,6 @@
         "generator_id": "percent_change_find_original",
         "display_name": "Find the original value from a percent change",
         "supports_word_problems": false,
-        "counts": {
-          "easy": 30,
-          "medium": 30,
-          "hard": 30
-        }
-      }
-    ],
-    "applications_tax_tip_discount_and_simple_interest": [
-      {
-        "generator_id": "sales_tax_or_tip",
-        "display_name": "Sales tax or tip total",
-        "supports_word_problems": true,
-        "counts": {
-          "easy": 30,
-          "medium": 30,
-          "hard": 30
-        }
-      },
-      {
-        "generator_id": "percent_discount",
-        "display_name": "Sale price after a percent discount",
-        "supports_word_problems": true,
-        "counts": {
-          "easy": 30,
-          "medium": 30,
-          "hard": 30
-        }
-      },
-      {
-        "generator_id": "simple_interest_calc",
-        "display_name": "Simple interest (I = Prt)",
-        "supports_word_problems": true,
         "counts": {
           "easy": 30,
           "medium": 30,
@@ -4685,38 +4711,6 @@
       {
         "generator_id": "compare_better_buy",
         "display_name": "Which is the better buy?",
-        "supports_word_problems": false,
-        "counts": {
-          "easy": 30,
-          "medium": 30,
-          "hard": 30
-        }
-      }
-    ],
-    "proportions_and_cross_multiplication": [
-      {
-        "generator_id": "solve_proportion_for_unknown",
-        "display_name": "Solve a proportion for the unknown",
-        "supports_word_problems": false,
-        "counts": {
-          "easy": 30,
-          "medium": 30,
-          "hard": 30
-        }
-      },
-      {
-        "generator_id": "scale_with_proportion_word",
-        "display_name": "Scale with a proportion (word problem)",
-        "supports_word_problems": false,
-        "counts": {
-          "easy": 30,
-          "medium": 30,
-          "hard": 30
-        }
-      },
-      {
-        "generator_id": "verify_is_proportion",
-        "display_name": "Do two ratios form a proportion?",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -10050,84 +10044,84 @@
       "shard_file": "problems/the_coordinate_plane.json"
     },
     "area_quadratic_word_problem": {
-      "topic_slug": "applications_of_quadratics",
+      "topic_slug": "applications_of_quadratic_functions",
       "display_name": "Rectangle dimensions from area (quadratic)",
       "counts": {
         "easy": 30,
         "medium": 30,
         "hard": 30
       },
-      "shard_file": "problems/applications_of_quadratics.json"
+      "shard_file": "problems/applications_of_quadratic_functions.json"
     },
     "quadratic_revenue_or_cost_optimization": {
-      "topic_slug": "applications_of_quadratics",
+      "topic_slug": "applications_of_quadratic_functions",
       "display_name": "Optimal price for a quadratic revenue model",
       "counts": {
         "easy": 15,
         "medium": 30,
         "hard": 30
       },
-      "shard_file": "problems/applications_of_quadratics.json"
+      "shard_file": "problems/applications_of_quadratic_functions.json"
     },
     "percent_change_with_algebra": {
-      "topic_slug": "percent_applications",
+      "topic_slug": "applications_tax_tip_discount_and_simple_interest",
       "display_name": "Net percent change after two successive changes",
       "counts": {
         "easy": 15,
         "medium": 30,
         "hard": 30
       },
-      "shard_file": "problems/percent_applications.json"
+      "shard_file": "problems/applications_tax_tip_discount_and_simple_interest.json"
     },
     "sales_tax_or_tip_algebra": {
-      "topic_slug": "percent_applications",
+      "topic_slug": "applications_tax_tip_discount_and_simple_interest",
       "display_name": "Solve for the pre-tax amount given total + rate",
       "counts": {
         "easy": 30,
         "medium": 30,
         "hard": 30
       },
-      "shard_file": "problems/percent_applications.json"
+      "shard_file": "problems/applications_tax_tip_discount_and_simple_interest.json"
     },
     "word_problem_two_step_percent": {
-      "topic_slug": "percent_applications",
+      "topic_slug": "applications_tax_tip_discount_and_simple_interest",
       "display_name": "Chained markup and markdown",
       "counts": {
         "easy": 30,
         "medium": 30,
         "hard": 30
       },
-      "shard_file": "problems/percent_applications.json"
+      "shard_file": "problems/applications_tax_tip_discount_and_simple_interest.json"
     },
     "solve_proportion_with_variable": {
-      "topic_slug": "ratios_and_proportions",
+      "topic_slug": "proportions_and_cross_multiplication",
       "display_name": "Solve a proportion with a variable",
       "counts": {
         "easy": 30,
         "medium": 30,
         "hard": 30
       },
-      "shard_file": "problems/ratios_and_proportions.json"
+      "shard_file": "problems/proportions_and_cross_multiplication.json"
     },
     "proportion_word_problem_scale": {
-      "topic_slug": "ratios_and_proportions",
+      "topic_slug": "proportions_and_cross_multiplication",
       "display_name": "Scale-factor word problem (map, model, blueprint)",
       "counts": {
         "easy": 30,
         "medium": 30,
         "hard": 30
       },
-      "shard_file": "problems/ratios_and_proportions.json"
+      "shard_file": "problems/proportions_and_cross_multiplication.json"
     },
     "similar_figures_proportion": {
-      "topic_slug": "ratios_and_proportions",
+      "topic_slug": "proportions_and_cross_multiplication",
       "display_name": "Missing side of similar figures",
       "counts": {
         "easy": 30,
         "medium": 30,
         "hard": 30
       },
-      "shard_file": "problems/ratios_and_proportions.json"
+      "shard_file": "problems/proportions_and_cross_multiplication.json"
     },
     "piecewise_evaluate_at_point": {
       "topic_slug": "piecewise_functions",

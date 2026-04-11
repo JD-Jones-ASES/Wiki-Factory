@@ -1,15 +1,21 @@
-"""Algebra-level ratios and proportions generators (Phase 2c Wave B).
+"""Algebra-level proportion generators.
 
-Canonical topic slug ``ratios_and_proportions`` (algebra branch --- the
-pre-algebra branch already covers simpler rate/unit-conversion style
-proportions).
+History: this module originally targeted a separate ``ratios_and_proportions``
+stub topic. In the v2.4 stub cleanup the stub was folded into the live
+``Proportions_And_Cross_Multiplication`` topic and the three classes here
+had their ``topic_slug`` retargeted accordingly. They remain in ``algebra/``
+because they carry algebraic expressions in the proportion (variables on
+both sides, similar-triangle side-length solves) rather than the pre-algebra
+arithmetic treatment.
 
-- solve_proportion_with_variable: solve $\\dfrac{ax + b}{c} = \\dfrac{d}{e}$
+Classes:
+
+- ``solve_proportion_with_variable``: solve $\\dfrac{ax + b}{c} = \\dfrac{d}{e}$
   or $\\dfrac{x}{a} = \\dfrac{b}{c}$ forms with algebraic knowns.
-- proportion_word_problem_scale: scale-model/map word problem with a clean
-  integer scale factor.
-- similar_figures_proportion: similar triangles; find the missing side
-  via a proportion.
+- ``proportion_word_problem_scale``: scale-model/map word problem with a
+  clean integer scale factor.
+- ``similar_figures_proportion``: similar triangles; find the missing
+  side via a proportion.
 """
 from __future__ import annotations
 
@@ -34,7 +40,7 @@ class SolveProportionWithVariable(Generator):
     sides.
     """
     generator_id = "solve_proportion_with_variable"
-    topic_slug = "ratios_and_proportions"
+    topic_slug = "proportions_and_cross_multiplication"
     display_name = "Solve a proportion with a variable"
 
     _X = {"easy": (1, 8), "medium": (1, 14), "hard": (2, 22)}
@@ -119,7 +125,7 @@ class ProportionWordProblemScale(Generator):
     $r / s$. All kept as integers for clean answers.
     """
     generator_id = "proportion_word_problem_scale"
-    topic_slug = "ratios_and_proportions"
+    topic_slug = "proportions_and_cross_multiplication"
     display_name = "Scale-factor word problem (map, model, blueprint)"
 
     _SCALE = {"easy": [4, 5, 8, 10], "medium": [6, 8, 10, 12, 15, 20], "hard": [10, 12, 15, 20, 25, 30, 40]}
@@ -216,7 +222,7 @@ class SimilarFiguresProportion(Generator):
     and hide the fourth as $x$.
     """
     generator_id = "similar_figures_proportion"
-    topic_slug = "ratios_and_proportions"
+    topic_slug = "proportions_and_cross_multiplication"
     display_name = "Missing side of similar figures"
 
     _K = {"easy": [2, 3, 4], "medium": [2, 3, 4, 5, 6], "hard": [2, 3, 4, 5, 6, 7, 8]}

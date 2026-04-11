@@ -39,8 +39,8 @@ Geometry is where math becomes visual and where reasoning becomes the point. You
 
 1. **Start with the coordinate plane and basic measurement.** [[Plotting_Points_And_The_Coordinate_Plane|Coordinate Plane]] → [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles]]
 2. **Classify triangles and polygons.** [[Classifying_Triangles_And_Quadrilaterals|Triangle and Quadrilateral Classification]] → [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum]]
-3. **Similarity and the Pythagorean theorem.** [[Similar_Triangles|Similar Triangles]] → [[Proportions_In_Similar_Figures|Similar Figures]] → [[The_Pythagorean_Theorem|Pythagorean Theorem]] → [[Applications_Of_The_Pythagorean_Theorem|Applications]]
-4. **Perimeter, area, and composite figures.** [[Perimeter_And_Area_Of_Polygons|Perimeter & Area]] → [[Composite_Figures|Composite Figures]] → [[Review_Of_Perimeter_And_Area|Review]]
+3. **Similarity and the Pythagorean theorem.** [[Similar_Triangles|Similar Triangles]] → [[Dilations_And_Similarity|Dilations and Similarity]] → [[The_Pythagorean_Theorem|Pythagorean Theorem]] → [[Applications_Of_The_Pythagorean_Theorem|Applications]]
+4. **Perimeter, area, and composite figures.** [[Perimeter_And_Area_Of_Polygons|Perimeter & Area]] → [[Composite_Figures|Composite Figures]] → [[Circumference_And_Area_Of_Circles|Circles]]
 5. **Circles.** [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]] → [[Circles|Circles (coordinate view)]]
 6. **Coordinate geometry bridges.** [[The_Distance_Formula|Distance Formula]] → [[The_Midpoint_Formula|Midpoint Formula]]
 7. **3D solids.** [[Volume_Of_Prisms_And_Cylinders|Prism/Cylinder Volume]] → [[Volume_Of_Pyramids_And_Cones|Pyramid/Cone Volume]] → [[Surface_Area_Of_Prisms_And_Cylinders|Surface Area]] → [[Surface_Area_And_Volume_Of_Spheres|Spheres]]
@@ -58,7 +58,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Core Geometry topics --- 25 live / 30 total
+### Core Geometry topics --- 25 live / 28 total
 
 **🟢 Live topics with practice widgets (25)**
 
@@ -89,12 +89,10 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 
 <details>
-<summary>⚪ 5 stub topic(s) (click to expand)</summary>
+<summary>⚪ 3 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Composite_Figures|Composite Figures]]
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
-- ⚪ [[Proportions_In_Similar_Figures|Proportions in Similar Figures]]
-- ⚪ [[Review_Of_Perimeter_And_Area|Review of Perimeter and Area]]
 - ⚪ [[Scale_Drawings_And_Maps|Scale Drawings and Maps]]
 
 </details>

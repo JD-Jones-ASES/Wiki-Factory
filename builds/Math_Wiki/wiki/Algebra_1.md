@@ -57,13 +57,12 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Algebra 1 topics --- 47 live / 51 total
+### Algebra 1 topics --- 44 live / 44 total
 
-**🟢 Live topics with practice widgets (47)**
+**🟢 Live topics with practice widgets (44)**
 
 - 🟢 [[Absolute_Value_Inequalities|Absolute Value Inequalities]]
 - 🟢 [[Adding_And_Subtracting_Polynomials|Adding and Subtracting Polynomials]]
-- 🟢 [[Applications_Of_Quadratics|Applications of Quadratics]]
 - 🟢 [[Compound_Inequalities|Compound Inequalities]]
 - 🟢 [[Equations_With_Variables_On_Both_Sides|Equations with Variables on Both Sides]]
 - 🟢 [[Factoring_Completely|Factoring Completely]]
@@ -81,10 +80,8 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[One_Step_Equations|One-Step Equations]]
 - 🟢 [[Operations_With_Radicals|Operations with Radicals]]
 - 🟢 [[Parallel_And_Perpendicular_Lines|Parallel and Perpendicular Lines]]
-- 🟢 [[Percent_Applications|Percent Applications]]
 - 🟢 [[Polynomial_Basics|Polynomial Basics]]
 - 🟢 [[Properties_Of_Exponents|Properties of Exponents]]
-- 🟢 [[Ratios_And_Proportions|Ratios and Proportions]]
 - 🟢 [[Relations_And_Functions|Relations and Functions]]
 - 🟢 [[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]]
 - 🟢 [[Scientific_Notation|Scientific Notation]]
@@ -108,16 +105,6 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Variables_And_Expressions|Variables and Expressions]]
 - 🟢 [[Writing_Linear_Equations|Writing Linear Equations]]
 - 🟢 [[Zero_And_Negative_Exponents|Zero and Negative Exponents]]
-
-<details>
-<summary>⚪ 4 stub topic(s) (click to expand)</summary>
-
-- ⚪ [[Adding_And_Subtracting_Real_Numbers|Adding and Subtracting Real Numbers]]
-- ⚪ [[Multiplying_And_Dividing_Real_Numbers|Multiplying and Dividing Real Numbers]]
-- ⚪ [[Properties_Of_Real_Numbers|Properties of Real Numbers]]
-- ⚪ [[The_Pythagorean_Theorem_And_Distance_Formula|The Pythagorean Theorem and Distance Formula]]
-
-</details>
 
 <!-- AUTO:TOPICS:END -->
 

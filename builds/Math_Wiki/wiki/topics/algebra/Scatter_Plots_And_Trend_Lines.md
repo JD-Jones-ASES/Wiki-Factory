@@ -49,7 +49,7 @@ When the cloud has a clear direction, you can sketch a **trend line** — someti
 
 ### What a trend line is good for
 
-- **Describing the relationship.** The slope says how much $y$ changes for each unit of $x$, a real-world [[Slope_As_Rate_Of_Change|rate of change]] like "points per hour of study" or "gallons per mile".
+- **Describing the relationship.** The slope says how much $y$ changes for each unit of $x$, a real-world [[Slope|rate of change]] like "points per hour of study" or "gallons per mile".
 - **Predicting.** Once you have the equation, you can plug in an $x$-value and estimate the matching $y$.
 - **Comparing groups.** If two sets of data each get their own trend line, the slopes and intercepts give you a clean way to compare them.
 
@@ -156,7 +156,7 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Linear_Functions]]
 - [[Modeling_With_Linear_Functions]]
 - [[Plotting_Points_And_The_Coordinate_Plane]]
-- [[Slope_As_Rate_Of_Change]]
+- [[Slope]]
 - [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

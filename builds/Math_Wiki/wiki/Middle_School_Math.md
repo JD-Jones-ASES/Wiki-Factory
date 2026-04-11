@@ -62,7 +62,7 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Middle School Math topics --- 64 live / 91 total
+### Middle School Math topics --- 64 live / 73 total
 
 **🟢 Live topics with practice widgets (64)**
 
@@ -132,35 +132,17 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - 🟢 [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 
 <details>
-<summary>⚪ 27 stub topic(s) (click to expand)</summary>
+<summary>⚪ 9 stub topic(s) (click to expand)</summary>
 
-- ⚪ [[Absolute_Value|Absolute Value]]
-- ⚪ [[Adding_And_Subtracting_Mixed_Numbers|Adding and Subtracting Mixed Numbers]]
 - ⚪ [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]]
-- ⚪ [[Comparing_And_Ordering_Rational_Numbers|Comparing and Ordering Rational Numbers]]
 - ⚪ [[Composite_Figures|Composite Figures]]
-- ⚪ [[Converting_Between_Fractions_And_Decimals|Converting Between Fractions and Decimals]]
-- ⚪ [[Dimensional_Analysis|Dimensional Analysis]]
-- ⚪ [[Dividing_Mixed_Numbers|Dividing Mixed Numbers]]
-- ⚪ [[Markup_Discount_And_Commission|Markup, Discount, and Commission]]
-- ⚪ [[Multiplying_Mixed_Numbers|Multiplying Mixed Numbers]]
-- ⚪ [[Operations_With_Rational_Numbers|Operations with Rational Numbers]]
-- ⚪ [[Order_Of_Operations_With_Fractions|Order of Operations with Fractions]]
-- ⚪ [[Order_Of_Operations_With_Integers|Order of Operations with Integers]]
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
 - ⚪ [[Product_Power_And_Quotient_Rules|Product, Power, and Quotient Rules]]
 - ⚪ [[Properties_Of_Addition_And_Multiplication|Properties of Addition and Multiplication]]
-- ⚪ [[Proportions_In_Similar_Figures|Proportions in Similar Figures]]
-- ⚪ [[Rational_Numbers_On_The_Number_Line|Rational Numbers on the Number Line]]
 - ⚪ [[Repeating_Decimals_As_Fractions|Repeating Decimals as Fractions]]
-- ⚪ [[Review_Of_Perimeter_And_Area|Review of Perimeter and Area]]
 - ⚪ [[Scale_Drawings_And_Maps|Scale Drawings and Maps]]
 - ⚪ [[Simplifying_Expressions|Simplifying Expressions]]
-- ⚪ [[Slope_As_Rate_Of_Change|Slope as Rate of Change]]
-- ⚪ [[Solving_Equations_With_Fractions_And_Decimals|Solving Equations with Fractions and Decimals]]
-- ⚪ [[Solving_Equations_With_The_Distributive_Property|Solving Equations with the Distributive Property]]
 - ⚪ [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]]
-- ⚪ [[Writing_And_Solving_Equations_From_Word_Problems|Writing and Solving Equations from Word Problems]]
 
 </details>
 

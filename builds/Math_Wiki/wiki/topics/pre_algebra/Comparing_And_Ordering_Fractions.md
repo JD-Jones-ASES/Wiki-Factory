@@ -158,7 +158,6 @@ _More problem types are coming soon._
 
 - [[Adding_And_Subtracting_Fractions]]
 - [[Mixed_Numbers_And_Improper_Fractions]]
-- [[Comparing_And_Ordering_Rational_Numbers]]
 - [[Equivalent_Fractions_And_Simplifying]]
 - [[Middle_School_Math|Middle School Math]]
 - [[_overview|Home]]

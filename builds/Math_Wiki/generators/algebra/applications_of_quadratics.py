@@ -1,136 +1,32 @@
-"""Applications of quadratics generators (Phase 2c Wave B).
+"""Application generators that extend the live ``applications_of_quadratic_functions`` topic.
 
-Canonical topic slug ``applications_of_quadratics``.
+History: this module originally targeted a separate ``applications_of_quadratics``
+stub topic. In the v2.4 stub cleanup the stub was merged into the live
+``Applications_Of_Quadratic_Functions.md`` topic, the duplicate
+``projectile_max_height`` class (which collided with the canonical one in
+``quadratic_functions.py`` and was never actually registered) was deleted,
+and the two surviving classes had their ``topic_slug`` retargeted to the
+live slug.
 
-- projectile_max_height: given $h(t) = -16t^2 + v_0 t + h_0$, find the time
-  of maximum height and the maximum height.
-- area_quadratic_word_problem: a rectangle has a linear relationship between
-  length and width; given the area, solve a quadratic for dimensions.
-- quadratic_revenue_or_cost_optimization: maximize $R(p) = p(b - ap)$ for
-  optimal price and peak revenue.
+Surviving classes:
 
-All word-problem scenarios are freshly written: t-shirt launchers, pop-up
-book hinges, photography-class sun umbrellas, community garden beds, etc.
+- ``area_quadratic_word_problem``: a rectangle has a linear relationship
+  between length and width; given the area, solve a quadratic for the
+  dimensions.
+- ``quadratic_revenue_or_cost_optimization``: maximize $R(p) = p(b - ap)$
+  for the optimal price and peak revenue.
+
+All word-problem scenarios are freshly written (community garden beds,
+science-fair poster boards, farmer's-market candles, etc.).
 """
 from __future__ import annotations
 
-import math
 import random
-
-import sympy as sp
 
 from ..base import Difficulty, Generator, Problem, make_problem_id, register
 
 
-t = sp.Symbol("t")
-w = sp.Symbol("w")
-p = sp.Symbol("p")
-
-
 # ---------------------------------------------------------------------------
-
-@register
-class ProjectileMaxHeight(Generator):
-    """Find the time and height of maximum for $h(t) = -16 t^2 + v_0 t + h_0$.
-
-    Backward construction: pick a clean positive integer peak time ``tp`` and
-    a non-negative peak height ``hp``. For a parabola $h(t) = -16 t^2 + v_0 t
-    + h_0$ with vertex at ``t = tp`` and vertex value ``hp``:
-
-        v_0 = 32 * tp     (since the vertex is at t = v_0 / 32)
-        h_0 = hp - 16 * tp^2
-
-    That way the student recovers ``tp`` and ``hp`` cleanly.
-    """
-    generator_id = "projectile_max_height"
-    topic_slug = "applications_of_quadratics"
-    display_name = "Projectile: time and value of maximum height"
-
-    _TP = {"easy": (1, 2), "medium": (1, 3), "hard": (2, 4)}
-    _HP = {"easy": (20, 60), "medium": (40, 110), "hard": (60, 180)}
-
-    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
-        tp_lo, tp_hi = self._TP[difficulty]
-        hp_lo, hp_hi = self._HP[difficulty]
-        tp = rng.randint(tp_lo, tp_hi)
-        hp = rng.randint(hp_lo, hp_hi)
-        v0 = 32 * tp
-        h0 = hp - 16 * tp * tp
-        # If h0 comes out negative (physical nonsense for a release height),
-        # bump hp so h0 is non-negative.
-        if h0 < 0:
-            h0 = rng.randint(2, 8)
-            hp = h0 + 16 * tp * tp
-
-        scenarios = [
-            (
-                "Maya uses a t-shirt launcher at a school pep rally",
-                "the t-shirt",
-                "school pep rally",
-            ),
-            (
-                "Rohan sets up a water fountain feature at a community garden",
-                "a jet of water",
-                "community garden fountain",
-            ),
-            (
-                "Priya tests a pop-up book hinge that flings a paper star",
-                "the paper star",
-                "pop-up book hinge",
-            ),
-            (
-                "Kai rigs a confetti cannon for a maker space demo",
-                "the confetti cluster",
-                "confetti cannon demo",
-            ),
-            (
-                "Zoe photographs a juggling ball for a photography class",
-                "the juggling ball",
-                "juggling ball toss",
-            ),
-        ]
-        opener, object_name, _ = rng.choice(scenarios)
-
-        statement = (
-            f"{opener}. The height of {object_name} in feet, $t$ seconds after "
-            f"release, is given by $h(t) = -16t^{{2}} + {v0} t + {h0}$. "
-            f"Determine the time at which {object_name} reaches its maximum "
-            f"height and the value of that maximum height."
-        )
-
-        poly = -16 * t ** 2 + v0 * t + h0
-        discriminant = v0 * v0 - 4 * (-16) * h0
-        # Quadratic vertex formulas
-        vertex_t = sp.Rational(v0, 32)
-        vertex_h = poly.subs(t, vertex_t)
-
-        return Problem(
-            id=make_problem_id(self.generator_id, difficulty, (v0, h0)),
-            generator_id=self.generator_id,
-            topic_slug=self.topic_slug,
-            difficulty=difficulty,
-            statement_latex=statement,
-            answer_latex=(
-                f"Maximum at $t = {tp}$ s with height ${hp}$ ft"
-            ),
-            hints=[
-                r"The vertex of $h(t) = at^2 + bt + c$ sits at $t = -\dfrac{b}{2a}$.",
-                f"Here $a = -16$ and $b = {v0}$, so $t = -\\dfrac{{{v0}}}{{2(-16)}} = {tp}$ seconds.",
-                f"Substitute $t = {tp}$ into the height equation to get the peak height.",
-            ],
-            solution_steps_latex=[
-                f"Read the model: $h(t) = -16t^{{2}} + {v0} t + {h0}$.",
-                f"Use the vertex formula $t = -\\dfrac{{b}}{{2a}} = -\\dfrac{{{v0}}}{{-32}} = {tp}$ seconds.",
-                f"Substitute: $h({tp}) = -16({tp})^{{2}} + {v0}({tp}) + {h0} = {hp}$ feet.",
-                f"Peak at $t = {tp}$ seconds, maximum height ${hp}$ feet.",
-            ],
-            tags=[
-                "#branch-algebra-2",
-                "#topic-quadratics",
-                "#skill-modeling",
-            ],
-        )
-
 
 @register
 class AreaQuadraticWordProblem(Generator):
@@ -140,7 +36,7 @@ class AreaQuadraticWordProblem(Generator):
     Area A = w0 * (w0 + k). Student solves w^2 + k*w - A = 0.
     """
     generator_id = "area_quadratic_word_problem"
-    topic_slug = "applications_of_quadratics"
+    topic_slug = "applications_of_quadratic_functions"
     display_name = "Rectangle dimensions from area (quadratic)"
 
     _W = {"easy": (3, 9), "medium": (4, 14), "hard": (6, 20)}
@@ -218,7 +114,7 @@ class QuadraticRevenueOrCostOptimization(Generator):
     Optimal price: $p^* = b / (2a)$. Peak revenue: $R(p^*) = b^2 / (4a)$.
     """
     generator_id = "quadratic_revenue_or_cost_optimization"
-    topic_slug = "applications_of_quadratics"
+    topic_slug = "applications_of_quadratic_functions"
     display_name = "Optimal price for a quadratic revenue model"
 
     _A = {"easy": (1, 3), "medium": (1, 4), "hard": (2, 5)}

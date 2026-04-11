@@ -145,7 +145,7 @@ Pick a problem type, choose a difficulty, choose how many you want, and click **
 
 - [[Rigid_Transformations]] — the size-preserving partners of the dilation
 - [[Similar_Triangles]] — the most common arena for similarity arguments
-- [[Proportions_In_Similar_Figures]] — side-ratio setups
+- [[Similar_Triangles]] — side-ratio setups
 - [[Scale_Drawings_And_Maps]] — similarity in real-world contexts
 - [[Coordinate_Geometry_Proofs]] — uses scale factors inside proofs
 - [[Geometry|Geometry]]

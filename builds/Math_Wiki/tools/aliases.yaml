@@ -351,5 +351,170 @@ merges:
     canonical_title: "Transformations I: Shifts and Reflections"
     rationale: "245-word pre-calc stub covered by live split Transformations_I_Shifts_And_Reflections + Transformations_Ii_Stretches_Compressions_And_Combined. Merge into primary shifts/reflections topic."
 
+  # -----------------------------------------------------------------------------
+  # v2.4.1 big stub cleanup (2026-04-11): 30 more stubs triaged as
+  # merge-deletes (combo duplicates, generator-retargeted, or niche).
+  # 12 other stubs are being concurrently activated with full content +
+  # generators; those are NOT in this list.
+  # -----------------------------------------------------------------------------
+
+  # --- Generator-retargeted: stub page deleted, generators' topic_slug moved ---
+
+  - from: ["Applications_Of_Quadratics"]
+    into: "Applications_Of_Quadratic_Functions"
+    canonical_title: "Applications of Quadratic Functions"
+    rationale: "19-word algebra-1 stub with 2 generators (3 declared, projectile_max_height was dead code). Live Applications_Of_Quadratic_Functions covers the same ground at score 90; the 2 surviving gens (area_quadratic_word_problem, quadratic_revenue_or_cost_optimization) were retargeted to that slug."
+
+  - from: ["Percent_Applications"]
+    into: "Applications_Tax_Tip_Discount_And_Simple_Interest"
+    canonical_title: "Applications: Tax, Tip, Discount, and Simple Interest"
+    rationale: "43-word algebra-1 stub with 3 generators. Live Applications_Tax_Tip_Discount_And_Simple_Interest (pre-algebra) covers the same ground. The 3 gens (percent_change_with_algebra, sales_tax_or_tip_algebra, word_problem_two_step_percent) were retargeted to the live slug."
+
+  - from: ["Ratios_And_Proportions"]
+    into: "Proportions_And_Cross_Multiplication"
+    canonical_title: "Proportions and Cross Multiplication"
+    rationale: "90-word algebra-1 stub with 3 generators. Live Proportions_And_Cross_Multiplication (pre-algebra) covers the same ground. The 3 gens (solve_proportion_with_variable, proportion_word_problem_scale, similar_figures_proportion) were retargeted to the live slug."
+
+  # --- Algebra combo-duplicates and chapter-level stubs ---
+
+  - from: ["Adding_And_Subtracting_Real_Numbers"]
+    into: "Adding_And_Subtracting_Integers"
+    canonical_title: "Adding and Subtracting Integers"
+    rationale: "105-word algebra-1 combo stub covered by live Adding_And_Subtracting_Integers + Adding_And_Subtracting_Fractions + Adding_And_Subtracting_Decimals."
+
+  - from: ["Multiplying_And_Dividing_Real_Numbers"]
+    into: "Multiplying_And_Dividing_Integers"
+    canonical_title: "Multiplying and Dividing Integers"
+    rationale: "111-word algebra-1 combo stub covered by live Multiplying_And_Dividing_Integers + Multiplying_Fractions + Dividing_Fractions + Multiplying_Decimals + Dividing_Decimals."
+
+  - from: ["The_Pythagorean_Theorem_And_Distance_Formula"]
+    into: "The_Pythagorean_Theorem"
+    canonical_title: "The Pythagorean Theorem"
+    rationale: "92-word algebra-1 combo stub covered by live The_Pythagorean_Theorem (pre-algebra) + The_Distance_Formula (algebra)."
+
+  - from: ["Factoring_I"]
+    into: "Factoring_Expressions"
+    canonical_title: "Factoring Expressions"
+    rationale: "253-word algebra-2 chapter-level stub covered by live Factoring_Expressions + Greatest_Common_Factor + Factoring_Trinomials_Leading_Coefficient_1 + Factoring_Trinomials_General + Factoring_Special_Forms + Factoring_Completely."
+
+  - from: ["Factoring_Ii"]
+    into: "Factoring_Completely"
+    canonical_title: "Factoring Completely"
+    rationale: "189-word algebra-2 advanced-factoring stub covered by live Factoring_Completely + Factoring_Special_Forms + Real_Zeros_Of_Polynomials (Factor Theorem, Rational Root Theorem)."
+
+  - from: ["Properties_Of_Real_Numbers"]
+    into: "Properties_Of_Addition_And_Multiplication"
+    canonical_title: "Properties of Addition and Multiplication"
+    rationale: "163-word algebra-1 stub duplicating pre-algebra Properties_Of_Addition_And_Multiplication (being activated in the same session). Pre-algebra is the correct home for commutative/associative/identity/inverse/distributive introductions."
+
+  # --- Pre-algebra merge-deletes ---
+
+  - from: ["Absolute_Value"]
+    into: "Absolute_Value_And_Opposites"
+    canonical_title: "Absolute Value and Opposites"
+    rationale: "47-word pre-algebra stub duplicating live Absolute_Value_And_Opposites."
+
+  - from: ["Adding_And_Subtracting_Mixed_Numbers"]
+    into: "Adding_And_Subtracting_Fractions"
+    canonical_title: "Adding and Subtracting Fractions"
+    rationale: "100-word stub; mixed-number arithmetic covered within live Adding_And_Subtracting_Fractions and Mixed_Numbers_And_Improper_Fractions."
+
+  - from: ["Multiplying_Mixed_Numbers"]
+    into: "Multiplying_Fractions"
+    canonical_title: "Multiplying Fractions"
+    rationale: "54-word stub; mixed-number multiplication covered within live Multiplying_Fractions + Mixed_Numbers_And_Improper_Fractions."
+
+  - from: ["Dividing_Mixed_Numbers"]
+    into: "Dividing_Fractions"
+    canonical_title: "Dividing Fractions"
+    rationale: "57-word stub; mixed-number division covered within live Dividing_Fractions + Mixed_Numbers_And_Improper_Fractions."
+
+  - from: ["Comparing_And_Ordering_Rational_Numbers"]
+    into: "Comparing_And_Ordering_Fractions"
+    canonical_title: "Comparing and Ordering Fractions"
+    rationale: "125-word stub covered by live Comparing_And_Ordering_Fractions + Integers_And_The_Number_Line + Fractions_Decimals_And_Percents."
+
+  - from: ["Converting_Between_Fractions_And_Decimals"]
+    into: "Fractions_Decimals_And_Percents"
+    canonical_title: "Fractions, Decimals, and Percents"
+    rationale: "158-word stub covered by live Fractions_Decimals_And_Percents."
+
+  - from: ["Dimensional_Analysis"]
+    into: "Units_Of_Measurement_And_Conversion"
+    canonical_title: "Units of Measurement and Conversion"
+    rationale: "82-word stub; the technique is covered within the activated Units_Of_Measurement_And_Conversion topic."
+
+  - from: ["Markup_Discount_And_Commission"]
+    into: "Applications_Tax_Tip_Discount_And_Simple_Interest"
+    canonical_title: "Applications: Tax, Tip, Discount, and Simple Interest"
+    rationale: "106-word stub; markup, discount, and commission are percent applications covered by live Applications_Tax_Tip_Discount_And_Simple_Interest."
+
+  - from: ["Operations_With_Rational_Numbers"]
+    into: "Adding_And_Subtracting_Fractions"
+    canonical_title: "Adding and Subtracting Fractions"
+    rationale: "75-word combo stub covered by the full set of live fraction/decimal/integer arithmetic topics."
+
+  - from: ["Order_Of_Operations_With_Fractions"]
+    into: "Order_Of_Operations"
+    canonical_title: "Order of Operations"
+    rationale: "58-word stub; covered by live Order_Of_Operations worked examples."
+
+  - from: ["Order_Of_Operations_With_Integers"]
+    into: "Order_Of_Operations"
+    canonical_title: "Order of Operations"
+    rationale: "58-word stub; covered by live Order_Of_Operations worked examples."
+
+  - from: ["Proportions_In_Similar_Figures"]
+    into: "Similar_Triangles"
+    canonical_title: "Similar Triangles"
+    rationale: "64-word stub covered by live Similar_Triangles (the proportion side is also in live Proportions_And_Cross_Multiplication)."
+
+  - from: ["Rational_Numbers_On_The_Number_Line"]
+    into: "Integers_And_The_Number_Line"
+    canonical_title: "Integers and the Number Line"
+    rationale: "189-word stub covered by live Integers_And_The_Number_Line (which already introduces the line and extends to rationals in its prose)."
+
+  - from: ["Review_Of_Perimeter_And_Area"]
+    into: "Circumference_And_Area_Of_Circles"
+    canonical_title: "Circumference and Area of Circles"
+    rationale: "25-word near-empty review stub; perimeter and area covered by live Circumference_And_Area_Of_Circles and the activated Perimeter_And_Area_Of_Polygons."
+
+  - from: ["Slope_As_Rate_Of_Change"]
+    into: "Slope"
+    canonical_title: "Slope"
+    rationale: "67-word stub; 'slope as rate of change' is introduced inside live Slope as a primary framing."
+
+  - from: ["Solving_Equations_With_Fractions_And_Decimals"]
+    into: "Multi_Step_Equations"
+    canonical_title: "Multi-Step Equations"
+    rationale: "81-word stub; the clear-fractions-first technique is a standard move covered within live Multi_Step_Equations and Equations_With_Variables_On_Both_Sides."
+
+  - from: ["Solving_Equations_With_The_Distributive_Property"]
+    into: "Multi_Step_Equations"
+    canonical_title: "Multi-Step Equations"
+    rationale: "64-word stub; distribute-then-solve is standard technique covered within live Multi_Step_Equations."
+
+  - from: ["Writing_And_Solving_Equations_From_Word_Problems"]
+    into: "Translating_Words_To_Algebraic_Expressions"
+    canonical_title: "Translating Words to Algebraic Expressions"
+    rationale: "49-word near-empty stub; translation covered by live Translating_Words_To_Algebraic_Expressions and equation solving by Multi_Step_Equations."
+
+  # --- Pre-calc niche/specialty stubs deleted for scope reasons ---
+
+  - from: ["Conic_Sections_In_Polar_Coordinates"]
+    into: "Introduction_To_Polar_Coordinates"
+    canonical_title: "Introduction to Polar Coordinates"
+    rationale: "279-word specialty stub; conics-in-polar is an advanced-precalc topic outside the 'through conics/matrices/complex numbers' scope. Users land on live Introduction_To_Polar_Coordinates which covers the polar foundations."
+
+  - from: ["Inequalities"]
+    into: "Polynomial_Inequalities"
+    canonical_title: "Polynomial Inequalities"
+    rationale: "45-word pre-calc generic stub; the actual pre-calc inequality topics are Polynomial_Inequalities (being activated) + Rational_Inequalities (being activated) + live Absolute_Value_Inequalities + Compound_Inequalities + Inequalities_And_Their_Graphs."
+
+  - from: ["Parfrac"]
+    into: "Polynomial_Division"
+    canonical_title: "Polynomial Division"
+    rationale: "119-word specialty stub; partial fraction decomposition is out of scope for a middle-school-through-precalc wiki (typically deferred to Calc II). Users looking for the related algebra skills are sent to live Polynomial_Division."
+
 
 splits: []

@@ -67,7 +67,7 @@ $$
 |{-4}| = 4, \qquad |{7}| = 7, \qquad |{0}| = 0.
 $$
 
-You can read $|n|$ as "throw away the sign." A full treatment of absolute value lives at [[Absolute_Value]].
+You can read $|n|$ as "throw away the sign." A full treatment of absolute value lives at [[Absolute_Value_And_Opposites]].
 
 ## Why it works
 
@@ -137,8 +137,8 @@ _More problem types are coming soon._
 
 - [[Adding_And_Subtracting_Integers]]
 - [[Multiplying_And_Dividing_Integers]]
-- [[Order_Of_Operations_With_Integers]]
-- [[Absolute_Value]]
+- [[Order_Of_Operations]]
+- [[Absolute_Value_And_Opposites]]
 - [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[Vault|Your Practice Vault]]

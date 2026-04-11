@@ -57,7 +57,7 @@ The number $b$ is called the **y-intercept**, and it is the point where the line
 
 ### Recognizing linearity from a table
 
-If an equation is genuinely linear, the table will have a **constant rate of change**: every time $x$ increases by the same step, $y$ will increase (or decrease) by the same step too. If the gap in $y$ keeps growing or shrinking, the relationship is not linear and the graph will bend. This observation is the seed of the idea of [[Slope_As_Rate_Of_Change|slope as a rate of change]].
+If an equation is genuinely linear, the table will have a **constant rate of change**: every time $x$ increases by the same step, $y$ will increase (or decrease) by the same step too. If the gap in $y$ keeps growing or shrinking, the relationship is not linear and the graph will bend. This observation is the seed of the idea of [[Slope|slope as a rate of change]].
 
 ### Horizontal and vertical lines
 
@@ -151,7 +151,7 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 
 - [[Plotting_Points_And_The_Coordinate_Plane]]
 - [[Slope_Intercept_Form]]
-- [[Slope_As_Rate_Of_Change]]
+- [[Slope]]
 - [[Evaluating_Expressions]]
 - [[Writing_Linear_Equations]]
 - [[Linear_Functions]]

@@ -176,7 +176,7 @@ _More problem types are coming soon._
 - [[Multiplying_Decimals]] — the rule changes in an interesting way for products
 - [[Dividing_Decimals]] — a close cousin that also leans on place value
 - [[Adding_And_Subtracting_Fractions]] — a parallel universe where the common "denominator" replaces the decimal point
-- [[Converting_Between_Fractions_And_Decimals]] — moving between the two notations
+- [[Fractions_Decimals_And_Percents]] — moving between the two notations
 - [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

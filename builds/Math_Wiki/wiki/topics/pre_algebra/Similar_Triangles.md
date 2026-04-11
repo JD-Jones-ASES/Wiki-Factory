@@ -162,7 +162,7 @@ Before you work through practice problems, make sure you are comfortable with:
 
 - [[Classifying_Triangles_And_Quadrilaterals]] — so you can recognize and describe triangle parts confidently
 - [[Triangle_Angle_Sum_And_Exterior_Angles]] — you'll need the $180^\circ$ rule constantly when applying AA
-- [[Ratios_And_Proportions]] — setting up and solving a proportion is the core mechanic in every side-length problem
+- [[Ratios_Rates_And_Proportions]] — setting up and solving a proportion is the core mechanic in every side-length problem
 
 ---
 
@@ -177,7 +177,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 ## See Also
 
 - [[Triangle_Angle_Sum_And_Exterior_Angles]]
-- [[Proportions_In_Similar_Figures]]
 - [[The_Pythagorean_Theorem]]
 - [[Applications_Of_The_Pythagorean_Theorem]]
 - [[Middle_School_Math|Middle School Math]]

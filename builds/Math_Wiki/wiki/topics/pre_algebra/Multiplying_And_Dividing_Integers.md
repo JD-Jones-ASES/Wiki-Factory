@@ -126,7 +126,7 @@ _More problem types are coming soon._
 
 - [[Integers_And_The_Number_Line]]
 - [[Adding_And_Subtracting_Integers]]
-- [[Order_Of_Operations_With_Integers]]
+- [[Order_Of_Operations]]
 - [[Multiplying_Fractions]]
 - [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
