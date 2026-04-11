@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T13:57:29.629055+00:00",
+  "generated_at": "2026-04-11T15:42:47.826673+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 460,
+  "generator_count": 508,
   "by_topic": {
     "circles": [
       {
@@ -2923,6 +2923,102 @@
         }
       }
     ],
+    "fractions_decimals_and_percents": [
+      {
+        "generator_id": "convert_fraction_to_decimal",
+        "display_name": "Write a fraction as a decimal",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "convert_decimal_to_percent",
+        "display_name": "Write a decimal as a percent",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "convert_percent_to_fraction",
+        "display_name": "Write a percent as a fraction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "understanding_percents": [
+      {
+        "generator_id": "percent_of_whole_single_digit",
+        "display_name": "part is what percent of whole",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_identify_from_shaded_description",
+        "display_name": "Percent from a shaded-grid description",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_estimate_simple",
+        "display_name": "Estimate a percent of a whole",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "the_percent_equation": [
+      {
+        "generator_id": "percent_eq_find_part",
+        "display_name": "Percent equation: find the part",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_eq_find_percent",
+        "display_name": "Percent equation: find the percent",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_eq_find_whole",
+        "display_name": "Percent equation: find the whole",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
     "percent_increase_and_decrease": [
       {
         "generator_id": "percent_change_find_percent",
@@ -2948,6 +3044,38 @@
         "generator_id": "percent_change_find_original",
         "display_name": "Find the original value from a percent change",
         "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "applications_tax_tip_discount_and_simple_interest": [
+      {
+        "generator_id": "sales_tax_or_tip",
+        "display_name": "Sales tax or tip total",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "percent_discount",
+        "display_name": "Sale price after a percent discount",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "simple_interest_calc",
+        "display_name": "Simple interest (I = Prt)",
+        "supports_word_problems": true,
         "counts": {
           "easy": 30,
           "medium": 30,
@@ -3627,6 +3755,134 @@
         }
       }
     ],
+    "solving_one_step_equations_addition_and_subtraction": [
+      {
+        "generator_id": "solve_one_step_add_subtract",
+        "display_name": "Solve a one-step addition or subtraction equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_constant_minus_x",
+        "display_name": "Solve a - x = b (sign-care case)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "one_step_word_to_equation_add",
+        "display_name": "Translate a word problem to x + a = b",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "solving_one_step_equations_multiplication_and_division": [
+      {
+        "generator_id": "solve_one_step_multiply",
+        "display_name": "Solve a one-step multiplication equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_one_step_divide",
+        "display_name": "Solve a one-step division equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_one_step_negative_coefficient",
+        "display_name": "Solve -ax = b (sign-care case)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "solving_two_step_equations": [
+      {
+        "generator_id": "solve_two_step_forward",
+        "display_name": "Solve a two-step equation ax + b = c",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_two_step_with_fraction_coefficient",
+        "display_name": "Solve a two-step equation with a fraction coefficient",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_two_step_variable_on_right",
+        "display_name": "Solve a two-step equation with the variable on the right",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "the_distributive_property_with_variables": [
+      {
+        "generator_id": "distribute_positive_coefficient",
+        "display_name": "Expand a(bx + c) with positive outside",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "distribute_negative_sign",
+        "display_name": "Expand -(bx + c)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "distribute_and_simplify",
+        "display_name": "Distribute and combine like terms",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
     "unit_rates": [
       {
         "generator_id": "compute_unit_price",
@@ -3691,6 +3947,38 @@
         }
       }
     ],
+    "ratios_rates_and_proportions": [
+      {
+        "generator_id": "simplify_ratio_rates",
+        "display_name": "Simplify a ratio to lowest terms",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "unit_rate_from_pair",
+        "display_name": "Compute a unit rate from a paired quantity",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_proportion_for_x",
+        "display_name": "Solve a proportion x/b = c/d for x",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
     "writing_and_graphing_inequalities": [
       {
         "generator_id": "write_inequality_from_phrase",
@@ -3747,6 +4035,230 @@
       {
         "generator_id": "two_step_ineq",
         "display_name": "Solve a two-step inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "translating_words_to_algebraic_expressions": [
+      {
+        "generator_id": "translate_basic_operation",
+        "display_name": "Translate a basic operation phrase",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "translate_multi_step",
+        "display_name": "Translate a multi-step phrase",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "translate_word_problem_to_equation",
+        "display_name": "Translate a word problem to an equation",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "divisibility_factors_and_prime_factorization": [
+      {
+        "generator_id": "list_all_factors",
+        "display_name": "List all positive factors of a number",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "prime_factorization",
+        "display_name": "Compute the prime factorization of n",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "divisibility_rule_apply",
+        "display_name": "Apply a divisibility rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "greatest_common_factor_and_least_common_multiple": [
+      {
+        "generator_id": "gcf_of_two_integers",
+        "display_name": "Find the GCF of two integers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "lcm_of_two_integers",
+        "display_name": "Find the LCM of two integers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "gcf_lcm_both",
+        "display_name": "Find both the GCF and LCM",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "absolute_value_and_opposites": [
+      {
+        "generator_id": "abs_value_evaluate",
+        "display_name": "Evaluate an absolute value expression",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "opposite_of_integer",
+        "display_name": "Find the opposite of an integer",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "abs_value_equation_solve",
+        "display_name": "Solve |x| = k",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "exponents_and_powers": [
+      {
+        "generator_id": "evaluate_power_small",
+        "display_name": "Evaluate a small power",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "evaluate_power_with_negative_base",
+        "display_name": "Evaluate a power with a negative sign",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "compare_two_powers",
+        "display_name": "Compare two powers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "irrational_numbers_and_real_numbers": [
+      {
+        "generator_id": "classify_number_rational_irrational",
+        "display_name": "Classify as rational or irrational",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "locate_irrational_between_integers",
+        "display_name": "Bracket a square root by consecutive integers",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "approximate_pi_computation",
+        "display_name": "Circumference in terms of pi",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "the_midpoint_formula": [
+      {
+        "generator_id": "midpoint_from_two_points",
+        "display_name": "Midpoint of two points",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "endpoint_from_midpoint_and_other_endpoint",
+        "display_name": "Find the missing endpoint",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "midpoint_on_number_line_1d",
+        "display_name": "Midpoint on the number line",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -7649,6 +8161,96 @@
       },
       "shard_file": "problems/finding_a_percent_of_a_number.json"
     },
+    "convert_fraction_to_decimal": {
+      "topic_slug": "fractions_decimals_and_percents",
+      "display_name": "Write a fraction as a decimal",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/fractions_decimals_and_percents.json"
+    },
+    "convert_decimal_to_percent": {
+      "topic_slug": "fractions_decimals_and_percents",
+      "display_name": "Write a decimal as a percent",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/fractions_decimals_and_percents.json"
+    },
+    "convert_percent_to_fraction": {
+      "topic_slug": "fractions_decimals_and_percents",
+      "display_name": "Write a percent as a fraction",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/fractions_decimals_and_percents.json"
+    },
+    "percent_of_whole_single_digit": {
+      "topic_slug": "understanding_percents",
+      "display_name": "part is what percent of whole",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/understanding_percents.json"
+    },
+    "percent_identify_from_shaded_description": {
+      "topic_slug": "understanding_percents",
+      "display_name": "Percent from a shaded-grid description",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/understanding_percents.json"
+    },
+    "percent_estimate_simple": {
+      "topic_slug": "understanding_percents",
+      "display_name": "Estimate a percent of a whole",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/understanding_percents.json"
+    },
+    "percent_eq_find_part": {
+      "topic_slug": "the_percent_equation",
+      "display_name": "Percent equation: find the part",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_percent_equation.json"
+    },
+    "percent_eq_find_percent": {
+      "topic_slug": "the_percent_equation",
+      "display_name": "Percent equation: find the percent",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_percent_equation.json"
+    },
+    "percent_eq_find_whole": {
+      "topic_slug": "the_percent_equation",
+      "display_name": "Percent equation: find the whole",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_percent_equation.json"
+    },
     "percent_change_find_percent": {
       "topic_slug": "percent_increase_and_decrease",
       "display_name": "Find the percent change",
@@ -7678,6 +8280,36 @@
         "hard": 30
       },
       "shard_file": "problems/percent_increase_and_decrease.json"
+    },
+    "sales_tax_or_tip": {
+      "topic_slug": "applications_tax_tip_discount_and_simple_interest",
+      "display_name": "Sales tax or tip total",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_tax_tip_discount_and_simple_interest.json"
+    },
+    "percent_discount": {
+      "topic_slug": "applications_tax_tip_discount_and_simple_interest",
+      "display_name": "Sale price after a percent discount",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_tax_tip_discount_and_simple_interest.json"
+    },
+    "simple_interest_calc": {
+      "topic_slug": "applications_tax_tip_discount_and_simple_interest",
+      "display_name": "Simple interest (I = Prt)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_tax_tip_discount_and_simple_interest.json"
     },
     "slope_intercept_from_slope_and_point": {
       "topic_slug": "slope_intercept_form",
@@ -8309,6 +8941,126 @@
       },
       "shard_file": "problems/variables_and_algebraic_expressions.json"
     },
+    "solve_one_step_add_subtract": {
+      "topic_slug": "solving_one_step_equations_addition_and_subtraction",
+      "display_name": "Solve a one-step addition or subtraction equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_equations_addition_and_subtraction.json"
+    },
+    "solve_constant_minus_x": {
+      "topic_slug": "solving_one_step_equations_addition_and_subtraction",
+      "display_name": "Solve a - x = b (sign-care case)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_equations_addition_and_subtraction.json"
+    },
+    "one_step_word_to_equation_add": {
+      "topic_slug": "solving_one_step_equations_addition_and_subtraction",
+      "display_name": "Translate a word problem to x + a = b",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_equations_addition_and_subtraction.json"
+    },
+    "solve_one_step_multiply": {
+      "topic_slug": "solving_one_step_equations_multiplication_and_division",
+      "display_name": "Solve a one-step multiplication equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_equations_multiplication_and_division.json"
+    },
+    "solve_one_step_divide": {
+      "topic_slug": "solving_one_step_equations_multiplication_and_division",
+      "display_name": "Solve a one-step division equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_equations_multiplication_and_division.json"
+    },
+    "solve_one_step_negative_coefficient": {
+      "topic_slug": "solving_one_step_equations_multiplication_and_division",
+      "display_name": "Solve -ax = b (sign-care case)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_one_step_equations_multiplication_and_division.json"
+    },
+    "solve_two_step_forward": {
+      "topic_slug": "solving_two_step_equations",
+      "display_name": "Solve a two-step equation ax + b = c",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_two_step_equations.json"
+    },
+    "solve_two_step_with_fraction_coefficient": {
+      "topic_slug": "solving_two_step_equations",
+      "display_name": "Solve a two-step equation with a fraction coefficient",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_two_step_equations.json"
+    },
+    "solve_two_step_variable_on_right": {
+      "topic_slug": "solving_two_step_equations",
+      "display_name": "Solve a two-step equation with the variable on the right",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_two_step_equations.json"
+    },
+    "distribute_positive_coefficient": {
+      "topic_slug": "the_distributive_property_with_variables",
+      "display_name": "Expand a(bx + c) with positive outside",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distributive_property_with_variables.json"
+    },
+    "distribute_negative_sign": {
+      "topic_slug": "the_distributive_property_with_variables",
+      "display_name": "Expand -(bx + c)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distributive_property_with_variables.json"
+    },
+    "distribute_and_simplify": {
+      "topic_slug": "the_distributive_property_with_variables",
+      "display_name": "Distribute and combine like terms",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_distributive_property_with_variables.json"
+    },
     "compute_unit_price": {
       "topic_slug": "unit_rates",
       "display_name": "Compute a unit price",
@@ -8369,6 +9121,36 @@
       },
       "shard_file": "problems/proportions_and_cross_multiplication.json"
     },
+    "simplify_ratio_rates": {
+      "topic_slug": "ratios_rates_and_proportions",
+      "display_name": "Simplify a ratio to lowest terms",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_rates_and_proportions.json"
+    },
+    "unit_rate_from_pair": {
+      "topic_slug": "ratios_rates_and_proportions",
+      "display_name": "Compute a unit rate from a paired quantity",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_rates_and_proportions.json"
+    },
+    "solve_proportion_for_x": {
+      "topic_slug": "ratios_rates_and_proportions",
+      "display_name": "Solve a proportion x/b = c/d for x",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_rates_and_proportions.json"
+    },
     "write_inequality_from_phrase": {
       "topic_slug": "writing_and_graphing_inequalities",
       "display_name": "Write an inequality from a phrase",
@@ -8428,6 +9210,216 @@
         "hard": 30
       },
       "shard_file": "problems/solving_one_step_and_two_step_inequalities.json"
+    },
+    "translate_basic_operation": {
+      "topic_slug": "translating_words_to_algebraic_expressions",
+      "display_name": "Translate a basic operation phrase",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/translating_words_to_algebraic_expressions.json"
+    },
+    "translate_multi_step": {
+      "topic_slug": "translating_words_to_algebraic_expressions",
+      "display_name": "Translate a multi-step phrase",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/translating_words_to_algebraic_expressions.json"
+    },
+    "translate_word_problem_to_equation": {
+      "topic_slug": "translating_words_to_algebraic_expressions",
+      "display_name": "Translate a word problem to an equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/translating_words_to_algebraic_expressions.json"
+    },
+    "list_all_factors": {
+      "topic_slug": "divisibility_factors_and_prime_factorization",
+      "display_name": "List all positive factors of a number",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/divisibility_factors_and_prime_factorization.json"
+    },
+    "prime_factorization": {
+      "topic_slug": "divisibility_factors_and_prime_factorization",
+      "display_name": "Compute the prime factorization of n",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/divisibility_factors_and_prime_factorization.json"
+    },
+    "divisibility_rule_apply": {
+      "topic_slug": "divisibility_factors_and_prime_factorization",
+      "display_name": "Apply a divisibility rule",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/divisibility_factors_and_prime_factorization.json"
+    },
+    "gcf_of_two_integers": {
+      "topic_slug": "greatest_common_factor_and_least_common_multiple",
+      "display_name": "Find the GCF of two integers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/greatest_common_factor_and_least_common_multiple.json"
+    },
+    "lcm_of_two_integers": {
+      "topic_slug": "greatest_common_factor_and_least_common_multiple",
+      "display_name": "Find the LCM of two integers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/greatest_common_factor_and_least_common_multiple.json"
+    },
+    "gcf_lcm_both": {
+      "topic_slug": "greatest_common_factor_and_least_common_multiple",
+      "display_name": "Find both the GCF and LCM",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/greatest_common_factor_and_least_common_multiple.json"
+    },
+    "abs_value_evaluate": {
+      "topic_slug": "absolute_value_and_opposites",
+      "display_name": "Evaluate an absolute value expression",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_and_opposites.json"
+    },
+    "opposite_of_integer": {
+      "topic_slug": "absolute_value_and_opposites",
+      "display_name": "Find the opposite of an integer",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_and_opposites.json"
+    },
+    "abs_value_equation_solve": {
+      "topic_slug": "absolute_value_and_opposites",
+      "display_name": "Solve |x| = k",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/absolute_value_and_opposites.json"
+    },
+    "evaluate_power_small": {
+      "topic_slug": "exponents_and_powers",
+      "display_name": "Evaluate a small power",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/exponents_and_powers.json"
+    },
+    "evaluate_power_with_negative_base": {
+      "topic_slug": "exponents_and_powers",
+      "display_name": "Evaluate a power with a negative sign",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/exponents_and_powers.json"
+    },
+    "compare_two_powers": {
+      "topic_slug": "exponents_and_powers",
+      "display_name": "Compare two powers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/exponents_and_powers.json"
+    },
+    "classify_number_rational_irrational": {
+      "topic_slug": "irrational_numbers_and_real_numbers",
+      "display_name": "Classify as rational or irrational",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/irrational_numbers_and_real_numbers.json"
+    },
+    "locate_irrational_between_integers": {
+      "topic_slug": "irrational_numbers_and_real_numbers",
+      "display_name": "Bracket a square root by consecutive integers",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/irrational_numbers_and_real_numbers.json"
+    },
+    "approximate_pi_computation": {
+      "topic_slug": "irrational_numbers_and_real_numbers",
+      "display_name": "Circumference in terms of pi",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/irrational_numbers_and_real_numbers.json"
+    },
+    "midpoint_from_two_points": {
+      "topic_slug": "the_midpoint_formula",
+      "display_name": "Midpoint of two points",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_midpoint_formula.json"
+    },
+    "endpoint_from_midpoint_and_other_endpoint": {
+      "topic_slug": "the_midpoint_formula",
+      "display_name": "Find the missing endpoint",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_midpoint_formula.json"
+    },
+    "midpoint_on_number_line_1d": {
+      "topic_slug": "the_midpoint_formula",
+      "display_name": "Midpoint on the number line",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_midpoint_formula.json"
     },
     "convert_degrees_to_radians": {
       "topic_slug": "angles",

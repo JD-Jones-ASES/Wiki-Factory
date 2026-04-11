@@ -18,3 +18,9 @@ from . import eval_and_ratios  # noqa: F401
 from . import algebra_intro  # noqa: F401
 from . import rates_and_proportions  # noqa: F401
 from . import inequalities_intro  # noqa: F401
+from . import word_translation  # noqa: F401
+from . import number_theory  # noqa: F401
+from . import absolute_value_ops  # noqa: F401
+from . import exponents_intro  # noqa: F401
+from . import real_numbers  # noqa: F401
+from . import midpoint  # noqa: F401

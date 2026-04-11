@@ -746,3 +746,209 @@ class VerifyIsProportion(Generator):
             solution_steps_latex=steps,
             tags=_tags_for(difficulty),
         )
+
+
+# ---------------------------------------------------------------------------
+# Topic 3: ratios_rates_and_proportions
+# ---------------------------------------------------------------------------
+
+
+@register
+class SimplifyRatioRates(Generator):
+    """Reduce a ratio a:b (or fraction a/b) to lowest terms.
+
+    Backward: pick the reduced ratio (p, q) coprime, then multiply both
+    by a common factor k to get the displayed (a, b) = (p*k, q*k).
+    """
+
+    generator_id = "simplify_ratio_rates"
+    topic_slug = "ratios_rates_and_proportions"
+    display_name = "Simplify a ratio to lowest terms"
+
+    _REDUCED_POOL = {
+        "easy":   ((1, 2), (1, 3), (2, 3), (3, 4), (2, 5), (3, 5), (4, 5), (1, 4), (3, 2), (4, 3)),
+        "medium": ((2, 7), (3, 7), (4, 7), (5, 7), (3, 8), (5, 8), (7, 8), (2, 9), (4, 9), (5, 9), (7, 9), (8, 9), (5, 6)),
+        "hard":   ((5, 11), (7, 11), (8, 11), (4, 13), (5, 13), (7, 13), (9, 13), (3, 16), (5, 16), (9, 16), (11, 16), (7, 15), (8, 15), (11, 15)),
+    }
+    _SCALE_POOL = {
+        "easy":   (2, 3, 4, 5, 6),
+        "medium": (3, 4, 5, 6, 7, 8, 9, 10),
+        "hard":   (4, 5, 6, 7, 8, 9, 10, 11, 12),
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        p, q = rng.choice(self._REDUCED_POOL[difficulty])
+        k = rng.choice(self._SCALE_POOL[difficulty])
+        a = p * k
+        b = q * k
+
+        # Random display: ratio with colon or fraction form.
+        form = rng.choice(["colon", "fraction"])
+
+        if form == "colon":
+            statement = f"Simplify the ratio ${a} : {b}$ to lowest terms."
+            answer = f"${p} : {q}$"
+            display_original = f"{a} : {b}"
+            display_reduced = f"{p} : {q}"
+        else:
+            statement = f"Write $\\dfrac{{{a}}}{{{b}}}$ in simplest form."
+            answer = f"$\\dfrac{{{p}}}{{{q}}}$"
+            display_original = f"\\dfrac{{{a}}}{{{b}}}"
+            display_reduced = f"\\dfrac{{{p}}}{{{q}}}"
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (form, a, b, p, q),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=answer,
+            hints=[
+                r"Find the greatest common factor (GCF) of the two numbers, then divide both by it.",
+                f"The GCF of ${a}$ and ${b}$ is ${k}$.",
+                f"Divide each: $\\dfrac{{{a}}}{{{k}}} = {p}$ and $\\dfrac{{{b}}}{{{k}}} = {q}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${display_original}$.",
+                f"Compute $\\gcd({a}, {b}) = {k}$.",
+                f"Divide both parts by ${k}$: $\\dfrac{{{a}}}{{{k}}} = {p}$ and $\\dfrac{{{b}}}{{{k}}} = {q}$.",
+                f"The simplified form is ${display_reduced}$.",
+            ],
+            tags=_tags_for(difficulty),
+        )
+
+
+_UNIT_RATE_CONTEXTS = (
+    ("car", "drives", "miles", "hours", "hour", "mph"),
+    ("typist", "types", "words", "minutes", "minute", "words per minute"),
+    ("reader", "reads", "pages", "days", "day", "pages per day"),
+    ("baker", "bakes", "cookies", "batches", "batch", "cookies per batch"),
+    ("cyclist", "rides", "kilometers", "hours", "hour", "km per hour"),
+    ("printer", "prints", "pages", "minutes", "minute", "pages per minute"),
+)
+
+
+@register
+class UnitRateFromPair(Generator):
+    """Compute a unit rate from a given pair (total, time).
+
+    Backward: pick a clean unit rate and a time, derive the total.
+    """
+
+    generator_id = "unit_rate_from_pair"
+    topic_slug = "ratios_rates_and_proportions"
+    display_name = "Compute a unit rate from a paired quantity"
+
+    _RATES = {
+        "easy":   (20, 25, 30, 40, 50, 60),
+        "medium": (15, 22, 28, 35, 45, 55, 65, 75),
+        "hard":   (18, 23, 34, 43, 52, 64, 78, 82, 95),
+    }
+    _TIMES = {
+        "easy":   (2, 3, 4, 5, 6),
+        "medium": (3, 4, 5, 6, 7, 8, 9, 10),
+        "hard":   (4, 5, 6, 7, 8, 9, 10, 11, 12, 14),
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        rate = rng.choice(self._RATES[difficulty])
+        time = rng.choice(self._TIMES[difficulty])
+        total = rate * time
+        subject, verb, unit, time_plur, time_sing, rate_label = rng.choice(_UNIT_RATE_CONTEXTS)
+
+        time_word = time_sing if time == 1 else time_plur
+
+        statement = (
+            f"A {subject} {verb} ${total}$ {unit} in ${time}$ {time_word}. "
+            f"What is the unit rate in {rate_label}?"
+        )
+
+        answer = f"${rate}$ {rate_label}"
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (rate, time, subject),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=answer,
+            hints=[
+                r"The unit rate is the amount per single time unit. Divide the total by the number of time units.",
+                f"Compute $\\dfrac{{{total}}}{{{time}}}$.",
+                f"The unit rate is ${rate}$ {rate_label}.",
+            ],
+            solution_steps_latex=[
+                f"Identify the pair: ${total}$ {unit} in ${time}$ {time_word}.",
+                f"Divide the total by the time: $\\dfrac{{{total}}}{{{time}}} = {rate}$.",
+                f"The unit rate is ${rate}$ {rate_label}.",
+            ],
+            tags=_tags_for(difficulty),
+        )
+
+
+@register
+class SolveProportionForX(Generator):
+    """Solve x/b = c/d for x via cross multiplication.
+
+    Backward: pick the integer answer x, pick b, pick c and d so that
+    x * d = b * c holds. The cleanest way: pick x, d, then set c = x*d/b
+    after choosing b as a factor; or pick the base ratio x/b first and
+    scale by k to get c/d = (x*k)/(b*k).
+    """
+
+    generator_id = "solve_proportion_for_x"
+    topic_slug = "ratios_rates_and_proportions"
+    display_name = "Solve a proportion x/b = c/d for x"
+
+    _RANGES = {
+        "easy":   {"x": (1, 10),  "b": (2, 8),  "k": (2, 6)},
+        "medium": {"x": (2, 20),  "b": (2, 12), "k": (2, 8)},
+        "hard":   {"x": (3, 30),  "b": (2, 15), "k": (2, 10)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        x = rng.randint(*r["x"])
+        b = rng.randint(*r["b"])
+        while b == x:
+            b = rng.randint(*r["b"])
+        k = rng.randint(*r["k"])
+        # So x/b = (x*k)/(b*k) = c/d
+        c = x * k
+        d = b * k
+
+        eq = f"\\dfrac{{x}}{{{b}}} = \\dfrac{{{c}}}{{{d}}}"
+
+        opener = rng.choice([
+            "Solve for $x$",
+            "Find $x$",
+            "Determine $x$",
+        ])
+        statement = f"{opener}: ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (x, b, k),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                r"Cross multiply to clear the fractions: $x \cdot d = b \cdot c$.",
+                f"Compute ${b} \\cdot {c} = {b * c}$, so ${d}x = {b * c}$.",
+                f"Divide by ${d}$: $x = \\dfrac{{{b * c}}}{{{d}}} = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq}$.",
+                f"Cross multiply: $x \\cdot {d} = {b} \\cdot {c}$.",
+                f"Simplify: ${d}x = {b * c}$.",
+                f"Divide both sides by ${d}$: $x = \\dfrac{{{b * c}}}{{{d}}} = {x}$.",
+            ],
+            tags=_tags_for(difficulty),
+        )

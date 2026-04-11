@@ -228,6 +228,26 @@ mappings:
   introduction_to_polar_coordinates:       [test-act]
   polar_form_of_complex_numbers:           [test-act]
 
+  # =========================================================================
+  # Wave A additions (pre-algebra stubs activated 2026-04-11)
+  # =========================================================================
+  absolute_value_and_opposites:            [test-sat, test-psat, test-act, test-clt]
+  fractions_decimals_and_percents:         [test-sat, test-psat, test-act, test-clt]
+  understanding_percents:                  [test-sat, test-psat, test-act, test-clt]
+  the_percent_equation:                    [test-sat, test-psat, test-act, test-clt]
+  exponents_and_powers:                    [test-sat, test-psat, test-act, test-clt]
+  applications_tax_tip_discount_and_simple_interest: [test-sat, test-psat, test-act, test-clt]
+  irrational_numbers_and_real_numbers:     [test-sat, test-psat, test-act, test-clt]
+  the_midpoint_formula:                    [test-sat, test-psat, test-act, test-clt]
+  solving_one_step_equations_addition_and_subtraction:    [test-sat, test-psat, test-act, test-clt]
+  solving_one_step_equations_multiplication_and_division: [test-sat, test-psat, test-act, test-clt]
+  solving_two_step_equations:              [test-sat, test-psat, test-act, test-clt]
+  the_distributive_property_with_variables: [test-sat, test-psat, test-act, test-clt]
+  translating_words_to_algebraic_expressions: [test-sat, test-psat, test-act, test-clt]
+  ratios_rates_and_proportions:            [test-sat, test-psat, test-act, test-clt]
+  divisibility_factors_and_prime_factorization: [test-act, test-clt]
+  greatest_common_factor_and_least_common_multiple: [test-sat, test-psat, test-act, test-clt]
+
   # ==========================================================================
   # Out of scope (no standardized test coverage) -- intentionally unmapped:
   #   induction -- mathematical induction is not on any standardized math test

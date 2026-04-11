@@ -128,6 +128,197 @@ def fig_number_line():
 
 
 # ---------------------------------------------------------------------------
+# Pre-algebra: opposites on the number line
+
+def fig_opposites_on_number_line():
+    """A number line from -8 to +8 showing three pairs of opposites."""
+    fig, ax = plt.subplots(figsize=(7, 3))
+    ax.set_xlim(-9.2, 9.2)
+    ax.set_ylim(-1.4, 2.2)
+
+    # Main axis line with arrow caps
+    ax.annotate(
+        "", xy=(9.0, 0), xytext=(-9.0, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=2),
+    )
+
+    # Ticks + labels at each integer from -8..8
+    for x in range(-8, 9):
+        if x == 0:
+            ax.plot([x, x], [-0.28, 0.28], color=C_LINE, linewidth=3)
+        else:
+            ax.plot([x, x], [-0.16, 0.16], color=C_LINE, linewidth=1.2)
+        ax.text(x, -0.45, str(x), ha="center", va="top",
+                fontsize=9, color=C_TEXT)
+
+    # Pivot label for zero (below the number)
+    ax.text(0, -0.95, "pivot", ha="center", va="top",
+            fontsize=10, color=C_RADIUS, fontstyle="italic",
+            fontweight="bold")
+
+    # Opposite pairs: (value, arc_height, color)
+    pairs = [
+        (5, 0.55, "#2e86de"),   # -5 and 5
+        (2, 1.05, "#10ac84"),   # -2 and 2
+        (7, 1.55, "#c44569"),   # -7 and 7
+    ]
+    # Use arcs/curved arrows to connect each pair across zero
+    for value, h, color in pairs:
+        # Dot at each endpoint
+        ax.plot(-value, 0, "o", color=color, markersize=8, zorder=4)
+        ax.plot(value, 0, "o", color=color, markersize=8, zorder=4)
+        # Curved connector above the line, symmetric across zero
+        xs = np.linspace(-value, value, 80)
+        ys = h * (1 - (xs / value) ** 2)
+        ax.plot(xs, ys, color=color, linewidth=1.6, zorder=3)
+        # Small label on the arc peak
+        ax.text(0, h + 0.08,
+                f"{-value} and {value}",
+                ha="center", va="bottom",
+                fontsize=9, color=color)
+
+    ax.set_title("Opposites on the number line", fontsize=13, pad=10)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "pre_algebra/opposites_on_number_line.svg")
+
+
+# ---------------------------------------------------------------------------
+# Pre-algebra: irrational numbers on the real line
+
+def fig_irrational_on_real_line():
+    """Real number line 0 to 5 with sqrt(2), sqrt(7), pi marked."""
+    fig, ax = plt.subplots(figsize=(7, 3))
+    ax.set_xlim(-0.6, 5.6)
+    ax.set_ylim(-1.4, 1.8)
+
+    # Main axis line with arrow caps
+    ax.annotate(
+        "", xy=(5.4, 0), xytext=(-0.4, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=2),
+    )
+
+    # Integer ticks 0..5
+    for x in range(0, 6):
+        ax.plot([x, x], [-0.22, 0.22], color=C_LINE, linewidth=1.6)
+        ax.text(x, -0.42, str(x), ha="center", va="top",
+                fontsize=10, color=C_TEXT)
+
+    # Irrational points: (value, label, color)
+    irrationals = [
+        (np.sqrt(2),  r"$\sqrt{2} \approx 1.414$", "#2e86de"),
+        (np.sqrt(7),  r"$\sqrt{7} \approx 2.645$", "#10ac84"),
+        (np.pi,       r"$\pi \approx 3.14159$",    "#c44569"),
+    ]
+    # Alternate label heights so they don't collide
+    heights = [0.95, 1.35, 0.95]
+    for (value, label, color), h in zip(irrationals, heights):
+        # Dot on the line
+        ax.plot(value, 0, "o", color=color, markersize=9, zorder=4)
+        # Vertical marker up from the dot
+        ax.plot([value, value], [0, h - 0.08], color=color,
+                linewidth=1.2, linestyle="--", zorder=3)
+        # Label above the marker
+        ax.text(value, h, label, ha="center", va="bottom",
+                fontsize=11, color=color, fontweight="bold")
+
+    # Caption below the line
+    ax.text(2.5, -0.95,
+            "Irrationals live between the integers",
+            ha="center", va="top",
+            fontsize=10, color=C_TEXT, fontstyle="italic")
+
+    ax.set_title("Irrational numbers on the real line",
+                 fontsize=13, pad=10)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "pre_algebra/irrational_on_real_line.svg")
+
+
+# ---------------------------------------------------------------------------
+# Pre-algebra: midpoint formula diagram
+
+def fig_midpoint_formula_diagram():
+    """Coordinate plane 0..10 with A=(2,1), B=(8,7), midpoint M=(5,4)."""
+    fig, ax = plt.subplots(figsize=(5.5, 5.5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-0.8, 10.8)
+    ax.set_ylim(-0.8, 10.8)
+
+    # Light grid at every integer
+    for i in range(0, 11):
+        ax.plot([i, i], [0, 10], color=C_GRID, linewidth=0.6, zorder=0)
+        ax.plot([0, 10], [i, i], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(10.5, 0), xytext=(-0.5, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.5),
+    )
+    ax.annotate(
+        "", xy=(0, 10.5), xytext=(0, -0.5),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.5),
+    )
+    ax.text(10.6, 0.25, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.25, 10.6, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Integer tick labels along x and y axes
+    for t in range(1, 11):
+        ax.text(t, -0.25, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+        ax.text(-0.18, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+    ax.text(-0.18, -0.25, "0", ha="right", va="top",
+            fontsize=8, color=C_TEXT)
+
+    color_blue = "#2e86de"
+    color_mid = C_RADIUS
+
+    # Points
+    Ax, Ay = 2, 1
+    Bx, By = 8, 7
+    Mx, My = (Ax + Bx) / 2, (Ay + By) / 2  # (5, 4)
+
+    # Segment from A to B
+    ax.plot([Ax, Bx], [Ay, By], color=color_blue, linewidth=2.4, zorder=3)
+
+    # Endpoint dots
+    ax.plot(Ax, Ay, "o", color=color_blue, markersize=10, zorder=4)
+    ax.plot(Bx, By, "o", color=color_blue, markersize=10, zorder=4)
+
+    # Midpoint dot (filled, accent color)
+    ax.plot(Mx, My, "o", color=color_mid, markersize=12, zorder=5)
+
+    # Labels
+    ax.text(Ax - 0.2, Ay - 0.25, r"$A = (2,\, 1)$",
+            fontsize=11, color=color_blue,
+            ha="right", va="top", fontweight="bold")
+    ax.text(Bx + 0.2, By + 0.25, r"$B = (8,\, 7)$",
+            fontsize=11, color=color_blue,
+            ha="left", va="bottom", fontweight="bold")
+    ax.text(Mx + 0.3, My - 0.15, r"$M = (5,\, 4)$",
+            fontsize=12, color=color_mid,
+            ha="left", va="top", fontweight="bold")
+
+    ax.set_title("Midpoint of a segment",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "pre_algebra/midpoint_formula_diagram.svg")
+
+
+# ---------------------------------------------------------------------------
 # Pre-algebra: fraction bar (equivalent fractions)
 
 def fig_fraction_bar():
@@ -3787,6 +3978,9 @@ def fig_cube_cross_sections():
 FIGURES = [
     ("circle_parts", fig_circle_parts),
     ("number_line", fig_number_line),
+    ("opposites_on_number_line", fig_opposites_on_number_line),
+    ("irrational_on_real_line", fig_irrational_on_real_line),
+    ("midpoint_formula_diagram", fig_midpoint_formula_diagram),
     ("fraction_bar", fig_fraction_bar),
     ("area_model_distributive", fig_area_model_distributive),
     ("place_value_chart", fig_place_value_chart),

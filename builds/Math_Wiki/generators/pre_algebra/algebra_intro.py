@@ -604,3 +604,976 @@ class TranslateWordToExpression(Generator):
             ],
             tags=_tags(difficulty),
         )
+
+
+# ---------------------------------------------------------------------------
+# Topic 3: solving_one_step_equations_addition_and_subtraction
+# ---------------------------------------------------------------------------
+
+
+def _linear_term(coef: int, var: str = "x") -> str:
+    """Render a coefficient-times-variable cleanly."""
+    if coef == 1:
+        return var
+    if coef == -1:
+        return f"-{var}"
+    return f"{coef}{var}"
+
+
+def _plus_constant(const: int) -> str:
+    """Render `+ const` or `- |const|` depending on sign; `` if const == 0."""
+    if const == 0:
+        return ""
+    if const > 0:
+        return f" + {const}"
+    return f" - {abs(const)}"
+
+
+@register
+class SolveOneStepAddSubtract(Generator):
+    """Solve a one-step equation of the form x + a = b, x - a = b, or b = x + a.
+
+    Backward construction: pick x and a, compute b. Guaranteed solvable.
+    """
+
+    generator_id = "solve_one_step_add_subtract"
+    topic_slug = "solving_one_step_equations_addition_and_subtraction"
+    display_name = "Solve a one-step addition or subtraction equation"
+
+    _RANGES = {
+        "easy":   {"x": (1, 20),   "a": (1, 20)},
+        "medium": {"x": (-50, 50), "a": (-50, 50)},
+        "hard":   {"x": (-200, 200), "a": (-200, 200)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        x_lo, x_hi = r["x"]
+        a_lo, a_hi = r["a"]
+        x = rng.randint(x_lo, x_hi)
+        a = rng.randint(a_lo, a_hi)
+        while a == 0:
+            a = rng.randint(a_lo, a_hi)
+
+        # Four templates:
+        #   0: x + a = b   (b = x + a)
+        #   1: x - a = b   (b = x - a)
+        #   2: b = x + a   (variable on right)
+        #   3: a + x = b   (constant-first form)
+        template = rng.randrange(4)
+
+        opener = rng.choice([
+            "Determine",
+            "Find",
+            "Solve for",
+            "Compute",
+        ])
+
+        if template == 0:
+            b = x + a
+            eq = f"x + {a} = {b}" if a >= 0 else f"x - {abs(a)} = {b}"
+            isolate = (
+                f"Subtract ${a}$ from both sides: $x = {b} - ({a}) = {x}$."
+                if a >= 0 else
+                f"Add ${abs(a)}$ to both sides: $x = {b} + {abs(a)} = {x}$."
+            )
+            rule_hint = r"To isolate $x$, undo the operation on the left. Subtraction undoes addition and vice versa."
+        elif template == 1:
+            b = x - a
+            eq = f"x - {a} = {b}" if a >= 0 else f"x + {abs(a)} = {b}"
+            isolate = (
+                f"Add ${a}$ to both sides: $x = {b} + {a} = {x}$."
+                if a >= 0 else
+                f"Subtract ${abs(a)}$ from both sides: $x = {b} - {abs(a)} = {x}$."
+            )
+            rule_hint = r"To undo a subtraction, add the same amount to both sides."
+        elif template == 2:
+            b = x + a
+            eq = f"{b} = x + {a}" if a >= 0 else f"{b} = x - {abs(a)}"
+            isolate = (
+                f"Subtract ${a}$ from both sides: ${b} - ({a}) = x$, so $x = {x}$."
+                if a >= 0 else
+                f"Add ${abs(a)}$ to both sides: ${b} + {abs(a)} = x$, so $x = {x}$."
+            )
+            rule_hint = r"The variable can live on either side. Isolate $x$ the same way no matter which side it sits on."
+        else:  # template == 3
+            b = x + a
+            eq = f"{a} + x = {b}" if a >= 0 else f"{abs(a) * -1} + x = {b}"
+            # re-render cleanly when a is negative (-3 + x = ...)
+            if a < 0:
+                eq = f"-{abs(a)} + x = {b}"
+            isolate = (
+                f"Subtract ${a}$ from both sides: $x = {b} - ({a}) = {x}$."
+                if a >= 0 else
+                f"Add ${abs(a)}$ to both sides: $x = {b} + {abs(a)} = {x}$."
+            )
+            rule_hint = r"Commutative property: $a + x$ is the same as $x + a$. Undo the addition the same way."
+
+        statement = f"{opener} $x$ such that ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (template, x, a),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                rule_hint,
+                r"Perform the same operation on both sides of the equation so the variable ends up alone.",
+                f"After isolating, you should get $x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq}$.",
+                isolate,
+                f"Therefore $x = {x}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+@register
+class SolveConstantMinusX(Generator):
+    """Solve an equation of the form a - x = b where the variable is subtracted.
+
+    Backward: pick x and a, compute b = a - x.
+    """
+
+    generator_id = "solve_constant_minus_x"
+    topic_slug = "solving_one_step_equations_addition_and_subtraction"
+    display_name = "Solve a - x = b (sign-care case)"
+
+    _RANGES = {
+        "easy":   {"x": (1, 20),   "a": (1, 30)},
+        "medium": {"x": (-30, 30), "a": (-40, 40)},
+        "hard":   {"x": (-100, 100), "a": (-150, 150)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        x_lo, x_hi = r["x"]
+        a_lo, a_hi = r["a"]
+        x = rng.randint(x_lo, x_hi)
+        a = rng.randint(a_lo, a_hi)
+        # Avoid trivial 0 - x = -x
+        while a == 0:
+            a = rng.randint(a_lo, a_hi)
+        b = a - x
+
+        # Display form for a depending on sign
+        if a >= 0:
+            eq = f"{a} - x = {b}"
+        else:
+            eq = f"-{abs(a)} - x = {b}"
+
+        opener = rng.choice([
+            "Determine $x$",
+            "Find $x$",
+            "Solve for $x$",
+        ])
+        statement = f"{opener} such that ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (x, a),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                r"Move the variable term to the other side so its coefficient becomes positive.",
+                f"Add $x$ to both sides to get ${a} = {b} + x$; then subtract ${b}$ from both sides.",
+                f"After isolating, $x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq}$.",
+                f"Add $x$ to both sides: ${a} = {b} + x$.",
+                f"Subtract ${b}$ from both sides: ${a} - ({b}) = x$, i.e., $x = {x}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+_ONE_STEP_WORD_CONTEXTS = (
+    ("Priya", "stickers", "her brother gave her"),
+    ("Kai", "marbles", "his friend handed him"),
+    ("Maya", "seedlings", "the gardening class added"),
+    ("Rohan", "trading cards", "he bought"),
+    ("Zoe", "photographs", "she took in the afternoon, adding"),
+    ("Emilia", "sheet music pages", "her jazz band shared"),
+    ("the math club", "pencils", "the teacher donated"),
+)
+
+
+@register
+class OneStepWordToEquationAdd(Generator):
+    """Word problem translating to x + a = b. Backward construction.
+
+    Pick the original quantity x and the added amount a, compute b. Fresh names.
+    """
+
+    generator_id = "one_step_word_to_equation_add"
+    topic_slug = "solving_one_step_equations_addition_and_subtraction"
+    display_name = "Translate a word problem to x + a = b"
+
+    supports_word_problems = True
+
+    _RANGES = {
+        "easy":   {"x": (5, 30),   "a": (2, 20)},
+        "medium": {"x": (10, 80),  "a": (5, 40)},
+        "hard":   {"x": (15, 200), "a": (10, 90)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        x = rng.randint(*r["x"])
+        a = rng.randint(*r["a"])
+        b = x + a
+        actor, item, verb_phrase = rng.choice(_ONE_STEP_WORD_CONTEXTS)
+        actor_cap = actor[0].upper() + actor[1:]
+
+        if actor.startswith("the"):
+            statement = (
+                f"{actor_cap} had some {item}. After {verb_phrase} "
+                f"${a}$ more, there were ${b}$ {item} in total. "
+                f"How many did they start with?"
+            )
+        else:
+            statement = (
+                f"{actor_cap} had some {item}. After {verb_phrase} "
+                f"${a}$ more, {actor} had ${b}$ {item}. "
+                f"How many did {actor} start with?"
+            )
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (x, a, actor),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$ {item}",
+            hints=[
+                f"Let $x$ stand for the starting number of {item}. The equation is $x + {a} = {b}$.",
+                f"Subtract ${a}$ from both sides to isolate $x$.",
+                f"This gives $x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Translate: starting quantity + added amount = final amount, i.e., $x + {a} = {b}$.",
+                f"Subtract ${a}$ from both sides: $x = {b} - {a}$.",
+                f"Therefore $x = {x}$ {item}.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-translation",
+                "#word-problem-support",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+# ---------------------------------------------------------------------------
+# Topic 4: solving_one_step_equations_multiplication_and_division
+# ---------------------------------------------------------------------------
+
+
+@register
+class SolveOneStepMultiply(Generator):
+    """Solve ax = b for integer x. Backward: pick x and a, compute b."""
+
+    generator_id = "solve_one_step_multiply"
+    topic_slug = "solving_one_step_equations_multiplication_and_division"
+    display_name = "Solve a one-step multiplication equation"
+
+    _RANGES = {
+        "easy":   {"x": (1, 12),    "a": (2, 10)},
+        "medium": {"x": (-20, 20),  "a": (-12, 12)},
+        "hard":   {"x": (-40, 40),  "a": (-15, 15)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        x_lo, x_hi = r["x"]
+        a_lo, a_hi = r["a"]
+        x = rng.randint(x_lo, x_hi)
+        a = rng.randint(a_lo, a_hi)
+        while a == 0 or a == 1 or a == -1:
+            a = rng.randint(a_lo, a_hi)
+        b = a * x
+
+        opener = rng.choice([
+            "Solve for $x$",
+            "Determine $x$",
+            "Find $x$",
+        ])
+
+        # Render the coefficient cleanly
+        if a > 0:
+            eq = f"{a}x = {b}"
+        else:
+            eq = f"-{abs(a)}x = {b}"
+
+        statement = f"{opener}: ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (x, a),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                r"To undo multiplication, divide both sides by the coefficient of $x$.",
+                f"Divide both sides by ${a}$: $x = \\dfrac{{{b}}}{{{a}}}$.",
+                f"The result is $x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq}$.",
+                f"Divide both sides by the coefficient ${a}$: $\\dfrac{{{a}x}}{{{a}}} = \\dfrac{{{b}}}{{{a}}}$.",
+                f"Therefore $x = {x}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+@register
+class SolveOneStepDivide(Generator):
+    """Solve x/a = b. Backward: pick x and a (divisor), compute b = x/a. Ensure clean integer x/a."""
+
+    generator_id = "solve_one_step_divide"
+    topic_slug = "solving_one_step_equations_multiplication_and_division"
+    display_name = "Solve a one-step division equation"
+
+    _RANGES = {
+        "easy":   {"b": (1, 12),    "a": (2, 10)},
+        "medium": {"b": (-15, 15),  "a": (-12, 12)},
+        "hard":   {"b": (-25, 25),  "a": (-15, 15)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        b_lo, b_hi = r["b"]
+        a_lo, a_hi = r["a"]
+        b = rng.randint(b_lo, b_hi)
+        a = rng.randint(a_lo, a_hi)
+        while a == 0 or a == 1 or a == -1:
+            a = rng.randint(a_lo, a_hi)
+        # x = a * b so x/a = b exactly.
+        x = a * b
+
+        eq = f"\\dfrac{{x}}{{{a}}} = {b}"
+
+        opener = rng.choice([
+            "Determine",
+            "Find",
+            "Solve for",
+        ])
+        statement = f"{opener} $x$ such that ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (x, a, b),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                r"To undo division, multiply both sides by the same divisor.",
+                f"Multiply both sides by ${a}$: $x = {a} \\cdot {b}$.",
+                f"This gives $x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with $\\dfrac{{x}}{{{a}}} = {b}$.",
+                f"Multiply both sides by ${a}$: $x = {a} \\cdot ({b})$.",
+                f"Compute the product: $x = {x}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+@register
+class SolveOneStepNegativeCoefficient(Generator):
+    """Solve -ax = b. Always displays with a leading minus; sign-care focus."""
+
+    generator_id = "solve_one_step_negative_coefficient"
+    topic_slug = "solving_one_step_equations_multiplication_and_division"
+    display_name = "Solve -ax = b (sign-care case)"
+
+    _RANGES = {
+        "easy":   {"x": (1, 12),   "a": (2, 10)},
+        "medium": {"x": (-20, 20), "a": (2, 12)},
+        "hard":   {"x": (-40, 40), "a": (2, 15)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        x = rng.randint(*r["x"])
+        a = rng.randint(*r["a"])  # a > 0 internally so display is clean
+        # The coefficient in the problem is -a.
+        neg_a = -a
+        b = neg_a * x
+
+        eq = f"-{a}x = {b}"
+
+        opener = rng.choice([
+            "Find",
+            "Determine",
+            "Solve for",
+        ])
+        statement = f"{opener} $x$ for which ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (x, a),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                r"The coefficient of $x$ is negative. Divide both sides by the negative coefficient.",
+                f"Divide both sides by $-{a}$: $x = \\dfrac{{{b}}}{{-{a}}}$.",
+                r"A negative divided by a negative is positive; a positive divided by a negative is negative. The result is " + f"$x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with $-{a}x = {b}$.",
+                f"Divide both sides by the coefficient $-{a}$: $x = \\dfrac{{{b}}}{{-{a}}}$.",
+                f"Simplify the sign: $x = {x}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+# ---------------------------------------------------------------------------
+# Topic 5: solving_two_step_equations
+# ---------------------------------------------------------------------------
+
+
+@register
+class SolveTwoStepForward(Generator):
+    """Solve ax + b = c. Backward: pick x, a, b; compute c."""
+
+    generator_id = "solve_two_step_forward"
+    topic_slug = "solving_two_step_equations"
+    display_name = "Solve a two-step equation ax + b = c"
+
+    _RANGES = {
+        "easy":   {"x": (1, 10),    "a": (2, 8),    "b": (-20, 20)},
+        "medium": {"x": (-20, 20),  "a": (-10, 10), "b": (-50, 50)},
+        "hard":   {"x": (-40, 40),  "a": (-15, 15), "b": (-100, 100)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        x = rng.randint(*r["x"])
+        a = rng.randint(*r["a"])
+        while a == 0 or a == 1 or a == -1:
+            a = rng.randint(*r["a"])
+        b = rng.randint(*r["b"])
+        while b == 0:
+            b = rng.randint(*r["b"])
+        c = a * x + b
+
+        # Display the coefficient and the constant cleanly.
+        if a > 0:
+            ax_str = f"{a}x"
+        else:
+            ax_str = f"-{abs(a)}x"
+        if b >= 0:
+            eq = f"{ax_str} + {b} = {c}"
+        else:
+            eq = f"{ax_str} - {abs(b)} = {c}"
+
+        # Intermediate value after step 1
+        after_sub = c - b  # = a*x
+
+        opener = rng.choice([
+            "Determine $x$",
+            "Solve for $x$",
+            "Find $x$",
+        ])
+        statement = f"{opener}: ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (x, a, b),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                r"First undo the addition or subtraction; then undo the multiplication.",
+                (
+                    f"Subtract ${b}$ from both sides: ${ax_str} = {after_sub}$."
+                    if b >= 0 else
+                    f"Add ${abs(b)}$ to both sides: ${ax_str} = {after_sub}$."
+                ),
+                f"Divide both sides by ${a}$: $x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq}$.",
+                (
+                    f"Subtract ${b}$ from both sides: ${ax_str} = {c} - ({b}) = {after_sub}$."
+                    if b >= 0 else
+                    f"Add ${abs(b)}$ to both sides: ${ax_str} = {c} + {abs(b)} = {after_sub}$."
+                ),
+                f"Divide both sides by ${a}$: $x = \\dfrac{{{after_sub}}}{{{a}}} = {x}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                "#skill-multi-step",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+@register
+class SolveTwoStepWithFractionCoefficient(Generator):
+    """Solve (x/a) + b = c. Backward: pick x divisible by a cleanly."""
+
+    generator_id = "solve_two_step_with_fraction_coefficient"
+    topic_slug = "solving_two_step_equations"
+    display_name = "Solve a two-step equation with a fraction coefficient"
+
+    _RANGES = {
+        "easy":   {"q": (1, 10),   "a": (2, 8),  "b": (-15, 15)},
+        "medium": {"q": (-15, 15), "a": (2, 12), "b": (-30, 30)},
+        "hard":   {"q": (-25, 25), "a": (2, 15), "b": (-60, 60)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        q = rng.randint(*r["q"])  # quotient x/a
+        a = rng.randint(*r["a"])
+        while a in (0, 1):
+            a = rng.randint(*r["a"])
+        b = rng.randint(*r["b"])
+        while b == 0:
+            b = rng.randint(*r["b"])
+        x = a * q  # so x/a = q exactly
+        c = q + b
+
+        if b >= 0:
+            eq = f"\\dfrac{{x}}{{{a}}} + {b} = {c}"
+        else:
+            eq = f"\\dfrac{{x}}{{{a}}} - {abs(b)} = {c}"
+
+        opener = rng.choice([
+            "Determine $x$",
+            "Solve for $x$",
+            "Find $x$",
+        ])
+        statement = f"{opener}: ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (q, a, b),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                r"First isolate the fractional term by undoing the addition or subtraction; then clear the fraction by multiplying.",
+                (
+                    f"Subtract ${b}$ from both sides: $\\dfrac{{x}}{{{a}}} = {q}$."
+                    if b >= 0 else
+                    f"Add ${abs(b)}$ to both sides: $\\dfrac{{x}}{{{a}}} = {q}$."
+                ),
+                f"Multiply both sides by ${a}$: $x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq}$.",
+                (
+                    f"Subtract ${b}$ from both sides: $\\dfrac{{x}}{{{a}}} = {c} - ({b}) = {q}$."
+                    if b >= 0 else
+                    f"Add ${abs(b)}$ to both sides: $\\dfrac{{x}}{{{a}}} = {c} + {abs(b)} = {q}$."
+                ),
+                f"Multiply both sides by ${a}$: $x = {a} \\cdot ({q}) = {x}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                "#skill-multi-step",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+@register
+class SolveTwoStepVariableOnRight(Generator):
+    """Solve c = ax + b (same math as forward, variable on right)."""
+
+    generator_id = "solve_two_step_variable_on_right"
+    topic_slug = "solving_two_step_equations"
+    display_name = "Solve a two-step equation with the variable on the right"
+
+    _RANGES = {
+        "easy":   {"x": (1, 10),    "a": (2, 8),    "b": (-20, 20)},
+        "medium": {"x": (-20, 20),  "a": (-10, 10), "b": (-50, 50)},
+        "hard":   {"x": (-40, 40),  "a": (-15, 15), "b": (-100, 100)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        x = rng.randint(*r["x"])
+        a = rng.randint(*r["a"])
+        while a in (-1, 0, 1):
+            a = rng.randint(*r["a"])
+        b = rng.randint(*r["b"])
+        while b == 0:
+            b = rng.randint(*r["b"])
+        c = a * x + b
+
+        if a > 0:
+            ax_str = f"{a}x"
+        else:
+            ax_str = f"-{abs(a)}x"
+        if b >= 0:
+            rhs = f"{ax_str} + {b}"
+        else:
+            rhs = f"{ax_str} - {abs(b)}"
+        eq = f"{c} = {rhs}"
+
+        after_sub = c - b
+
+        opener = rng.choice([
+            "Determine $x$",
+            "Solve for $x$",
+            "Find $x$",
+        ])
+        statement = f"{opener}: ${eq}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (x, a, b),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"$x = {x}$",
+            hints=[
+                r"The variable is on the right; you can isolate it there or flip the equation first. Either way, undo the addition and then the multiplication.",
+                (
+                    f"Subtract ${b}$ from both sides: ${after_sub} = {ax_str}$."
+                    if b >= 0 else
+                    f"Add ${abs(b)}$ to both sides: ${after_sub} = {ax_str}$."
+                ),
+                f"Divide both sides by ${a}$: $x = {x}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq}$.",
+                (
+                    f"Subtract ${b}$ from both sides: ${c} - ({b}) = {ax_str}$, i.e., ${after_sub} = {ax_str}$."
+                    if b >= 0 else
+                    f"Add ${abs(b)}$ to both sides: ${c} + {abs(b)} = {ax_str}$, i.e., ${after_sub} = {ax_str}$."
+                ),
+                f"Divide both sides by ${a}$: $x = \\dfrac{{{after_sub}}}{{{a}}} = {x}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                "#skill-multi-step",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+# ---------------------------------------------------------------------------
+# Topic 6: the_distributive_property_with_variables
+# ---------------------------------------------------------------------------
+
+
+@register
+class DistributePositiveCoefficient(Generator):
+    """Expand a(bx + c) with positive coefficient a."""
+
+    generator_id = "distribute_positive_coefficient"
+    topic_slug = "the_distributive_property_with_variables"
+    display_name = "Expand a(bx + c) with positive outside"
+
+    _RANGES = {
+        "easy":   {"a": (2, 8),  "b": (1, 9),  "c": (1, 10)},
+        "medium": {"a": (2, 10), "b": (2, 12), "c": (2, 15)},
+        "hard":   {"a": (3, 12), "b": (2, 15), "c": (2, 20)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        a = rng.randint(*r["a"])
+        b = rng.randint(*r["b"])
+        c = rng.randint(*r["c"])
+        sign_c = rng.choice([1, -1])
+        c_signed = sign_c * c
+
+        # Inner display
+        bx_display = "x" if b == 1 else f"{b}x"
+        if c_signed >= 0:
+            inner = f"{bx_display} + {c_signed}"
+        else:
+            inner = f"{bx_display} - {abs(c_signed)}"
+
+        out_x = a * b
+        out_const = a * c_signed
+
+        if out_x == 1:
+            ax_str = "x"
+        elif out_x == -1:
+            ax_str = "-x"
+        else:
+            ax_str = f"{out_x}x"
+
+        if out_const >= 0:
+            answer = f"{ax_str} + {out_const}"
+        else:
+            answer = f"{ax_str} - {abs(out_const)}"
+
+        opener = rng.choice(["Expand", "Apply the distributive property to"])
+        statement = f"{opener} ${a}({inner})$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (a, b, c_signed),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"${answer}$",
+            hints=[
+                r"Multiply the outside factor by each inside term: $a(bx + c) = abx + ac$.",
+                f"Compute ${a} \\cdot {b} = {out_x}$ and ${a} \\cdot ({c_signed}) = {out_const}$.",
+                f"Combine: ${answer}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${a}({inner})$.",
+                f"Distribute ${a}$ to the $x$-term: ${a} \\cdot {bx_display} = {ax_str}$.",
+                f"Distribute ${a}$ to the constant term: ${a} \\cdot ({c_signed}) = {out_const}$.",
+                f"Combine: ${answer}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+@register
+class DistributeNegativeSign(Generator):
+    """Expand -(bx + c) or -(bx - c). Sign-care focus."""
+
+    generator_id = "distribute_negative_sign"
+    topic_slug = "the_distributive_property_with_variables"
+    display_name = "Expand -(bx + c)"
+
+    _RANGES = {
+        "easy":   {"b": (1, 9),  "c": (1, 10)},
+        "medium": {"b": (2, 12), "c": (2, 15)},
+        "hard":   {"b": (2, 20), "c": (2, 25)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        b = rng.randint(*r["b"])
+        c = rng.randint(*r["c"])
+        sign_c = rng.choice([1, -1])
+        c_signed = sign_c * c
+
+        bx_display = "x" if b == 1 else f"{b}x"
+        if c_signed >= 0:
+            inner = f"{bx_display} + {c_signed}"
+        else:
+            inner = f"{bx_display} - {abs(c_signed)}"
+
+        # Result coefficients: flip signs.
+        out_x = -b
+        out_const = -c_signed
+
+        if out_x == -1:
+            ax_str = "-x"
+        else:
+            ax_str = f"{out_x}x"
+
+        if out_const == 0:
+            answer = ax_str
+        elif out_const > 0:
+            answer = f"{ax_str} + {out_const}"
+        else:
+            answer = f"{ax_str} - {abs(out_const)}"
+
+        opener = rng.choice(["Expand", "Simplify"])
+        statement = f"{opener} $-({inner})$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (b, c_signed),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"${answer}$",
+            hints=[
+                r"A leading minus sign is the same as multiplying by $-1$. Flip the sign of every term inside the parentheses.",
+                f"The $x$-term becomes ${ax_str}$.",
+                f"The constant term becomes ${out_const}$. Combined: ${answer}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with $-({inner})$.",
+                r"Rewrite as $-1 \cdot (\text{inside})$, then distribute.",
+                f"Flip each sign: $-1 \\cdot ({bx_display}) = {ax_str}$ and $-1 \\cdot ({c_signed}) = {out_const}$.",
+                f"Combine: ${answer}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                f"#difficulty-{difficulty}",
+            ],
+        )
+
+
+@register
+class DistributeAndSimplify(Generator):
+    """Expand a(bx + c) + dx or a(bx + c) - d; combine like terms after."""
+
+    generator_id = "distribute_and_simplify"
+    topic_slug = "the_distributive_property_with_variables"
+    display_name = "Distribute and combine like terms"
+
+    _RANGES = {
+        "easy":   {"a": (2, 6),  "b": (1, 6),  "c": (1, 9),  "d": (1, 9)},
+        "medium": {"a": (2, 9),  "b": (2, 9),  "c": (2, 12), "d": (2, 12)},
+        "hard":   {"a": (2, 12), "b": (2, 12), "c": (2, 15), "d": (2, 15)},
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        r = self._RANGES[difficulty]
+        a = rng.randint(*r["a"])
+        b = rng.randint(*r["b"])
+        c = rng.randint(*r["c"])
+        d = rng.randint(*r["d"])
+        sign_c = rng.choice([1, -1])
+        c_signed = sign_c * c
+        # Template 0: a(bx + c) + dx  (add extra dx term)
+        # Template 1: a(bx + c) - d   (subtract constant d)
+        template = rng.randrange(2)
+
+        bx_display = "x" if b == 1 else f"{b}x"
+        if c_signed >= 0:
+            inner = f"{bx_display} + {c_signed}"
+        else:
+            inner = f"{bx_display} - {abs(c_signed)}"
+
+        # After distribution
+        dist_x = a * b
+        dist_const = a * c_signed
+
+        if template == 0:
+            extra_piece = f" + {d}x"
+            final_x = dist_x + d
+            final_const = dist_const
+        else:
+            extra_piece = f" - {d}"
+            final_x = dist_x
+            final_const = dist_const - d
+
+        if final_x == 1:
+            fx_str = "x"
+        elif final_x == -1:
+            fx_str = "-x"
+        elif final_x == 0:
+            fx_str = ""
+        else:
+            fx_str = f"{final_x}x"
+
+        if final_x == 0 and final_const == 0:
+            answer = "0"
+        elif final_x == 0:
+            answer = f"{final_const}"
+        elif final_const == 0:
+            answer = fx_str
+        elif final_const > 0:
+            answer = f"{fx_str} + {final_const}"
+        else:
+            answer = f"{fx_str} - {abs(final_const)}"
+
+        expr = f"{a}({inner}){extra_piece}"
+
+        opener = rng.choice(["Expand and simplify", "Simplify"])
+        statement = f"{opener} ${expr}$."
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (template, a, b, c_signed, d),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=statement,
+            answer_latex=f"${answer}$",
+            hints=[
+                r"Distribute first, then combine like terms.",
+                f"After distributing: ${dist_x}x {'+ ' + str(dist_const) if dist_const >= 0 else '- ' + str(abs(dist_const))}$; now apply the extra term.",
+                f"Combine like terms to get ${answer}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${expr}$.",
+                f"Distribute ${a}$ into the parentheses: ${dist_x}x {'+ ' + str(dist_const) if dist_const >= 0 else '- ' + str(abs(dist_const))}$.",
+                f"Now include the extra term: ${dist_x}x {'+ ' + str(dist_const) if dist_const >= 0 else '- ' + str(abs(dist_const))}{extra_piece}$.",
+                f"Combine like terms: ${answer}$.",
+            ],
+            tags=[
+                "#branch-pre-algebra",
+                "#topic-linear",
+                "#skill-algebraic-manipulation",
+                "#skill-multi-step",
+                f"#difficulty-{difficulty}",
+            ],
+        )

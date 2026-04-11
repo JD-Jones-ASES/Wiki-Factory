@@ -58,9 +58,9 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Core Geometry topics --- 23 live / 31 total
+### Core Geometry topics --- 24 live / 31 total
 
-**🟢 Live topics with practice widgets (23)**
+**🟢 Live topics with practice widgets (24)**
 
 - 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 - 🟢 [[Chords_Secants_And_Tangents|Chords, Secants, and Tangents]]
@@ -80,6 +80,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Surface_Area_And_Volume_Of_Spheres|Surface Area and Volume of Spheres]]
 - 🟢 [[Surface_Area_Of_Prisms_And_Cylinders|Surface Area of Prisms and Cylinders]]
 - 🟢 [[The_Distance_Formula|The Distance Formula]]
+- 🟢 [[The_Midpoint_Formula|The Midpoint Formula]]
 - 🟢 [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
 - 🟢 [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]]
 - 🟢 [[Triangle_Congruence_Criteria|Triangle Congruence Criteria]]
@@ -87,7 +88,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 
 <details>
-<summary>⚪ 8 stub topic(s) (click to expand)</summary>
+<summary>⚪ 7 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Composite_Figures|Composite Figures]]
 - ⚪ [[Coordinate_Plane|Coordinate Plane]]
@@ -96,7 +97,6 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - ⚪ [[Proportions_In_Similar_Figures|Proportions in Similar Figures]]
 - ⚪ [[Review_Of_Perimeter_And_Area|Review of Perimeter and Area]]
 - ⚪ [[Scale_Drawings_And_Maps|Scale Drawings and Maps]]
-- ⚪ [[The_Midpoint_Formula|The Midpoint Formula]]
 
 </details>
 
