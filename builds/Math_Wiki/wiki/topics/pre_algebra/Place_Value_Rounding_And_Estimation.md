@@ -14,9 +14,12 @@ related:
 status: draft
 confidence: high
 branch: pre-algebra
-prerequisites: []
+prerequisites:
+  - "topics/pre_algebra/Integers_And_The_Number_Line"
+  - "topics/pre_algebra/Order_Of_Operations"
+  - "topics/pre_algebra/Adding_And_Subtracting_Integers"
 problem_type_ids: []
-figures: []
+figures: ["pre_algebra/place_value_chart.svg"]
 summary: "Ones, tens, hundreds; rounding to a chosen digit; quick estimates."
 ---
 
@@ -27,6 +30,8 @@ summary: "Ones, tens, hundreds; rounding to a chosen digit; quick estimates."
 Every whole number you read is built from the same ten digits: $0, 1, 2, 3, 4, 5, 6, 7, 8, 9$. What gives a digit its size is not the shape of the symbol but where it sits. The digit $3$ in $36$ means thirty. The same digit $3$ in $305$ means three hundred. That idea, the idea that position carries meaning, is the heart of our number system.
 
 This page walks through three tightly connected skills: reading a number by its places, rounding a number to a place you choose, and estimating the answer to a calculation before (or instead of) doing it exactly.
+
+![[place_value_chart.svg|A place-value chart showing ones through hundred-billions]]
 
 ---
 

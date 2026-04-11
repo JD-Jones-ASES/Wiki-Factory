@@ -4,12 +4,13 @@ import { FileTrieNode } from "./quartz/util/fileTrie"
 // Math Wiki custom components (overlaid into quartz/components/ during CI build)
 import ProblemVaultWidget from "./quartz/components/ProblemVaultWidget"
 import VaultViewer from "./quartz/components/VaultViewer"
+import PrereqWidget from "./quartz/components/PrereqWidget"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [ProblemVaultWidget(), VaultViewer()],
+  afterBody: [ProblemVaultWidget(), VaultViewer(), PrereqWidget()],
   footer: Component.Footer({
     links: {
       "All Wikis": "https://JD-Jones-ASES.github.io/Wiki-Factory/",

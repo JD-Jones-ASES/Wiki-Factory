@@ -1,0 +1,65 @@
+// Math Wiki PrereqWidget styling.
+// Theme variables (--light, --dark, --secondary, etc.) are provided by Quartz.
+
+.prereq-widget-card {
+  margin-top: 1.5rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  font-size: 0.92rem;
+}
+
+.prereq-widget-header {
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--lightgray);
+  letter-spacing: 0.01em;
+}
+
+.prereq-widget-header::before {
+  content: "← ";
+  color: var(--secondary);
+  font-weight: 700;
+  margin-right: 0.2rem;
+}
+
+.prereq-widget-empty {
+  color: var(--darkgray);
+  font-style: italic;
+  margin: 0.2rem 0 0;
+}
+
+.prereq-widget-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.3rem 0 0;
+}
+
+.prereq-widget-list li {
+  padding: 0.25rem 0;
+  border-bottom: 1px dotted var(--lightgray);
+}
+
+.prereq-widget-list li:last-child {
+  border-bottom: none;
+}
+
+.prereq-widget-list a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.prereq-widget-list a:hover {
+  color: var(--tertiary);
+  text-decoration: underline;
+}
+
+.prereq-widget-more {
+  font-size: 0.85rem;
+  color: var(--darkgray);
+  margin: 0.4rem 0 0;
+  font-style: italic;
+}

@@ -17,7 +17,7 @@ prerequisites:
   - "topics/pre_algebra/Order_Of_Operations"
   - "topics/pre_algebra/Variables_And_Algebraic_Expressions"
 problem_type_ids: []
-figures: []
+figures: ["geometry/circle_parts.svg"]
 summary: "How far around a circle is, how much space it covers, and why one mysterious number — pi — controls both."
 ---
 
@@ -28,6 +28,8 @@ summary: "How far around a circle is, how much space it covers, and why one myst
 A circle is the roundest shape there is. Every point on the edge sits the same distance from the middle, so unlike a square or a triangle there are no corners, no long sides, and no short sides — the shape looks the same no matter which way you turn it. That simple symmetry is what makes a wheel roll smoothly, a pizza cut into equal slices, and a garden hose spray in an even ring. It is also what lets us describe a circle with just **one** number: the **radius** $r$, the distance from the center out to the edge.
 
 From that one number you can answer the two questions people usually ask about circles: **how far is it around the circle?** and **how much space does the circle cover?** The first is called the **circumference**, and it is the circle's version of perimeter. The second is the circle's **area**. Both answers turn out to be controlled by the same mysterious number, which we call **pi**.
+
+![[circle_parts.svg|A labeled circle showing the center, radius, diameter, and chord]]
 
 ---
 

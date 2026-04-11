@@ -7,7 +7,7 @@
       "stub": 112,
       "with_3plus_generators": 144,
       "with_300plus_words": 138,
-      "avg_score": 53.8
+      "avg_score": 53.9
     },
     "by_branch": {
       "algebra": {
@@ -46,8 +46,8 @@
         "with_generators": 47,
         "with_prose_300": 43,
         "with_examples_2": 42,
-        "with_figure": 12,
-        "avg_score": 45.2,
+        "with_figure": 14,
+        "avg_score": 45.4,
         "status_counts": {
           "stub": 50,
           "draft": 42,
@@ -2328,9 +2328,9 @@
       "relpath": "wiki/topics/pre_algebra/Circumference_And_Area_Of_Circles.md",
       "status": "draft",
       "confidence": "high",
-      "word_count": 1069,
+      "word_count": 1079,
       "example_count": 3,
-      "figure_count": 0,
+      "figure_count": 1,
       "wikilink_count": 10,
       "generator_count": 3,
       "generators": [
@@ -2340,7 +2340,7 @@
       ],
       "prerequisite_count": 2,
       "related_count": 2,
-      "score": 80
+      "score": 85
     },
     {
       "slug": "Classifying_Triangles_And_Quadrilaterals",
@@ -2985,9 +2985,9 @@
       "relpath": "wiki/topics/pre_algebra/Place_Value_Rounding_And_Estimation.md",
       "status": "draft",
       "confidence": "high",
-      "word_count": 1206,
+      "word_count": 1215,
       "example_count": 3,
-      "figure_count": 0,
+      "figure_count": 1,
       "wikilink_count": 10,
       "generator_count": 3,
       "generators": [
@@ -2995,9 +2995,9 @@
         "round_whole_number",
         "estimate_sum_by_rounding"
       ],
-      "prerequisite_count": 0,
+      "prerequisite_count": 3,
       "related_count": 3,
-      "score": 80
+      "score": 95
     },
     {
       "slug": "Plotting_Points_And_The_Coordinate_Plane",
