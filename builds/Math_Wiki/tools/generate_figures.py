@@ -4275,6 +4275,322 @@ def fig_cube_cross_sections():
 
 
 # ---------------------------------------------------------------------------
+# Precalculus: rational function (2x+3)/(x-1) with asymptotes (Wave C)
+
+def fig_rational_function_asymptotes():
+    """Graph of f(x) = (2x + 3)/(x - 1) with vertical asymptote x = 1
+    and horizontal asymptote y = 2."""
+    fig, ax = plt.subplots(figsize=(7, 6))
+    ax.set_xlim(-5, 5)
+    ax.set_ylim(-5, 5)
+
+    # Light grid at every integer
+    for i in range(-5, 6):
+        ax.plot([i, i], [-5, 5], color=C_GRID, linewidth=0.6, zorder=0)
+        ax.plot([-5, 5], [i, i], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(4.85, 0), xytext=(-4.85, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 4.85), xytext=(0, -4.85),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(4.9, 0.2, r"$x$", fontsize=12, color=C_TEXT,
+            ha="right", va="bottom")
+    ax.text(0.2, 4.9, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Integer tick labels (skip origin)
+    for t in range(-4, 5):
+        if t == 0:
+            continue
+        ax.text(t, -0.25, str(t), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+        ax.text(-0.18, t, str(t), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Asymptotes (dashed)
+    # Vertical asymptote at x = 1
+    ax.plot([1, 1], [-5, 5], color=C_DASH,
+            linewidth=1.6, linestyle="--", zorder=1)
+    # Horizontal asymptote at y = 2
+    ax.plot([-5, 5], [2, 2], color=C_DASH,
+            linewidth=1.6, linestyle="--", zorder=1)
+
+    # Compute f(x) = (2x + 3)/(x - 1) as two branches on either side of x = 1.
+    # Exclude points too close to the asymptote to avoid a visible bridge
+    # across the vertical line.
+    eps = 1e-6
+    xs_left = np.linspace(-5, 1 - eps, 600)
+    xs_right = np.linspace(1 + eps, 5, 600)
+
+    def f(x):
+        return (2 * x + 3) / (x - 1)
+
+    ys_left = f(xs_left)
+    ys_right = f(xs_right)
+
+    # Mask points outside the y window so we don't draw vertical spikes.
+    mask_l = np.abs(ys_left) <= 5.0
+    mask_r = np.abs(ys_right) <= 5.0
+    ax.plot(xs_left[mask_l], ys_left[mask_l],
+            color=C_LINE, linewidth=2.4, zorder=3)
+    ax.plot(xs_right[mask_r], ys_right[mask_r],
+            color=C_LINE, linewidth=2.4, zorder=3)
+
+    # Asymptote labels
+    ax.text(1.15, -4.3, r"$x = 1$", fontsize=11, color=C_DASH,
+            ha="left", va="bottom", fontweight="bold")
+    ax.text(4.6, 2.25, r"$y = 2$", fontsize=11, color=C_DASH,
+            ha="right", va="bottom", fontweight="bold")
+
+    # Function label
+    ax.text(-4.7, 4.5, r"$f(x) = \dfrac{2x + 3}{x - 1}$",
+            fontsize=12, color=C_LINE, ha="left", va="top")
+
+    ax.set_title("Rational function with asymptotes",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/rational_function_asymptotes.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: 2x2 quartet of conic sections (Wave C)
+
+def fig_conic_sections_quartet():
+    """A 2x2 grid showing one instance each of circle, ellipse, parabola,
+    and hyperbola, with their equations labeled."""
+    fig, axes = plt.subplots(2, 2, figsize=(8, 8))
+
+    curve_lw = 2.0
+    theta = np.linspace(0, 2 * np.pi, 400)
+
+    # --- Circle: x^2 + y^2 = 4 (radius 2) ---
+    ax_c = axes[0, 0]
+    ax_c.set_aspect("equal")
+    ax_c.set_xlim(-3.2, 3.2)
+    ax_c.set_ylim(-3.2, 3.2)
+    ax_c.plot(2 * np.cos(theta), 2 * np.sin(theta),
+              color=C_LINE, linewidth=curve_lw)
+    ax_c.set_title("Circle", fontsize=12, color=C_TEXT, pad=4)
+    ax_c.text(0, -3.0, r"$x^2 + y^2 = 4$",
+              fontsize=11, color=C_TEXT, ha="center", va="top")
+
+    # --- Ellipse: x^2/9 + y^2/4 = 1 (a = 3, b = 2) ---
+    ax_e = axes[0, 1]
+    ax_e.set_aspect("equal")
+    ax_e.set_xlim(-4.2, 4.2)
+    ax_e.set_ylim(-3.2, 3.2)
+    ax_e.plot(3 * np.cos(theta), 2 * np.sin(theta),
+              color=C_LINE, linewidth=curve_lw)
+    ax_e.set_title("Ellipse", fontsize=12, color=C_TEXT, pad=4)
+    ax_e.text(0, -3.0, r"$\dfrac{x^2}{9} + \dfrac{y^2}{4} = 1$",
+              fontsize=11, color=C_TEXT, ha="center", va="top")
+
+    # --- Parabola: y = x^2 / 2 - 1 ---
+    ax_p = axes[1, 0]
+    ax_p.set_aspect("equal")
+    ax_p.set_xlim(-3.6, 3.6)
+    ax_p.set_ylim(-2.2, 5.2)
+    xs_p = np.linspace(-3.2, 3.2, 400)
+    ys_p = xs_p ** 2 / 2.0 - 1
+    ax_p.plot(xs_p, ys_p, color=C_LINE, linewidth=curve_lw)
+    ax_p.set_title("Parabola", fontsize=12, color=C_TEXT, pad=4)
+    ax_p.text(0, -2.0, r"$y = \dfrac{x^2}{2} - 1$",
+              fontsize=11, color=C_TEXT, ha="center", va="top")
+
+    # --- Hyperbola: x^2/4 - y^2 = 1 (a = 2, b = 1) with asymptotes ---
+    ax_h = axes[1, 1]
+    ax_h.set_aspect("equal")
+    ax_h.set_xlim(-5.0, 5.0)
+    ax_h.set_ylim(-3.2, 3.2)
+    t_h = np.linspace(-1.4, 1.4, 300)
+    xr = 2 * np.cosh(t_h)
+    yr = np.sinh(t_h)
+    ax_h.plot(xr, yr, color=C_LINE, linewidth=curve_lw)
+    ax_h.plot(-xr, yr, color=C_LINE, linewidth=curve_lw)
+    # Asymptotes: y = +/- x/2 (since b/a = 1/2)
+    asym = np.linspace(-5, 5, 2)
+    ax_h.plot(asym, asym / 2.0, color=C_DASH, linewidth=1.1, linestyle="--")
+    ax_h.plot(asym, -asym / 2.0, color=C_DASH, linewidth=1.1, linestyle="--")
+    ax_h.set_title("Hyperbola", fontsize=12, color=C_TEXT, pad=4)
+    ax_h.text(0, -3.0, r"$\dfrac{x^2}{4} - y^2 = 1$",
+              fontsize=11, color=C_TEXT, ha="center", va="top")
+
+    # Shared subplot styling: lightweight axes through origin, no ticks
+    for ax in axes.flat:
+        ax.axhline(0, color=C_GRID, linewidth=0.7, zorder=0)
+        ax.axvline(0, color=C_GRID, linewidth=0.7, zorder=0)
+        ax.set_xticks([])
+        ax.set_yticks([])
+        for spine_name, spine in ax.spines.items():
+            if spine_name in ("top", "right"):
+                spine.set_visible(False)
+            else:
+                spine.set_color(C_DASH)
+                spine.set_linewidth(0.6)
+
+    fig.suptitle("Conic sections", fontsize=14, y=1.00)
+    fig.tight_layout()
+
+    _save(fig, "precalculus/conic_sections_quartet.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: polar rose and cardioid side-by-side (Wave C)
+
+def fig_polar_rose_cardioid():
+    """Two polar plots: cardioid r = 1 + cos(theta) and four-petal rose
+    r = cos(2*theta)."""
+    fig, axes = plt.subplots(1, 2, figsize=(9, 4),
+                             subplot_kw={"projection": "polar"})
+
+    # --- Cardioid: r = 1 + cos(theta) ---
+    ax_c = axes[0]
+    theta = np.linspace(0, 2 * np.pi, 600)
+    r_card = 1 + np.cos(theta)
+    ax_c.plot(theta, r_card, color=C_LINE, linewidth=2.2)
+    ax_c.set_title("Cardioid", fontsize=12, color=C_TEXT, pad=12)
+    # Polar grid styling: faint ticks, no labels
+    ax_c.set_rticks([0.5, 1.0, 1.5, 2.0])
+    ax_c.set_yticklabels([])
+    ax_c.set_xticks(np.linspace(0, 2 * np.pi, 8, endpoint=False))
+    ax_c.set_xticklabels([])
+    ax_c.set_rlabel_position(135)
+    ax_c.grid(color=C_GRID, linewidth=0.8)
+    ax_c.set_rmax(2.1)
+    # Equation label below the plot (in figure coords on the axes)
+    ax_c.text(0.5, -0.12, r"$r = 1 + \cos\theta$",
+              transform=ax_c.transAxes,
+              fontsize=12, color=C_TEXT,
+              ha="center", va="top")
+
+    # --- Four-petal rose: r = cos(2 theta) ---
+    ax_r = axes[1]
+    # Use full range so negative r values reflect across the origin,
+    # producing the standard four-petal rose.
+    r_rose = np.cos(2 * theta)
+    ax_r.plot(theta, r_rose, color=C_LINE, linewidth=2.2)
+    ax_r.set_title("Four-petal rose", fontsize=12, color=C_TEXT, pad=12)
+    ax_r.set_rticks([0.25, 0.5, 0.75, 1.0])
+    ax_r.set_yticklabels([])
+    ax_r.set_xticks(np.linspace(0, 2 * np.pi, 8, endpoint=False))
+    ax_r.set_xticklabels([])
+    ax_r.set_rlabel_position(135)
+    ax_r.grid(color=C_GRID, linewidth=0.8)
+    ax_r.set_rmax(1.1)
+    ax_r.text(0.5, -0.12, r"$r = \cos(2\theta)$",
+              transform=ax_r.transAxes,
+              fontsize=12, color=C_TEXT,
+              ha="center", va="top")
+
+    fig.suptitle("Polar curves: cardioid and rose", fontsize=14, y=1.02)
+    fig.tight_layout()
+
+    _save(fig, "precalculus/polar_rose_cardioid.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: nonlinear system y = x^2 - 3 and y = 2x (Wave C)
+
+def fig_nonlinear_system_intersection():
+    """Parabola y = x^2 - 3 meeting line y = 2x at (-1, -2) and (3, 6)."""
+    fig, ax = plt.subplots(figsize=(7, 6))
+    ax.set_xlim(-5, 6)
+    ax.set_ylim(-5, 8)
+
+    # Light grid at every integer
+    for i in range(-5, 7):
+        ax.plot([i, i], [-5, 8], color=C_GRID, linewidth=0.6, zorder=0)
+    for j in range(-5, 9):
+        ax.plot([-5, 6], [j, j], color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(5.85, 0), xytext=(-4.85, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 7.85), xytext=(0, -4.85),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(5.9, 0.25, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.25, 7.9, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Integer tick labels on both axes (skip origin)
+    for xt in range(-4, 6):
+        if xt == 0:
+            continue
+        ax.text(xt, -0.3, str(xt), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+    for yt in range(-4, 8):
+        if yt == 0:
+            continue
+        ax.text(-0.2, yt, str(yt), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Origin label
+    ax.text(-0.25, -0.25, "O", fontsize=11, color=C_TEXT,
+            ha="right", va="top", fontweight="bold")
+
+    color_blue = "#2e86de"
+    color_green = "#10ac84"
+
+    # Parabola y = x^2 - 3
+    xs_p = np.linspace(-4.5, 4.5, 400)
+    ys_p = xs_p ** 2 - 3
+    mask_p = (ys_p >= -5) & (ys_p <= 8)
+    ax.plot(xs_p[mask_p], ys_p[mask_p],
+            color=color_blue, linewidth=2.3, zorder=2)
+
+    # Line y = 2x
+    xs_l = np.linspace(-4.5, 5.5, 200)
+    ys_l = 2 * xs_l
+    mask_l = (ys_l >= -5) & (ys_l <= 8)
+    ax.plot(xs_l[mask_l], ys_l[mask_l],
+            color=color_green, linewidth=2.3, zorder=2)
+
+    # In-figure curve labels
+    ax.text(-3.8, (-3.8) ** 2 - 3 + 0.4, r"$y = x^2 - 3$",
+            fontsize=11, color=color_blue, ha="left", va="bottom")
+    ax.text(3.3, 2 * 3.3 + 0.4, r"$y = 2x$",
+            fontsize=11, color=color_green, ha="left", va="bottom")
+
+    # Intersection points (-1, -2) and (3, 6), highlighted red
+    ax.plot(-1, -2, "o", color=C_RADIUS, markersize=11, zorder=5)
+    ax.plot(3, 6, "o", color=C_RADIUS, markersize=11, zorder=5)
+
+    ax.annotate(r"$(-1,\, -2)$",
+                xy=(-1, -2), xytext=(-3.8, -3.8),
+                fontsize=11, color=C_RADIUS, fontweight="bold",
+                arrowprops=dict(arrowstyle="->",
+                                color=C_RADIUS, lw=1.1))
+    ax.annotate(r"$(3,\, 6)$",
+                xy=(3, 6), xytext=(4.2, 7.2),
+                fontsize=11, color=C_RADIUS, fontweight="bold",
+                arrowprops=dict(arrowstyle="->",
+                                color=C_RADIUS, lw=1.1))
+
+    ax.set_title("Nonlinear system: line meets parabola",
+                 fontsize=13, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/nonlinear_system_intersection.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -4332,6 +4648,10 @@ FIGURES = [
     ("dilation", fig_dilation),
     ("coord_proof_parallelogram", fig_coord_proof_parallelogram),
     ("cube_cross_sections", fig_cube_cross_sections),
+    ("rational_function_asymptotes", fig_rational_function_asymptotes),
+    ("conic_sections_quartet", fig_conic_sections_quartet),
+    ("polar_rose_cardioid", fig_polar_rose_cardioid),
+    ("nonlinear_system_intersection", fig_nonlinear_system_intersection),
 ]
 
 

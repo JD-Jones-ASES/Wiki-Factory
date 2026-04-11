@@ -2602,3 +2602,344 @@ class OutlierCheckIQRRule(Generator):
             ],
             tags=SPREAD_TAGS,
         )
+
+
+# ===========================================================================
+# Topic 10: linear_regression  (pre-calculus Wave C)
+# ===========================================================================
+
+
+REGRESSION_TAGS = [
+    "#branch-pre-calculus",
+    "#topic-statistics",
+    "#skill-procedural-calculation",
+]
+REGRESSION_PREDICT_TAGS = [
+    "#branch-pre-calculus",
+    "#topic-statistics",
+    "#skill-formula-substitution",
+]
+REGRESSION_VIS_TAGS = [
+    "#branch-pre-calculus",
+    "#topic-statistics",
+    "#skill-visualization",
+]
+
+
+@register
+class RegressionSlopeFromDataset(Generator):
+    """Find the regression slope $m$ for a tiny dataset that lies exactly on a line.
+
+    Backward: pick small integer slope $m$ and intercept $b$, then build
+    3-5 points $(x_i, m x_i + b)$ with distinct $x_i$. Because every
+    point is on the line, the least-squares slope equals $m$ exactly.
+    """
+    generator_id = "regression_slope_from_dataset"
+    topic_slug = "linear_regression"
+    display_name = "Find the regression slope for a perfectly linear dataset"
+
+    _M_RANGES = {"easy": (1, 5), "medium": (-6, 6), "hard": (-9, 9)}
+    _B_RANGES = {"easy": (-5, 8), "medium": (-10, 12), "hard": (-15, 18)}
+    _N_RANGES = {"easy": (3, 3), "medium": (3, 4), "hard": (4, 5)}
+    _X_RANGES = {"easy": (0, 6), "medium": (-4, 8), "hard": (-6, 10)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        m_lo, m_hi = self._M_RANGES[difficulty]
+        b_lo, b_hi = self._B_RANGES[difficulty]
+        n_lo, n_hi = self._N_RANGES[difficulty]
+        x_lo, x_hi = self._X_RANGES[difficulty]
+
+        m = rng.randint(m_lo, m_hi)
+        while m == 0:
+            m = rng.randint(m_lo, m_hi)
+        b = rng.randint(b_lo, b_hi)
+        n = rng.randint(n_lo, n_hi)
+
+        # Pick n distinct x-values so the slope is well-defined.
+        candidates = list(range(x_lo, x_hi + 1))
+        rng.shuffle(candidates)
+        xs = sorted(candidates[:n])
+        ys = [m * x + b for x in xs]
+
+        point_list = ", ".join(
+            f"({x},\\ {y})" for x, y in zip(xs, ys)
+        )
+
+        # Verify with SymPy via the least-squares formulas.
+        n_pts = len(xs)
+        sum_x = sum(xs)
+        sum_y = sum(ys)
+        sum_xy = sum(x * y for x, y in zip(xs, ys))
+        sum_x_sq = sum(x ** 2 for x in xs)
+        denom = n_pts * sum_x_sq - sum_x ** 2
+        numer = n_pts * sum_xy - sum_x * sum_y
+        m_check = sp.Rational(numer, denom)
+        assert m_check == m, f"slope verification failed: {m_check} != {m}"
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (m, b, tuple(xs))
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                "The following data points all lie on a single straight line: "
+                f"${point_list}$. Find the slope $m$ of the line of best fit."
+            ),
+            answer_latex=f"$m = {m}$",
+            hints=[
+                (
+                    "Since every point lies on one line, the line of best fit "
+                    "coincides with that line. Use any two points to compute "
+                    "the slope."
+                ),
+                (
+                    r"Slope between two points is $m = \dfrac{y_2 - y_1}{x_2 - x_1}$. "
+                    "Pick any two distinct points from the list."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    f"Pick the first two points: $({xs[0]},\\ {ys[0]})$ and "
+                    f"$({xs[1]},\\ {ys[1]})$."
+                ),
+                (
+                    r"Apply the slope formula: $m = \dfrac{y_2 - y_1}{x_2 - x_1}"
+                    f" = \\dfrac{{{ys[1]} - ({ys[0]})}}{{{xs[1]} - ({xs[0]})}}"
+                    f" = \\dfrac{{{ys[1] - ys[0]}}}{{{xs[1] - xs[0]}}} = {m}$."
+                ),
+                (
+                    "Because the data are perfectly linear, any choice of two "
+                    f"points gives the same slope $m = {m}$, which is the slope "
+                    "of the least-squares regression line."
+                ),
+            ],
+            tags=REGRESSION_TAGS,
+        )
+
+
+@register
+class PredictYFromRegressionLine(Generator):
+    """Given $y = mx + b$ and a target $x$, compute the predicted $y$.
+
+    Backward: pick small integer $m$, $b$, $x$; the answer $mx + b$
+    lands on an integer.
+    """
+    generator_id = "predict_y_from_regression_line"
+    topic_slug = "linear_regression"
+    display_name = "Use a regression line to predict y from a given x"
+
+    _M_RANGES = {"easy": (1, 6), "medium": (-8, 8), "hard": (-12, 12)}
+    _B_RANGES = {"easy": (-6, 10), "medium": (-12, 15), "hard": (-20, 25)}
+    _X_RANGES = {"easy": (0, 10), "medium": (-8, 15), "hard": (-12, 20)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        m = rng.randint(*self._M_RANGES[difficulty])
+        while m == 0:
+            m = rng.randint(*self._M_RANGES[difficulty])
+        b = rng.randint(*self._B_RANGES[difficulty])
+        x = rng.randint(*self._X_RANGES[difficulty])
+        y = m * x + b
+
+        if m == 1:
+            mx = "x"
+        elif m == -1:
+            mx = "-x"
+        else:
+            mx = f"{m}x"
+        if b == 0:
+            line_latex = f"\\hat{{y}} = {mx}"
+        elif b > 0:
+            line_latex = f"\\hat{{y}} = {mx} + {b}"
+        else:
+            line_latex = f"\\hat{{y}} = {mx} - {abs(b)}"
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (m, b, x)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"A least-squares regression line is given by ${line_latex}$. "
+                f"Predict $\\hat{{y}}$ when $x = {x}$."
+            ),
+            answer_latex=f"$\\hat{{y}} = {y}$",
+            hints=[
+                (
+                    "Prediction is just substitution: plug the $x$-value into "
+                    "the equation and compute."
+                ),
+                (
+                    "Be careful with negative signs when $m$ or $x$ is negative."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    f"Start with the regression equation ${line_latex}$."
+                ),
+                (
+                    f"Substitute $x = {x}$: $\\hat{{y}} = {m}\\cdot({x}) "
+                    f"+ ({b})$."
+                ),
+                (
+                    f"Multiply: ${m}\\cdot({x}) = {m * x}$, then add the "
+                    f"intercept: ${m * x} + ({b}) = {y}$."
+                ),
+                f"Therefore $\\hat{{y}} = {y}$.",
+            ],
+            tags=REGRESSION_PREDICT_TAGS,
+        )
+
+
+@register
+class ClassifyCorrelationFromScatterDescription(Generator):
+    """Classify the correlation $r$ from a verbal description of a scatter plot.
+
+    The parameter space is verbal, so the bank is capped at 12 distinct
+    descriptions per difficulty.
+    """
+    generator_id = "classify_correlation_from_scatter_description"
+    topic_slug = "linear_regression"
+    display_name = "Classify a correlation from a verbal scatter plot description"
+
+    bank_count_per_difficulty = 12
+
+    # Each entry: (scenario_text, classification, justification)
+    _SCENARIOS: tuple[tuple[str, str, str], ...] = (
+        (
+            "The points are tightly clustered around a line that rises from "
+            "left to right, with almost no scatter.",
+            "strong positive",
+            "Rising pattern indicates a positive trend; tight clustering means "
+            "$r$ is close to $+1$.",
+        ),
+        (
+            "The points generally trend upward, but with significant scatter "
+            "around the overall direction.",
+            "weak positive",
+            "An upward overall tendency is positive, but wide scatter keeps $r$ "
+            "small in magnitude, yielding a weak positive correlation.",
+        ),
+        (
+            "The points sit almost exactly on a line that falls from the upper "
+            "left to the lower right.",
+            "strong negative",
+            "A descending pattern indicates a negative trend; near-perfect "
+            "alignment pushes $r$ close to $-1$.",
+        ),
+        (
+            "The points drift slightly downward overall, but the cloud is wide "
+            "and there are several exceptions.",
+            "weak negative",
+            "A slight downward drift with lots of scatter gives a small "
+            "negative $r$ --- weakly negative.",
+        ),
+        (
+            "The points form a horizontal cloud with no clear upward or "
+            "downward trend.",
+            "no correlation",
+            "Without a direction, $r$ is near $0$ and the correlation is "
+            "effectively none.",
+        ),
+        (
+            "The points land very close to a line sloping gently upward, with "
+            "only tiny deviations.",
+            "strong positive",
+            "Tight fit around a rising line means $r$ is near $+1$.",
+        ),
+        (
+            "The points have a noticeable downward trend and hug a line "
+            "closely, with few outliers.",
+            "strong negative",
+            "A clear downward trend with minimal scatter produces a strong "
+            "negative correlation.",
+        ),
+        (
+            "There is only a hint of an upward pattern; most points scatter "
+            "broadly across the plot.",
+            "weak positive",
+            "A faint upward hint with broad scatter still counts as a weak "
+            "positive correlation.",
+        ),
+        (
+            "The data show a slight downward slant but with substantial "
+            "vertical spread at every $x$.",
+            "weak negative",
+            "Slight downward slope plus wide spread equals a weak negative "
+            "correlation.",
+        ),
+        (
+            "Points look randomly distributed with no preferred direction.",
+            "no correlation",
+            "Random distribution in both axes yields $r$ near zero.",
+        ),
+        (
+            "A near-perfect straight line of points rises steeply from the "
+            "lower left corner to the upper right.",
+            "strong positive",
+            "A nearly exact linear rise pushes $r$ all the way toward $+1$.",
+        ),
+        (
+            "The cloud shows a gentle downward hint but also has many points "
+            "off the trend.",
+            "weak negative",
+            "Soft downward hint with noticeable scatter is classified as a "
+            "weak negative correlation.",
+        ),
+    )
+
+    _LABEL_TO_RANGE = {
+        "strong positive": r"r \approx +1",
+        "weak positive":   r"0 < r < 0.5 \text{ (roughly)}",
+        "no correlation":  r"r \approx 0",
+        "weak negative":   r"-0.5 < r < 0 \text{ (roughly)}",
+        "strong negative": r"r \approx -1",
+    }
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        idx = rng.randrange(len(self._SCENARIOS))
+        scenario, classification, justification = self._SCENARIOS[idx]
+
+        answer_latex = f"**{classification}** ($\\,{self._LABEL_TO_RANGE[classification]}\\,$)"
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (idx,)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"A scatter plot has the following appearance: {scenario} "
+                "Classify the correlation coefficient $r$ as strong positive, "
+                "weak positive, no correlation, weak negative, or strong "
+                "negative."
+            ),
+            answer_latex=answer_latex,
+            hints=[
+                (
+                    "The sign of $r$ matches the direction of the trend "
+                    "(up = positive, down = negative)."
+                ),
+                (
+                    "The magnitude of $r$ measures how tightly the points cluster "
+                    "around the trend line: tight = strong, loose = weak, no "
+                    "direction = no correlation."
+                ),
+            ],
+            solution_steps_latex=[
+                (
+                    "First decide the sign: does the trend go up or down?"
+                ),
+                (
+                    "Then decide the strength: are the points tightly clustered "
+                    "around a line, loosely clustered, or randomly spread?"
+                ),
+                (
+                    justification
+                ),
+                (
+                    f"Classification: {answer_latex}."
+                ),
+            ],
+            tags=REGRESSION_VIS_TAGS,
+        )

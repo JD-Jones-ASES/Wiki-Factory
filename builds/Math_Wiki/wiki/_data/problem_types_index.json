@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T16:24:43.022805+00:00",
+  "generated_at": "2026-04-11T16:45:03.171631+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 560,
+  "generator_count": 608,
   "by_topic": {
     "circles": [
       {
@@ -5589,6 +5589,38 @@
         }
       }
     ],
+    "linear_regression": [
+      {
+        "generator_id": "regression_slope_from_dataset",
+        "display_name": "Find the regression slope for a perfectly linear dataset",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "predict_y_from_regression_line",
+        "display_name": "Use a regression line to predict y from a given x",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "classify_correlation_from_scatter_description",
+        "display_name": "Classify a correlation from a verbal scatter plot description",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      }
+    ],
     "matrix_arithmetic": [
       {
         "generator_id": "matrix_add_subtract",
@@ -5970,6 +6002,486 @@
           "easy": 16,
           "medium": 16,
           "hard": 16
+        }
+      }
+    ],
+    "algebraic_functions": [
+      {
+        "generator_id": "classify_function_algebraic_or_transcendental",
+        "display_name": "Classify a function as algebraic or transcendental",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "domain_of_radical_expression",
+        "display_name": "Determine the domain of a square-root function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 25,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "domain_of_rational_expression",
+        "display_name": "Determine the domain of a rational function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "cartesian_plane": [
+      {
+        "generator_id": "identify_intercepts_from_equation",
+        "display_name": "Identify x- and y-intercepts from an equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "check_symmetry_from_equation",
+        "display_name": "Test an equation for axis or origin symmetry",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "reflect_point_across_axis_or_origin",
+        "display_name": "Reflect a point across an axis or the origin",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "graphs_of_equations": [
+      {
+        "generator_id": "verify_point_on_equation",
+        "display_name": "Verify whether a point lies on an equation's graph",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "find_x_intercepts_quadratic",
+        "display_name": "Find the x-intercepts of a factorable quadratic",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "match_equation_to_curve_description",
+        "display_name": "Match a verbal curve description to its equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      }
+    ],
+    "graphs_of_functions": [
+      {
+        "generator_id": "vertical_line_test_apply",
+        "display_name": "Apply the vertical line test to decide if a relation is a function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "find_domain_and_range_from_graph",
+        "display_name": "State domain and range from a described graph",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "identify_increasing_decreasing_interval",
+        "display_name": "Identify increasing and decreasing intervals of a function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "introduction_to_functions": [
+      {
+        "generator_id": "evaluate_function_at_point",
+        "display_name": "Evaluate a function at a specified input",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "identify_function_from_ordered_pairs",
+        "display_name": "Decide whether a set of ordered pairs defines a function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "function_notation_substitution",
+        "display_name": "Substitute an expression into a function rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "graphs_of_polynomials": [
+      {
+        "generator_id": "end_behavior_from_leading_term",
+        "display_name": "Describe end behaviour from a polynomial's leading term",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "max_turning_points",
+        "display_name": "Maximum number of turning points from degree",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "factor_and_find_zeros",
+        "display_name": "Find the real zeros of a factorable polynomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "real_zeros_of_polynomials": [
+      {
+        "generator_id": "rational_root_candidates_list",
+        "display_name": "List rational root candidates for a polynomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "verify_rational_root",
+        "display_name": "Verify whether a candidate value is a root",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "synthetic_division_quotient",
+        "display_name": "Use synthetic division to find the quotient after dividing by (x - r)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "real_zeros_of_polynomials_advanced": [
+      {
+        "generator_id": "descartes_positive_signs",
+        "display_name": "Use Descartes' rule of signs for positive real zeros",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "descartes_negative_signs",
+        "display_name": "Use Descartes' rule of signs for negative real zeros",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "combine_rational_and_sign_to_narrow_search",
+        "display_name": "Combine the Rational Root Theorem with Descartes' Rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        }
+      }
+    ],
+    "graphs_of_rational_functions": [
+      {
+        "generator_id": "find_vertical_asymptotes_rational",
+        "display_name": "Locate the vertical asymptotes of a factored rational function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "find_horizontal_asymptote_rational",
+        "display_name": "Find the horizontal asymptote of a rational function via degree comparison",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "identify_hole_from_factors",
+        "display_name": "Identify the hole and asymptote of a rational function with a common factor",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "introduction_to_conics": [
+      {
+        "generator_id": "classify_conic_from_equation",
+        "display_name": "Classify a conic section from its general-form equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "identify_center_and_radius_circle",
+        "display_name": "Identify the center and radius of a circle in standard form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "vertex_of_parabola_standard",
+        "display_name": "Find the vertex of a parabola given in vertex or standard form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "nonlinear_systems": [
+      {
+        "generator_id": "parabola_meets_line_substitution",
+        "display_name": "Solve a parabola/line system by substitution",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "circle_meets_line_substitution",
+        "display_name": "Solve a circle/line system by substitution",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 8,
+          "medium": 8,
+          "hard": 8
+        }
+      },
+      {
+        "generator_id": "nonlinear_system_count_solutions",
+        "display_name": "Count real solutions of a nonlinear system",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      }
+    ],
+    "polar_graphs": [
+      {
+        "generator_id": "identify_polar_curve_type",
+        "display_name": "Classify a polar curve as circle, cardioid, rose, or limacon",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "polar_to_cartesian_point",
+        "display_name": "Convert a polar point to Cartesian coordinates",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "cartesian_to_polar_point",
+        "display_name": "Convert a Cartesian point to polar coordinates",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      }
+    ],
+    "parametric": [
+      {
+        "generator_id": "eliminate_parameter_to_cartesian",
+        "display_name": "Eliminate the parameter to get a Cartesian equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "parametric_point_at_t_value",
+        "display_name": "Evaluate a parametric curve at a specific parameter value",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "parametric_describe_orientation",
+        "display_name": "Describe the direction of traversal of a parametric curve",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      }
+    ],
+    "trigonometric_inequalities": [
+      {
+        "generator_id": "solve_sin_greater_than_half",
+        "display_name": "Solve a sine inequality on [0, 2pi)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "solve_cos_comparison",
+        "display_name": "Solve a cosine inequality on [0, 2pi)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "solve_tan_comparison",
+        "display_name": "Solve a tangent inequality on a one-period interval",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "relations": [
+      {
+        "generator_id": "is_relation_a_function",
+        "display_name": "Decide whether a set of ordered pairs is a function",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "describe_relation_graph",
+        "display_name": "Identify a graph type from a verbal description",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      },
+      {
+        "generator_id": "function_vs_relation_from_equation",
+        "display_name": "Decide whether an equation defines y as a function of x",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
         }
       }
     ]
@@ -11215,6 +11727,36 @@
       },
       "shard_file": "problems/data_displays_and_measures_of_spread.json"
     },
+    "regression_slope_from_dataset": {
+      "topic_slug": "linear_regression",
+      "display_name": "Find the regression slope for a perfectly linear dataset",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/linear_regression.json"
+    },
+    "predict_y_from_regression_line": {
+      "topic_slug": "linear_regression",
+      "display_name": "Use a regression line to predict y from a given x",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/linear_regression.json"
+    },
+    "classify_correlation_from_scatter_description": {
+      "topic_slug": "linear_regression",
+      "display_name": "Classify a correlation from a verbal scatter plot description",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/linear_regression.json"
+    },
     "matrix_add_subtract": {
       "topic_slug": "matrix_arithmetic",
       "display_name": "Add or subtract two matrices",
@@ -11574,6 +12116,456 @@
         "hard": 16
       },
       "shard_file": "problems/introduction_to_polar_coordinates.json"
+    },
+    "classify_function_algebraic_or_transcendental": {
+      "topic_slug": "algebraic_functions",
+      "display_name": "Classify a function as algebraic or transcendental",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/algebraic_functions.json"
+    },
+    "domain_of_radical_expression": {
+      "topic_slug": "algebraic_functions",
+      "display_name": "Determine the domain of a square-root function",
+      "counts": {
+        "easy": 10,
+        "medium": 25,
+        "hard": 30
+      },
+      "shard_file": "problems/algebraic_functions.json"
+    },
+    "domain_of_rational_expression": {
+      "topic_slug": "algebraic_functions",
+      "display_name": "Determine the domain of a rational function",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/algebraic_functions.json"
+    },
+    "identify_intercepts_from_equation": {
+      "topic_slug": "cartesian_plane",
+      "display_name": "Identify x- and y-intercepts from an equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/cartesian_plane.json"
+    },
+    "check_symmetry_from_equation": {
+      "topic_slug": "cartesian_plane",
+      "display_name": "Test an equation for axis or origin symmetry",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/cartesian_plane.json"
+    },
+    "reflect_point_across_axis_or_origin": {
+      "topic_slug": "cartesian_plane",
+      "display_name": "Reflect a point across an axis or the origin",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/cartesian_plane.json"
+    },
+    "verify_point_on_equation": {
+      "topic_slug": "graphs_of_equations",
+      "display_name": "Verify whether a point lies on an equation's graph",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_equations.json"
+    },
+    "find_x_intercepts_quadratic": {
+      "topic_slug": "graphs_of_equations",
+      "display_name": "Find the x-intercepts of a factorable quadratic",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_equations.json"
+    },
+    "match_equation_to_curve_description": {
+      "topic_slug": "graphs_of_equations",
+      "display_name": "Match a verbal curve description to its equation",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/graphs_of_equations.json"
+    },
+    "vertical_line_test_apply": {
+      "topic_slug": "graphs_of_functions",
+      "display_name": "Apply the vertical line test to decide if a relation is a function",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/graphs_of_functions.json"
+    },
+    "find_domain_and_range_from_graph": {
+      "topic_slug": "graphs_of_functions",
+      "display_name": "State domain and range from a described graph",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/graphs_of_functions.json"
+    },
+    "identify_increasing_decreasing_interval": {
+      "topic_slug": "graphs_of_functions",
+      "display_name": "Identify increasing and decreasing intervals of a function",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_functions.json"
+    },
+    "evaluate_function_at_point": {
+      "topic_slug": "introduction_to_functions",
+      "display_name": "Evaluate a function at a specified input",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_functions.json"
+    },
+    "identify_function_from_ordered_pairs": {
+      "topic_slug": "introduction_to_functions",
+      "display_name": "Decide whether a set of ordered pairs defines a function",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/introduction_to_functions.json"
+    },
+    "function_notation_substitution": {
+      "topic_slug": "introduction_to_functions",
+      "display_name": "Substitute an expression into a function rule",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_functions.json"
+    },
+    "end_behavior_from_leading_term": {
+      "topic_slug": "graphs_of_polynomials",
+      "display_name": "Describe end behaviour from a polynomial's leading term",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/graphs_of_polynomials.json"
+    },
+    "max_turning_points": {
+      "topic_slug": "graphs_of_polynomials",
+      "display_name": "Maximum number of turning points from degree",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/graphs_of_polynomials.json"
+    },
+    "factor_and_find_zeros": {
+      "topic_slug": "graphs_of_polynomials",
+      "display_name": "Find the real zeros of a factorable polynomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_polynomials.json"
+    },
+    "rational_root_candidates_list": {
+      "topic_slug": "real_zeros_of_polynomials",
+      "display_name": "List rational root candidates for a polynomial",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/real_zeros_of_polynomials.json"
+    },
+    "verify_rational_root": {
+      "topic_slug": "real_zeros_of_polynomials",
+      "display_name": "Verify whether a candidate value is a root",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/real_zeros_of_polynomials.json"
+    },
+    "synthetic_division_quotient": {
+      "topic_slug": "real_zeros_of_polynomials",
+      "display_name": "Use synthetic division to find the quotient after dividing by (x - r)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/real_zeros_of_polynomials.json"
+    },
+    "descartes_positive_signs": {
+      "topic_slug": "real_zeros_of_polynomials_advanced",
+      "display_name": "Use Descartes' rule of signs for positive real zeros",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/real_zeros_of_polynomials_advanced.json"
+    },
+    "descartes_negative_signs": {
+      "topic_slug": "real_zeros_of_polynomials_advanced",
+      "display_name": "Use Descartes' rule of signs for negative real zeros",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/real_zeros_of_polynomials_advanced.json"
+    },
+    "combine_rational_and_sign_to_narrow_search": {
+      "topic_slug": "real_zeros_of_polynomials_advanced",
+      "display_name": "Combine the Rational Root Theorem with Descartes' Rule",
+      "counts": {
+        "easy": 5,
+        "medium": 5,
+        "hard": 5
+      },
+      "shard_file": "problems/real_zeros_of_polynomials_advanced.json"
+    },
+    "find_vertical_asymptotes_rational": {
+      "topic_slug": "graphs_of_rational_functions",
+      "display_name": "Locate the vertical asymptotes of a factored rational function",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_rational_functions.json"
+    },
+    "find_horizontal_asymptote_rational": {
+      "topic_slug": "graphs_of_rational_functions",
+      "display_name": "Find the horizontal asymptote of a rational function via degree comparison",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_rational_functions.json"
+    },
+    "identify_hole_from_factors": {
+      "topic_slug": "graphs_of_rational_functions",
+      "display_name": "Identify the hole and asymptote of a rational function with a common factor",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/graphs_of_rational_functions.json"
+    },
+    "classify_conic_from_equation": {
+      "topic_slug": "introduction_to_conics",
+      "display_name": "Classify a conic section from its general-form equation",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/introduction_to_conics.json"
+    },
+    "identify_center_and_radius_circle": {
+      "topic_slug": "introduction_to_conics",
+      "display_name": "Identify the center and radius of a circle in standard form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_conics.json"
+    },
+    "vertex_of_parabola_standard": {
+      "topic_slug": "introduction_to_conics",
+      "display_name": "Find the vertex of a parabola given in vertex or standard form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_conics.json"
+    },
+    "parabola_meets_line_substitution": {
+      "topic_slug": "nonlinear_systems",
+      "display_name": "Solve a parabola/line system by substitution",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/nonlinear_systems.json"
+    },
+    "circle_meets_line_substitution": {
+      "topic_slug": "nonlinear_systems",
+      "display_name": "Solve a circle/line system by substitution",
+      "counts": {
+        "easy": 8,
+        "medium": 8,
+        "hard": 8
+      },
+      "shard_file": "problems/nonlinear_systems.json"
+    },
+    "nonlinear_system_count_solutions": {
+      "topic_slug": "nonlinear_systems",
+      "display_name": "Count real solutions of a nonlinear system",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/nonlinear_systems.json"
+    },
+    "identify_polar_curve_type": {
+      "topic_slug": "polar_graphs",
+      "display_name": "Classify a polar curve as circle, cardioid, rose, or limacon",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/polar_graphs.json"
+    },
+    "polar_to_cartesian_point": {
+      "topic_slug": "polar_graphs",
+      "display_name": "Convert a polar point to Cartesian coordinates",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polar_graphs.json"
+    },
+    "cartesian_to_polar_point": {
+      "topic_slug": "polar_graphs",
+      "display_name": "Convert a Cartesian point to polar coordinates",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/polar_graphs.json"
+    },
+    "eliminate_parameter_to_cartesian": {
+      "topic_slug": "parametric",
+      "display_name": "Eliminate the parameter to get a Cartesian equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/parametric.json"
+    },
+    "parametric_point_at_t_value": {
+      "topic_slug": "parametric",
+      "display_name": "Evaluate a parametric curve at a specific parameter value",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/parametric.json"
+    },
+    "parametric_describe_orientation": {
+      "topic_slug": "parametric",
+      "display_name": "Describe the direction of traversal of a parametric curve",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/parametric.json"
+    },
+    "solve_sin_greater_than_half": {
+      "topic_slug": "trigonometric_inequalities",
+      "display_name": "Solve a sine inequality on [0, 2pi)",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/trigonometric_inequalities.json"
+    },
+    "solve_cos_comparison": {
+      "topic_slug": "trigonometric_inequalities",
+      "display_name": "Solve a cosine inequality on [0, 2pi)",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/trigonometric_inequalities.json"
+    },
+    "solve_tan_comparison": {
+      "topic_slug": "trigonometric_inequalities",
+      "display_name": "Solve a tangent inequality on a one-period interval",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/trigonometric_inequalities.json"
+    },
+    "is_relation_a_function": {
+      "topic_slug": "relations",
+      "display_name": "Decide whether a set of ordered pairs is a function",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/relations.json"
+    },
+    "describe_relation_graph": {
+      "topic_slug": "relations",
+      "display_name": "Identify a graph type from a verbal description",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/relations.json"
+    },
+    "function_vs_relation_from_equation": {
+      "topic_slug": "relations",
+      "display_name": "Decide whether an equation defines y as a function of x",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/relations.json"
     }
   }
 }

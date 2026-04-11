@@ -269,6 +269,26 @@ mappings:
   percent_applications:                    [test-sat, test-psat, test-act, test-clt]
   ratios_and_proportions:                  [test-sat, test-psat, test-act, test-clt]
 
+  # =========================================================================
+  # Wave C additions (precalculus stubs activated 2026-04-11)
+  # =========================================================================
+  algebraic_functions:                     [test-act]
+  cartesian_plane:                         [test-sat, test-psat, test-act, test-clt]
+  graphs_of_equations:                     [test-sat, test-act]
+  graphs_of_functions:                     [test-sat, test-act]
+  introduction_to_functions:               [test-sat, test-psat, test-act]
+  relations:                               [test-sat, test-act]
+  graphs_of_polynomials:                   [test-act]
+  graphs_of_rational_functions:            [test-act]
+  introduction_to_conics:                  [test-act]
+  real_zeros_of_polynomials:               [test-act]
+  real_zeros_of_polynomials_advanced:      [test-act]
+  linear_regression:                       [test-sat, test-psat, test-act]
+  nonlinear_systems:                       [test-sat, test-act]
+  polar_graphs:                            [test-act]
+  parametric:                              [test-act]
+  trigonometric_inequalities:              [test-act]
+
   # ==========================================================================
   # Out of scope (no standardized test coverage) -- intentionally unmapped:
   #   induction -- mathematical induction is not on any standardized math test

@@ -58,10 +58,11 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Calculus & Trigonometry topics --- 27 live / 47 total
+### Pre-Calculus & Trigonometry topics --- 43 live / 47 total
 
-**🟢 Live topics with practice widgets (27)**
+**🟢 Live topics with practice widgets (43)**
 
+- 🟢 [[Algebraic_Functions|Algebraic Functions]]
 - 🟢 [[Angles|Angles]]
 - 🟢 [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]]
 - 🟢 [[Augmented_Matrices|Augmented Matrices]]
@@ -69,50 +70,49 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Complex_Zeros|Complex Zeros of Polynomials]]
 - 🟢 [[Determinants|Determinants]]
 - 🟢 [[Function_Notation|Function Notation]]
+- 🟢 [[Graphs_Of_Equations|Graphs of Equations]]
+- 🟢 [[Graphs_Of_Functions|Graphs of Functions]]
+- 🟢 [[Polar_Graphs|Graphs of Polar Equations]]
+- 🟢 [[Graphs_Of_Polynomials|Graphs of Polynomials]]
+- 🟢 [[Graphs_Of_Rational_Functions|Graphs of Rational Functions]]
 - 🟢 [[Graphs_Of_Trigonometric_Functions|Graphs of Trigonometric Functions]]
 - 🟢 [[Identities|Identities]]
+- 🟢 [[Introduction_To_Conics|Introduction to Conic Sections]]
 - 🟢 [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]]
+- 🟢 [[Introduction_To_Functions|Introduction to Functions]]
 - 🟢 [[Introduction_To_Polar_Coordinates|Introduction to Polar Coordinates]]
 - 🟢 [[Introduction_To_Rational_Functions|Introduction to Rational Functions]]
 - 🟢 [[Inverse_Trigonometric_Functions|Inverse Trigonometric Functions]]
+- 🟢 [[Linear_Regression|Linear Regression]]
 - 🟢 [[Induction|Mathematical Induction]]
 - 🟢 [[Matrix_Arithmetic|Matrix Arithmetic]]
 - 🟢 [[Matrix_Methods|Matrix Methods for Systems]]
+- 🟢 [[Nonlinear_Systems|Nonlinear Systems]]
+- 🟢 [[Parametric|Parametric Equations]]
 - 🟢 [[Polar_Form_Of_Complex_Numbers|Polar Form of Complex Numbers]]
 - 🟢 [[Properties_Of_Logarithms|Properties of Logarithms]]
+- 🟢 [[Real_Zeros_Of_Polynomials|Real Zeros of Polynomials]]
+- 🟢 [[Real_Zeros_Of_Polynomials_Advanced|Real Zeros of Polynomials (Advanced)]]
+- 🟢 [[Relations|Relations]]
 - 🟢 [[Sinusoid|Sinusoid]]
 - 🟢 [[Summation|Summation]]
 - 🟢 [[Binomial|The Binomial Theorem]]
+- 🟢 [[Cartesian_Plane|The Cartesian Plane]]
 - 🟢 [[Dot_Product|The Dot Product]]
 - 🟢 [[Law_Of_Cosines|The Law of Cosines]]
 - 🟢 [[Law_Of_Sines|The Law of Sines]]
 - 🟢 [[The_Unit_Circle|The Unit Circle]]
 - 🟢 [[Trigonometric_Equations|Trigonometric Equations]]
+- 🟢 [[Trigonometric_Inequalities|Trigonometric Inequalities]]
 - 🟢 [[Vectors|Vectors]]
 
 <details>
-<summary>⚪ 20 stub topic(s) (click to expand)</summary>
+<summary>⚪ 4 stub topic(s) (click to expand)</summary>
 
-- ⚪ [[Algebraic_Functions|Algebraic Functions]]
 - ⚪ [[Conic_Sections_In_Polar_Coordinates|Conic Sections in Polar Coordinates]]
-- ⚪ [[Graphs_Of_Equations|Graphs of Equations]]
-- ⚪ [[Graphs_Of_Functions|Graphs of Functions]]
-- ⚪ [[Polar_Graphs|Graphs of Polar Equations]]
-- ⚪ [[Graphs_Of_Polynomials|Graphs of Polynomials]]
-- ⚪ [[Graphs_Of_Rational_Functions|Graphs of Rational Functions]]
 - ⚪ [[Inequalities|Inequalities]]
-- ⚪ [[Introduction_To_Conics|Introduction to Conic Sections]]
-- ⚪ [[Introduction_To_Functions|Introduction to Functions]]
-- ⚪ [[Linear_Regression|Linear Regression]]
-- ⚪ [[Nonlinear_Systems|Nonlinear Systems]]
 - ⚪ [[Parfrac|ParFrac]]
-- ⚪ [[Parametric|Parametric]]
-- ⚪ [[Real_Zeros_Of_Polynomials|Real Zeros of Polynomials]]
-- ⚪ [[Real_Zeros_Of_Polynomials_Advanced|Real Zeros of Polynomials (Advanced)]]
-- ⚪ [[Relations|Relations]]
-- ⚪ [[Cartesian_Plane|The Cartesian Plane]]
 - ⚪ [[Transformations|Transformations]]
-- ⚪ [[Trigonometric_Inequalities|Trigonometric Inequalities]]
 
 </details>
 
