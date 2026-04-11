@@ -4,18 +4,19 @@ type: overview
 aliases: ["Practice", "Practice Vault", "My Vault"]
 tags: ["#navigation"]
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-11
 source_refs: []
 related: []
-status: stub
+status: complete
 confidence: high
+summary: "Your browser-local practice vault. Add problems from any topic, reveal hints, check answers, print a worksheet, or export/import as JSON."
 ---
 
 # Your Practice Vault
 
 > [[_overview|Home]] > Vault
 
-This is where practice problems you've saved live. Navigate to any topic (like [[Topics_Overview|Topics]] or one of the branch hubs), find a problem type that interests you, and click **Add to Vault**. Your selections will appear here.
+This is where practice problems you have saved live. Navigate to any topic, find a problem type that interests you, and click **Add to Vault**. Your selections appear below. Hints, answers, and step-by-step solutions are all a click away on each problem card.
 
 ---
 
@@ -25,13 +26,14 @@ This is where practice problems you've saved live. Navigate to any topic (like [
 
 ## How the Vault Works
 
-- Your vault is stored in this browser only. There's no account, no server.
-- Problems are picked at random from a bank of tens of thousands, all verified for correctness.
-- Each problem has hints you can reveal progressively and an answer you can check.
-- When you're ready, use **Print Worksheet** to turn your vault into a clean PDF you can print or save.
-- Use **Clear Vault** to start over, or remove individual problems with the × button on each card.
-
-_The interactive widget appears here once Phase 1 ships the `VaultViewer` custom Quartz component._
+- **Stored locally.** Your vault lives in this browser only --- no account, no server, no tracking.
+- **Fresh problems.** Every problem is generated on demand from Python code that verifies its own answers with SymPy.
+- **Hints and answers.** Each problem card has progressive hints, a hidden answer, and a full solution. Click to reveal only what you need.
+- **Shuffle** rearranges the order. Useful right before a practice session.
+- **Print Worksheet** opens the browser print dialog with a clean, ink-friendly layout and an answer key at the bottom.
+- **Export JSON** downloads your entire vault as a `math-wiki-vault-YYYY-MM-DD.json` file. Use it to back up your practice set, move it to another device, or hand it to a teacher.
+- **Import JSON** reads a previously-exported vault file. You choose merge (add to your current vault, skipping duplicates) or replace (discard the current vault entirely).
+- **Clear Vault** wipes every saved problem. Individual problems can be removed one at a time with the × button on each card.
 
 ---
 

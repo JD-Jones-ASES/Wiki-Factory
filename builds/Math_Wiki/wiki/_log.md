@@ -201,3 +201,46 @@ parallel_lines_transversal.svg, triangle_congruence_criteria.svg, special_right_
 - `GEOMETRY_ADJACENT_ALLOWLIST` in `update_course_hubs.py` automatically surfaced the enriched pre-algebra topics in the Geometry hub without manual cross-listing.
 
 **Cluster 10 complete.** Next: Phase 3 polish (4 outlier topics + figure wave) then Phase 4 (prereq graph widget).
+
+## [2026-04-11] Phase 3 polish + Phase 4 PrereqWidget + Phase 5a Vault export/import
+
+**Phase 3 polish (minimal after Cluster 10's cross-link density):**
+- Added `geometry/circle_parts.svg` embed to `Circumference_And_Area_Of_Circles` frontmatter + body.
+- Added `pre_algebra/place_value_chart.svg` embed to `Place_Value_Rounding_And_Estimation` frontmatter + body.
+- Filled 3 prerequisites on `Place_Value_Rounding_And_Estimation` (previously `[]`).
+- The three topics originally flagged at score 70 (Completing_The_Square, Parallel_And_Perpendicular_Lines, Scatter_Plots_And_Trend_Lines) all reached 95 automatically from Cluster 10's new inbound wikilinks -- no hand edits needed.
+
+**Phase 4 prereq graph widget:**
+- `tools/build_prereq_graph.py`: walks `wiki/topics/**/*.md`, reads YAML `prerequisites:` lists, normalizes paths to stems, looks up display titles, and writes `wiki/_data/prereq_graph.json`. Graph stats: 92 KB, 249 topics, 137 with prereqs, 400 directed edges. Also emits reverse `used_by` edges for future "next steps" widget.
+- `quartz_components/PrereqWidget.tsx`: thin component, server-side empty, registers the inline script + stylesheet.
+- `quartz_components/prereqWidget.inline.ts`: fetches graph once per session, extracts current page stem from `location.pathname`, looks up the topic in the graph, injects a "Review these first" card into the right sidebar. Early-returns on non-topic pages. Graceful fallback through sidebar selectors (`.sidebar.right`, `[data-layout="sidebar-right"]`, `.backlinks` parent, `article`).
+- `quartz_components/prereqWidget.scss`: compact card styling using existing Quartz theme variables.
+- `quartz.layout.ts`: imports `PrereqWidget` and adds it to `sharedPageComponents.afterBody` alongside ProblemVaultWidget and VaultViewer.
+- CI: no deploy.yml changes. The existing overlay step already copies the full `quartz_components/` directory into `quartz/components/` before the Quartz build.
+
+**Phase 5a Vault export/import:**
+- `quartz_components/vaultViewer.inline.ts` gains two new buttons: **Export JSON** downloads the current vault as `math-wiki-vault-YYYY-MM-DD.json` via a Blob + object URL. **Import JSON** reads a previously-exported file via a hidden file input, validates each entry has `id` and `statement_latex` fields, and offers the student a merge-or-replace confirmation. Merge adds new problems while skipping duplicates by id. Replace wipes the existing vault entirely with the imported set. Malformed files are caught and surfaced via alert() with the error message.
+- Accepts two import shapes: a bare array of problems, or the wrapped `{version, exported_at, problem_count, problems}` envelope that Export emits.
+- `wiki/Vault.md`: rewritten "How the Vault Works" section to document shuffle, print, export, import, and clear. Status flipped from `stub` → `complete`. Removed the legacy "Phase 1 VaultViewer ships later" placeholder.
+
+**Validation:**
+- `pytest generators/tests/ -q`: 29/29 passing.
+- `validate_yaml.py wiki/`: 263 files clean.
+- `lint_wiki.py wiki/`: 0 errors, 0 warnings, 1 info (114 stubs, down from 115 as Vault.md flipped to complete).
+
+**Deferred Phase 5 items:**
+- Custom worksheet builder (dedicated page where the student picks N topics × difficulty × count → mixed set). Requires a new page + new Quartz component. Left for a later session.
+- jsPDF polished PDF export (replace `@media print` with a rendered-KaTeX→PDF pipeline). The `window.print()` path works well today and the browser dialog produces a clean worksheet; jsPDF is a nice-to-have, not a blocker.
+- Input-and-check answer grader. Stretch goal from the original plan.
+
+**State at end of this session:**
+- Topics: 249 (136 live at session start → 151 live now)
+- Generators: 460 (was 410; +50)
+- Problems: 36,010 (was 32,698; +3,312)
+- Figures: 45 (was 31; +14)
+- Sidebar: 10 student-first entries (was 14)
+- Course hubs: 5 (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus & Trig)
+- Student-facing wiki: **standalone** (no source-book references anywhere in content)
+- New student features: **prereq-graph widget** + **vault export/import**
+
+**Phases 1-4 + 5a complete.** Math Wiki is now navigable from middle school through advanced high school, with the biggest content gap (HS Geometry) filled, a prereq-graph helper in the sidebar, and import/export to move practice sets across devices.

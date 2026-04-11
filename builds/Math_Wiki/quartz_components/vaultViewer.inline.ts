@@ -206,6 +206,22 @@ function renderVault(mount: HTMLElement) {
   printBtn.className = "vv-btn vv-print"
   printBtn.textContent = "Print Worksheet"
 
+  const exportBtn = document.createElement("button")
+  exportBtn.type = "button"
+  exportBtn.className = "vv-btn vv-export"
+  exportBtn.textContent = "Export JSON"
+
+  const importBtn = document.createElement("button")
+  importBtn.type = "button"
+  importBtn.className = "vv-btn vv-import"
+  importBtn.textContent = "Import JSON"
+
+  // Hidden file input that "Import JSON" triggers.
+  const importInput = document.createElement("input")
+  importInput.type = "file"
+  importInput.accept = "application/json,.json"
+  importInput.style.display = "none"
+
   const clearBtn = document.createElement("button")
   clearBtn.type = "button"
   clearBtn.className = "vv-btn vv-clear"
@@ -213,6 +229,9 @@ function renderVault(mount: HTMLElement) {
 
   actions.appendChild(shuffleBtn)
   actions.appendChild(printBtn)
+  actions.appendChild(exportBtn)
+  actions.appendChild(importBtn)
+  actions.appendChild(importInput)
   actions.appendChild(clearBtn)
 
   header.appendChild(countDiv)
@@ -334,6 +353,96 @@ function renderVault(mount: HTMLElement) {
   printBtn.addEventListener("click", () => {
     answerKey.open = true
     window.print()
+  })
+
+  exportBtn.addEventListener("click", () => {
+    const payload = {
+      version: "math-wiki-vault-export/1",
+      exported_at: new Date().toISOString(),
+      problem_count: vault.length,
+      problems: vaultGet(),
+    }
+    const json = JSON.stringify(payload, null, 2)
+    const blob = new Blob([json], { type: "application/json" })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement("a")
+    const stamp = new Date().toISOString().slice(0, 10)
+    a.href = url
+    a.download = `math-wiki-vault-${stamp}.json`
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+    // Revoke on the next tick to give the browser time to trigger the download.
+    setTimeout(() => URL.revokeObjectURL(url), 0)
+  })
+
+  importBtn.addEventListener("click", () => {
+    importInput.click()
+  })
+
+  importInput.addEventListener("change", () => {
+    const file = importInput.files && importInput.files[0]
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = () => {
+      try {
+        const text = String(reader.result || "")
+        const parsed = JSON.parse(text)
+        // Accept either the wrapped envelope or a bare array of problems.
+        let incoming: any[] = []
+        if (Array.isArray(parsed)) {
+          incoming = parsed
+        } else if (parsed && Array.isArray(parsed.problems)) {
+          incoming = parsed.problems
+        } else {
+          throw new Error("expected an array or {problems: []} envelope")
+        }
+        // Validate each incoming entry has the minimum fields we need.
+        const valid = incoming.filter(
+          (e: any) =>
+            typeof e === "object" &&
+            e !== null &&
+            typeof e.id === "string" &&
+            typeof e.statement_latex === "string",
+        ) as VaultEntry[]
+        if (valid.length === 0) {
+          alert("No valid problems found in that file.")
+          return
+        }
+        const mode = confirm(
+          `Import ${valid.length} problem${valid.length !== 1 ? "s" : ""}?\n\n` +
+            "OK = add to your current vault (merged, duplicates removed)\n" +
+            "Cancel = replace your vault entirely",
+        )
+        if (mode) {
+          // Merge by id.
+          const current = vaultGet()
+          const seen = new Set(current.map((e) => e.id))
+          for (const entry of valid) {
+            if (!seen.has(entry.id)) {
+              current.push(entry)
+              seen.add(entry.id)
+            }
+          }
+          vaultSet(current)
+        } else {
+          if (!confirm(`Replace your current vault with ${valid.length} imported problem${valid.length !== 1 ? "s" : ""}?`)) {
+            return
+          }
+          vaultSet(valid)
+        }
+        renderVault(mount)
+      } catch (err: any) {
+        alert("Import failed: " + (err && err.message ? err.message : err))
+      } finally {
+        importInput.value = ""
+      }
+    }
+    reader.onerror = () => {
+      alert("Could not read that file.")
+      importInput.value = ""
+    }
+    reader.readAsText(file)
   })
 
   clearBtn.addEventListener("click", () => {
