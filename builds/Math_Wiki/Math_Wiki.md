@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## Student-facing, course-based navigation from middle school through pre-calculus
-### Version 2.3.0 --- Test-Prep Phase: 4 waves, Precalc nav fix, standardized test tagging. (2026-04-11)
+### Version 2.4.0 --- Zero-Stub Phase: big merge cleanup + 12-topic activation + Vault PDF export + example-heading fix. (2026-04-11)
 
 | Field | Value |
 |-------|-------|
@@ -8,10 +8,10 @@
 | **Scope** | Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus (through conics, matrices, complex numbers). Calculus + advanced statistics deferred. |
 | **Audience** | Students grades 6-12. Warm, tutor-adjacent tone. Intuition first, formalism second. Now also: SAT / PSAT / ACT / CLT test-takers. |
 | **Presentation** | **Standalone wiki.** No "paraphrased from textbooks" language in student-facing content. Internal `raw/books/` and `raw/extractions/` remain as build inputs but never surface in wiki output. |
-| **Scale** | **210 live topics / 638 generators / 49,443 verified problems / 62 figures** |
+| **Scale** | **220 live topics / 677 generators / 52,763 verified problems / 66 figures / 0 stubs** |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD, ~2 min build time |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
-| **Status** | v2.3.0 **test-prep phase shipped** (nav fix + 4 waves + test tagging). Overall average score 53.9 -> 71.6. ~200 topics now carry at least one test tag. Auto-generated `/tags/test-{sat,psat,act,clt}` index pages serve as per-exam hubs. Remaining: 51 leftover stubs (mostly redundant/low-value), deferred Vault polish (worksheet builder, jsPDF, input-and-check answers), and optional new-book ingests. |
+| **Status** | v2.4.0 **zero-stub phase shipped.** First time in the build that every topic on disk is live (220/220). Overall average score **71.6 → 90.1**; every branch ≥ 89. 219/220 topics carry at least one test tag (`Induction` is intentionally unmapped). Vault now has **Save as PDF** via a lazy jsPDF + html2canvas pipeline with KaTeX-aware rendering. Remaining: 3 deferred Vault polish items (worksheet builder, input-and-check grader, difficulty auto-tune) and optional new-book ingests. |
 
 ---
 
@@ -26,9 +26,9 @@ cd /c/Wiki_Factory/builds/Math_Wiki
 
 # Sanity check: all four should be green
 py -3 -m pytest generators/tests/ -q                # 29/29 passing
-py -3 ../../factory/scripts/validate_yaml.py wiki/  # 273/273 clean
+py -3 ../../factory/scripts/validate_yaml.py wiki/  # 234/234 clean
 py -3 ../../factory/scripts/lint_wiki.py wiki/      # 0 errors, 0 warnings
-py -3 tools/topic_status.py                         # avg ~71.6, 210 live topics at 3+ gens
+py -3 tools/topic_status.py                         # avg ~90.1, 220 live topics, 0 stubs
 ```
 
 If any of those fail, something has regressed — fix that before doing anything else.
@@ -39,7 +39,7 @@ Math_Wiki is a **standalone, practice-first wiki**. Every live topic page has (a
 
 Navigation is **course-first**. Five course hubs (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus & Trig) are the student's primary entry points. A 7th grader opens Middle School Math; a sophomore opens Algebra 2. Branch-level organization still exists in the underlying data model but is hidden from the student-facing sidebar.
 
-Ten content clusters shipped (9 original + Cluster 10 HS Geometry). Each cluster delivered ~12-18 topics fully finished (prose + generators + figures + cross-links). The wiki also runs a **PrereqWidget** ("Review these first" card) in the right sidebar on every topic page, powered by YAML `prerequisites:` frontmatter, and the Vault supports JSON export/import so students can move practice sets across devices.
+Ten content clusters shipped the initial buildout; v2.2-v2.4 finished the long tail via stub activation waves, merge cleanup, and one multi-topic quality bump. The wiki runs a **PrereqWidget** ("Review these first" card) in the right sidebar on every topic page, powered by YAML `prerequisites:` frontmatter. The Vault supports JSON export/import and **Save as PDF** — a lazy jsPDF + html2canvas pipeline that renders KaTeX off-screen, snapshots to canvas, and slices into US-Letter pages with the answer key on its own page.
 
 ### Where things live
 
@@ -140,7 +140,7 @@ py -3 tools/ingest_new_book.py --slug new_book
 ### Widget architecture
 
 - **ProblemVaultWidget** mounts on any page with `<div class="problem-vault-widget" data-topic-slug="{slug_lower}"></div>`. Renders the practice rows with difficulty + count + Add-to-Vault buttons.
-- **VaultViewer** mounts on `/Vault` (element id `vault-mount`). Renders the current localStorage vault with hints, answers, solution steps, and the action row.
+- **VaultViewer** mounts on `/Vault` (element id `vault-mount`). Renders the current localStorage vault with hints, answers, solution steps, and the action row. The **Save as PDF** button uses two more lazy CDN singletons — `ensureJsPdf()` (jspdf@2.5.1 UMD) and `ensureHtml2Canvas()` (html2canvas@1.4.1), both mirroring the `ensureKatex()` pattern exactly. On click: build an off-screen `.vv-pdf-offscreen` DOM, run `renderKatexIn()`, await `document.fonts.ready` + one `requestAnimationFrame`, snapshot via `html2canvas(scale: 2, useCORS: true)`, slice the tall canvas into US-Letter page-height strips, and emit `math-wiki-worksheet-YYYY-MM-DD.pdf`. A `doc.addPage()` between problems and answer key forces the key onto a fresh page. On CDN failure the catch-path falls back to `window.print()` against the preserved `@media print` stylesheet (Ctrl+P still works too).
 - **PrereqWidget** mounts on every topic page via URL-based lookup against `wiki/_data/prereq_graph.json`. Injects a "Review these first" card into the right sidebar with up to 6 clickable prerequisite links. Silent early-return on non-topic pages or pages missing from the graph.
 - All three are custom Quartz components imported by `quartz.layout.ts` via explicit relative paths (`./quartz/components/...`). The CI overlay copies `quartz_components/*` into `quartz/components/` before `npx quartz build`. Each registers `.css` and `.afterDOMLoaded` entries; server-side output is empty.
 
@@ -289,6 +289,9 @@ These are the mechanical rules the build system enforces. Violating them breaks 
 17. **Breadcrumb sweeps touch every topic file.** A breadcrumb rewrite script needs `--dry-run` mode and a unified-diff preview before execution. One bad regex and every topic's navigation breaks. Phase 1's `rewrite_breadcrumbs.py` is the template.
 18. **Cross-branch wikilinks must use the canonical live-topic slug + pipe display.** Wave C3 shipped 10 dead wikilinks to invented names (`[[Scatter_Plots]]` → should be `[[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]]`, `[[Correlation]]` → doesn't exist, `[[Functions_And_Relations]]` → should be `[[Relations_And_Functions|...]]`, `[[Substitution_Method]]` → should be `[[Solving_Systems_By_Substitution|...]]`, `[[Quadratic_Equations]]` → should be `[[The_Quadratic_Formula|...]]`, `[[Conic_Sections]]` → should be `[[Introduction_To_Conics]]`). Prevention: inline the live-topics list in every agent prompt **organized by branch**, and state explicitly: "cross-branch links use pipe form `[[Target|Display]]`; never invent a target name."
 19. **Frontmatter `related:` and `prerequisites:` paths use `topics/{branch}/Name` form** — not `topics/{branch_underscored_hyphenated}/Name`. Wave C3 had several `topics/algebra_1/Slope` entries (wrong) instead of `topics/algebra/Slope`. These are informational in the graph (don't break lint) but break the prereq widget. Use the ACTUAL directory name.
+20. **`### Example N` H3 headings, never `**Example 1.**` bold-inline** *(content)*. `topic_status.py`'s example counter matches `^##+\s+(?:worked\s+)?example(?:\s+\d+|\s*:|\s*$)` — bold-inline markers silently score zero. v2.4 found 37 topics stuck at 75 because they used `**Example 1.**` bodies; the one-shot `tools/fix_example_headings.py` rewrote all three observed variants (bare `.**`, paren-descriptor `(X).**`, dot-descriptor `. X.**`) to `### Example N[: descriptor]`.
+21. **Duplicate `generator_id` silently shadows** *(generator)*. If two `@register` classes share an id, import order decides the winner — the loser is dead code never in the registry. v2.4 found a duplicate `projectile_max_height` in `applications_of_quadratics.py` shadowed by the canonical one in `quadratic_functions.py`; the stub looked like it had 3 gens when it had 2. Verify with `py -3 -c "from generators.base import all_generators; print([g for g in all_generators() if g.generator_id == 'X'])"`. Corollary: "this stub has generators so we can't delete it" claims may be lying — check first.
+22. **Generator retargeting for stub-merges with attached generators** *(process)*. When a merge-candidate stub has live generators: (1) find and delete shadowed duplicates, (2) rewrite `topic_slug` on survivors to the canonical live target, (3) pytest, (4) rebuild the bank, (5) git rm the stub + add the `aliases.yaml` rule, (6) regenerate course hubs + prereq graph + topic status + index. Doing 5-6 before 1-4 leaves an orphan bank shard.
 
 ### Copyright discipline (accumulated across 10 clusters + v2.3.0 test-prep phase)
 
@@ -302,7 +305,7 @@ The copyright pytest caught many near-misses. These are the **textbook phrasings
 - "Find the value of x..."
 
 **Banned definitional phrasings** (paraphrase each one freshly):
-- *Core algebra/arithmetic:* "the absolute value of a number is its distance from zero", "a rational number is any number that can be written as a fraction", "an algebraic expression is any combination of variables constants and operations", "a polynomial is an expression with one or more terms", "like terms are terms with the same variable and exponent", "the degree of a polynomial is the highest power of the variable", "a literal equation is an equation with more than one variable", "a number is in scientific notation when it is written as", "isolate the variable", "do the same thing to both sides", "the coordinate plane is a two-dimensional surface with two perpendicular number lines", "a ratio is a comparison of two quantities", "a proportion is an equation stating that two ratios are equal", "a prime is a whole number greater than 1 whose only factors are 1 and itself"
+- *Core algebra/arithmetic:* "the absolute value of a number is its distance from zero", "a rational number is any number that can be written as a fraction", "an algebraic expression is any combination of variables constants and operations", "a polynomial is an expression with one or more terms", "like terms are terms with the same variable and exponent", "the degree of a polynomial is the highest power of the variable", "a literal equation is an equation with more than one variable", "a number is in scientific notation when it is written as", "isolate the variable", "do the same thing to both sides", "the coordinate plane is a two-dimensional surface with two perpendicular number lines", "a ratio is a comparison of two quantities", "a proportion is an equation stating that two ratios are equal", "a prime is a whole number greater than 1 whose only factors are 1 and itself", "every point on the number line corresponds to exactly one real number", "every natural number is an integer every integer is rational"
 - *Number theory / factoring:* "every whole number greater than 1 can be written as a product of primes in exactly one way", "the greatest common factor of two or more whole numbers is the", "the least common multiple of two or more whole numbers is the", "two numbers whose product is and whose sum is"
 - *Trig / functions:* "an identity is an equation that is true for every angle", "a rational function is a quotient of polynomials", "a sequence is an ordered list of numbers", "a complex number is a number of the form a + bi where a and b are real", "a matrix is a rectangular array of numbers", "the hypotenuse is always opposite the right angle", "in an arithmetic sequence, each term is obtained by adding a constant", "multiply every term on both sides by the LCD", "a function is a relation that assigns exactly one output to each input", "a relation is a set of ordered pairs", "the domain of a function is the set of all possible input values", "the range of a function is the set of all possible output values", "the vertical line test states that a graph represents a function if and only if no vertical line crosses it more than once", "a polynomial function is of the form", "vertical asymptotes occur where the denominator is zero"
 - *Stats / probability:* "a piecewise function is defined by different formulas on different intervals", "conditional probability is the probability of an event given that another event has occurred", "the margin of error tells you how far the true population value is likely to be from the sample estimate", "a confidence interval is a range of values likely to contain the true parameter", "a sample is a subset of a population", "bias in sampling occurs when a sample is not representative of the population", "a histogram is a bar graph of frequencies", "a box plot displays the five-number summary", "correlation measures the strength and direction of a linear relationship", "a residual is the difference between the observed value and the predicted value", "a permutation is an arrangement of objects in a specific order", "a combination is a selection of objects without regard to order", "the empirical rule states that approximately 68, 95, and 99.7 percent of data lies within 1, 2, and 3 standard deviations", "a z-score measures how many standard deviations a value is from the mean", "expected value is the long-run average of a random variable", "a binomial distribution describes the number of successes in n independent trials with probability p"
@@ -486,28 +489,21 @@ Stats numbers are updated by hand after each content cluster. The tagline + stat
 
 ## Remaining Work
 
-Most of the roadmap items from earlier versions of this spec are now shipped. What's left:
+The wiki is at zero stubs as of v2.4. The roadmap is now short.
 
 ### Deferred Vault polish
 
-These were in scope for Phase 5 but deferred for a future session. They ride on existing Vault infrastructure so they do not need new data pipelines.
+These ride on existing Vault infrastructure so they do not need new data pipelines.
 
-1. **Custom worksheet builder** — dedicated page where the student picks N topics × difficulty × count → mixed worksheet. New Quartz component, new `wiki/Worksheet_Builder.md` page. Can reuse `ProblemVaultWidget`'s shard fetch logic.
-2. **jsPDF polished PDF export** — replace `@media print` with a KaTeX-rendered-canvas → PDF pipeline for consistent cross-browser output. Import jsPDF via CDN singleton, mirror `ensureKatex()` pattern.
-3. **Input-and-check answer grader** — string matching on normalized LaTeX handles ~80% of cases; Pyodide SymPy handles the rest if the 5 MB load cost is acceptable.
-4. **Difficulty auto-tune** — track per-generator correct/incorrect in localStorage, suggest the next difficulty.
+1. **Custom worksheet builder** — dedicated page where the student picks N topics × difficulty × count → mixed worksheet. New Quartz component, new `wiki/Worksheet_Builder.md` page. Can reuse `ProblemVaultWidget`'s shard-fetch logic.
+2. **Input-and-check answer grader** — string matching on normalized LaTeX handles ~80% of cases; Pyodide SymPy handles the rest if the 5 MB load cost is acceptable. Extends `VaultEntry` with `user_answer`, `marked_correct`, `timestamp`.
+3. **Difficulty auto-tune** — track per-generator correct/incorrect in localStorage, suggest the next difficulty. Depends on the grader above.
+
+**Shipped in v2.4:** jsPDF polished PDF export (see Widget architecture above — lazy `ensureJsPdf()` + `ensureHtml2Canvas()` singletons mirroring the `ensureKatex()` pattern, off-screen KaTeX → html2canvas → jsPDF slice-and-addImage pipeline, `@media print` fallback preserved).
 
 ### Future content expansion
 
-**51 leftover stubs** remain on disk after v2.3.0 — mostly redundant duplicates (e.g., `Absolute_Value_Equations_And_Inequalities` overlaps with existing `Absolute_Value_Equations` + `Absolute_Value_Inequalities`), niche specialty topics (`Parfrac`), or pre-algebra stubs that were de-prioritized for test-prep. The correct next move for most of these is **merge via `tools/aliases.yaml`** rather than activate — they duplicate live topics with different slug conventions. Run `py -3 tools/topic_status.py` and read the dashboard to triage.
-
-For activating an individual stub (when it's genuinely new content):
-
-1. Write the content following the topic skeleton below (the existing stub file is fine to overwrite).
-2. Add 3+ generators under the appropriate branch package, imported in that package's `__init__.py`.
-3. `build_problem_bank.py` → `topic_status.py` → `update_course_hubs.py` → `build_prereq_graph.py` → add slug to `tools/test_prep_mapping.yaml` if test-relevant → `apply_test_tags.py` → commit → push.
-
-Cluster 10's pattern (enrich several pre-algebra geometry stubs while creating new HS-branch geometry topics) is a good template for future geometry/measurement work — enriching an existing stub surfaces it in both Middle School Math and Geometry course hubs for the cost of one file.
+No stub backlog. Growth vectors are **new-book ingest** (see env_map Author's Guide below), **new gap topics** (domains the wiki doesn't yet cover — e.g., calculus, advanced statistics, linear algebra — all explicitly out of scope for v2.x), or **enrichment passes** on existing topics (add a second figure, add worked example #4, deepen the prose). Enrichment passes get diminishing returns above avg score 90.
 
 ### Adding a whole new textbook
 
@@ -669,43 +665,41 @@ export const sharedPageComponents: SharedLayout = {
 
 Full cluster-by-cluster detail lives in git history. This section keeps forward-looking lessons future sessions can skim quickly.
 
-### Versions 2.0 → 2.3 — from content buildout to test-prep-ready
+### Versions 2.0 → 2.4 — from content buildout to zero-stub
 
-**v2.0.0 (Clusters 0-9, content buildout).** Nine clusters shipped in a single multi-day session. Wiki grew from 36 live topics to 136, from 9,621 problems to 32,698. Infrastructure (copyright pytest, YAML validator, topic status dashboard, alias merge pipeline, ingest smoke test) was laid down in Cluster 0 and paid off for every subsequent cluster — most shipped green on first validation after small idiom fixes.
+**v2.0-v2.2 (content buildout + nav redesign + PrereqWidget).** Ten clusters shipped 36 → 146 live topics + infrastructure (copyright pytest, YAML validator, topic status dashboard, alias merge pipeline, ingest smoke test). Replaced 4 branch hubs with 5 course hubs + rewrote breadcrumbs across 239 files in one sweep. Cluster 10 added 10 HS Geometry topics + 50 new generators + 14 figures. PrereqWidget ("Review these first" sidebar card) shipped via `tools/build_prereq_graph.py` + `quartz_components/PrereqWidget.tsx`. Vault gained JSON export/import.
 
-**v2.1.0 (Phase 1, standalone + course nav).** Replaced 4 branch hubs with 5 course hubs (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus & Trig). Purged source-book boilerplate from 133 stub topic files. Rewrote breadcrumbs in 239 topic files in a single sweep. Deleted 9 empty-shell overviews. Trimmed the sidebar from 14 to 10 entries. `tools/update_course_hubs.py` replaces `update_branch_hubs.py`; uses a `GEOMETRY_ADJACENT_ALLOWLIST` second pass so pre-algebra geometry topics surface in both hubs.
+**v2.3 (test-prep phase).** Precalculus nav bugfix (alias-redirect collision, same bug class as Vault.md — Gotcha #4 generalized). Standardized-test tagging infrastructure: `tools/test_prep_mapping.yaml` + idempotent `tools/apply_test_tags.py` + tag taxonomy Section 7 + auto `/tags/test-*` index pages. Four activation waves (pre-algebra, algebra, precalc, Wave D gap topics): 144 → 210 live, 460 → 638 generators, 45 → 62 figures, 112 → 51 stubs, avg 53.9 → 71.6. Cross-wave wikilink drift surfaced as Gotcha #18.
 
-**v2.2.0 (Cluster 10 + Phase 4 + Phase 5a).** Cluster 10 shipped 10 new HS Geometry topic pages + enriched 6 pre-algebra geometry stubs + 50 new generators in 10 modules + 14 new figures. PrereqWidget shipped: `tools/build_prereq_graph.py` writes `wiki/_data/prereq_graph.json` from YAML frontmatter; `quartz_components/PrereqWidget.tsx` injects a "Review these first" card into the right sidebar on topic pages. Vault gained JSON export/import buttons. Geometry branch score jumped from 47.5 to 82.7.
+**v2.4 (zero-stub phase).** Three work threads in one session. **(1) Vault Save-as-PDF** (5 commits): replaced `window.print()` with a jsPDF + html2canvas pipeline in 3 risk-split commits (singletons → pipeline + SCSS → button rewire). Post-ship color regression fixed with `!important` overrides on `color`/`fill`/`stroke` inside `.vv-pdf-offscreen *`. **(2) Quality bump** (2 commits): 37 topics stuck at score 75 all had the same deficit — fully-written examples marked `**Example N.**` bold-inline instead of `### Example N` H3 (which the scorer regex doesn't count). `tools/fix_example_headings.py` rewrote all 37 from 75 → 90 without changing any prose. `Cross_Sections_Of_Solids` got 3 new generators so nothing scored below 80. Surfaced Gotchas #20 (heading regex) and #21 (dead class shadowing). **(3) Zero-stub push** (3 commits): triaged the remaining 42 stubs into 30 merge-deletes (30 `aliases.yaml` rules, 8 `topic_slug` retargets, 1 shadowed duplicate removed, 16 inbound wikilinks rewritten) and 12 activation targets (3 content + 3 generator + 1 figure parallel agents → ~16,900 words + 36 generators + 4 figures). One copyright rework on `Set_Notation_And_The_Real_Numbers.md` (added 2 phrasings to the banned list). Test-prep tagging pass: +13 new mappings, -3 stale ones. **Net v2.4 delta:** 210 → **220 live topics**, 638 → **677 generators**, 51 → **0 stubs**, avg 71.6 → **90.1**. Pre-algebra was the biggest mover: 61.1 → 89.2. Every branch now ≥ 89.
 
-**v2.3.0 (Test-Prep Phase).** Seven commits in one session: Precalculus nav bugfix (alias-redirect collision, same bug class as Vault.md — Gotcha #4 generalized), standardized-test tagging infrastructure (new `tools/test_prep_mapping.yaml` + idempotent `tools/apply_test_tags.py`, Section 7 in the tag taxonomy, Quartz auto-generated `/tags/test-*` index pages as de-facto per-exam hubs with zero custom authoring), three stub-activation waves (pre-algebra, algebra, precalc — 63 stubs activated across 3 branches), and a Wave D of 10 brand-new gap topics for test-prep areas that had no stubs (piecewise, conditional probability, permutations/combinations, normal distribution, margin of error, expected value, binomial, sampling & bias, histograms/box plots, correlation/residuals). Net delta: 144 → 210 live topics, 460 → 638 generators, 36,010 → 49,443 problems, 45 → 62 figures, 112 → 51 stubs, overall avg score 53.9 → 71.6, ~200 topics now carry at least one test tag. All forbidden-idiom additions from the ~10 rework rings during this phase are folded into the Gotchas list above. Cross-wave wikilink drift surfaced as Gotcha #18.
+### What works at session scale (proven across 5 versions)
 
-### What works at session scale (proven across 4 versions)
-
-- **Parallel sub-agent dispatch** (3-4 content + 2-3 generators + 1 figures per wave) sustains 15-25 topics per wave without review-burden collapse. v2.3.0 ran four waves × 6-7 parallel agents each with clean file-partitioning — no collisions, no rework beyond the expected copyright-shingle rings.
-- **Plan-then-execute with a Plan agent.** v2.3.0 used the Plan sub-agent to design the 4-wave strategy before any implementation. Worth the upfront cost when the phase involves 70+ topic activations. Agent reads `Topic_Status.md`, `problem_types_index.json`, and the project spec, then produces a wave-by-wave file manifest.
-- **Count parameter-space cardinality from the index, not from guessing.** v2.3.0 Plan agent estimated "15 prose-only stubs per branch" but reality was only 6 pre-algebra + 7 algebra + 0 precalc. Fix: before dispatching Wave X, run a one-liner over `wiki/_data/problem_types_index.json` to get exact prose-only vs full-work counts per branch, and size waves accordingly.
-- **Backward construction everywhere in generators.** Pick the answer, derive the parameters. A `while True:` that retries until a cleanliness condition holds is an infinite-loop smell (see Gotcha #9).
-- **Forbidden-idiom list + FULL taxonomy inlined in every content prompt.** By Cluster 10, first-pass copyright hits dropped to zero on geometry. v2.3.0 pre-algebra/algebra waves took 2-3 rework rings because the list was narrower then; Wave C/D shipped copyright-clean on first pass after the expansion. Tag taxonomy drift is prevented the same way — copy all 7 sections wholesale.
-- **Enrich-and-create hybrid.** Cluster 10 pattern: enrich existing auto-stubs instead of creating new files when titles match. An enriched pre-algebra stub surfaces in two course hubs via the allowlist. v2.3.0 Wave A's 6 prose-only enrichments (stubs that already had generators) were the cheapest wins in the phase.
-- **Gold-standard read first.** Every content sub-agent prompt starts with "read these 3 files and match their tone." Agents trained to imitate a specific file produce consistently better prose than agents given a bare template. Pick gold-standards that scored ≥85 on `topic_status.py`.
-- **Test-prep tagging via YAML + apply script** (v2.3.0 infrastructure). Hand-curated `tools/test_prep_mapping.yaml` is the source of truth; `tools/apply_test_tags.py` is idempotent, surgical-edit (preserves existing tags, appends only missing), and supports `--dry-run` / `--check`. Re-run after every wave that adds new live topics. Quartz auto-generates the `/tags/test-*` index pages for free.
+- **Parallel sub-agent dispatch** (3 content + 3 generators + 1 figures per wave) sustains 12-25 topic activations per wave without review-burden collapse. v2.3 ran four waves × 6-7 parallel agents; v2.4 ran one wave × 7 with clean file-partitioning.
+- **Plan-then-execute with a Plan agent.** Use for phases with 20+ topic activations or non-trivial feature ships (the v2.4 Vault PDF export used a Plan agent to design the jsPDF pipeline before any implementation). Plan agent reads the dashboard + the project spec + the critical files and returns a file manifest or implementation sketch. Cheap insurance.
+- **Count parameter-space cardinality from the index, not guessing.** Before dispatching a wave, run a one-liner over `wiki/_data/topic_status.json` to pin exact counts per branch/status/deficit. v2.3's "15 prose-only per branch" guess was off by 2×; v2.4's dashboard-driven triage was exact.
+- **Backward construction everywhere in generators** (Gotcha #9). Pick the answer, derive the parameters. `while True` retry loops are an infinite-loop smell.
+- **Forbidden-idiom list + FULL taxonomy + live-topic slug list inlined in every content prompt.** By Wave D the first-pass copyright hit rate was near zero. v2.4 had one rework ring on `Set_Notation_And_The_Real_Numbers.md` (added 2 phrasings to the banned list).
+- **Gold-standard read first.** Every content prompt starts with "read these 3 files and match their tone." Pick golds that score ≥90 on `topic_status.py`.
+- **Three-commit split for risky features.** v2.4 shipped jsPDF in 3 commits — (1) CDN singletons only, (2) pipeline functions + SCSS, (3) button rewire. Each independently testable, each revertable without losing the others. Worth the overhead for anything that touches runtime behavior.
+- **Convention-drift diagnosis before content work.** When many topics fail the same way, check whether the scorer/validator is reading the convention they actually use. v2.4's heading-regex fix moved 37 topics 75 → 90 with zero prose changes — the "quality bump" was a regex bug.
 
 ### What to watch
 
-- **Dead wikilink drift** when agents invent topic names. Lint catches them, but pre-seeding every agent prompt with the current live-topics list — organized by branch — prevents them. Wave C3 shipped 10 dead links that got through because the cross-branch live-topics list wasn't inlined (see Gotcha #18).
-- **Tag taxonomy drift.** Include the actual taxonomy contents in agent prompts, not just a reference to the file. Copy ALL 7 sections; partial lists let agents slip in "close-sounding" tags that lint flags post-hoc (v2.3.0: `#skill-equation-solving`, `#skill-modeling`, `#skill-proportional-reasoning`).
-- **Parameter-space underestimate.** Agents often set `bank_count_per_difficulty = 20` when the actual parameter space has < 10 unique outputs at a given difficulty. Each such miss needs a post-hoc floor reduction + push. Prompt generator agents to compute cardinality before declaring the bank count.
-- **Shard size budget.** Every shard stays under 320 KB today. If a generator goes over, prefer reducing `bank_count_per_difficulty` over raising the cap.
-- **Copyright shingle ring-effect.** The test's `hits[:3]` truncation masks hits 4+. A single pass is never enough on pre-algebra/algebra content. Budget 2-3 rework rings per wave.
-- **Hub script rewrite order.** Rewrite `update_course_hubs.py` (or its successor) BEFORE deleting any old hub files it references — or the script will error or silently no-op.
+- **Dead wikilink drift** (Gotcha #18). Lint catches it, but pre-seeding the live-topics list *organized by branch* in every agent prompt prevents it.
+- **Tag taxonomy drift.** Copy ALL 7 sections of `_tag_taxonomy.md` into agent prompts, not just a reference. Partial lists let close-sounding tags slip in.
+- **Parameter-space underestimate.** Agents set `bank_count_per_difficulty = 20` when reality is < 10. Prompt generator agents to compute cardinality before declaring the bank count.
+- **Shard size budget 320 KB.** Prefer reducing `bank_count_per_difficulty` over raising the cap.
+- **Copyright shingle ring-effect.** `hits[:3]` truncation masks later hits. Budget 1-2 rework rings per algebra/pre-algebra wave.
+- **Hub script rewrite order.** Rewrite `update_course_hubs.py` BEFORE deleting any old hub files it references.
+- **`@register` shadowing** (Gotcha #21). Duplicate `generator_id`s silently lose to import order. Verify with the one-liner in Gotcha #21 before trusting a class is live.
 
 ### What to do first in a next session
 
-1. Run the four sanity-check commands at the top of this file. Confirm all green.
+1. Run the four sanity-check commands at the top of this file. Expected: pytest 29/29, validate_yaml 234/234, lint 0/0, topic_status avg ~90.1, 220 live topics, 0 stubs.
 2. `gh run list --limit 3` — confirm the last CI runs are all green.
-3. Read `wiki/Topic_Status.md` for the current distribution. Overall avg should be ~71.6. No live topic should score below 80; any outlier probably needs a figure, an example, or a cross-link bump.
-4. Triage the 51 leftover stubs via `wiki/Topic_Status.md`. Most are merge candidates (duplicate slugs of live topics) — the correct move is `tools/aliases.yaml` plus `consolidate_extractions.py`, not another activation wave.
-5. Pick one from **Remaining Work** (custom worksheet builder, jsPDF PDF export, input-and-check grader, difficulty auto-tune, new textbook ingest) and ship it. Follow the Session Patterns section — parallel sub-agents for anything that can be split across files.
+3. Read `wiki/Topic_Status.md` for the current distribution. Every live topic should score ≥ 85 and most score 90+. An outlier probably needs a figure, an example, or a cross-link bump.
+4. Pick one from **Remaining Work**: custom worksheet builder, input-and-check grader (+ difficulty auto-tune as a follow-on), or a new-textbook ingest. Follow the Session Patterns section — parallel sub-agents for anything that splits across files; three-commit split for feature work that touches runtime behavior.
 
 ---
 
