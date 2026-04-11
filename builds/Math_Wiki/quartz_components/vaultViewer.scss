@@ -393,3 +393,24 @@
   text-align: left;
   margin: 8px 0;
 }
+
+// Force every descendant of the PDF offscreen container to render in solid
+// black. Without this override, KaTeX math spans and SVG radicals inherit a
+// lighter theme color from Quartz's base stylesheet (Quartz applies a
+// non-black `color` to `.katex` elements as part of its theme). The result
+// in the generated PDF is plain text rendered black but math glyphs rendered
+// in light gray. The !important + universal selector is scoped to the
+// off-screen host and cannot leak into on-screen rendering.
+.vv-pdf-offscreen,
+.vv-pdf-offscreen * {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+}
+
+// SVG glyphs (KaTeX renders radical vinculums and some operators as SVG)
+// use fill/stroke, not color. Force both.
+.vv-pdf-offscreen svg,
+.vv-pdf-offscreen svg * {
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
