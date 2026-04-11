@@ -4,6 +4,56 @@ Chronological log of ingest, compile, lint, and significant edit operations.
 
 ---
 
+## [2026-04-11] Test-Prep Phase (v2.3.0)
+
+Massive expansion and refinement phase focused on standardized test coverage and filling stub backlogs.
+
+**Deliverable 1 --- Precalculus nav bugfix (commit 3aa7986).** Removed `"Precalculus"` from `wiki/Precalculus.md` aliases. The self-alias was producing an `AliasRedirects` HTML that clobbered the canonical hub, serving blank. Same bug class as the Vault.md fix. Gotcha #4 in Math_Wiki.md generalized.
+
+**Deliverable 2 --- Standardized test tagging (commit c8e855e).**
+- Added Section 7 to `wiki/_tag_taxonomy.md` defining `#test-sat`, `#test-psat`, `#test-act`, `#test-clt`.
+- New `tools/test_prep_mapping.yaml` --- hand-curated slug-to-tests map (150 -> 209 entries by phase end, grown wave by wave).
+- New `tools/apply_test_tags.py` --- idempotent surgical frontmatter editor with --dry-run / --check modes. No lint_wiki.py changes needed; the linter reads the taxonomy dynamically.
+- Applied to 150 live topics: every test-relevant wiki topic now carries the appropriate combination of test tags.
+- Coverage: test-act 150+, test-sat 110+, test-psat 94+, test-clt 51+. Approximately 49 topics quad-tagged (all 4 tests).
+- Quartz auto-generates `/tags/test-sat`, `/tags/test-psat`, `/tags/test-act`, `/tags/test-clt` as de-facto "everything on exam X" indexes --- zero custom hub authoring.
+
+**Deliverable 3 --- Stub activation waves A/B/C.**
+
+- **Wave A (commit 1933ef0, pre-algebra) --- 22 stubs, +48 generators, +3 figures.** 6 prose-only enrichments (topics already had 3+ generators) plus 16 full-content activations. 4 content + 2 generator + 1 figure sub-agents in parallel. pre_algebra avg score 45.4 -> 61.1.
+- **Wave B (commit 6e0994a, algebra) --- 25 stubs, +52 generators, +4 figures.** 7 prose-only + 2 partial-gen extension (systems) + 16 full-content. 4 content + 2 generator + 1 figure sub-agents. algebra avg score 58.1 -> 73.7.
+- **Wave C (commit 1d8dd3d, precalculus) --- 16 stubs, +48 generators, +4 figures.** All full-content (0 prose-only available in precalc). 3 content + 2 generator + 1 figure sub-agents. 4 stubs intentionally skipped as redundant/niche (`Conic_Sections_In_Polar_Coordinates`, `Inequalities`, `Parfrac`, `Transformations`). precalculus avg score 54.4 -> 82.1 (the biggest per-branch jump in the phase).
+
+Each wave: content agents prose-enrich stubs, generator agents ship 3+ Python classes per topic, figure agent renders SVGs. Post-wave pipeline: pytest, validate_yaml, lint_wiki, copyright shingle test, build_problem_bank, topic_status, update_course_hubs, build_prereq_graph, apply_test_tags.
+
+**Deliverable 4 --- Wave D (commit b891393, new gap topics) --- 10 new topics, +30 generators, +6 figures.**
+- Algebra 2 (5): `Piecewise_Functions`, `Conditional_Probability`, `Margin_Of_Error_And_Confidence_Intervals`, `Sampling_Methods_And_Bias`, `Correlation_And_Residuals`.
+- Algebra 1 (1): `Histograms_And_Box_Plots` (quad-tagged: all 4 tests).
+- Pre-Calculus (4): `Permutations_And_Combinations`, `Normal_Distribution`, `Expected_Value`, `Binomial_Probability`.
+- These filled the identified gaps where tests commonly ask but no stub existed. 3 content + 2 generator + 1 figure sub-agents.
+
+**Rework during waves.** Copyright 15-word shingle test caught ~10 textbook-adjacent phrasings across pre-algebra + algebra content (and zero in Wave C and Wave D --- the forbidden-idiom list in prompts had fully internalized). All resolved via 1-line in-place rewrites. Three generator bank_count_per_difficulty floor adjustments for tight parameter spaces (rearrange_simple_two_step_literal, factor_difference_of_squares_solve, circle_meets_line_substitution, nPr_direct_compute, nCr_direct_compute, combine_rational_and_sign_to_narrow_search). One infinite-loop rewrite: `ratios_and_proportions_algebra.SolveProportionWithVariable` was retrying until a divisibility condition held --- rewrote as pure backward construction picking the cross-product first. Three ad-hoc content tags (`#skill-equation-solving`) replaced with taxonomy tags. Ten dead wikilinks in Wave C3 content (`Scatter_Plots`, `Functions_And_Relations`, `Substitution_Method`, `Quadratic_Equations`, `Conic_Sections`, `Correlation` --- all invented, not live) fixed by pointing to actual live slugs with pipe aliases.
+
+**Final phase stats.**
+
+| Metric | Before | After | Delta |
+|---|---:|---:|---:|
+| Live topics (3+ gens, 300+ words) | 144 | **210** | +66 |
+| Active generators | 460 | **638** | +178 |
+| Verified problems | 36,010 | **49,443** | +13,433 |
+| Figures | 45 | **62** | +17 |
+| Stubs on disk | 112 | **51** | -61 |
+| Avg score (pre_algebra) | 45.4 | **61.1** | +15.7 |
+| Avg score (algebra) | 58.1 | **74.4** | +16.3 |
+| Avg score (precalculus) | 54.4 | **82.1** | +27.7 |
+| Avg score (geometry) | 82.7 | 82.7 | -- |
+| **Overall avg** | **53.9** | **71.6** | +17.7 |
+| Topics with any test tag | 0 | **200+** | +200 |
+
+Four commits shipped in sequence; CI green on every push.
+
+---
+
 ## [2026-04-10] Phase 0 scaffold
 
 - Created `builds/Math_Wiki/` directory tree.

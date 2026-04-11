@@ -1,17 +1,17 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## Student-facing, course-based navigation from middle school through pre-calculus
-### Version 2.2.0 --- Cluster 10 Geometry + PrereqWidget + Vault I/O. (2026-04-11)
+### Version 2.3.0 --- Test-Prep Phase: 4 waves, Precalc nav fix, standardized test tagging. (2026-04-11)
 
 | Field | Value |
 |-------|-------|
 | **Domain** | Middle and High School Mathematics |
 | **Scope** | Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus (through conics, matrices, complex numbers). Calculus + advanced statistics deferred. |
-| **Audience** | Students grades 6-12. Warm, tutor-adjacent tone. Intuition first, formalism second. |
+| **Audience** | Students grades 6-12. Warm, tutor-adjacent tone. Intuition first, formalism second. Now also: SAT / PSAT / ACT / CLT test-takers. |
 | **Presentation** | **Standalone wiki.** No "paraphrased from textbooks" language in student-facing content. Internal `raw/books/` and `raw/extractions/` remain as build inputs but never surface in wiki output. |
-| **Scale** | **151 live topics / 460 generators / 36,010 verified problems / 45 figures** |
+| **Scale** | **210 live topics / 638 generators / 49,443 verified problems / 62 figures** |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD, ~2 min build time |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
-| **Status** | 9-cluster content buildout + Cluster 10 HS Geometry **shipped**. Standalone conversion + 5 course hubs shipped. PrereqWidget and Vault JSON export/import shipped. Remaining: deferred Vault polish (worksheet builder, jsPDF, input-and-check answers) and optional new-book ingests. |
+| **Status** | v2.3.0 **test-prep phase shipped** (nav fix + 4 waves + test tagging). Overall average score 53.9 -> 71.6. ~200 topics now carry at least one test tag. Auto-generated `/tags/test-{sat,psat,act,clt}` index pages serve as per-exam hubs. Remaining: 51 leftover stubs (mostly redundant/low-value), deferred Vault polish (worksheet builder, jsPDF, input-and-check answers), and optional new-book ingests. |
 
 ---
 
@@ -26,9 +26,9 @@ cd /c/Wiki_Factory/builds/Math_Wiki
 
 # Sanity check: all four should be green
 py -3 -m pytest generators/tests/ -q                # 29/29 passing
-py -3 ../../factory/scripts/validate_yaml.py wiki/  # 263/263 clean
+py -3 ../../factory/scripts/validate_yaml.py wiki/  # 273/273 clean
 py -3 ../../factory/scripts/lint_wiki.py wiki/      # 0 errors, 0 warnings
-py -3 tools/topic_status.py                         # avg ~54, 151 live topics at 3+ gens
+py -3 tools/topic_status.py                         # avg ~71.6, 210 live topics at 3+ gens
 ```
 
 If any of those fail, something has regressed — fix that before doing anything else.
@@ -652,7 +652,24 @@ Full cluster-by-cluster detail lives in git history. This section keeps forward-
 
 **v2.1.0 (Phase 1, standalone + course nav).** Replaced 4 branch hubs with 5 course hubs (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus & Trig). Purged source-book boilerplate from 133 stub topic files. Rewrote breadcrumbs in 239 topic files in a single sweep. Deleted 9 empty-shell overviews. Trimmed the sidebar from 14 to 10 entries. `tools/update_course_hubs.py` replaces `update_branch_hubs.py`; uses a `GEOMETRY_ADJACENT_ALLOWLIST` second pass so pre-algebra geometry topics surface in both hubs.
 
-**v2.2.0 (Cluster 10 + Phase 4 + Phase 5a, this session).** Cluster 10 shipped 10 new HS Geometry topic pages + enriched 6 pre-algebra geometry stubs + 50 new generators in 10 modules + 14 new figures. Executed by 4 parallel sub-agents (2 content, 1 generators, 1 figures) with zero first-pass copyright hits. PrereqWidget shipped: `tools/build_prereq_graph.py` writes `wiki/_data/prereq_graph.json` from YAML frontmatter (400 edges across 137 topics); `quartz_components/PrereqWidget.tsx` injects a "Review these first" card into the right sidebar on topic pages. Vault gained JSON export/import buttons via a bump to `vaultViewer.inline.ts`. Geometry branch score jumped from 47.5 to 82.7.
+**v2.2.0 (Cluster 10 + Phase 4 + Phase 5a, previous session).** Cluster 10 shipped 10 new HS Geometry topic pages + enriched 6 pre-algebra geometry stubs + 50 new generators in 10 modules + 14 new figures. Executed by 4 parallel sub-agents (2 content, 1 generators, 1 figures) with zero first-pass copyright hits. PrereqWidget shipped: `tools/build_prereq_graph.py` writes `wiki/_data/prereq_graph.json` from YAML frontmatter (400 edges across 137 topics); `quartz_components/PrereqWidget.tsx` injects a "Review these first" card into the right sidebar on topic pages. Vault gained JSON export/import buttons via a bump to `vaultViewer.inline.ts`. Geometry branch score jumped from 47.5 to 82.7.
+
+**v2.3.0 (Test-Prep Phase, this session).** Shipped in four commits over one session:
+- **Nav fix (commit `3aa7986`):** `wiki/Precalculus.md` had `"Precalculus"` in its `aliases:` list. Quartz's `AliasRedirects` plugin generated a self-redirect HTML that overwrote the canonical hub, serving blank. Same bug class as the Vault.md fix. 1-token deletion; Gotcha #4 generalized to "never put the filename in aliases."
+- **Test tagging (commit `c8e855e`):** new `tools/test_prep_mapping.yaml` (150 slugs -> 209 by phase end) + new `tools/apply_test_tags.py` (idempotent, surgical, --dry-run / --check modes). Added Section 7 `#test-sat/#test-psat/#test-act/#test-clt` to `_tag_taxonomy.md`. No lint_wiki.py changes (it reads taxonomy dynamically via regex). Auto-generated Quartz tag index pages `/tags/test-*` become de-facto per-exam hubs with zero custom authoring.
+- **Stub activation (commits `1933ef0` Wave A, `6e0994a` Wave B, `1d8dd3d` Wave C):** 63 stubs activated across 3 branches. Wave A (pre-algebra, 22 stubs) pushed branch avg 45.4 -> 61.1. Wave B (algebra, 25 stubs) pushed 58.1 -> 73.7. Wave C (precalc, 16 stubs) pushed 54.4 -> 82.1 (biggest per-branch jump). Each wave = 3-4 content + 2 generator + 1 figure sub-agents in parallel.
+- **New gap topics (commit `b891393` Wave D):** 10 brand-new topic pages filling identified test-prep gaps (Piecewise_Functions, Conditional_Probability, Permutations_And_Combinations, Normal_Distribution, Margin_Of_Error, Expected_Value, Binomial_Probability, Sampling_Methods_And_Bias, Histograms_And_Box_Plots, Correlation_And_Residuals). 30 new generators + 6 new figures. Wave D first-pass copyright-clean.
+- **Net delta:** 144 -> 210 live topics (+66), 460 -> 638 generators (+178), 36,010 -> 49,443 problems (+13,433), 45 -> 62 figures (+17), 112 -> 51 stubs (-61). Overall avg 53.9 -> 71.6.
+
+### Forbidden-idiom additions shipped this phase
+
+Phase 2-3 content reviews added ~15 more near-verbatim textbook phrasings to the banned list (the `hits[:3]` truncation in the copyright test masks subsequent hits, so each pass typically surfaces a new ring). Key adds:
+
+- **Pre-algebra foundations:** "the absolute value of a number is its distance from zero", "a rational number is any number that can be written as a fraction", "every whole number greater than 1 can be written as a product of primes in exactly one way", "every point on the number line corresponds to exactly one real number", "the greatest common factor of two or more whole numbers is the", "the least common multiple of two or more whole numbers is the", "a prime is a whole number greater than 1 whose only factors are", "the principal (the original amount) is the annual interest rate as a decimal", "the bill comes to ... how much is the tip and what is the total"
+- **Algebra 1 / 2:** "a number is in scientific notation when it is written as", "an algebraic expression is any combination of variables constants and operations", "two numbers whose product is and whose sum is", "less than ... greater than ... on the number line is farther to the left", "strict less than strict greater than less than or equal to greater than or equal to", "multiplying or dividing both sides by a negative number reflects every real number", "slope is rise over run, not run over rise", "the part is X, the percent is Y, and the whole is the unknown", "the leading coefficient ... multiply the leading coefficient by the constant. Now find two numbers whose product is ... and whose sum is"
+- **Algebra/Precalc (surfaced in Wave C/D subagent guidance):** "a polynomial function is of the form", "a rational function is a quotient of two polynomials", "vertical asymptotes occur where the denominator is zero", "a function is a relation that assigns exactly one output to each input", "a graph of an equation is the set of all points whose coordinates satisfy the equation"
+
+Include these in every future content-agent prompt alongside the original Cluster-0-through-9 forbidden list.
 
 ### What works at session scale (proven across 3 versions)
 
