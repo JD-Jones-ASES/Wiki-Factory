@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## Student-facing, course-based navigation from middle school through pre-calculus
-### Version 2.1.0 --- Standalone conversion + 5 course hubs. (2026-04-11)
+### Version 2.2.0 --- Cluster 10 Geometry + PrereqWidget + Vault I/O. (2026-04-11)
 
 | Field | Value |
 |-------|-------|
@@ -8,10 +8,10 @@
 | **Scope** | Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus (through conics, matrices, complex numbers). Calculus + advanced statistics deferred. |
 | **Audience** | Students grades 6-12. Warm, tutor-adjacent tone. Intuition first, formalism second. |
 | **Presentation** | **Standalone wiki.** No "paraphrased from textbooks" language in student-facing content. Internal `raw/books/` and `raw/extractions/` remain as build inputs but never surface in wiki output. |
-| **Scale** | **136 live topics / 410 generators / 32,698 verified problems / 31 figures** |
-| **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD, ~90s build time |
+| **Scale** | **151 live topics / 460 generators / 36,010 verified problems / 45 figures** |
+| **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD, ~2 min build time |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
-| **Status** | 9-cluster content buildout **COMPLETE**. Phase 1 (standalone + course-hub nav redesign) shipped. Cluster 10 (Geometry expansion) is the next major content phase. |
+| **Status** | 9-cluster content buildout + Cluster 10 HS Geometry **shipped**. Standalone conversion + 5 course hubs shipped. PrereqWidget and Vault JSON export/import shipped. Remaining: deferred Vault polish (worksheet builder, jsPDF, input-and-check answers) and optional new-book ingests. |
 
 ---
 
@@ -26,9 +26,9 @@ cd /c/Wiki_Factory/builds/Math_Wiki
 
 # Sanity check: all four should be green
 py -3 -m pytest generators/tests/ -q                # 29/29 passing
-py -3 ../../factory/scripts/validate_yaml.py wiki/  # 257/257 clean
+py -3 ../../factory/scripts/validate_yaml.py wiki/  # 263/263 clean
 py -3 ../../factory/scripts/lint_wiki.py wiki/      # 0 errors, 0 warnings
-py -3 tools/topic_status.py                         # avg ~53, 136 topics at 3+ gens
+py -3 tools/topic_status.py                         # avg ~54, 151 live topics at 3+ gens
 ```
 
 If any of those fail, something has regressed — fix that before doing anything else.
@@ -39,32 +39,31 @@ Math_Wiki is a **standalone, practice-first wiki**. Every live topic page has (a
 
 Navigation is **course-first**. Five course hubs (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus & Trig) are the student's primary entry points. A 7th grader opens Middle School Math; a sophomore opens Algebra 2. Branch-level organization still exists in the underlying data model but is hidden from the student-facing sidebar.
 
-The content buildout shipped in **9 clusters** (pre-algebra foundations → linear → quadratics → rationals → functions → exp/log → trig → sequences/probability → conics). Each cluster delivered 10-15 topics fully finished (prose + generators + figures + cross-links). All 9 content clusters are shipped. Phase 1 (standalone conversion + course hub redesign) is shipped. **Cluster 10 (Geometry expansion)** is the next major phase.
+Ten content clusters shipped (9 original + Cluster 10 HS Geometry). Each cluster delivered ~12-18 topics fully finished (prose + generators + figures + cross-links). The wiki also runs a **PrereqWidget** ("Review these first" card) in the right sidebar on every topic page, powered by YAML `prerequisites:` frontmatter, and the Vault supports JSON export/import so students can move practice sets across devices.
 
 ### Where things live
 
 | Path | What |
 |---|---|
-| `raw/books/` | Original LaTeX source material used during initial ingestion (gitignored, ~62 MB). Build inputs only; never surface in the wiki. |
-| `raw/extractions/{book_slug}/chapter_NN.json` | Per-chapter parsed blocks from initial ingestion (gitignored). Internal build artifact. |
-| `raw/catalog/topics_{branch}.json` | Per-branch canonical topic catalog (post-alias-merge). Internal build artifact. |
+| `raw/books/`, `raw/extractions/`, `raw/catalog/` | Internal build inputs and artifacts from the initial ingestion. Gitignored (except `raw/catalog/`). Never surface in the wiki. |
 | `tools/aliases.yaml` | Manual merge/rename/split rules for `consolidate_extractions.py` |
 | `wiki/_overview.md` | Landing page (hero + 5 course hub cards + learning paths) |
 | `wiki/{Middle_School_Math,Algebra_1,Geometry,Algebra_2,Precalculus}.md` | Five student-facing course hubs (hand intro + learning path + AUTO:TOPICS block) |
 | `wiki/Topics_Overview.md` | Alphabetical index grouped by course |
 | `wiki/Topic_Status.md` | Auto-generated progress dashboard (regen with `topic_status.py`) |
-| `wiki/Vault.md` | Interactive vault page (mounts VaultViewer) |
+| `wiki/Vault.md` | Interactive vault page (mounts VaultViewer with shuffle / print / export / import / clear) |
 | `wiki/Formulas_Overview.md` | Named formulas and theorems index |
-| `wiki/topics/{pre_algebra,algebra,precalculus,geometry}/*.md` | Topic pages (enriched or auto-stub). Grouped on disk by branch, surfaced by course hub. |
+| `wiki/topics/{pre_algebra,algebra,precalculus,geometry}/*.md` | Topic pages. Grouped on disk by branch, surfaced by course hub via `branch:` frontmatter. |
 | `wiki/_data/problem_types_index.json` | Widget lookup: topic_slug → generators. Drives live/stub classification. |
 | `wiki/_data/problems/{topic_slug}.json` | Per-topic problem shards (committed, <320 KB each) |
-| `wiki/assets/figures/{branch}/*.svg` | 31+ matplotlib SVG figures across branches |
-| `generators/{algebra,pre_algebra,precalculus,geometry}/*.py` | 410 generators across 4 branch packages |
+| `wiki/_data/prereq_graph.json` | Directed prereq graph generated from YAML frontmatter. Fetched once per session by `PrereqWidget`. |
+| `wiki/assets/figures/{branch}/*.svg` | 45 matplotlib SVG figures across branches |
+| `generators/{algebra,pre_algebra,precalculus,geometry}/*.py` | 460 generators across 4 branch packages |
 | `generators/base.py` | `Problem` dataclass, `Generator` ABC, `@register`, `all_generators()` |
-| `generators/tests/` | Pytest: parametrized suite (circles), copyright shingle check, consolidate snapshot, ingest smoke |
+| `generators/tests/` | Pytest: parametrized all-generators suite, copyright shingle check, consolidate snapshot, ingest smoke |
 | `generators/latex_helpers.py` | `format_fraction`, `format_point`, `shift_expr`, `signed_int` |
 | `quartz.config.ts` / `quartz.layout.ts` | Quartz v4 config + layout. Sidebar shows 10 entries: 🏠 Home, 5 course hubs, 📖 All Topics, 🎒 Vault, 📊 Progress, 🧮 Formulas. |
-| `quartz_components/*.tsx, *.inline.ts` | `ProblemVaultWidget`, `VaultViewer` — overlaid onto Quartz at CI time |
+| `quartz_components/*.tsx, *.inline.ts` | `ProblemVaultWidget`, `VaultViewer`, `PrereqWidget` — overlaid onto Quartz at CI time |
 | `tools/` | Build scripts (see Toolchain table below) |
 | `.github/workflows/deploy.yml` | CI: pytest → validate_yaml → build_index → clone Quartz → overlay → build → deploy |
 
@@ -83,6 +82,7 @@ py -3 -m pytest generators/tests/test_copyright_safety.py -q
 py -3 tools/build_problem_bank.py                  # rebuild bank from generators (idempotent)
 py -3 tools/topic_status.py                        # regenerate Topic_Status.md dashboard
 py -3 tools/update_course_hubs.py                  # regenerate course hub AUTO:TOPICS blocks
+py -3 tools/build_prereq_graph.py                  # regenerate wiki/_data/prereq_graph.json
 py -3 tools/generate_figures.py                    # regenerate all matplotlib SVGs (deterministic)
 
 # Ingest pipeline (rarely needed — only when adding a book or catalog tweak)
@@ -118,9 +118,9 @@ py -3 tools/ingest_new_book.py --slug new_book
                                               widget + localStorage vault
 ```
 
-**Raw** (`raw/books/`, `raw/extractions/`, `raw/catalog/`) — immutable source plus LLM-generated but never-student-facing intermediaries. All gitignored except `raw/catalog/`, which IS committed.
+**Raw** (`raw/books/`, `raw/extractions/`, `raw/catalog/`) — build inputs and intermediaries from initial ingestion. All gitignored except `raw/catalog/`. Never surface in the wiki.
 
-**Wiki** (`wiki/`) — LLM-owned markdown. 136 enriched topic pages + ~103 auto-stubs still on disk + overview/hub pages + problem bank shards.
+**Wiki** (`wiki/`) — LLM-owned markdown. 151 live topic pages + ~98 auto-stubs still on disk + 5 course hubs + problem bank shards + prereq graph.
 
 **Outputs** — derived artifacts at build time (Quartz HTML). Not committed.
 
@@ -135,12 +135,14 @@ py -3 tools/ingest_new_book.py --slug new_book
 
 - On "Add to Vault", `problemVaultWidget.inline.ts` fetches the topic shard, picks random problems, and writes **full problem objects** (statement, answer, hints, solution steps) into `localStorage["math-wiki-vault"]`.
 - The `/Vault` page reads entries directly from localStorage. **It never fetches the bank.** Instant load, zero external fetches.
+- VaultViewer exposes five actions: Shuffle, Print Worksheet, Export JSON, Import JSON, Clear Vault. Export dumps a timestamped `math-wiki-vault-YYYY-MM-DD.json` via Blob + object URL. Import reads a file, validates minimum schema (`id`, `statement_latex`), and offers merge-or-replace.
 
 ### Widget architecture
 
-- Each live topic page has `<div class="problem-vault-widget" data-topic-slug="{slug_lower}"></div>` in its markdown body.
-- `ProblemVaultWidget.tsx` and `VaultViewer.tsx` are custom Quartz components imported by `quartz.layout.ts` via explicit relative paths (`./quartz/components/...`). The CI overlay copies `quartz_components/*` into `quartz/components/` before `npx quartz build`.
-- Both register `.css` and `.afterDOMLoaded` entries; the components emit nothing server-side and mount on the client only when their hook div is present.
+- **ProblemVaultWidget** mounts on any page with `<div class="problem-vault-widget" data-topic-slug="{slug_lower}"></div>`. Renders the practice rows with difficulty + count + Add-to-Vault buttons.
+- **VaultViewer** mounts on `/Vault` (element id `vault-mount`). Renders the current localStorage vault with hints, answers, solution steps, and the action row.
+- **PrereqWidget** mounts on every topic page via URL-based lookup against `wiki/_data/prereq_graph.json`. Injects a "Review these first" card into the right sidebar with up to 6 clickable prerequisite links. Silent early-return on non-topic pages or pages missing from the graph.
+- All three are custom Quartz components imported by `quartz.layout.ts` via explicit relative paths (`./quartz/components/...`). The CI overlay copies `quartz_components/*` into `quartz/components/` before `npx quartz build`. Each registers `.css` and `.afterDOMLoaded` entries; server-side output is empty.
 
 ### Runtime KaTeX loader
 
@@ -156,29 +158,13 @@ Widgets fetch data using `getMathWikiRoot()`, which parses `location.pathname` t
 
 ---
 
-## Source Inventory
+## Internal Build Inputs
 
-5 books, all in `builds/Math_Wiki/raw/books/` (gitignored).
-
-| # | Slug | Book | Layout | Chapters | Blocks | Role |
-|---|---|---|---|---:|---:|---|
-| 1 | `math_1` | Math I | curriculum-factory | 9 | 642 | Middle school: whole numbers, integers, fractions, decimals, ratios, percents, intro algebra, basic geo/data |
-| 2 | `math_2` | Math II | curriculum-factory | 9 | 527 | Middle school: exponents, rationals, proportions, expressions, inequalities, Pythagoras, coordinate plane, stats |
-| 3 | `algebra_1` | Algebra — The First Year | curriculum-factory | 9 | 431 | Foundations, equations, inequalities, linear functions, systems, exponents/polynomials, factoring, quadratics, rationals/radicals |
-| 4 | `algebra_2` | Algebra — The Second Year | curriculum-factory | 9 | 638 | Sets/numbers, linear, quadratics, functions, polynomials, rationals, exp/log, transformations, conic sections |
-| 5 | `algtrig` | Stitz-Zeager College Algebra & Trig (3rd ed) | topic-folder | 11 | 498 | Pre-calc with trig: relations/functions, quadratics, polynomials, rationals, exp/log, trig, sequences, conics, matrices |
-
-**Total: 47 chapters, 2,736 extracted blocks, ~3.4 MB of JSON extractions.**
-
-### Environment conventions
-
-- Books 1-4 share **Curriculum Factory**: `keyterm`, `property`, `example`, `checkpoint`, `note`, `caution`, `keyconcept`, `figure`.
-- Book 5 uses **AMS-theorem**: `defn`, `thm`, `cor`, `ex`, `eqn`.
-- Both handled by `tools/ingest_math_book.py` via per-book `env_map` attributes.
+The initial ingestion pulled from 5 textbooks in `raw/books/` (gitignored): `math_1` and `math_2` (middle school curriculum-factory layout), `algebra_1` and `algebra_2` (high school curriculum-factory), and `algtrig` (Stitz-Zeager topic-folder layout, pre-calc with trig). Totals: 47 chapters, 2,736 extracted blocks, ~3.4 MB of JSON extractions. Both LaTeX conventions are handled by `tools/ingest_math_book.py` via per-book `env_map` attributes — see the env_map Author's Guide section for adding a new book.
 
 ### Copyright rule (non-negotiable)
 
-**NEVER reproduce problem text, worked examples, or extended prose verbatim from any source book.** All practice problems come from SymPy-verified Python generators producing fresh problems. Definitions and pedagogy are always paraphrased. Enforced by `generators/tests/test_copyright_safety.py` (15-word shingle match against `raw/extractions/**/*.json`).
+**NEVER reproduce problem text, worked examples, or extended prose verbatim from any source book.** All practice problems come from SymPy-verified Python generators producing fresh problems. Definitions and pedagogy are always paraphrased. Enforced by `generators/tests/test_copyright_safety.py` (15-word shingle match against `raw/extractions/**/*.json`). The wiki presents as standalone; source references are an internal build-tooling concept only.
 
 ---
 
@@ -195,6 +181,7 @@ All `tools/*.py` scripts are idempotent unless noted. Run from `builds/Math_Wiki
 | `tools/update_course_hubs.py` | Regenerate `<!-- AUTO:TOPICS:BEGIN/END -->` blocks in the five course hubs. Walks topic frontmatter to group by course; reads `problem_types_index.json` to mark live vs stub. Also handles the Geometry allowlist second pass. |
 | `tools/build_problem_bank.py` | Walk generator registry → per-topic shards + index. Cleans stale shards. |
 | `tools/topic_status.py` | Score every topic 0-100 (prose/examples/generators/prereqs/see-also/figures/status). Writes `wiki/Topic_Status.md` + `wiki/_data/topic_status.json`. |
+| `tools/build_prereq_graph.py` | Walk topic frontmatter → `wiki/_data/prereq_graph.json`. Emits forward (`prerequisites`) and reverse (`used_by`) edges. Feeds the PrereqWidget right-sidebar card. |
 | `tools/generate_figures.py` | Matplotlib → deterministic SVGs in `wiki/assets/figures/`. Uses `svg.hashsalt` + `metadata={"Date": None}` for byte-identical output. |
 
 Factory-level (run from repo root `/c/Wiki_Factory/`):
@@ -230,25 +217,20 @@ Factory-level (run from repo root `/c/Wiki_Factory/`):
 ```
 generators/
 ├── algebra/                   # 23 modules, ~200 generators
-│   ├── linear_equations.py slope.py multi_step_equations.py systems.py elimination_systems.py
-│   ├── absolute_value.py quadratic_formula.py factoring.py exponent_rules.py
-│   ├── inequalities.py lines.py coord_scatter.py                    # Cluster 2
-│   ├── polynomials.py quadratics_methods.py quadratic_functions.py  # Cluster 3
-│   ├── rationals.py radicals.py radical_functions.py                # Cluster 4
-│   ├── function_fundamentals.py function_families.py advanced_functions.py  # Cluster 5
-│   ├── exponentials.py logarithms.py                                # Cluster 6
+│   (linear equations, slopes, systems, absolute value, quadratic methods,
+│    polynomials, factoring, rationals, radicals, functions & families,
+│    transformations, exponentials, logarithms)
 ├── pre_algebra/               # 16 modules, ~50 generators
-│   ├── integers.py integers_ext.py order_of_operations.py foundations.py
-│   ├── fractions_basics.py fractions_addsub.py fractions_muldiv.py
-│   ├── decimals_arith.py decimals_divplace.py
-│   ├── percents.py percent_change.py eval_and_ratios.py rates_and_proportions.py
-│   ├── slope_intercept.py algebra_intro.py inequalities_intro.py    # Cluster 2
-├── precalculus/               # 5 modules, ~90 generators  (created in Cluster 7)
-│   ├── trig_core.py trig_advanced.py                                # Cluster 7
-│   ├── sequences_and_stats.py                                       # Cluster 8
-│   ├── conics_and_complex.py matrices.py                            # Cluster 9
-├── geometry/                  # 2 modules
-│   ├── circles.py pythagoras.py
+│   (integers, fractions, decimals, percents, ratios, order of operations,
+│    algebra intro, inequalities intro, slope intercept)
+├── precalculus/               # 5 modules, ~90 generators
+│   (trig core + advanced, sequences & stats, conics & complex, matrices)
+├── geometry/                  # 12 modules, ~60 generators  (expanded in Cluster 10)
+│   ├── circles.py pythagoras.py                                    # pre-Cluster-10
+│   ├── parallel_lines.py triangle_congruence.py                    # Cluster 10
+│   ├── special_right_triangles.py polygon_angles.py quadrilaterals.py
+│   ├── circle_theorems.py transformations.py
+│   ├── volume.py surface_area.py coord_geometry.py
 ├── base.py                    # Generator, Problem, @register, make_problem_id, all_generators
 ├── latex_helpers.py           # format_fraction, format_point, shift_expr, signed_int
 └── tests/
@@ -300,6 +282,8 @@ These are the mechanical rules the build system enforces. Violating them breaks 
 13. **`py -3` on Windows.** Not `python`, not `python3`.
 14. **`builds/*/raw/` is gitignored.** The 62 MB of textbook source stays local by design. Don't try to `git rm` it.
 15. **CI runs pytest + validate_yaml + build_index before Quartz.** A broken test fails the deploy. Fix local before pushing.
+16. **Rewrite the hub script before deleting old hubs.** Cluster 10 planning caught this: `update_course_hubs.py` must exist and point at the new hub filenames before you delete `Algebra_Overview.md` etc. Otherwise the old script errors or silently no-ops.
+17. **Breadcrumb sweeps touch every topic file.** A breadcrumb rewrite script needs `--dry-run` mode and a unified-diff preview before execution. One bad regex and every topic's navigation breaks. Phase 1's `rewrite_breadcrumbs.py` is the template.
 
 ### Copyright discipline (8 clusters' worth of forbidden idioms)
 
@@ -429,7 +413,7 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[_overview|Home]]
 ```
 
-**Do NOT include "Practice generators for this topic are coming in a future wave" lines** — the 9-cluster plan is complete. Every live topic has live generators.
+**Do NOT include "Practice generators for this topic are coming in a future wave" lines.** Every live topic has live generators, and every stub is a scaffold to enrich later, not a waiting room for a future cluster wave.
 
 ### Course hub structure
 
@@ -439,7 +423,7 @@ Hand-written intro paragraph + suggested learning path + `<!-- AUTO:TOPICS:BEGIN
 
 ```
 # Math Wiki
-<tagline + stats row: 136 topics · 410 generators · 32,698 problems>
+<tagline + stats row: N live topics · M generators · P verified problems>
 <privacy note: vault is browser-local>
 
 ## Start Here
@@ -459,6 +443,8 @@ Hand-written intro paragraph + suggested learning path + `<!-- AUTO:TOPICS:BEGIN
 <audience, render tech, privacy, license, repo>
 ```
 
+Stats numbers are updated by hand after each content cluster. The tagline + stats row is right below the `# Math Wiki` heading.
+
 ---
 
 ## Conventions Cheat Sheet
@@ -477,70 +463,33 @@ Hand-written intro paragraph + suggested learning path + `<!-- AUTO:TOPICS:BEGIN
 
 ---
 
-## The Completed 9-Cluster Buildout Plan
+## Remaining Work
 
-All shipped. This table is the final state of the plan.
+Most of the roadmap items from earlier versions of this spec are now shipped. What's left:
 
-| Cluster | Name | Topics | Gens | Problems | Commit |
-|:---:|---|---:|---:|---:|---|
-| **0** | Infrastructure hardening + alias merge | 0 | 0 | 0 | `8c1b4ac` |
-| **1** | Pre-algebra foundations | 20 | 60 | 5,286 | `f27052f` |
-| — | Navigation UI redesign | 0 | 0 | 0 | `a0f4c4f` |
-| **2** | Linear world completion | 14 | 42 | 3,714 | `49dfa00` |
-| **3** | Polynomials + Quadratics deep | 14 | 42 | 3,590 | `bb768cc` |
-| **4** | Rationals & Radicals | 12 | 36 | 3,052 | `a3db819` |
-| **5** | Functions & Transformations | 14 | 42 | 3,353 | `bedee97` |
-| **6** | Exponentials & Logarithms | 10 | 30 | 2,084 | `db5421c` |
-| **7** | Trigonometry | 15 | 45 | 2,594 | `c78a1f1` |
-| **8** | Sequences, probability, statistics | 9 | 27 | 2,015 | `710120f` |
-| **9** | Conics, matrices, complex numbers | 12 | 36 | 2,675 | `50904eb` |
-| **Totals** | | **120** | **360** | **28,363** | |
+### Deferred Vault polish
 
-*(Cluster 1's 5,286 includes initial generator waves on top of the baseline. The totals above + the ~16 topics, 50 gens, 4,335 problems that existed at Cluster 0 start = current state of 136 / 410 / 32,698.)*
+These were in scope for Phase 5 but deferred for a future session. They ride on existing Vault infrastructure so they do not need new data pipelines.
 
-**Per-cluster verification** (from `tools/topic_status.py`): prose body 300+ words, 2+ worked examples, 3+ generators, 3+ prerequisite links, 3+ see-also links, figure where visually useful, `status: draft|complete`.
+1. **Custom worksheet builder** — dedicated page where the student picks N topics × difficulty × count → mixed worksheet. New Quartz component, new `wiki/Worksheet_Builder.md` page. Can reuse `ProblemVaultWidget`'s shard fetch logic.
+2. **jsPDF polished PDF export** — replace `@media print` with a KaTeX-rendered-canvas → PDF pipeline for consistent cross-browser output. Import jsPDF via CDN singleton, mirror `ensureKatex()` pattern.
+3. **Input-and-check answer grader** — string matching on normalized LaTeX handles ~80% of cases; Pyodide SymPy handles the rest if the 5 MB load cost is acceptable.
+4. **Difficulty auto-tune** — track per-generator correct/incorrect in localStorage, suggest the next difficulty.
 
----
+### Future content expansion
 
-## Post-Plan Follow-Up Work
+~98 auto-stubs still live on disk — secondary catalog entries that were not in any cluster's scope. Activating one is the normal loop:
 
-The 9 content clusters are done. Remaining work is polish, new-book ingests, and optional features.
+1. Write the content following the topic skeleton below (the existing stub file is fine to overwrite).
+2. Add 3+ generators under the appropriate branch package, imported in that package's `__init__.py`.
+3. `build_problem_bank.py` → `topic_status.py` → `update_course_hubs.py` → `build_prereq_graph.py` → commit → push.
 
-### Cluster L (lint / polish / closeout)
+Cluster 10's pattern (enrich several pre-algebra geometry stubs while creating new HS-branch geometry topics) is a good template for future geometry/measurement work — enriching an existing stub surfaces it in both Middle School Math and Geometry course hubs for the cost of one file.
 
-- Final read-through of all 136 live topics. Look for typos, awkward phrasings, thin examples.
-- Strengthen cross-links where the graph is thin. Currently 134 topics have 3+ generators; bumping the 2 outliers up.
-- Figures: roughly half of live topics still lack a figure. Target the ones where a figure would unlock the explanation (transformations, trig identities, conics).
-
-### Prereq-graph widget
-
-- Every live topic has a `prerequisites: [...]` YAML field. That's a directed graph in waiting.
-- Build a new Quartz component (`PrereqWidget.tsx`) that reads `wiki/_data/prereq_graph.json` (to be generated from frontmatter) and renders a "struggling? review X first" widget in the right sidebar.
-- Candidate algorithm: topological distance from the current topic over the prereq edges.
-
-### Vault polish
-
-From the Site Expansion Proposal section (now pruned but these are the top candidates):
-
-1. **Custom worksheet builder** — a dedicated page where the student picks N topics × difficulty × count → mixed worksheet. Builds on Vault infrastructure.
-2. **jsPDF polished download** — replace `@media print` with a rendered-KaTeX→PDF pipeline for consistent cross-browser output.
-3. **Input-and-check answers** — string matching on normalized LaTeX handles 80% of cases; Pyodide SymPy handles the rest if we want to pay the 5 MB cost.
-4. **Vault export/import** — JSON dump/upload, so students can move practice sets across devices or share with a teacher.
-5. **Difficulty auto-tune** — track correct/incorrect per generator in localStorage, suggest next difficulty.
-
-### Future ingests
-
-~103 stubs remain in the catalog after the 9-cluster plan — secondary entries that weren't in the core curriculum scope. Activating one is straightforward:
-
-1. `tools/generate_topic_stubs.py --branch all --force` ensures the stub exists.
-2. Write the content following the topic skeleton above.
-3. Add generators under the appropriate branch package.
-4. `build_problem_bank.py` → `topic_status.py` → `update_course_hubs.py` → commit.
-
-Adding a whole new source book is supported end-to-end:
+### Adding a whole new textbook
 
 1. Drop the book's LaTeX tree under `raw/books/new_book/`.
-2. Write an `env_map` in `tools/ingest_math_book.py` (see the env_map Author's Guide section).
+2. Write an `env_map` in `tools/ingest_math_book.py` (see env_map Author's Guide below).
 3. `py -3 tools/ingest_new_book.py --slug new_book --dry-run`. Review output.
 4. `py -3 tools/ingest_new_book.py --slug new_book`. This runs every pipeline stage and snapshots the catalog before/after.
 5. Review `tools/aliases.yaml` for duplicate topics with existing books. Add merge rules where titles are functionally identical but normalization didn't match.
@@ -629,28 +578,21 @@ Then `py -3 tools/consolidate_extractions.py` to apply.
 
 ## Session Patterns That Worked
 
-These are patterns the 8-cluster session (2-9) proved effective. Future sessions should default to these unless something better shows up.
+Cluster-shipping and feature-shipping patterns that have been validated across 10 clusters, Phase 1 nav redesign, and Phase 4-5 widget work. Session-scale summary lives in the Recent Session History section below; this section is the concrete checklist.
 
-### Parallel sub-agent dispatch
+### Sub-agent prompt template
 
-- **Content wave:** 3-4 sub-agents in parallel, each owning 2-4 topics. They edit different files, so there are no collisions.
-- **Generator wave:** 2-3 sub-agents, each owning a generator module (one file). The `__init__.py` import lines are distinct, so parallel edits land cleanly.
-- **Figures agent:** 1 sub-agent extends `tools/generate_figures.py` in parallel with content batch 2.
-- **Sequencing matters within a cluster:** batch 1 content before batch 2 content so batch 2 can wikilink to just-shipped pages. Generators run after content so generators can read the prose.
-- **Sub-agent daily usage limit:** If it hits mid-cluster, pivot to direct writing by the main session (Cluster 5 validated this fallback with no quality loss).
+Every content or generator sub-agent prompt must include:
 
-### Sub-agent prompt template (what works)
-
-Every sub-agent prompt must include:
-
-1. The exact topic file paths and catalog entries to read.
-2. The source extraction JSON paths for each topic (usually 1-2 per topic).
-3. 2-3 gold-standard files to imitate for structure (`Circles.md`, `The_Distributive_Property.md`, and one from a recent cluster).
-4. The structural template verbatim (frontmatter + sections + widget div).
-5. The forbidden-idiom list (see Gotchas section above — the full list keeps growing).
-6. Hard constraints: word count floors, YAML rules, LaTeX rules, widget slug rule.
-7. Explicit "Do NOT include 'Practice generators are coming in Cluster X'" — the 9-cluster plan is complete.
-8. A short process list ending in a brief return summary.
+1. The exact file paths to read (for content: existing stub or new path; for generators: new module path).
+2. 2-3 gold-standard files to imitate for structure (`Circles.md`, `The_Distributive_Property.md`, and one recent example from the same branch).
+3. The structural template verbatim (frontmatter + sections + widget div).
+4. The forbidden-idiom list (see Gotchas section above).
+5. The current valid-tags list from `_tag_taxonomy.md` (inlined, not referenced — agents do not always fetch files from references).
+6. The current live-topics list to cross-reference in `related:` and See Also — prevents dead-wikilink drift.
+7. Hard constraints: word count floors, YAML rules, LaTeX rules, widget slug rule.
+8. Explicit "Do NOT include 'Practice generators are coming in Cluster X'" — every live topic has live generators now.
+9. A short process list ending in a brief return summary.
 
 ### Validation cadence after a batch
 
@@ -660,16 +602,17 @@ py -3 ../../factory/scripts/validate_yaml.py wiki/
 py -3 ../../factory/scripts/lint_wiki.py wiki/
 ```
 
-Expected: 3 pytest passes, 257/257 YAML, 0 lint errors. If you get copyright hits, grep for the flagged phrase across `wiki/topics/` to find them all, then do 1-line rewrites.
+Expected: 3 pytest passes, 263/263 YAML clean, 0 lint errors. If you get copyright hits, grep for the flagged phrase across `wiki/topics/` to find all occurrences, then do 1-line rewrites.
 
 ### What NOT to do
 
-- **Don't** skip the gold-standard read in content prompts. Sub-agents trained to "match The_Distributive_Property.md" produce consistently better prose than ones given the template from scratch.
-- **Don't** trust a single copyright pass. Run the shingle test, fix, run again — sometimes rewriting one idiom surfaces a previously-masked neighbor.
-- **Don't** commit a cluster with dead wikilinks. Lint catches them but only after Quartz gets them wrong in production.
+- **Don't** skip the gold-standard read in content prompts. Agents told to "match The_Distributive_Property.md" produce consistently better prose than agents given a bare template.
+- **Don't** trust a single copyright pass. Run the shingle test, fix, run again — rewriting one idiom sometimes surfaces a previously-masked neighbor.
+- **Don't** commit a cluster with dead wikilinks. Lint catches them, but only after Quartz has already rendered them wrong in production if you push too fast.
 - **Don't** invent new tags. Every new tag needs to be added to `_tag_taxonomy.md` first.
 - **Don't** forget `py -3 tools/update_course_hubs.py` after adding live topics. The course hub "AUTO:TOPICS" block is stale otherwise.
-- **Don't** ship a cluster without updating `_overview.md`'s Learning Paths and `Topics_Overview.md`'s Live Topics sections. These are student-facing front doors.
+- **Don't** forget `py -3 tools/build_prereq_graph.py` after touching `prerequisites:` frontmatter. The PrereqWidget card is stale otherwise.
+- **Don't** ship a cluster without updating `_overview.md`'s Learning Paths and `Topics_Overview.md`'s Live Topics sections. These are the student-facing front doors.
 
 ---
 
@@ -677,9 +620,9 @@ Expected: 3 pytest passes, 257/257 YAML, 0 lint errors. If you get copyright hit
 
 - **Repo:** `JD-Jones-ASES/Wiki-Factory`
 - **URL:** https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/
-- **Build time:** ~90 seconds for ~270 pages including overlay + Quartz build
+- **Build time:** ~2 minutes for ~260 pages including overlay + Quartz build
 - **CI workflow:** `.github/workflows/deploy.yml` (shared with Hymn Wiki). Runs pytest + validate_yaml + build_index, then clones Quartz v4 fresh, overlays `quartz.config.ts` / `quartz.layout.ts` / `quartz_components/` / `static/` from the build root, copies `wiki/*` into `content/`, runs `npx quartz build`, deploys. Overlays are directory-existence-guarded so Hymn Wiki's build is unaffected.
-- **Per-build Quartz settings:** `enableSPA: false`, `Plugin.Latex({ renderEngine: "katex" })`, Explorer `filterFn` hides `topics/` + `problem_types/` + `entities/` folders, `localGraph.depth: 1`.
+- **Per-build Quartz settings:** `enableSPA: false`, `Plugin.Latex({ renderEngine: "katex" })`, Explorer `filterFn` hides `topics/` + `problem_types/` + empty-shell folders, `localGraph.depth: 1`.
 
 ### Custom components loaded in layout
 
@@ -687,11 +630,12 @@ Expected: 3 pytest passes, 257/257 YAML, 0 lint errors. If you get copyright hit
 // quartz.layout.ts (abbreviated)
 import ProblemVaultWidget from "./quartz/components/ProblemVaultWidget"
 import VaultViewer from "./quartz/components/VaultViewer"
+import PrereqWidget from "./quartz/components/PrereqWidget"
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [ProblemVaultWidget(), VaultViewer()],  // early-return if mount absent
+  afterBody: [ProblemVaultWidget(), VaultViewer(), PrereqWidget()], // each early-returns if mount absent
   footer: Component.Footer({ ... }),
 }
 ```
@@ -700,33 +644,38 @@ export const sharedPageComponents: SharedLayout = {
 
 ## Recent Session History (Compressed)
 
-The full cluster-by-cluster log is in git history (see the commit table above). This section keeps the most recent session-level lessons in a form future sessions can skim quickly.
+Full cluster-by-cluster detail lives in git history. This section keeps forward-looking lessons future sessions can skim quickly.
 
-### Version 2.0.0 — 9-cluster plan complete. Post-plan state. (2026-04-11)
+### Versions 2.0 → 2.2 — from content buildout to student-first wiki
 
-**Session shipped Clusters 2 through 9 in one sitting** (88 hours of agent time over one day), plus Cluster 0 and 1 earlier. All 9 clusters shipped and deployed. CI green across all pushes. The wiki grew from 36 live topics / 9,621 problems / 22.2 status to **136 / 32,698 / 53.4**.
+**v2.0.0 (Clusters 0-9, content buildout).** Nine clusters shipped in a single multi-day session. Wiki grew from 36 live topics to 136, from 9,621 problems to 32,698. Infrastructure (copyright pytest, YAML validator, topic status dashboard, alias merge pipeline, ingest smoke test) was laid down in Cluster 0 and paid off for every subsequent cluster — most shipped green on first validation after small idiom fixes.
 
-**What worked at session scale:**
+**v2.1.0 (Phase 1, standalone + course nav).** Replaced 4 branch hubs with 5 course hubs (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus & Trig). Purged source-book boilerplate from 133 stub topic files. Rewrote breadcrumbs in 239 topic files in a single sweep. Deleted 9 empty-shell overviews. Trimmed the sidebar from 14 to 10 entries. `tools/update_course_hubs.py` replaces `update_branch_hubs.py`; uses a `GEOMETRY_ADJACENT_ALLOWLIST` second pass so pre-algebra geometry topics surface in both hubs.
 
-- **Cluster 0 upfront infrastructure investment** paid off over every subsequent cluster: copyright pytest, YAML validator, topic status dashboard, alias merge pipeline, and the ingest smoke test meant every cluster could ship green on the first validation pass after small idiom fixes.
-- **Parallel sub-agent dispatch** (3-4 content + 2-3 generators + 1 figures per cluster) sustained ~15 topics/cluster pace without review-burden collapse.
-- **Backward construction for all generators** eliminated the guess-and-check infinite-loop class of bugs entirely after Cluster 2's one quadratic incident.
-- **Forbidden-idiom discipline grew** with every cluster. By Cluster 7+, first-pass copyright hits dropped to zero or one per cluster.
-- **Pre-calc branch created as a first-class package** (`generators/precalculus/`) starting in Cluster 7 — set the precedent for Cluster 8 and 9's organizational moves.
-- **Hybrid execution pivot** in Cluster 5: when sub-agent daily limits hit mid-cluster, the main session wrote 6 pages directly with no quality loss. This fallback is viable and worth keeping in reserve.
+**v2.2.0 (Cluster 10 + Phase 4 + Phase 5a, this session).** Cluster 10 shipped 10 new HS Geometry topic pages + enriched 6 pre-algebra geometry stubs + 50 new generators in 10 modules + 14 new figures. Executed by 4 parallel sub-agents (2 content, 1 generators, 1 figures) with zero first-pass copyright hits. PrereqWidget shipped: `tools/build_prereq_graph.py` writes `wiki/_data/prereq_graph.json` from YAML frontmatter (400 edges across 137 topics); `quartz_components/PrereqWidget.tsx` injects a "Review these first" card into the right sidebar on topic pages. Vault gained JSON export/import buttons via a bump to `vaultViewer.inline.ts`. Geometry branch score jumped from 47.5 to 82.7.
 
-**What needs to keep being watched:**
+### What works at session scale (proven across 3 versions)
 
-- **Dead wikilink drift:** when an agent invents a topic name that doesn't exist (`[[Rational_Roots_Theorem]]`, `[[Pre_Algebra_Overview]]`), lint catches it, but we want to prevent them at generation time. Consider pre-seeding every agent prompt with the current live-topics list.
-- **Tag taxonomy drift:** same problem with tags. Occasionally an agent invents `#topic-trigonometry` or `#topic-equations-and-inequalities` that isn't in the taxonomy. Lint catches it; prompts need explicit "all tags from `_tag_taxonomy.md`" reminders.
-- **Shard size budget:** every shard stays under 320 KB today, but the larger-parameter-space generators are inching up. If a generator goes over budget, prefer a `bank_count_per_difficulty` reduction over raising the cap.
+- **Parallel sub-agent dispatch** (3-4 content + 2-3 generators + 1 figures per cluster) sustains ~15 topics per cluster without review-burden collapse. Four agents in one message with no file-overlap works cleanly.
+- **Backward construction for all generators** eliminates guess-and-check infinite loops. Pick the answer, derive the parameters.
+- **Forbidden-idiom list in every content prompt.** By Cluster 10, first-pass copyright hits dropped to zero. The list keeps growing — see the Gotchas section.
+- **Enrich-and-create hybrid** (Cluster 10 pattern): when planning a new cluster, check for existing auto-stubs whose titles match your intended content. Enriching a stub is cheaper than creating a new file, and an enriched pre-algebra stub surfaces in two course hubs (Middle School Math + the relevant HS course) via the allowlist.
+- **Single 136-file sweep for nav changes.** Phase 1 proved that breadcrumb rewrites + source purges should be batched into one sweep over topic files, not two.
+- **Gold-standard read first.** Every content sub-agent prompt starts with "read these 3 files and match their tone." Agents trained to imitate a specific file produce consistently better prose than agents given a bare template.
 
-**What to do first in a next session:**
+### What to watch
+
+- **Dead wikilink drift** when agents invent topic names. Lint catches them, but pre-seeding every agent prompt with the current live-topics list prevents them.
+- **Tag taxonomy drift.** Same prevention: include the actual taxonomy contents in agent prompts, not just a reference to the file.
+- **Shard size budget.** Every shard stays under 320 KB today. If a generator goes over, prefer reducing `bank_count_per_difficulty` over raising the cap.
+- **Hub script rewrite order.** Rewrite `update_course_hubs.py` (or its successor) BEFORE deleting any old hub files it references — or the script will error or silently no-op.
+
+### What to do first in a next session
 
 1. Run the four sanity-check commands at the top of this file. Confirm all green.
-2. Check `gh run list --limit 3` — the last 3 CI runs should all be green.
-3. Read `wiki/Topic_Status.md` to see the current per-topic score distribution. If any topic scores below 60, it probably needs a figure, more examples, or a generator count bump.
-4. Decide whether you're doing polish (Cluster L), a new-book ingest, a Vault feature, or something else. Pick one and start; all four are described above in the "Post-Plan Follow-Up Work" section.
+2. `gh run list --limit 3` — confirm the last CI runs are all green.
+3. Read `wiki/Topic_Status.md` for the current distribution. No live topic should score below 80; any outlier probably needs a figure, an example, or a cross-link bump.
+4. Pick one from **Remaining Work** (custom worksheet builder, jsPDF PDF export, input-and-check grader, difficulty auto-tune, new textbook ingest, stub activation wave) and ship it. Follow the Session Patterns section — parallel sub-agents for anything that can be split across files.
 
 ---
 
