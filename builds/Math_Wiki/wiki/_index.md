@@ -43,7 +43,7 @@ Total pages: 230
 - [[Algebraic_Functions|Algebraic Functions]] [draft]
 - [[Angles|Angles]] [draft] (1 sources)
 - [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]] [draft] (1 sources)
-- [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]] [stub]
+- [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]] [draft]
 - [[Applications_Of_Quadratic_Functions|Applications of Quadratic Functions]] [draft] (1 sources)
 - [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]] [draft] (1 sources)
 - [[Applications_Tax_Tip_Discount_And_Simple_Interest|Applications: Tax, Tip, Discount, and Simple Interest]] [draft]
@@ -64,7 +64,7 @@ Total pages: 230
 - [[Comparing_And_Ordering_Fractions|Comparing and Ordering Fractions]] [draft] (1 sources)
 - [[Completing_The_Square|Completing the Square]] [draft] (1 sources)
 - [[Complex_Zeros|Complex Zeros of Polynomials]] [draft] (1 sources)
-- [[Composite_Figures|Composite Figures]] [stub]
+- [[Composite_Figures|Composite Figures]] [draft]
 - [[Compound_Inequalities|Compound Inequalities]] [draft] (1 sources)
 - [[Conditional_Probability|Conditional Probability]] [draft]
 - [[Coordinate_Geometry_Proofs|Coordinate Geometry Proofs]] [draft]
@@ -187,7 +187,7 @@ Total pages: 230
 - [[Parallel_And_Perpendicular_Lines|Parallel and Perpendicular Lines]] [draft] (1 sources)
 - [[Parametric|Parametric Equations]] [draft]
 - [[Percent_Increase_And_Decrease|Percent Increase and Decrease]] [draft]
-- [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]] [stub]
+- [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]] [draft]
 - [[Permutations_And_Combinations|Permutations and Combinations]] [draft] (1 sources)
 - [[Piecewise_Functions|Piecewise Functions]] [draft]
 - [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]] [draft] (1 sources)
@@ -198,11 +198,11 @@ Total pages: 230
 - [[Polynomial_Basics|Polynomial Basics]] [draft] (1 sources)
 - [[Polynomial_Division|Polynomial Division]] [draft] (1 sources)
 - [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]] [draft] (1 sources)
-- [[Polynomial_Inequalities|Polynomial Inequalities]] [stub]
+- [[Polynomial_Inequalities|Polynomial Inequalities]] [draft]
 - [[Power_Functions|Power Functions]] [draft] (1 sources)
 - [[Probability_Of_Simple_And_Compound_Events|Probability of Simple and Compound Events]] [draft] (1 sources)
-- [[Product_Power_And_Quotient_Rules|Product, Power, and Quotient Rules]] [stub]
-- [[Properties_Of_Addition_And_Multiplication|Properties of Addition and Multiplication]] [stub]
+- [[Product_Power_And_Quotient_Rules|Product Power and Quotient Rules]] [draft]
+- [[Properties_Of_Addition_And_Multiplication|Properties of Addition and Multiplication]] [draft]
 - [[Properties_Of_Exponents|Properties of Exponents]] [draft]
 - [[Properties_Of_Logarithms|Properties of Logarithms]] [draft] (1 sources)
 - [[Proportions_And_Cross_Multiplication|Proportions and Cross Multiplication]] [draft] (1 sources)
@@ -215,27 +215,27 @@ Total pages: 230
 
 - [[Rational_Equations_And_Applications|Rational Equations and Applications]] [draft] (1 sources)
 - [[Rational_Exponents|Rational Exponents]] [draft] (1 sources)
-- [[Rational_Inequalities|Rational Inequalities]] [stub]
+- [[Rational_Inequalities|Rational Inequalities]] [draft]
 - [[Ratios_And_Equivalent_Ratios|Ratios and Equivalent Ratios]] [draft] (1 sources)
 - [[Ratios_Rates_And_Proportions|Ratios, Rates, and Proportions]] [draft]
 - [[Real_Zeros_Of_Polynomials|Real Zeros of Polynomials]] [draft]
 - [[Real_Zeros_Of_Polynomials_Advanced|Real Zeros of Polynomials (Advanced)]] [draft]
 - [[Relations|Relations]] [draft]
 - [[Relations_And_Functions|Relations and Functions]] [draft] (2 sources)
-- [[Repeating_Decimals_As_Fractions|Repeating Decimals as Fractions]] [stub]
+- [[Repeating_Decimals_As_Fractions|Repeating Decimals as Fractions]] [draft]
 - [[Rigid_Transformations|Rigid Transformations]] [draft]
 
 ### S
 
 - [[Sampling_Methods_And_Bias|Sampling Methods and Bias]] [draft] (1 sources)
-- [[Scale_Drawings_And_Maps|Scale Drawings and Maps]] [stub]
+- [[Scale_Drawings_And_Maps|Scale Drawings and Maps]] [draft]
 - [[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]] [draft] (1 sources)
 - [[Scientific_Notation|Scientific Notation]] [draft] (1 sources)
 - [[Sequences|Sequences]] [draft] (2 sources)
-- [[Set_Notation_And_The_Real_Numbers|Set Notation and the Real Numbers]] [stub]
+- [[Set_Notation_And_The_Real_Numbers|Set Notation and the Real Numbers]] [draft]
 - [[Similar_Triangles|Similar Triangles]] [draft] (1 sources)
 - [[Simple_And_Compound_Interest|Simple and Compound Interest]] [draft] (1 sources)
-- [[Simplifying_Expressions|Simplifying Expressions]] [stub]
+- [[Simplifying_Expressions|Simplifying Expressions]] [draft]
 - [[Simplifying_Radical_Expressions|Simplifying Radical Expressions]] [draft] (1 sources)
 - [[Simplifying_Rational_Expressions|Simplifying Rational Expressions]] [draft] (2 sources)
 - [[Sinusoid|Sinusoid]] [draft] (1 sources)
@@ -296,7 +296,7 @@ Total pages: 230
 
 - [[Understanding_Percents|Understanding Percents]] [draft]
 - [[Unit_Rates|Unit Rates]] [draft] (1 sources)
-- [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]] [stub]
+- [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]] [draft]
 
 ### V
 

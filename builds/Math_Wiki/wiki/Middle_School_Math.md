@@ -62,20 +62,22 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Middle School Math topics --- 64 live / 73 total
+### Middle School Math topics --- 73 live / 73 total
 
-**🟢 Live topics with practice widgets (64)**
+**🟢 Live topics with practice widgets (73)**
 
 - 🟢 [[Absolute_Value_And_Opposites|Absolute Value and Opposites]]
 - 🟢 [[Adding_And_Subtracting_Decimals|Adding and Subtracting Decimals]]
 - 🟢 [[Adding_And_Subtracting_Fractions|Adding and Subtracting Fractions]]
 - 🟢 [[Adding_And_Subtracting_Integers|Adding and Subtracting Integers]]
+- 🟢 [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]]
 - 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 - 🟢 [[Applications_Tax_Tip_Discount_And_Simple_Interest|Applications: Tax, Tip, Discount, and Simple Interest]]
 - 🟢 [[Arithmetic_Sequences_And_Linear_Patterns|Arithmetic Sequences and Linear Patterns]]
 - 🟢 [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
 - 🟢 [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]]
 - 🟢 [[Comparing_And_Ordering_Fractions|Comparing and Ordering Fractions]]
+- 🟢 [[Composite_Figures|Composite Figures]]
 - 🟢 [[Data_Displays|Data Displays]]
 - 🟢 [[Data_Displays_And_Measures_Of_Spread|Data Displays and Measures of Spread]]
 - 🟢 [[Decimal_Place_Value_And_Comparing_Decimals|Decimal Place Value and Comparing Decimals]]
@@ -98,16 +100,22 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - 🟢 [[Multiplying_And_Dividing_Integers|Multiplying and Dividing Integers]]
 - 🟢 [[Order_Of_Operations|Order of Operations]]
 - 🟢 [[Percent_Increase_And_Decrease|Percent Increase and Decrease]]
+- 🟢 [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
 - 🟢 [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]]
 - 🟢 [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
 - 🟢 [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]]
 - 🟢 [[Probability_Of_Simple_And_Compound_Events|Probability of Simple and Compound Events]]
+- 🟢 [[Product_Power_And_Quotient_Rules|Product Power and Quotient Rules]]
+- 🟢 [[Properties_Of_Addition_And_Multiplication|Properties of Addition and Multiplication]]
 - 🟢 [[Proportions_And_Cross_Multiplication|Proportions and Cross Multiplication]]
 - 🟢 [[Rational_Exponents|Rational Exponents]]
 - 🟢 [[Ratios_And_Equivalent_Ratios|Ratios and Equivalent Ratios]]
 - 🟢 [[Ratios_Rates_And_Proportions|Ratios, Rates, and Proportions]]
+- 🟢 [[Repeating_Decimals_As_Fractions|Repeating Decimals as Fractions]]
+- 🟢 [[Scale_Drawings_And_Maps|Scale Drawings and Maps]]
 - 🟢 [[Similar_Triangles|Similar Triangles]]
 - 🟢 [[Simple_And_Compound_Interest|Simple and Compound Interest]]
+- 🟢 [[Simplifying_Expressions|Simplifying Expressions]]
 - 🟢 [[Slope_Intercept_Form|Slope-Intercept Form]]
 - 🟢 [[Solving_One_Step_Equations_Addition_And_Subtraction|Solving One-Step Equations (Addition and Subtraction)]]
 - 🟢 [[Solving_One_Step_Equations_Multiplication_And_Division|Solving One-Step Equations (Multiplication and Division)]]
@@ -126,25 +134,11 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - 🟢 [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]]
 - 🟢 [[Understanding_Percents|Understanding Percents]]
 - 🟢 [[Unit_Rates|Unit Rates]]
+- 🟢 [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]]
 - 🟢 [[Variables_And_Algebraic_Expressions|Variables and Algebraic Expressions]]
 - 🟢 [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]]
 - 🟢 [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 - 🟢 [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
-
-<details>
-<summary>⚪ 9 stub topic(s) (click to expand)</summary>
-
-- ⚪ [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]]
-- ⚪ [[Composite_Figures|Composite Figures]]
-- ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
-- ⚪ [[Product_Power_And_Quotient_Rules|Product, Power, and Quotient Rules]]
-- ⚪ [[Properties_Of_Addition_And_Multiplication|Properties of Addition and Multiplication]]
-- ⚪ [[Repeating_Decimals_As_Fractions|Repeating Decimals as Fractions]]
-- ⚪ [[Scale_Drawings_And_Maps|Scale Drawings and Maps]]
-- ⚪ [[Simplifying_Expressions|Simplifying Expressions]]
-- ⚪ [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]]
-
-</details>
 
 <!-- AUTO:TOPICS:END -->
 

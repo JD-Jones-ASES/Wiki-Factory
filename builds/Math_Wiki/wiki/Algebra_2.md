@@ -59,9 +59,9 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Algebra 2 topics --- 42 live / 45 total
+### Algebra 2 topics --- 45 live / 45 total
 
-**🟢 Live topics with practice widgets (42)**
+**🟢 Live topics with practice widgets (45)**
 
 - 🟢 [[Absolute_Value_Equations|Absolute Value Equations]]
 - 🟢 [[Absolute_Value_Functions|Absolute Value Functions]]
@@ -93,11 +93,14 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Piecewise_Functions|Piecewise Functions]]
 - 🟢 [[Polynomial_Division|Polynomial Division]]
 - 🟢 [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]]
+- 🟢 [[Polynomial_Inequalities|Polynomial Inequalities]]
 - 🟢 [[Power_Functions|Power Functions]]
 - 🟢 [[Quadratic_Functions|Quadratic Functions]]
 - 🟢 [[Rational_Equations_And_Applications|Rational Equations and Applications]]
+- 🟢 [[Rational_Inequalities|Rational Inequalities]]
 - 🟢 [[Sampling_Methods_And_Bias|Sampling Methods and Bias]]
 - 🟢 [[Sequences|Sequences]]
+- 🟢 [[Set_Notation_And_The_Real_Numbers|Set Notation and the Real Numbers]]
 - 🟢 [[Solving_Equations_By_Factoring|Solving Equations by Factoring]]
 - 🟢 [[Solving_Equations_By_Taking_Roots|Solving Equations by Taking Roots]]
 - 🟢 [[Square_Root_Functions|Square Root Functions]]
@@ -105,15 +108,6 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[The_Quadratic_Formula|The Quadratic Formula]]
 - 🟢 [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]]
 - 🟢 [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, and Combined]]
-
-<details>
-<summary>⚪ 3 stub topic(s) (click to expand)</summary>
-
-- ⚪ [[Polynomial_Inequalities|Polynomial Inequalities]]
-- ⚪ [[Rational_Inequalities|Rational Inequalities]]
-- ⚪ [[Set_Notation_And_The_Real_Numbers|Set Notation and the Real Numbers]]
-
-</details>
 
 <!-- AUTO:TOPICS:END -->
 

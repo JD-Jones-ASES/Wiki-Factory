@@ -58,24 +58,27 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Core Geometry topics --- 25 live / 28 total
+### Core Geometry topics --- 28 live / 28 total
 
-**🟢 Live topics with practice widgets (25)**
+**🟢 Live topics with practice widgets (28)**
 
 - 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 - 🟢 [[Chords_Secants_And_Tangents|Chords, Secants, and Tangents]]
 - 🟢 [[Circles|Circles]]
 - 🟢 [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
 - 🟢 [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]]
+- 🟢 [[Composite_Figures|Composite Figures]]
 - 🟢 [[Coordinate_Geometry_Proofs|Coordinate Geometry Proofs]]
 - 🟢 [[Cross_Sections_Of_Solids|Cross Sections of Solids]]
 - 🟢 [[Dilations_And_Similarity|Dilations and Similarity]]
 - 🟢 [[Equations_Of_Circles|Equations of Circles]]
 - 🟢 [[Inscribed_Angles_And_Arcs|Inscribed Angles and Arcs]]
+- 🟢 [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
 - 🟢 [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
 - 🟢 [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]]
 - 🟢 [[Polygon_Angle_Sums|Polygon Angle Sums]]
 - 🟢 [[Rigid_Transformations|Rigid Transformations]]
+- 🟢 [[Scale_Drawings_And_Maps|Scale Drawings and Maps]]
 - 🟢 [[Similar_Triangles|Similar Triangles]]
 - 🟢 [[Special_Right_Triangles|Special Right Triangles]]
 - 🟢 [[Surface_Area_And_Volume_Of_Spheres|Surface Area and Volume of Spheres]]
@@ -87,15 +90,6 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Triangle_Congruence_Criteria|Triangle Congruence Criteria]]
 - 🟢 [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]]
 - 🟢 [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
-
-<details>
-<summary>⚪ 3 stub topic(s) (click to expand)</summary>
-
-- ⚪ [[Composite_Figures|Composite Figures]]
-- ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
-- ⚪ [[Scale_Drawings_And_Maps|Scale Drawings and Maps]]
-
-</details>
 
 <!-- AUTO:TOPICS:END -->
 

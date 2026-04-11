@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T21:18:09.901386+00:00",
+  "generated_at": "2026-04-11T21:44:52.916838+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 641,
+  "generator_count": 677,
   "by_topic": {
     "circles": [
       {
@@ -3727,6 +3727,102 @@
         }
       }
     ],
+    "polynomial_inequalities": [
+      {
+        "generator_id": "quadratic_inequality_standard_form",
+        "display_name": "Solve a quadratic inequality in standard form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "cubic_inequality_factored_form",
+        "display_name": "Solve a factored cubic inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "quadratic_inequality_nonzero_rhs",
+        "display_name": "Solve quadratic inequality with nonzero RHS",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "rational_inequalities": [
+      {
+        "generator_id": "simple_rational_inequality_linear_over_linear",
+        "display_name": "Solve a linear-over-linear rational inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rational_inequality_constant_rhs",
+        "display_name": "Solve a rational inequality with a constant on the right",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "quadratic_over_linear_rational_inequality",
+        "display_name": "Solve a quadratic-over-linear rational inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "set_notation_and_the_real_numbers": [
+      {
+        "generator_id": "inequality_to_interval_notation",
+        "display_name": "Convert inequality to interval notation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "interval_notation_to_inequality",
+        "display_name": "Convert interval notation to inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "classify_number_set_membership",
+        "display_name": "Classify a number by set membership",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 12,
+          "medium": 12,
+          "hard": 12
+        }
+      }
+    ],
     "finding_a_percent_of_a_number": [
       {
         "generator_id": "percent_of_number",
@@ -5031,6 +5127,294 @@
       {
         "generator_id": "midpoint_on_number_line_1d",
         "display_name": "Midpoint on the number line",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "composite_figures": [
+      {
+        "generator_id": "composite_figure_area_rect_plus_semicircle",
+        "display_name": "Find the area of a rectangle with a semicircle on top",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "composite_figure_area_l_shape",
+        "display_name": "Find the area of an L-shape",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "composite_figure_perimeter_l_shape",
+        "display_name": "Find the perimeter of an L-shape",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "perimeter_and_area_of_polygons": [
+      {
+        "generator_id": "area_of_triangle",
+        "display_name": "Find the area of a triangle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "area_of_trapezoid",
+        "display_name": "Find the area of a trapezoid",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "perimeter_of_regular_polygon",
+        "display_name": "Find the perimeter of a regular polygon",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "scale_drawings_and_maps": [
+      {
+        "generator_id": "scale_distance_forward",
+        "display_name": "Find real distance from a map scale",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "scale_distance_reverse",
+        "display_name": "Find a model's dimension from real measurements",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "scale_factor_from_pair",
+        "display_name": "Find the scale from a drawing-real pair",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "units_of_measurement_and_conversion": [
+      {
+        "generator_id": "length_conversion",
+        "display_name": "Convert between units of length",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "time_conversion",
+        "display_name": "Convert between units of time",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "mass_or_weight_conversion",
+        "display_name": "Convert between units of mass or weight",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "product_power_and_quotient_rules": [
+      {
+        "generator_id": "product_rule_single_base",
+        "display_name": "Simplify a product of powers with the same base",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "power_rule_single_base",
+        "display_name": "Simplify a power raised to a power",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "quotient_rule_single_base",
+        "display_name": "Simplify a quotient of powers with the same base",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "repeating_decimals_as_fractions": [
+      {
+        "generator_id": "single_period_repeating_to_fraction",
+        "display_name": "Convert a single-digit repeating decimal to a fraction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 8,
+          "medium": 8,
+          "hard": 8
+        }
+      },
+      {
+        "generator_id": "two_digit_repeating_to_fraction",
+        "display_name": "Convert a two-digit repeating decimal to a fraction",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "mixed_repeating_to_fraction",
+        "display_name": "Convert a mixed (one-digit delayed) repeating decimal",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "simplifying_expressions": [
+      {
+        "generator_id": "combine_like_terms_two_vars",
+        "display_name": "Combine like terms in a two-variable expression",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "distribute_and_combine",
+        "display_name": "Distribute a constant and combine like terms",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_constant_term_generic",
+        "display_name": "Simplify a product of two single-variable monomials",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "properties_of_addition_and_multiplication": [
+      {
+        "generator_id": "identify_arithmetic_property",
+        "display_name": "Identify the property shown in an equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "apply_commutative_rewrite",
+        "display_name": "Rewrite an expression using the commutative property",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "apply_distributive_rewrite",
+        "display_name": "Rewrite an expression using the distributive property",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "applications_of_proportional_reasoning": [
+      {
+        "generator_id": "recipe_scaling_proportion_word_problem",
+        "display_name": "Scale a recipe by a proportion",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "currency_or_rate_conversion_word_problem",
+        "display_name": "Currency / rate conversion via proportion",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "shadow_similar_triangles_word_problem",
+        "display_name": "Similar triangles shadow / height word problem",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -10273,6 +10657,96 @@
       },
       "shard_file": "problems/histograms_and_box_plots.json"
     },
+    "quadratic_inequality_standard_form": {
+      "topic_slug": "polynomial_inequalities",
+      "display_name": "Solve a quadratic inequality in standard form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_inequalities.json"
+    },
+    "cubic_inequality_factored_form": {
+      "topic_slug": "polynomial_inequalities",
+      "display_name": "Solve a factored cubic inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_inequalities.json"
+    },
+    "quadratic_inequality_nonzero_rhs": {
+      "topic_slug": "polynomial_inequalities",
+      "display_name": "Solve quadratic inequality with nonzero RHS",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_inequalities.json"
+    },
+    "simple_rational_inequality_linear_over_linear": {
+      "topic_slug": "rational_inequalities",
+      "display_name": "Solve a linear-over-linear rational inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rational_inequalities.json"
+    },
+    "rational_inequality_constant_rhs": {
+      "topic_slug": "rational_inequalities",
+      "display_name": "Solve a rational inequality with a constant on the right",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rational_inequalities.json"
+    },
+    "quadratic_over_linear_rational_inequality": {
+      "topic_slug": "rational_inequalities",
+      "display_name": "Solve a quadratic-over-linear rational inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rational_inequalities.json"
+    },
+    "inequality_to_interval_notation": {
+      "topic_slug": "set_notation_and_the_real_numbers",
+      "display_name": "Convert inequality to interval notation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/set_notation_and_the_real_numbers.json"
+    },
+    "interval_notation_to_inequality": {
+      "topic_slug": "set_notation_and_the_real_numbers",
+      "display_name": "Convert interval notation to inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/set_notation_and_the_real_numbers.json"
+    },
+    "classify_number_set_membership": {
+      "topic_slug": "set_notation_and_the_real_numbers",
+      "display_name": "Classify a number by set membership",
+      "counts": {
+        "easy": 12,
+        "medium": 12,
+        "hard": 12
+      },
+      "shard_file": "problems/set_notation_and_the_real_numbers.json"
+    },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",
       "display_name": "Find p% of a number",
@@ -11562,6 +12036,276 @@
         "hard": 30
       },
       "shard_file": "problems/the_midpoint_formula.json"
+    },
+    "composite_figure_area_rect_plus_semicircle": {
+      "topic_slug": "composite_figures",
+      "display_name": "Find the area of a rectangle with a semicircle on top",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/composite_figures.json"
+    },
+    "composite_figure_area_l_shape": {
+      "topic_slug": "composite_figures",
+      "display_name": "Find the area of an L-shape",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/composite_figures.json"
+    },
+    "composite_figure_perimeter_l_shape": {
+      "topic_slug": "composite_figures",
+      "display_name": "Find the perimeter of an L-shape",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/composite_figures.json"
+    },
+    "area_of_triangle": {
+      "topic_slug": "perimeter_and_area_of_polygons",
+      "display_name": "Find the area of a triangle",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/perimeter_and_area_of_polygons.json"
+    },
+    "area_of_trapezoid": {
+      "topic_slug": "perimeter_and_area_of_polygons",
+      "display_name": "Find the area of a trapezoid",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/perimeter_and_area_of_polygons.json"
+    },
+    "perimeter_of_regular_polygon": {
+      "topic_slug": "perimeter_and_area_of_polygons",
+      "display_name": "Find the perimeter of a regular polygon",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/perimeter_and_area_of_polygons.json"
+    },
+    "scale_distance_forward": {
+      "topic_slug": "scale_drawings_and_maps",
+      "display_name": "Find real distance from a map scale",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/scale_drawings_and_maps.json"
+    },
+    "scale_distance_reverse": {
+      "topic_slug": "scale_drawings_and_maps",
+      "display_name": "Find a model's dimension from real measurements",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/scale_drawings_and_maps.json"
+    },
+    "scale_factor_from_pair": {
+      "topic_slug": "scale_drawings_and_maps",
+      "display_name": "Find the scale from a drawing-real pair",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/scale_drawings_and_maps.json"
+    },
+    "length_conversion": {
+      "topic_slug": "units_of_measurement_and_conversion",
+      "display_name": "Convert between units of length",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/units_of_measurement_and_conversion.json"
+    },
+    "time_conversion": {
+      "topic_slug": "units_of_measurement_and_conversion",
+      "display_name": "Convert between units of time",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/units_of_measurement_and_conversion.json"
+    },
+    "mass_or_weight_conversion": {
+      "topic_slug": "units_of_measurement_and_conversion",
+      "display_name": "Convert between units of mass or weight",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/units_of_measurement_and_conversion.json"
+    },
+    "product_rule_single_base": {
+      "topic_slug": "product_power_and_quotient_rules",
+      "display_name": "Simplify a product of powers with the same base",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/product_power_and_quotient_rules.json"
+    },
+    "power_rule_single_base": {
+      "topic_slug": "product_power_and_quotient_rules",
+      "display_name": "Simplify a power raised to a power",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/product_power_and_quotient_rules.json"
+    },
+    "quotient_rule_single_base": {
+      "topic_slug": "product_power_and_quotient_rules",
+      "display_name": "Simplify a quotient of powers with the same base",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/product_power_and_quotient_rules.json"
+    },
+    "single_period_repeating_to_fraction": {
+      "topic_slug": "repeating_decimals_as_fractions",
+      "display_name": "Convert a single-digit repeating decimal to a fraction",
+      "counts": {
+        "easy": 8,
+        "medium": 8,
+        "hard": 8
+      },
+      "shard_file": "problems/repeating_decimals_as_fractions.json"
+    },
+    "two_digit_repeating_to_fraction": {
+      "topic_slug": "repeating_decimals_as_fractions",
+      "display_name": "Convert a two-digit repeating decimal to a fraction",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/repeating_decimals_as_fractions.json"
+    },
+    "mixed_repeating_to_fraction": {
+      "topic_slug": "repeating_decimals_as_fractions",
+      "display_name": "Convert a mixed (one-digit delayed) repeating decimal",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/repeating_decimals_as_fractions.json"
+    },
+    "combine_like_terms_two_vars": {
+      "topic_slug": "simplifying_expressions",
+      "display_name": "Combine like terms in a two-variable expression",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_expressions.json"
+    },
+    "distribute_and_combine": {
+      "topic_slug": "simplifying_expressions",
+      "display_name": "Distribute a constant and combine like terms",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_expressions.json"
+    },
+    "multiply_constant_term_generic": {
+      "topic_slug": "simplifying_expressions",
+      "display_name": "Simplify a product of two single-variable monomials",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/simplifying_expressions.json"
+    },
+    "identify_arithmetic_property": {
+      "topic_slug": "properties_of_addition_and_multiplication",
+      "display_name": "Identify the property shown in an equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/properties_of_addition_and_multiplication.json"
+    },
+    "apply_commutative_rewrite": {
+      "topic_slug": "properties_of_addition_and_multiplication",
+      "display_name": "Rewrite an expression using the commutative property",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/properties_of_addition_and_multiplication.json"
+    },
+    "apply_distributive_rewrite": {
+      "topic_slug": "properties_of_addition_and_multiplication",
+      "display_name": "Rewrite an expression using the distributive property",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/properties_of_addition_and_multiplication.json"
+    },
+    "recipe_scaling_proportion_word_problem": {
+      "topic_slug": "applications_of_proportional_reasoning",
+      "display_name": "Scale a recipe by a proportion",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_proportional_reasoning.json"
+    },
+    "currency_or_rate_conversion_word_problem": {
+      "topic_slug": "applications_of_proportional_reasoning",
+      "display_name": "Currency / rate conversion via proportion",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_proportional_reasoning.json"
+    },
+    "shadow_similar_triangles_word_problem": {
+      "topic_slug": "applications_of_proportional_reasoning",
+      "display_name": "Similar triangles shadow / height word problem",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_proportional_reasoning.json"
     },
     "convert_degrees_to_radians": {
       "topic_slug": "angles",

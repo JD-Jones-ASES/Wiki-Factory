@@ -5147,6 +5147,274 @@ def fig_binomial_pmf_bar_chart():
 
 
 # ---------------------------------------------------------------------------
+# Pre-algebra: composite L-shape figure
+
+def fig_composite_figure():
+    """L-shape composite figure decomposed into two rectangles."""
+    from matplotlib.patches import Polygon
+
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_aspect("equal")
+
+    # L-shape vertices: (0,0) -> (8,0) -> (8,3) -> (5,3) -> (5,6) -> (0,6) -> (0,0)
+    l_shape = [(0, 0), (8, 0), (8, 3), (5, 3), (5, 6), (0, 6)]
+
+    # Filled interior
+    ax.add_patch(Polygon(l_shape, closed=True,
+                         facecolor=C_FILL, edgecolor="none", zorder=1))
+
+    # Outer boundary
+    xs = [p[0] for p in l_shape] + [l_shape[0][0]]
+    ys = [p[1] for p in l_shape] + [l_shape[0][1]]
+    ax.plot(xs, ys, color=C_LINE, linewidth=2.2, zorder=3)
+
+    # Dashed decomposition line (vertical at x=5, from y=0 to y=3)
+    ax.plot([5, 5], [0, 3], color=C_DASH, linewidth=1.6,
+            linestyle="--", zorder=2)
+
+    # Labels for the two pieces
+    # Bottom piece: full 8 wide x 3 tall rectangle, labeled centrally
+    ax.text(4.0, 1.5, "Rectangle 1\n$8 \\times 3 = 24$",
+            fontsize=11, color=C_TEXT, ha="center", va="center",
+            fontweight="bold")
+    # Top-left piece: 5 wide x 3 tall rectangle, labeled centrally
+    ax.text(2.5, 4.5, "Rectangle 2\n$5 \\times 3 = 15$",
+            fontsize=11, color=C_TEXT, ha="center", va="center",
+            fontweight="bold")
+
+    # Outer dimension labels
+    ax.text(4.0, -0.45, "8", fontsize=11, color=C_TEXT,
+            ha="center", va="top")
+    ax.text(8.35, 1.5, "3", fontsize=11, color=C_TEXT,
+            ha="left", va="center")
+    ax.text(5.35, 4.5, "3", fontsize=11, color=C_TEXT,
+            ha="left", va="center")
+    ax.text(2.5, 6.35, "5", fontsize=11, color=C_TEXT,
+            ha="center", va="bottom")
+    ax.text(-0.35, 3.0, "6", fontsize=11, color=C_TEXT,
+            ha="right", va="center")
+
+    # Total area note
+    ax.text(4.0, -1.2,
+            "Total area $= 24 + 15 = 39$ square units",
+            fontsize=11, color=C_TEXT, ha="center", va="top",
+            style="italic")
+
+    ax.set_xlim(-1.2, 9.2)
+    ax.set_ylim(-2.0, 7.2)
+    ax.set_title("Composite figure: decomposition",
+                 fontsize=13, color=C_TEXT, pad=10)
+    ax.axis("off")
+
+    _save(fig, "pre_algebra/composite_figure.svg")
+
+
+# ---------------------------------------------------------------------------
+# Pre-algebra: polygon areas gallery
+
+def fig_polygon_areas():
+    """2x2 grid of labeled polygons with base and height marked."""
+    from matplotlib.patches import Polygon
+
+    fig, axes = plt.subplots(2, 2, figsize=(9, 8))
+
+    def draw_poly(ax, verts, title):
+        patch = Polygon(verts, closed=True,
+                        facecolor=C_FILL, edgecolor=C_LINE, linewidth=2.0)
+        ax.add_patch(patch)
+        ax.set_aspect("equal")
+        ax.axis("off")
+        ax.set_title(title, fontsize=12, color=C_TEXT, pad=8)
+
+    # --- Triangle (top-left) ---
+    ax = axes[0, 0]
+    tri = [(0, 0), (6, 0), (2, 4)]
+    draw_poly(ax, tri, "Triangle")
+    # Height: dashed vertical from (2, 0) to (2, 4)
+    ax.plot([2, 2], [0, 4], color=C_DASH, linewidth=1.4,
+            linestyle="--")
+    # Base label below
+    ax.text(3.0, -0.45, "$b = 6$", fontsize=11, color=C_TEXT,
+            ha="center", va="top")
+    # Height label to the right of the dashed line
+    ax.text(2.25, 2.0, "$h = 4$", fontsize=11, color=C_TEXT,
+            ha="left", va="center")
+    ax.set_xlim(-1.0, 7.0)
+    ax.set_ylim(-1.2, 5.0)
+
+    # --- Rectangle (top-right) ---
+    ax = axes[0, 1]
+    rect = [(0, 0), (6, 0), (6, 4), (0, 4)]
+    draw_poly(ax, rect, "Rectangle")
+    # Length label (bottom)
+    ax.text(3.0, -0.45, "$\\ell = 6$", fontsize=11, color=C_TEXT,
+            ha="center", va="top")
+    # Width label (left)
+    ax.text(-0.45, 2.0, "$w = 4$", fontsize=11, color=C_TEXT,
+            ha="right", va="center")
+    ax.set_xlim(-1.5, 7.0)
+    ax.set_ylim(-1.2, 5.0)
+
+    # --- Parallelogram (bottom-left) ---
+    ax = axes[1, 0]
+    para = [(1, 0), (7, 0), (9, 4), (3, 4)]
+    draw_poly(ax, para, "Parallelogram")
+    # Perpendicular height dashed from (3, 0) to (3, 4)
+    ax.plot([3, 3], [0, 4], color=C_DASH, linewidth=1.4,
+            linestyle="--")
+    # Base label (bottom span 1..7, width 6)
+    ax.text(4.0, -0.45, "$b = 6$", fontsize=11, color=C_TEXT,
+            ha="center", va="top")
+    # Height label
+    ax.text(3.25, 2.0, "$h = 4$", fontsize=11, color=C_TEXT,
+            ha="left", va="center")
+    ax.set_xlim(-0.5, 10.0)
+    ax.set_ylim(-1.2, 5.0)
+
+    # --- Trapezoid (bottom-right) ---
+    ax = axes[1, 1]
+    trap = [(2, 0), (8, 0), (7, 4), (3, 4)]
+    draw_poly(ax, trap, "Trapezoid")
+    # Height: dashed vertical from (3, 0) to (3, 4)
+    ax.plot([3, 3], [0, 4], color=C_DASH, linewidth=1.4,
+            linestyle="--")
+    # b1 label (bottom, span 2..8, width 6)
+    ax.text(5.0, -0.45, "$b_1 = 6$", fontsize=11, color=C_TEXT,
+            ha="center", va="top")
+    # b2 label (top, span 3..7, width 4)
+    ax.text(5.0, 4.35, "$b_2 = 4$", fontsize=11, color=C_TEXT,
+            ha="center", va="bottom")
+    # Height label
+    ax.text(3.25, 2.0, "$h = 4$", fontsize=11, color=C_TEXT,
+            ha="left", va="center")
+    ax.set_xlim(0.5, 9.5)
+    ax.set_ylim(-1.2, 5.4)
+
+    fig.suptitle("Polygon areas: base and height",
+                 fontsize=14, color=C_TEXT, y=0.98)
+
+    _save(fig, "pre_algebra/polygon_areas.svg")
+
+
+# ---------------------------------------------------------------------------
+# Pre-algebra: map with scale bar
+
+def fig_map_scale():
+    """Stylized road map with two towns and a scale bar."""
+    from matplotlib.patches import Rectangle
+
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_aspect("equal")
+    ax.axis("off")
+
+    # Outer frame
+    frame = Rectangle((0.3, 0.2), 7.4, 5.4,
+                      facecolor=C_FILL, edgecolor=C_LINE,
+                      linewidth=1.8, zorder=1)
+    ax.add_patch(frame)
+
+    # Winding road: smooth sinusoidal curve from (1, 4.5) toward (7, 3)
+    xs = np.linspace(1.0, 7.0, 200)
+    ys = 3.75 + 0.75 * np.sin(xs - 1.0)
+    ax.plot(xs, ys, color=C_LINE, linewidth=3.2, zorder=2,
+            solid_capstyle="round")
+
+    # Town dots
+    ax.plot(1.0, 4.5, "o", color=C_RADIUS, markersize=12, zorder=4)
+    ax.plot(7.0, 3.0, "o", color=C_RADIUS, markersize=12, zorder=4)
+
+    # Town labels (offset so they don't overlap the road)
+    ax.text(1.0, 4.95, "Town A", fontsize=11, color=C_TEXT,
+            ha="center", va="bottom", fontweight="bold")
+    ax.text(7.0, 2.55, "Town B", fontsize=11, color=C_TEXT,
+            ha="center", va="top", fontweight="bold")
+
+    # Scale bar: 3 units wide representing 1 inch (stylized)
+    bar_y = 0.75
+    bar_x0 = 2.5
+    bar_x1 = 5.5
+    ax.plot([bar_x0, bar_x1], [bar_y, bar_y],
+            color=C_DASH, linewidth=2.4, zorder=3)
+    # Vertical tick marks at each end
+    tick = 0.15
+    ax.plot([bar_x0, bar_x0], [bar_y - tick, bar_y + tick],
+            color=C_DASH, linewidth=2.4, zorder=3)
+    ax.plot([bar_x1, bar_x1], [bar_y - tick, bar_y + tick],
+            color=C_DASH, linewidth=2.4, zorder=3)
+    # Scale label centered above
+    ax.text((bar_x0 + bar_x1) / 2, bar_y + 0.25,
+            "1 inch = 50 miles", fontsize=11, color=C_TEXT,
+            ha="center", va="bottom")
+
+    ax.set_xlim(0.0, 8.0)
+    ax.set_ylim(0.0, 6.0)
+    ax.set_title("Map scale", fontsize=13, color=C_TEXT, pad=10)
+
+    _save(fig, "pre_algebra/map_scale.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: polynomial sign chart
+
+def fig_polynomial_sign_chart():
+    """Sign chart for (x - 2)(x - 3) >= 0 on a number line."""
+    from matplotlib.patches import Rectangle
+
+    fig, ax = plt.subplots(figsize=(8, 3))
+    ax.set_aspect("auto")
+
+    x_min, x_max = -1.0, 6.0
+
+    # Shaded regions above the number line (x <= 2 and x >= 3)
+    ax.add_patch(Rectangle((x_min, 0.0), 2.0 - x_min, 0.5,
+                           facecolor=C_FILL, edgecolor="none", zorder=1))
+    ax.add_patch(Rectangle((3.0, 0.0), x_max - 3.0, 0.5,
+                           facecolor=C_FILL, edgecolor="none", zorder=1))
+
+    # Number line (arrow from x_min to x_max at y=0)
+    ax.annotate(
+        "", xy=(x_max + 0.15, 0), xytext=(x_min - 0.15, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.6),
+    )
+
+    # Integer tick marks and labels at 0..5
+    for i in range(0, 6):
+        ax.plot([i, i], [-0.08, 0.08], color=C_LINE, linewidth=1.2)
+        ax.text(i, -0.18, str(i), fontsize=10, color=C_TEXT,
+                ha="center", va="top")
+
+    # Filled critical-point dots at x=2 and x=3
+    ax.plot(2, 0, "o", color=C_RADIUS, markersize=12, zorder=5)
+    ax.plot(3, 0, "o", color=C_RADIUS, markersize=12, zorder=5)
+
+    # Sign annotations above the shaded regions
+    ax.text(0.5, 0.25, "$+$", fontsize=18, color=C_TEXT,
+            ha="center", va="center", fontweight="bold")
+    ax.text(2.5, 0.25, "$-$", fontsize=18, color=C_TEXT,
+            ha="center", va="center", fontweight="bold")
+    ax.text(4.5, 0.25, "$+$", fontsize=18, color=C_TEXT,
+            ha="center", va="center", fontweight="bold")
+
+    # Solution annotation below
+    ax.text(2.5, -0.55,
+            r"Solution: $x \leq 2$ or $x \geq 3$",
+            fontsize=12, color=C_TEXT, ha="center", va="top")
+
+    # Axis cleanup
+    ax.set_xlim(x_min - 0.4, x_max + 0.4)
+    ax.set_ylim(-0.85, 0.75)
+    ax.set_xticks([])
+    ax.yaxis.set_visible(False)
+    for s in ["top", "right", "left", "bottom"]:
+        ax.spines[s].set_visible(False)
+
+    ax.set_title(r"Sign chart: $(x-2)(x-3) \geq 0$",
+                 fontsize=13, color=C_TEXT, pad=10)
+
+    _save(fig, "algebra/polynomial_sign_chart.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -5214,6 +5482,10 @@ FIGURES = [
     ("residual_plot_pattern", fig_residual_plot_pattern),
     ("normal_curve_empirical_rule", fig_normal_curve_empirical_rule),
     ("binomial_pmf_bar_chart", fig_binomial_pmf_bar_chart),
+    ("composite_figure", fig_composite_figure),
+    ("polygon_areas", fig_polygon_areas),
+    ("map_scale", fig_map_scale),
+    ("polynomial_sign_chart", fig_polynomial_sign_chart),
 ]
 
 

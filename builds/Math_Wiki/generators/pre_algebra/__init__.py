@@ -24,3 +24,12 @@ from . import absolute_value_ops  # noqa: F401
 from . import exponents_intro  # noqa: F401
 from . import real_numbers  # noqa: F401
 from . import midpoint  # noqa: F401
+from . import composite_figures  # noqa: F401
+from . import perimeter_and_area  # noqa: F401
+from . import scale_drawings  # noqa: F401
+from . import units_and_conversion  # noqa: F401
+from . import exponent_rules  # noqa: F401
+from . import repeating_decimals  # noqa: F401
+from . import simplifying_expressions  # noqa: F401
+from . import number_properties  # noqa: F401
+from . import proportional_reasoning_apps  # noqa: F401

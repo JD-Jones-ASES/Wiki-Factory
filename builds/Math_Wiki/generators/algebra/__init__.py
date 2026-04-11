@@ -37,4 +37,7 @@ from . import piecewise_functions  # noqa: F401
 from . import conditional_probability  # noqa: F401
 from . import stats_inference  # noqa: F401
 from . import stats_displays  # noqa: F401
+from . import polynomial_inequalities  # noqa: F401
+from . import rational_inequalities  # noqa: F401
+from . import set_notation  # noqa: F401
 
