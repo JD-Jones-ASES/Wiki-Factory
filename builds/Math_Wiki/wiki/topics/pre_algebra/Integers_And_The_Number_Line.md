@@ -2,7 +2,7 @@
 title: "Integers and the Number Line"
 type: topic
 aliases: ["Integers", "Number Line", "Signed Whole Numbers"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -21,7 +21,6 @@ problem_type_ids: []
 figures: ["pre_algebra/number_line.svg"]
 summary: "Whole numbers together with their negatives, arranged in order on a line."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Integers and the Number Line
 
 # Integers and the Number Line

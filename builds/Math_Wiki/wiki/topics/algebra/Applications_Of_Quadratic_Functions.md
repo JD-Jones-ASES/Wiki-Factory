@@ -2,7 +2,7 @@
 title: "Applications of Quadratic Functions"
 type: topic
 aliases: ["Quadratic Word Problems", "Quadratic Modeling", "Optimization with Quadratics"]
-tags: ["#branch-algebra-2", "#topic-quadratics", "#word-problem-support", "#skill-translation"]
+tags: ["#branch-algebra-2", "#topic-quadratics", "#word-problem-support", "#skill-translation", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Word problems where a quadratic is the model and the vertex is the answer: projectile flights, area optimization, and revenue."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Applications of Quadratic Functions
 
 # Applications of Quadratic Functions

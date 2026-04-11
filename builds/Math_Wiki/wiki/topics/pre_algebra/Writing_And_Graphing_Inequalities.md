@@ -2,7 +2,7 @@
 title: "Writing and Graphing Inequalities"
 type: topic
 aliases: ["Inequality Symbols", "Number Line Inequalities"]
-tags: ["#branch-pre-algebra", "#topic-inequalities"]
+tags: ["#branch-pre-algebra", "#topic-inequalities", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: ["algebra/inequality_number_line.svg"]
 summary: "Turn everyday phrases like 'at least' and 'no more than' into inequality symbols and picture the answers on a number line."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Writing and Graphing Inequalities
 
 # Writing and Graphing Inequalities

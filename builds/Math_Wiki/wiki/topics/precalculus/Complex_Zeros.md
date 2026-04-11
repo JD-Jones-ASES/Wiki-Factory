@@ -2,7 +2,7 @@
 title: "Complex Zeros of Polynomials"
 type: topic
 aliases: ["Complex Roots", "Complex Zeros", "Fundamental Theorem of Algebra", "Conjugate Root Theorem"]
-tags: ["#branch-pre-calculus", "#topic-complex-numbers"]
+tags: ["#branch-pre-calculus", "#topic-complex-numbers", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Every polynomial of degree n has exactly n roots once you allow complex numbers, and those roots pair up as conjugates when the coefficients are real."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Complex Zeros of Polynomials
 
 # Complex Zeros of Polynomials

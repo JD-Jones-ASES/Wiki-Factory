@@ -2,7 +2,7 @@
 title: "Transformations I: Shifts and Reflections"
 type: topic
 aliases: ["Shifts and Reflections", "Function Shifts"]
-tags: ["#branch-algebra-2", "#topic-functions", "#topic-transformations"]
+tags: ["#branch-algebra-2", "#topic-functions", "#topic-transformations", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: ["algebra/transformation_shifts.svg"]
 summary: "Turning a parent function into a new one by sliding it around and flipping it."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Transformations I: Shifts and Reflections
 
 # Transformations I: Shifts and Reflections

@@ -2,7 +2,7 @@
 title: "Adding and Subtracting Rational Expressions"
 type: topic
 aliases: ["Combining Rational Expressions", "Rational Expression Addition and Subtraction"]
-tags: ["#branch-algebra-2", "#topic-rational-expressions"]
+tags: ["#branch-algebra-2", "#topic-rational-expressions", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Match the denominators, combine the numerators, then simplify — algebra's version of adding numeric fractions, with polynomials on the bottom."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Adding and Subtracting Rational Expressions
 
 # Adding and Subtracting Rational Expressions

@@ -2,7 +2,7 @@
 title: "Factoring Completely"
 type: topic
 aliases: ["Complete Factoring", "Factoring Strategy", "Unified Factoring"]
-tags: ["#branch-algebra-1", "#topic-polynomials", "#key-technique"]
+tags: ["#branch-algebra-1", "#topic-polynomials", "#key-technique", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "The unified factoring flow: pull the GCF, count the remaining terms, pick the matching pattern, and keep going until nothing splits."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Factoring Completely
 
 # Factoring Completely

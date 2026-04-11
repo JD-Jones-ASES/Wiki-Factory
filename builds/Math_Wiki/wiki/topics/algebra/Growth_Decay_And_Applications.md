@@ -2,7 +2,7 @@
 title: "Growth, Decay, and Applications"
 type: topic
 aliases: ["Exponential Growth and Decay", "Exponential Applications", "Exponential Models"]
-tags: ["#branch-algebra-2", "#topic-exponents-and-radicals", "#topic-functions", "#word-problem-support", "#representation-verbal"]
+tags: ["#branch-algebra-2", "#topic-exponents-and-radicals", "#topic-functions", "#word-problem-support", "#representation-verbal", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: ["algebra/compound_growth_comparison.svg"]
 summary: "Real-world exponential models: population growth, radioactive decay, half-life, compound interest, and depreciation."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Growth, Decay, and Applications
 
 # Growth, Decay, and Applications

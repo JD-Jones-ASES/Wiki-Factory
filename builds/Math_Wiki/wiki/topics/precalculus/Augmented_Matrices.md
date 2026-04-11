@@ -2,7 +2,7 @@
 title: "Augmented Matrices"
 type: topic
 aliases: ["Augmented Matrix", "Row Operations", "Row-Echelon Form", "Gaussian Elimination"]
-tags: ["#branch-pre-calculus", "#topic-matrices"]
+tags: ["#branch-pre-calculus", "#topic-matrices", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "Turn a linear system into a matrix, then drive it toward row-echelon form with three legal moves."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Augmented Matrices
 
 # Augmented Matrices

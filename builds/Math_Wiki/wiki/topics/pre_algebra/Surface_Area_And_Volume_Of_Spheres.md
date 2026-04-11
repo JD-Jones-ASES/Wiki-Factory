@@ -2,7 +2,7 @@
 title: "Surface Area and Volume of Spheres"
 type: topic
 aliases: ["Sphere Volume", "Sphere Surface Area"]
-tags: ["#branch-pre-algebra", "#topic-solid-geometry", "#key-topic"]
+tags: ["#branch-pre-algebra", "#topic-solid-geometry", "#key-topic", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["geometry/sphere_labeled.svg"]
 summary: "Two clean formulas for the perfectly round solid — one for the outer skin, one for the inside."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Surface Area and Volume of Spheres
 
 # Surface Area and Volume of Spheres

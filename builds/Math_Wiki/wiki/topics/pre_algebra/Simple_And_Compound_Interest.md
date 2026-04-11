@@ -2,7 +2,7 @@
 title: "Simple and Compound Interest"
 type: topic
 aliases: ["Interest", "Compound Interest"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#word-problem-support"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#word-problem-support", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Two formulas for money growing over time — simple interest is a flat add-on each year, compound interest earns interest on its own interest."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Simple and Compound Interest
 
 # Simple and Compound Interest

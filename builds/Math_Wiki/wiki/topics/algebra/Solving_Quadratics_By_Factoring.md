@@ -2,7 +2,7 @@
 title: "Solving Quadratics by Factoring"
 type: topic
 aliases: ["Zero Product Property", "Solving Quadratic Equations by Factoring"]
-tags: ["#branch-algebra-1", "#topic-quadratics", "#key-technique"]
+tags: ["#branch-algebra-1", "#topic-quadratics", "#key-technique", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -26,7 +26,6 @@ problem_type_ids: []
 figures: []
 summary: "Move everything to one side so the other side is zero, factor, and read the roots off each factor — the first method for solving quadratics."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Solving Quadratics by Factoring
 
 # Solving Quadratics by Factoring

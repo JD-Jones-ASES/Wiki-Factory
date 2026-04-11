@@ -2,7 +2,7 @@
 title: "Graphs of Trigonometric Functions"
 type: topic
 aliases: ["Trig Graphs", "Sine Wave", "Cosine Wave", "Tangent Graph"]
-tags: ["#branch-pre-calculus", "#topic-unit-circle", "#topic-functions"]
+tags: ["#branch-pre-calculus", "#topic-unit-circle", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: ["precalculus/sine_cosine_graphs.svg"]
 summary: "What sine, cosine, and tangent look like plotted across the real line: waves with period 2 pi, and a tangent graph broken by vertical asymptotes."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Graphs of Trigonometric Functions
 
 # Graphs of Trigonometric Functions

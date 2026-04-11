@@ -2,7 +2,7 @@
 title: "Hyperbolas"
 type: topic
 aliases: ["Hyperbola", "Hyperbola Equation", "Hyperbola Asymptotes"]
-tags: ["#branch-algebra-2", "#topic-conic-sections", "#key-topic"]
+tags: ["#branch-algebra-2", "#topic-conic-sections", "#key-topic", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Two open branches defined by a fixed difference between distances to two foci; sketched with a reference rectangle and two asymptotes."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Hyperbolas
 
 # Hyperbolas

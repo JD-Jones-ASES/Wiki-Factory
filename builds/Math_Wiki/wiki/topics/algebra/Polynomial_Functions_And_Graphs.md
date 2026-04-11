@@ -2,7 +2,7 @@
 title: "Polynomial Functions and Graphs"
 type: topic
 aliases: ["Polynomial Graphs", "Graphing Polynomials", "Polynomial Functions"]
-tags: ["#branch-algebra-2", "#topic-polynomials", "#topic-functions", "#key-topic"]
+tags: ["#branch-algebra-2", "#topic-polynomials", "#topic-functions", "#key-topic", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Degree plus multiplicity: two rules that let you sketch any polynomial without plotting hundreds of points."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Polynomial Functions and Graphs
 
 # Polynomial Functions and Graphs

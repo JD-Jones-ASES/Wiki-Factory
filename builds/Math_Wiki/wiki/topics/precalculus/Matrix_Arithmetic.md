@@ -2,7 +2,7 @@
 title: "Matrix Arithmetic"
 type: topic
 aliases: ["Matrices", "Matrix Operations", "Matrix Addition", "Matrix Multiplication"]
-tags: ["#branch-pre-calculus", "#topic-matrices"]
+tags: ["#branch-pre-calculus", "#topic-matrices", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "How to add, scale, and multiply grids of numbers — the three operations that make matrices computable."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Matrix Arithmetic
 
 # Matrix Arithmetic

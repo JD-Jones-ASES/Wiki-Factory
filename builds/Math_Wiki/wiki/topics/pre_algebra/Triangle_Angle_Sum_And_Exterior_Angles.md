@@ -2,7 +2,7 @@
 title: "Triangle Angle Sum and Exterior Angles"
 type: topic
 aliases: ["Triangle Angle Sum", "Exterior Angle Theorem", "Triangle Interior Angles"]
-tags: ["#branch-pre-algebra", "#topic-euclidean-geometry"]
+tags: ["#branch-pre-algebra", "#topic-euclidean-geometry", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Every triangle's three interior angles sum to 180 degrees, and each exterior angle equals the sum of the two non-adjacent interior angles."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Triangle Angle Sum and Exterior Angles
 
 # Triangle Angle Sum and Exterior Angles

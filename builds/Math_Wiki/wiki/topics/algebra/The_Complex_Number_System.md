@@ -2,7 +2,7 @@
 title: "The Complex Number System"
 type: topic
 aliases: ["Complex Numbers", "Imaginary Numbers", "Arithmetic of Complex Numbers"]
-tags: ["#branch-algebra-2", "#topic-complex-numbers"]
+tags: ["#branch-algebra-2", "#topic-complex-numbers", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["precalculus/complex_plane.svg"]
 summary: "A second kind of number built by declaring that the square of i equals -1, with an arithmetic that extends the real numbers cleanly."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > The Complex Number System
 
 # The Complex Number System

@@ -2,7 +2,7 @@
 title: "The Law of Sines"
 type: topic
 aliases: ["Law of Sines", "LawOfSines", "Sine Rule"]
-tags: ["#branch-pre-calculus", "#topic-laws-of-sines-and-cosines", "#key-topic"]
+tags: ["#branch-pre-calculus", "#topic-laws-of-sines-and-cosines", "#key-topic", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "A proportion between sides and their opposite angles that solves any triangle — even the non-right ones — as long as you respect the ambiguous case."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Law of Sines
 
 # The Law of Sines

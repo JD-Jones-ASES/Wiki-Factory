@@ -2,7 +2,7 @@
 title: "The Distance Formula"
 type: topic
 aliases: ["Distance Between Two Points", "Distance on a Coordinate Plane"]
-tags: ["#branch-pre-algebra", "#topic-analytic-geometry"]
+tags: ["#branch-pre-algebra", "#topic-analytic-geometry", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["algebra/distance_formula_derivation.svg"]
 summary: "The length of the segment connecting two points is just the Pythagorean theorem applied to a grid."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > The Distance Formula
 
 # The Distance Formula

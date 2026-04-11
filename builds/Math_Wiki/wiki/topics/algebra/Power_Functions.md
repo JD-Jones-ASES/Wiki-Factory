@@ -2,7 +2,7 @@
 title: "Power Functions"
 type: topic
 aliases: ["Power Function", "Monomial Function"]
-tags: ["#branch-algebra-2", "#topic-functions", "#topic-exponents-and-radicals"]
+tags: ["#branch-algebra-2", "#topic-functions", "#topic-exponents-and-radicals", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: ["algebra/parent_function_gallery.svg"]
 summary: "A menagerie of shapes controlled by one exponent: $f(x) = k x^n$ with $n$ positive, negative, or fractional."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Power Functions
 
 # Power Functions

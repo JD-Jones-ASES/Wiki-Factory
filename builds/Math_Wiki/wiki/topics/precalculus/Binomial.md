@@ -2,7 +2,7 @@
 title: "The Binomial Theorem"
 type: topic
 aliases: ["Binomial", "Binomial Theorem", "Binomial Coefficients", "Pascal's Triangle"]
-tags: ["#branch-pre-calculus", "#topic-sequences-and-series"]
+tags: ["#branch-pre-calculus", "#topic-sequences-and-series", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["precalculus/pascals_triangle.svg"]
 summary: "A one-line formula for expanding any power of a sum, plus Pascal's triangle as a bookkeeping device."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Binomial Theorem
 
 # The Binomial Theorem

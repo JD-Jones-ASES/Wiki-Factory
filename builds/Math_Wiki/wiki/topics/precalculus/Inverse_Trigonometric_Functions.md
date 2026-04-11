@@ -2,7 +2,7 @@
 title: "Inverse Trigonometric Functions"
 type: topic
 aliases: ["Arcsine", "Arccosine", "Arctangent", "Arc Trig", "Inverse Trig"]
-tags: ["#branch-pre-calculus", "#topic-unit-circle", "#topic-functions"]
+tags: ["#branch-pre-calculus", "#topic-unit-circle", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Arcsin, arccos, and arctan undo sine, cosine, and tangent — but only after restricting the domain of each trig function to a stretch where it's one-to-one."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Inverse Trigonometric Functions
 
 # Inverse Trigonometric Functions

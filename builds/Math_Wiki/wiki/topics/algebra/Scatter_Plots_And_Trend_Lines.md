@@ -2,7 +2,7 @@
 title: "Scatter Plots and Trend Lines"
 type: topic
 aliases: ["Line Of Best Fit", "Scatter Diagram", "Trend Line"]
-tags: ["#branch-algebra-1", "#topic-linear", "#topic-statistics"]
+tags: ["#branch-algebra-1", "#topic-linear", "#topic-statistics", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: ["algebra/scatter_trend_line.svg"]
 summary: "Plot paired data, read the overall direction, sketch a line that captures the trend, and use it to predict."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Scatter Plots and Trend Lines
 
 # Scatter Plots and Trend Lines

@@ -2,7 +2,7 @@
 title: "Matrix Methods for Systems"
 type: topic
 aliases: ["Matrix Methods", "Inverse Matrix Method", "Gaussian Elimination", "Cramer's Rule"]
-tags: ["#branch-pre-calculus", "#topic-matrices"]
+tags: ["#branch-pre-calculus", "#topic-matrices", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Two parallel strategies for solving A x = b: row-reduction on the augmented matrix, and the inverse matrix shortcut."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Matrix Methods for Systems
 
 # Matrix Methods for Systems

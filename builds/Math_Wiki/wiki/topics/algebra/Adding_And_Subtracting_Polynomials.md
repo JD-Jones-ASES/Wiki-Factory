@@ -2,7 +2,7 @@
 title: "Adding and Subtracting Polynomials"
 type: topic
 aliases: ["Polynomial Addition", "Polynomial Subtraction", "Combining Polynomials"]
-tags: ["#branch-algebra-1", "#topic-polynomials"]
+tags: ["#branch-algebra-1", "#topic-polynomials", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Line up like terms, add their coefficients, and remember to flip every sign when you subtract."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Adding and Subtracting Polynomials
 
 # Adding and Subtracting Polynomials

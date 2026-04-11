@@ -2,7 +2,7 @@
 title: "Polygon Angle Sums"
 type: topic
 aliases: ["Interior Angle Sum", "Exterior Angle Sum", "Regular Polygon Angles"]
-tags: ["#branch-geometry", "#topic-euclidean-geometry", "#key-formula"]
+tags: ["#branch-geometry", "#topic-euclidean-geometry", "#key-formula", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["geometry/regular_polygon_interior_angle.svg"]
 summary: "How the interior and exterior angles of any polygon add up, derived by triangulating the shape, with handy shortcuts for regular polygons."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Polygon Angle Sums
 
 # Polygon Angle Sums

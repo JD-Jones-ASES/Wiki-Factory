@@ -2,7 +2,7 @@
 title: "Adding and Subtracting Decimals"
 type: topic
 aliases: []
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Add and subtract decimals by lining up the decimal points."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Adding and Subtracting Decimals
 
 # Adding and Subtracting Decimals

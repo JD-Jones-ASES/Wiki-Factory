@@ -2,7 +2,7 @@
 title: "Decimal Place Value and Comparing Decimals"
 type: topic
 aliases: ["Decimal Place Value", "Comparing Decimals", "Reading Decimals"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Naming the places after the decimal point and using them to compare decimals digit by digit."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Decimal Place Value and Comparing Decimals
 
 # Decimal Place Value and Comparing Decimals

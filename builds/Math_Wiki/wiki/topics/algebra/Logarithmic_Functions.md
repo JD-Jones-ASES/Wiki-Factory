@@ -2,7 +2,7 @@
 title: "Logarithmic Functions"
 type: topic
 aliases: ["Logarithmic Function", "Log Function"]
-tags: ["#branch-algebra-2", "#topic-logarithms", "#topic-functions"]
+tags: ["#branch-algebra-2", "#topic-logarithms", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -26,7 +26,6 @@ problem_type_ids: []
 figures: ["algebra/log_exp_inverses.svg"]
 summary: "The function f(x) = log_b(x) is the mirror image of the exponential b^x across y = x — its full shape, domain, and behavior fall out of that single fact."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Logarithmic Functions
 
 # Logarithmic Functions

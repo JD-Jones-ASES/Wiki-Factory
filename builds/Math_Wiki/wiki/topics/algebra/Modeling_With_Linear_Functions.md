@@ -2,7 +2,7 @@
 title: "Modeling with Linear Functions"
 type: topic
 aliases: ["Linear Models", "Linear Modeling"]
-tags: ["#branch-algebra-2", "#topic-functions", "#topic-linear"]
+tags: ["#branch-algebra-2", "#topic-functions", "#topic-linear", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Turning a real-world, constant-rate scenario into a linear function and using it to predict."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Modeling with Linear Functions
 
 # Modeling with Linear Functions

@@ -1,0 +1,234 @@
+# test_prep_mapping.yaml
+# Maps topic_slug (lowercase filename stem) -> list of test tags the topic appears on.
+#
+# Keys must match actual files in wiki/topics/**/*.md (lowercased stem). Values
+# are any subset of [test-sat, test-psat, test-act, test-clt] (tag taxonomy Section 7).
+#
+# This file is hand-curated from standardized test coverage research. To propagate
+# changes to topic frontmatter, run:
+#   py -3 tools/apply_test_tags.py --dry-run     # preview
+#   py -3 tools/apply_test_tags.py               # apply (idempotent)
+#
+# Rules of thumb that drove the initial mapping:
+#   - Core pre-algebra arithmetic (integers, fractions, decimals, percents, basic
+#     geometry, basic stats): all 4 tags. CLT is heavy on arithmetic fluency.
+#   - Algebra 1 foundations (linear equations, systems, functions): SAT + PSAT + ACT;
+#     add CLT where the flavor is computational rather than advanced.
+#   - Algebra 2 / advanced (quadratic methods, functions, log/exp): SAT + PSAT + ACT,
+#     no CLT (CLT's quantitative section caps around Algebra 1 level).
+#   - Advanced trig identities, conic sections, matrices, binomial distribution,
+#     permutations/combinations, normal distribution: ACT only.
+#   - Coordinate geometry and probability basics: usually 3-4 tags.
+#
+# Leave a topic out of this file if it is out of scope for all four tests
+# (e.g., mathematical induction is a niche topic not on any standardized test).
+
+version: "1.0"
+last_reviewed: "2026-04-11"
+
+mappings:
+  # =========================================================================
+  # Pre-Algebra foundations (Middle School Math course hub)
+  # =========================================================================
+  integers_and_the_number_line:            [test-sat, test-psat, test-act, test-clt]
+  adding_and_subtracting_integers:         [test-sat, test-psat, test-act, test-clt]
+  multiplying_and_dividing_integers:       [test-sat, test-psat, test-act, test-clt]
+  order_of_operations:                     [test-sat, test-psat, test-act, test-clt]
+  place_value_rounding_and_estimation:     [test-sat, test-psat, test-act, test-clt]
+
+  # Fractions, decimals, percents
+  adding_and_subtracting_fractions:        [test-sat, test-psat, test-act, test-clt]
+  multiplying_fractions:                   [test-sat, test-psat, test-act, test-clt]
+  dividing_fractions:                      [test-sat, test-psat, test-act, test-clt]
+  equivalent_fractions_and_simplifying:    [test-sat, test-psat, test-act, test-clt]
+  mixed_numbers_and_improper_fractions:    [test-act, test-clt]
+  comparing_and_ordering_fractions:        [test-act, test-clt]
+  decimal_place_value_and_comparing_decimals: [test-sat, test-psat, test-act, test-clt]
+  adding_and_subtracting_decimals:         [test-sat, test-psat, test-act, test-clt]
+  multiplying_decimals:                    [test-sat, test-psat, test-act, test-clt]
+  dividing_decimals:                       [test-sat, test-psat, test-act, test-clt]
+  finding_a_percent_of_a_number:           [test-sat, test-psat, test-act, test-clt]
+  percent_increase_and_decrease:           [test-sat, test-psat, test-act, test-clt]
+  simple_and_compound_interest:            [test-sat, test-psat, test-act, test-clt]
+
+  # Ratios, rates, proportions
+  ratios_and_equivalent_ratios:            [test-sat, test-psat, test-act, test-clt]
+  unit_rates:                              [test-sat, test-psat, test-act, test-clt]
+  proportions_and_cross_multiplication:    [test-sat, test-psat, test-act, test-clt]
+
+  # Basic algebraic prep
+  evaluating_expressions:                  [test-sat, test-psat, test-act, test-clt]
+  variables_and_algebraic_expressions:     [test-sat, test-psat, test-act, test-clt]
+  the_distributive_property:               [test-sat, test-psat, test-act, test-clt]
+  square_roots_and_cube_roots:             [test-sat, test-psat, test-act, test-clt]
+  greatest_common_factor:                  [test-sat, test-psat, test-act, test-clt]
+
+  # Basic coordinate / geometry
+  plotting_points_and_the_coordinate_plane: [test-sat, test-psat, test-act, test-clt]
+  points_lines_angles_and_angle_relationships: [test-sat, test-psat, test-act, test-clt]
+  triangle_angle_sum_and_exterior_angles:  [test-sat, test-psat, test-act, test-clt]
+  classifying_triangles_and_quadrilaterals: [test-sat, test-psat, test-act, test-clt]
+  polygon_angle_sums:                      [test-sat, test-psat, test-act, test-clt]
+  similar_triangles:                       [test-sat, test-psat, test-act, test-clt]
+  triangle_congruence_criteria:            [test-sat, test-psat, test-act, test-clt]
+  the_pythagorean_theorem:                 [test-sat, test-psat, test-act, test-clt]
+  applications_of_the_pythagorean_theorem: [test-sat, test-psat, test-act, test-clt]
+  circles:                                 [test-sat, test-psat, test-act, test-clt]
+  circumference_and_area_of_circles:       [test-sat, test-psat, test-act, test-clt]
+  volume_of_prisms_and_cylinders:          [test-sat, test-psat, test-act]
+  volume_of_pyramids_and_cones:            [test-act]
+  surface_area_of_prisms_and_cylinders:    [test-sat, test-psat, test-act]
+  special_right_triangles:                 [test-sat, test-psat, test-act]
+
+  # Basic statistics / probability
+  mean_median_mode_and_range:              [test-sat, test-psat, test-act, test-clt]
+  data_displays:                           [test-sat, test-psat, test-act, test-clt]
+  data_displays_and_measures_of_spread:    [test-sat, test-psat, test-act]
+  probability_of_simple_and_compound_events: [test-sat, test-psat, test-act, test-clt]
+
+  # =========================================================================
+  # Algebra 1
+  # =========================================================================
+  one_step_equations:                      [test-sat, test-psat, test-act, test-clt]
+  multi_step_equations:                    [test-sat, test-psat, test-act, test-clt]
+  solving_one_step_and_two_step_inequalities: [test-sat, test-psat, test-act, test-clt]
+  solving_multi_step_inequalities:         [test-sat, test-psat, test-act]
+  writing_and_graphing_inequalities:       [test-sat, test-psat, test-act]
+  compound_inequalities:                   [test-sat, test-psat, test-act]
+  inequalities_and_their_graphs:           [test-sat, test-psat, test-act]
+
+  slope:                                   [test-sat, test-psat, test-act, test-clt]
+  slope_intercept_form:                    [test-sat, test-psat, test-act, test-clt]
+  writing_linear_equations:                [test-sat, test-psat, test-act, test-clt]
+  parallel_and_perpendicular_lines:        [test-sat, test-psat, test-act, test-clt]
+  linear_functions:                        [test-sat, test-psat, test-act, test-clt]
+  modeling_with_linear_functions:          [test-sat, test-psat, test-act]
+  graphing_linear_equations_from_tables:   [test-sat, test-psat, test-act]
+  the_distance_formula:                    [test-sat, test-psat, test-act, test-clt]
+  arithmetic_sequences_and_linear_patterns: [test-sat, test-psat, test-act]
+
+  systems_of_linear_inequalities:          [test-sat, test-psat, test-act]
+  solving_systems_by_elimination:          [test-sat, test-psat, test-act, test-clt]
+  solving_systems_by_substitution:         [test-sat, test-psat, test-act, test-clt]
+
+  properties_of_exponents:                 [test-sat, test-psat, test-act]
+  zero_and_negative_exponents:             [test-sat, test-psat, test-act]
+  rational_exponents:                      [test-sat, test-psat, test-act]
+
+  adding_and_subtracting_polynomials:      [test-sat, test-psat, test-act]
+  multiplying_polynomials:                 [test-sat, test-psat, test-act]
+  special_products:                        [test-sat, test-psat, test-act]
+  factoring_trinomials_leading_coefficient_1: [test-sat, test-psat, test-act]
+  factoring_trinomials_general:            [test-sat, test-psat, test-act]
+  factoring_special_forms:                 [test-sat, test-psat, test-act]
+  factoring_completely:                    [test-sat, test-psat, test-act]
+
+  function_basics:                         [test-sat, test-psat, test-act]
+  function_notation:                       [test-sat, test-psat, test-act]
+  relations_and_functions:                 [test-sat, test-psat, test-act]
+
+  # Absolute value (Algebra 1 variants)
+  absolute_value_equations:                [test-sat, test-psat, test-act]
+  absolute_value_inequalities:             [test-sat, test-psat, test-act]
+  absolute_value_functions:                [test-act]
+
+  # Scatter plots (data analysis)
+  scatter_plots_and_trend_lines:           [test-sat, test-psat, test-act]
+
+  # =========================================================================
+  # Algebra 2
+  # =========================================================================
+  quadratic_functions:                     [test-sat, test-psat, test-act]
+  graphing_quadratic_functions:            [test-sat, test-psat, test-act]
+  solving_quadratics_by_factoring:         [test-sat, test-psat, test-act]
+  solving_quadratics_by_square_roots:      [test-sat, test-psat, test-act]
+  completing_the_square:                   [test-sat, test-psat, test-act]
+  the_quadratic_formula:                   [test-sat, test-psat, test-act]
+  the_discriminant:                        [test-sat, test-psat, test-act]
+  applications_of_quadratic_functions:     [test-sat, test-psat, test-act]
+  parabolas:                               [test-sat, test-psat, test-act]
+
+  polynomial_functions_and_graphs:         [test-sat, test-act]
+
+  square_root_functions:                   [test-sat, test-act]
+  cube_root_and_other_radical_functions:   [test-act]
+  simplifying_radical_expressions:         [test-sat, test-psat, test-act]
+  operations_with_radicals:                [test-sat, test-psat, test-act]
+
+  simplifying_rational_expressions:        [test-sat, test-psat, test-act]
+  adding_and_subtracting_rational_expressions: [test-sat, test-act]
+  multiplying_and_dividing_rational_expressions: [test-sat, test-act]
+  solving_rational_equations:              [test-sat, test-act]
+  rational_equations_and_applications:     [test-sat, test-act]
+  graphing_rational_functions_part_1:      [test-sat, test-act]
+  graphing_rational_functions_part_2:      [test-act]
+  introduction_to_rational_functions:      [test-sat, test-act]
+
+  exponential_functions:                   [test-sat, test-psat, test-act]
+  exponential_equations:                   [test-sat, test-act]
+  growth_decay_and_applications:           [test-sat, test-psat, test-act]
+  introduction_to_exponentials_and_logarithms: [test-act]
+  applications_of_exponentials_and_logarithms: [test-act]
+  logarithms:                              [test-act]
+  logarithmic_functions:                   [test-act]
+  logarithmic_equations:                   [test-act]
+  properties_of_logarithms:                [test-act]
+
+  inverse_functions:                       [test-act]
+  function_arithmetic_and_composition:     [test-act]
+  power_functions:                         [test-act]
+  more_exotic_functions:                   [test-act]
+
+  transformations_i_shifts_and_reflections: [test-sat, test-act]
+  transformations_ii_stretches_compressions_and_combined: [test-act]
+
+  the_complex_number_system:               [test-act]
+  complex_zeros:                           [test-act]
+  ellipses:                                [test-act]
+  hyperbolas:                              [test-act]
+
+  sequences:                               [test-sat, test-act]
+
+  # =========================================================================
+  # Geometry (HS Geometry)
+  # =========================================================================
+  rigid_transformations:                   [test-sat, test-psat, test-act]
+  coordinate_geometry_proofs:              [test-sat, test-act]
+  dilations_and_similarity:                [test-sat, test-psat, test-act]
+  equations_of_circles:                    [test-sat, test-psat, test-act]
+  inscribed_angles_and_arcs:               [test-sat, test-act]
+  chords_secants_and_tangents:             [test-act]
+  surface_area_and_volume_of_spheres:      [test-act]
+
+  # =========================================================================
+  # Pre-Calculus & Trigonometry (mostly ACT, some SAT)
+  # =========================================================================
+  angles:                                  [test-sat, test-act]
+  the_unit_circle:                         [test-sat, test-act]
+  circular_functions:                      [test-sat, test-act]
+  graphs_of_trigonometric_functions:       [test-act]
+  inverse_trigonometric_functions:         [test-act]
+  identities:                              [test-act]
+  trigonometric_equations:                 [test-act]
+  sinusoid:                                [test-act]
+  law_of_sines:                            [test-act]
+  law_of_cosines:                          [test-act]
+
+  vectors:                                 [test-act]
+  dot_product:                             [test-act]
+
+  matrix_arithmetic:                       [test-act]
+  matrix_methods:                          [test-act]
+  augmented_matrices:                      [test-act]
+  determinants:                            [test-act]
+
+  binomial:                                [test-act]
+  summation:                               [test-act]
+
+  introduction_to_polar_coordinates:       [test-act]
+  polar_form_of_complex_numbers:           [test-act]
+
+  # ==========================================================================
+  # Out of scope (no standardized test coverage) -- intentionally unmapped:
+  #   induction -- mathematical induction is not on any standardized math test
+  # ==========================================================================

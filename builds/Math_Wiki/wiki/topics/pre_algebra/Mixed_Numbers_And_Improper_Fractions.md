@@ -2,7 +2,7 @@
 title: "Mixed Numbers and Improper Fractions"
 type: topic
 aliases: ["Converting Mixed Numbers", "Improper Fractions", "Proper Fractions"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Any amount bigger than one whole can be written two ways: as an improper fraction or as a mixed number."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Mixed Numbers and Improper Fractions
 
 # Mixed Numbers and Improper Fractions

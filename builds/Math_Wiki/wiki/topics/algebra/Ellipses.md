@@ -2,7 +2,7 @@
 title: "Ellipses"
 type: topic
 aliases: ["Ellipse", "Ellipse Equation", "Oval"]
-tags: ["#branch-algebra-2", "#topic-conic-sections", "#key-topic"]
+tags: ["#branch-algebra-2", "#topic-conic-sections", "#key-topic", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "An oval curve built from two foci: every point on the ellipse has the same total distance to the two focus points."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Ellipses
 
 # Ellipses

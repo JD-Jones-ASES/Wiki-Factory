@@ -2,7 +2,7 @@
 title: "Triangle Congruence Criteria"
 type: topic
 aliases: ["SSS SAS ASA AAS HL", "Congruent Triangles"]
-tags: ["#branch-geometry", "#topic-similarity-and-congruence", "#key-topic"]
+tags: ["#branch-geometry", "#topic-similarity-and-congruence", "#key-topic", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["geometry/triangle_congruence_criteria.svg"]
 summary: "The five short lists of matching parts — SSS, SAS, ASA, AAS, HL — that force two triangles to be identical copies of each other."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Triangle Congruence Criteria
 
 # Triangle Congruence Criteria

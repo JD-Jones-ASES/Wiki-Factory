@@ -2,7 +2,7 @@
 title: "Trigonometric Equations"
 type: topic
 aliases: ["Trig Equations", "Solving Trigonometric Equations"]
-tags: ["#branch-pre-calculus", "#topic-trig-equations"]
+tags: ["#branch-pre-calculus", "#topic-trig-equations", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Find the angles that make a trig equation true; a single angle always expands into an infinite periodic family."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Trigonometric Equations
 
 # Trigonometric Equations

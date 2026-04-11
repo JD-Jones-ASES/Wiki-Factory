@@ -2,7 +2,7 @@
 title: "Multiplying Decimals"
 type: topic
 aliases: []
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -21,7 +21,6 @@ problem_type_ids: []
 figures: []
 summary: "Multiply as if the factors were whole numbers, then place the decimal point by counting decimal places."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Multiplying Decimals
 
 # Multiplying Decimals

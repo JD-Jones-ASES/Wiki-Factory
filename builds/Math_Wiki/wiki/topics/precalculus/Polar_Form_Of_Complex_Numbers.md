@@ -2,7 +2,7 @@
 title: "Polar Form of Complex Numbers"
 type: topic
 aliases: ["Trigonometric Form of Complex Numbers", "Modulus and Argument", "De Moivre's Theorem"]
-tags: ["#branch-pre-calculus", "#topic-complex-numbers"]
+tags: ["#branch-pre-calculus", "#topic-complex-numbers", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "A second way of naming a complex number that turns products and powers into angle addition and exponent arithmetic."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Polar Form of Complex Numbers
 
 # Polar Form of Complex Numbers

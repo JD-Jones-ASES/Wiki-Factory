@@ -2,7 +2,7 @@
 title: "Linear Functions"
 type: topic
 aliases: ["LinearFunctions", "Linear Function"]
-tags: ["#branch-algebra-2", "#topic-functions", "#topic-linear"]
+tags: ["#branch-algebra-2", "#topic-functions", "#topic-linear", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -27,7 +27,6 @@ problem_type_ids: []
 figures: []
 summary: "A function of the form f(x) = mx + b: one input goes in, a straight-line output comes out."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Linear Functions
 
 # Linear Functions

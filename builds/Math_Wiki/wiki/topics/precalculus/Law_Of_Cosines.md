@@ -2,7 +2,7 @@
 title: "The Law of Cosines"
 type: topic
 aliases: ["Law of Cosines", "SAS Triangle Solving", "SSS Triangle Solving"]
-tags: ["#branch-pre-calculus", "#topic-laws-of-sines-and-cosines"]
+tags: ["#branch-pre-calculus", "#topic-laws-of-sines-and-cosines", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "A Pythagorean-style relation that works for any triangle, letting you solve SSS and SAS cases in one step."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Law of Cosines
 
 # The Law of Cosines

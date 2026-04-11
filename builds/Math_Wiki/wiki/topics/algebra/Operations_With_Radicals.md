@@ -2,7 +2,7 @@
 title: "Operations with Radicals"
 type: topic
 aliases: ["Radical Arithmetic", "Adding Radicals", "Multiplying Radicals", "Dividing Radicals"]
-tags: ["#branch-algebra-1", "#topic-exponents-and-radicals"]
+tags: ["#branch-algebra-1", "#topic-exponents-and-radicals", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Add, subtract, multiply, and divide square roots — and learn why simplifying first is the whole trick."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Operations with Radicals
 
 # Operations with Radicals

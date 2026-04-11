@@ -2,7 +2,7 @@
 title: "Arithmetic Sequences and Linear Patterns"
 type: topic
 aliases: ["Arithmetic Sequence", "Common Difference"]
-tags: ["#branch-pre-algebra", "#topic-sequences-and-series"]
+tags: ["#branch-pre-algebra", "#topic-sequences-and-series", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "A sequence whose terms climb or fall by the same fixed amount every step — and a linear function in disguise."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Arithmetic Sequences and Linear Patterns
 
 # Arithmetic Sequences and Linear Patterns

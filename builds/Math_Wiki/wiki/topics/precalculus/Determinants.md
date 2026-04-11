@@ -2,7 +2,7 @@
 title: "Determinants"
 type: topic
 aliases: ["Determinant", "2x2 Determinant", "3x3 Determinant", "Cofactor Expansion"]
-tags: ["#branch-pre-calculus", "#topic-matrices"]
+tags: ["#branch-pre-calculus", "#topic-matrices", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -21,7 +21,6 @@ problem_type_ids: []
 figures: []
 summary: "A single number attached to every square matrix that detects invertibility and measures signed area or volume."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Determinants
 
 # Determinants

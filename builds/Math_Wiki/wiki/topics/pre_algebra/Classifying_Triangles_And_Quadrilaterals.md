@@ -2,7 +2,7 @@
 title: "Classifying Triangles and Quadrilaterals"
 type: topic
 aliases: ["Triangle Classification", "Quadrilateral Hierarchy"]
-tags: ["#branch-pre-algebra", "#topic-euclidean-geometry", "#key-topic"]
+tags: ["#branch-pre-algebra", "#topic-euclidean-geometry", "#key-topic", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["geometry/quadrilateral_hierarchy.svg"]
 summary: "Sorting triangles by their sides and angles, and tracing the family tree of quadrilaterals from general parallelograms to squares."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Classifying Triangles and Quadrilaterals
 
 # Classifying Triangles and Quadrilaterals

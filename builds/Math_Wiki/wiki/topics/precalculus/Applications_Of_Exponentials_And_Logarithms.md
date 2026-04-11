@@ -2,7 +2,7 @@
 title: "Applications of Exponentials and Logarithms"
 type: topic
 aliases: ["Exponential Applications", "Exp/Log Models", "Continuous Growth and Decay"]
-tags: ["#branch-pre-calculus", "#topic-logarithms", "#topic-functions", "#word-problem-support"]
+tags: ["#branch-pre-calculus", "#topic-logarithms", "#topic-functions", "#word-problem-support", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Pre-calc-level real-world models: continuous compounding, growth and decay, Newton's law of cooling, and the log scales used for earthquakes, sound, and acidity."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Applications of Exponentials and Logarithms
 
 # Applications of Exponentials and Logarithms

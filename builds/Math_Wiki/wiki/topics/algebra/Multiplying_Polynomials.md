@@ -2,7 +2,7 @@
 title: "Multiplying Polynomials"
 type: topic
 aliases: ["Polynomial Multiplication", "FOIL", "Expanding Polynomials"]
-tags: ["#branch-algebra-1", "#topic-polynomials"]
+tags: ["#branch-algebra-1", "#topic-polynomials", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -26,7 +26,6 @@ problem_type_ids: []
 figures: ["algebra/area_model_multiplication.svg"]
 summary: "Every term of the first polynomial meets every term of the second — it's all just distribution, repeated."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Multiplying Polynomials
 
 # Multiplying Polynomials

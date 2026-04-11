@@ -2,7 +2,7 @@
 title: "Applications of the Pythagorean Theorem"
 type: topic
 aliases: ["Pythagorean Applications", "Pythagorean Word Problems"]
-tags: ["#branch-pre-algebra", "#topic-euclidean-geometry"]
+tags: ["#branch-pre-algebra", "#topic-euclidean-geometry", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "Using a squared plus b squared equals c squared to solve ladder problems, diagonals, grid distances, and other right-triangle situations."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Applications of the Pythagorean Theorem
 
 # Applications of the Pythagorean Theorem

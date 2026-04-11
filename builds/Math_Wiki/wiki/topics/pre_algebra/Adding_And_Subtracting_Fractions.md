@@ -2,7 +2,7 @@
 title: "Adding and Subtracting Fractions"
 type: topic
 aliases: ["Fraction Addition", "Fraction Subtraction", "Adding Fractions", "Subtracting Fractions"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "Combining fractions by matching denominators, then adding or subtracting only the numerators."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Adding and Subtracting Fractions
 
 # Adding and Subtracting Fractions

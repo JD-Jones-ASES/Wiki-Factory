@@ -2,7 +2,7 @@
 title: "Function Arithmetic and Composition"
 type: topic
 aliases: ["Function Composition", "Function Arithmetic", "Composite Functions", "Combining Functions"]
-tags: ["#branch-algebra-2", "#topic-functions"]
+tags: ["#branch-algebra-2", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -27,7 +27,6 @@ problem_type_ids: []
 figures: []
 summary: "Adding, subtracting, multiplying, dividing, and chaining functions — plus why order matters when you chain."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Function Arithmetic and Composition
 
 # Function Arithmetic and Composition

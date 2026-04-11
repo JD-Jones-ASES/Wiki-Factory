@@ -2,7 +2,7 @@
 title: "Logarithms"
 type: topic
 aliases: ["Logarithm", "Log", "Common Logarithm", "Natural Logarithm"]
-tags: ["#branch-algebra-2", "#topic-logarithms", "#topic-functions"]
+tags: ["#branch-algebra-2", "#topic-logarithms", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "The logarithm log_b(x) is the exponent you must put on b to get x; it is the inverse operation of raising b to a power."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Logarithms
 
 # Logarithms

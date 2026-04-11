@@ -2,7 +2,7 @@
 title: "Volume of Pyramids and Cones"
 type: topic
 aliases: ["Pyramid Volume", "Cone Volume"]
-tags: ["#branch-pre-algebra", "#topic-solid-geometry", "#key-topic"]
+tags: ["#branch-pre-algebra", "#topic-solid-geometry", "#key-topic", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["geometry/pyramid_cone_labeled.svg"]
 summary: "Tapered solids hold exactly one-third of the prism or cylinder with the same base and height."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Volume of Pyramids and Cones
 
 # Volume of Pyramids and Cones

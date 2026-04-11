@@ -2,7 +2,7 @@
 title: "Circumference and Area of Circles"
 type: topic
 aliases: ["Area of a Circle", "Circumference Formula", "Pi and Circles"]
-tags: ["#branch-pre-algebra", "#topic-analytic-geometry"]
+tags: ["#branch-pre-algebra", "#topic-analytic-geometry", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -20,7 +20,6 @@ problem_type_ids: []
 figures: ["geometry/circle_parts.svg"]
 summary: "How far around a circle is, how much space it covers, and why one mysterious number — pi — controls both."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Circumference and Area of Circles
 
 # Circumference and Area of Circles

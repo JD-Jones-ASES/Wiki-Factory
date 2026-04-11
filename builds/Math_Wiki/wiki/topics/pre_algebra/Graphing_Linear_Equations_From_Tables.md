@@ -2,7 +2,7 @@
 title: "Graphing Linear Equations from Tables"
 type: topic
 aliases: ["Graphing Lines From A Table", "Table Method For Graphing Lines"]
-tags: ["#branch-pre-algebra", "#topic-linear"]
+tags: ["#branch-pre-algebra", "#topic-linear", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -26,7 +26,6 @@ problem_type_ids: []
 figures: []
 summary: "Pick x-values, compute y-values from the rule, plot the pairs, and draw the line that joins them."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Graphing Linear Equations from Tables
 
 # Graphing Linear Equations from Tables

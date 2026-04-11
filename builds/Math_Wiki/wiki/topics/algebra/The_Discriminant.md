@@ -2,7 +2,7 @@
 title: "The Discriminant"
 type: topic
 aliases: ["Discriminant", "b squared minus 4ac"]
-tags: ["#branch-algebra-1", "#topic-quadratics", "#key-technique"]
+tags: ["#branch-algebra-1", "#topic-quadratics", "#key-technique", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["algebra/discriminant_three_cases.svg"]
 summary: "The number b² - 4ac hidden under the radical in the quadratic formula tells you — without solving — how many real roots a quadratic has."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > The Discriminant
 
 # The Discriminant

@@ -2,7 +2,7 @@
 title: "Graphing Rational Functions: Part 1"
 type: topic
 aliases: ["Rational Function Graphs"]
-tags: ["#branch-algebra-2", "#topic-rational-expressions", "#topic-functions"]
+tags: ["#branch-algebra-2", "#topic-rational-expressions", "#topic-functions", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["algebra/rational_asymptotes.svg"]
 summary: "Finding asymptotes, holes, and intercepts so a rational function can be sketched sensibly."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Graphing Rational Functions: Part 1
 
 # Graphing Rational Functions: Part 1

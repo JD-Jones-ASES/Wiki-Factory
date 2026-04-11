@@ -2,7 +2,7 @@
 title: "Cube Root and Other Radical Functions"
 type: topic
 aliases: ["Cube Root Function", "Nth Root Functions", "Higher Radical Functions"]
-tags: ["#branch-algebra-2", "#topic-functions", "#topic-exponents-and-radicals"]
+tags: ["#branch-algebra-2", "#topic-functions", "#topic-exponents-and-radicals", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -27,7 +27,6 @@ problem_type_ids: []
 figures: ["algebra/cube_root_function.svg"]
 summary: "The cube root function f(x) = ∛x accepts every real input, including negatives — and the parity of the index decides the shape of every nth-root relative."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Cube Root and Other Radical Functions
 
 # Cube Root and Other Radical Functions

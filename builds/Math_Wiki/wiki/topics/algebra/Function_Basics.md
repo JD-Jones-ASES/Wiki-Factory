@@ -2,7 +2,7 @@
 title: "Function Basics"
 type: topic
 aliases: ["FunctionBasics", "Functions Intro (Algebra 2)", "Function Machine"]
-tags: ["#branch-algebra-2", "#topic-functions"]
+tags: ["#branch-algebra-2", "#topic-functions", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "The algebra-2 treatment of functions: inputs, outputs, domain from a formula, range from a graph, and the parent-function preview."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Function Basics
 
 # Function Basics

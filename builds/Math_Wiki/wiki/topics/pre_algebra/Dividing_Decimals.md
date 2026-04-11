@@ -2,7 +2,7 @@
 title: "Dividing Decimals"
 type: topic
 aliases: ["Decimal Division", "Dividing With Decimals"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "How to divide decimals by sliding the decimal point so the divisor becomes a whole number."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Dividing Decimals
 
 # Dividing Decimals

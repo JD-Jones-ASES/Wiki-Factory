@@ -2,7 +2,7 @@
 title: "Parallel and Perpendicular Lines"
 type: topic
 aliases: ["Slopes of Parallel Lines", "Slopes of Perpendicular Lines", "Negative Reciprocal Slopes"]
-tags: ["#branch-algebra-1", "#topic-linear"]
+tags: ["#branch-algebra-1", "#topic-linear", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["algebra/parallel_perpendicular_lines.svg"]
 summary: "Parallel lines have equal slopes; perpendicular lines have slopes whose product is -1."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Parallel and Perpendicular Lines
 
 # Parallel and Perpendicular Lines

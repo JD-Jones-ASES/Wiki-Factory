@@ -2,7 +2,7 @@
 title: "Comparing and Ordering Fractions"
 type: topic
 aliases: ["Fraction Comparison", "Comparing Fractions", "Ordering Fractions"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Deciding which of two fractions is larger, and putting a list of fractions in order."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Comparing and Ordering Fractions
 
 # Comparing and Ordering Fractions

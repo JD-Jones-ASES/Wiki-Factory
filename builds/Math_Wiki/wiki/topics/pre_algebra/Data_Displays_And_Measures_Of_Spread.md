@@ -2,7 +2,7 @@
 title: "Data Displays and Measures of Spread"
 type: topic
 aliases: ["Box Plot", "Histogram", "Five-Number Summary", "IQR", "Outliers"]
-tags: ["#branch-pre-algebra", "#topic-statistics"]
+tags: ["#branch-pre-algebra", "#topic-statistics", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -20,7 +20,6 @@ problem_type_ids: []
 figures: ["pre_algebra/box_plot.svg"]
 summary: "Histograms, box plots, quartiles, IQR, and the outlier rule: tools for numeric data spread."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Data Displays and Measures of Spread
 
 # Data Displays and Measures of Spread

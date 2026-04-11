@@ -2,7 +2,7 @@
 title: "Introduction to Rational Functions"
 type: topic
 aliases: ["Rational Functions Intro"]
-tags: ["#branch-pre-calculus", "#topic-rational-expressions", "#topic-functions"]
+tags: ["#branch-pre-calculus", "#topic-rational-expressions", "#topic-functions", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "A gentle welcome to rational functions via the reciprocal parent and its shifted cousins."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Introduction to Rational Functions
 
 # Introduction to Rational Functions

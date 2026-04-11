@@ -2,7 +2,7 @@
 title: "Exponential Equations"
 type: topic
 aliases: ["ExpEquations", "Solving Exponential Equations"]
-tags: ["#branch-algebra-2", "#topic-exponents-and-radicals", "#topic-logarithms", "#key-technique"]
+tags: ["#branch-algebra-2", "#topic-exponents-and-radicals", "#topic-logarithms", "#key-technique", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -26,7 +26,6 @@ problem_type_ids: []
 figures: []
 summary: "Two techniques for solving equations with the variable in the exponent: rewrite with a common base, or apply a logarithm."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Exponential Equations
 
 # Exponential Equations

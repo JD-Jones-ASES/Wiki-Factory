@@ -2,7 +2,7 @@
 title: "Dilations and Similarity"
 type: topic
 aliases: ["Dilation", "Similar Figures", "Scale Factor"]
-tags: ["#branch-geometry", "#topic-similarity-and-congruence", "#key-topic"]
+tags: ["#branch-geometry", "#topic-similarity-and-congruence", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["geometry/dilation.svg"]
 summary: "Scaling a figure from a center by a factor k changes lengths by k, areas by k squared, and volumes by k cubed."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Dilations and Similarity
 
 # Dilations and Similarity

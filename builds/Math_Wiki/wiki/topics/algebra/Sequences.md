@@ -2,7 +2,7 @@
 title: "Sequences"
 type: topic
 aliases: ["Arithmetic Progression", "Geometric Progression", "Infinite Geometric Series"]
-tags: ["#branch-algebra-2", "#topic-sequences-and-series", "#key-topic"]
+tags: ["#branch-algebra-2", "#topic-sequences-and-series", "#key-topic", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -26,7 +26,6 @@ problem_type_ids: []
 figures: []
 summary: "Arithmetic and geometric sequences, their explicit formulas, finite sums, and the convergence of an infinite geometric series."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Sequences
 
 # Sequences

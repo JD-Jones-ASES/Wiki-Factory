@@ -2,7 +2,7 @@
 title: "The Dot Product"
 type: topic
 aliases: ["Dot Product", "Scalar Product"]
-tags: ["#branch-pre-calculus", "#topic-vectors"]
+tags: ["#branch-pre-calculus", "#topic-vectors", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "One number that captures the angle between two vectors — the bridge from raw components to geometry."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Dot Product
 
 # The Dot Product

@@ -2,7 +2,7 @@
 title: "Solving Rational Equations"
 type: topic
 aliases: ["Rational Equations", "Fractional Equations"]
-tags: ["#branch-algebra-1", "#topic-rational-expressions", "#key-topic"]
+tags: ["#branch-algebra-1", "#topic-rational-expressions", "#key-topic", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Clear the fractions by multiplying both sides by the LCD, solve the resulting polynomial equation, and always verify each answer against the original — some solutions are mirages that must be thrown out."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Solving Rational Equations
 
 # Solving Rational Equations

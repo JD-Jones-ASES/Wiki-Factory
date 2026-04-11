@@ -2,7 +2,7 @@
 title: "Introduction to Polar Coordinates"
 type: topic
 aliases: ["Polar Coordinates", "Polar Coordinate System", "Pole and Polar Axis"]
-tags: ["#branch-pre-calculus", "#topic-unit-circle"]
+tags: ["#branch-pre-calculus", "#topic-unit-circle", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["precalculus/polar_coordinates.svg"]
 summary: "A second way of locating points in the plane using a distance from the origin and an angle, with simple conversion formulas to and from rectangular coordinates."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Introduction to Polar Coordinates
 
 # Introduction to Polar Coordinates

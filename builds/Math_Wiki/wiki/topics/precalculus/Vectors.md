@@ -2,7 +2,7 @@
 title: "Vectors"
 type: topic
 aliases: ["Vector", "2D Vectors", "Vectors in the Plane"]
-tags: ["#branch-pre-calculus", "#topic-vectors"]
+tags: ["#branch-pre-calculus", "#topic-vectors", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: ["precalculus/vector_addition.svg"]
 summary: "A vector carries a length and a direction at the same time; its components are its horizontal and vertical shadows."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Vectors
 
 # Vectors

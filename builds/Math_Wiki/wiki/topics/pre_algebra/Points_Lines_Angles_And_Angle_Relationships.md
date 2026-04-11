@@ -2,7 +2,7 @@
 title: "Points, Lines, Angles, and Angle Relationships"
 type: topic
 aliases: ["Angle Pairs", "Transversal Angles"]
-tags: ["#branch-pre-algebra", "#topic-euclidean-geometry", "#key-topic"]
+tags: ["#branch-pre-algebra", "#topic-euclidean-geometry", "#key-topic", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["geometry/parallel_lines_transversal.svg"]
 summary: "The atomic vocabulary of geometry — point, line, ray, segment, plane — plus the four kinds of angle pairs you meet once two lines interact."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Points, Lines, Angles, and Angle Relationships
 
 # Points, Lines, Angles, and Angle Relationships

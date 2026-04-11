@@ -2,7 +2,7 @@
 title: "Equations of Circles"
 type: topic
 aliases: ["Circle Equation Standard Form", "Circle General Form"]
-tags: ["#branch-geometry", "#topic-analytic-geometry", "#key-topic"]
+tags: ["#branch-geometry", "#topic-analytic-geometry", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["geometry/circle_parts.svg"]
 summary: "Two algebraic faces of a circle — the center-radius standard form and the expanded general form — and how to convert between them using completing the square."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Equations of Circles
 
 # Equations of Circles

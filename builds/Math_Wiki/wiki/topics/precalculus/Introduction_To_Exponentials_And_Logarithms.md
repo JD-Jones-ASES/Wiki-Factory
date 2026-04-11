@@ -2,7 +2,7 @@
 title: "Introduction to Exponentials and Logarithms"
 type: topic
 aliases: ["Exponentials and Logarithms", "Exp and Log Introduction"]
-tags: ["#branch-pre-calculus", "#topic-logarithms", "#topic-functions", "#key-topic"]
+tags: ["#branch-pre-calculus", "#topic-logarithms", "#topic-functions", "#key-topic", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "A high-level tour of the exponential and logarithmic families, their inverse relationship, and the two bases that matter most: 10 and e."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Introduction to Exponentials and Logarithms
 
 # Introduction to Exponentials and Logarithms

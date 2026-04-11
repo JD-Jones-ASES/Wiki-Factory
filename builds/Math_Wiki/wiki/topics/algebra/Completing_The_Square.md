@@ -2,7 +2,7 @@
 title: "Completing the Square"
 type: topic
 aliases: ["Complete the Square"]
-tags: ["#branch-algebra-2", "#topic-quadratics", "#key-technique"]
+tags: ["#branch-algebra-2", "#topic-quadratics", "#key-technique", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -27,7 +27,6 @@ problem_type_ids: []
 figures: ["algebra/perfect_square_completion.svg"]
 summary: "Rebuild any quadratic into (x - h)^2 = k by manufacturing a perfect square trinomial, then finish with a square root."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Completing the Square
 
 # Completing the Square

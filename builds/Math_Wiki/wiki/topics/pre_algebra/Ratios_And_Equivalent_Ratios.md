@@ -2,7 +2,7 @@
 title: "Ratios and Equivalent Ratios"
 type: topic
 aliases: ["Ratio", "Equivalent Ratios", "Simplest Form of a Ratio"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Compare two quantities, write the comparison three ways, and scale it up or down to find equivalents."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Ratios and Equivalent Ratios
 
 # Ratios and Equivalent Ratios

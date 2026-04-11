@@ -2,7 +2,7 @@
 title: "Mean, Median, Mode, and Range"
 type: topic
 aliases: ["Measures of Center", "Average Median Mode"]
-tags: ["#branch-pre-algebra", "#topic-statistics"]
+tags: ["#branch-pre-algebra", "#topic-statistics", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -21,7 +21,6 @@ problem_type_ids: []
 figures: []
 summary: "Four quick numbers that summarize a data set: average, middle, most common, and spread."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Mean, Median, Mode, and Range
 
 # Mean, Median, Mode, and Range

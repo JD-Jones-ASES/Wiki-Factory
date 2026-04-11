@@ -2,7 +2,7 @@
 title: "Greatest Common Factor"
 type: topic
 aliases: ["GCF", "GCF of Monomials", "Common Factor"]
-tags: ["#branch-algebra-1", "#topic-polynomials"]
+tags: ["#branch-algebra-1", "#topic-polynomials", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Find the largest common factor of a set of terms, then pull it out of a polynomial — the first step of every factoring problem."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Greatest Common Factor
 
 # Greatest Common Factor

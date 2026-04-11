@@ -2,7 +2,7 @@
 title: "Coordinate Geometry Proofs"
 type: topic
 aliases: ["Coordinate Proofs", "Analytic Proofs"]
-tags: ["#branch-geometry", "#topic-analytic-geometry", "#key-technique"]
+tags: ["#branch-geometry", "#topic-analytic-geometry", "#key-technique", "#test-sat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["geometry/coord_proof_parallelogram.svg"]
 summary: "Use slopes, distances, and midpoints on the coordinate plane to prove what kind of quadrilateral a figure is."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Coordinate Geometry Proofs
 
 # Coordinate Geometry Proofs

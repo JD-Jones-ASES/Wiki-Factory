@@ -2,7 +2,7 @@
 title: "Zero and Negative Exponents"
 type: topic
 aliases: ["Negative Exponents", "Zero Exponent Rule"]
-tags: ["#branch-algebra-1", "#topic-exponents-and-radicals"]
+tags: ["#branch-algebra-1", "#topic-exponents-and-radicals", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -21,7 +21,6 @@ problem_type_ids: []
 figures: []
 summary: "Extending the exponent rules to cover a^0 and a^(-n), with the quotient rule as the bridge."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Zero and Negative Exponents
 
 # Zero and Negative Exponents

@@ -2,7 +2,7 @@
 title: "Summation"
 type: topic
 aliases: ["Sigma Notation", "Summation Notation", "Series"]
-tags: ["#branch-pre-calculus", "#topic-sequences-and-series", "#key-formula"]
+tags: ["#branch-pre-calculus", "#topic-sequences-and-series", "#key-formula", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Sigma notation — a compact way to write a long sum, together with the linearity rules and closed-form identities that make those sums tractable."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Summation
 
 # Summation

@@ -2,7 +2,7 @@
 title: "Inequalities and Their Graphs"
 type: topic
 aliases: ["Inequality Graphs", "Graphing Inequalities on a Number Line"]
-tags: ["#branch-algebra-1", "#topic-inequalities"]
+tags: ["#branch-algebra-1", "#topic-inequalities", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Comparing expressions with <, >, \u2264, \u2265 and picturing the infinite set of solutions on a number line."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Inequalities and Their Graphs
 
 # Inequalities and Their Graphs

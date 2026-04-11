@@ -2,7 +2,7 @@
 title: "Solving One-Step and Two-Step Inequalities"
 type: topic
 aliases: ["One-Step Inequalities", "Two-Step Inequalities"]
-tags: ["#branch-pre-algebra", "#topic-inequalities"]
+tags: ["#branch-pre-algebra", "#topic-inequalities", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Isolate the variable just like in an equation, with one crucial twist: flip the inequality whenever you multiply or divide both sides by a negative."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Solving One-Step and Two-Step Inequalities
 
 # Solving One-Step and Two-Step Inequalities

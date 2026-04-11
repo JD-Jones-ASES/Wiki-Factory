@@ -2,7 +2,7 @@
 title: "Absolute Value Inequalities"
 type: topic
 aliases: ["Absolute-Value Inequality", "|x| < k Inequality", "|x| > k Inequality"]
-tags: ["#branch-algebra-1", "#topic-inequalities"]
+tags: ["#branch-algebra-1", "#topic-inequalities", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "|expr| < k is an AND compound inequality between -k and k; |expr| > k is an OR compound inequality outside -k and k."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Absolute Value Inequalities
 
 # Absolute Value Inequalities

@@ -2,7 +2,7 @@
 title: "Volume of Prisms and Cylinders"
 type: topic
 aliases: ["Prism Volume", "Cylinder Volume"]
-tags: ["#branch-pre-algebra", "#topic-solid-geometry", "#key-topic"]
+tags: ["#branch-pre-algebra", "#topic-solid-geometry", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["geometry/prism_cylinder_labeled.svg"]
 summary: "Stack copies of a flat base to get volume: multiply the base area by the height."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Volume of Prisms and Cylinders
 
 # Volume of Prisms and Cylinders

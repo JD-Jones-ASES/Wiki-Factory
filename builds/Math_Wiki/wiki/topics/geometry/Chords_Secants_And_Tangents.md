@@ -2,7 +2,7 @@
 title: "Chords, Secants, and Tangents"
 type: topic
 aliases: ["Power of a Point", "Chord-Chord Product"]
-tags: ["#branch-geometry", "#topic-euclidean-geometry", "#key-technique"]
+tags: ["#branch-geometry", "#topic-euclidean-geometry", "#key-technique", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["geometry/chord_secant_tangent.svg"]
 summary: "Three ways a line can meet a circle — chord, secant, tangent — each with a power-of-a-point product rule that turns crossings into simple equations."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Chords, Secants, and Tangents
 
 # Chords, Secants, and Tangents

@@ -2,7 +2,7 @@
 title: "Absolute Value Functions"
 type: topic
 aliases: ["Absolute Value Function", "AbsoluteValueFunctions", "V-Shape Function"]
-tags: ["#branch-algebra-2", "#topic-functions"]
+tags: ["#branch-algebra-2", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -28,7 +28,6 @@ problem_type_ids: []
 figures: []
 summary: "f(x) = |x| is a V-shape with vertex at the origin; the form a|x - h| + k slides, stretches, and flips it."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Absolute Value Functions
 
 # Absolute Value Functions

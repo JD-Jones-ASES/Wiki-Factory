@@ -2,7 +2,7 @@
 title: "Compound Inequalities"
 type: topic
 aliases: ["And Inequality", "Or Inequality", "Between Inequality"]
-tags: ["#branch-algebra-1", "#topic-inequalities"]
+tags: ["#branch-algebra-1", "#topic-inequalities", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "Two inequalities joined by AND (both must hold) or OR (at least one must hold), solved together and graphed on a number line."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Compound Inequalities
 
 # Compound Inequalities

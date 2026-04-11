@@ -2,7 +2,7 @@
 title: "Square Roots and Cube Roots"
 type: topic
 aliases: ["Square Root", "Cube Root", "Principal Square Root", "Radical"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -21,7 +21,6 @@ problem_type_ids: []
 figures: []
 summary: "Square roots, cube roots, and how to evaluate and estimate them."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Square Roots and Cube Roots
 
 # Square Roots and Cube Roots

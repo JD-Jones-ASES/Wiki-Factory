@@ -2,7 +2,7 @@
 title: "Transformations II: Stretches, Compressions, and Combined"
 type: topic
 aliases: ["Stretches and Compressions", "Combined Transformations"]
-tags: ["#branch-algebra-2", "#topic-functions", "#topic-transformations"]
+tags: ["#branch-algebra-2", "#topic-functions", "#topic-transformations", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Stretching, squeezing, and putting all four transformation moves together in one formula."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Transformations II: Stretches, Compressions, and Combined
 
 # Transformations II: Stretches, Compressions, and Combined

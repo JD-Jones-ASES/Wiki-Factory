@@ -2,7 +2,7 @@
 title: "Solving Multi-Step Inequalities"
 type: topic
 aliases: ["Multi-Step Inequalities", "Solving Linear Inequalities"]
-tags: ["#branch-algebra-1", "#topic-inequalities", "#key-topic"]
+tags: ["#branch-algebra-1", "#topic-inequalities", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -27,7 +27,6 @@ problem_type_ids: []
 figures: []
 summary: "Use the same moves as an equation, with one extra rule: flip the symbol whenever you multiply or divide by a negative."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Solving Multi-Step Inequalities
 
 # Solving Multi-Step Inequalities

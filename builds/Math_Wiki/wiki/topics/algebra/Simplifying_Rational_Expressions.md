@@ -2,7 +2,7 @@
 title: "Simplifying Rational Expressions"
 type: topic
 aliases: ["Rational Expressions", "Reducing Rational Expressions", "Lowest Terms"]
-tags: ["#branch-algebra-1", "#topic-rational-expressions"]
+tags: ["#branch-algebra-1", "#topic-rational-expressions", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -31,7 +31,6 @@ problem_type_ids: []
 figures: []
 summary: "Factor the top, factor the bottom, cancel what matches — then keep track of every x the original denominator hated."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Simplifying Rational Expressions
 
 # Simplifying Rational Expressions

@@ -2,7 +2,7 @@
 title: "Square Root Functions"
 type: topic
 aliases: ["Square Root Function", "Radical Function"]
-tags: ["#branch-algebra-2", "#topic-functions", "#topic-exponents-and-radicals"]
+tags: ["#branch-algebra-2", "#topic-functions", "#topic-exponents-and-radicals", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -27,7 +27,6 @@ problem_type_ids: []
 figures: ["algebra/square_root_function.svg"]
 summary: "The function f(x) = √x: a one-sided curve whose shape, starting point, and reach are controlled by three transformation numbers."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Square Root Functions
 
 # Square Root Functions

@@ -2,7 +2,7 @@
 title: "Circular Functions"
 type: topic
 aliases: ["Unit Circle Definition of Trig", "Trig Functions on the Unit Circle"]
-tags: ["#branch-pre-calculus", "#topic-unit-circle"]
+tags: ["#branch-pre-calculus", "#topic-unit-circle", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: ["precalculus/right_triangle_soh_cah_toa.svg"]
 summary: "Sine and cosine of any angle, defined as the coordinates of a point on the unit circle — extending right-triangle trig to every real angle."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Circular Functions
 
 # Circular Functions

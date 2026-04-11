@@ -2,7 +2,7 @@
 title: "Circles"
 type: topic
 aliases: ["Circle", "Circle Equation", "Analytic Circles"]
-tags: ["#branch-geometry", "#topic-analytic-geometry", "#key-topic"]
+tags: ["#branch-geometry", "#topic-analytic-geometry", "#key-topic", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs: []
@@ -20,7 +20,6 @@ problem_type_ids:
 figures: ["geometry/circle_parts.svg"]
 summary: "The set of points equidistant from a center; its equation, area, and circumference."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Circles
 
 # Circles

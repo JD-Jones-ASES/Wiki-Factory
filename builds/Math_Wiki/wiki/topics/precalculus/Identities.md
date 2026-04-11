@@ -2,7 +2,7 @@
 title: "Identities"
 type: topic
 aliases: ["Trig Identities", "Trigonometric Identities"]
-tags: ["#branch-pre-calculus", "#topic-trig-identities", "#key-topic"]
+tags: ["#branch-pre-calculus", "#topic-trig-identities", "#key-topic", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Equations between trig functions that hold for every angle: the Pythagorean, even/odd, sum/difference, and double-angle families."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Identities
 
 # Identities

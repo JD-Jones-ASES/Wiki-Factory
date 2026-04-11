@@ -2,7 +2,7 @@
 title: "Rational Exponents"
 type: topic
 aliases: ["Fractional Exponents", "Exponents as Roots"]
-tags: ["#branch-pre-algebra", "#topic-exponents-and-radicals"]
+tags: ["#branch-pre-algebra", "#topic-exponents-and-radicals", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Fractional exponents like a^(1/n) are roots in disguise, forced on us by the exponent rules."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Rational Exponents
 
 # Rational Exponents

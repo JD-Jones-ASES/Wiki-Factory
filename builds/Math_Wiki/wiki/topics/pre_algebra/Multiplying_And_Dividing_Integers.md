@@ -2,7 +2,7 @@
 title: "Multiplying and Dividing Integers"
 type: topic
 aliases: ["Integer Multiplication", "Integer Division", "Sign Rules"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -21,7 +21,6 @@ problem_type_ids: []
 figures: []
 summary: "Sign rules for integer products and quotients, and why two negatives combine to make a positive."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Multiplying and Dividing Integers
 
 # Multiplying and Dividing Integers

@@ -2,7 +2,7 @@
 title: "Function Notation"
 type: topic
 aliases: ["Function Notation", "f of x", "f(x)"]
-tags: ["#branch-pre-calculus", "#topic-functions"]
+tags: ["#branch-pre-calculus", "#topic-functions", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "The symbol f(x) is a naming system for function outputs — read it as 'f at x', never as multiplication."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Function Notation
 
 # Function Notation

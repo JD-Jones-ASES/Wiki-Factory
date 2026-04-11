@@ -2,7 +2,7 @@
 title: "Inverse Functions"
 type: topic
 aliases: ["Inverse Function", "InverseFunctions", "f inverse"]
-tags: ["#branch-algebra-2", "#topic-functions"]
+tags: ["#branch-algebra-2", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -29,7 +29,6 @@ problem_type_ids: []
 figures: []
 summary: "The inverse function f^(-1) undoes f; it exists exactly when f is one-to-one, and its graph is f reflected across y = x."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Inverse Functions
 
 # Inverse Functions

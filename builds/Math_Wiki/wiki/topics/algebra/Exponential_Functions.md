@@ -2,7 +2,7 @@
 title: "Exponential Functions"
 type: topic
 aliases: ["Exponential Function", "Exponential Growth and Decay"]
-tags: ["#branch-algebra-2", "#topic-exponents-and-radicals", "#topic-functions", "#key-topic"]
+tags: ["#branch-algebra-2", "#topic-exponents-and-radicals", "#topic-functions", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: ["algebra/exponential_growth_decay.svg"]
 summary: "The function f(x) = a b^x, where the variable lives in the exponent and the base sets the growth factor."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Exponential Functions
 
 # Exponential Functions

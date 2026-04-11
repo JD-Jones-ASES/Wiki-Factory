@@ -2,7 +2,7 @@
 title: "Solving Quadratics by Square Roots"
 type: topic
 aliases: ["Square Root Method", "Square Root Property"]
-tags: ["#branch-algebra-1", "#topic-quadratics", "#key-technique"]
+tags: ["#branch-algebra-1", "#topic-quadratics", "#key-technique", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "When a quadratic already wears a perfect-square coat, undo the square and collect both roots."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Solving Quadratics by Square Roots
 
 # Solving Quadratics by Square Roots

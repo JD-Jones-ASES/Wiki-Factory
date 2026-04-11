@@ -2,7 +2,7 @@
 title: "Proportions and Cross Multiplication"
 type: topic
 aliases: ["Proportion", "Cross Multiplication", "Cross Products"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: []
 summary: "An equation between two ratios, solved with the cross-product shortcut."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Proportions and Cross Multiplication
 
 # Proportions and Cross Multiplication

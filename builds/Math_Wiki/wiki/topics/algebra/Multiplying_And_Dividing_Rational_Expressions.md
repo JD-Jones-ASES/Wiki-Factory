@@ -2,7 +2,7 @@
 title: "Multiplying and Dividing Rational Expressions"
 type: topic
 aliases: ["Rational Expression Multiplication", "Rational Expression Division"]
-tags: ["#branch-algebra-2", "#topic-rational-expressions"]
+tags: ["#branch-algebra-2", "#topic-rational-expressions", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -30,7 +30,6 @@ problem_type_ids: []
 figures: []
 summary: "Multiply two rational expressions by factoring everything first, then canceling what matches, then multiplying the survivors. Divide by flipping the second fraction and multiplying."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Multiplying and Dividing Rational Expressions
 
 # Multiplying and Dividing Rational Expressions

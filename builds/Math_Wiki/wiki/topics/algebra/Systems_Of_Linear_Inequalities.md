@@ -2,7 +2,7 @@
 title: "Systems of Linear Inequalities"
 type: topic
 aliases: ["System of Inequalities", "Graphing Systems of Inequalities", "Feasible Region"]
-tags: ["#branch-algebra-1", "#topic-systems", "#topic-inequalities"]
+tags: ["#branch-algebra-1", "#topic-systems", "#topic-inequalities", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -26,7 +26,6 @@ problem_type_ids: []
 figures: []
 summary: "Graph each inequality as a half-plane and take the overlap — the solution is the intersection region."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Systems of Linear Inequalities
 
 # Systems of Linear Inequalities

@@ -2,7 +2,7 @@
 title: "Equivalent Fractions and Simplifying"
 type: topic
 aliases: ["Reducing Fractions", "Lowest Terms", "Simplest Form"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Different-looking fractions can name the same amount; simplest form is the cleanest way to write any of them."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Equivalent Fractions and Simplifying
 
 # Equivalent Fractions and Simplifying

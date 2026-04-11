@@ -2,7 +2,7 @@
 title: "Rigid Transformations"
 type: topic
 aliases: ["Isometries", "Translations Rotations Reflections"]
-tags: ["#branch-geometry", "#topic-transformations", "#key-topic"]
+tags: ["#branch-geometry", "#topic-transformations", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["geometry/rigid_transformations.svg"]
 summary: "Three moves that slide, spin, or flip a figure without changing any of its lengths or angles."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Rigid Transformations
 
 # Rigid Transformations

@@ -2,7 +2,7 @@
 title: "Special Products"
 type: topic
 aliases: ["Perfect Square Trinomial", "Difference of Squares Product", "Binomial Square"]
-tags: ["#branch-algebra-1", "#topic-polynomials"]
+tags: ["#branch-algebra-1", "#topic-polynomials", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Three binomial-multiplication patterns worth memorizing: the difference of squares and the two perfect square trinomials."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Special Products
 
 # Special Products

@@ -102,3 +102,18 @@ Every topic page carries exactly ONE branch tag matching its `branch:` frontmatt
 - `#representation-verbal` --- word problems, real-world context
 
 These are orthogonal to branch/topic tags and help surface problems of a given style.
+
+---
+
+## 7. Standardized Test Tags --- which major US math exams include this topic?
+
+- `#test-sat` --- Digital SAT Math (4 domains: Algebra, Advanced Math, Problem-Solving & Data Analysis, Geometry & Trigonometry).
+- `#test-psat` --- PSAT/NMSQT Math (shares SAT's four domains but caps at Algebra 2 level; excludes advanced trig identities and matrix work).
+- `#test-act` --- ACT Math (Enhanced 2026 format; six reporting categories: Number & Quantity, Algebra, Functions, Geometry, Statistics & Probability, Integrating Essential Skills). Broader scope than SAT: includes basic matrices, conic sections, normal and binomial probability, permutations/combinations.
+- `#test-clt` --- Classic Learning Test Quantitative Reasoning (classical liberal-arts style, no calculator, narrower topical scope; heavy emphasis on arithmetic, mental math, number theory, proportional reasoning, basic geometry, and logic-style word problems).
+
+A topic may carry zero, one, or multiple test tags depending on the exams it appears on. A topic common to all four tests (e.g., linear equations, basic triangles, mean/median/mode) carries all four tags. A topic appearing only on the ACT (e.g., matrix arithmetic, conic sections, normal distribution, permutations and combinations) carries only `#test-act`.
+
+Test tags are orthogonal to branch/topic/skill/representation tags. A student-facing topic's YAML `tags:` array may combine, for example, `["#branch-algebra-1", "#topic-linear", "#test-sat", "#test-psat", "#test-act", "#test-clt"]`.
+
+Quartz renders auto-generated tag index pages at `/tags/test-sat`, `/tags/test-psat`, `/tags/test-act`, and `/tags/test-clt` --- these serve as de-facto "everything on the SAT" / "everything on the ACT" indexes without any hub-page authoring.

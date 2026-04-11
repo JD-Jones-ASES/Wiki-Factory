@@ -2,7 +2,7 @@
 title: "Factoring Trinomials: General"
 type: topic
 aliases: ["AC Method", "Factoring by Grouping", "Factoring Trinomials a Not 1"]
-tags: ["#branch-algebra-1", "#topic-polynomials"]
+tags: ["#branch-algebra-1", "#topic-polynomials", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Factor ax^2 + bx + c when a is not 1 by splitting the middle term using a product-and-sum search, then grouping."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Factoring Trinomials: General
 
 # Factoring Trinomials: General

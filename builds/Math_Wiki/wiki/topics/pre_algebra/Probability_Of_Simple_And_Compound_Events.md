@@ -2,7 +2,7 @@
 title: "Probability of Simple and Compound Events"
 type: topic
 aliases: ["Probability", "Compound Probability", "Simple and Compound Events"]
-tags: ["#branch-pre-algebra", "#topic-probability"]
+tags: ["#branch-pre-algebra", "#topic-probability", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Count favorable outcomes, divide by total outcomes, and use AND/OR rules for compound events."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Probability of Simple and Compound Events
 
 # Probability of Simple and Compound Events

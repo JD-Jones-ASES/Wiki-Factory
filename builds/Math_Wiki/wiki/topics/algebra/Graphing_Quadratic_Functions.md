@@ -2,7 +2,7 @@
 title: "Graphing Quadratic Functions"
 type: topic
 aliases: ["Parabola Graph", "Quadratic Graph"]
-tags: ["#branch-algebra-1", "#topic-quadratics", "#skill-visualization", "#key-topic"]
+tags: ["#branch-algebra-1", "#topic-quadratics", "#skill-visualization", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: ["algebra/parabola_vertex_axis_of_symmetry.svg"]
 summary: "Sketch the parabola y = ax² + bx + c by finding the vertex with x = -b/(2a), plotting the y-intercept and its symmetric partner, and using the sign and size of a to set direction and width."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Graphing Quadratic Functions
 
 # Graphing Quadratic Functions

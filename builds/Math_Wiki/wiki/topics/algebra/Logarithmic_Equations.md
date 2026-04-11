@@ -2,7 +2,7 @@
 title: "Logarithmic Equations"
 type: topic
 aliases: ["Log Equations", "LogEquations"]
-tags: ["#branch-algebra-2", "#topic-logarithms"]
+tags: ["#branch-algebra-2", "#topic-logarithms", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -28,7 +28,6 @@ problem_type_ids: []
 figures: []
 summary: "To solve an equation with logs, collapse the log terms, convert to exponential form, and always reject solutions that make any argument nonpositive."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Logarithmic Equations
 
 # Logarithmic Equations

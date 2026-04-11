@@ -2,7 +2,7 @@
 title: "Rational Equations and Applications"
 type: topic
 aliases: ["Rational Equation Word Problems", "Work and Rate Problems"]
-tags: ["#branch-algebra-2", "#topic-rational-expressions"]
+tags: ["#branch-algebra-2", "#topic-rational-expressions", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Turning real-world rate, work, and travel scenarios into rational equations, then solving and interpreting the answer."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Rational Equations and Applications
 
 # Rational Equations and Applications

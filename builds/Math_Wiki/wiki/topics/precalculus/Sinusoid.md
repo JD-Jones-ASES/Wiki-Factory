@@ -2,7 +2,7 @@
 title: "Sinusoid"
 type: topic
 aliases: ["Sinusoidal Function", "Sinusoids", "Sinusoidal Model"]
-tags: ["#branch-pre-calculus", "#topic-unit-circle", "#topic-functions"]
+tags: ["#branch-pre-calculus", "#topic-unit-circle", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Any stretched, shifted sine or cosine wave. Four parameters — amplitude, period, phase shift, midline — fully describe the shape."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Sinusoid
 
 # Sinusoid

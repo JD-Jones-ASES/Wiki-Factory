@@ -2,7 +2,7 @@
 title: "Unit Rates"
 type: topic
 aliases: ["Unit Rate", "Per Unit Rate"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "A rate expressing cost, speed, or density per one unit of the other quantity."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Unit Rates
 
 # Unit Rates

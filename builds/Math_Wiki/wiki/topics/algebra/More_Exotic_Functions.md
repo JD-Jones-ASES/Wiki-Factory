@@ -2,7 +2,7 @@
 title: "More Exotic Functions"
 type: topic
 aliases: ["Piecewise Functions", "Step Functions"]
-tags: ["#branch-algebra-2", "#topic-functions"]
+tags: ["#branch-algebra-2", "#topic-functions", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["algebra/piecewise_function.svg"]
 summary: "Piecewise, step, and floor functions — the rule changes partway through."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > More Exotic Functions
 
 # More Exotic Functions

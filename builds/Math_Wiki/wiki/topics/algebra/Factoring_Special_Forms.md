@@ -2,7 +2,7 @@
 title: "Factoring Special Forms"
 type: topic
 aliases: ["Difference of Squares", "Perfect Square Trinomial", "Special Factoring Patterns"]
-tags: ["#branch-algebra-1", "#topic-polynomials"]
+tags: ["#branch-algebra-1", "#topic-polynomials", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Recognize and reverse two patterns: the difference of two squares and the perfect square trinomial."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Factoring Special Forms
 
 # Factoring Special Forms

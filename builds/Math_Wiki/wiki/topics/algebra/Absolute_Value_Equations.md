@@ -2,7 +2,7 @@
 title: "Absolute Value Equations"
 type: topic
 aliases: []
-tags: ["#branch-algebra-1", "#topic-auto-generated"]
+tags: ["#branch-algebra-1", "#topic-auto-generated", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs: []
@@ -15,7 +15,6 @@ problem_type_ids: []
 figures: []
 summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Absolute Value Equations
 
 # Absolute Value Equations

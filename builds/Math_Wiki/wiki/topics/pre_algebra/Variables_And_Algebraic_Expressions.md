@@ -2,7 +2,7 @@
 title: "Variables and Algebraic Expressions"
 type: topic
 aliases: ["Algebraic Expressions", "Variables"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "A variable is a letter standing in for a number; an expression combines numbers, variables, and operations with no equals sign."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Variables and Algebraic Expressions
 
 # Variables and Algebraic Expressions

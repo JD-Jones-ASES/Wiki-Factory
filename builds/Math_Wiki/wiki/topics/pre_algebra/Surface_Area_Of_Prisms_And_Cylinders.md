@@ -2,7 +2,7 @@
 title: "Surface Area of Prisms and Cylinders"
 type: topic
 aliases: ["Prism Surface Area", "Cylinder Surface Area", "Net Method"]
-tags: ["#branch-pre-algebra", "#topic-solid-geometry", "#key-topic"]
+tags: ["#branch-pre-algebra", "#topic-solid-geometry", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["geometry/prism_cylinder_labeled.svg"]
 summary: "Unfold the solid into a flat net, compute each piece, and add — that sum is the surface area."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Surface Area of Prisms and Cylinders
 
 # Surface Area of Prisms and Cylinders

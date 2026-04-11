@@ -2,7 +2,7 @@
 title: "Writing Linear Equations"
 type: topic
 aliases: ["Writing Equations of Lines", "Finding the Equation of a Line"]
-tags: ["#branch-algebra-1", "#topic-linear"]
+tags: ["#branch-algebra-1", "#topic-linear", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Given slope and intercept, slope and a point, or two points — write the equation of the line."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Writing Linear Equations
 
 # Writing Linear Equations

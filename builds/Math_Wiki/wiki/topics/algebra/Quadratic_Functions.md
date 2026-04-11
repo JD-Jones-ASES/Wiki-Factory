@@ -2,7 +2,7 @@
 title: "Quadratic Functions"
 type: topic
 aliases: ["QuadraticFunctions", "Quadratic Functions and Vertex Form"]
-tags: ["#branch-algebra-2", "#topic-quadratics", "#topic-functions", "#key-topic"]
+tags: ["#branch-algebra-2", "#topic-quadratics", "#topic-functions", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -27,7 +27,6 @@ problem_type_ids: []
 figures: []
 summary: "Two ways to write the same parabola: standard form shows the y-intercept, vertex form shows the turning point."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Quadratic Functions
 
 # Quadratic Functions

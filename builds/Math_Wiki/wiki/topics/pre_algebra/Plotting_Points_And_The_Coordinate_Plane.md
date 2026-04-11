@@ -2,7 +2,7 @@
 title: "Plotting Points and the Coordinate Plane"
 type: topic
 aliases: ["Coordinate Plane", "Cartesian Plane", "Plotting Points", "xy-plane"]
-tags: ["#branch-pre-algebra", "#topic-analytic-geometry"]
+tags: ["#branch-pre-algebra", "#topic-analytic-geometry", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["algebra/coordinate_plane.svg"]
 summary: "Two crossed number lines turn every point in the plane into an address (x, y)."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Plotting Points and the Coordinate Plane
 
 # Plotting Points and the Coordinate Plane

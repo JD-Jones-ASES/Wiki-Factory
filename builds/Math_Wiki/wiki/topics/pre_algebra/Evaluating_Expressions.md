@@ -2,7 +2,7 @@
 title: "Evaluating Expressions"
 type: topic
 aliases: ["Evaluate an Expression", "Substitution"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: []
 summary: "Substitute numbers for variables, then simplify using order of operations."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Evaluating Expressions
 
 # Evaluating Expressions

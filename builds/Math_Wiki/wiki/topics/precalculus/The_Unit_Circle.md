@@ -2,7 +2,7 @@
 title: "The Unit Circle"
 type: topic
 aliases: ["Special Angles", "Unit Circle Values"]
-tags: ["#branch-pre-calculus", "#topic-unit-circle", "#key-topic"]
+tags: ["#branch-pre-calculus", "#topic-unit-circle", "#key-topic", "#test-sat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -23,7 +23,6 @@ problem_type_ids: []
 figures: ["precalculus/unit_circle.svg"]
 summary: "The exact values of sine and cosine at the special angles, derived from 30-60-90 and 45-45-90 reference triangles and memorized via one diagram."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Unit Circle
 
 # The Unit Circle

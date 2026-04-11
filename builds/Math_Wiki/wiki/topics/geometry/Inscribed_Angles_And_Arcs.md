@@ -2,7 +2,7 @@
 title: "Inscribed Angles and Arcs"
 type: topic
 aliases: ["Inscribed Angle Theorem", "Central Angle Theorem"]
-tags: ["#branch-geometry", "#topic-euclidean-geometry", "#key-topic"]
+tags: ["#branch-geometry", "#topic-euclidean-geometry", "#key-topic", "#test-sat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["geometry/inscribed_angle_theorem.svg"]
 summary: "Central angles equal the arcs they cut off, inscribed angles are half as big, and arcs translate directly into lengths and sector areas."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Inscribed Angles and Arcs
 
 # Inscribed Angles and Arcs

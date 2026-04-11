@@ -2,7 +2,7 @@
 title: "Simplifying Radical Expressions"
 type: topic
 aliases: ["Simplifying Radicals", "Simplest Radical Form", "Rationalizing Denominators"]
-tags: ["#branch-algebra-1", "#topic-exponents-and-radicals"]
+tags: ["#branch-algebra-1", "#topic-exponents-and-radicals", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Rewrite radicals in their tidiest form: no perfect squares trapped inside, no fractions under the radical, and no radicals stuck in the denominator."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Simplifying Radical Expressions
 
 # Simplifying Radical Expressions

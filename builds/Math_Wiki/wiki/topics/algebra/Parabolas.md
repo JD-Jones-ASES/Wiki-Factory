@@ -2,7 +2,7 @@
 title: "Parabolas"
 type: topic
 aliases: ["Parabola (Conic)", "Conic Parabola", "Parabola Focus Directrix"]
-tags: ["#branch-algebra-2", "#topic-conic-sections", "#key-topic"]
+tags: ["#branch-algebra-2", "#topic-conic-sections", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: ["algebra/conic_sections_gallery.svg"]
 summary: "The conic view of a parabola: every point on the curve is the same distance from a fixed focus and a fixed directrix."
 ---
-
 > [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Parabolas
 
 # Parabolas

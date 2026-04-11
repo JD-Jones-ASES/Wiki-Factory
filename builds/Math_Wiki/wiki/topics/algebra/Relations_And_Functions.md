@@ -2,7 +2,7 @@
 title: "Relations and Functions"
 type: topic
 aliases: ["Relations", "Functions Introduction", "Is It A Function"]
-tags: ["#branch-algebra-1", "#topic-functions"]
+tags: ["#branch-algebra-1", "#topic-functions", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "A relation is any collection of ordered pairs; a function is the special kind where every input has exactly one output."
 ---
-
 > [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Relations and Functions
 
 # Relations and Functions

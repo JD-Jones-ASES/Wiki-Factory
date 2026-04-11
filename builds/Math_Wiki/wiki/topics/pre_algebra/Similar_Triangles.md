@@ -2,7 +2,7 @@
 title: "Similar Triangles"
 type: topic
 aliases: ["Similar Triangle", "AA Similarity", "Triangle Similarity"]
-tags: ["#branch-pre-algebra", "#topic-similarity-and-congruence"]
+tags: ["#branch-pre-algebra", "#topic-similarity-and-congruence", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: []
 summary: "Triangles with the same shape but possibly different sizes, caught by the AA rule and unlocked by proportional sides."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Similar Triangles
 
 # Similar Triangles

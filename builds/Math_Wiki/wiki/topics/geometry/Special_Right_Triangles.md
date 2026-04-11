@@ -2,7 +2,7 @@
 title: "Special Right Triangles"
 type: topic
 aliases: ["30-60-90 Triangle", "45-45-90 Triangle"]
-tags: ["#branch-geometry", "#topic-right-triangles", "#key-topic"]
+tags: ["#branch-geometry", "#topic-right-triangles", "#key-topic", "#test-sat", "#test-psat", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["geometry/special_right_triangles.svg"]
 summary: "Two right triangles with such clean side ratios — 1:1:√2 and 1:√3:2 — that you can skip the Pythagorean theorem entirely."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Special Right Triangles
 
 # Special Right Triangles

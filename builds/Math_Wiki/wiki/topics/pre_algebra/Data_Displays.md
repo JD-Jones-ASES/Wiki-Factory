@@ -2,7 +2,7 @@
 title: "Data Displays"
 type: topic
 aliases: ["Graphs and Charts", "Statistical Displays"]
-tags: ["#branch-pre-algebra", "#topic-statistics"]
+tags: ["#branch-pre-algebra", "#topic-statistics", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -20,7 +20,6 @@ problem_type_ids: []
 figures: ["pre_algebra/histogram_example.svg"]
 summary: "Bars, lines, slices, dots, and stems: pick the visual that matches the question you are asking."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Data Displays
 
 # Data Displays

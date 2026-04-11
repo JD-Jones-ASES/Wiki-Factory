@@ -2,7 +2,7 @@
 title: "Properties of Logarithms"
 type: topic
 aliases: ["Log Properties", "Log Rules", "Logarithm Identities"]
-tags: ["#branch-pre-calculus", "#topic-logarithms", "#topic-functions", "#key-topic", "#key-formula"]
+tags: ["#branch-pre-calculus", "#topic-logarithms", "#topic-functions", "#key-topic", "#key-formula", "#test-act"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -25,7 +25,6 @@ problem_type_ids: []
 figures: []
 summary: "Three identities turn log arithmetic into exponent arithmetic, and a change-of-base formula lets any calculator compute any log."
 ---
-
 > [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Properties of Logarithms
 
 # Properties of Logarithms

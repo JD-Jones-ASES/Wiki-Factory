@@ -2,7 +2,7 @@
 title: "Place Value, Rounding, and Estimation"
 type: topic
 aliases: ["Place Value", "Rounding", "Estimation", "Whole Number Place Value"]
-tags: ["#branch-pre-algebra", "#topic-numbers-and-operations"]
+tags: ["#branch-pre-algebra", "#topic-numbers-and-operations", "#test-sat", "#test-psat", "#test-act", "#test-clt"]
 created: 2026-04-10
 updated: 2026-04-10
 source_refs:
@@ -22,7 +22,6 @@ problem_type_ids: []
 figures: ["pre_algebra/place_value_chart.svg"]
 summary: "Ones, tens, hundreds; rounding to a chosen digit; quick estimates."
 ---
-
 > [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Place Value, Rounding, and Estimation
 
 # Place Value, Rounding, and Estimation
