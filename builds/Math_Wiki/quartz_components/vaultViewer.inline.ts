@@ -492,10 +492,10 @@ function renderVault(mount: HTMLElement) {
   shuffleBtn.className = "vv-btn vv-shuffle"
   shuffleBtn.textContent = "Shuffle"
 
-  const printBtn = document.createElement("button")
-  printBtn.type = "button"
-  printBtn.className = "vv-btn vv-print"
-  printBtn.textContent = "Print Worksheet"
+  const pdfBtn = document.createElement("button")
+  pdfBtn.type = "button"
+  pdfBtn.className = "vv-btn vv-pdf"
+  pdfBtn.textContent = "Save as PDF"
 
   const exportBtn = document.createElement("button")
   exportBtn.type = "button"
@@ -519,7 +519,7 @@ function renderVault(mount: HTMLElement) {
   clearBtn.textContent = "Clear Vault"
 
   actions.appendChild(shuffleBtn)
-  actions.appendChild(printBtn)
+  actions.appendChild(pdfBtn)
   actions.appendChild(exportBtn)
   actions.appendChild(importBtn)
   actions.appendChild(importInput)
@@ -641,9 +641,26 @@ function renderVault(mount: HTMLElement) {
     renderVault(mount)
   })
 
-  printBtn.addEventListener("click", () => {
-    answerKey.open = true
-    window.print()
+  pdfBtn.addEventListener("click", async () => {
+    const originalLabel = pdfBtn.textContent
+    pdfBtn.disabled = true
+    pdfBtn.textContent = "Generating PDF..."
+    try {
+      // Open the on-screen answer key so the window.print() fallback path
+      // (triggered in the catch branch below) still includes the answers
+      // if jsPDF fails to load.
+      answerKey.open = true
+      await exportVaultToPdf(vaultGet())
+    } catch (err) {
+      console.warn("[vault-viewer] PDF export failed, falling back to print:", err)
+      alert("PDF export failed — falling back to browser print.")
+      try {
+        window.print()
+      } catch {}
+    } finally {
+      pdfBtn.disabled = false
+      pdfBtn.textContent = originalLabel ?? "Save as PDF"
+    }
   })
 
   exportBtn.addEventListener("click", () => {

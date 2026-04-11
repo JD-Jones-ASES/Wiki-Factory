@@ -52,15 +52,22 @@
   background: var(--highlight);
 }
 
-.vv-btn.vv-print {
+.vv-btn.vv-pdf {
   background: var(--secondary);
   color: var(--light);
   border-color: var(--secondary);
 }
 
-.vv-btn.vv-print:hover {
+.vv-btn.vv-pdf:hover {
   background: var(--tertiary);
   border-color: var(--tertiary);
+}
+
+.vv-btn.vv-pdf:disabled {
+  background: var(--lightgray);
+  color: var(--gray);
+  border-color: var(--lightgray);
+  cursor: wait;
 }
 
 .vv-problems {
