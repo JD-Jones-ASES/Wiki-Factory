@@ -47,15 +47,16 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Algebra topics (middle-school foundations) --- 41 live / 92 total
+### Pre-Algebra topics (middle-school foundations) --- 42 live / 92 total
 
-**🟢 Live topics with practice widgets (41)**
+**🟢 Live topics with practice widgets (42)**
 
 - 🟢 [[Adding_And_Subtracting_Decimals|Adding and Subtracting Decimals]]
 - 🟢 [[Adding_And_Subtracting_Fractions|Adding and Subtracting Fractions]]
 - 🟢 [[Adding_And_Subtracting_Integers|Adding and Subtracting Integers]]
 - 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 - 🟢 [[Arithmetic_Sequences_And_Linear_Patterns|Arithmetic Sequences and Linear Patterns]]
+- 🟢 [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
 - 🟢 [[Comparing_And_Ordering_Fractions|Comparing and Ordering Fractions]]
 - 🟢 [[Data_Displays|Data Displays]]
 - 🟢 [[Data_Displays_And_Measures_Of_Spread|Data Displays and Measures of Spread]]
@@ -94,14 +95,13 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 
 <details>
-<summary>⚪ 51 stub topic(s) (click to expand)</summary>
+<summary>⚪ 50 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value|Absolute Value]] --- _4 worked example(s)_
 - ⚪ [[Absolute_Value_And_Opposites|Absolute Value and Opposites]] --- _4 worked example(s)_
 - ⚪ [[Adding_And_Subtracting_Mixed_Numbers|Adding and Subtracting Mixed Numbers]] --- _4 worked example(s)_
 - ⚪ [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]] --- _4 worked example(s)_
 - ⚪ [[Applications_Tax_Tip_Discount_And_Simple_Interest|Applications: Tax, Tip, Discount, and Simple Interest]] --- _4 worked example(s)_
-- ⚪ [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]] --- _4 worked example(s)_
 - ⚪ [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]] --- _4 worked example(s)_
 - ⚪ [[Comparing_And_Ordering_Rational_Numbers|Comparing and Ordering Rational Numbers]] --- _covered by 2 books, 8 worked example(s)_
 - ⚪ [[Composite_Figures|Composite Figures]] --- _4 worked example(s)_
@@ -211,9 +211,9 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 
 </details>
 
-### Algebra 2 topics --- 29 live / 49 total
+### Algebra 2 topics --- 33 live / 49 total
 
-**🟢 Live topics with practice widgets (29)**
+**🟢 Live topics with practice widgets (33)**
 
 - 🟢 [[Absolute_Value_Functions|Absolute Value Functions]]
 - 🟢 [[Adding_And_Subtracting_Rational_Expressions|Adding and Subtracting Rational Expressions]]
@@ -221,6 +221,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Circles|Circles]]
 - 🟢 [[Completing_The_Square|Completing the Square]]
 - 🟢 [[Cube_Root_And_Other_Radical_Functions|Cube Root and Other Radical Functions]]
+- 🟢 [[Ellipses|Ellipses]]
 - 🟢 [[Exponential_Equations|Exponential Equations]]
 - 🟢 [[Exponential_Functions|Exponential Functions]]
 - 🟢 [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]]
@@ -228,6 +229,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Graphing_Rational_Functions_Part_1|Graphing Rational Functions: Part~1]]
 - 🟢 [[Graphing_Rational_Functions_Part_2|Graphing Rational Functions: Part~2]]
 - 🟢 [[Growth_Decay_And_Applications|Growth, Decay, and Applications]]
+- 🟢 [[Hyperbolas|Hyperbolas]]
 - 🟢 [[Inverse_Functions|Inverse Functions]]
 - 🟢 [[Linear_Functions|Linear Functions]]
 - 🟢 [[Logarithmic_Equations|Logarithmic Equations]]
@@ -236,25 +238,24 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Modeling_With_Linear_Functions|Modeling with Linear Functions]]
 - 🟢 [[More_Exotic_Functions|More Exotic Functions]]
 - 🟢 [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]]
+- 🟢 [[Parabolas|Parabolas]]
 - 🟢 [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]]
 - 🟢 [[Power_Functions|Power Functions]]
 - 🟢 [[Quadratic_Functions|Quadratic Functions]]
 - 🟢 [[Rational_Equations_And_Applications|Rational Equations and Applications]]
 - 🟢 [[Sequences|Sequences]]
 - 🟢 [[Square_Root_Functions|Square Root Functions]]
+- 🟢 [[The_Complex_Number_System|The Complex Number System]]
 - 🟢 [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]]
 - 🟢 [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, and Combined]]
 
 <details>
-<summary>⚪ 20 stub topic(s) (click to expand)</summary>
+<summary>⚪ 16 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value_Equations_And_Inequalities|Absolute Value Equations and Inequalities]] --- _5 worked example(s)_
-- ⚪ [[Ellipses|Ellipses]] --- _covered by 2 books, 9 worked example(s)_
 - ⚪ [[Factoring_Expressions|Factoring Expressions]] --- _7 worked example(s)_
 - ⚪ [[Factoring_I|Factoring I]] --- _8 worked example(s)_
 - ⚪ [[Factoring_Ii|Factoring II]] --- _6 worked example(s)_
-- ⚪ [[Hyperbolas|Hyperbolas]] --- _covered by 2 books, 14 worked example(s)_
-- ⚪ [[Parabolas|Parabolas]] --- _covered by 2 books, 10 worked example(s)_
 - ⚪ [[Polynomial_Basics|Polynomial Basics]] --- _6 worked example(s)_
 - ⚪ [[Polynomial_Division|Polynomial Division]] --- _covered by 2 books, 7 worked example(s)_
 - ⚪ [[Polynomial_Inequalities|Polynomial Inequalities]] --- _6 worked example(s)_
@@ -267,7 +268,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Solving_Equations_In_One_Variable|Solving Equations in One Variable]] --- _5 worked example(s)_
 - ⚪ [[Solving_Inequalities_In_One_Variable|Solving Inequalities in One Variable]] --- _5 worked example(s)_
 - ⚪ [[Systems_Of_Linear_Equations|Systems of Linear Equations]] --- _covered by 2 books, 8 worked example(s)_
-- ⚪ [[The_Complex_Number_System|The Complex Number System]] --- _5 worked example(s)_
 
 </details>
 

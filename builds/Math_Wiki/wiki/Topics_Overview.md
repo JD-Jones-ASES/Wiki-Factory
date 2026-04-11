@@ -9,20 +9,20 @@ source_refs: []
 related: []
 status: complete
 confidence: high
-summary: "Index of every live topic (124) and stub topic (115) in Math Wiki."
+summary: "Index of every live topic (136) and stub topic (103) in Math Wiki."
 ---
 
 # Topics Overview
 
 > [[_overview|Home]] > Topics
 
-Every math topic covered by the wiki lives on one page. This index lists the **124 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
+Every math topic covered by the wiki lives on one page. This index lists the **136 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
 
 Use **search** (the box in the left sidebar) to jump directly to a topic by name.
 
 ---
 
-## 🟢 Live Topics (124)
+## 🟢 Live Topics (136)
 
 Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed problem types, and cross-references to prerequisite and related topics.
 
@@ -88,6 +88,9 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Data_Displays|Data Displays]]
 - [[Data_Displays_And_Measures_Of_Spread|Histograms and Measures of Spread]]
 
+**Circle measurement** (new in Cluster 9)
+- [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
+
 ### Algebra 1 (41 topics)
 
 **Equations**
@@ -145,7 +148,7 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Function_Basics|Function Basics]]
 - [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]]
 
-### Algebra 2 (25 topics) (expanded in Cluster 6)
+### Algebra 2 (29 topics) (expanded in Cluster 9)
 
 **Functions and Modeling**
 - [[Linear_Functions|Linear Functions]]
@@ -164,6 +167,12 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 **Radical functions** (new in Cluster 4)
 - [[Square_Root_Functions|Square Root Functions]]
 - [[Cube_Root_And_Other_Radical_Functions|Cube Root and Other Radical Functions]]
+
+**Conic sections and complex numbers** (new in Cluster 9)
+- [[Parabolas|Parabolas (Conic View)]]
+- [[Ellipses|Ellipses]]
+- [[Hyperbolas|Hyperbolas]]
+- [[The_Complex_Number_System|The Complex Number System]]
 
 **Parent function families** (new in Cluster 5)
 - [[Inverse_Functions|Inverse Functions]]
@@ -186,7 +195,7 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Logarithmic_Functions|Logarithmic Functions]]
 - [[Logarithmic_Equations|Logarithmic Equations]]
 
-### Pre-Calculus (20 topics) (expanded in Cluster 8)
+### Pre-Calculus (27 topics) (expanded in Cluster 9 — final)
 
 **Functions and rationals**
 - [[Function_Notation|Function Notation]]
@@ -218,19 +227,28 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Binomial|The Binomial Theorem]]
 - [[Induction|Mathematical Induction]]
 
+**Polar, complex, and matrices** (new in Cluster 9)
+- [[Introduction_To_Polar_Coordinates|Polar Coordinates]]
+- [[Polar_Form_Of_Complex_Numbers|Polar Form of Complex Numbers]]
+- [[Complex_Zeros|Complex Zeros of Polynomials]]
+- [[Matrix_Arithmetic|Matrix Arithmetic]]
+- [[Augmented_Matrices|Augmented Matrices]]
+- [[Determinants|Determinants]]
+- [[Matrix_Methods|Matrix Methods for Systems]]
+
 ### Geometry (1 topic)
 
 - [[Circles|Circles]]
 
 ---
 
-## ⚪ Stub Topics (115)
+## ⚪ Stub Topics (103)
 
-Every remaining topic is listed under its branch hub with the full catalog coverage. Stubs have the frontmatter and source references but no prose or practice widgets yet. They become live one cluster at a time.
+Every remaining topic is listed under its branch hub with the full catalog coverage. Stubs have the frontmatter and source references but no prose or practice widgets yet. The 9-cluster plan is **complete** — the 103 remaining stubs are lower-priority catalog entries that weren't in the core curriculum scope.
 
-- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~87 stubs)
+- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~82 stubs)
 - [[Geometry_Overview|Geometry branch hub]] (coordinate plane, ~1 stub)
-- [[Precalculus_Overview|Pre-Calculus branch hub]] (Stitz-Zeager content, ~27 stubs)
+- [[Precalculus_Overview|Pre-Calculus branch hub]] (remaining Stitz-Zeager content, ~20 stubs)
 
 See [[Topic_Status|Progress Dashboard]] for per-topic scores and status.
 

@@ -2412,6 +2412,197 @@ def fig_histogram_example():
 
 
 # ---------------------------------------------------------------------------
+# Algebra 2: the four conic sections (Cluster 9)
+
+def fig_conic_sections_gallery():
+    """A 2x2 grid showing circle, ellipse, parabola, and hyperbola."""
+    fig, axes = plt.subplots(2, 2, figsize=(8, 7))
+
+    curve_lw = 2.0
+
+    # --- Circle: x^2 + y^2 = 9 (radius 3) ---
+    ax_c = axes[0, 0]
+    ax_c.set_aspect("equal")
+    ax_c.set_xlim(-4.5, 4.5)
+    ax_c.set_ylim(-4.5, 4.5)
+    theta = np.linspace(0, 2 * np.pi, 400)
+    ax_c.plot(3 * np.cos(theta), 3 * np.sin(theta),
+              color=C_LINE, linewidth=curve_lw)
+    ax_c.set_title("circle", fontsize=12, color=C_TEXT, pad=4)
+
+    # --- Ellipse: x^2/16 + y^2/9 = 1 ---
+    ax_e = axes[0, 1]
+    ax_e.set_aspect("equal")
+    ax_e.set_xlim(-5.5, 5.5)
+    ax_e.set_ylim(-4.5, 4.5)
+    ax_e.plot(4 * np.cos(theta), 3 * np.sin(theta),
+              color=C_LINE, linewidth=curve_lw)
+    ax_e.set_title("ellipse", fontsize=12, color=C_TEXT, pad=4)
+
+    # --- Parabola: y = x^2 / 4 ---
+    ax_p = axes[1, 0]
+    ax_p.set_aspect("equal")
+    ax_p.set_xlim(-5.5, 5.5)
+    ax_p.set_ylim(-1.5, 8.5)
+    xs_p = np.linspace(-5, 5, 400)
+    ax_p.plot(xs_p, xs_p ** 2 / 4.0,
+              color=C_LINE, linewidth=curve_lw)
+    ax_p.set_title("parabola", fontsize=12, color=C_TEXT, pad=4)
+
+    # --- Hyperbola: x^2/4 - y^2/4 = 1 with asymptotes ---
+    ax_h = axes[1, 1]
+    ax_h.set_aspect("equal")
+    ax_h.set_xlim(-6.0, 6.0)
+    ax_h.set_ylim(-6.0, 6.0)
+    # Parameterize each branch with cosh/sinh for a smooth curve.
+    t_h = np.linspace(-1.6, 1.6, 300)
+    xr = 2 * np.cosh(t_h)
+    yr = 2 * np.sinh(t_h)
+    ax_h.plot(xr, yr, color=C_LINE, linewidth=curve_lw)
+    ax_h.plot(-xr, yr, color=C_LINE, linewidth=curve_lw)
+    # Asymptotes: y = x and y = -x (since a = b = 2)
+    asym = np.linspace(-6, 6, 2)
+    ax_h.plot(asym, asym, color=C_DASH, linewidth=1.1, linestyle="--")
+    ax_h.plot(asym, -asym, color=C_DASH, linewidth=1.1, linestyle="--")
+    ax_h.set_title("hyperbola", fontsize=12, color=C_TEXT, pad=4)
+
+    # Shared subplot styling: lightweight axes through origin, no ticks
+    for ax in axes.flat:
+        ax.axhline(0, color=C_GRID, linewidth=0.7, zorder=0)
+        ax.axvline(0, color=C_GRID, linewidth=0.7, zorder=0)
+        ax.set_xticks([])
+        ax.set_yticks([])
+        for spine_name, spine in ax.spines.items():
+            if spine_name in ("top", "right"):
+                spine.set_visible(False)
+            else:
+                spine.set_color(C_DASH)
+                spine.set_linewidth(0.6)
+
+    fig.suptitle("The four conic sections", fontsize=14, y=1.00)
+    fig.tight_layout()
+
+    _save(fig, "algebra/conic_sections_gallery.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra 2: the complex plane (Cluster 9)
+
+def fig_complex_plane():
+    """Four labeled complex numbers plotted on the complex plane."""
+    fig, ax = plt.subplots(figsize=(6, 6))
+    ax.set_aspect("equal")
+    ax.set_xlim(-4.2, 4.2)
+    ax.set_ylim(-4.2, 4.2)
+
+    # Axes through the origin, arrows at the ends.
+    ax.annotate(
+        "", xy=(4.0, 0), xytext=(-4.0, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.3),
+    )
+    ax.annotate(
+        "", xy=(0, 4.0), xytext=(0, -4.0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.3),
+    )
+    # Axis labels at the tips.
+    ax.text(4.12, 0.05, "Real", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.08, 4.12, "Imaginary", fontsize=12, color=C_TEXT,
+            ha="left", va="top")
+
+    # Light integer ticks along each axis for orientation.
+    for t in range(-4, 5):
+        if t == 0:
+            continue
+        ax.plot([t, t], [-0.1, 0.1], color=C_LINE, linewidth=0.9)
+        ax.plot([-0.1, 0.1], [t, t], color=C_LINE, linewidth=0.9)
+
+    # The four labeled points: (a, b, color, label, label offset).
+    points = [
+        (3, 2, "#1f77b4", "3 + 2i", (0.2, 0.2)),
+        (-2, 3, "#2a9d5a", "-2 + 3i", (0.2, 0.2)),
+        (-3, -1, "#c44569", "-3 - i", (0.2, -0.15)),
+        (1, -2, "#e07a1f", "1 - 2i", (0.2, -0.15)),
+    ]
+    for a, b, col, label, (dx, dy) in points:
+        ax.plot(a, b, "o", color=col, markersize=9, zorder=3)
+        ax.text(a + dx, b + dy, label,
+                fontsize=11, color=C_TEXT,
+                ha="left",
+                va="bottom" if dy >= 0 else "top")
+
+    ax.set_title("The complex plane", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/complex_plane.svg")
+
+
+# ---------------------------------------------------------------------------
+# Precalculus: polar coordinate grid (Cluster 9)
+
+def fig_polar_coordinates():
+    """Polar grid with concentric circles, radial lines, and three labeled points."""
+    fig, ax = plt.subplots(figsize=(7, 7))
+    ax.set_aspect("equal")
+    ax.set_xlim(-5.2, 5.2)
+    ax.set_ylim(-5.2, 5.2)
+
+    grid_color = "#cccccc"
+    theta_circle = np.linspace(0, 2 * np.pi, 400)
+
+    # Concentric circles at r = 1, 2, 3, 4
+    for r in (1, 2, 3, 4):
+        ax.plot(r * np.cos(theta_circle), r * np.sin(theta_circle),
+                color=grid_color, linewidth=0.9, zorder=0)
+
+    # Radial lines at every multiple of pi/6 from 0 through 11 pi/6
+    r_max = 4.4
+    for k in range(12):
+        ang = k * np.pi / 6
+        ax.plot([0, r_max * np.cos(ang)], [0, r_max * np.sin(ang)],
+                color=grid_color, linewidth=0.9, zorder=0)
+
+    # Pole (origin) dot + label
+    ax.plot(0, 0, "o", color=C_CENTER, markersize=7, zorder=4)
+    ax.text(-0.15, -0.15, "pole",
+            fontsize=11, color=C_TEXT, ha="right", va="top")
+
+    # Polar axis: a heavier arrow along the positive real axis.
+    ax.annotate(
+        "", xy=(4.9, 0), xytext=(0, 0),
+        arrowprops=dict(arrowstyle="-|>", color=C_LINE, lw=1.6),
+    )
+    ax.text(4.95, 0.05, "polar axis",
+            fontsize=11, color=C_TEXT, ha="left", va="bottom")
+
+    # Three plotted points: (r, theta, color, label, label offset)
+    points = [
+        (2, np.pi / 4,      "#1f77b4", r"$(2,\, \pi/4)$",     (0.18, 0.18)),
+        (3, 2 * np.pi / 3,  "#2a9d5a", r"$(3,\, 2\pi/3)$",    (-0.18, 0.18)),
+        (4, 7 * np.pi / 6,  "#c44569", r"$(4,\, 7\pi/6)$",    (-0.18, -0.18)),
+    ]
+    for r, ang, col, label, (dx, dy) in points:
+        x = r * np.cos(ang)
+        y = r * np.sin(ang)
+        ax.plot(x, y, "o", color=col, markersize=9, zorder=5)
+        ha = "left" if dx >= 0 else "right"
+        va = "bottom" if dy >= 0 else "top"
+        ax.text(x + dx, y + dy, label,
+                fontsize=11, color=C_TEXT, ha=ha, va=va)
+
+    ax.set_title("Polar coordinates", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/polar_coordinates.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -2445,6 +2636,9 @@ FIGURES = [
     ("pascals_triangle", fig_pascals_triangle),
     ("box_plot", fig_box_plot),
     ("histogram_example", fig_histogram_example),
+    ("conic_sections_gallery", fig_conic_sections_gallery),
+    ("complex_plane", fig_complex_plane),
+    ("polar_coordinates", fig_polar_coordinates),
 ]
 
 

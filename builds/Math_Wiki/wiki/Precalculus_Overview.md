@@ -48,21 +48,28 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Calculus topics (Stitz-Zeager AlgTrig) --- 20 live / 47 total
+### Pre-Calculus topics (Stitz-Zeager AlgTrig) --- 27 live / 47 total
 
-**🟢 Live topics with practice widgets (20)**
+**🟢 Live topics with practice widgets (27)**
 
 - 🟢 [[Angles|Angles]]
 - 🟢 [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]]
+- 🟢 [[Augmented_Matrices|Augmented Matrices]]
 - 🟢 [[Binomial|Binomial]]
 - 🟢 [[Circular_Functions|Circular Functions]]
+- 🟢 [[Complex_Zeros|Complex Zeros of Polynomials]]
+- 🟢 [[Determinants|Determinants]]
 - 🟢 [[Function_Notation|Function Notation]]
 - 🟢 [[Graphs_Of_Trigonometric_Functions|Graphs of Trigonometric Functions]]
 - 🟢 [[Identities|Identities]]
 - 🟢 [[Induction|Induction]]
 - 🟢 [[Introduction_To_Exponentials_And_Logarithms|Introduction to Exponentials and Logarithms]]
+- 🟢 [[Introduction_To_Polar_Coordinates|Introduction to Polar Coordinates]]
 - 🟢 [[Introduction_To_Rational_Functions|Introduction to Rational Functions]]
 - 🟢 [[Inverse_Trigonometric_Functions|Inverse Trigonometric Functions]]
+- 🟢 [[Matrix_Arithmetic|Matrix Arithmetic]]
+- 🟢 [[Matrix_Methods|Matrix Methods for Systems]]
+- 🟢 [[Polar_Form_Of_Complex_Numbers|Polar Form of Complex Numbers]]
 - 🟢 [[Properties_Of_Logarithms|Properties of Logarithms]]
 - 🟢 [[Sinusoid|Sinusoid]]
 - 🟢 [[Summation|Summation]]
@@ -74,13 +81,10 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 - 🟢 [[Vectors|Vectors]]
 
 <details>
-<summary>⚪ 27 stub topic(s) (click to expand)</summary>
+<summary>⚪ 20 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Algebraic_Functions|Algebraic Functions]] --- _3 worked example(s)_
-- ⚪ [[Augmented_Matrices|Augmented Matrices]] --- _3 worked example(s)_
-- ⚪ [[Complex_Zeros|Complex Zeros of Polynomials]] --- _4 worked example(s)_
 - ⚪ [[Conic_Sections_In_Polar_Coordinates|Conic Sections in Polar Coordinates]] --- _4 worked example(s)_
-- ⚪ [[Determinants|Determinants]] --- _1 worked example(s)_
 - ⚪ [[Graphs_Of_Equations|Graphs of Equations]] --- _3 worked example(s)_
 - ⚪ [[Graphs_Of_Functions|Graphs of Functions]] --- _6 worked example(s)_
 - ⚪ [[Polar_Graphs|Graphs of Polar Equations]] --- _4 worked example(s)_
@@ -89,14 +93,10 @@ See [[Formulas_Overview|all formulas]]. Log properties, sum formulas for series,
 - ⚪ [[Inequalities|Inequalities]] --- _6 worked example(s)_
 - ⚪ [[Introduction_To_Conics|Introduction to Conic Sections]]
 - ⚪ [[Introduction_To_Functions|Introduction to Functions]] --- _5 worked example(s)_
-- ⚪ [[Introduction_To_Polar_Coordinates|Introduction to Polar Coordinates]] --- _3 worked example(s)_
 - ⚪ [[Linear_Regression|Linear Regression]] --- _2 worked example(s)_
-- ⚪ [[Matrix_Arithmetic|Matrix Arithmetic]] --- _3 worked example(s)_
-- ⚪ [[Matrix_Methods|Matrix Methods for Systems]] --- _2 worked example(s)_
 - ⚪ [[Nonlinear_Systems|Nonlinear Systems]] --- _3 worked example(s)_
 - ⚪ [[Parfrac|ParFrac]] --- _1 worked example(s)_
 - ⚪ [[Parametric|Parametric]] --- _5 worked example(s)_
-- ⚪ [[Polar_Form_Of_Complex_Numbers|Polar Form of Complex Numbers]] --- _4 worked example(s)_
 - ⚪ [[Real_Zeros_Of_Polynomials|Real Zeros of Polynomials]] --- _8 worked example(s)_
 - ⚪ [[Real_Zeros_Of_Polynomials_Advanced|Real Zeros of Polynomials (Advanced)]] --- _8 worked example(s)_
 - ⚪ [[Relations|Relations]] --- _4 worked example(s)_

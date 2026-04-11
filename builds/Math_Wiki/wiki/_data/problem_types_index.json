@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T01:17:59.717407+00:00",
+  "generated_at": "2026-04-11T10:39:38.924197+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 374,
+  "generator_count": 410,
   "by_topic": {
     "circles": [
       {
@@ -3992,6 +3992,390 @@
           "hard": 30
         }
       }
+    ],
+    "matrix_arithmetic": [
+      {
+        "generator_id": "matrix_add_subtract",
+        "display_name": "Add or subtract two matrices",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "matrix_scalar_multiply",
+        "display_name": "Multiply a matrix by a scalar",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "matrix_multiply_2x2",
+        "display_name": "Multiply two 2x2 matrices",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "augmented_matrices": [
+      {
+        "generator_id": "augmented_matrix_from_system",
+        "display_name": "Write the augmented matrix of a 2x2 system",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "row_operation_apply",
+        "display_name": "Apply a row operation to a 2x2 augmented matrix",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "gaussian_elimination_2x2",
+        "display_name": "Solve a 2x2 system by Gaussian elimination",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "determinants": [
+      {
+        "generator_id": "determinant_2x2",
+        "display_name": "Compute the determinant of a 2x2 matrix",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "determinant_3x3_cofactor",
+        "display_name": "Compute a 3x3 determinant by cofactor expansion",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "determinant_singular_check",
+        "display_name": "Decide whether a 2x2 matrix is singular or invertible",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "matrix_methods": [
+      {
+        "generator_id": "matrix_inverse_2x2",
+        "display_name": "Compute the inverse of a 2x2 matrix",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "solve_system_via_inverse",
+        "display_name": "Solve a 2x2 system via the matrix inverse",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "cramers_rule_2x2",
+        "display_name": "Solve a 2x2 system using Cramer's rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "parabolas": [
+      {
+        "generator_id": "parabola_identify_vertex_focus_directrix",
+        "display_name": "Identify vertex, focus, and directrix of a parabola in standard form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "parabola_write_equation_from_features",
+        "display_name": "Write a parabola's equation from vertex and focus",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "parabola_horizontal_vs_vertical",
+        "display_name": "Classify parabola direction (up, down, left, or right)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "ellipses": [
+      {
+        "generator_id": "ellipse_identify_center_axes",
+        "display_name": "Identify center, major axis, and minor axis of an ellipse",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "ellipse_find_foci",
+        "display_name": "Find the foci of an ellipse with a clean a^2 - b^2",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "ellipse_write_from_center_and_axes",
+        "display_name": "Write an ellipse equation from center and axis lengths",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "hyperbolas": [
+      {
+        "generator_id": "hyperbola_identify_features",
+        "display_name": "Identify center, vertices, and foci of a hyperbola",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "hyperbola_write_asymptote_equations",
+        "display_name": "Write the asymptote equations of a hyperbola",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "hyperbola_horizontal_vs_vertical_axis",
+        "display_name": "Classify hyperbola transverse axis (horizontal or vertical)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 16,
+          "medium": 16,
+          "hard": 16
+        }
+      }
+    ],
+    "circumference_and_area_of_circles": [
+      {
+        "generator_id": "circle_circumference_from_radius",
+        "display_name": "Compute the circumference of a circle from its radius",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "circle_area_from_radius",
+        "display_name": "Compute the area of a circle from its radius",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "circle_radius_from_circumference_or_area",
+        "display_name": "Find the radius of a circle from its circumference or area",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 25,
+          "hard": 30
+        }
+      }
+    ],
+    "the_complex_number_system": [
+      {
+        "generator_id": "complex_arithmetic_basic",
+        "display_name": "Add or multiply complex numbers (a + bi operations)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "complex_conjugate_and_modulus",
+        "display_name": "Compute the conjugate and modulus of a complex number",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "complex_division_by_conjugate",
+        "display_name": "Divide complex numbers using the conjugate of the denominator",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "complex_zeros": [
+      {
+        "generator_id": "complex_roots_from_quadratic",
+        "display_name": "Find complex roots of a quadratic via the quadratic formula",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "complex_conjugate_pairs_apply",
+        "display_name": "Apply the conjugate root theorem",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "polynomial_from_given_zeros",
+        "display_name": "Build a cubic polynomial from one real and a conjugate pair of zeros",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      }
+    ],
+    "polar_form_of_complex_numbers": [
+      {
+        "generator_id": "rect_to_polar_complex",
+        "display_name": "Convert a complex number from rectangular to polar form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 16,
+          "medium": 16,
+          "hard": 16
+        }
+      },
+      {
+        "generator_id": "polar_multiplication",
+        "display_name": "Multiply two complex numbers in polar form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "de_moivre_power",
+        "display_name": "Compute a power of a complex number via De Moivre's theorem",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      }
+    ],
+    "introduction_to_polar_coordinates": [
+      {
+        "generator_id": "polar_to_rect_conversion",
+        "display_name": "Convert a polar point (r, theta) to rectangular (x, y)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rect_to_polar_conversion",
+        "display_name": "Convert a rectangular point (x, y) to polar (r, theta)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "polar_identify_quadrant",
+        "display_name": "Identify the quadrant of a polar point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 16,
+          "medium": 16,
+          "hard": 16
+        }
+      }
     ]
   },
   "by_generator": {
@@ -7734,6 +8118,366 @@
         "hard": 30
       },
       "shard_file": "problems/data_displays_and_measures_of_spread.json"
+    },
+    "matrix_add_subtract": {
+      "topic_slug": "matrix_arithmetic",
+      "display_name": "Add or subtract two matrices",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/matrix_arithmetic.json"
+    },
+    "matrix_scalar_multiply": {
+      "topic_slug": "matrix_arithmetic",
+      "display_name": "Multiply a matrix by a scalar",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/matrix_arithmetic.json"
+    },
+    "matrix_multiply_2x2": {
+      "topic_slug": "matrix_arithmetic",
+      "display_name": "Multiply two 2x2 matrices",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/matrix_arithmetic.json"
+    },
+    "augmented_matrix_from_system": {
+      "topic_slug": "augmented_matrices",
+      "display_name": "Write the augmented matrix of a 2x2 system",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/augmented_matrices.json"
+    },
+    "row_operation_apply": {
+      "topic_slug": "augmented_matrices",
+      "display_name": "Apply a row operation to a 2x2 augmented matrix",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/augmented_matrices.json"
+    },
+    "gaussian_elimination_2x2": {
+      "topic_slug": "augmented_matrices",
+      "display_name": "Solve a 2x2 system by Gaussian elimination",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/augmented_matrices.json"
+    },
+    "determinant_2x2": {
+      "topic_slug": "determinants",
+      "display_name": "Compute the determinant of a 2x2 matrix",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/determinants.json"
+    },
+    "determinant_3x3_cofactor": {
+      "topic_slug": "determinants",
+      "display_name": "Compute a 3x3 determinant by cofactor expansion",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/determinants.json"
+    },
+    "determinant_singular_check": {
+      "topic_slug": "determinants",
+      "display_name": "Decide whether a 2x2 matrix is singular or invertible",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/determinants.json"
+    },
+    "matrix_inverse_2x2": {
+      "topic_slug": "matrix_methods",
+      "display_name": "Compute the inverse of a 2x2 matrix",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/matrix_methods.json"
+    },
+    "solve_system_via_inverse": {
+      "topic_slug": "matrix_methods",
+      "display_name": "Solve a 2x2 system via the matrix inverse",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/matrix_methods.json"
+    },
+    "cramers_rule_2x2": {
+      "topic_slug": "matrix_methods",
+      "display_name": "Solve a 2x2 system using Cramer's rule",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/matrix_methods.json"
+    },
+    "parabola_identify_vertex_focus_directrix": {
+      "topic_slug": "parabolas",
+      "display_name": "Identify vertex, focus, and directrix of a parabola in standard form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/parabolas.json"
+    },
+    "parabola_write_equation_from_features": {
+      "topic_slug": "parabolas",
+      "display_name": "Write a parabola's equation from vertex and focus",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/parabolas.json"
+    },
+    "parabola_horizontal_vs_vertical": {
+      "topic_slug": "parabolas",
+      "display_name": "Classify parabola direction (up, down, left, or right)",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/parabolas.json"
+    },
+    "ellipse_identify_center_axes": {
+      "topic_slug": "ellipses",
+      "display_name": "Identify center, major axis, and minor axis of an ellipse",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ellipses.json"
+    },
+    "ellipse_find_foci": {
+      "topic_slug": "ellipses",
+      "display_name": "Find the foci of an ellipse with a clean a^2 - b^2",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ellipses.json"
+    },
+    "ellipse_write_from_center_and_axes": {
+      "topic_slug": "ellipses",
+      "display_name": "Write an ellipse equation from center and axis lengths",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ellipses.json"
+    },
+    "hyperbola_identify_features": {
+      "topic_slug": "hyperbolas",
+      "display_name": "Identify center, vertices, and foci of a hyperbola",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/hyperbolas.json"
+    },
+    "hyperbola_write_asymptote_equations": {
+      "topic_slug": "hyperbolas",
+      "display_name": "Write the asymptote equations of a hyperbola",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/hyperbolas.json"
+    },
+    "hyperbola_horizontal_vs_vertical_axis": {
+      "topic_slug": "hyperbolas",
+      "display_name": "Classify hyperbola transverse axis (horizontal or vertical)",
+      "counts": {
+        "easy": 16,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/hyperbolas.json"
+    },
+    "circle_circumference_from_radius": {
+      "topic_slug": "circumference_and_area_of_circles",
+      "display_name": "Compute the circumference of a circle from its radius",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 30
+      },
+      "shard_file": "problems/circumference_and_area_of_circles.json"
+    },
+    "circle_area_from_radius": {
+      "topic_slug": "circumference_and_area_of_circles",
+      "display_name": "Compute the area of a circle from its radius",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 25
+      },
+      "shard_file": "problems/circumference_and_area_of_circles.json"
+    },
+    "circle_radius_from_circumference_or_area": {
+      "topic_slug": "circumference_and_area_of_circles",
+      "display_name": "Find the radius of a circle from its circumference or area",
+      "counts": {
+        "easy": 15,
+        "medium": 25,
+        "hard": 30
+      },
+      "shard_file": "problems/circumference_and_area_of_circles.json"
+    },
+    "complex_arithmetic_basic": {
+      "topic_slug": "the_complex_number_system",
+      "display_name": "Add or multiply complex numbers (a + bi operations)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_complex_number_system.json"
+    },
+    "complex_conjugate_and_modulus": {
+      "topic_slug": "the_complex_number_system",
+      "display_name": "Compute the conjugate and modulus of a complex number",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_complex_number_system.json"
+    },
+    "complex_division_by_conjugate": {
+      "topic_slug": "the_complex_number_system",
+      "display_name": "Divide complex numbers using the conjugate of the denominator",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_complex_number_system.json"
+    },
+    "complex_roots_from_quadratic": {
+      "topic_slug": "complex_zeros",
+      "display_name": "Find complex roots of a quadratic via the quadratic formula",
+      "counts": {
+        "easy": 20,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/complex_zeros.json"
+    },
+    "complex_conjugate_pairs_apply": {
+      "topic_slug": "complex_zeros",
+      "display_name": "Apply the conjugate root theorem",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/complex_zeros.json"
+    },
+    "polynomial_from_given_zeros": {
+      "topic_slug": "complex_zeros",
+      "display_name": "Build a cubic polynomial from one real and a conjugate pair of zeros",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/complex_zeros.json"
+    },
+    "rect_to_polar_complex": {
+      "topic_slug": "polar_form_of_complex_numbers",
+      "display_name": "Convert a complex number from rectangular to polar form",
+      "counts": {
+        "easy": 16,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/polar_form_of_complex_numbers.json"
+    },
+    "polar_multiplication": {
+      "topic_slug": "polar_form_of_complex_numbers",
+      "display_name": "Multiply two complex numbers in polar form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polar_form_of_complex_numbers.json"
+    },
+    "de_moivre_power": {
+      "topic_slug": "polar_form_of_complex_numbers",
+      "display_name": "Compute a power of a complex number via De Moivre's theorem",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/polar_form_of_complex_numbers.json"
+    },
+    "polar_to_rect_conversion": {
+      "topic_slug": "introduction_to_polar_coordinates",
+      "display_name": "Convert a polar point (r, theta) to rectangular (x, y)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/introduction_to_polar_coordinates.json"
+    },
+    "rect_to_polar_conversion": {
+      "topic_slug": "introduction_to_polar_coordinates",
+      "display_name": "Convert a rectangular point (x, y) to polar (r, theta)",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/introduction_to_polar_coordinates.json"
+    },
+    "polar_identify_quadrant": {
+      "topic_slug": "introduction_to_polar_coordinates",
+      "display_name": "Identify the quadrant of a polar point",
+      "counts": {
+        "easy": 16,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/introduction_to_polar_coordinates.json"
     }
   }
 }

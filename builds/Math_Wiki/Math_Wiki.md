@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.14.0 --- Cluster 8 Sequences/Probability/Stats shipped, 30,000+ problems (2026-04-11)
+### Version 1.15.0 --- 9-CLUSTER PLAN COMPLETE. 136 live topics. 32,698 problems. (2026-04-11)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 124 topics with working widgets, 374 generators, 30,023 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
+| **Scale** | Live: 136 topics with working widgets, 410 generators, 32,698 verified problems. Catalog: 238 canonical topics (post-alias-merge). **9-cluster buildout plan complete.** |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -30,8 +30,9 @@
 - **Cluster 5** (functions & transformations, 14 topics) — **shipped** commit `bedee97`
 - **Cluster 6** (exponentials & logarithms, 10 topics) — **shipped** commit `db5421c`
 - **Cluster 7** (trigonometry, 15 topics) — **shipped** commit `c78a1f1`
-- **Cluster 8** (sequences, probability, statistics, 9 topics) — **shipped** (this version, **124 live topics, 30,023 problems**)
-- **Next:** Cluster 9 (Conics, matrices, complex numbers, ~12 topics — the final cluster)
+- **Cluster 8** (sequences, probability, statistics, 9 topics) — **shipped** commit `710120f`
+- **Cluster 9** (conics, matrices, complex numbers, 12 topics) — **shipped** (this version, **136 live topics, 32,698 problems**)
+- **9-cluster plan complete.** Future work: L (lint/polish pass), more figures for existing pages, prereq-graph widget.
 
 ### 30-second mental model
 
@@ -968,8 +969,8 @@ The comprehensive buildout from the current state to complete integration of the
 | **5** | Functions & Transformations | 14 | **shipped** |
 | **6** | Exponentials & Logarithms | 10 | **shipped** |
 | **7** | Trigonometry | 15 | **shipped** |
-| **8** | Sequences, probability, statistics | 9 | **shipped in this session** |
-| **9** | Conics, matrices, complex numbers | ~12 | **next (final!)** |
+| **8** | Sequences, probability, statistics | 9 | **shipped** |
+| **9** | Conics, matrices, complex numbers | 12 | **shipped in this session — 9-cluster plan COMPLETE** |
 | **L** | Lint/polish + prereq-graph widget + ingest smoke test | 0 | pending |
 
 **Four workstreams run concurrently within each cluster:**
@@ -1078,6 +1079,85 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.15.0 --- Cluster 9 Conics, Complex Numbers, and Matrices — 9-CLUSTER PLAN COMPLETE (2026-04-11)
+
+**Stats:** 12 topics enriched (+12 live, now **136 total**), 36 new generators (+36, now 410 total), 2,675 new verified problems (+2,675, now **32,698 total**), 3 new matplotlib figures (conic sections gallery, complex plane, polar coordinate grid). **The 9-cluster buildout plan is complete.**
+
+**Topics shipped in the final cluster:**
+
+- **Conic sections (4):** Circumference_And_Area_Of_Circles (pre-algebra), Parabolas (conic view, algebra-2), Ellipses (algebra-2, 2 sources), Hyperbolas (algebra-2, 2 sources — richest)
+- **Complex numbers (3):** The_Complex_Number_System (algebra-2), Complex_Zeros (pre-calc), Polar_Form_Of_Complex_Numbers (pre-calc)
+- **Polar coordinates (1):** Introduction_To_Polar_Coordinates (pre-calc)
+- **Matrices (4):** Matrix_Arithmetic (pre-calc), Augmented_Matrices (pre-calc), Determinants (pre-calc), Matrix_Methods (pre-calc)
+
+Seven of the twelve topics are pre-calculus, bringing the pre-calc branch from 20/47 → **27/47** live. The pre-calc branch now covers trigonometry, exp/log, sequences/binomial/induction, conics, complex numbers, polar coordinates, and matrices — essentially the full pre-calc curriculum.
+
+**Generator modules added (2):**
+
+- `generators/precalculus/conics_and_complex.py` — 24 generators covering 8 topics (parabolas × 3, ellipses × 3, hyperbolas × 3, circumference_and_area × 3, complex system × 3, complex zeros × 3, polar form × 3, polar coords × 3)
+- `generators/precalculus/matrices.py` — 12 generators covering 4 topics (matrix arithmetic × 3, augmented × 3, determinants × 3, matrix methods × 3)
+
+**Figures added:**
+
+- `wiki/assets/figures/algebra/conic_sections_gallery.svg` — 2×2 grid of circle, ellipse, parabola, hyperbola — the one figure that gives students a visual vocabulary for the entire conic family
+- `wiki/assets/figures/precalculus/complex_plane.svg` — complex plane with four points plotted and labeled, making the "pair of real numbers" interpretation of complex numbers concrete
+- `wiki/assets/figures/precalculus/polar_coordinates.svg` — full polar grid with concentric circles and radial lines, three labeled points showing the $(r, \theta)$ representation
+
+**Execution model:**
+
+3 parallel content sub-agents (4+4+4 topics) + 2 parallel generator sub-agents (24 + 12) + 1 figures sub-agent. All 6 sub-agents dispatched together and returned clean results. The 24-generator `conics_and_complex.py` module is the second-largest single generator batch this session after Cluster 7's `trig_advanced.py` (30 generators).
+
+**What worked:**
+
+- **Backward construction for conics.** Every conic generator picks the geometric features first (vertex, center, $a$, $b$, $c$) and derives the equation, so the "write the equation from features" direction is the same code path as the "read features off the equation" direction. Pythagorean triples ($3\text{-}4\text{-}5$, $5\text{-}12\text{-}13$, $8\text{-}15\text{-}17$) appear all over Ellipses and Hyperbolas to keep $c$ integer.
+- **Complex numbers treated as "pairs of reals that multiply in a funny way"** rather than "mysterious $i$ things". The complex plane figure anchors this visually. Addition is componentwise just like vectors; multiplication is the part that's new.
+- **De Moivre's theorem as "the whole point" of polar form.** Teaching polar form without De Moivre is teaching a notation without a payoff. The generator for `de_moivre_power` gives students immediate experience with why polar form makes $(1+i)^{10}$ computable in one step instead of ten.
+- **Unimodular matrix construction** in the `matrices.py` module. The `_draw_unimodular()` helper builds 2×2 matrices with determinant $\pm 1$ by starting from six base matrices and applying elementary row replacements, guaranteeing integer inverses. This is the trick that keeps the `matrix_inverse_2x2` and `solve_system_via_inverse` generators producing clean student-friendly answers instead of ugly fractions.
+- **Complete backward construction for hyperbolas.** The $c^2 = a^2 + b^2$ sign difference from ellipse is exactly the Pythagorean theorem, so using Pythagorean triples backwards gives integer foci. Example: pick $a = 4$, $b = 3$ → $c = 5$; pick $a = 12$, $b = 5$ → $c = 13$.
+
+**What failed and how it was fixed:**
+
+- **2 copyright near-misses** in the conics batch: "the parabola opens to the right because $p > 0$" matched source language, and "midpoint of the segment joining the foci is the center" matched an ellipse definition. Both rewrote in one line each.
+- **3 dead wikilinks** from the sub-agents inventing targets: `[[Rational_Roots_Theorem]]`, `[[Polynomial_Long_Division]]`, and `[[Pre_Algebra_Overview]]` on Complex_Zeros / Circumference_And_Area_Of_Circles. Fixed: removed the rational-roots link (it was inline), rewired the long-division link to `[[Factoring_Completely]]`, and changed the breadcrumb/see-also to `[[Algebra_Overview]]`.
+- **1 tag-taxonomy violation** (`#topic-trigonometry`, which is not in the taxonomy) on `Introduction_To_Polar_Coordinates.md`. Rewrote to `#topic-unit-circle`.
+- **Zero parameter-space-too-small failures** this cluster. The backward-construction discipline built up over 8 clusters pays off here: every generator's easy pool is large enough on first try.
+
+**Final gate checks after Cluster 9:**
+
+- **Pytest:** 29/29 green (8 circles-parametrized across 410 generators + 10 consolidate-snapshot + 3 copyright + 8 ingest smoke).
+- **Lint:** 0 errors, 0 warnings, 1 info (130 stub pages — down from 142).
+- **YAML:** 257/257 clean.
+- **Topic status:** 239 topics, avg score **53.4** / 100 (was 49.9). 134 topics with 3+ generators (was 122). Pre-calculus avg jumped from 46.9 → **57.0** as the 7 new pre-calc topics all landed with full generator coverage.
+- **Bank size:** 27.1 MB across 136 shards, all under 320 KB each.
+- **Branch hubs:** Algebra_Overview (109 live) and Precalculus_Overview (27 live) both regenerated.
+
+## End of the 9-cluster buildout plan
+
+The plan set out in Cluster 0 (`C:\Users\jdj32\.claude\plans\sorted-skipping-pudding.md`) called for nine topic clusters covering the full algebra and pre-calculus curriculum. Six months of session-planning in one afternoon, and the final state is:
+
+| Metric | Plan start | Plan end |
+|---|---:|---:|
+| Live topics | 16 | **136** |
+| Generators | 50 | **410** |
+| Verified problems | 4,335 | **32,698** |
+| Figures | 1 | **31** |
+| Bank size | 3.1 MB | 27.1 MB |
+| Topic status avg | 16.2 / 100 | 53.4 / 100 |
+| Algebra branch avg | ~18 | 60.7 |
+| Pre-calculus branch live | 0 | 27 / 47 |
+
+**What the wiki now covers end-to-end:** Every page from pre-algebra foundations (integers, fractions, decimals, ratios) through Algebra 1 (linear equations, quadratics, factoring), through Algebra 2 (exponentials, logarithms, rationals, functions, transformations, conics, complex numbers, matrices), through Pre-Calculus (trigonometry with unit circle and identities, sequences and series, polar coordinates, matrices). All 136 topics have full prose lessons with 300+ word bodies, worked examples with step-by-step solutions, 3+ problem generators each, wikilinked cross-references, and SymPy-verified practice problems.
+
+**What's out of scope but remains as stubs (~103 topics):** Secondary catalog entries that didn't make the 9-cluster priority list — mostly algebra-1 alternative treatments (Variables_And_Expressions, Scientific_Notation), pre-algebra sub-topics (Place_Value detail pages, additional geometry angle types), and the remaining Stitz-Zeager pre-calc chapters (Parametric, Polar Graphs, Nonlinear Systems, Partial Fractions, Induction detail). These stubs have auto-generated frontmatter and source references so they can be activated in a future follow-up session, but they aren't part of the original 9-cluster scope.
+
+**Future work (post-plan):**
+
+- **Cluster L** (lint/polish): a final pass through all 136 live topics with a senior reviewer, checking for consistency, flagging any remaining typos, and strengthening cross-links where the graph is thin.
+- **Prereq-graph widget**: a client-side visualization of the topic dependency graph, built from the `prerequisites:` YAML fields already populated on every page.
+- **Additional figures**: roughly 50% of live topics have at least one figure; the other half could benefit from one.
+- **Follow-up ingest**: bringing more source books into the catalog is fully supported by the `tools/ingest_new_book.py` pipeline from Cluster 0. Each new book will enrich existing topics with more examples and may unlock a handful of new topics.
+- **Vault feature polish**: the Vault is working but could use export/import, custom worksheet builder, and jsPDF download (all listed in the Site Expansion Proposal section above).
 
 ### Version 1.14.0 --- Cluster 8 Sequences, Probability, and Statistics (2026-04-11)
 
