@@ -5,3 +5,4 @@ generator registry (see ../base.py).
 """
 from . import trig_core  # noqa: F401
 from . import trig_advanced  # noqa: F401
+from . import sequences_and_stats  # noqa: F401

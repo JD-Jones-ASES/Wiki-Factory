@@ -47,15 +47,18 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Pre-Algebra topics (middle-school foundations) --- 36 live / 92 total
+### Pre-Algebra topics (middle-school foundations) --- 41 live / 92 total
 
-**🟢 Live topics with practice widgets (36)**
+**🟢 Live topics with practice widgets (41)**
 
 - 🟢 [[Adding_And_Subtracting_Decimals|Adding and Subtracting Decimals]]
 - 🟢 [[Adding_And_Subtracting_Fractions|Adding and Subtracting Fractions]]
 - 🟢 [[Adding_And_Subtracting_Integers|Adding and Subtracting Integers]]
 - 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
+- 🟢 [[Arithmetic_Sequences_And_Linear_Patterns|Arithmetic Sequences and Linear Patterns]]
 - 🟢 [[Comparing_And_Ordering_Fractions|Comparing and Ordering Fractions]]
+- 🟢 [[Data_Displays|Data Displays]]
+- 🟢 [[Data_Displays_And_Measures_Of_Spread|Data Displays and Measures of Spread]]
 - 🟢 [[Decimal_Place_Value_And_Comparing_Decimals|Decimal Place Value and Comparing Decimals]]
 - 🟢 [[Dividing_Decimals|Dividing Decimals]]
 - 🟢 [[Dividing_Fractions|Dividing Fractions]]
@@ -64,6 +67,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Finding_A_Percent_Of_A_Number|Finding a Percent of a Number]]
 - 🟢 [[Graphing_Linear_Equations_From_Tables|Graphing Linear Equations from Tables]]
 - 🟢 [[Integers_And_The_Number_Line|Integers and the Number Line]]
+- 🟢 [[Mean_Median_Mode_And_Range|Mean, Median, Mode, and Range]]
 - 🟢 [[Mixed_Numbers_And_Improper_Fractions|Mixed Numbers and Improper Fractions]]
 - 🟢 [[Multiplying_Decimals|Multiplying Decimals]]
 - 🟢 [[Multiplying_Fractions|Multiplying Fractions]]
@@ -72,6 +76,7 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Percent_Increase_And_Decrease|Percent Increase and Decrease]]
 - 🟢 [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]]
 - 🟢 [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
+- 🟢 [[Probability_Of_Simple_And_Compound_Events|Probability of Simple and Compound Events]]
 - 🟢 [[Proportions_And_Cross_Multiplication|Proportions and Cross Multiplication]]
 - 🟢 [[Rational_Exponents|Rational Exponents]]
 - 🟢 [[Ratios_And_Equivalent_Ratios|Ratios and Equivalent Ratios]]
@@ -89,21 +94,18 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 
 <details>
-<summary>⚪ 56 stub topic(s) (click to expand)</summary>
+<summary>⚪ 51 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value|Absolute Value]] --- _4 worked example(s)_
 - ⚪ [[Absolute_Value_And_Opposites|Absolute Value and Opposites]] --- _4 worked example(s)_
 - ⚪ [[Adding_And_Subtracting_Mixed_Numbers|Adding and Subtracting Mixed Numbers]] --- _4 worked example(s)_
 - ⚪ [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]] --- _4 worked example(s)_
 - ⚪ [[Applications_Tax_Tip_Discount_And_Simple_Interest|Applications: Tax, Tip, Discount, and Simple Interest]] --- _4 worked example(s)_
-- ⚪ [[Arithmetic_Sequences_And_Linear_Patterns|Arithmetic Sequences and Linear Patterns]] --- _5 worked example(s)_
 - ⚪ [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]] --- _4 worked example(s)_
 - ⚪ [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]] --- _4 worked example(s)_
 - ⚪ [[Comparing_And_Ordering_Rational_Numbers|Comparing and Ordering Rational Numbers]] --- _covered by 2 books, 8 worked example(s)_
 - ⚪ [[Composite_Figures|Composite Figures]] --- _4 worked example(s)_
 - ⚪ [[Converting_Between_Fractions_And_Decimals|Converting Between Fractions and Decimals]] --- _4 worked example(s)_
-- ⚪ [[Data_Displays|Data Displays]] --- _5 worked example(s)_
-- ⚪ [[Data_Displays_And_Measures_Of_Spread|Data Displays and Measures of Spread]] --- _5 worked example(s)_
 - ⚪ [[Dimensional_Analysis|Dimensional Analysis]] --- _4 worked example(s)_
 - ⚪ [[Dividing_Mixed_Numbers|Dividing Mixed Numbers]] --- _3 worked example(s)_
 - ⚪ [[Divisibility_Factors_And_Prime_Factorization|Divisibility, Factors, and Prime Factorization]] --- _4 worked example(s)_
@@ -112,7 +114,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Greatest_Common_Factor_And_Least_Common_Multiple|Greatest Common Factor and Least Common Multiple]] --- _4 worked example(s)_
 - ⚪ [[Irrational_Numbers_And_Real_Numbers|Irrational Numbers and Real Numbers]] --- _3 worked example(s)_
 - ⚪ [[Markup_Discount_And_Commission|Markup, Discount, and Commission]] --- _4 worked example(s)_
-- ⚪ [[Mean_Median_Mode_And_Range|Mean, Median, Mode, and Range]] --- _4 worked example(s)_
 - ⚪ [[Multiplying_Mixed_Numbers|Multiplying Mixed Numbers]] --- _4 worked example(s)_
 - ⚪ [[Operations_With_Rational_Numbers|Operations with Rational Numbers]] --- _6 worked example(s)_
 - ⚪ [[Order_Of_Operations_With_Fractions|Order of Operations with Fractions]] --- _4 worked example(s)_
@@ -120,7 +121,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]] --- _4 worked example(s)_
 - ⚪ [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]] --- _4 worked example(s)_
 - ⚪ [[Powers_And_Exponent_Notation|Powers and Exponent Notation]] --- _4 worked example(s)_
-- ⚪ [[Probability_Of_Simple_And_Compound_Events|Probability of Simple and Compound Events]] --- _5 worked example(s)_
 - ⚪ [[Product_Power_And_Quotient_Rules|Product, Power, and Quotient Rules]] --- _4 worked example(s)_
 - ⚪ [[Properties_Of_Addition_And_Multiplication|Properties of Addition and Multiplication]] --- _4 worked example(s)_
 - ⚪ [[Proportions_In_Similar_Figures|Proportions in Similar Figures]] --- _4 worked example(s)_
@@ -211,9 +211,9 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 
 </details>
 
-### Algebra 2 topics --- 28 live / 49 total
+### Algebra 2 topics --- 29 live / 49 total
 
-**🟢 Live topics with practice widgets (28)**
+**🟢 Live topics with practice widgets (29)**
 
 - 🟢 [[Absolute_Value_Functions|Absolute Value Functions]]
 - 🟢 [[Adding_And_Subtracting_Rational_Expressions|Adding and Subtracting Rational Expressions]]
@@ -240,12 +240,13 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - 🟢 [[Power_Functions|Power Functions]]
 - 🟢 [[Quadratic_Functions|Quadratic Functions]]
 - 🟢 [[Rational_Equations_And_Applications|Rational Equations and Applications]]
+- 🟢 [[Sequences|Sequences]]
 - 🟢 [[Square_Root_Functions|Square Root Functions]]
 - 🟢 [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]]
 - 🟢 [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, and Combined]]
 
 <details>
-<summary>⚪ 21 stub topic(s) (click to expand)</summary>
+<summary>⚪ 20 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value_Equations_And_Inequalities|Absolute Value Equations and Inequalities]] --- _5 worked example(s)_
 - ⚪ [[Ellipses|Ellipses]] --- _covered by 2 books, 9 worked example(s)_
@@ -259,7 +260,6 @@ See [[Techniques_Overview|all techniques]]. Key algebra techniques (factoring, s
 - ⚪ [[Polynomial_Inequalities|Polynomial Inequalities]] --- _6 worked example(s)_
 - ⚪ [[Powers_And_Roots|Powers and Roots]] --- _8 worked example(s)_
 - ⚪ [[Rational_Inequalities|Rational Inequalities]] --- _covered by 2 books, 11 worked example(s)_
-- ⚪ [[Sequences|Sequences]] --- _covered by 2 books, 9 worked example(s)_
 - ⚪ [[Set_Notation_And_The_Real_Numbers|Set Notation and the Real Numbers]] --- _3 worked example(s)_
 - ⚪ [[Slopes_Of_Lines|Slopes of Lines]] --- _5 worked example(s)_
 - ⚪ [[Solving_Equations_By_Factoring|Solving Equations by Factoring]] --- _5 worked example(s)_

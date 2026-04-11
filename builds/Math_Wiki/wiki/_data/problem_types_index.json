@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-10T23:57:19.133751+00:00",
+  "generated_at": "2026-04-11T01:17:59.717407+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 347,
+  "generator_count": 374,
   "by_topic": {
     "circles": [
       {
@@ -3704,6 +3704,294 @@
           "hard": 30
         }
       }
+    ],
+    "arithmetic_sequences_and_linear_patterns": [
+      {
+        "generator_id": "arith_seq_nth_term",
+        "display_name": "Find the nth term of an arithmetic sequence from a1 and d",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "arith_seq_find_formula",
+        "display_name": "Write the explicit formula from the first terms of an arithmetic sequence",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "arith_seq_common_difference",
+        "display_name": "Find the common difference from two non-consecutive terms",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "sequences": [
+      {
+        "generator_id": "geometric_seq_nth_term",
+        "display_name": "Find the nth term of a geometric sequence from a1 and r",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "arith_seq_sum",
+        "display_name": "Compute the sum of an arithmetic sequence",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "geometric_seq_sum",
+        "display_name": "Compute the sum of a geometric sequence",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "summation": [
+      {
+        "generator_id": "sigma_expand",
+        "display_name": "Expand a sigma notation into its explicit sum",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "sigma_closed_form_linear",
+        "display_name": "Compute sum of k from 1 to n using n(n+1)/2",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "sigma_closed_form_quadratic",
+        "display_name": "Compute sum of k squared from 1 to n",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 25
+        }
+      }
+    ],
+    "probability_of_simple_and_compound_events": [
+      {
+        "generator_id": "prob_simple_event_from_ratio",
+        "display_name": "Probability of a simple event from a described sample space",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "prob_and_independent",
+        "display_name": "Probability of A and B for independent events",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 16,
+          "medium": 16,
+          "hard": 16
+        }
+      },
+      {
+        "generator_id": "prob_or_mutually_exclusive",
+        "display_name": "Probability of A or B for mutually exclusive events",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 16,
+          "medium": 16,
+          "hard": 16
+        }
+      }
+    ],
+    "binomial": [
+      {
+        "generator_id": "binomial_coefficient_compute",
+        "display_name": "Compute a binomial coefficient C(n, k)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "binomial_expand_small_power",
+        "display_name": "Expand (a x + b)^n for small n",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "binomial_specific_term",
+        "display_name": "Find a specific term in the expansion of (x + b)^n",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "induction": [
+      {
+        "generator_id": "induction_base_case_check",
+        "display_name": "Verify the base case of a sum identity",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "induction_inductive_step_setup",
+        "display_name": "Write P(k+1) for a sum-identity induction statement",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "induction_compute_sum_via_formula",
+        "display_name": "Verify a sum identity at a specific n",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      }
+    ],
+    "mean_median_mode_and_range": [
+      {
+        "generator_id": "mmm_compute_from_list",
+        "display_name": "Compute mean, median, mode, and range from a data set",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "mmm_identify_outlier_impact",
+        "display_name": "Compare how an outlier affects the mean vs the median",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "mmm_find_missing_value_for_target_mean",
+        "display_name": "Find the missing value needed to reach a target mean",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "data_displays": [
+      {
+        "generator_id": "bar_graph_read_values",
+        "display_name": "Read a value from a bar graph described in a table",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "pie_chart_percent_to_count",
+        "display_name": "Convert a pie-chart percentage to a count",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "stem_leaf_count_in_range",
+        "display_name": "Count values in a range from a stem-and-leaf plot",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      }
+    ],
+    "data_displays_and_measures_of_spread": [
+      {
+        "generator_id": "five_number_summary",
+        "display_name": "Compute the five-number summary of a data set",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "iqr_compute",
+        "display_name": "Compute the interquartile range (IQR)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "outlier_check_iqr_rule",
+        "display_name": "Decide whether a value is an outlier using the 1.5 x IQR rule",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
     ]
   },
   "by_generator": {
@@ -7176,6 +7464,276 @@
         "hard": 30
       },
       "shard_file": "problems/dot_product.json"
+    },
+    "arith_seq_nth_term": {
+      "topic_slug": "arithmetic_sequences_and_linear_patterns",
+      "display_name": "Find the nth term of an arithmetic sequence from a1 and d",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/arithmetic_sequences_and_linear_patterns.json"
+    },
+    "arith_seq_find_formula": {
+      "topic_slug": "arithmetic_sequences_and_linear_patterns",
+      "display_name": "Write the explicit formula from the first terms of an arithmetic sequence",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/arithmetic_sequences_and_linear_patterns.json"
+    },
+    "arith_seq_common_difference": {
+      "topic_slug": "arithmetic_sequences_and_linear_patterns",
+      "display_name": "Find the common difference from two non-consecutive terms",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/arithmetic_sequences_and_linear_patterns.json"
+    },
+    "geometric_seq_nth_term": {
+      "topic_slug": "sequences",
+      "display_name": "Find the nth term of a geometric sequence from a1 and r",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/sequences.json"
+    },
+    "arith_seq_sum": {
+      "topic_slug": "sequences",
+      "display_name": "Compute the sum of an arithmetic sequence",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/sequences.json"
+    },
+    "geometric_seq_sum": {
+      "topic_slug": "sequences",
+      "display_name": "Compute the sum of a geometric sequence",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/sequences.json"
+    },
+    "sigma_expand": {
+      "topic_slug": "summation",
+      "display_name": "Expand a sigma notation into its explicit sum",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/summation.json"
+    },
+    "sigma_closed_form_linear": {
+      "topic_slug": "summation",
+      "display_name": "Compute sum of k from 1 to n using n(n+1)/2",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/summation.json"
+    },
+    "sigma_closed_form_quadratic": {
+      "topic_slug": "summation",
+      "display_name": "Compute sum of k squared from 1 to n",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 25
+      },
+      "shard_file": "problems/summation.json"
+    },
+    "prob_simple_event_from_ratio": {
+      "topic_slug": "probability_of_simple_and_compound_events",
+      "display_name": "Probability of a simple event from a described sample space",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 10
+      },
+      "shard_file": "problems/probability_of_simple_and_compound_events.json"
+    },
+    "prob_and_independent": {
+      "topic_slug": "probability_of_simple_and_compound_events",
+      "display_name": "Probability of A and B for independent events",
+      "counts": {
+        "easy": 16,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/probability_of_simple_and_compound_events.json"
+    },
+    "prob_or_mutually_exclusive": {
+      "topic_slug": "probability_of_simple_and_compound_events",
+      "display_name": "Probability of A or B for mutually exclusive events",
+      "counts": {
+        "easy": 16,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/probability_of_simple_and_compound_events.json"
+    },
+    "binomial_coefficient_compute": {
+      "topic_slug": "binomial",
+      "display_name": "Compute a binomial coefficient C(n, k)",
+      "counts": {
+        "easy": 10,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/binomial.json"
+    },
+    "binomial_expand_small_power": {
+      "topic_slug": "binomial",
+      "display_name": "Expand (a x + b)^n for small n",
+      "counts": {
+        "easy": 10,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/binomial.json"
+    },
+    "binomial_specific_term": {
+      "topic_slug": "binomial",
+      "display_name": "Find a specific term in the expansion of (x + b)^n",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/binomial.json"
+    },
+    "induction_base_case_check": {
+      "topic_slug": "induction",
+      "display_name": "Verify the base case of a sum identity",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 20
+      },
+      "shard_file": "problems/induction.json"
+    },
+    "induction_inductive_step_setup": {
+      "topic_slug": "induction",
+      "display_name": "Write P(k+1) for a sum-identity induction statement",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/induction.json"
+    },
+    "induction_compute_sum_via_formula": {
+      "topic_slug": "induction",
+      "display_name": "Verify a sum identity at a specific n",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/induction.json"
+    },
+    "mmm_compute_from_list": {
+      "topic_slug": "mean_median_mode_and_range",
+      "display_name": "Compute mean, median, mode, and range from a data set",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/mean_median_mode_and_range.json"
+    },
+    "mmm_identify_outlier_impact": {
+      "topic_slug": "mean_median_mode_and_range",
+      "display_name": "Compare how an outlier affects the mean vs the median",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/mean_median_mode_and_range.json"
+    },
+    "mmm_find_missing_value_for_target_mean": {
+      "topic_slug": "mean_median_mode_and_range",
+      "display_name": "Find the missing value needed to reach a target mean",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/mean_median_mode_and_range.json"
+    },
+    "bar_graph_read_values": {
+      "topic_slug": "data_displays",
+      "display_name": "Read a value from a bar graph described in a table",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/data_displays.json"
+    },
+    "pie_chart_percent_to_count": {
+      "topic_slug": "data_displays",
+      "display_name": "Convert a pie-chart percentage to a count",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/data_displays.json"
+    },
+    "stem_leaf_count_in_range": {
+      "topic_slug": "data_displays",
+      "display_name": "Count values in a range from a stem-and-leaf plot",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/data_displays.json"
+    },
+    "five_number_summary": {
+      "topic_slug": "data_displays_and_measures_of_spread",
+      "display_name": "Compute the five-number summary of a data set",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/data_displays_and_measures_of_spread.json"
+    },
+    "iqr_compute": {
+      "topic_slug": "data_displays_and_measures_of_spread",
+      "display_name": "Compute the interquartile range (IQR)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/data_displays_and_measures_of_spread.json"
+    },
+    "outlier_check_iqr_rule": {
+      "topic_slug": "data_displays_and_measures_of_spread",
+      "display_name": "Decide whether a value is an outlier using the 1.5 x IQR rule",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/data_displays_and_measures_of_spread.json"
     }
   }
 }

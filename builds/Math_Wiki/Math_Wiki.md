@@ -1,6 +1,6 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
 ## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 1.13.0 --- Cluster 7 Trigonometry shipped, 115 live topics (2026-04-10)
+### Version 1.14.0 --- Cluster 8 Sequences/Probability/Stats shipped, 30,000+ problems (2026-04-11)
 
 | Field | Value |
 |-------|-------|
@@ -8,7 +8,7 @@
 | **Scope** | Pre-Algebra, Algebra 1, Geometry, Algebra 2, Trigonometry, Pre-Calculus. Calculus & Statistics deferred (books don't cover them). |
 | **Audience** | Students grades 6--12. Warm, encouraging, clear. Tutor-adjacent, not textbook-formal. |
 | **Source count** | 5 textbooks (see Source Inventory below) |
-| **Scale** | Live: 115 topics with working widgets, 347 generators, 28,008 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
+| **Scale** | Live: 124 topics with working widgets, 374 generators, 30,023 verified problems. Catalog: 238 canonical topics (post-alias-merge). |
 | **Comprehensive buildout plan** | 9-cluster schedule; see "Buildout Plan" section below. |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
@@ -29,8 +29,9 @@
 - **Cluster 4** (rationals & radicals, 12 topics) — **shipped** commit `a3db819`
 - **Cluster 5** (functions & transformations, 14 topics) — **shipped** commit `bedee97`
 - **Cluster 6** (exponentials & logarithms, 10 topics) — **shipped** commit `db5421c`
-- **Cluster 7** (trigonometry, 15 topics) — **shipped** (this version, **115 live topics total**)
-- **Next:** Cluster 8 (Sequences, probability, statistics, ~10 topics)
+- **Cluster 7** (trigonometry, 15 topics) — **shipped** commit `c78a1f1`
+- **Cluster 8** (sequences, probability, statistics, 9 topics) — **shipped** (this version, **124 live topics, 30,023 problems**)
+- **Next:** Cluster 9 (Conics, matrices, complex numbers, ~12 topics — the final cluster)
 
 ### 30-second mental model
 
@@ -966,9 +967,9 @@ The comprehensive buildout from the current state to complete integration of the
 | **4** | Rationals & Radicals | 12 | **shipped** |
 | **5** | Functions & Transformations | 14 | **shipped** |
 | **6** | Exponentials & Logarithms | 10 | **shipped** |
-| **7** | Trigonometry | 15 | **shipped in this session** |
-| **8** | Sequences, probability, statistics | ~10 | **next** |
-| **9** | Conics, matrices, complex numbers, vectors | ~12 | pending |
+| **7** | Trigonometry | 15 | **shipped** |
+| **8** | Sequences, probability, statistics | 9 | **shipped in this session** |
+| **9** | Conics, matrices, complex numbers | ~12 | **next (final!)** |
 | **L** | Lint/polish + prereq-graph widget + ingest smoke test | 0 | pending |
 
 **Four workstreams run concurrently within each cluster:**
@@ -1077,6 +1078,69 @@ Then rerun `consolidate_extractions.py` to apply the merges.
 ---
 
 ## Self-Improvement Log
+
+### Version 1.14.0 --- Cluster 8 Sequences, Probability, and Statistics (2026-04-11)
+
+**Stats:** 9 topics enriched (+9 live, now **124 total**), 27 new generators (+27, now 374 total), 2,015 new verified problems (+2,015, now **30,023 total — crossed 30k**), 3 new matplotlib figures (Pascal's triangle, box plot, histogram). First cluster with a dedicated pre-calc stats/sequences generator module, and the first cluster to exceed 30,000 verified practice problems in the bank.
+
+**Topics shipped (all at draft status):**
+
+- **Sequences and series (4):**
+  - Arithmetic_Sequences_And_Linear_Patterns (pre-algebra)
+  - Sequences (algebra-2, 2 sources — richest)
+  - Summation (pre-calculus)
+  - Induction (pre-calculus)
+- **Probability and counting (2):**
+  - Probability_Of_Simple_And_Compound_Events (pre-algebra)
+  - Binomial (pre-calculus — binomial theorem)
+- **Statistics (3):**
+  - Mean_Median_Mode_And_Range (pre-algebra)
+  - Data_Displays (pre-algebra)
+  - Data_Displays_And_Measures_Of_Spread (pre-algebra)
+
+Three of the nine topics are pre-calculus, bringing the pre-calc branch from 17/47 → 20/47 live. The last remaining pre-calc gaps are the Conics/Matrices/Complex-Numbers cluster (Cluster 9).
+
+**Generator module added (1):**
+
+- `generators/precalculus/sequences_and_stats.py` — 27 generators covering all 9 topics (3 each). Added to `generators/precalculus/__init__.py` alongside `trig_core` and `trig_advanced`.
+
+**Figures added:**
+
+- `wiki/assets/figures/precalculus/pascals_triangle.svg` — Pascal's triangle rows 0-6 with parent-sum lines connecting each entry to the two above it
+- `wiki/assets/figures/pre_algebra/box_plot.svg` — horizontal box plot with five-number-summary annotation on the 11-value data set $\{12, 18, 22, 25, 28, 30, 33, 38, 42, 48, 55\}$
+- `wiki/assets/figures/pre_algebra/histogram_example.svg` — 5-bin histogram of test-score frequencies, showing the touching-bars characteristic that distinguishes histograms from bar graphs
+
+**Execution model:**
+
+3 parallel content sub-agents (3+3+3 topics) + 1 generator sub-agent (27 generators in one module) + 1 figures sub-agent (3 figures). All 5 sub-agents dispatched together; the generator agent handled 27 generators in a single module cleanly.
+
+**What worked:**
+
+- **Topic-family module consolidation.** The sequences_and_stats.py module bundles 27 generators across 9 topics into one file — the tightest generator packing so far, because the 9 topics are small and share a lot of utility code (sympy for fractions, pattern-building for sum formulas, template lists for probability scenarios).
+- **Arithmetic sequence ↔ linear function bridge.** Teaching arithmetic sequences as "linear functions with integer domains" rather than a separate formula-to-memorize is the pedagogical move here. Students who know the [[Linear_Functions]] page don't have to start from scratch.
+- **Geometric sequence ↔ exponential function bridge.** Same move, different family. Geometric sequences ARE exponential functions evaluated at integers.
+- **Induction base case plus inductive step walked through end-to-end** in Example 1 on the Induction page. The domino analogy grounds the technique before the symbol pushing starts.
+- **Box plot figure with labeled five-number summary** is the single most valuable figure in the cluster — students can read the box plot as a visual reference and the figure's explicit labels teach the terminology without repeating the page content.
+- **Probability AND/OR distinction** is the core pedagogical move for the probability page. Independent events → multiply; mutually exclusive events → add. Covering both in separate examples with concrete numbers locks in the rule.
+
+**What failed and how it was fixed:**
+
+- **2 copyright near-misses on definitional phrases**: "in which every term after the first is obtained by multiplying the previous term" on Sequences and "a data set can have no mode, one mode, or several modes" on Mean_Median_Mode_And_Range. Both rewrote in one line each.
+- **Parameter-space-too-small on 3 generators**: `prob_and_independent` (16), `prob_or_mutually_exclusive` (16), `induction_inductive_step_setup` (10). Fixed by widening pools and adding `bank_count_per_difficulty` overrides during first pytest iteration.
+- **No dead wikilinks this cluster** — the idiom discipline has become tight enough that both content and reference integrity pass lint on first attempt when sub-agents follow the template.
+
+**Gate checks after Cluster 8:**
+
+- **Pytest:** 29/29 green (8 circles-parametrized across 374 generators + 10 consolidate-snapshot + 3 copyright + 8 ingest smoke).
+- **Lint:** 0 errors, 0 warnings, 1 info (142 stub pages — down from 151).
+- **YAML:** 257/257 clean.
+- **Topic status:** 239 topics, avg score **49.9** / 100 (was 47.2). 122 topics with 3+ generators (was 113). Pre-calculus avg 42.1 → 46.9; pre-algebra avg 39.2 → 43.1 (both new topics on each branch moved the needle).
+- **Bank size:** 24.8 MB across 124 shards, all under 320 KB each.
+- **Branch hubs:** Algebra_Overview (104 live) and Precalculus_Overview (20 live) both regenerated.
+
+**Milestone: 30,000 verified problems.** The Math_Wiki bank now holds more than 30,000 individually SymPy-verified practice problems — three times the problem count at session start (9,621). Every problem is generated by a registered Python class, every problem has a statement, answer, hints, and step-by-step solution, and every generator is covered by the parametrized smoke test.
+
+**What's next (Cluster 9 — the final cluster):** Conics, matrices, complex numbers. ~12 topics covering parabolas (revisited as conic sections), circles (revisited), ellipses, hyperbolas, matrix arithmetic, matrix inverses and determinants, systems via matrices, complex number arithmetic, complex numbers in polar form, De Moivre's theorem. This is the last cluster in the 9-cluster plan. After this, the Math_Wiki will cover essentially all of the 238-topic catalog that has meaningful student-facing content — an end-to-end algebra/pre-calc reference with complete interactive practice.
 
 ### Version 1.13.0 --- Cluster 7 Trigonometry (2026-04-10)
 

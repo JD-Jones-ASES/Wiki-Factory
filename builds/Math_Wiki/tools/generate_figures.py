@@ -2183,6 +2183,235 @@ def fig_vector_addition():
 
 
 # ---------------------------------------------------------------------------
+# Precalculus: Pascal's triangle (rows 0-6)
+
+def fig_pascals_triangle():
+    """Pascal's triangle rows 0-6 with parent-sum lines drawn in."""
+    n_rows = 7  # rows 0..6 inclusive
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.set_aspect("equal")
+
+    # Horizontal spacing between adjacent entries within a row.
+    dx = 1.0
+    # Vertical spacing between successive rows (rows grow downward).
+    dy = 1.1
+
+    # Compute Pascal's triangle values
+    triangle = [[1]]
+    for n in range(1, n_rows):
+        prev = triangle[-1]
+        row = [1]
+        for k in range(1, n):
+            row.append(prev[k - 1] + prev[k])
+        row.append(1)
+        triangle.append(row)
+
+    # Positions: each row centered horizontally at x = 0.
+    # Entry k of row n sits at x = (k - n/2) * dx, y = -n * dy.
+    def pos(n, k):
+        return ((k - n / 2.0) * dx, -n * dy)
+
+    # Draw parent-sum lines (interior entries only) BEHIND the numbers.
+    for n in range(1, n_rows):
+        for k in range(1, n):
+            x_child, y_child = pos(n, k)
+            xl, yl = pos(n - 1, k - 1)
+            xr, yr = pos(n - 1, k)
+            ax.plot([xl, x_child], [yl, y_child],
+                    color=C_DASH, linewidth=0.9, zorder=1)
+            ax.plot([xr, x_child], [yr, y_child],
+                    color=C_DASH, linewidth=0.9, zorder=1)
+
+    # Draw each entry as a number inside a small white circle for readability.
+    for n in range(n_rows):
+        for k, value in enumerate(triangle[n]):
+            x, y = pos(n, k)
+            ax.plot(x, y, "o", markerfacecolor="white",
+                    markeredgecolor=C_LINE, markeredgewidth=1.4,
+                    markersize=22, zorder=2)
+            ax.text(x, y, str(value),
+                    ha="center", va="center",
+                    fontsize=11, color=C_TEXT, fontweight="bold",
+                    zorder=3)
+
+    # Row labels on the left, aligned with each row's y-position.
+    left_label_x = -(n_rows / 2.0) * dx - 1.0
+    for n in range(n_rows):
+        _, y = pos(n, 0)
+        ax.text(left_label_x, y, f"row {n}",
+                ha="right", va="center",
+                fontsize=10, color=C_TEXT)
+
+    # Set limits with a bit of padding on all sides.
+    half_width = (n_rows / 2.0) * dx + 1.8
+    ax.set_xlim(-half_width - 1.0, half_width)
+    ax.set_ylim(-(n_rows - 1) * dy - 0.9, 0.9)
+
+    ax.set_title("Pascal's Triangle (rows 0-6)", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "precalculus/pascals_triangle.svg")
+
+
+# ---------------------------------------------------------------------------
+# Pre-algebra: horizontal box plot with five-number summary
+
+def fig_box_plot():
+    """Horizontal box plot with annotated five-number summary."""
+    # Data: 12, 18, 22, 25, 28, 30, 33, 38, 42, 48, 55 (sorted, 11 values)
+    # Five-number summary:
+    data_min = 12
+    q1 = 22
+    median = 30
+    q3 = 42
+    data_max = 55
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    ax.set_xlim(8, 62)
+    ax.set_ylim(-2.2, 3.2)
+
+    # y-position of the box plot and its vertical half-height
+    y_mid = 1.4
+    box_half = 0.55
+    box_top = y_mid + box_half
+    box_bot = y_mid - box_half
+
+    # Whisker vertical cap length
+    whisker_cap = 0.35
+
+    box_color = "#cde4f0"
+    edge_color = C_LINE
+    median_color = C_RADIUS
+
+    # Box from Q1 to Q3, filled
+    ax.fill_between([q1, q3], box_bot, box_top,
+                    color=box_color, linewidth=0)
+    # Box outline
+    ax.plot([q1, q3, q3, q1, q1],
+            [box_bot, box_bot, box_top, box_top, box_bot],
+            color=edge_color, linewidth=2.0)
+    # Median line inside the box
+    ax.plot([median, median], [box_bot, box_top],
+            color=median_color, linewidth=2.6)
+
+    # Whisker: min to Q1 (horizontal line along y_mid)
+    ax.plot([data_min, q1], [y_mid, y_mid],
+            color=edge_color, linewidth=1.8)
+    # Whisker: Q3 to max
+    ax.plot([q3, data_max], [y_mid, y_mid],
+            color=edge_color, linewidth=1.8)
+    # Vertical caps on each whisker end
+    for x in (data_min, data_max):
+        ax.plot([x, x],
+                [y_mid - whisker_cap, y_mid + whisker_cap],
+                color=edge_color, linewidth=1.8)
+
+    # Number line below the plot
+    line_y = -0.8
+    ax.annotate(
+        "", xy=(60.5, line_y), xytext=(9.5, line_y),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    # Ticks at every 5 from 10 to 60
+    for t in range(10, 61, 5):
+        ax.plot([t, t], [line_y - 0.12, line_y + 0.12],
+                color=C_LINE, linewidth=1.0)
+        ax.text(t, line_y - 0.28, str(t),
+                ha="center", va="top",
+                fontsize=9, color=C_TEXT)
+
+    # Annotate each of the five key points with its name and value.
+    label_pairs = [
+        (data_min, f"min = {data_min}"),
+        (q1,       f"Q1 = {q1}"),
+        (median,   f"median = {median}"),
+        (q3,       f"Q3 = {q3}"),
+        (data_max, f"max = {data_max}"),
+    ]
+    for x, text in label_pairs:
+        ax.text(x, box_top + 0.35, text,
+                ha="center", va="bottom",
+                fontsize=10, color=C_TEXT, fontweight="bold")
+
+    ax.set_title("A box plot with five-number summary",
+                 fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "pre_algebra/box_plot.svg")
+
+
+# ---------------------------------------------------------------------------
+# Pre-algebra: histogram of test scores
+
+def fig_histogram_example():
+    """Simple histogram with touching bars: 5 bins of width 10."""
+    bin_edges = [0, 10, 20, 30, 40, 50]
+    frequencies = [3, 7, 12, 8, 4]
+
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(-3, 53)
+    ax.set_ylim(0, 14)
+
+    bar_face = "#cde4f0"
+    bar_edge = C_LINE
+
+    # Draw each bar as a filled rectangle; because bars share edges,
+    # they naturally touch (characteristic of a histogram).
+    for i, freq in enumerate(frequencies):
+        x0 = bin_edges[i]
+        x1 = bin_edges[i + 1]
+        ax.fill_between([x0, x1], 0, freq,
+                        color=bar_face, linewidth=0)
+        ax.plot([x0, x1, x1, x0, x0],
+                [0, 0, freq, freq, 0],
+                color=bar_edge, linewidth=1.6)
+        # Frequency label above each bar
+        ax.text((x0 + x1) / 2, freq + 0.3, str(freq),
+                ha="center", va="bottom",
+                fontsize=10, color=C_TEXT, fontweight="bold")
+
+    # x-axis line
+    ax.plot([0, 50], [0, 0], color=C_LINE, linewidth=1.4)
+    # x-axis tick marks + labels at every bin boundary
+    for x in bin_edges:
+        ax.plot([x, x], [-0.18, 0.18], color=C_LINE, linewidth=1.2)
+        ax.text(x, -0.45, str(x),
+                ha="center", va="top",
+                fontsize=10, color=C_TEXT)
+
+    # y-axis line
+    ax.plot([0, 0], [0, 13], color=C_LINE, linewidth=1.4)
+    # y-axis tick marks + labels at each integer from 0..13
+    for y in range(0, 14, 2):
+        ax.plot([-0.6, 0.6], [y, y], color=C_LINE, linewidth=1.2)
+        ax.text(-1.2, y, str(y),
+                ha="right", va="center",
+                fontsize=9, color=C_TEXT)
+
+    # Axis labels
+    ax.text(25, -1.5, "Score",
+            ha="center", va="top",
+            fontsize=12, color=C_TEXT)
+    ax.text(-6.0, 7, "Frequency",
+            ha="center", va="center",
+            fontsize=12, color=C_TEXT, rotation=90)
+
+    ax.set_title("A histogram of test scores", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "pre_algebra/histogram_example.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -2213,6 +2442,9 @@ FIGURES = [
     ("sine_cosine_graphs", fig_sine_cosine_graphs),
     ("right_triangle_soh_cah_toa", fig_right_triangle_soh_cah_toa),
     ("vector_addition", fig_vector_addition),
+    ("pascals_triangle", fig_pascals_triangle),
+    ("box_plot", fig_box_plot),
+    ("histogram_example", fig_histogram_example),
 ]
 
 

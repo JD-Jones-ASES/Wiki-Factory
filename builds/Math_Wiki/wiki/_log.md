@@ -76,3 +76,8 @@ End-to-end proof of the interactive stack. One topic (Circles) fully built, with
 - First wave of sub-agents to expand topics beyond circles
 
 **Phase 1 complete.** Live end-to-end test requires deploying to GitHub Pages and browser verification of: KaTeX on topic page, widget click → localStorage → vault page → print worksheet.
+
+## [2026-04-10] enrich | Cluster 8 batch 2 of 2: Probability, Binomial, Induction
+- Enriched Probability_Of_Simple_And_Compound_Events.md (pre-algebra, 1113 body words)
+- Enriched Binomial.md (pre-calculus, 1511 body words)
+- Enriched Induction.md (pre-calculus, 1522 body words)
