@@ -2,7 +2,7 @@
 title: "Cross Sections of Solids"
 type: topic
 aliases: ["Cross Section", "Slicing Solids", "Plane Sections"]
-tags: ["#branch-geometry", "#topic-solid-geometry", "#key-topic"]
+tags: ["#branch-geometry", "#topic-solid-geometry", "#key-topic", "#test-act"]
 created: 2026-04-11
 updated: 2026-04-11
 source_refs: []
@@ -24,7 +24,6 @@ problem_type_ids: []
 figures: ["geometry/cube_cross_sections.svg"]
 summary: "Slice a solid with a plane and catch the flat region that appears in the cut — its shape depends on the angle."
 ---
-
 > [[_overview|Home]] > [[Geometry|Geometry]] > Cross Sections of Solids
 
 # Cross Sections of Solids

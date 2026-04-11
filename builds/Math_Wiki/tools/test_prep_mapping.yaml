@@ -265,9 +265,12 @@ mappings:
   variables_and_expressions:               [test-sat, test-psat, test-act, test-clt]
   literal_equations_and_formulas:          [test-sat, test-psat, test-act]
   scientific_notation:                     [test-sat, test-psat, test-act, test-clt]
-  applications_of_quadratics:              [test-sat, test-psat, test-act]
-  percent_applications:                    [test-sat, test-psat, test-act, test-clt]
-  ratios_and_proportions:                  [test-sat, test-psat, test-act, test-clt]
+  # applications_of_quadratics, percent_applications, ratios_and_proportions --
+  # removed in v2.4 stub cleanup. Those stub pages were deleted and their
+  # generators retargeted to applications_of_quadratic_functions,
+  # applications_tax_tip_discount_and_simple_interest, and
+  # proportions_and_cross_multiplication respectively (all already mapped
+  # elsewhere in this file).
 
   # =========================================================================
   # Wave C additions (precalculus stubs activated 2026-04-11)
@@ -302,6 +305,33 @@ mappings:
   normal_distribution:                     [test-act]
   expected_value:                          [test-act]
   binomial_probability:                    [test-act]
+
+  # =========================================================================
+  # v2.4.1 activation wave additions (2026-04-11)
+  # The last 12 stubs activated with full content + generators, plus one
+  # previously-missed geometry topic (cross_sections_of_solids).
+  # =========================================================================
+
+  # Pre-algebra geometry/measurement: core content for all 4 tests
+  composite_figures:                       [test-sat, test-psat, test-act]
+  perimeter_and_area_of_polygons:          [test-sat, test-psat, test-act, test-clt]
+  scale_drawings_and_maps:                 [test-sat, test-psat, test-act, test-clt]
+  units_of_measurement_and_conversion:     [test-sat, test-psat, test-act, test-clt]
+
+  # Pre-algebra arithmetic/algebra bridges
+  product_power_and_quotient_rules:        [test-sat, test-psat, test-act, test-clt]
+  repeating_decimals_as_fractions:         [test-act, test-clt]
+  simplifying_expressions:                 [test-sat, test-psat, test-act, test-clt]
+  properties_of_addition_and_multiplication: [test-act, test-clt]
+  applications_of_proportional_reasoning:  [test-sat, test-psat, test-act, test-clt]
+
+  # Algebra-2 advanced (ACT scope, above SAT ceiling)
+  polynomial_inequalities:                 [test-act]
+  rational_inequalities:                   [test-act]
+  set_notation_and_the_real_numbers:       [test-sat, test-psat, test-act]
+
+  # Geometry: cross sections - ACT covers 3D geometry including slicing
+  cross_sections_of_solids:                [test-act]
 
   # ==========================================================================
   # Out of scope (no standardized test coverage) -- intentionally unmapped:
