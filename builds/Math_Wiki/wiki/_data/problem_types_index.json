@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T10:39:38.924197+00:00",
+  "generated_at": "2026-04-11T13:57:29.629055+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 410,
+  "generator_count": 460,
   "by_topic": {
     "circles": [
       {
@@ -86,6 +86,536 @@
           "easy": 30,
           "medium": 30,
           "hard": 30
+        }
+      }
+    ],
+    "points_lines_angles_and_angle_relationships": [
+      {
+        "generator_id": "parallel_lines_find_alternate_interior",
+        "display_name": "Find alternate interior angle for parallel lines",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "parallel_lines_find_corresponding",
+        "display_name": "Find corresponding angle for parallel lines",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "parallel_lines_find_cointerior",
+        "display_name": "Find co-interior angle for parallel lines",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "parallel_lines_solve_for_x",
+        "display_name": "Solve for x using parallel line angle relationships",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "complementary_supplementary_find",
+        "display_name": "Find complementary or supplementary angle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      }
+    ],
+    "triangle_congruence_criteria": [
+      {
+        "generator_id": "triangle_congruence_identify_criterion",
+        "display_name": "Identify the triangle congruence criterion",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "triangle_congruence_find_missing_side",
+        "display_name": "Find missing side in congruent triangles (SAS)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "triangle_congruence_find_missing_angle",
+        "display_name": "Find missing angle in congruent triangles (ASA)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "triangle_congruence_not_congruent",
+        "display_name": "Explain why triangles are not necessarily congruent (AAA / SSA)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      },
+      {
+        "generator_id": "triangle_congruence_proof_step",
+        "display_name": "Pick the next justification in a triangle congruence proof",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 18,
+          "medium": 18,
+          "hard": 18
+        }
+      }
+    ],
+    "special_right_triangles": [
+      {
+        "generator_id": "special_45_45_90_from_leg",
+        "display_name": "Find hypotenuse of a 45-45-90 from leg",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "special_45_45_90_from_hypotenuse",
+        "display_name": "Find leg of a 45-45-90 from hypotenuse",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "special_30_60_90_from_short_leg",
+        "display_name": "Find long leg and hypotenuse of a 30-60-90 from short leg",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "special_30_60_90_from_hypotenuse",
+        "display_name": "Find legs of a 30-60-90 from hypotenuse",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "special_30_60_90_from_long_leg",
+        "display_name": "Find other sides of a 30-60-90 from long leg",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "polygon_angle_sums": [
+      {
+        "generator_id": "polygon_interior_sum",
+        "display_name": "Find the interior angle sum of an n-gon",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "polygon_regular_interior_angle",
+        "display_name": "Find each interior angle of a regular n-gon",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "polygon_regular_exterior_angle",
+        "display_name": "Find each exterior angle of a regular n-gon",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "polygon_find_n_from_interior_angle",
+        "display_name": "Find n given interior angle of a regular polygon",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      }
+    ],
+    "classifying_triangles_and_quadrilaterals": [
+      {
+        "generator_id": "quad_parallelogram_solve_angle",
+        "display_name": "Solve for x in a parallelogram angle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "quad_rectangle_solve_diagonal",
+        "display_name": "Find the diagonal of a rectangle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "quad_rhombus_solve_side",
+        "display_name": "Find the side of a rhombus from its diagonals",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "quad_trapezoid_area",
+        "display_name": "Find the area of a trapezoid",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "inscribed_angles_and_arcs": [
+      {
+        "generator_id": "inscribed_angle_from_arc",
+        "display_name": "Find inscribed angle from intercepted arc",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "inscribed_angle_semicircle",
+        "display_name": "Find missing angle in a semicircle triangle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "chords_secants_and_tangents": [
+      {
+        "generator_id": "chord_chord_power",
+        "display_name": "Chord-chord power of a point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "tangent_perpendicular_radius",
+        "display_name": "Distance from external point to center using tangent-radius right angle",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 20,
+          "hard": 15
+        }
+      }
+    ],
+    "equations_of_circles": [
+      {
+        "generator_id": "equation_of_circle_from_center_radius_general_form",
+        "display_name": "Convert standard-form circle to general form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "equation_of_circle_general_to_standard",
+        "display_name": "Convert general-form circle to standard; find center and radius",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "rigid_transformations": [
+      {
+        "generator_id": "translate_point",
+        "display_name": "Translate a point by a vector",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "reflect_point_over_axis",
+        "display_name": "Reflect a point over an axis",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rotate_point_90_180_270",
+        "display_name": "Rotate a point about the origin",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "identify_rigid_transformation",
+        "display_name": "Identify the rigid transformation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "dilations_and_similarity": [
+      {
+        "generator_id": "dilate_point_from_origin",
+        "display_name": "Dilate a point from the origin",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "similarity_ratio_area_volume",
+        "display_name": "Scale length ratio to area or volume ratio",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 20
+        }
+      }
+    ],
+    "volume_of_prisms_and_cylinders": [
+      {
+        "generator_id": "volume_rectangular_prism",
+        "display_name": "Find the volume of a rectangular prism",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "volume_cylinder_from_radius_height",
+        "display_name": "Find the volume of a cylinder",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "volume_cylinder_find_height",
+        "display_name": "Find the height of a cylinder from volume and radius",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "volume_of_pyramids_and_cones": [
+      {
+        "generator_id": "volume_pyramid_rectangular",
+        "display_name": "Find the volume of a rectangular pyramid",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "volume_cone",
+        "display_name": "Find the volume of a cone",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "volume_cone_find_radius",
+        "display_name": "Find the radius of a cone from volume and height",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
+    "surface_area_of_prisms_and_cylinders": [
+      {
+        "generator_id": "surface_area_rectangular_prism",
+        "display_name": "Find the surface area of a rectangular prism",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "surface_area_cube",
+        "display_name": "Find the surface area of a cube",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "surface_area_cylinder",
+        "display_name": "Find the surface area of a cylinder",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "surface_area_and_volume_of_spheres": [
+      {
+        "generator_id": "surface_area_sphere",
+        "display_name": "Find the surface area of a sphere",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "volume_sphere",
+        "display_name": "Find the volume of a sphere",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 16,
+          "hard": 16
+        }
+      }
+    ],
+    "coordinate_geometry_proofs": [
+      {
+        "generator_id": "coord_prove_parallelogram_slope",
+        "display_name": "Prove parallelogram via slope of opposite sides",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "coord_prove_rectangle_perpendicular",
+        "display_name": "Prove rectangle via perpendicular adjacent sides",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "coord_prove_rhombus_distances",
+        "display_name": "Prove rhombus via equal side lengths (distance formula)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "coord_midpoint_of_segment",
+        "display_name": "Find the midpoint of a segment",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
         }
       }
     ],
@@ -4458,6 +4988,506 @@
         "hard": 30
       },
       "shard_file": "problems/the_pythagorean_theorem.json"
+    },
+    "parallel_lines_find_alternate_interior": {
+      "topic_slug": "points_lines_angles_and_angle_relationships",
+      "display_name": "Find alternate interior angle for parallel lines",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/points_lines_angles_and_angle_relationships.json"
+    },
+    "parallel_lines_find_corresponding": {
+      "topic_slug": "points_lines_angles_and_angle_relationships",
+      "display_name": "Find corresponding angle for parallel lines",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/points_lines_angles_and_angle_relationships.json"
+    },
+    "parallel_lines_find_cointerior": {
+      "topic_slug": "points_lines_angles_and_angle_relationships",
+      "display_name": "Find co-interior angle for parallel lines",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/points_lines_angles_and_angle_relationships.json"
+    },
+    "parallel_lines_solve_for_x": {
+      "topic_slug": "points_lines_angles_and_angle_relationships",
+      "display_name": "Solve for x using parallel line angle relationships",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/points_lines_angles_and_angle_relationships.json"
+    },
+    "complementary_supplementary_find": {
+      "topic_slug": "points_lines_angles_and_angle_relationships",
+      "display_name": "Find complementary or supplementary angle",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/points_lines_angles_and_angle_relationships.json"
+    },
+    "triangle_congruence_identify_criterion": {
+      "topic_slug": "triangle_congruence_criteria",
+      "display_name": "Identify the triangle congruence criterion",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/triangle_congruence_criteria.json"
+    },
+    "triangle_congruence_find_missing_side": {
+      "topic_slug": "triangle_congruence_criteria",
+      "display_name": "Find missing side in congruent triangles (SAS)",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/triangle_congruence_criteria.json"
+    },
+    "triangle_congruence_find_missing_angle": {
+      "topic_slug": "triangle_congruence_criteria",
+      "display_name": "Find missing angle in congruent triangles (ASA)",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/triangle_congruence_criteria.json"
+    },
+    "triangle_congruence_not_congruent": {
+      "topic_slug": "triangle_congruence_criteria",
+      "display_name": "Explain why triangles are not necessarily congruent (AAA / SSA)",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/triangle_congruence_criteria.json"
+    },
+    "triangle_congruence_proof_step": {
+      "topic_slug": "triangle_congruence_criteria",
+      "display_name": "Pick the next justification in a triangle congruence proof",
+      "counts": {
+        "easy": 18,
+        "medium": 18,
+        "hard": 18
+      },
+      "shard_file": "problems/triangle_congruence_criteria.json"
+    },
+    "special_45_45_90_from_leg": {
+      "topic_slug": "special_right_triangles",
+      "display_name": "Find hypotenuse of a 45-45-90 from leg",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/special_right_triangles.json"
+    },
+    "special_45_45_90_from_hypotenuse": {
+      "topic_slug": "special_right_triangles",
+      "display_name": "Find leg of a 45-45-90 from hypotenuse",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 20
+      },
+      "shard_file": "problems/special_right_triangles.json"
+    },
+    "special_30_60_90_from_short_leg": {
+      "topic_slug": "special_right_triangles",
+      "display_name": "Find long leg and hypotenuse of a 30-60-90 from short leg",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/special_right_triangles.json"
+    },
+    "special_30_60_90_from_hypotenuse": {
+      "topic_slug": "special_right_triangles",
+      "display_name": "Find legs of a 30-60-90 from hypotenuse",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/special_right_triangles.json"
+    },
+    "special_30_60_90_from_long_leg": {
+      "topic_slug": "special_right_triangles",
+      "display_name": "Find other sides of a 30-60-90 from long leg",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/special_right_triangles.json"
+    },
+    "polygon_interior_sum": {
+      "topic_slug": "polygon_angle_sums",
+      "display_name": "Find the interior angle sum of an n-gon",
+      "counts": {
+        "easy": 10,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/polygon_angle_sums.json"
+    },
+    "polygon_regular_interior_angle": {
+      "topic_slug": "polygon_angle_sums",
+      "display_name": "Find each interior angle of a regular n-gon",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 20
+      },
+      "shard_file": "problems/polygon_angle_sums.json"
+    },
+    "polygon_regular_exterior_angle": {
+      "topic_slug": "polygon_angle_sums",
+      "display_name": "Find each exterior angle of a regular n-gon",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 20
+      },
+      "shard_file": "problems/polygon_angle_sums.json"
+    },
+    "polygon_find_n_from_interior_angle": {
+      "topic_slug": "polygon_angle_sums",
+      "display_name": "Find n given interior angle of a regular polygon",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/polygon_angle_sums.json"
+    },
+    "quad_parallelogram_solve_angle": {
+      "topic_slug": "classifying_triangles_and_quadrilaterals",
+      "display_name": "Solve for x in a parallelogram angle",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/classifying_triangles_and_quadrilaterals.json"
+    },
+    "quad_rectangle_solve_diagonal": {
+      "topic_slug": "classifying_triangles_and_quadrilaterals",
+      "display_name": "Find the diagonal of a rectangle",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 15
+      },
+      "shard_file": "problems/classifying_triangles_and_quadrilaterals.json"
+    },
+    "quad_rhombus_solve_side": {
+      "topic_slug": "classifying_triangles_and_quadrilaterals",
+      "display_name": "Find the side of a rhombus from its diagonals",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/classifying_triangles_and_quadrilaterals.json"
+    },
+    "quad_trapezoid_area": {
+      "topic_slug": "classifying_triangles_and_quadrilaterals",
+      "display_name": "Find the area of a trapezoid",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/classifying_triangles_and_quadrilaterals.json"
+    },
+    "inscribed_angle_from_arc": {
+      "topic_slug": "inscribed_angles_and_arcs",
+      "display_name": "Find inscribed angle from intercepted arc",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/inscribed_angles_and_arcs.json"
+    },
+    "inscribed_angle_semicircle": {
+      "topic_slug": "inscribed_angles_and_arcs",
+      "display_name": "Find missing angle in a semicircle triangle",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/inscribed_angles_and_arcs.json"
+    },
+    "chord_chord_power": {
+      "topic_slug": "chords_secants_and_tangents",
+      "display_name": "Chord-chord power of a point",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/chords_secants_and_tangents.json"
+    },
+    "tangent_perpendicular_radius": {
+      "topic_slug": "chords_secants_and_tangents",
+      "display_name": "Distance from external point to center using tangent-radius right angle",
+      "counts": {
+        "easy": 10,
+        "medium": 20,
+        "hard": 15
+      },
+      "shard_file": "problems/chords_secants_and_tangents.json"
+    },
+    "equation_of_circle_from_center_radius_general_form": {
+      "topic_slug": "equations_of_circles",
+      "display_name": "Convert standard-form circle to general form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/equations_of_circles.json"
+    },
+    "equation_of_circle_general_to_standard": {
+      "topic_slug": "equations_of_circles",
+      "display_name": "Convert general-form circle to standard; find center and radius",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/equations_of_circles.json"
+    },
+    "translate_point": {
+      "topic_slug": "rigid_transformations",
+      "display_name": "Translate a point by a vector",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rigid_transformations.json"
+    },
+    "reflect_point_over_axis": {
+      "topic_slug": "rigid_transformations",
+      "display_name": "Reflect a point over an axis",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rigid_transformations.json"
+    },
+    "rotate_point_90_180_270": {
+      "topic_slug": "rigid_transformations",
+      "display_name": "Rotate a point about the origin",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rigid_transformations.json"
+    },
+    "identify_rigid_transformation": {
+      "topic_slug": "rigid_transformations",
+      "display_name": "Identify the rigid transformation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/rigid_transformations.json"
+    },
+    "dilate_point_from_origin": {
+      "topic_slug": "dilations_and_similarity",
+      "display_name": "Dilate a point from the origin",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/dilations_and_similarity.json"
+    },
+    "similarity_ratio_area_volume": {
+      "topic_slug": "dilations_and_similarity",
+      "display_name": "Scale length ratio to area or volume ratio",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 20
+      },
+      "shard_file": "problems/dilations_and_similarity.json"
+    },
+    "volume_rectangular_prism": {
+      "topic_slug": "volume_of_prisms_and_cylinders",
+      "display_name": "Find the volume of a rectangular prism",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/volume_of_prisms_and_cylinders.json"
+    },
+    "volume_cylinder_from_radius_height": {
+      "topic_slug": "volume_of_prisms_and_cylinders",
+      "display_name": "Find the volume of a cylinder",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/volume_of_prisms_and_cylinders.json"
+    },
+    "volume_cylinder_find_height": {
+      "topic_slug": "volume_of_prisms_and_cylinders",
+      "display_name": "Find the height of a cylinder from volume and radius",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/volume_of_prisms_and_cylinders.json"
+    },
+    "volume_pyramid_rectangular": {
+      "topic_slug": "volume_of_pyramids_and_cones",
+      "display_name": "Find the volume of a rectangular pyramid",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/volume_of_pyramids_and_cones.json"
+    },
+    "volume_cone": {
+      "topic_slug": "volume_of_pyramids_and_cones",
+      "display_name": "Find the volume of a cone",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/volume_of_pyramids_and_cones.json"
+    },
+    "volume_cone_find_radius": {
+      "topic_slug": "volume_of_pyramids_and_cones",
+      "display_name": "Find the radius of a cone from volume and height",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/volume_of_pyramids_and_cones.json"
+    },
+    "surface_area_rectangular_prism": {
+      "topic_slug": "surface_area_of_prisms_and_cylinders",
+      "display_name": "Find the surface area of a rectangular prism",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/surface_area_of_prisms_and_cylinders.json"
+    },
+    "surface_area_cube": {
+      "topic_slug": "surface_area_of_prisms_and_cylinders",
+      "display_name": "Find the surface area of a cube",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/surface_area_of_prisms_and_cylinders.json"
+    },
+    "surface_area_cylinder": {
+      "topic_slug": "surface_area_of_prisms_and_cylinders",
+      "display_name": "Find the surface area of a cylinder",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/surface_area_of_prisms_and_cylinders.json"
+    },
+    "surface_area_sphere": {
+      "topic_slug": "surface_area_and_volume_of_spheres",
+      "display_name": "Find the surface area of a sphere",
+      "counts": {
+        "easy": 15,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/surface_area_and_volume_of_spheres.json"
+    },
+    "volume_sphere": {
+      "topic_slug": "surface_area_and_volume_of_spheres",
+      "display_name": "Find the volume of a sphere",
+      "counts": {
+        "easy": 10,
+        "medium": 16,
+        "hard": 16
+      },
+      "shard_file": "problems/surface_area_and_volume_of_spheres.json"
+    },
+    "coord_prove_parallelogram_slope": {
+      "topic_slug": "coordinate_geometry_proofs",
+      "display_name": "Prove parallelogram via slope of opposite sides",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/coordinate_geometry_proofs.json"
+    },
+    "coord_prove_rectangle_perpendicular": {
+      "topic_slug": "coordinate_geometry_proofs",
+      "display_name": "Prove rectangle via perpendicular adjacent sides",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/coordinate_geometry_proofs.json"
+    },
+    "coord_prove_rhombus_distances": {
+      "topic_slug": "coordinate_geometry_proofs",
+      "display_name": "Prove rhombus via equal side lengths (distance formula)",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/coordinate_geometry_proofs.json"
+    },
+    "coord_midpoint_of_segment": {
+      "topic_slug": "coordinate_geometry_proofs",
+      "display_name": "Find the midpoint of a segment",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/coordinate_geometry_proofs.json"
     },
     "one_step_eq_add": {
       "topic_slug": "one_step_equations",

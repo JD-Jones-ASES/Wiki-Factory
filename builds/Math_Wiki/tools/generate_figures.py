@@ -34,6 +34,8 @@ C_RADIUS = "#c44569"   # radius highlight
 C_DASH = "#555555"     # dashed auxiliary lines
 C_TEXT = "#2b2b2b"     # label text
 C_GRID = "#dddddd"     # grid lines
+C_FILL = "#e8f0ee"     # soft fill for shapes
+C_ACCENT = "#f6b352"   # warm accent highlight
 
 
 def _save(fig, rel_path: str):
@@ -2603,6 +2605,1183 @@ def fig_polar_coordinates():
 
 
 # ---------------------------------------------------------------------------
+# Geometry: Cluster 10 HS Geometry expansion
+
+def fig_parallel_lines_transversal():
+    """Two parallel lines cut by a transversal. Eight angles labeled 1-8,
+    with one pair of alternate interior angles highlighted."""
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-0.5, 6.5)
+    ax.set_ylim(-0.5, 6.5)
+
+    # Two parallel lines
+    y_top = 4.3
+    y_bot = 1.7
+    ax.plot([0.2, 6.0], [y_top, y_top], color=C_LINE, linewidth=2.2)
+    ax.plot([0.2, 6.0], [y_bot, y_bot], color=C_LINE, linewidth=2.2)
+    # Direction arrows on the parallel lines (parallel tick)
+    for y in (y_top, y_bot):
+        ax.plot(1.4, y, marker=">", color=C_LINE, markersize=8)
+
+    # Transversal: slope = -1.4, crossing the two lines.
+    slope = 1.6
+    # Choose x where it crosses midlines
+    x_mid = 3.2
+    # Extend transversal
+    y_a, y_b = -0.2, 6.2
+    x_a = x_mid + (y_a - (y_top + y_bot) / 2) / slope
+    x_b = x_mid + (y_b - (y_top + y_bot) / 2) / slope
+    ax.plot([x_a, x_b], [y_a, y_b], color=C_LINE, linewidth=2.2)
+
+    # Intersection points
+    x_top = x_mid + (y_top - (y_top + y_bot) / 2) / slope
+    x_bot = x_mid + (y_bot - (y_top + y_bot) / 2) / slope
+
+    # Highlight one pair of alternate interior angles (angles 4 and 5)
+    # Arc at top intersection on the lower-left side (angle 4)
+    from matplotlib.patches import Wedge
+    accent = C_ACCENT
+    # For top intersection: transversal direction up-right goes at angle atan(slope),
+    # horizontal line. Interior is below the top line.
+    trans_ang_deg = float(np.degrees(np.arctan(slope)))  # approx 58 deg
+    # Angle 4: between transversal going down-left and the line going right
+    # Interior-left at top intersection: from 180 deg (line pointing left) sweeping
+    # clockwise down to (180 + trans_ang_deg) - actually below line.
+    # We'll draw a simple arc on the lower-left of top intersection.
+    w1 = Wedge((x_top, y_top), 0.55,
+               180.0 + trans_ang_deg, 360.0,
+               width=0.09, facecolor=accent, edgecolor=accent, zorder=3)
+    ax.add_patch(w1)
+    # Angle 5: at bottom intersection, upper-right side, same size.
+    w2 = Wedge((x_bot, y_bot), 0.55,
+               0.0, trans_ang_deg,
+               width=0.09, facecolor=accent, edgecolor=accent, zorder=3)
+    ax.add_patch(w2)
+
+    # Label angles 1-4 at top intersection and 5-8 at bottom intersection
+    # Numbering convention: 1 upper-right, 2 upper-left, 3 lower-left, 4 lower-right
+    # (of each intersection), consistent with typical textbook layouts.
+    d = 0.38
+    # Top intersection labels
+    ax.text(x_top + d, y_top + d - 0.05, "1", fontsize=12, color=C_TEXT, ha="left", va="bottom")
+    ax.text(x_top - d, y_top + d - 0.05, "2", fontsize=12, color=C_TEXT, ha="right", va="bottom")
+    ax.text(x_top - d, y_top - d + 0.05, "3", fontsize=12, color=C_TEXT, ha="right", va="top")
+    ax.text(x_top + d + 0.05, y_top - d + 0.05, "4",
+            fontsize=12, color=C_ACCENT, fontweight="bold", ha="left", va="top")
+    # Bottom intersection labels
+    ax.text(x_bot + d - 0.05, y_bot + d - 0.05, "5",
+            fontsize=12, color=C_ACCENT, fontweight="bold", ha="left", va="bottom")
+    ax.text(x_bot - d, y_bot + d - 0.05, "6", fontsize=12, color=C_TEXT, ha="right", va="bottom")
+    ax.text(x_bot - d, y_bot - d + 0.05, "7", fontsize=12, color=C_TEXT, ha="right", va="top")
+    ax.text(x_bot + d, y_bot - d + 0.05, "8", fontsize=12, color=C_TEXT, ha="left", va="top")
+
+    # Line labels
+    ax.text(6.1, y_top, "$\\ell_1$", fontsize=12, color=C_TEXT, ha="left", va="center")
+    ax.text(6.1, y_bot, "$\\ell_2$", fontsize=12, color=C_TEXT, ha="left", va="center")
+    ax.text(x_b + 0.1, y_b - 0.1, "$t$", fontsize=12, color=C_TEXT, ha="left", va="top")
+
+    ax.set_title("Parallel lines cut by a transversal", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/parallel_lines_transversal.svg")
+
+
+def fig_triangle_congruence_criteria():
+    """Five side-by-side triangle pairs illustrating SSS, SAS, ASA, AAS, HL."""
+    from matplotlib.patches import Arc
+
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-0.5, 15.5)
+    ax.set_ylim(-0.8, 9.0)
+
+    def draw_tick(p1, p2, n=1):
+        """Draw n small perpendicular ticks at the midpoint of segment p1-p2."""
+        p1 = np.array(p1, dtype=float)
+        p2 = np.array(p2, dtype=float)
+        mid = (p1 + p2) / 2
+        v = p2 - p1
+        L = np.hypot(*v)
+        vh = v / L
+        perp = np.array([-vh[1], vh[0]])
+        step = 0.08
+        tick_len = 0.14
+        for k in range(n):
+            offset = (k - (n - 1) / 2) * step
+            c = mid + vh * offset
+            ax.plot([c[0] - perp[0] * tick_len, c[0] + perp[0] * tick_len],
+                    [c[1] - perp[1] * tick_len, c[1] + perp[1] * tick_len],
+                    color=C_RADIUS, linewidth=1.4)
+
+    def draw_angle_arc(vertex, p1, p2, n=1, radius=0.35):
+        """Draw n concentric arcs at vertex between rays to p1 and p2."""
+        vx, vy = vertex
+        a1 = float(np.degrees(np.arctan2(p1[1] - vy, p1[0] - vx)))
+        a2 = float(np.degrees(np.arctan2(p2[1] - vy, p2[0] - vx)))
+        # Normalize so a1 < a2, sweep <= 180
+        if (a2 - a1) % 360 > 180:
+            a1, a2 = a2, a1
+        for k in range(n):
+            r = radius + k * 0.09
+            arc = Arc((vx, vy), 2 * r, 2 * r,
+                      theta1=a1, theta2=a2,
+                      color=C_RADIUS, linewidth=1.3)
+            ax.add_patch(arc)
+
+    def draw_triangle(verts, color=C_LINE):
+        xs = [v[0] for v in verts] + [verts[0][0]]
+        ys = [v[1] for v in verts] + [verts[0][1]]
+        ax.plot(xs, ys, color=color, linewidth=1.8)
+
+    # Triangle template (acute)
+    base = [(0.0, 0.0), (1.6, 0.0), (0.7, 1.1)]
+
+    def shift(tri, dx, dy):
+        return [(x + dx, y + dy) for (x, y) in tri]
+
+    # Layout: five criteria in a row, each criterion is a pair of triangles
+    # at row y=3.8 (top) and the label at y=0.9. Actually simpler: two triangles
+    # stacked one above the other in each column.
+    labels = ["SSS", "SAS", "ASA", "AAS", "HL"]
+    col_xs = [0.6, 3.5, 6.4, 9.3, 12.2]
+    top_y = 5.2
+    bot_y = 2.6
+
+    # --- SSS: three sides congruent ---
+    x0 = col_xs[0]
+    t1 = shift(base, x0, top_y)
+    t2 = shift(base, x0, bot_y)
+    draw_triangle(t1)
+    draw_triangle(t2)
+    for tri in (t1, t2):
+        draw_tick(tri[0], tri[1], n=1)
+        draw_tick(tri[1], tri[2], n=2)
+        draw_tick(tri[2], tri[0], n=3)
+
+    # --- SAS: two sides and the included angle ---
+    x0 = col_xs[1]
+    t1 = shift(base, x0, top_y)
+    t2 = shift(base, x0, bot_y)
+    draw_triangle(t1)
+    draw_triangle(t2)
+    for tri in (t1, t2):
+        draw_tick(tri[0], tri[1], n=1)
+        draw_tick(tri[0], tri[2], n=2)
+        draw_angle_arc(tri[0], tri[1], tri[2], n=1)
+
+    # --- ASA: two angles and the included side ---
+    x0 = col_xs[2]
+    t1 = shift(base, x0, top_y)
+    t2 = shift(base, x0, bot_y)
+    draw_triangle(t1)
+    draw_triangle(t2)
+    for tri in (t1, t2):
+        draw_tick(tri[0], tri[1], n=1)
+        draw_angle_arc(tri[0], tri[1], tri[2], n=1)
+        draw_angle_arc(tri[1], tri[0], tri[2], n=2)
+
+    # --- AAS: two angles and a non-included side ---
+    x0 = col_xs[3]
+    t1 = shift(base, x0, top_y)
+    t2 = shift(base, x0, bot_y)
+    draw_triangle(t1)
+    draw_triangle(t2)
+    for tri in (t1, t2):
+        draw_angle_arc(tri[0], tri[1], tri[2], n=1)
+        draw_angle_arc(tri[1], tri[0], tri[2], n=2)
+        draw_tick(tri[1], tri[2], n=3)
+
+    # --- HL: right angle, hypotenuse, leg ---
+    right_base = [(0.0, 0.0), (1.5, 0.0), (0.0, 1.2)]
+    x0 = col_xs[4]
+    t1 = shift(right_base, x0, top_y)
+    t2 = shift(right_base, x0, bot_y)
+    draw_triangle(t1)
+    draw_triangle(t2)
+    for tri in (t1, t2):
+        # Right-angle square at vertex 0
+        sq = 0.12
+        v = tri[0]
+        ax.plot([v[0] + sq, v[0] + sq, v[0]],
+                [v[1], v[1] + sq, v[1] + sq],
+                color=C_RADIUS, linewidth=1.3)
+        # Hypotenuse (vertex 1 -> vertex 2) ticks
+        draw_tick(tri[1], tri[2], n=1)
+        # Leg (vertex 0 -> vertex 1) ticks
+        draw_tick(tri[0], tri[1], n=2)
+
+    # Column labels under each pair.
+    for i, lab in enumerate(labels):
+        ax.text(col_xs[i] + 0.8, 1.7, lab,
+                fontsize=13, color=C_TEXT, ha="center", va="top", fontweight="bold")
+
+    ax.set_title("Triangle congruence criteria", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/triangle_congruence_criteria.svg")
+
+
+def fig_special_right_triangles():
+    """45-45-90 and 30-60-90 triangles with side and angle labels."""
+    from matplotlib.patches import Arc
+
+    fig, ax = plt.subplots(figsize=(7, 3.5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-0.8, 8.4)
+    ax.set_ylim(-0.9, 3.6)
+
+    def right_square(v, dx, dy, size=0.18):
+        ax.plot([v[0] + dx, v[0] + dx + dy, v[0] + dy],
+                [v[1] + dy, v[1] + dy + dx, v[1] + dx],
+                color=C_LINE, linewidth=1.3)
+
+    # --- 45-45-90 triangle ---
+    a = 2.4  # leg length in fig units
+    v0 = (0.6, 0.4)
+    v1 = (v0[0] + a, v0[1])
+    v2 = (v0[0], v0[1] + a)
+    ax.plot([v0[0], v1[0], v2[0], v0[0]],
+            [v0[1], v1[1], v2[1], v0[1]],
+            color=C_LINE, linewidth=2.0)
+    # Right-angle marker at v0
+    sq = 0.18
+    ax.plot([v0[0] + sq, v0[0] + sq, v0[0]],
+            [v0[1], v0[1] + sq, v0[1] + sq],
+            color=C_LINE, linewidth=1.2)
+    # 45 degree arcs at v1 and v2
+    ax.add_patch(Arc(v1, 0.8, 0.8, theta1=135, theta2=180,
+                     color=C_RADIUS, linewidth=1.3))
+    ax.add_patch(Arc(v2, 0.8, 0.8, theta1=270, theta2=315,
+                     color=C_RADIUS, linewidth=1.3))
+    # Side labels
+    ax.text((v0[0] + v1[0]) / 2, v0[1] - 0.22, "1",
+            fontsize=12, color=C_TEXT, ha="center", va="top")
+    ax.text(v0[0] - 0.22, (v0[1] + v2[1]) / 2, "1",
+            fontsize=12, color=C_TEXT, ha="right", va="center")
+    ax.text((v1[0] + v2[0]) / 2 + 0.14, (v1[1] + v2[1]) / 2 + 0.14,
+            r"$\sqrt{2}$",
+            fontsize=12, color=C_TEXT, ha="left", va="bottom")
+    # Angle labels
+    ax.text(v1[0] - 0.55, v1[1] + 0.22, "45",
+            fontsize=10, color=C_RADIUS, ha="center", va="bottom")
+    ax.text(v2[0] + 0.22, v2[1] - 0.55, "45",
+            fontsize=10, color=C_RADIUS, ha="left", va="center")
+    ax.text(v0[0] + 0.6, 3.2, "$45$-$45$-$90$",
+            fontsize=12, color=C_TEXT, ha="center")
+
+    # --- 30-60-90 triangle ---
+    # Legs 1 (short) and sqrt(3) (long), hypotenuse 2
+    scale = 1.4
+    u0 = (5.0, 0.4)
+    u1 = (u0[0] + np.sqrt(3) * scale, u0[1])            # long leg along x
+    u2 = (u0[0], u0[1] + 1.0 * scale)                   # short leg along y
+    ax.plot([u0[0], u1[0], u2[0], u0[0]],
+            [u0[1], u1[1], u2[1], u0[1]],
+            color=C_LINE, linewidth=2.0)
+    ax.plot([u0[0] + sq, u0[0] + sq, u0[0]],
+            [u0[1], u0[1] + sq, u0[1] + sq],
+            color=C_LINE, linewidth=1.2)
+    # 30 degree arc at u1, 60 degree arc at u2
+    ax.add_patch(Arc(u1, 0.9, 0.9, theta1=150, theta2=180,
+                     color=C_RADIUS, linewidth=1.3))
+    ax.add_patch(Arc(u2, 0.9, 0.9, theta1=270, theta2=330,
+                     color=C_RADIUS, linewidth=1.3))
+    # Side labels
+    ax.text((u0[0] + u1[0]) / 2, u0[1] - 0.22, r"$\sqrt{3}$",
+            fontsize=12, color=C_TEXT, ha="center", va="top")
+    ax.text(u0[0] - 0.22, (u0[1] + u2[1]) / 2, "1",
+            fontsize=12, color=C_TEXT, ha="right", va="center")
+    ax.text((u1[0] + u2[0]) / 2 + 0.14, (u1[1] + u2[1]) / 2 + 0.14, "2",
+            fontsize=12, color=C_TEXT, ha="left", va="bottom")
+    # Angle labels
+    ax.text(u1[0] - 0.5, u1[1] + 0.15, "30",
+            fontsize=10, color=C_RADIUS, ha="center", va="bottom")
+    ax.text(u2[0] + 0.26, u2[1] - 0.45, "60",
+            fontsize=10, color=C_RADIUS, ha="left", va="center")
+    ax.text((u0[0] + u1[0]) / 2, 3.2, "$30$-$60$-$90$",
+            fontsize=12, color=C_TEXT, ha="center")
+
+    ax.set_title("Special right triangles", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/special_right_triangles.svg")
+
+
+def fig_regular_polygon_interior_angle():
+    """Regular hexagon with one interior angle highlighted (120 deg) and
+    light triangulation from a single vertex."""
+    from matplotlib.patches import Arc, Polygon
+
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-2.6, 2.6)
+    ax.set_ylim(-2.6, 2.6)
+
+    # Vertices of a regular hexagon, vertex 0 on the right.
+    n = 6
+    r = 2.0
+    verts = [(r * np.cos(2 * np.pi * k / n + np.pi / 6),
+              r * np.sin(2 * np.pi * k / n + np.pi / 6)) for k in range(n)]
+
+    # Soft fill of the hexagon
+    hex_patch = Polygon(verts, closed=True,
+                        facecolor=C_FILL, edgecolor="none", zorder=0)
+    ax.add_patch(hex_patch)
+
+    # Light triangulation from verts[0] to all non-adjacent vertices (2, 3, 4)
+    for k in (2, 3, 4):
+        ax.plot([verts[0][0], verts[k][0]],
+                [verts[0][1], verts[k][1]],
+                color=C_DASH, linewidth=0.9, linestyle="--", zorder=1)
+
+    # Outline the hexagon
+    xs = [v[0] for v in verts] + [verts[0][0]]
+    ys = [v[1] for v in verts] + [verts[0][1]]
+    ax.plot(xs, ys, color=C_LINE, linewidth=2.2, zorder=2)
+
+    # Highlight interior angle at verts[1]
+    v_prev = np.array(verts[0])
+    v_at = np.array(verts[1])
+    v_next = np.array(verts[2])
+    a_prev = float(np.degrees(np.arctan2(v_prev[1] - v_at[1], v_prev[0] - v_at[0])))
+    a_next = float(np.degrees(np.arctan2(v_next[1] - v_at[1], v_next[0] - v_at[0])))
+    # Ensure sweep is interior (going counter-clockwise inside polygon)
+    if (a_next - a_prev) % 360 > 180:
+        a1, a2 = a_next, a_prev + 360
+    else:
+        a1, a2 = a_prev, a_next
+    arc = Arc(tuple(v_at), 1.0, 1.0,
+              theta1=a1, theta2=a2,
+              color=C_RADIUS, linewidth=2.0)
+    ax.add_patch(arc)
+    # Label inside the hexagon
+    ax.text(v_at[0] - 0.95, v_at[1] - 0.05, r"$120^{\circ}$",
+            fontsize=12, color=C_RADIUS, ha="right", va="center", fontweight="bold")
+
+    # Vertex dots
+    for v in verts:
+        ax.plot(v[0], v[1], "o", color=C_LINE, markersize=5, zorder=3)
+
+    ax.set_title("Interior angle of a regular hexagon", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/regular_polygon_interior_angle.svg")
+
+
+def fig_inscribed_angle_theorem():
+    """Circle with a central angle (2 alpha) and an inscribed angle (alpha)
+    subtending the same arc."""
+    from matplotlib.patches import Arc
+
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-2.6, 2.6)
+    ax.set_ylim(-2.6, 2.6)
+
+    R = 2.0
+    theta = np.linspace(0, 2 * np.pi, 300)
+    ax.plot(R * np.cos(theta), R * np.sin(theta),
+            color=C_LINE, linewidth=2.2, zorder=1)
+
+    # Two arc endpoints A and B
+    ang_A = np.radians(25)
+    ang_B = np.radians(125)
+    A = (R * np.cos(ang_A), R * np.sin(ang_A))
+    B = (R * np.cos(ang_B), R * np.sin(ang_B))
+
+    # Highlighted arc from A to B (the one NOT containing the inscribed vertex)
+    arc_theta = np.linspace(ang_A, ang_B, 120)
+    ax.plot(R * np.cos(arc_theta), R * np.sin(arc_theta),
+            color=C_ACCENT, linewidth=4.0, zorder=2)
+
+    # Center O
+    O = (0.0, 0.0)
+    ax.plot(*O, "o", color=C_CENTER, markersize=8, zorder=4)
+    ax.text(O[0] - 0.1, O[1] - 0.15, "O",
+            fontsize=12, color=C_TEXT, ha="right", va="top")
+
+    # Central angle: rays OA and OB
+    ax.plot([O[0], A[0]], [O[1], A[1]], color=C_LINE, linewidth=1.8, zorder=3)
+    ax.plot([O[0], B[0]], [O[1], B[1]], color=C_LINE, linewidth=1.8, zorder=3)
+
+    # Central angle arc and label
+    ax.add_patch(Arc(O, 0.7, 0.7,
+                     theta1=float(np.degrees(ang_A)),
+                     theta2=float(np.degrees(ang_B)),
+                     color=C_RADIUS, linewidth=1.6))
+    mid_c = (ang_A + ang_B) / 2
+    ax.text(0.55 * np.cos(mid_c), 0.55 * np.sin(mid_c), r"$2\alpha$",
+            fontsize=13, color=C_RADIUS, ha="center", va="center",
+            fontweight="bold")
+
+    # Inscribed vertex P on the opposite arc
+    ang_P = np.radians(260)
+    P = (R * np.cos(ang_P), R * np.sin(ang_P))
+    ax.plot(*P, "o", color=C_LINE, markersize=6, zorder=4)
+    ax.text(P[0] - 0.05, P[1] - 0.15, "P",
+            fontsize=12, color=C_TEXT, ha="right", va="top")
+
+    # Chords PA and PB
+    ax.plot([P[0], A[0]], [P[1], A[1]], color=C_LINE, linewidth=1.8, zorder=3)
+    ax.plot([P[0], B[0]], [P[1], B[1]], color=C_LINE, linewidth=1.8, zorder=3)
+
+    # Inscribed angle arc at P
+    ang_PA = float(np.degrees(np.arctan2(A[1] - P[1], A[0] - P[0])))
+    ang_PB = float(np.degrees(np.arctan2(B[1] - P[1], B[0] - P[0])))
+    ax.add_patch(Arc(P, 0.8, 0.8,
+                     theta1=ang_PA, theta2=ang_PB,
+                     color=C_RADIUS, linewidth=1.6))
+    # Label inside the inscribed angle
+    mid_i = np.radians((ang_PA + ang_PB) / 2)
+    ax.text(P[0] + 0.55 * np.cos(mid_i),
+            P[1] + 0.55 * np.sin(mid_i),
+            r"$\alpha$",
+            fontsize=13, color=C_RADIUS, ha="center", va="center",
+            fontweight="bold")
+
+    # Endpoint labels
+    ax.text(A[0] + 0.12, A[1] + 0.05, "A",
+            fontsize=12, color=C_TEXT, ha="left", va="bottom")
+    ax.text(B[0] - 0.12, B[1] + 0.05, "B",
+            fontsize=12, color=C_TEXT, ha="right", va="bottom")
+
+    ax.set_title("Inscribed angle theorem", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/inscribed_angle_theorem.svg")
+
+
+def fig_chord_secant_tangent():
+    """Circle with a chord, a secant, and a tangent line labeled."""
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-3.2, 3.2)
+    ax.set_ylim(-3.2, 3.2)
+
+    R = 2.0
+    theta = np.linspace(0, 2 * np.pi, 300)
+    ax.plot(R * np.cos(theta), R * np.sin(theta),
+            color=C_LINE, linewidth=2.2, zorder=2)
+
+    # Center
+    ax.plot(0, 0, "o", color=C_CENTER, markersize=7, zorder=4)
+    ax.text(-0.1, -0.05, "O", fontsize=12, color=C_TEXT, ha="right", va="top")
+
+    # --- Chord: from angle 200 to angle 340 ---
+    aC1 = np.radians(200)
+    aC2 = np.radians(340)
+    C1 = (R * np.cos(aC1), R * np.sin(aC1))
+    C2 = (R * np.cos(aC2), R * np.sin(aC2))
+    ax.plot([C1[0], C2[0]], [C1[1], C2[1]],
+            color=C_RADIUS, linewidth=2.0, zorder=3)
+    ax.text((C1[0] + C2[0]) / 2, (C1[1] + C2[1]) / 2 - 0.25,
+            "chord", fontsize=11, color=C_RADIUS, ha="center", va="top")
+
+    # --- Secant: from outside through two points of the circle ---
+    aS1 = np.radians(120)
+    aS2 = np.radians(50)
+    S1 = np.array([R * np.cos(aS1), R * np.sin(aS1)])
+    S2 = np.array([R * np.cos(aS2), R * np.sin(aS2)])
+    d = S2 - S1
+    dn = d / np.hypot(*d)
+    Sa = S1 - dn * 1.1
+    Sb = S2 + dn * 1.1
+    ax.plot([Sa[0], Sb[0]], [Sa[1], Sb[1]],
+            color=C_ACCENT, linewidth=2.0, zorder=3)
+    ax.text(Sb[0] + 0.1, Sb[1] + 0.1,
+            "secant", fontsize=11, color=C_ACCENT, ha="left", va="bottom")
+
+    # --- Tangent: touches at one point. Pick angle 150 degrees. ---
+    aT = np.radians(150)
+    T = np.array([R * np.cos(aT), R * np.sin(aT)])
+    # Tangent direction is perpendicular to radius at T
+    rad_hat = np.array([np.cos(aT), np.sin(aT)])
+    tan_hat = np.array([-rad_hat[1], rad_hat[0]])
+    Ta = T - tan_hat * 1.3
+    Tb = T + tan_hat * 1.3
+    ax.plot([Ta[0], Tb[0]], [Ta[1], Tb[1]],
+            color=C_LINE, linewidth=2.0, zorder=3)
+    # Radius to T (shown dashed) — perpendicular to tangent
+    ax.plot([0, T[0]], [0, T[1]],
+            color=C_DASH, linewidth=1.3, linestyle="--", zorder=2)
+    # Right-angle square at T
+    sq = 0.15
+    # Build square from T using -rad_hat and tan_hat
+    p1 = T - rad_hat * sq
+    p2 = p1 + tan_hat * sq
+    p3 = T + tan_hat * sq
+    ax.plot([T[0], p1[0], p2[0], p3[0]],
+            [T[1], p1[1], p2[1], p3[1]],
+            color=C_DASH, linewidth=1.2)
+    # Tangent label
+    ax.text(Tb[0] - 0.25, Tb[1] + 0.15,
+            "tangent", fontsize=11, color=C_LINE, ha="right", va="bottom")
+    # Point of tangency
+    ax.plot(T[0], T[1], "o", color=C_LINE, markersize=6, zorder=5)
+
+    ax.set_title("Chord, secant, tangent", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/chord_secant_tangent.svg")
+
+
+def fig_quadrilateral_hierarchy():
+    """Visual hierarchy of quadrilaterals: trapezoid -> parallelogram ->
+    (rectangle, rhombus) -> square."""
+    from matplotlib.patches import FancyBboxPatch
+
+    fig, ax = plt.subplots(figsize=(6, 5))
+    ax.set_xlim(0, 10)
+    ax.set_ylim(0, 10)
+
+    def box(cx, cy, w, h, label):
+        x = cx - w / 2
+        y = cy - h / 2
+        patch = FancyBboxPatch((x, y), w, h,
+                               boxstyle="round,pad=0.02,rounding_size=0.15",
+                               facecolor=C_FILL, edgecolor=C_LINE, linewidth=1.6)
+        ax.add_patch(patch)
+        ax.text(cx, cy, label, fontsize=11, color=C_TEXT,
+                ha="center", va="center", fontweight="bold")
+
+    # Level 1 (top): Trapezoid
+    box(5, 9.0, 3.0, 0.9, "Trapezoid")
+    # Level 2: Parallelogram
+    box(5, 7.0, 3.2, 0.9, "Parallelogram")
+    # Level 3: Rectangle and Rhombus
+    box(2.5, 4.7, 2.6, 0.9, "Rectangle")
+    box(7.5, 4.7, 2.6, 0.9, "Rhombus")
+    # Level 4 (bottom): Square
+    box(5, 2.3, 2.4, 0.9, "Square")
+
+    # Lines between levels
+    line_kwargs = dict(color=C_LINE, linewidth=1.3)
+    # Trapezoid -> Parallelogram
+    ax.plot([5, 5], [8.55, 7.45], **line_kwargs)
+    # Parallelogram -> Rectangle
+    ax.plot([5, 2.5], [6.55, 5.15], **line_kwargs)
+    # Parallelogram -> Rhombus
+    ax.plot([5, 7.5], [6.55, 5.15], **line_kwargs)
+    # Rectangle -> Square
+    ax.plot([2.5, 5], [4.25, 2.75], **line_kwargs)
+    # Rhombus -> Square
+    ax.plot([7.5, 5], [4.25, 2.75], **line_kwargs)
+
+    # Caption at the top
+    ax.text(5, 9.7, "Quadrilateral hierarchy",
+            fontsize=13, color=C_TEXT, ha="center", va="center",
+            fontweight="bold")
+
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/quadrilateral_hierarchy.svg")
+
+
+def fig_prism_cylinder_labeled():
+    """Rectangular prism and cylinder, 3D-style wireframes, labeled."""
+    from matplotlib.patches import Polygon
+
+    fig, ax = plt.subplots(figsize=(7, 3.5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-0.5, 12)
+    ax.set_ylim(-0.5, 5)
+
+    # --- Rectangular prism ---
+    # Define in (x, y) screen coords: base rectangle at front, offset back.
+    off = np.array([0.9, 0.6])          # parallelogram offset for depth
+    w = 3.0   # width (length along x)
+    h = 2.2   # height (y on screen)
+    # Front rectangle: bottom-left at (0.5, 0.5)
+    bl = np.array([0.5, 0.5])
+    br = bl + np.array([w, 0])
+    tr = br + np.array([0, h])
+    tl = bl + np.array([0, h])
+    # Back rectangle (front shifted by off)
+    bl_b = bl + off
+    br_b = br + off
+    tr_b = tr + off
+    tl_b = tl + off
+
+    # Filled front face
+    ax.add_patch(Polygon([bl, br, tr, tl], closed=True,
+                         facecolor=C_FILL, edgecolor="none", zorder=1))
+
+    # Visible edges (solid)
+    solid = dict(color=C_LINE, linewidth=1.8, zorder=3)
+    dashed = dict(color=C_LINE, linewidth=1.2, linestyle="--", zorder=2)
+    # Front square
+    ax.plot([bl[0], br[0]], [bl[1], br[1]], **solid)
+    ax.plot([br[0], tr[0]], [br[1], tr[1]], **solid)
+    ax.plot([tr[0], tl[0]], [tr[1], tl[1]], **solid)
+    ax.plot([tl[0], bl[0]], [tl[1], bl[1]], **solid)
+    # Back square
+    ax.plot([bl_b[0], br_b[0]], [bl_b[1], br_b[1]], **dashed)
+    ax.plot([bl_b[0], tl_b[0]], [bl_b[1], tl_b[1]], **dashed)
+    ax.plot([br_b[0], tr_b[0]], [br_b[1], tr_b[1]], **solid)
+    ax.plot([tr_b[0], tl_b[0]], [tr_b[1], tl_b[1]], **solid)
+    # Connecting edges
+    ax.plot([bl[0], bl_b[0]], [bl[1], bl_b[1]], **dashed)
+    ax.plot([br[0], br_b[0]], [br[1], br_b[1]], **solid)
+    ax.plot([tl[0], tl_b[0]], [tl[1], tl_b[1]], **solid)
+    ax.plot([tr[0], tr_b[0]], [tr[1], tr_b[1]], **solid)
+
+    # Labels
+    ax.text((bl[0] + br[0]) / 2, bl[1] - 0.25, "length",
+            fontsize=10, color=C_TEXT, ha="center", va="top")
+    ax.text(bl[0] - 0.1, (bl[1] + tl[1]) / 2, "height",
+            fontsize=10, color=C_TEXT, ha="right", va="center")
+    ax.text(br[0] + off[0] / 2 + 0.12, br[1] + off[1] / 2 - 0.1, "width",
+            fontsize=10, color=C_TEXT, ha="left", va="center")
+
+    # --- Cylinder ---
+    cx, cy = 9.2, 1.6       # center of bottom ellipse
+    rr = 1.4                # x-radius
+    rh = 0.45               # y-radius (depth)
+    ch = 2.5                # height of cylinder
+    t = np.linspace(0, 2 * np.pi, 200)
+
+    # Top ellipse (solid)
+    ax.plot(cx + rr * np.cos(t), cy + ch + rh * np.sin(t),
+            color=C_LINE, linewidth=1.8, zorder=3)
+    # Bottom ellipse: front half solid, back half dashed
+    half = len(t) // 2
+    # t from pi to 2pi -> lower (front) half of ellipse
+    t_front = np.linspace(np.pi, 2 * np.pi, 150)
+    t_back = np.linspace(0, np.pi, 150)
+    ax.plot(cx + rr * np.cos(t_front), cy + rh * np.sin(t_front),
+            color=C_LINE, linewidth=1.8, zorder=3)
+    ax.plot(cx + rr * np.cos(t_back), cy + rh * np.sin(t_back),
+            color=C_LINE, linewidth=1.2, linestyle="--", zorder=2)
+    # Side lines
+    ax.plot([cx - rr, cx - rr], [cy, cy + ch], color=C_LINE, linewidth=1.8, zorder=3)
+    ax.plot([cx + rr, cx + rr], [cy, cy + ch], color=C_LINE, linewidth=1.8, zorder=3)
+
+    # Radius line on top (to right edge)
+    ax.plot([cx, cx + rr], [cy + ch, cy + ch],
+            color=C_RADIUS, linewidth=1.8, zorder=4)
+    ax.plot(cx, cy + ch, "o", color=C_RADIUS, markersize=5, zorder=5)
+    ax.text(cx + rr / 2, cy + ch + 0.15, "r",
+            fontsize=11, color=C_RADIUS, ha="center", va="bottom", fontweight="bold")
+    # Height marker
+    ax.annotate("", xy=(cx + rr + 0.5, cy + ch),
+                xytext=(cx + rr + 0.5, cy),
+                arrowprops=dict(arrowstyle="<->", color=C_DASH, lw=1.2))
+    ax.text(cx + rr + 0.65, cy + ch / 2, "h",
+            fontsize=11, color=C_DASH, ha="left", va="center", fontweight="bold")
+
+    # Titles
+    ax.text(bl[0] + w / 2 + off[0] / 2, 4.6, "Rectangular prism",
+            fontsize=12, color=C_TEXT, ha="center", va="center", fontweight="bold")
+    ax.text(cx, 4.6, "Cylinder",
+            fontsize=12, color=C_TEXT, ha="center", va="center", fontweight="bold")
+
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/prism_cylinder_labeled.svg")
+
+
+def fig_pyramid_cone_labeled():
+    """Square pyramid and cone side by side, 3D wireframe, labeled."""
+    from matplotlib.patches import Polygon
+
+    fig, ax = plt.subplots(figsize=(7, 3.5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-0.5, 12)
+    ax.set_ylim(-0.5, 5)
+
+    # --- Square pyramid ---
+    # Base: parallelogram representing a square viewed in perspective
+    base_cx, base_cy = 2.3, 0.9
+    bw = 2.6       # half-width in screen x
+    depth = 0.6    # y offset for depth
+    # Base corners: front-left, front-right, back-right, back-left
+    fl = np.array([base_cx - bw, base_cy])
+    fr = np.array([base_cx + bw, base_cy])
+    br_b = np.array([base_cx + bw + depth, base_cy + depth * 1.3])
+    bl_b = np.array([base_cx - bw + depth, base_cy + depth * 1.3])
+    # Apex above the centroid of the base
+    centroid = (fl + fr + br_b + bl_b) / 4
+    apex = np.array([centroid[0] + 0.05, centroid[1] + 2.6])
+
+    # Base fill
+    ax.add_patch(Polygon([fl, fr, br_b, bl_b], closed=True,
+                         facecolor=C_FILL, edgecolor="none", zorder=1))
+
+    solid = dict(color=C_LINE, linewidth=1.8, zorder=3)
+    dashed = dict(color=C_LINE, linewidth=1.2, linestyle="--", zorder=2)
+
+    # Front edges of base (solid)
+    ax.plot([fl[0], fr[0]], [fl[1], fr[1]], **solid)
+    ax.plot([fr[0], br_b[0]], [fr[1], br_b[1]], **solid)
+    # Back edges of base (partly hidden) - left back edge is hidden
+    ax.plot([fl[0], bl_b[0]], [fl[1], bl_b[1]], **dashed)
+    ax.plot([bl_b[0], br_b[0]], [bl_b[1], br_b[1]], **dashed)
+
+    # Edges to apex
+    ax.plot([fl[0], apex[0]], [fl[1], apex[1]], **solid)
+    ax.plot([fr[0], apex[0]], [fr[1], apex[1]], **solid)
+    ax.plot([br_b[0], apex[0]], [br_b[1], apex[1]], **solid)
+    ax.plot([bl_b[0], apex[0]], [bl_b[1], apex[1]], **dashed)
+
+    # Height (dashed vertical from centroid to apex)
+    ax.plot([centroid[0], apex[0]], [centroid[1], apex[1]],
+            color=C_DASH, linewidth=1.3, linestyle="--", zorder=2)
+    # Label height
+    ax.text(centroid[0] - 0.22, (centroid[1] + apex[1]) / 2, "h",
+            fontsize=11, color=C_DASH, ha="right", va="center", fontweight="bold")
+    # Label base side
+    ax.text((fl[0] + fr[0]) / 2, fl[1] - 0.22, "s",
+            fontsize=11, color=C_TEXT, ha="center", va="top", fontweight="bold")
+
+    # --- Cone ---
+    cx, cy = 9.0, 0.9
+    rr = 1.4
+    rh = 0.42
+    chgt = 2.8
+    # Base ellipse
+    t_full = np.linspace(0, 2 * np.pi, 300)
+    t_front = np.linspace(np.pi, 2 * np.pi, 200)
+    t_back = np.linspace(0, np.pi, 200)
+    ax.plot(cx + rr * np.cos(t_front), cy + rh * np.sin(t_front),
+            color=C_LINE, linewidth=1.8, zorder=3)
+    ax.plot(cx + rr * np.cos(t_back), cy + rh * np.sin(t_back),
+            color=C_LINE, linewidth=1.2, linestyle="--", zorder=2)
+    # Apex
+    apex_c = np.array([cx, cy + chgt])
+    ax.plot([cx - rr, apex_c[0]], [cy, apex_c[1]], **solid)
+    ax.plot([cx + rr, apex_c[0]], [cy, apex_c[1]], **solid)
+    # Height (dashed from center of base to apex)
+    ax.plot([cx, apex_c[0]], [cy, apex_c[1]],
+            color=C_DASH, linewidth=1.3, linestyle="--", zorder=2)
+    ax.text(cx - 0.15, (cy + apex_c[1]) / 2, "h",
+            fontsize=11, color=C_DASH, ha="right", va="center", fontweight="bold")
+    # Radius line on base (to right)
+    ax.plot([cx, cx + rr], [cy, cy], color=C_RADIUS, linewidth=1.8, zorder=4)
+    ax.text(cx + rr / 2, cy - 0.22, "r",
+            fontsize=11, color=C_RADIUS, ha="center", va="top", fontweight="bold")
+
+    # Titles
+    ax.text(base_cx + 0.2, 4.6, "Square pyramid",
+            fontsize=12, color=C_TEXT, ha="center", va="center", fontweight="bold")
+    ax.text(cx, 4.6, "Cone",
+            fontsize=12, color=C_TEXT, ha="center", va="center", fontweight="bold")
+
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/pyramid_cone_labeled.svg")
+
+
+def fig_sphere_labeled():
+    """2D sphere illustration with equator ellipse and radius labeled."""
+    from matplotlib.patches import Circle
+
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-3.0, 3.0)
+    ax.set_ylim(-3.0, 3.0)
+
+    R = 2.0
+    # Filled disk (soft fill) to suggest the sphere
+    disk = Circle((0, 0), R, facecolor=C_FILL, edgecolor=C_LINE,
+                  linewidth=2.2, zorder=2)
+    ax.add_patch(disk)
+
+    # Equator ellipse: front half solid, back half dashed
+    rh = 0.45  # y-radius for equator
+    t_front = np.linspace(np.pi, 2 * np.pi, 200)
+    t_back = np.linspace(0, np.pi, 200)
+    ax.plot(R * np.cos(t_front), rh * np.sin(t_front),
+            color=C_LINE, linewidth=1.6, zorder=3)
+    ax.plot(R * np.cos(t_back), rh * np.sin(t_back),
+            color=C_LINE, linewidth=1.1, linestyle="--", zorder=3)
+
+    # Center point
+    ax.plot(0, 0, "o", color=C_CENTER, markersize=7, zorder=4)
+    ax.text(-0.1, -0.05, "O",
+            fontsize=12, color=C_TEXT, ha="right", va="top")
+
+    # Radius to an upper-right point
+    ang = np.radians(35)
+    rx, ry = R * np.cos(ang), R * np.sin(ang)
+    ax.plot([0, rx], [0, ry], color=C_RADIUS, linewidth=2.2, zorder=4)
+    ax.text(rx / 2 + 0.05, ry / 2 + 0.15, "r",
+            fontsize=14, color=C_RADIUS, fontweight="bold",
+            ha="left", va="bottom")
+
+    ax.set_title("Sphere", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/sphere_labeled.svg")
+
+
+def fig_rigid_transformations():
+    """2x2 grid showing translation, rotation, reflection, and a caption box."""
+    from matplotlib.patches import Polygon, Arc
+
+    fig, axes = plt.subplots(2, 2, figsize=(7, 5))
+
+    base_tri = np.array([(0.0, 0.0), (1.2, 0.0), (0.4, 1.0)])
+
+    def pretty(ax):
+        ax.set_aspect("equal")
+        ax.set_xticks([])
+        ax.set_yticks([])
+        for s in ax.spines.values():
+            s.set_visible(False)
+
+    def draw_tri(ax, tri, color, dashed=False, fill=True):
+        if fill:
+            ax.add_patch(Polygon(tri, closed=True,
+                                 facecolor=C_FILL, edgecolor="none", zorder=1))
+        ls = "--" if dashed else "-"
+        xs = list(tri[:, 0]) + [tri[0, 0]]
+        ys = list(tri[:, 1]) + [tri[0, 1]]
+        ax.plot(xs, ys, color=color, linewidth=1.8, linestyle=ls, zorder=2)
+
+    # --- (a) Translation ---
+    ax = axes[0, 0]
+    ax.set_xlim(-2.5, 3.5)
+    ax.set_ylim(-2.0, 3.0)
+    ax.axhline(0, color=C_GRID, linewidth=0.5, zorder=0)
+    ax.axvline(0, color=C_GRID, linewidth=0.5, zorder=0)
+    orig = base_tri + np.array([-1.5, -0.4])
+    moved = orig + np.array([2.6, 1.3])
+    draw_tri(ax, orig, C_LINE)
+    draw_tri(ax, moved, C_RADIUS, dashed=True)
+    # Arrow from centroid to centroid
+    c1 = orig.mean(axis=0)
+    c2 = moved.mean(axis=0)
+    ax.annotate("", xy=c2, xytext=c1,
+                arrowprops=dict(arrowstyle="-|>", color=C_ACCENT, lw=1.8))
+    ax.text(0.5, 2.6, "Translation",
+            fontsize=12, color=C_TEXT, ha="center", fontweight="bold")
+    pretty(ax)
+
+    # --- (b) Rotation (90 deg CCW about origin) ---
+    ax = axes[0, 1]
+    ax.set_xlim(-2.5, 3.0)
+    ax.set_ylim(-2.5, 3.0)
+    ax.axhline(0, color=C_GRID, linewidth=0.5, zorder=0)
+    ax.axvline(0, color=C_GRID, linewidth=0.5, zorder=0)
+    start = base_tri + np.array([0.6, 0.4])
+    # Rotate each vertex 90 deg about origin
+    rot = np.array([[-p[1], p[0]] for p in start])
+    draw_tri(ax, start, C_LINE)
+    draw_tri(ax, rot, C_RADIUS, dashed=True)
+    # Rotation arc at origin from angle of first vertex to angle of its image
+    r = 1.0
+    a1 = float(np.degrees(np.arctan2(start[0, 1], start[0, 0])))
+    a2 = a1 + 90
+    ax.add_patch(Arc((0, 0), 2 * r, 2 * r, theta1=a1, theta2=a2,
+                     color=C_ACCENT, linewidth=1.8))
+    ax.plot(0, 0, "o", color=C_CENTER, markersize=6, zorder=3)
+    ax.text(0.5, 2.6, r"Rotation $90^{\circ}$",
+            fontsize=12, color=C_TEXT, ha="center", fontweight="bold")
+    pretty(ax)
+
+    # --- (c) Reflection over the x-axis ---
+    ax = axes[1, 0]
+    ax.set_xlim(-2.5, 3.0)
+    ax.set_ylim(-2.5, 3.0)
+    ax.axhline(0, color=C_ACCENT, linewidth=1.2, zorder=0)
+    ax.axvline(0, color=C_GRID, linewidth=0.5, zorder=0)
+    orig = base_tri + np.array([0.6, 0.7])
+    refl = np.array([(p[0], -p[1]) for p in orig])
+    draw_tri(ax, orig, C_LINE)
+    draw_tri(ax, refl, C_RADIUS, dashed=True)
+    ax.text(0.5, 2.6, "Reflection (x-axis)",
+            fontsize=12, color=C_TEXT, ha="center", fontweight="bold")
+    pretty(ax)
+
+    # --- (d) Caption cell ---
+    ax = axes[1, 1]
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+    ax.text(0.5, 0.7, "Rigid motions",
+            fontsize=14, color=C_TEXT, ha="center", va="center",
+            fontweight="bold")
+    ax.text(0.5, 0.45, "preserve distances",
+            fontsize=11, color=C_TEXT, ha="center", va="center")
+    ax.text(0.5, 0.30, "and angle measures",
+            fontsize=11, color=C_TEXT, ha="center", va="center")
+    pretty(ax)
+
+    fig.suptitle("Rigid transformations in the plane", fontsize=14)
+
+    _save(fig, "geometry/rigid_transformations.svg")
+
+
+def fig_dilation():
+    """Triangle and its dilated image (scale factor 2) about the origin."""
+    from matplotlib.patches import Polygon
+
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-1.0, 6.5)
+    ax.set_ylim(-1.0, 6.5)
+
+    # Axes
+    ax.axhline(0, color=C_GRID, linewidth=0.6, zorder=0)
+    ax.axvline(0, color=C_GRID, linewidth=0.6, zorder=0)
+
+    # Pre-image triangle
+    tri = np.array([(1.0, 0.8), (2.5, 1.0), (1.6, 2.2)])
+    tri2 = tri * 2.0
+
+    # Filled pre-image
+    ax.add_patch(Polygon(tri, closed=True,
+                         facecolor=C_FILL, edgecolor=C_LINE, linewidth=1.8,
+                         zorder=2))
+    # Image triangle (dashed)
+    xs = list(tri2[:, 0]) + [tri2[0, 0]]
+    ys = list(tri2[:, 1]) + [tri2[0, 1]]
+    ax.plot(xs, ys, color=C_RADIUS, linewidth=2.0, linestyle="--", zorder=3)
+
+    # Dashed rays from origin through corresponding vertices (to image)
+    labels = ["A", "B", "C"]
+    for (px, py), (qx, qy), name in zip(tri, tri2, labels):
+        ax.plot([0, qx], [0, qy], color=C_DASH, linewidth=1.0,
+                linestyle=":", zorder=1)
+        ax.plot(px, py, "o", color=C_LINE, markersize=5, zorder=4)
+        ax.plot(qx, qy, "o", color=C_RADIUS, markersize=5, zorder=4)
+        ax.text(px + 0.08, py + 0.08, name,
+                fontsize=10, color=C_LINE, ha="left", va="bottom")
+        ax.text(qx + 0.1, qy + 0.1, name + "'",
+                fontsize=10, color=C_RADIUS, ha="left", va="bottom")
+
+    # Origin marker
+    ax.plot(0, 0, "o", color=C_CENTER, markersize=7, zorder=4)
+    ax.text(-0.1, -0.1, "O", fontsize=12, color=C_TEXT, ha="right", va="top")
+
+    # Scale label
+    ax.text(4.5, 5.8, "$k = 2$",
+            fontsize=13, color=C_RADIUS, ha="center", va="center",
+            fontweight="bold")
+
+    ax.set_title("Dilation from the origin", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/dilation.svg")
+
+
+def fig_coord_proof_parallelogram():
+    """Coordinate grid with a labeled quadrilateral whose opposite sides
+    share equal slopes."""
+    from matplotlib.patches import Polygon
+
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-1.5, 8.5)
+    ax.set_ylim(-1.5, 7.0)
+
+    # Grid
+    for x in range(-1, 9):
+        ax.plot([x, x], [-1, 7], color=C_GRID, linewidth=0.7, zorder=0)
+    for y in range(-1, 8):
+        ax.plot([-1, 8], [y, y], color=C_GRID, linewidth=0.7, zorder=0)
+    # Axes
+    ax.axhline(0, color=C_DASH, linewidth=1.1, zorder=1)
+    ax.axvline(0, color=C_DASH, linewidth=1.1, zorder=1)
+
+    # Parallelogram vertices (integer coordinates, slopes 1/3 and 2)
+    A = np.array([1, 1])
+    B = np.array([7, 3])     # AB slope = 2/6 = 1/3
+    C = np.array([7 + 1, 3 + 2])  # BC slope = 2/1 = 2 -> (8, 5)
+    D = np.array([1 + 1, 1 + 2])  # AD slope = 2/1 = 2 -> (2, 3); CD slope = 1/3
+    verts = [A, B, C, D]
+
+    # Filled quadrilateral
+    ax.add_patch(Polygon(verts, closed=True,
+                         facecolor=C_FILL, edgecolor=C_LINE, linewidth=2.0,
+                         zorder=2))
+
+    # Vertex markers and coordinate labels
+    name_offsets = {
+        "A": (A, (-0.25, -0.25), "right", "top"),
+        "B": (B, (0.25, -0.25), "left", "top"),
+        "C": (C, (0.25, 0.25), "left", "bottom"),
+        "D": (D, (-0.25, 0.25), "right", "bottom"),
+    }
+    for name, (pt, (dx, dy), ha, va) in name_offsets.items():
+        ax.plot(pt[0], pt[1], "o", color=C_LINE, markersize=6, zorder=4)
+        ax.text(pt[0] + dx, pt[1] + dy,
+                f"{name}({int(pt[0])},{int(pt[1])})",
+                fontsize=10, color=C_TEXT, ha=ha, va=va)
+
+    # Slope annotations on opposite sides
+    # AB slope = 1/3 (mid of AB slightly below)
+    mid_AB = (A + B) / 2
+    ax.text(mid_AB[0], mid_AB[1] - 0.4, "slope = 1/3",
+            fontsize=10, color=C_RADIUS, ha="center", va="top",
+            fontweight="bold")
+    # DC slope = 1/3
+    mid_DC = (D + C) / 2
+    ax.text(mid_DC[0], mid_DC[1] + 0.35, "slope = 1/3",
+            fontsize=10, color=C_RADIUS, ha="center", va="bottom",
+            fontweight="bold")
+    # AD slope = 2 (left)
+    mid_AD = (A + D) / 2
+    ax.text(mid_AD[0] - 0.35, mid_AD[1], "slope = 2",
+            fontsize=10, color=C_ACCENT, ha="right", va="center",
+            fontweight="bold")
+    # BC slope = 2 (right)
+    mid_BC = (B + C) / 2
+    ax.text(mid_BC[0] + 0.35, mid_BC[1], "slope = 2",
+            fontsize=10, color=C_ACCENT, ha="left", va="center",
+            fontweight="bold")
+
+    ax.set_title("Coordinate proof: parallelogram", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+
+    _save(fig, "geometry/coord_proof_parallelogram.svg")
+
+
+def fig_cube_cross_sections():
+    """2x2 grid: four cube cross sections - square, rectangle, hexagon, triangle."""
+    from matplotlib.patches import Polygon
+
+    fig, axes = plt.subplots(2, 2, figsize=(7, 5))
+
+    def pretty(ax):
+        ax.set_aspect("equal")
+        ax.set_xlim(-2.0, 2.5)
+        ax.set_ylim(-2.0, 2.5)
+        ax.set_xticks([])
+        ax.set_yticks([])
+        for s in ax.spines.values():
+            s.set_visible(False)
+
+    def draw_cube(ax):
+        # Unit cube of side 2, front face from (-1,-1) to (1,1)
+        off = np.array([0.6, 0.45])
+        fbl = np.array([-1, -1])
+        fbr = np.array([1, -1])
+        ftr = np.array([1, 1])
+        ftl = np.array([-1, 1])
+        solid = dict(color=C_LINE, linewidth=1.6, zorder=3)
+        dashed = dict(color=C_LINE, linewidth=1.0, linestyle="--", zorder=2)
+        # Front square
+        front = [fbl, fbr, ftr, ftl]
+        xs = [p[0] for p in front] + [front[0][0]]
+        ys = [p[1] for p in front] + [front[0][1]]
+        ax.plot(xs, ys, **solid)
+        # Back square
+        back = [p + off for p in front]
+        xs = [p[0] for p in back] + [back[0][0]]
+        ys = [p[1] for p in back] + [back[0][1]]
+        # Front-visible edges of back (top and right)
+        ax.plot([back[1][0], back[2][0]], [back[1][1], back[2][1]], **solid)
+        ax.plot([back[2][0], back[3][0]], [back[2][1], back[3][1]], **solid)
+        ax.plot([back[0][0], back[1][0]], [back[0][1], back[1][1]], **dashed)
+        ax.plot([back[0][0], back[3][0]], [back[0][1], back[3][1]], **dashed)
+        # Connectors
+        ax.plot([fbl[0], back[0][0]], [fbl[1], back[0][1]], **dashed)
+        ax.plot([fbr[0], back[1][0]], [fbr[1], back[1][1]], **solid)
+        ax.plot([ftr[0], back[2][0]], [ftr[1], back[2][1]], **solid)
+        ax.plot([ftl[0], back[3][0]], [ftl[1], back[3][1]], **solid)
+        return off
+
+    def shade(ax, poly):
+        ax.add_patch(Polygon(poly, closed=True,
+                             facecolor=C_ACCENT, edgecolor=C_RADIUS,
+                             linewidth=1.8, alpha=0.55, zorder=4))
+
+    titles = ["Square", "Rectangle", "Hexagon", "Triangle"]
+
+    # --- (a) Horizontal slice -> square ---
+    ax = axes[0, 0]
+    off = draw_cube(ax)
+    # A horizontal slice at y=0 through the cube: parallelogram matching top face shape
+    # Four corners: (-1, 0), (1, 0), (1+off[0], 0+off[1]), (-1+off[0], 0+off[1])
+    poly = [(-1, 0), (1, 0), (1 + off[0], 0 + off[1]), (-1 + off[0], 0 + off[1])]
+    shade(ax, poly)
+    ax.set_title(titles[0], fontsize=12, color=C_TEXT)
+    pretty(ax)
+
+    # --- (b) Tilted slice -> rectangle (through 4 vertices) ---
+    ax = axes[0, 1]
+    off = draw_cube(ax)
+    # Rectangle through front-bottom-left, front-top-right on the FRONT face,
+    # plus their back counterparts. Instead we use the diagonal of the face
+    # front: from (-1, -1) to (1, 1), and the back parallel diagonal.
+    poly = [(-1, -1), (1, 1),
+            (1 + off[0], 1 + off[1]),
+            (-1 + off[0], -1 + off[1])]
+    shade(ax, poly)
+    ax.set_title(titles[1], fontsize=12, color=C_TEXT)
+    pretty(ax)
+
+    # --- (c) Diagonal slice -> regular hexagon ---
+    ax = axes[1, 0]
+    off = draw_cube(ax)
+    # Hexagonal cross-section hits midpoints of 6 edges.
+    # Use hand-tuned points that look hex-ish in this 2D projection.
+    m = [
+        (0, -1),                          # midpoint of front-bottom edge
+        (1, 0),                           # midpoint of front-right edge
+        (1 + off[0] / 2, 1 + off[1] / 2), # midpoint of top-right connector
+        (0 + off[0], 1 + off[1]),         # midpoint of back-top edge
+        (-1 + off[0], 0 + off[1]),        # midpoint of back-left edge
+        (-1 + off[0] / 2, -1 + off[1] / 2),  # midpoint of bottom-left connector
+    ]
+    shade(ax, m)
+    ax.set_title(titles[2], fontsize=12, color=C_TEXT)
+    pretty(ax)
+
+    # --- (d) Corner slice -> equilateral triangle (through 3 vertices) ---
+    ax = axes[1, 1]
+    off = draw_cube(ax)
+    # Triangle through front-top-right, front-bottom-left front face plus the
+    # back vertex diagonally opposite the cut corner. Use three visible corners
+    # that form a visually convincing triangle.
+    poly = [(1, -1), (-1, 1), (1 + off[0], 1 + off[1])]
+    shade(ax, poly)
+    ax.set_title(titles[3], fontsize=12, color=C_TEXT)
+    pretty(ax)
+
+    fig.suptitle("Cross sections of a cube", fontsize=14)
+
+    _save(fig, "geometry/cube_cross_sections.svg")
+
+
+# ---------------------------------------------------------------------------
 # Figure registry
 
 FIGURES = [
@@ -2639,6 +3818,20 @@ FIGURES = [
     ("conic_sections_gallery", fig_conic_sections_gallery),
     ("complex_plane", fig_complex_plane),
     ("polar_coordinates", fig_polar_coordinates),
+    ("parallel_lines_transversal", fig_parallel_lines_transversal),
+    ("triangle_congruence_criteria", fig_triangle_congruence_criteria),
+    ("special_right_triangles", fig_special_right_triangles),
+    ("regular_polygon_interior_angle", fig_regular_polygon_interior_angle),
+    ("inscribed_angle_theorem", fig_inscribed_angle_theorem),
+    ("chord_secant_tangent", fig_chord_secant_tangent),
+    ("quadrilateral_hierarchy", fig_quadrilateral_hierarchy),
+    ("prism_cylinder_labeled", fig_prism_cylinder_labeled),
+    ("pyramid_cone_labeled", fig_pyramid_cone_labeled),
+    ("sphere_labeled", fig_sphere_labeled),
+    ("rigid_transformations", fig_rigid_transformations),
+    ("dilation", fig_dilation),
+    ("coord_proof_parallelogram", fig_coord_proof_parallelogram),
+    ("cube_cross_sections", fig_cube_cross_sections),
 ]
 
 

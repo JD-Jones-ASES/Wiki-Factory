@@ -102,7 +102,7 @@ End-to-end proof of the interactive stack. One topic (Circles) fully built, with
 - YAML `source_refs:` field preserved as internal metadata (never rendered, still read by build tooling).
 
 **Breadcrumb + wikilink sweep:**
-- `tools/rewrite_breadcrumbs.py` rewrote every `> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Title` breadcrumb and every See Also `[[Algebra_Overview|Algebra]]` wikilink in **239 topic files** to point at the new course hub (`Middle_School_Math`, `Algebra_1`, `Algebra_2`, `Precalculus`, `Geometry`) based on each topic's `branch:` field.
+- `tools/rewrite_breadcrumbs.py` rewrote every topic-page breadcrumb `> _overview|Home > {OldBranchHub}|Label > Title` and every See Also wikilink pointing at the old branch hubs to point at the new course hub (`Middle_School_Math`, `Algebra_1`, `Algebra_2`, `Precalculus`, `Geometry`) based on each topic's `branch:` field. Ran across 239 topic files.
 - Verified: `grep -rn '\[\[Algebra_Overview\|\[\[Precalculus_Overview\|\[\[Geometry_Overview\|\[\[Trigonometry_Overview' wiki/` returns zero matches.
 
 **Deletions (aggressive cleanup):**
@@ -137,3 +137,67 @@ End-to-end proof of the interactive stack. One topic (Circles) fully built, with
 - **Deleted:** 9 old overview pages, 1 obsolete script, 5 empty directories.
 
 **Phase 1 complete.** Student-facing wiki is now standalone and course-first. Next: Cluster 10 (HS Geometry expansion).
+
+## [2026-04-11] Cluster 10 | HS Geometry expansion
+
+**Scope:** 16 new or enriched topic pages, 50 new SymPy-verified generators in 10 modules, 14 new matplotlib SVG figures.
+
+**New geometry topic pages (10 files, `branch: geometry`):**
+- Triangle_Congruence_Criteria (SSS, SAS, ASA, AAS, HL; why AAA and SSA fail)
+- Special_Right_Triangles (30-60-90 and 45-45-90 side ratios, derivations)
+- Polygon_Angle_Sums (interior sum, exterior sum, regular polygon angles)
+- Inscribed_Angles_And_Arcs (central vs inscribed, semicircle case, arc length)
+- Chords_Secants_And_Tangents (chord-chord power, tangent perpendicular to radius)
+- Equations_Of_Circles (standard to general form and back via completing the square)
+- Rigid_Transformations (translations, rotations, reflections, coordinate rules)
+- Dilations_And_Similarity (scale factor, area ratio k^2, volume ratio k^3)
+- Coordinate_Geometry_Proofs (using slope/distance/midpoint to prove figure types)
+- Cross_Sections_Of_Solids (cube, cone, cylinder sections; conic preview)
+
+**Enriched pre-algebra stubs (6 files, kept `branch: pre-algebra`, appear in both Middle School Math and Geometry hubs):**
+- Classifying_Triangles_And_Quadrilaterals (triangle classification + quadrilateral hierarchy)
+- Points_Lines_Angles_And_Angle_Relationships (basic terms + parallel lines & transversals)
+- Volume_Of_Prisms_And_Cylinders (V = Bh, backward construction)
+- Volume_Of_Pyramids_And_Cones (V = (1/3)Bh, one-third factor intuition)
+- Surface_Area_Of_Prisms_And_Cylinders (net approach, cylinder wraparound)
+- Surface_Area_And_Volume_Of_Spheres (4*pi*r^2 and (4/3)*pi*r^3)
+
+**New generator modules (10, 50 total generators):**
+- `generators/geometry/parallel_lines.py` (5): alt-interior, corresponding, co-interior, solve-for-x, complementary/supplementary
+- `generators/geometry/triangle_congruence.py` (5): identify criterion, find missing side, find missing angle, not-congruent ambiguity, proof-step selection
+- `generators/geometry/special_right_triangles.py` (5): 45-45-90 from leg or hypotenuse, 30-60-90 from short/long leg or hypotenuse
+- `generators/geometry/polygon_angles.py` (4): interior sum, regular interior, regular exterior, n from interior angle
+- `generators/geometry/quadrilaterals.py` (4): parallelogram angle, rectangle diagonal, rhombus side, trapezoid area
+- `generators/geometry/circle_theorems.py` (6): inscribed angle from arc, inscribed in semicircle, chord-chord power, tangent-perpendicular-radius, standard to general form, general to standard form
+- `generators/geometry/transformations.py` (6): translate, reflect, rotate by 90/180/270, identify rigid transformation, dilate from origin, area/volume ratio from length ratio
+- `generators/geometry/volume.py` (6): rectangular prism, cylinder from r+h, cylinder find h, rectangular pyramid, cone, cone find r
+- `generators/geometry/surface_area.py` (5): rectangular prism, cube, cylinder, sphere SA, sphere V
+- `generators/geometry/coord_geometry.py` (4): parallelogram from slopes, rectangle from perpendicular, rhombus from distances, midpoint drill
+
+**New figures (14, under `wiki/assets/figures/geometry/`):**
+parallel_lines_transversal.svg, triangle_congruence_criteria.svg, special_right_triangles.svg, regular_polygon_interior_angle.svg, inscribed_angle_theorem.svg, chord_secant_tangent.svg, quadrilateral_hierarchy.svg, prism_cylinder_labeled.svg, pyramid_cone_labeled.svg, sphere_labeled.svg, rigid_transformations.svg, dilation.svg, coord_proof_parallelogram.svg, cube_cross_sections.svg
+
+**Execution:** 4 parallel sub-agents (Content Batch A: 8 topics, Content Batch B: 8 topics, Generators: 10 modules, Figures: 14 SVGs). Each agent received: gold-standard files to imitate, forbidden-idiom list, structural template, hard constraints, and the current live-topics list for cross-referencing.
+
+**Validation after Cluster 10:**
+- `pytest generators/tests/ -q`: **29/29 passing** (parametrized all-generators suite now exercises all 460 generators across all difficulties).
+- `validate_yaml.py wiki/`: **263 files clean**.
+- `lint_wiki.py wiki/`: **0 errors, 0 warnings, 1 info** (115 stubs, expected).
+- `build_problem_bank.py`: **151 topics, 460 generators, 36,010 problems**. Total bank size 29.9 MB. Largest new shard: triangle_congruence_criteria at 306 KB (under the 320 KB limit).
+- `topic_status.py`: average score **53.8** (was 50.1 pre-Cluster-10). Geometry branch score jumped from **47.5 to 82.7**. Pre-algebra branch from 39.4 to 45.2.
+- `test_copyright_safety.py`: clean first pass. The 4 agents followed the forbidden-idiom list proactively.
+
+**Counts after Cluster 10:**
+- Topics: 239 → **249** (+10 new geometry files)
+- Live topics: 136 → **151** (+15: 10 new + 5 enriched pre-algebra stubs that stayed pre-algebra but became draft)
+- Generators: 410 → **460**
+- Problems: 32,698 → **36,010**
+- Figures: 31 → **45**
+
+**What worked:**
+- Parallelism scaled cleanly at 4 agents. No file collisions, no cross-talk.
+- Enriching existing pre-algebra stubs AS WELL AS creating new geometry files gave Cluster 10 reach into two course hubs for the price of one.
+- The forbidden-idiom list and fresh-scenario guidance (drones, skate parks, 3D prints) produced zero copyright hits on first pass.
+- `GEOMETRY_ADJACENT_ALLOWLIST` in `update_course_hubs.py` automatically surfaced the enriched pre-algebra topics in the Geometry hub without manual cross-listing.
+
+**Cluster 10 complete.** Next: Phase 3 polish (4 outlier topics + figure wave) then Phase 4 (prereq graph widget).

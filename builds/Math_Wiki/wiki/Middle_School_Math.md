@@ -62,9 +62,9 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Middle School Math topics --- 42 live / 92 total
+### Middle School Math topics --- 48 live / 92 total
 
-**🟢 Live topics with practice widgets (42)**
+**🟢 Live topics with practice widgets (48)**
 
 - 🟢 [[Adding_And_Subtracting_Decimals|Adding and Subtracting Decimals]]
 - 🟢 [[Adding_And_Subtracting_Fractions|Adding and Subtracting Fractions]]
@@ -72,6 +72,7 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 - 🟢 [[Arithmetic_Sequences_And_Linear_Patterns|Arithmetic Sequences and Linear Patterns]]
 - 🟢 [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
+- 🟢 [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]]
 - 🟢 [[Comparing_And_Ordering_Fractions|Comparing and Ordering Fractions]]
 - 🟢 [[Data_Displays|Data Displays]]
 - 🟢 [[Data_Displays_And_Measures_Of_Spread|Data Displays and Measures of Spread]]
@@ -92,6 +93,7 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - 🟢 [[Percent_Increase_And_Decrease|Percent Increase and Decrease]]
 - 🟢 [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]]
 - 🟢 [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
+- 🟢 [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]]
 - 🟢 [[Probability_Of_Simple_And_Compound_Events|Probability of Simple and Compound Events]]
 - 🟢 [[Proportions_And_Cross_Multiplication|Proportions and Cross Multiplication]]
 - 🟢 [[Rational_Exponents|Rational Exponents]]
@@ -101,23 +103,26 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - 🟢 [[Slope_Intercept_Form|Slope-Intercept Form]]
 - 🟢 [[Solving_One_Step_And_Two_Step_Inequalities|Solving One-Step and Two-Step Inequalities]]
 - 🟢 [[Square_Roots_And_Cube_Roots|Square Roots and Cube Roots]]
+- 🟢 [[Surface_Area_And_Volume_Of_Spheres|Surface Area and Volume of Spheres]]
+- 🟢 [[Surface_Area_Of_Prisms_And_Cylinders|Surface Area of Prisms and Cylinders]]
 - 🟢 [[The_Distance_Formula|The Distance Formula]]
 - 🟢 [[The_Distributive_Property|The Distributive Property]]
 - 🟢 [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
 - 🟢 [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]]
 - 🟢 [[Unit_Rates|Unit Rates]]
 - 🟢 [[Variables_And_Algebraic_Expressions|Variables and Algebraic Expressions]]
+- 🟢 [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]]
+- 🟢 [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 - 🟢 [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 
 <details>
-<summary>⚪ 50 stub topic(s) (click to expand)</summary>
+<summary>⚪ 44 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value|Absolute Value]]
 - ⚪ [[Absolute_Value_And_Opposites|Absolute Value and Opposites]]
 - ⚪ [[Adding_And_Subtracting_Mixed_Numbers|Adding and Subtracting Mixed Numbers]]
 - ⚪ [[Applications_Of_Proportional_Reasoning|Applications of Proportional Reasoning]]
 - ⚪ [[Applications_Tax_Tip_Discount_And_Simple_Interest|Applications: Tax, Tip, Discount, and Simple Interest]]
-- ⚪ [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]]
 - ⚪ [[Comparing_And_Ordering_Rational_Numbers|Comparing and Ordering Rational Numbers]]
 - ⚪ [[Composite_Figures|Composite Figures]]
 - ⚪ [[Converting_Between_Fractions_And_Decimals|Converting Between Fractions and Decimals]]
@@ -134,7 +139,6 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - ⚪ [[Order_Of_Operations_With_Fractions|Order of Operations with Fractions]]
 - ⚪ [[Order_Of_Operations_With_Integers|Order of Operations with Integers]]
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
-- ⚪ [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]]
 - ⚪ [[Powers_And_Exponent_Notation|Powers and Exponent Notation]]
 - ⚪ [[Product_Power_And_Quotient_Rules|Product, Power, and Quotient Rules]]
 - ⚪ [[Properties_Of_Addition_And_Multiplication|Properties of Addition and Multiplication]]
@@ -151,16 +155,12 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - ⚪ [[Solving_One_Step_Equations_Addition_And_Subtraction|Solving One-Step Equations (Addition and Subtraction)]]
 - ⚪ [[Solving_One_Step_Equations_Multiplication_And_Division|Solving One-Step Equations (Multiplication and Division)]]
 - ⚪ [[Solving_Two_Step_Equations|Solving Two-Step Equations]]
-- ⚪ [[Surface_Area_And_Volume_Of_Spheres|Surface Area and Volume of Spheres]]
-- ⚪ [[Surface_Area_Of_Prisms_And_Cylinders|Surface Area of Prisms and Cylinders]]
 - ⚪ [[The_Distributive_Property_With_Variables|The Distributive Property with Variables]]
 - ⚪ [[The_Midpoint_Formula|The Midpoint Formula]]
 - ⚪ [[The_Percent_Equation|The Percent Equation]]
 - ⚪ [[Translating_Words_To_Algebraic_Expressions|Translating Words to Algebraic Expressions]]
 - ⚪ [[Understanding_Percents|Understanding Percents]]
 - ⚪ [[Units_Of_Measurement_And_Conversion|Units of Measurement and Conversion]]
-- ⚪ [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]]
-- ⚪ [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 - ⚪ [[Writing_And_Solving_Equations_From_Word_Problems|Writing and Solving Equations from Word Problems]]
 
 </details>

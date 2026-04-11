@@ -58,35 +58,45 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Core Geometry topics --- 8 live / 21 total
+### Core Geometry topics --- 23 live / 31 total
 
-**🟢 Live topics with practice widgets (8)**
+**🟢 Live topics with practice widgets (23)**
 
 - 🟢 [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
+- 🟢 [[Chords_Secants_And_Tangents|Chords, Secants, and Tangents]]
 - 🟢 [[Circles|Circles]]
 - 🟢 [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
+- 🟢 [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]]
+- 🟢 [[Coordinate_Geometry_Proofs|Coordinate Geometry Proofs]]
+- 🟢 [[Dilations_And_Similarity|Dilations and Similarity]]
+- 🟢 [[Equations_Of_Circles|Equations of Circles]]
+- 🟢 [[Inscribed_Angles_And_Arcs|Inscribed Angles and Arcs]]
 - 🟢 [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
+- 🟢 [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]]
+- 🟢 [[Polygon_Angle_Sums|Polygon Angle Sums]]
+- 🟢 [[Rigid_Transformations|Rigid Transformations]]
 - 🟢 [[Similar_Triangles|Similar Triangles]]
+- 🟢 [[Special_Right_Triangles|Special Right Triangles]]
+- 🟢 [[Surface_Area_And_Volume_Of_Spheres|Surface Area and Volume of Spheres]]
+- 🟢 [[Surface_Area_Of_Prisms_And_Cylinders|Surface Area of Prisms and Cylinders]]
 - 🟢 [[The_Distance_Formula|The Distance Formula]]
 - 🟢 [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
 - 🟢 [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]]
+- 🟢 [[Triangle_Congruence_Criteria|Triangle Congruence Criteria]]
+- 🟢 [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]]
+- 🟢 [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 
 <details>
-<summary>⚪ 13 stub topic(s) (click to expand)</summary>
+<summary>⚪ 8 stub topic(s) (click to expand)</summary>
 
-- ⚪ [[Classifying_Triangles_And_Quadrilaterals|Classifying Triangles and Quadrilaterals]]
 - ⚪ [[Composite_Figures|Composite Figures]]
 - ⚪ [[Coordinate_Plane|Coordinate Plane]]
+- ⚪ [[Cross_Sections_Of_Solids|Cross Sections of Solids]]
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
-- ⚪ [[Points_Lines_Angles_And_Angle_Relationships|Points, Lines, Angles, and Angle Relationships]]
 - ⚪ [[Proportions_In_Similar_Figures|Proportions in Similar Figures]]
 - ⚪ [[Review_Of_Perimeter_And_Area|Review of Perimeter and Area]]
 - ⚪ [[Scale_Drawings_And_Maps|Scale Drawings and Maps]]
-- ⚪ [[Surface_Area_And_Volume_Of_Spheres|Surface Area and Volume of Spheres]]
-- ⚪ [[Surface_Area_Of_Prisms_And_Cylinders|Surface Area of Prisms and Cylinders]]
 - ⚪ [[The_Midpoint_Formula|The Midpoint Formula]]
-- ⚪ [[Volume_Of_Prisms_And_Cylinders|Volume of Prisms and Cylinders]]
-- ⚪ [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 
 </details>
 

@@ -1,13 +1,13 @@
 {
   "summary": {
     "overall": {
-      "total_topics": 239,
+      "total_topics": 249,
       "complete": 0,
-      "draft": 121,
-      "stub": 118,
-      "with_3plus_generators": 134,
-      "with_300plus_words": 122,
-      "avg_score": 50.1
+      "draft": 137,
+      "stub": 112,
+      "with_3plus_generators": 144,
+      "with_300plus_words": 138,
+      "avg_score": 53.8
     },
     "by_branch": {
       "algebra": {
@@ -27,15 +27,15 @@
       },
       "geometry": {
         "branch": "geometry",
-        "topic_count": 2,
-        "with_generators": 1,
-        "with_prose_300": 1,
-        "with_examples_2": 1,
-        "with_figure": 1,
-        "avg_score": 47.5,
+        "topic_count": 12,
+        "with_generators": 6,
+        "with_prose_300": 11,
+        "with_examples_2": 11,
+        "with_figure": 11,
+        "avg_score": 82.7,
         "status_counts": {
           "stub": 1,
-          "draft": 1,
+          "draft": 11,
           "complete": 0,
           "unknown": 0
         }
@@ -43,14 +43,14 @@
       "pre_algebra": {
         "branch": "pre_algebra",
         "topic_count": 92,
-        "with_generators": 42,
-        "with_prose_300": 37,
-        "with_examples_2": 36,
-        "with_figure": 6,
-        "avg_score": 39.4,
+        "with_generators": 47,
+        "with_prose_300": 43,
+        "with_examples_2": 42,
+        "with_figure": 12,
+        "avg_score": 45.2,
         "status_counts": {
-          "stub": 56,
-          "draft": 36,
+          "stub": 50,
+          "draft": 42,
           "complete": 0,
           "unknown": 0
         }
@@ -1906,6 +1906,25 @@
       "score": 85
     },
     {
+      "slug": "Chords_Secants_And_Tangents",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Chords_Secants_And_Tangents.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1069,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 16,
+      "generator_count": 2,
+      "generators": [
+        "chord_chord_power",
+        "tangent_perpendicular_radius"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 88
+    },
+    {
       "slug": "Circles",
       "branch": "geometry",
       "relpath": "wiki/topics/geometry/Circles.md",
@@ -1928,6 +1947,27 @@
       "score": 85
     },
     {
+      "slug": "Coordinate_Geometry_Proofs",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Coordinate_Geometry_Proofs.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1081,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 16,
+      "generator_count": 4,
+      "generators": [
+        "coord_prove_parallelogram_slope",
+        "coord_prove_rectangle_perpendicular",
+        "coord_prove_rhombus_distances",
+        "coord_midpoint_of_segment"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 95
+    },
+    {
       "slug": "Coordinate_Plane",
       "branch": "geometry",
       "relpath": "wiki/topics/geometry/Coordinate_Plane.md",
@@ -1942,6 +1982,165 @@
       "prerequisite_count": 0,
       "related_count": 1,
       "score": 10
+    },
+    {
+      "slug": "Cross_Sections_Of_Solids",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Cross_Sections_Of_Solids.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1565,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 18,
+      "generator_count": 0,
+      "generators": [],
+      "prerequisite_count": 3,
+      "related_count": 6,
+      "score": 70
+    },
+    {
+      "slug": "Dilations_And_Similarity",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Dilations_And_Similarity.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1053,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 16,
+      "generator_count": 2,
+      "generators": [
+        "dilate_point_from_origin",
+        "similarity_ratio_area_volume"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 88
+    },
+    {
+      "slug": "Equations_Of_Circles",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Equations_Of_Circles.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 926,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 18,
+      "generator_count": 2,
+      "generators": [
+        "equation_of_circle_from_center_radius_general_form",
+        "equation_of_circle_general_to_standard"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 88
+    },
+    {
+      "slug": "Inscribed_Angles_And_Arcs",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Inscribed_Angles_And_Arcs.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1026,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 14,
+      "generator_count": 2,
+      "generators": [
+        "inscribed_angle_from_arc",
+        "inscribed_angle_semicircle"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 88
+    },
+    {
+      "slug": "Polygon_Angle_Sums",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Polygon_Angle_Sums.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 901,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 14,
+      "generator_count": 4,
+      "generators": [
+        "polygon_interior_sum",
+        "polygon_regular_interior_angle",
+        "polygon_regular_exterior_angle",
+        "polygon_find_n_from_interior_angle"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 95
+    },
+    {
+      "slug": "Rigid_Transformations",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Rigid_Transformations.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1099,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 15,
+      "generator_count": 4,
+      "generators": [
+        "translate_point",
+        "reflect_point_over_axis",
+        "rotate_point_90_180_270",
+        "identify_rigid_transformation"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 95
+    },
+    {
+      "slug": "Special_Right_Triangles",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Special_Right_Triangles.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 851,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 15,
+      "generator_count": 5,
+      "generators": [
+        "special_45_45_90_from_leg",
+        "special_45_45_90_from_hypotenuse",
+        "special_30_60_90_from_short_leg",
+        "special_30_60_90_from_hypotenuse",
+        "special_30_60_90_from_long_leg"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 95
+    },
+    {
+      "slug": "Triangle_Congruence_Criteria",
+      "branch": "geometry",
+      "relpath": "wiki/topics/geometry/Triangle_Congruence_Criteria.md",
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1100,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 18,
+      "generator_count": 5,
+      "generators": [
+        "triangle_congruence_identify_criterion",
+        "triangle_congruence_find_missing_side",
+        "triangle_congruence_find_missing_angle",
+        "triangle_congruence_not_congruent",
+        "triangle_congruence_proof_step"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 95
     },
     {
       "slug": "Absolute_Value",
@@ -2147,17 +2346,22 @@
       "slug": "Classifying_Triangles_And_Quadrilaterals",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Classifying_Triangles_And_Quadrilaterals.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 147,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1242,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 18,
+      "generator_count": 4,
+      "generators": [
+        "quad_parallelogram_solve_angle",
+        "quad_rectangle_solve_diagonal",
+        "quad_rhombus_solve_side",
+        "quad_trapezoid_area"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 95
     },
     {
       "slug": "Comparing_And_Ordering_Fractions",
@@ -2819,17 +3023,23 @@
       "slug": "Points_Lines_Angles_And_Angle_Relationships",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Points_Lines_Angles_And_Angle_Relationships.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 98,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1177,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 13,
+      "generator_count": 5,
+      "generators": [
+        "parallel_lines_find_alternate_interior",
+        "parallel_lines_find_corresponding",
+        "parallel_lines_find_cointerior",
+        "parallel_lines_solve_for_x",
+        "complementary_supplementary_find"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 95
     },
     {
       "slug": "Powers_And_Exponent_Notation",
@@ -3271,33 +3481,40 @@
       "slug": "Surface_Area_And_Volume_Of_Spheres",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Surface_Area_And_Volume_Of_Spheres.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 84,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 843,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 14,
+      "generator_count": 2,
+      "generators": [
+        "surface_area_sphere",
+        "volume_sphere"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 88
     },
     {
       "slug": "Surface_Area_Of_Prisms_And_Cylinders",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Surface_Area_Of_Prisms_And_Cylinders.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 123,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 864,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 16,
+      "generator_count": 3,
+      "generators": [
+        "surface_area_rectangular_prism",
+        "surface_area_cube",
+        "surface_area_cylinder"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 95
     },
     {
       "slug": "The_Distance_Formula",
@@ -3519,33 +3736,41 @@
       "slug": "Volume_Of_Prisms_And_Cylinders",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Volume_Of_Prisms_And_Cylinders.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 89,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 840,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 15,
+      "generator_count": 3,
+      "generators": [
+        "volume_rectangular_prism",
+        "volume_cylinder_from_radius_height",
+        "volume_cylinder_find_height"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 95
     },
     {
       "slug": "Volume_Of_Pyramids_And_Cones",
       "branch": "pre_algebra",
       "relpath": "wiki/topics/pre_algebra/Volume_Of_Pyramids_And_Cones.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 122,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 865,
+      "example_count": 3,
+      "figure_count": 1,
+      "wikilink_count": 15,
+      "generator_count": 3,
+      "generators": [
+        "volume_pyramid_rectangular",
+        "volume_cone",
+        "volume_cone_find_radius"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 95
     },
     {
       "slug": "Writing_And_Graphing_Inequalities",
