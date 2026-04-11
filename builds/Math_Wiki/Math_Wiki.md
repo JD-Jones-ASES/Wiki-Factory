@@ -264,7 +264,7 @@ These are the mechanical rules the build system enforces. Violating them breaks 
    ```
 2. **Figures use Obsidian embed syntax, not markdown.** Quartz's link rewriter adds an extra `..` to `![alt](../../path)` and breaks paths. Use `![[figure.svg|caption]]`; Obsidian resolves by walking the vault.
 3. **Widget slug is the lowercase filename stem.** For `Slope_Intercept_Form.md` the widget is `<div class="problem-vault-widget" data-topic-slug="slope_intercept_form">` and the generator uses `topic_slug = "slope_intercept_form"`.
-4. **Vault.md cannot have `"Vault"` in its `aliases:` list.** Alias=filename creates an alias-redirect HTML that overwrites the canonical page. (Phase 1 bugfix.)
+4. **A page's `aliases:` list must never contain its own filename stem.** Alias=filename creates an alias-redirect HTML that overwrites the canonical page with a blank redirect stub — the page turns into a blank white page in production. Hit twice so far: Vault.md (Phase 1) and Precalculus.md (Phase 2). Every time you touch a hub file's frontmatter, double-check the aliases line.
 5. **Quote all hash tags in YAML:** `tags: ["#branch-algebra-1"]`. Unquoted `#` starts a comment.
 6. **All tags must exist in `wiki/_tag_taxonomy.md`.** Lint catches ad-hoc tags. No inventing new tags without editing the taxonomy first.
 7. **Run `yaml.safe_load()` after every batch write.** `factory/scripts/validate_yaml.py` catches unescaped quotes, backslash artifacts, and regex-breakage. CI runs it on every push.

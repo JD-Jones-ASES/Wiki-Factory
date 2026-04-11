@@ -1,7 +1,7 @@
 ---
 title: "Pre-Calculus & Trigonometry"
 type: overview
-aliases: ["Pre-Calculus", "Precalculus", "Pre-Calc", "Trigonometry", "Trig"]
+aliases: ["Pre-Calculus", "Pre-Calc", "Trigonometry", "Trig"]
 tags: ["#navigation", "#branch-pre-calculus"]
 created: 2026-04-11
 updated: 2026-04-11
