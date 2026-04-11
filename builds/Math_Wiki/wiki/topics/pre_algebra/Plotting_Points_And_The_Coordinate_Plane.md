@@ -24,7 +24,7 @@ figures: ["algebra/coordinate_plane.svg"]
 summary: "Two crossed number lines turn every point in the plane into an address (x, y)."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Plotting Points and the Coordinate Plane
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Plotting Points and the Coordinate Plane
 
 # Plotting Points and the Coordinate Plane
 
@@ -153,6 +153,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Graphing_Linear_Equations_From_Tables]]
 - [[Slope]]
 - [[Slope_Intercept_Form]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

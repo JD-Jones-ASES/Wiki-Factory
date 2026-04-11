@@ -31,7 +31,7 @@ figures: []
 summary: "Multiply two rational expressions by factoring everything first, then canceling what matches, then multiplying the survivors. Divide by flipping the second fraction and multiplying."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Multiplying and Dividing Rational Expressions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Multiplying and Dividing Rational Expressions
 
 # Multiplying and Dividing Rational Expressions
 
@@ -208,6 +208,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Multiplying_Fractions]]
 - [[Dividing_Fractions]]
 - [[Factoring_Completely]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

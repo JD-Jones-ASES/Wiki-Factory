@@ -27,7 +27,7 @@ figures: []
 summary: "Arithmetic and geometric sequences, their explicit formulas, finite sums, and the convergence of an infinite geometric series."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Sequences
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Sequences
 
 # Sequences
 
@@ -248,6 +248,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Linear_Functions]] — the continuous parent of an arithmetic sequence
 - [[Exponential_Functions]] — the continuous parent of a geometric sequence
 - [[Function_Basics]] — domain, range, and function notation
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

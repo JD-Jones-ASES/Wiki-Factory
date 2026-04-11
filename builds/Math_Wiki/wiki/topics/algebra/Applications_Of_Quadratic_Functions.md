@@ -26,7 +26,7 @@ figures: []
 summary: "Word problems where a quadratic is the model and the vertex is the answer: projectile flights, area optimization, and revenue."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Applications of Quadratic Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Applications of Quadratic Functions
 
 # Applications of Quadratic Functions
 
@@ -204,6 +204,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Completing_The_Square]]
 - [[The_Quadratic_Formula]]
 - [[Modeling_With_Linear_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

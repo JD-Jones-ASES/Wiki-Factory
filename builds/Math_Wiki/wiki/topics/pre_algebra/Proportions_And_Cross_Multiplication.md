@@ -24,7 +24,7 @@ figures: []
 summary: "An equation between two ratios, solved with the cross-product shortcut."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Proportions and Cross Multiplication
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Proportions and Cross Multiplication
 
 # Proportions and Cross Multiplication
 
@@ -204,12 +204,12 @@ _More problem types are coming soon._
 - [[Applications_Of_Proportional_Reasoning]]
 - [[Ratios_Rates_And_Proportions]]
 - [[Proportions_In_Similar_Figures]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
 ---
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 6 (Ratios, Rates, and Proportions), Section 6.3: Proportions and Cross Multiplication

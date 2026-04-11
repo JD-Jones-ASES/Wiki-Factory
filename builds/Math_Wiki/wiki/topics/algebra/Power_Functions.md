@@ -26,7 +26,7 @@ figures: ["algebra/parent_function_gallery.svg"]
 summary: "A menagerie of shapes controlled by one exponent: $f(x) = k x^n$ with $n$ positive, negative, or fractional."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Power Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Power Functions
 
 # Power Functions
 
@@ -175,6 +175,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Cube_Root_And_Other_Radical_Functions]] — the $n = \tfrac{1}{3}$ case
 - [[Polynomial_Functions_And_Graphs]] — sums of positive-integer power functions
 - [[Transformations_I_Shifts_And_Reflections]] — how to shift and flip any power curve
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

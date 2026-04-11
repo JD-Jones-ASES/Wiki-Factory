@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Classifying Triangles and Quadrilaterals
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Classifying Triangles and Quadrilaterals
 
 # Classifying Triangles and Quadrilaterals
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math I** --- Chapter 9 (Geometry and Data), Section 9.2: Classifying Triangles and Quadrilaterals
 
 ## Definitions
 
@@ -37,21 +31,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **Triangle Angle Sum** --- The sum of the interior angles of any triangle is 180. \[ m A + m B + m C = 180. \]
 - **Quadrilateral Angle Sum** --- The sum of the four interior angles of any quadrilateral is 360.
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Classifying a Triangle_ (from math_1)
-- _Finding a Missing Angle_ (from math_1)
-- _Classifying a Quadrilateral_ (from math_1)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="classifying_triangles_and_quadrilaterals"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

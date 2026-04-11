@@ -24,7 +24,7 @@ figures: []
 summary: "How to add, scale, and multiply grids of numbers — the three operations that make matrices computable."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Matrix Arithmetic
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Matrix Arithmetic
 
 # Matrix Arithmetic
 
@@ -226,6 +226,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Determinants]] — the single number a square matrix carries with it
 - [[Matrix_Methods]] — using matrix operations to actually solve systems
 - [[Vectors]] — the column-vector view of matrix multiplication
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

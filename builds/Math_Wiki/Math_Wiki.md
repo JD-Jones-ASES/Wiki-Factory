@@ -1,17 +1,17 @@
 # Math_Wiki.md --- A Practice-First Math Wiki & Tutor
-## From Pre-Algebra through Pre-Calculus, with procedurally generated practice
-### Version 2.0.0 --- 9-cluster plan complete. Post-plan state. (2026-04-11)
+## Student-facing, course-based navigation from middle school through pre-calculus
+### Version 2.1.0 --- Standalone conversion + 5 course hubs. (2026-04-11)
 
 | Field | Value |
 |-------|-------|
 | **Domain** | Middle and High School Mathematics |
-| **Scope** | Pre-Algebra, Algebra 1, Algebra 2, Trigonometry, Pre-Calculus (through conics, matrices, complex numbers). Calculus + Statistics deferred (books don't cover). |
+| **Scope** | Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus (through conics, matrices, complex numbers). Calculus + advanced statistics deferred. |
 | **Audience** | Students grades 6-12. Warm, tutor-adjacent tone. Intuition first, formalism second. |
-| **Source books** | 5 textbooks: `math_1`, `math_2`, `algebra_1`, `algebra_2`, `algtrig` (Stitz-Zeager). All in `raw/books/` (gitignored). |
+| **Presentation** | **Standalone wiki.** No "paraphrased from textbooks" language in student-facing content. Internal `raw/books/` and `raw/extractions/` remain as build inputs but never surface in wiki output. |
 | **Scale** | **136 live topics / 410 generators / 32,698 verified problems / 31 figures** |
 | **Deployment** | GitHub Pages via Quartz v4 + GitHub Actions CI/CD, ~90s build time |
 | **URL** | https://JD-Jones-ASES.github.io/Wiki-Factory/Math_Wiki/ |
-| **Status** | 9-cluster buildout plan **COMPLETE** (Clusters 0–9 all shipped). Post-plan polish and follow-up work only. |
+| **Status** | 9-cluster content buildout **COMPLETE**. Phase 1 (standalone + course-hub nav redesign) shipped. Cluster 10 (Geometry expansion) is the next major content phase. |
 
 ---
 
@@ -35,32 +35,35 @@ If any of those fail, something has regressed — fix that before doing anything
 
 ### 30-second mental model
 
-Math_Wiki is a **practice-first wiki**. Every live topic page has (a) rich paraphrased prose with worked examples and (b) an interactive problem-vault widget fed by SymPy-verified Python generators. Students read → add problems to a browser-local Vault → download worksheets. The site deploys to GitHub Pages via Quartz v4 on every push to main.
+Math_Wiki is a **standalone, practice-first wiki**. Every live topic page has (a) clear original prose with worked examples and (b) an interactive problem-vault widget fed by SymPy-verified Python generators. Students read → add problems to a browser-local Vault → download worksheets. The site deploys to GitHub Pages via Quartz v4 on every push to main.
 
-The buildout strategy shipped content in **9 clusters** (pre-algebra foundations → linear → quadratics → rationals → functions → exp/log → trig → sequences/probability → conics). Each cluster delivered 10-15 topics fully finished (content + generators + figures + cross-links). All 9 clusters are now shipped.
+Navigation is **course-first**. Five course hubs (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calculus & Trig) are the student's primary entry points. A 7th grader opens Middle School Math; a sophomore opens Algebra 2. Branch-level organization still exists in the underlying data model but is hidden from the student-facing sidebar.
+
+The content buildout shipped in **9 clusters** (pre-algebra foundations → linear → quadratics → rationals → functions → exp/log → trig → sequences/probability → conics). Each cluster delivered 10-15 topics fully finished (prose + generators + figures + cross-links). All 9 content clusters are shipped. Phase 1 (standalone conversion + course hub redesign) is shipped. **Cluster 10 (Geometry expansion)** is the next major phase.
 
 ### Where things live
 
 | Path | What |
 |---|---|
-| `raw/books/{math_1,math_2,algebra_1,algebra_2,algtrig}/` | Original LaTeX source (gitignored, ~62 MB) |
-| `raw/extractions/{book_slug}/chapter_NN.json` | Per-chapter parsed blocks (gitignored, ~3.4 MB) |
-| `raw/catalog/topics_{branch}.json` | Per-branch canonical topic catalog (post-alias-merge) |
+| `raw/books/` | Original LaTeX source material used during initial ingestion (gitignored, ~62 MB). Build inputs only; never surface in the wiki. |
+| `raw/extractions/{book_slug}/chapter_NN.json` | Per-chapter parsed blocks from initial ingestion (gitignored). Internal build artifact. |
+| `raw/catalog/topics_{branch}.json` | Per-branch canonical topic catalog (post-alias-merge). Internal build artifact. |
 | `tools/aliases.yaml` | Manual merge/rename/split rules for `consolidate_extractions.py` |
-| `wiki/_overview.md` | Landing page (hero + 9 learning paths + cluster status) |
-| `wiki/Topics_Overview.md` | All live topics grouped by branch + sub-category |
+| `wiki/_overview.md` | Landing page (hero + 5 course hub cards + learning paths) |
+| `wiki/{Middle_School_Math,Algebra_1,Geometry,Algebra_2,Precalculus}.md` | Five student-facing course hubs (hand intro + learning path + AUTO:TOPICS block) |
+| `wiki/Topics_Overview.md` | Alphabetical index grouped by course |
 | `wiki/Topic_Status.md` | Auto-generated progress dashboard (regen with `topic_status.py`) |
 | `wiki/Vault.md` | Interactive vault page (mounts VaultViewer) |
-| `wiki/{Algebra,Precalculus,Geometry,Trigonometry}_Overview.md` | Branch hubs (hand intro + AUTO:TOPICS live/stub block) |
-| `wiki/topics/{pre_algebra,algebra,precalculus,geometry}/*.md` | Topic pages (enriched or auto-stub) |
+| `wiki/Formulas_Overview.md` | Named formulas and theorems index |
+| `wiki/topics/{pre_algebra,algebra,precalculus,geometry}/*.md` | Topic pages (enriched or auto-stub). Grouped on disk by branch, surfaced by course hub. |
 | `wiki/_data/problem_types_index.json` | Widget lookup: topic_slug → generators. Drives live/stub classification. |
 | `wiki/_data/problems/{topic_slug}.json` | Per-topic problem shards (committed, <320 KB each) |
-| `wiki/assets/figures/{branch}/*.svg` | 31 matplotlib SVG figures across 4 branches |
+| `wiki/assets/figures/{branch}/*.svg` | 31+ matplotlib SVG figures across branches |
 | `generators/{algebra,pre_algebra,precalculus,geometry}/*.py` | 410 generators across 4 branch packages |
 | `generators/base.py` | `Problem` dataclass, `Generator` ABC, `@register`, `all_generators()` |
 | `generators/tests/` | Pytest: parametrized suite (circles), copyright shingle check, consolidate snapshot, ingest smoke |
 | `generators/latex_helpers.py` | `format_fraction`, `format_point`, `shift_expr`, `signed_int` |
-| `quartz.config.ts` / `quartz.layout.ts` | Quartz v4 config + layout with custom widgets |
+| `quartz.config.ts` / `quartz.layout.ts` | Quartz v4 config + layout. Sidebar shows 10 entries: 🏠 Home, 5 course hubs, 📖 All Topics, 🎒 Vault, 📊 Progress, 🧮 Formulas. |
 | `quartz_components/*.tsx, *.inline.ts` | `ProblemVaultWidget`, `VaultViewer` — overlaid onto Quartz at CI time |
 | `tools/` | Build scripts (see Toolchain table below) |
 | `.github/workflows/deploy.yml` | CI: pytest → validate_yaml → build_index → clone Quartz → overlay → build → deploy |
@@ -79,7 +82,7 @@ py -3 -m pytest generators/tests/test_copyright_safety.py -q
 # Bank and dashboard
 py -3 tools/build_problem_bank.py                  # rebuild bank from generators (idempotent)
 py -3 tools/topic_status.py                        # regenerate Topic_Status.md dashboard
-py -3 tools/update_branch_hubs.py                  # regenerate branch hub AUTO:TOPICS blocks
+py -3 tools/update_course_hubs.py                  # regenerate course hub AUTO:TOPICS blocks
 py -3 tools/generate_figures.py                    # regenerate all matplotlib SVGs (deterministic)
 
 # Ingest pipeline (rarely needed — only when adding a book or catalog tweak)
@@ -189,7 +192,7 @@ All `tools/*.py` scripts are idempotent unless noted. Run from `builds/Math_Wiki
 | `tools/consolidate_extractions.py` | Merge extractions → per-branch catalog shards in `raw/catalog/`. Applies `aliases.yaml` rules. Destructive. |
 | `tools/ingest_new_book.py` | 9-step guided pipeline for adding a new textbook. Dry-run supported. Doubles as docs. |
 | `tools/generate_topic_stubs.py` | Catalog → `wiki/topics/{branch}/*.md` stubs. Skips existing slugs; `--force` to overwrite. |
-| `tools/update_branch_hubs.py` | Regenerate `<!-- AUTO:TOPICS:BEGIN/END -->` blocks in branch hubs. Reads `problem_types_index.json` to mark live vs stub. |
+| `tools/update_course_hubs.py` | Regenerate `<!-- AUTO:TOPICS:BEGIN/END -->` blocks in the five course hubs. Walks topic frontmatter to group by course; reads `problem_types_index.json` to mark live vs stub. Also handles the Geometry allowlist second pass. |
 | `tools/build_problem_bank.py` | Walk generator registry → per-topic shards + index. Cleans stale shards. |
 | `tools/topic_status.py` | Score every topic 0-100 (prose/examples/generators/prereqs/see-also/figures/status). Writes `wiki/Topic_Status.md` + `wiki/_data/topic_status.json`. |
 | `tools/generate_figures.py` | Matplotlib → deterministic SVGs in `wiki/assets/figures/`. Uses `svg.hashsalt` + `metadata={"Date": None}` for byte-identical output. |
@@ -335,26 +338,22 @@ Math_Wiki uses Quartz v4's three-pane layout with wiki-specific overrides.
 
 ### Left sidebar Explorer
 
-`mathExplorerFilter` HIDES the three large collections (`topics/` ≈239 pages, `problem_types/`, `entities/`) plus underscore-prefixed internal files except `_overview`. `mathExplorerMap` rewrites remaining entries to emoji-prefixed friendly labels:
+`mathExplorerFilter` HIDES large collections (`topics/` ≈239 pages, `problem_types/`) and empty-shell folders (`entities/`, `synthesis/`, `techniques/`, `sources/`) plus underscore-prefixed internal files except `_overview`. `mathExplorerMap` rewrites remaining entries to emoji-prefixed friendly labels:
 
 | Label | Target |
 |---|---|
 | 🏠 Home | `_overview.md` |
-| 📘 Algebra | `Algebra_Overview.md` |
-| 📐 Geometry | `Geometry_Overview.md` |
-| 📏 Trigonometry | `Trigonometry_Overview.md` |
-| 🧮 Pre-Calculus | `Precalculus_Overview.md` |
+| 🔢 Middle School Math | `Middle_School_Math.md` |
+| 📗 Algebra 1 | `Algebra_1.md` |
+| 📕 Geometry | `Geometry.md` |
+| 📙 Algebra 2 | `Algebra_2.md` |
+| 📓 Pre-Calculus & Trig | `Precalculus.md` |
 | 📖 All Topics | `Topics_Overview.md` |
 | 🎒 Your Vault | `Vault.md` |
-| 📊 Progress Dashboard | `Topic_Status.md` |
-| 🎯 Problem Types | `Problem_Types_Overview.md` |
-| 🧮 All Formulas | `Formulas_Overview.md` |
-| 🛠️ All Techniques | `Techniques_Overview.md` |
-| 📚 All Sources | `Sources_Overview.md` |
-| 📖 All Comparisons | `Synthesis_Overview.md` |
-| 👩‍🏫 Mathematicians | `Entities_Overview.md` |
+| 📊 Progress | `Topic_Status.md` |
+| 🧮 Formulas | `Formulas_Overview.md` |
 
-Everything under `topics/` is reachable via branch hubs, search, and wikilinks only.
+**Ten sidebar entries, course-first.** A middle schooler clicks 🔢 Middle School Math. A sophomore clicks 📕 Geometry or 📙 Algebra 2. A pre-calc student clicks 📓 Pre-Calculus & Trig. Everything under `topics/` is reachable via course hubs, search, and wikilinks only. The old branch hubs (`Algebra_Overview`, `Geometry_Overview`, `Trigonometry_Overview`, `Precalculus_Overview`) and empty-shell overviews (`Sources_Overview`, `Entities_Overview`, `Synthesis_Overview`, `Techniques_Overview`, `Problem_Types_Overview`) were deleted during the Phase 1 standalone conversion.
 
 ### Right sidebar (content pages)
 
@@ -383,7 +382,7 @@ figures: []    # or ["branch/figure.svg"]
 summary: "one-sentence hook"
 ---
 
-> [[_overview|Home]] > [[{Branch}_Overview|{Branch}]] > {Title}
+> [[_overview|Home]] > [[{Course_Hub}|{Course Label}]] > {Title}
 
 # {Title}
 
@@ -425,39 +424,39 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 
 - [[Peer_Topic_1]]
 - [[Peer_Topic_2]]
-- [[Algebra_Overview|Algebra]]   # or Pre-Calculus
+- [[Algebra_1|Algebra 1]]   # or whichever course this topic belongs to
 - [[Topics_Overview]]
 - [[_overview|Home]]
 ```
 
 **Do NOT include "Practice generators for this topic are coming in a future wave" lines** — the 9-cluster plan is complete. Every live topic has live generators.
 
-### Branch hub structure
+### Course hub structure
 
-Hand-written intro paragraph + `<!-- AUTO:TOPICS:BEGIN/END -->` block regenerated by `tools/update_branch_hubs.py`. The auto block uses `wiki/_data/problem_types_index.json` to split each topic group into a flat "🟢 Live topics" section and a collapsed `<details>` "⚪ Stub topic(s)" section.
+Hand-written intro paragraph + suggested learning path + `<!-- AUTO:TOPICS:BEGIN/END -->` block regenerated by `tools/update_course_hubs.py`. The auto block walks `wiki/topics/**/*.md`, reads each file's `branch:` frontmatter, groups by the five course hubs, and uses `wiki/_data/problem_types_index.json` to split each course's topic list into a flat "🟢 Live topics" section and a collapsed `<details>` "⚪ Stub topic(s)" section. The Geometry hub additionally pulls in an explicit allowlist of geometry-adjacent pre-algebra slugs (`GEOMETRY_ADJACENT_ALLOWLIST` in the script).
 
 ### Landing page (`wiki/_overview.md`) structure
 
 ```
 # Math Wiki
 <tagline + stats row: 136 topics · 410 generators · 32,698 problems>
-<copyright/privacy note>
+<privacy note: vault is browser-local>
 
 ## Start Here
-- Browse live topics → Topics_Overview
-- Your Practice Vault → Vault
-- Progress Dashboard → Topic_Status
+- Five course hub cards (Middle School Math, Algebra 1, Geometry, Algebra 2, Pre-Calc & Trig)
+- Topics_Overview link for alphabetical index
+
+## How to Use This Wiki
+<5-step guide: pick course, read lesson, add to vault, review, repeat>
 
 ## Live Learning Paths
-<9 curated learning paths of live topics>
+<16 curated topic threads that cross course boundaries>
 
-## Explore by Branch
-<4 branch hub links with live/total counts>
+## Your Tools
+- Vault, Topic_Status, Topics_Overview, Formulas_Overview
 
-## Other Reference Pages
-## How to Use This Wiki
-## Current Status (cluster table)
 ## About
+<audience, render tech, privacy, license, repo>
 ```
 
 ---
@@ -536,7 +535,7 @@ From the Site Expansion Proposal section (now pruned but these are the top candi
 1. `tools/generate_topic_stubs.py --branch all --force` ensures the stub exists.
 2. Write the content following the topic skeleton above.
 3. Add generators under the appropriate branch package.
-4. `build_problem_bank.py` → `topic_status.py` → `update_branch_hubs.py` → commit.
+4. `build_problem_bank.py` → `topic_status.py` → `update_course_hubs.py` → commit.
 
 Adding a whole new source book is supported end-to-end:
 
@@ -669,7 +668,7 @@ Expected: 3 pytest passes, 257/257 YAML, 0 lint errors. If you get copyright hit
 - **Don't** trust a single copyright pass. Run the shingle test, fix, run again — sometimes rewriting one idiom surfaces a previously-masked neighbor.
 - **Don't** commit a cluster with dead wikilinks. Lint catches them but only after Quartz gets them wrong in production.
 - **Don't** invent new tags. Every new tag needs to be added to `_tag_taxonomy.md` first.
-- **Don't** forget `py -3 tools/update_branch_hubs.py` after adding live topics. The hub "AUTO:TOPICS" block is stale otherwise.
+- **Don't** forget `py -3 tools/update_course_hubs.py` after adding live topics. The course hub "AUTO:TOPICS" block is stale otherwise.
 - **Don't** ship a cluster without updating `_overview.md`'s Learning Paths and `Topics_Overview.md`'s Live Topics sections. These are student-facing front doors.
 
 ---

@@ -26,7 +26,7 @@ figures: ["algebra/scatter_trend_line.svg"]
 summary: "Plot paired data, read the overall direction, sketch a line that captures the trend, and use it to predict."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Scatter Plots and Trend Lines
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Scatter Plots and Trend Lines
 
 # Scatter Plots and Trend Lines
 
@@ -158,6 +158,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Modeling_With_Linear_Functions]]
 - [[Plotting_Points_And_The_Coordinate_Plane]]
 - [[Slope_As_Rate_Of_Change]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -25,7 +25,7 @@ figures: []
 summary: "Equations between trig functions that hold for every angle: the Pythagorean, even/odd, sum/difference, and double-angle families."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Identities
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Identities
 
 # Identities
 
@@ -212,6 +212,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Graphs_Of_Trigonometric_Functions]] — visual symmetries match the even/odd identities exactly
 - [[The_Unit_Circle]]
 - [[Circular_Functions]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

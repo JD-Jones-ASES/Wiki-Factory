@@ -19,24 +19,26 @@ export const sharedPageComponents: SharedLayout = {
 }
 
 // Shared filter: hide large collections and internal files from the Explorer sidebar.
-// Navigation happens via overview hubs, search, and wikilinks.
+// Navigation happens via the five course hubs, search, and wikilinks.
 //
-// The Explorer sidebar aims to be a short, scannable list of navigation targets.
-// It currently shows: branch hubs (Algebra, Geometry, Trigonometry, Precalculus),
-// the landing page, Vault, Topic_Status, the category overviews (Formulas,
-// Techniques, Sources, Synthesis, Entities, Problem_Types), and small folders
-// (formulas/, techniques/, sources/, synthesis/). Large collections (topics/,
-// problem_types/, entities/) are hidden — students reach them via branch hubs,
-// search, and wikilinks.
+// The Explorer sidebar is a short, scannable list of navigation targets:
+// the landing page, the five course hubs (Middle School Math, Algebra 1,
+// Geometry, Algebra 2, Pre-Calculus), the Vault and Progress dashboard,
+// the Formulas index, and the All Topics index. Large collections
+// (topics/, problem_types/, entities/, synthesis/, techniques/, sources/)
+// are hidden -- students reach them via course hubs, search, and wikilinks.
 const mathExplorerFilter = (node: FileTrieNode) => {
   const name = node.slugSegment
   if (!name) return true
-  // Hide topic folders (navigate via branch overview pages like Algebra_Overview)
+  // Hide topic folders (navigate via course hubs like Algebra_1)
   if (name === "topics") return false
   // Hide problem_type folders (navigate via topic pages' Problems Involving widget)
   if (name === "problem_types") return false
-  // Hide entities folder (sparingly populated; navigate via Entities_Overview)
+  // Hide empty-shell folders that may still exist on disk
   if (name === "entities") return false
+  if (name === "synthesis") return false
+  if (name === "techniques") return false
+  if (name === "sources") return false
   // Hide internal/maintenance files and JSON data shards
   if (name.startsWith("_") && !["_overview", "_index"].includes(name)) return false
   if (name === "problems" || name.startsWith("problems_")) return false
@@ -44,31 +46,24 @@ const mathExplorerFilter = (node: FileTrieNode) => {
 }
 
 // Friendlier sidebar labels. Folder-level mappings use an emoji + word.
-// File-level mappings pick out the few high-traffic root files (Vault,
-// Topic_Status) so they stand out from the branch-overview list. The rest of
-// the files in the sidebar render with their frontmatter title as usual.
+// File-level mappings pick out the root files that should stand out as
+// navigation targets (the five course hubs, Vault, Progress, All Topics).
+// Every other file renders with its frontmatter title as usual.
 const mathExplorerMap = (node: FileTrieNode) => {
   const friendlyFolderNames: Record<string, string> = {
     "formulas": "🧮 Formulas",
-    "techniques": "🛠️ Techniques",
-    "sources": "📚 Sources",
-    "synthesis": "📖 Comparisons",
   }
   const friendlyFileNames: Record<string, string> = {
-    "Vault": "🎒 Your Vault",
-    "Topic_Status": "📊 Progress Dashboard",
-    "_overview": "🏠 Home",
-    "Algebra_Overview": "📘 Algebra",
-    "Geometry_Overview": "📐 Geometry",
-    "Trigonometry_Overview": "📏 Trigonometry",
-    "Precalculus_Overview": "🧮 Pre-Calculus",
-    "Topics_Overview": "📖 All Topics",
-    "Problem_Types_Overview": "🎯 Problem Types",
-    "Formulas_Overview": "🧮 All Formulas",
-    "Techniques_Overview": "🛠️ All Techniques",
-    "Sources_Overview": "📚 All Sources",
-    "Synthesis_Overview": "📖 All Comparisons",
-    "Entities_Overview": "👩‍🏫 Mathematicians",
+    "_overview":          "🏠 Home",
+    "Middle_School_Math": "🔢 Middle School Math",
+    "Algebra_1":          "📗 Algebra 1",
+    "Geometry":           "📕 Geometry",
+    "Algebra_2":          "📙 Algebra 2",
+    "Precalculus":        "📓 Pre-Calculus & Trig",
+    "Topics_Overview":    "📖 All Topics",
+    "Vault":              "🎒 Your Vault",
+    "Topic_Status":       "📊 Progress",
+    "Formulas_Overview":  "🧮 Formulas",
   }
   if (node.isFolder && node.slugSegment && friendlyFolderNames[node.slugSegment]) {
     node.displayName = friendlyFolderNames[node.slugSegment]

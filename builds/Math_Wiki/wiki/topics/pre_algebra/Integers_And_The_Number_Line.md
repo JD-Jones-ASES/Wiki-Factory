@@ -22,7 +22,7 @@ figures: ["pre_algebra/number_line.svg"]
 summary: "Whole numbers together with their negatives, arranged in order on a line."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Integers and the Number Line
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Integers and the Number Line
 
 # Integers and the Number Line
 
@@ -140,11 +140,11 @@ _More problem types are coming soon._
 - [[Multiplying_And_Dividing_Integers]]
 - [[Order_Of_Operations_With_Integers]]
 - [[Absolute_Value]]
-- [[Algebra_Overview]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[Vault|Your Practice Vault]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I**, Chapter 2, Section 2.1 — introduction to integers and the number line.

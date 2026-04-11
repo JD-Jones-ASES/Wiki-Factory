@@ -20,7 +20,7 @@ figures: []
 summary: "Ones, tens, hundreds; rounding to a chosen digit; quick estimates."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Place Value, Rounding, and Estimation
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Place Value, Rounding, and Estimation
 
 # Place Value, Rounding, and Estimation
 
@@ -165,7 +165,7 @@ Pick a problem type, choose a difficulty, choose how many problems you want, and
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[Vault|Your Practice Vault]]
 - [[_overview|Home]]

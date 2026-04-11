@@ -21,7 +21,7 @@ figures: []
 summary: "Prove a statement for every positive integer by verifying a base case and a step-up rule."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Mathematical Induction
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Mathematical Induction
 
 # Mathematical Induction
 
@@ -178,6 +178,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 
 - [[Binomial]]
 - [[Summation]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

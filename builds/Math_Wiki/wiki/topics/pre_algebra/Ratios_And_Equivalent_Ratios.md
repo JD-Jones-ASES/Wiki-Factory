@@ -23,7 +23,7 @@ figures: []
 summary: "Compare two quantities, write the comparison three ways, and scale it up or down to find equivalents."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Ratios and Equivalent Ratios
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Ratios and Equivalent Ratios
 
 # Ratios and Equivalent Ratios
 
@@ -160,10 +160,10 @@ _More problem types are coming soon._
 - [[Proportions_And_Cross_Multiplication]]
 - [[Applications_Of_Proportional_Reasoning]]
 - [[Fractions_Decimals_And_Percents]]
-- [[Algebra_Overview]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 6, Section 6.1: Ratios and Equivalent Ratios

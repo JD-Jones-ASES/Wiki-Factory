@@ -22,7 +22,7 @@ figures: []
 summary: "Four quick numbers that summarize a data set: average, middle, most common, and spread."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Mean, Median, Mode, and Range
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Mean, Median, Mode, and Range
 
 # Mean, Median, Mode, and Range
 
@@ -178,6 +178,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Data_Displays]]
 - [[Data_Displays_And_Measures_Of_Spread]]
 - [[Dividing_Fractions]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

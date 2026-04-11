@@ -13,30 +13,16 @@ branch: algebra-1
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Percent Applications
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Percent Applications
 
 # Percent Applications
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra I** --- Chapter 2 (Solving Equations), Section 2.6: Percent Applications
 
 ## Key Properties
 
 - **The Percent Equation** --- \[ part = percent whole \] Equivalently, if p is the percent written as a decimal and w is the whole: \[ part = p w \]
-
-## Example Walkthroughs Available
-
-The source books contain **3 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Finding a Part_ (from algebra_1)
-- _Finding the Percent_ (from algebra_1)
-- _Percent Increase and Decrease_ (from algebra_1)
 
 ## Problems Involving This Topic
 
@@ -44,6 +30,6 @@ The source books contain **3 worked example(s)** for this topic. Selected exampl
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

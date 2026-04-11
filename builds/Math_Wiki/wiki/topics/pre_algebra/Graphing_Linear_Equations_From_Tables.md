@@ -27,7 +27,7 @@ figures: []
 summary: "Pick x-values, compute y-values from the rule, plot the pairs, and draw the line that joins them."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Graphing Linear Equations from Tables
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Graphing Linear Equations from Tables
 
 # Graphing Linear Equations from Tables
 
@@ -156,6 +156,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Evaluating_Expressions]]
 - [[Writing_Linear_Equations]]
 - [[Linear_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

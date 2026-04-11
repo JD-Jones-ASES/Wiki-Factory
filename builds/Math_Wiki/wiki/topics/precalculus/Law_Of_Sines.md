@@ -26,7 +26,7 @@ figures: []
 summary: "A proportion between sides and their opposite angles that solves any triangle — even the non-right ones — as long as you respect the ambiguous case."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > The Law of Sines
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Law of Sines
 
 # The Law of Sines
 
@@ -158,6 +158,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Inverse_Trigonometric_Functions]] — needed to recover angles from a sine value
 - [[Circular_Functions]]
 - [[Angles]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

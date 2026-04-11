@@ -24,7 +24,7 @@ figures: []
 summary: "A sequence whose terms climb or fall by the same fixed amount every step — and a linear function in disguise."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Arithmetic Sequences and Linear Patterns
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Arithmetic Sequences and Linear Patterns
 
 # Arithmetic Sequences and Linear Patterns
 
@@ -187,6 +187,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Linear_Functions]] — the continuous cousin of an arithmetic sequence
 - [[Slope]] — the common difference plays the role of slope in the sequence-as-line picture
 - [[Summation]] — writing and evaluating sums of sequences in sigma notation
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

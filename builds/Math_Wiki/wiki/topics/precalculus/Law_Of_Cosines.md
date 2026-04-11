@@ -24,7 +24,7 @@ figures: []
 summary: "A Pythagorean-style relation that works for any triangle, letting you solve SSS and SAS cases in one step."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > The Law of Cosines
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Law of Cosines
 
 # The Law of Cosines
 
@@ -159,6 +159,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Law_Of_Sines]] — the partner rule, better for AAS and ASA cases
 - [[The_Pythagorean_Theorem]] — the $C = 90°$ special case
 - [[The_Unit_Circle]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

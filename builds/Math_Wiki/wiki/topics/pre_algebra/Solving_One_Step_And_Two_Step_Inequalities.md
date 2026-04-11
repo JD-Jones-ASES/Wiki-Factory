@@ -25,7 +25,7 @@ figures: []
 summary: "Isolate the variable just like in an equation, with one crucial twist: flip the inequality whenever you multiply or divide both sides by a negative."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Solving One-Step and Two-Step Inequalities
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Solving One-Step and Two-Step Inequalities
 
 # Solving One-Step and Two-Step Inequalities
 
@@ -219,6 +219,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Solving_Multi_Step_Inequalities]]
 - [[Compound_Inequalities]]
 - [[Absolute_Value_Inequalities]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

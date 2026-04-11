@@ -13,18 +13,12 @@ branch: pre-calculus
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Transformations
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Transformations
 
 # Transformations
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra & Trigonometry (Stitz-Zeager, Corrected 3rd)** --- Chapter 1 (Relations and Functions), Section 1.8: Transformations
 
 ## Key Properties
 
@@ -34,21 +28,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **(untitled)** --- Vertical Scalings. Suppose f is a function and a>0. To graph y=a f(x), multiply all of the y-coordinates of the points on the graph of f by a. We say the graph of f has been vertically scaled by a fac...
 - **(untitled)** --- Horizontal Scalings. Suppose f is a function and b>0. To graph y= f(bx), divide all of the x-coordinates of the points on the graph of f by b. We say the graph of f has been horizontally scaled by a f...
 
-## Example Walkthroughs Available
-
-The source books contain **5 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _(untitled example)_ (from algtrig)
-- _(untitled example)_ (from algtrig)
-- _(untitled example)_ (from algtrig)
-- ... and 2 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="transformations"></div>
 
 ## See Also
 
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

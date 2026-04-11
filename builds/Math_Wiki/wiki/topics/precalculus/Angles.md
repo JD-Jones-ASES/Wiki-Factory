@@ -24,7 +24,7 @@ figures: []
 summary: "Angles as rotations: degree versus radian measure, the conversion pi-over-180, standard position, and coterminal angles."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Angles
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Angles
 
 # Angles
 
@@ -181,6 +181,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Circular_Functions]]
 - [[Graphs_Of_Trigonometric_Functions]]
 - [[Similar_Triangles]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

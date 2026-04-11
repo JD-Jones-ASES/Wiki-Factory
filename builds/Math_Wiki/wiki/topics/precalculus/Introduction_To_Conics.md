@@ -13,18 +13,12 @@ branch: pre-calculus
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Introduction to Conic Sections
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Introduction to Conic Sections
 
 # Introduction to Conic Sections
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra & Trigonometry (Stitz-Zeager, Corrected 3rd)** --- Chapter 10 (Conic Sections), Section 10.4: IntrotoConics
 
 ## Problems Involving This Topic
 
@@ -32,6 +26,6 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 
 ## See Also
 
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

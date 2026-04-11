@@ -28,7 +28,7 @@ figures: ["algebra/square_root_function.svg"]
 summary: "The function f(x) = √x: a one-sided curve whose shape, starting point, and reach are controlled by three transformation numbers."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Square Root Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Square Root Functions
 
 # Square Root Functions
 
@@ -197,6 +197,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Quadratic_Functions]]
 - [[Inverse_Functions]]
 - [[Function_Basics]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -26,7 +26,7 @@ figures: ["algebra/conic_sections_gallery.svg"]
 summary: "The conic view of a parabola: every point on the curve is the same distance from a fixed focus and a fixed directrix."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Parabolas
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Parabolas
 
 # Parabolas
 
@@ -195,6 +195,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Ellipses]] — the next conic, built from two foci instead of one
 - [[Hyperbolas]] — two foci with a difference-of-distances rule
 - [[Circles]] — the simplest conic, the warm-up for this family
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

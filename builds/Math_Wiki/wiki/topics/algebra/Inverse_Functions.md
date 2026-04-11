@@ -30,7 +30,7 @@ figures: []
 summary: "The inverse function f^(-1) undoes f; it exists exactly when f is one-to-one, and its graph is f reflected across y = x."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Inverse Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Inverse Functions
 
 # Inverse Functions
 
@@ -188,6 +188,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Logarithmic_Functions]]
 - [[Exponential_Functions]]
 - [[Relations_And_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

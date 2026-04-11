@@ -25,7 +25,7 @@ figures: []
 summary: "Turning a real-world, constant-rate scenario into a linear function and using it to predict."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Modeling with Linear Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Modeling with Linear Functions
 
 # Modeling with Linear Functions
 
@@ -192,6 +192,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Slope_Intercept_Form]]
 - [[Writing_Linear_Equations]]
 - [[Systems_Of_Linear_Equations]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

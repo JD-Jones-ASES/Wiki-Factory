@@ -23,7 +23,7 @@ figures: []
 summary: "Every polynomial of degree n has exactly n roots once you allow complex numbers, and those roots pair up as conjugates when the coefficients are real."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Complex Zeros of Polynomials
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Complex Zeros of Polynomials
 
 # Complex Zeros of Polynomials
 
@@ -161,6 +161,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[The_Complex_Number_System]] — the arithmetic machinery that complex roots rely on
 - [[Polar_Form_Of_Complex_Numbers]] — a different picture of $a + bi$ that makes powers and roots much easier
 - [[The_Quadratic_Formula]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

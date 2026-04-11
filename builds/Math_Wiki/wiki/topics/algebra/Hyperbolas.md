@@ -25,7 +25,7 @@ figures: []
 summary: "Two open branches defined by a fixed difference between distances to two foci; sketched with a reference rectangle and two asymptotes."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Hyperbolas
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Hyperbolas
 
 # Hyperbolas
 
@@ -207,6 +207,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Parabolas]] — one focus and one directrix, the simplest conic
 - [[Circles]] — the simplest closed conic and a warm-up for the algebra
 - [[Completing_The_Square]] — the standard move for converting general form to standard form
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

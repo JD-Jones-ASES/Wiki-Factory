@@ -25,7 +25,7 @@ figures: []
 summary: "Three binomial-multiplication patterns worth memorizing: the difference of squares and the two perfect square trinomials."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Special Products
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Special Products
 
 # Special Products
 
@@ -190,6 +190,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Factoring_Special_Forms]] — same three patterns run in reverse, from a trinomial or difference back to factors
 - [[Factoring_Trinomials_Leading_Coefficient_1]]
 - [[Factoring_Trinomials_General]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

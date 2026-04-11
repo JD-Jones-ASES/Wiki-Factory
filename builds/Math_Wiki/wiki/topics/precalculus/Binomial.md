@@ -23,7 +23,7 @@ figures: ["precalculus/pascals_triangle.svg"]
 summary: "A one-line formula for expanding any power of a sum, plus Pascal's triangle as a bookkeeping device."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > The Binomial Theorem
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Binomial Theorem
 
 # The Binomial Theorem
 
@@ -195,6 +195,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Summation]]
 - [[Induction]]
 - [[Probability_Of_Simple_And_Compound_Events]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

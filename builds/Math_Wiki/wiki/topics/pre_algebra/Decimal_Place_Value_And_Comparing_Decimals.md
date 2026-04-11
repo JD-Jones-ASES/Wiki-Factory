@@ -23,7 +23,7 @@ figures: []
 summary: "Naming the places after the decimal point and using them to compare decimals digit by digit."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Decimal Place Value and Comparing Decimals
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Decimal Place Value and Comparing Decimals
 
 # Decimal Place Value and Comparing Decimals
 
@@ -150,10 +150,10 @@ _More problem types are coming soon._
 - [[Multiplying_Decimals]]
 - [[Dividing_Decimals]]
 - [[Fractions_Decimals_And_Percents]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 5, Section 5.1: Decimal Place Value and Comparing Decimals

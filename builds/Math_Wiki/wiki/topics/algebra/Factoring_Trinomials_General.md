@@ -26,7 +26,7 @@ figures: []
 summary: "Factor ax^2 + bx + c when a is not 1 by splitting the middle term using a product-and-sum search, then grouping."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Factoring Trinomials: General
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Factoring Trinomials: General
 
 # Factoring Trinomials: General
 
@@ -203,6 +203,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Solving_Quadratics_By_Factoring]]
 - [[Greatest_Common_Factor]]
 - [[Multiplying_Polynomials]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

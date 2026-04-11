@@ -24,7 +24,7 @@ figures: []
 summary: "Slant asymptotes, sign analysis, and a start-to-finish graphing recipe for rational functions."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Graphing Rational Functions: Part 2
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Graphing Rational Functions: Part 2
 
 # Graphing Rational Functions: Part 2
 
@@ -178,6 +178,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Simplifying_Rational_Expressions]] — factoring and cancelling as a building block
 - [[Polynomial_Functions_And_Graphs]] — end behavior and long division
 - [[Introduction_To_Rational_Functions]] — the pre-calc overview
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

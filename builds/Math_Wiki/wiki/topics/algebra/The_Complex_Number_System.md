@@ -23,7 +23,7 @@ figures: ["precalculus/complex_plane.svg"]
 summary: "A second kind of number built by declaring that the square of i equals -1, with an arithmetic that extends the real numbers cleanly."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > The Complex Number System
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > The Complex Number System
 
 # The Complex Number System
 
@@ -191,6 +191,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Complex_Zeros]] — where complex numbers fall out of polynomial equations naturally, in conjugate pairs
 - [[Polar_Form_Of_Complex_Numbers]] — a second way to write $a + bi$ that turns multiplication into angle-addition
 - [[The_Quadratic_Formula]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -23,7 +23,7 @@ figures: []
 summary: "Count favorable outcomes, divide by total outcomes, and use AND/OR rules for compound events."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Probability of Simple and Compound Events
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Probability of Simple and Compound Events
 
 # Probability of Simple and Compound Events
 
@@ -144,6 +144,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Fractions_Decimals_And_Percents]]
 - [[Data_Displays_And_Measures_Of_Spread]]
 - [[Mean_Median_Mode_And_Range]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

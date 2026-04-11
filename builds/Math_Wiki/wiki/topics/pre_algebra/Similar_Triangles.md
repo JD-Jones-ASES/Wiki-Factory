@@ -25,7 +25,7 @@ figures: []
 summary: "Triangles with the same shape but possibly different sizes, caught by the AA rule and unlocked by proportional sides."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Similar Triangles
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Similar Triangles
 
 # Similar Triangles
 
@@ -181,6 +181,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Proportions_In_Similar_Figures]]
 - [[The_Pythagorean_Theorem]]
 - [[Applications_Of_The_Pythagorean_Theorem]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

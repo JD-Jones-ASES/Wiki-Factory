@@ -28,7 +28,7 @@ figures: ["algebra/cube_root_function.svg"]
 summary: "The cube root function f(x) = ∛x accepts every real input, including negatives — and the parity of the index decides the shape of every nth-root relative."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Cube Root and Other Radical Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Cube Root and Other Radical Functions
 
 # Cube Root and Other Radical Functions
 
@@ -208,6 +208,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Power_Functions]]
 - [[Inverse_Functions]]
 - [[Function_Basics]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

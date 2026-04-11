@@ -24,7 +24,7 @@ figures: []
 summary: "Two inequalities joined by AND (both must hold) or OR (at least one must hold), solved together and graphed on a number line."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Compound Inequalities
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Compound Inequalities
 
 # Compound Inequalities
 
@@ -180,6 +180,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Solving_Multi_Step_Inequalities]]
 - [[Absolute_Value_Inequalities]]
 - [[Systems_Of_Linear_Inequalities]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

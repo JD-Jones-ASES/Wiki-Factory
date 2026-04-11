@@ -26,7 +26,7 @@ figures: ["algebra/exponential_growth_decay.svg"]
 summary: "The function f(x) = a b^x, where the variable lives in the exponent and the base sets the growth factor."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Exponential Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Exponential Functions
 
 # Exponential Functions
 
@@ -181,6 +181,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Growth_Decay_And_Applications]]
 - [[Inverse_Functions]]
 - [[Power_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

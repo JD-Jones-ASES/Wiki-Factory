@@ -26,7 +26,7 @@ figures: []
 summary: "The logarithm log_b(x) is the exponent you must put on b to get x; it is the inverse operation of raising b to a power."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Logarithms
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Logarithms
 
 # Logarithms
 
@@ -149,6 +149,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Exponential_Functions]]
 - [[Exponential_Equations]]
 - [[Inverse_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

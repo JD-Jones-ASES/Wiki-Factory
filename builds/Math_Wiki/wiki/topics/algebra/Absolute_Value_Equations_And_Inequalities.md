@@ -13,18 +13,12 @@ branch: algebra-2
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Absolute Value Equations and Inequalities
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Absolute Value Equations and Inequalities
 
 # Absolute Value Equations and Inequalities
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra II** --- Chapter 1 (Sets and Numbers), Section 1.4: Absolute Value Equations and Inequalities
 
 ## Definitions
 
@@ -39,21 +33,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **(untitled)** --- {Solving A = B}{ch01:abs-abs} For any real expressions A and B: \[ A = B A = B A = -B. \] Two quantities have equal absolute values precisely when they are equal or are exact opposites of each other.
 - **(untitled)** --- {Solving Absolute Value Inequalities}{ch01:abs-ineq} Let E be an algebraic expression and m > 0. itemize[noitemsep] E < m -m < E < m (AND; one bounded open interval) E m -m E m (AND; one bounded close...
 
-## Example Walkthroughs Available
-
-The source books contain **5 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- ... and 2 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="absolute_value_equations_and_inequalities"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

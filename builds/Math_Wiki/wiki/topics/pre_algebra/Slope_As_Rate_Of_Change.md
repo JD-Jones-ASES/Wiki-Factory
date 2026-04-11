@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Slope as Rate of Change
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Slope as Rate of Change
 
 # Slope as Rate of Change
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math II** --- Chapter 8 (The Coordinate Plane), Section 8.5: Slope as Rate of Change
 
 ## Definitions
 
@@ -34,21 +28,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 
 - **Four Types of Slope** --- itemize[nosep] Positive slope (m > 0): line rises from left to right. Negative slope (m < 0): line falls from left to right. Zero slope (m = 0): horizontal line. Undefined slope: vertical line (divisi...
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Finding Slope from Two Points_ (from math_2)
-- _Negative Slope_ (from math_2)
-- _Slope with Fractions_ (from math_2)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="slope_as_rate_of_change"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

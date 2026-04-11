@@ -26,7 +26,7 @@ figures: []
 summary: "Recognize and reverse two patterns: the difference of two squares and the perfect square trinomial."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Factoring Special Forms
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Factoring Special Forms
 
 # Factoring Special Forms
 
@@ -170,6 +170,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Solving_Quadratics_By_Factoring]]
 - [[Special_Products]]
 - [[Multiplying_Polynomials]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

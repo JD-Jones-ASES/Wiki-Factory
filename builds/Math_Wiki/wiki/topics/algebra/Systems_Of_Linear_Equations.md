@@ -13,18 +13,12 @@ branch: algebra-2
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Systems of Linear Equations
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Systems of Linear Equations
 
 # Systems of Linear Equations
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra II** --- Chapter 2 (Linear Functions), Section 2.5: Systems of Linear Equations
 
 ## Definitions
 
@@ -36,21 +30,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **(untitled)** --- {Elimination (Addition) Method}{ch02:elimination} enumerate If necessary, multiply one or both equations by constants so that the coefficients of one variable are opposites. Add the equations; one var...
 - **(untitled)** --- {Types of Linear Systems}{ch02:system-types} itemize Consistent and independent: the lines intersect at exactly one point. One unique solution. Inconsistent: the lines are parallel (same slope, differ...
 
-## Example Walkthroughs Available
-
-The source books contain **5 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- ... and 2 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="systems_of_linear_equations"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -28,7 +28,7 @@ figures: []
 summary: "Adding, subtracting, multiplying, dividing, and chaining functions — plus why order matters when you chain."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Function Arithmetic and Composition
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Function Arithmetic and Composition
 
 # Function Arithmetic and Composition
 
@@ -203,6 +203,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Linear_Functions]]
 - [[Inverse_Functions]]
 - [[Relations_And_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

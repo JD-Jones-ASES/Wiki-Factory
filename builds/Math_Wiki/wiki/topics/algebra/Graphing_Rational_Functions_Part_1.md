@@ -24,7 +24,7 @@ figures: ["algebra/rational_asymptotes.svg"]
 summary: "Finding asymptotes, holes, and intercepts so a rational function can be sketched sensibly."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Graphing Rational Functions: Part 1
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Graphing Rational Functions: Part 1
 
 # Graphing Rational Functions: Part 1
 
@@ -141,6 +141,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Simplifying_Rational_Expressions]] — prerequisite for every rational graph
 - [[Introduction_To_Rational_Functions]] — the pre-calculus overview of the whole topic
 - [[Polynomial_Functions_And_Graphs]] — the polynomial-only cousin
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -26,7 +26,7 @@ figures: []
 summary: "Pre-calc-level real-world models: continuous compounding, growth and decay, Newton's law of cooling, and the log scales used for earthquakes, sound, and acidity."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Applications of Exponentials and Logarithms
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Applications of Exponentials and Logarithms
 
 # Applications of Exponentials and Logarithms
 
@@ -243,6 +243,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Growth_Decay_And_Applications]]
 - [[Exponential_Equations]]
 - [[Logarithmic_Equations]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

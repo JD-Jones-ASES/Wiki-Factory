@@ -25,7 +25,7 @@ figures: []
 summary: "Rewrite radicals in their tidiest form: no perfect squares trapped inside, no fractions under the radical, and no radicals stuck in the denominator."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Simplifying Radical Expressions
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Simplifying Radical Expressions
 
 # Simplifying Radical Expressions
 
@@ -195,6 +195,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Operations_With_Radicals]]
 - [[Powers_And_Roots]]
 - [[Properties_Of_Exponents]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

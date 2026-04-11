@@ -25,7 +25,7 @@ figures: []
 summary: "An oval curve built from two foci: every point on the ellipse has the same total distance to the two focus points."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Ellipses
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Ellipses
 
 # Ellipses
 
@@ -176,6 +176,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Circles]] — the limiting case where the two foci merge into one center
 - [[Parabolas]] — one focus and one line, instead of two foci
 - [[Hyperbolas]] — two foci with a difference-of-distances rule
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

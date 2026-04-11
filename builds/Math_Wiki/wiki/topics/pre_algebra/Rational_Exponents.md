@@ -25,7 +25,7 @@ figures: []
 summary: "Fractional exponents like a^(1/n) are roots in disguise, forced on us by the exponent rules."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Rational Exponents
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Rational Exponents
 
 # Rational Exponents
 
@@ -208,6 +208,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Product_Power_And_Quotient_Rules]]
 - [[Properties_Of_Exponents]]
 - [[Simplifying_Radical_Expressions]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

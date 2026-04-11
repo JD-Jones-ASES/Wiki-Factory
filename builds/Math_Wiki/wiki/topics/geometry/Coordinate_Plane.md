@@ -15,7 +15,7 @@ problem_type_ids: []
 summary: "The two-dimensional grid where every point has an (x, y) address."
 ---
 
-> [[_overview|Home]] > [[Geometry_Overview|Geometry]] > Coordinate Plane
+> [[_overview|Home]] > [[Geometry|Geometry]] > Coordinate Plane
 
 # Coordinate Plane
 
@@ -41,6 +41,6 @@ The two axes split the plane into four **quadrants**:
 ## See Also
 
 - [[Circles]]
-- [[Geometry_Overview]]
+- [[Geometry|Geometry]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

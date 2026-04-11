@@ -23,7 +23,7 @@ figures: []
 summary: "Sigma notation — a compact way to write a long sum, together with the linearity rules and closed-form identities that make those sums tractable."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Summation
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Summation
 
 # Summation
 
@@ -264,6 +264,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Sequences]] — arithmetic, geometric, and infinite geometric series
 - [[Arithmetic_Sequences_And_Linear_Patterns]] — the pre-algebra starting point
 - [[Exponential_Functions]] — the continuous cousin of a geometric sequence
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

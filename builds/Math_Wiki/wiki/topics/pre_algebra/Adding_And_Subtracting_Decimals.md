@@ -23,7 +23,7 @@ figures: []
 summary: "Add and subtract decimals by lining up the decimal points."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Adding and Subtracting Decimals
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Adding and Subtracting Decimals
 
 # Adding and Subtracting Decimals
 
@@ -178,12 +178,12 @@ _More problem types are coming soon._
 - [[Dividing_Decimals]] — a close cousin that also leans on place value
 - [[Adding_And_Subtracting_Fractions]] — a parallel universe where the common "denominator" replaces the decimal point
 - [[Converting_Between_Fractions_And_Decimals]] — moving between the two notations
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
 ---
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 5 (Decimals), Section 5.2: Adding and Subtracting Decimals

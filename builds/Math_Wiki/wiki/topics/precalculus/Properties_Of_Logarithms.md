@@ -26,7 +26,7 @@ figures: []
 summary: "Three identities turn log arithmetic into exponent arithmetic, and a change-of-base formula lets any calculator compute any log."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Properties of Logarithms
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Properties of Logarithms
 
 # Properties of Logarithms
 
@@ -211,6 +211,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Logarithms]]
 - [[Logarithmic_Equations]]
 - [[Exponential_Equations]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

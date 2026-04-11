@@ -24,7 +24,7 @@ figures: []
 summary: "Combining fractions by matching denominators, then adding or subtracting only the numerators."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Adding and Subtracting Fractions
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Adding and Subtracting Fractions
 
 # Adding and Subtracting Fractions
 
@@ -160,9 +160,9 @@ _More problem types are coming soon._
 - [[Dividing_Fractions]]
 - [[Mixed_Numbers_And_Improper_Fractions]]
 - [[Adding_And_Subtracting_Decimals]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 3, Section 3.5: Adding and Subtracting Fractions

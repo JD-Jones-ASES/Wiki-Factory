@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Exponents and Powers
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Exponents and Powers
 
 # Exponents and Powers
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math I** --- Chapter 1 (Whole Numbers and Order of Operations), Section 1.5: Exponents and Powers
 
 ## Definitions
 
@@ -35,21 +29,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 
 - **Zero Exponent** --- For any nonzero number~b: \[ b^{0} = 1. \]
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Writing in Exponential Form_ (from math_1)
-- _Evaluating Powers_ (from math_1)
-- _Exponents in Order of Operations_ (from math_1)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="exponents_and_powers"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

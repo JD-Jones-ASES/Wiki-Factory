@@ -23,7 +23,7 @@ figures: []
 summary: "A rate expressing cost, speed, or density per one unit of the other quantity."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Unit Rates
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Unit Rates
 
 # Unit Rates
 
@@ -143,12 +143,12 @@ _More problem types are coming soon._
 - [[Proportions_And_Cross_Multiplication]]
 - [[Applications_Of_Proportional_Reasoning]]
 - [[Units_Of_Measurement_And_Conversion]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
 ---
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 6 (Ratios, Rates, and Proportions), Section 6.2: Unit Rates

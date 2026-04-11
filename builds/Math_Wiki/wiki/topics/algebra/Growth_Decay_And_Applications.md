@@ -26,7 +26,7 @@ figures: ["algebra/compound_growth_comparison.svg"]
 summary: "Real-world exponential models: population growth, radioactive decay, half-life, compound interest, and depreciation."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Growth, Decay, and Applications
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Growth, Decay, and Applications
 
 # Growth, Decay, and Applications
 
@@ -305,6 +305,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Logarithmic_Functions]]
 - [[Simple_And_Compound_Interest]]
 - [[Applications_Of_Exponentials_And_Logarithms]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

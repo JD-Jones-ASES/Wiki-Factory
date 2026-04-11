@@ -23,7 +23,7 @@ figures: []
 summary: "How to divide decimals by sliding the decimal point so the divisor becomes a whole number."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Dividing Decimals
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Dividing Decimals
 
 # Dividing Decimals
 
@@ -138,10 +138,10 @@ _More problem types are coming soon._
 - [[Multiplying_Decimals]]
 - [[Dividing_Fractions]]
 - [[Place_Value_Rounding_And_Estimation]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 5, Section 5.4: Dividing Decimals

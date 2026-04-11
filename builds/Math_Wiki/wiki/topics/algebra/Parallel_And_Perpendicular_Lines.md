@@ -24,7 +24,7 @@ figures: ["algebra/parallel_perpendicular_lines.svg"]
 summary: "Parallel lines have equal slopes; perpendicular lines have slopes whose product is -1."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Parallel and Perpendicular Lines
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Parallel and Perpendicular Lines
 
 # Parallel and Perpendicular Lines
 
@@ -204,6 +204,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Slope_Intercept_Form]]
 - [[Writing_Linear_Equations]]
 - [[Linear_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

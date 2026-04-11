@@ -26,7 +26,7 @@ figures: []
 summary: "Different-looking fractions can name the same amount; simplest form is the cleanest way to write any of them."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Equivalent Fractions and Simplifying
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Equivalent Fractions and Simplifying
 
 # Equivalent Fractions and Simplifying
 
@@ -139,9 +139,9 @@ _More problem types are coming soon._
 - [[Adding_And_Subtracting_Fractions]]
 - [[Multiplying_Fractions]]
 - [[Dividing_Fractions]]
-- [[Algebra_Overview]]
+- [[Middle_School_Math|Middle School Math]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 3, Section 3.3.2: Equivalent Fractions and Simplifying

@@ -21,7 +21,7 @@ figures: []
 summary: "How far around a circle is, how much space it covers, and why one mysterious number — pi — controls both."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Circumference and Area of Circles
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Circumference and Area of Circles
 
 # Circumference and Area of Circles
 
@@ -168,6 +168,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 
 - [[Circles]] — the geometry-side treatment, with the circle equation $(x - h)^2 + (y - k)^2 = r^2$
 - [[Order_Of_Operations]] — for evaluating $\pi r^2$ correctly
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -27,7 +27,7 @@ figures: []
 summary: "Graph each inequality as a half-plane and take the overlap — the solution is the intersection region."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Systems of Linear Inequalities
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Systems of Linear Inequalities
 
 # Systems of Linear Inequalities
 
@@ -191,6 +191,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Solving_Systems_By_Substitution]]
 - [[Solving_Systems_By_Elimination]]
 - [[Slope_Intercept_Form]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -1,24 +1,30 @@
 ---
-title: "Topics Overview"
+title: "All Topics"
 type: overview
-aliases: ["All Topics", "Topics"]
+aliases: ["Topics Overview", "Topics", "Index"]
 tags: ["#navigation"]
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-11
 source_refs: []
 related: []
 status: complete
 confidence: high
-summary: "Index of every live topic (136) and stub topic (103) in Math Wiki."
+summary: "Alphabetical index of every live lesson and stub in Math Wiki, grouped by course."
 ---
 
-# Topics Overview
+> [[_overview|Home]] > All Topics
 
-> [[_overview|Home]] > Topics
+# All Topics
 
-Every math topic covered by the wiki lives on one page. This index lists the **136 live topics** (with full lessons and practice widgets) on top, then points at the branch hubs for the stubs still in the catalog.
+Every lesson in Math Wiki, grouped by course and listed alphabetically. Live topics (🟢) have full lessons, worked examples, and practice widgets. Stubs (⚪) are scaffolded but do not yet have lesson prose.
 
-Use **search** (the box in the left sidebar) to jump directly to a topic by name.
+Use **search** (the box in the left sidebar) to jump directly to a topic by name. Or pick a course hub below for a guided walkthrough.
+
+- [[Middle_School_Math|🔢 Middle School Math]] (Grades 6-8)
+- [[Algebra_1|📗 Algebra 1]]
+- [[Geometry|📕 Geometry]]
+- [[Algebra_2|📙 Algebra 2]]
+- [[Precalculus|📓 Pre-Calculus & Trigonometry]]
 
 ---
 
@@ -26,7 +32,7 @@ Use **search** (the box in the left sidebar) to jump directly to a topic by name
 
 Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed problem types, and cross-references to prerequisite and related topics.
 
-### Pre-Algebra (30 topics)
+### Middle School Math (42 topics)
 
 **Numbers and operations**
 - [[Place_Value_Rounding_And_Estimation|Place Value, Rounding, and Estimation]]
@@ -62,36 +68,32 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[The_Distributive_Property|The Distributive Property]]
 - [[Evaluating_Expressions|Evaluating Expressions]]
 - [[Slope_Intercept_Form|Slope-Intercept Form]]
-- [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
 
 **Coordinate plane and inequalities**
 - [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
 - [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 - [[Solving_One_Step_And_Two_Step_Inequalities|Solving One-Step and Two-Step Inequalities]]
 
-**Radicals and distance** (new in Cluster 4)
-- [[Rational_Exponents|Rational Exponents]]
-- [[The_Distance_Formula|The Distance Formula]]
-
-**Money math** (new in Cluster 6)
-- [[Simple_And_Compound_Interest|Simple and Compound Interest]]
-
-**Geometry foundations** (new in Cluster 7)
+**Geometry foundations**
+- [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
+- [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
 - [[Similar_Triangles|Similar Triangles]]
 - [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]]
-- [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
+- [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
+- [[The_Distance_Formula|The Distance Formula]]
+- [[Rational_Exponents|Rational Exponents]]
 
-**Sequences, probability, and statistics** (new in Cluster 8)
+**Sequences, probability, and statistics**
 - [[Arithmetic_Sequences_And_Linear_Patterns|Arithmetic Sequences]]
 - [[Probability_Of_Simple_And_Compound_Events|Probability of Simple and Compound Events]]
 - [[Mean_Median_Mode_And_Range|Mean, Median, Mode, and Range]]
 - [[Data_Displays|Data Displays]]
 - [[Data_Displays_And_Measures_Of_Spread|Histograms and Measures of Spread]]
 
-**Circle measurement** (new in Cluster 9)
-- [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
+**Money math**
+- [[Simple_And_Compound_Interest|Simple and Compound Interest]]
 
-### Algebra 1 (41 topics)
+### Algebra 1 (34 topics)
 
 **Equations**
 - [[One_Step_Equations|One-Step Equations]]
@@ -116,8 +118,9 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Absolute_Value_Inequalities|Absolute Value Inequalities]]
 - [[Systems_Of_Linear_Inequalities|Systems of Linear Inequalities]]
 
-**Polynomials and exponents** (expanded in Cluster 3)
+**Polynomials and exponents**
 - [[Properties_Of_Exponents|Properties of Exponents]]
+- [[Zero_And_Negative_Exponents|Zero and Negative Exponents]]
 - [[Adding_And_Subtracting_Polynomials|Adding and Subtracting Polynomials]]
 - [[Multiplying_Polynomials|Multiplying Polynomials]]
 - [[Special_Products|Special Products]]
@@ -134,60 +137,64 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[The_Discriminant|The Discriminant]]
 - [[Graphing_Quadratic_Functions|Graphing Quadratic Functions]]
 
-**Rational expressions** (new in Cluster 4)
+**Radicals and rationals**
+- [[Simplifying_Radical_Expressions|Simplifying Radical Expressions]]
+- [[Operations_With_Radicals|Operations with Radicals]]
 - [[Simplifying_Rational_Expressions|Simplifying Rational Expressions]]
 - [[Solving_Rational_Equations|Solving Rational Equations]]
 
-**Radicals and exponents** (new in Cluster 4)
-- [[Zero_And_Negative_Exponents|Zero and Negative Exponents]]
-- [[Simplifying_Radical_Expressions|Simplifying Radical Expressions]]
-- [[Operations_With_Radicals|Operations with Radicals]]
-
-**Functions** (new in Cluster 5)
+**Functions**
 - [[Relations_And_Functions|Relations and Functions]]
-- [[Function_Basics|Function Basics]]
-- [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]]
 
-### Algebra 2 (29 topics) (expanded in Cluster 9)
+### Geometry (8 live topics in the course view)
 
-**Functions and Modeling**
+Most of the live geometry-adjacent content currently lives under Middle School Math and Algebra 1 (Pythagorean theorem, similar triangles, coordinate plane, distance formula, triangle angle sum, circumference). The full HS Geometry cluster is the next major build phase.
+
+- [[Circles|Circles]] (coordinate view)
+- [[The_Pythagorean_Theorem|The Pythagorean Theorem]]
+- [[Applications_Of_The_Pythagorean_Theorem|Applications of the Pythagorean Theorem]]
+- [[Similar_Triangles|Similar Triangles]]
+- [[Triangle_Angle_Sum_And_Exterior_Angles|Triangle Angle Sum and Exterior Angles]]
+- [[Circumference_And_Area_Of_Circles|Circumference and Area of Circles]]
+- [[Plotting_Points_And_The_Coordinate_Plane|Plotting Points and the Coordinate Plane]]
+- [[The_Distance_Formula|The Distance Formula]]
+
+### Algebra 2 (32 topics)
+
+**Functions and modeling**
 - [[Linear_Functions|Linear Functions]]
 - [[Modeling_With_Linear_Functions|Modeling with Linear Functions]]
+- [[Function_Basics|Function Basics]]
+- [[Function_Arithmetic_And_Composition|Function Arithmetic and Composition]]
+- [[Inverse_Functions|Inverse Functions]]
 
 **Quadratics**
 - [[Completing_The_Square|Completing the Square]]
 - [[Quadratic_Functions|Quadratic Functions]]
 - [[Applications_Of_Quadratic_Functions|Applications of Quadratic Functions]]
 
-**Rational expressions** (new in Cluster 4)
+**Rational expressions**
 - [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]]
 - [[Adding_And_Subtracting_Rational_Expressions|Adding and Subtracting Rational Expressions]]
 - [[Rational_Equations_And_Applications|Rational Equations and Applications]]
 
-**Radical functions** (new in Cluster 4)
+**Radical functions**
 - [[Square_Root_Functions|Square Root Functions]]
 - [[Cube_Root_And_Other_Radical_Functions|Cube Root and Other Radical Functions]]
 
-**Conic sections and complex numbers** (new in Cluster 9)
-- [[Parabolas|Parabolas (Conic View)]]
-- [[Ellipses|Ellipses]]
-- [[Hyperbolas|Hyperbolas]]
-- [[The_Complex_Number_System|The Complex Number System]]
-
-**Parent function families** (new in Cluster 5)
-- [[Inverse_Functions|Inverse Functions]]
+**Parent function families**
 - [[Absolute_Value_Functions|Absolute Value Functions]]
 - [[Power_Functions|Power Functions]]
 - [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]]
 
-**Transformations and exotic functions** (new in Cluster 5)
+**Transformations and exotic functions**
 - [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]]
 - [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, Combined]]
 - [[Graphing_Rational_Functions_Part_1|Graphing Rational Functions (Part 1)]]
 - [[Graphing_Rational_Functions_Part_2|Graphing Rational Functions (Part 2)]]
 - [[More_Exotic_Functions|More Exotic Functions]]
 
-**Exponentials and logarithms** (new in Cluster 6)
+**Exponentials and logarithms**
 - [[Exponential_Functions|Exponential Functions]]
 - [[Exponential_Equations|Exponential Equations]]
 - [[Growth_Decay_And_Applications|Growth, Decay, and Applications]]
@@ -195,7 +202,16 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Logarithmic_Functions|Logarithmic Functions]]
 - [[Logarithmic_Equations|Logarithmic Equations]]
 
-### Pre-Calculus (27 topics) (expanded in Cluster 9 — final)
+**Conic sections and complex numbers**
+- [[Parabolas|Parabolas (Conic View)]]
+- [[Ellipses|Ellipses]]
+- [[Hyperbolas|Hyperbolas]]
+- [[The_Complex_Number_System|The Complex Number System]]
+
+**Sequences**
+- [[Sequences|Sequences (Arithmetic & Geometric)]]
+
+### Pre-Calculus & Trigonometry (27 topics)
 
 **Functions and rationals**
 - [[Function_Notation|Function Notation]]
@@ -206,7 +222,7 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Properties_Of_Logarithms|Properties of Logarithms]]
 - [[Applications_Of_Exponentials_And_Logarithms|Applications of Exponentials and Logarithms]]
 
-**Trigonometry** (new in Cluster 7)
+**Trigonometry**
 - [[Angles|Angles and Radian Measure]]
 - [[Circular_Functions|Circular Functions]]
 - [[The_Unit_Circle|The Unit Circle]]
@@ -218,16 +234,16 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Law_Of_Sines|Law of Sines]]
 - [[Law_Of_Cosines|Law of Cosines]]
 
-**Vectors** (new in Cluster 7)
+**Vectors**
 - [[Vectors|Vectors]]
 - [[Dot_Product|Dot Product]]
 
-**Sequences and binomial** (new in Cluster 8)
+**Sequences and binomial**
 - [[Summation|Sigma Notation and Summation]]
 - [[Binomial|The Binomial Theorem]]
 - [[Induction|Mathematical Induction]]
 
-**Polar, complex, and matrices** (new in Cluster 9)
+**Polar, complex, and matrices**
 - [[Introduction_To_Polar_Coordinates|Polar Coordinates]]
 - [[Polar_Form_Of_Complex_Numbers|Polar Form of Complex Numbers]]
 - [[Complex_Zeros|Complex Zeros of Polynomials]]
@@ -236,30 +252,19 @@ Every topic below has a full lesson, 2+ worked examples, 3+ generator-backed pro
 - [[Determinants|Determinants]]
 - [[Matrix_Methods|Matrix Methods for Systems]]
 
-### Geometry (1 topic)
-
-- [[Circles|Circles]]
-
 ---
 
-## ⚪ Stub Topics (103)
+## ⚪ Stub Topics
 
-Every remaining topic is listed under its branch hub with the full catalog coverage. Stubs have the frontmatter and source references but no prose or practice widgets yet. The 9-cluster plan is **complete** — the 103 remaining stubs are lower-priority catalog entries that weren't in the core curriculum scope.
+Every remaining topic is listed inside its course hub under a collapsed "stub topic(s)" section. Stubs have the frontmatter and navigation scaffolding but no lesson prose or practice widgets yet.
 
-- [[Algebra_Overview|Algebra branch hub]] (pre-algebra + Algebra 1 + Algebra 2 stubs, ~82 stubs)
-- [[Geometry_Overview|Geometry branch hub]] (coordinate plane, ~1 stub)
-- [[Precalculus_Overview|Pre-Calculus branch hub]] (remaining Stitz-Zeager content, ~20 stubs)
+- [[Middle_School_Math|Middle School Math hub]] (50 stubs)
+- [[Algebra_1|Algebra 1 hub]] (16 stubs)
+- [[Algebra_2|Algebra 2 hub]] (16 stubs)
+- [[Precalculus|Pre-Calculus hub]] (20 stubs)
+- [[Geometry|Geometry hub]] (13 stubs)
 
-See [[Topic_Status|Progress Dashboard]] for per-topic scores and status.
-
----
-
-## Browse by Branch
-
-- [[Algebra_Overview|Algebra]] --- variables, equations, functions, quadratics, polynomials
-- [[Geometry_Overview|Geometry]] --- shapes, triangles, circles, coordinate geometry
-- [[Trigonometry_Overview|Trigonometry]] --- triangles, unit circle, identities, laws _(scheduled for Cluster 7)_
-- [[Precalculus_Overview|Pre-Calculus]] --- logs, sequences, conic sections
+See [[Topic_Status|Progress Dashboard]] for per-topic completion scores.
 
 ---
 
@@ -268,4 +273,4 @@ See [[Topic_Status|Progress Dashboard]] for per-topic scores and status.
 - [[_overview|Home]]
 - [[Vault|Your Practice Vault]]
 - [[Topic_Status|Progress Dashboard]]
-- [[Formulas_Overview]] · [[Techniques_Overview]] · [[Problem_Types_Overview]]
+- [[Formulas_Overview|🧮 Formulas]]

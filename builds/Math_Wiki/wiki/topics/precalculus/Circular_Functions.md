@@ -25,7 +25,7 @@ figures: ["precalculus/right_triangle_soh_cah_toa.svg"]
 summary: "Sine and cosine of any angle, defined as the coordinates of a point on the unit circle — extending right-triangle trig to every real angle."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Circular Functions
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Circular Functions
 
 # Circular Functions
 
@@ -167,7 +167,7 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Graphs_Of_Trigonometric_Functions]] — what these functions look like plotted across the real line
 - [[Identities]] — the reciprocal, quotient, and Pythagorean identities in full
 - [[Inverse_Trigonometric_Functions]] — undoing sine, cosine, and tangent
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 </content>

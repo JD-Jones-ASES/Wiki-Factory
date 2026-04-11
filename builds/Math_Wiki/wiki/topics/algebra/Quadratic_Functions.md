@@ -28,7 +28,7 @@ figures: []
 summary: "Two ways to write the same parabola: standard form shows the y-intercept, vertex form shows the turning point."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Quadratic Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Quadratic Functions
 
 # Quadratic Functions
 
@@ -207,6 +207,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[The_Quadratic_Formula]]
 - [[The_Discriminant]]
 - [[Applications_Of_Quadratic_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

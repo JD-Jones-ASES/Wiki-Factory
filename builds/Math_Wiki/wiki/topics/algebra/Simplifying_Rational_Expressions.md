@@ -32,7 +32,7 @@ figures: []
 summary: "Factor the top, factor the bottom, cancel what matches — then keep track of every x the original denominator hated."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Simplifying Rational Expressions
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Simplifying Rational Expressions
 
 # Simplifying Rational Expressions
 
@@ -195,6 +195,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Solving_Rational_Equations]]
 - [[Factoring_Completely]]
 - [[Equivalent_Fractions_And_Simplifying]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -13,26 +13,12 @@ branch: algebra-1
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Applications of Systems
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Applications of Systems
 
 # Applications of Systems
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra I** --- Chapter 5 (Systems of Equations and Inequalities), Section 5.4: Applications of Systems
-
-## Example Walkthroughs Available
-
-The source books contain **3 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _A Mixture Problem_ (from algebra_1)
-- _A Distance--Rate--Time Problem_ (from algebra_1)
-- _A Cost / Break-Even Problem_ (from algebra_1)
 
 ## Problems Involving This Topic
 
@@ -40,6 +26,6 @@ The source books contain **3 worked example(s)** for this topic. Selected exampl
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

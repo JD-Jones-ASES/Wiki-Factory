@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Applications of Proportional Reasoning
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Applications of Proportional Reasoning
 
 # Applications of Proportional Reasoning
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math I** --- Chapter 6 (Ratios, Rates, and Proportions), Section 6.5: Applications of Proportional Reasoning
 
 ## Definitions
 
@@ -36,21 +30,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **Solving with a Conversion Factor** --- To convert between units, set up a proportion using the conversion factor: \[ known unit/desired unit = given quantity/x \] Then cross multiply and solve.
 - **Percent as a Proportion** --- A percent problem can be written as the proportion \[ part/whole = percent/100 \] where the percent is the number before the \% sign.
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Currency Conversion_ (from math_1)
-- _Recipe Scaling_ (from math_1)
-- _Similar Triangles_ (from math_1)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="applications_of_proportional_reasoning"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

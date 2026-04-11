@@ -22,7 +22,7 @@ figures: []
 summary: "A single number attached to every square matrix that detects invertibility and measures signed area or volume."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Determinants
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Determinants
 
 # Determinants
 
@@ -211,6 +211,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Matrix_Arithmetic]] — the operations determinants sit on top of
 - [[Matrix_Methods]] — solving systems with matrices, including Cramer's rule which is built from determinants
 - [[Augmented_Matrices]] — an alternative approach to square systems using row reduction
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -27,7 +27,7 @@ figures: ["algebra/log_exp_inverses.svg"]
 summary: "The function f(x) = log_b(x) is the mirror image of the exponential b^x across y = x — its full shape, domain, and behavior fall out of that single fact."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Logarithmic Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Logarithmic Functions
 
 # Logarithmic Functions
 
@@ -169,6 +169,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Exponential_Functions]]
 - [[Inverse_Functions]]
 - [[Transformations_I_Shifts_And_Reflections]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

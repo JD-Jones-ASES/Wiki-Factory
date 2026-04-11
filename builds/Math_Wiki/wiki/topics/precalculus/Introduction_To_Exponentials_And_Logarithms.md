@@ -26,7 +26,7 @@ figures: []
 summary: "A high-level tour of the exponential and logarithmic families, their inverse relationship, and the two bases that matter most: 10 and e."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Introduction to Exponentials and Logarithms
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Introduction to Exponentials and Logarithms
 
 # Introduction to Exponentials and Logarithms
 
@@ -166,6 +166,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Properties_Of_Logarithms]]
 - [[Applications_Of_Exponentials_And_Logarithms]]
 - [[Growth_Decay_And_Applications]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

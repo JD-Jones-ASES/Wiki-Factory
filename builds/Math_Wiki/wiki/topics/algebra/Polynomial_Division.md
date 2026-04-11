@@ -13,18 +13,12 @@ branch: algebra-2
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Polynomial Division
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Polynomial Division
 
 # Polynomial Division
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra II** --- Chapter 5 (Polynomials), Section 5.4: Polynomial Division
 
 ## Definitions
 
@@ -36,21 +30,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **(untitled)** --- {Synthetic Division Procedure}{ch05:synth-proc} To divide P(x) by (x - c): enumerate Write the coefficients of P in a row (including zeros for missing terms). Write c to the left. Bring down the first...
 - **(untitled)** --- {Remainder Theorem}{remainder-thm} If a polynomial P(x) is divided by (x - c), the remainder equals P(c). That is, \[ P(x) = (x-c)\,Q(x) + P(c). \]
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="polynomial_division"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

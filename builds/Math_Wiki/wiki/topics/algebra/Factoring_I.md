@@ -13,18 +13,12 @@ branch: algebra-2
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Factoring I
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Factoring I
 
 # Factoring I
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra II** --- Chapter 5 (Polynomials), Section 5.3: Factoring I
 
 ## Definitions
 
@@ -38,21 +32,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **(untitled)** --- {Sum and Difference of Cubes}{ch05:cube-factors} For any real expressions A and B: align* A^3 + B^3 &= (A+B)(A^2 - AB + B^2) \\ A^3 - B^3 &= (A-B)(A^2 + AB + B^2) align* The trinomial factor A^2 AB + ...
 - **(untitled)** --- {The AC Method}{ch05:ac-method} % To factor ax^2 + bx + c with a 1: enumerate Compute the product ac. Find integers m and n with mn = ac and m + n = b. Rewrite the middle term: ax^2 + mx + nx + c. Fac...
 
-## Example Walkthroughs Available
-
-The source books contain **8 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- ... and 5 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="factoring_i"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

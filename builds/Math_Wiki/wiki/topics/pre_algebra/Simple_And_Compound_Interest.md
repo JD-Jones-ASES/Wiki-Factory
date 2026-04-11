@@ -23,7 +23,7 @@ figures: []
 summary: "Two formulas for money growing over time — simple interest is a flat add-on each year, compound interest earns interest on its own interest."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Simple and Compound Interest
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Simple and Compound Interest
 
 # Simple and Compound Interest
 
@@ -199,6 +199,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Percent_Increase_And_Decrease]]
 - [[Applications_Tax_Tip_Discount_And_Simple_Interest]]
 - [[Understanding_Percents]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

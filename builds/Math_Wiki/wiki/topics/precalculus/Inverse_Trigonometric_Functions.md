@@ -25,7 +25,7 @@ figures: []
 summary: "Arcsin, arccos, and arctan undo sine, cosine, and tangent — but only after restricting the domain of each trig function to a stretch where it's one-to-one."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Inverse Trigonometric Functions
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Inverse Trigonometric Functions
 
 # Inverse Trigonometric Functions
 
@@ -163,7 +163,7 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[The_Unit_Circle]] — where the exact values come from
 - [[Graphs_Of_Trigonometric_Functions]] — the restricted pieces that define the inverses
 - [[Trigonometric_Equations]] — when you want every solution, not just the principal one
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 </content>

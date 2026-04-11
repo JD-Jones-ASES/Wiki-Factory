@@ -23,7 +23,7 @@ figures: []
 summary: "Turning real-world rate, work, and travel scenarios into rational equations, then solving and interpreting the answer."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Rational Equations and Applications
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Rational Equations and Applications
 
 # Rational Equations and Applications
 
@@ -205,6 +205,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Simplifying_Rational_Expressions]]
 - [[Multi_Step_Equations]]
 - [[Modeling_With_Linear_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -26,7 +26,7 @@ figures: ["algebra/parabola_vertex_axis_of_symmetry.svg"]
 summary: "Sketch the parabola y = ax² + bx + c by finding the vertex with x = -b/(2a), plotting the y-intercept and its symmetric partner, and using the sign and size of a to set direction and width."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Graphing Quadratic Functions
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Graphing Quadratic Functions
 
 # Graphing Quadratic Functions
 
@@ -233,6 +233,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Solving_Quadratics_By_Factoring]]
 - [[Completing_The_Square]]
 - [[Parabolas]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

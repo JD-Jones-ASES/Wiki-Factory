@@ -29,7 +29,7 @@ figures: []
 summary: "To solve an equation with logs, collapse the log terms, convert to exponential form, and always reject solutions that make any argument nonpositive."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Logarithmic Equations
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Logarithmic Equations
 
 # Logarithmic Equations
 
@@ -192,6 +192,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Exponential_Equations]]
 - [[Exponential_Functions]]
 - [[Inverse_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

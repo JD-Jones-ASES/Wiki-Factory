@@ -26,7 +26,7 @@ figures: []
 summary: "The unified factoring flow: pull the GCF, count the remaining terms, pick the matching pattern, and keep going until nothing splits."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Factoring Completely
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Factoring Completely
 
 # Factoring Completely
 
@@ -181,6 +181,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Factoring_Trinomials_General]]
 - [[Factoring_Special_Forms]]
 - [[Solving_Quadratics_By_Factoring]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

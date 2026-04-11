@@ -26,7 +26,7 @@ figures: []
 summary: "Find the angles that make a trig equation true; a single angle always expands into an infinite periodic family."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Trigonometric Equations
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Trigonometric Equations
 
 # Trigonometric Equations
 
@@ -164,6 +164,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Inverse_Trigonometric_Functions]] — needed for lookups off the standard unit circle
 - [[Graphs_Of_Trigonometric_Functions]] — every solution is an $x$-intercept of a shifted trig graph
 - [[Trigonometric_Inequalities]] — the next step, once equations feel easy
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

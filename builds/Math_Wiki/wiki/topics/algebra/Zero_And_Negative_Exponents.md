@@ -22,7 +22,7 @@ figures: []
 summary: "Extending the exponent rules to cover a^0 and a^(-n), with the quotient rule as the bridge."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Zero and Negative Exponents
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Zero and Negative Exponents
 
 # Zero and Negative Exponents
 
@@ -188,6 +188,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Properties_Of_Exponents]]
 - [[Simplifying_Rational_Expressions]]
 - [[Polynomial_Division]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

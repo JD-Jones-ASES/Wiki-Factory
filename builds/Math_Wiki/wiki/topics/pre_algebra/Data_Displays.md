@@ -21,7 +21,7 @@ figures: ["pre_algebra/histogram_example.svg"]
 summary: "Bars, lines, slices, dots, and stems: pick the visual that matches the question you are asking."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Data Displays
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Data Displays
 
 # Data Displays
 
@@ -167,6 +167,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Mean_Median_Mode_And_Range]]
 - [[Data_Displays_And_Measures_Of_Spread]]
 - [[Finding_A_Percent_Of_A_Number]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

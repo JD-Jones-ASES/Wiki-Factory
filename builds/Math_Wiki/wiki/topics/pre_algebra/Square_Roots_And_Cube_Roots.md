@@ -22,7 +22,7 @@ figures: []
 summary: "Square roots, cube roots, and how to evaluate and estimate them."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Square Roots and Cube Roots
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Square Roots and Cube Roots
 
 # Square Roots and Cube Roots
 
@@ -195,7 +195,7 @@ Pick a problem type, choose a difficulty, choose how many problems you want, and
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[Vault|Your Practice Vault]]
 - [[_overview|Home]]

@@ -25,7 +25,7 @@ figures: []
 summary: "Two parallel strategies for solving A x = b: row-reduction on the augmented matrix, and the inverse matrix shortcut."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Matrix Methods for Systems
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Matrix Methods for Systems
 
 # Matrix Methods for Systems
 
@@ -263,6 +263,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Determinants]] — the gatekeeper that tells you whether the inverse method will work
 - [[Solving_Systems_By_Substitution]] — the pencil-and-paper cousin for small systems
 - [[Solving_Systems_By_Elimination]] — the pencil-and-paper ancestor of Gaussian elimination
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

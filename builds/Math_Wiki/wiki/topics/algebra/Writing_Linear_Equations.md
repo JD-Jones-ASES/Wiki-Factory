@@ -25,7 +25,7 @@ figures: []
 summary: "Given slope and intercept, slope and a point, or two points — write the equation of the line."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Writing Linear Equations
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Writing Linear Equations
 
 # Writing Linear Equations
 
@@ -235,6 +235,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Parallel_And_Perpendicular_Lines]]
 - [[Linear_Functions]]
 - [[Graphing_Linear_Equations_From_Tables]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

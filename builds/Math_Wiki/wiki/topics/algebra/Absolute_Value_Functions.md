@@ -29,7 +29,7 @@ figures: []
 summary: "f(x) = |x| is a V-shape with vertex at the origin; the form a|x - h| + k slides, stretches, and flips it."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Absolute Value Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Absolute Value Functions
 
 # Absolute Value Functions
 
@@ -189,6 +189,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Transformations_Ii_Stretches_Compressions_And_Combined]]
 - [[Quadratic_Functions]]
 - [[Linear_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

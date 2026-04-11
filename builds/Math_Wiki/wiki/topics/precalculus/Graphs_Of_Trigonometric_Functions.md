@@ -25,7 +25,7 @@ figures: ["precalculus/sine_cosine_graphs.svg"]
 summary: "What sine, cosine, and tangent look like plotted across the real line: waves with period 2 pi, and a tangent graph broken by vertical asymptotes."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Graphs of Trigonometric Functions
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Graphs of Trigonometric Functions
 
 # Graphs of Trigonometric Functions
 
@@ -189,7 +189,7 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Sinusoid]] — shifts, stretches, and full transformations of the sine and cosine curves
 - [[Inverse_Trigonometric_Functions]] — the curves obtained by reflecting these graphs across $y = x$
 - [[Identities]] — algebraic connections between sine, cosine, and tangent
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 </content>

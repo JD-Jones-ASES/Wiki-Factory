@@ -26,7 +26,7 @@ figures: []
 summary: "Any stretched, shifted sine or cosine wave. Four parameters — amplitude, period, phase shift, midline — fully describe the shape."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Sinusoid
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Sinusoid
 
 # Sinusoid
 
@@ -164,6 +164,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[The_Unit_Circle]]
 - [[Identities]] — sometimes the fastest route to a sinusoid form is an identity rewrite
 - [[Transformations]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

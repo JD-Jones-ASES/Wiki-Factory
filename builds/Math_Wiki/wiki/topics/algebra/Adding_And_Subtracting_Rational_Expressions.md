@@ -25,7 +25,7 @@ figures: []
 summary: "Match the denominators, combine the numerators, then simplify — algebra's version of adding numeric fractions, with polynomials on the bottom."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Adding and Subtracting Rational Expressions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Adding and Subtracting Rational Expressions
 
 # Adding and Subtracting Rational Expressions
 
@@ -192,6 +192,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Solving_Rational_Equations]]
 - [[Rational_Equations_And_Applications]]
 - [[Factoring_Trinomials_Leading_Coefficient_1]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

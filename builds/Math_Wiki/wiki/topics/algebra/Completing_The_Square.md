@@ -28,7 +28,7 @@ figures: ["algebra/perfect_square_completion.svg"]
 summary: "Rebuild any quadratic into (x - h)^2 = k by manufacturing a perfect square trinomial, then finish with a square root."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Completing the Square
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Completing the Square
 
 # Completing the Square
 
@@ -270,6 +270,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Special_Products]]
 - [[Factoring_Special_Forms]]
 - [[Graphing_Quadratic_Functions]] — completing the square is how you convert a quadratic into vertex form
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

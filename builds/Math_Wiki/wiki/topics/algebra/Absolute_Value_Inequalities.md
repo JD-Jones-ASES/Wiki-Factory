@@ -24,7 +24,7 @@ figures: []
 summary: "|expr| < k is an AND compound inequality between -k and k; |expr| > k is an OR compound inequality outside -k and k."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Absolute Value Inequalities
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Absolute Value Inequalities
 
 # Absolute Value Inequalities
 
@@ -190,6 +190,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Compound_Inequalities]]
 - [[Inequalities_And_Their_Graphs]]
 - [[Solving_Multi_Step_Inequalities]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

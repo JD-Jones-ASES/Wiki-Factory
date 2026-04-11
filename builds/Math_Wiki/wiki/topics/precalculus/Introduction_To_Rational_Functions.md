@@ -25,7 +25,7 @@ figures: []
 summary: "A gentle welcome to rational functions via the reciprocal parent and its shifted cousins."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Introduction to Rational Functions
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Introduction to Rational Functions
 
 # Introduction to Rational Functions
 
@@ -158,6 +158,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Graphing_Rational_Functions_Part_2]] — slant asymptotes and sign diagrams
 - [[Simplifying_Rational_Expressions]] — algebraic prep for the graphing work
 - [[Power_Functions]] — the reciprocal is the $n = -1$ case of the power family
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -23,7 +23,7 @@ figures: []
 summary: "a(b + c) = ab + ac: multiply each term inside the parens."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > The Distributive Property
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > The Distributive Property
 
 # The Distributive Property
 
@@ -168,6 +168,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[The_Distributive_Property_With_Variables]]
 - [[Solving_Equations_With_The_Distributive_Property]]
 - [[Simplifying_Expressions]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

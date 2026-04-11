@@ -28,7 +28,7 @@ figures: []
 summary: "Use the same moves as an equation, with one extra rule: flip the symbol whenever you multiply or divide by a negative."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Solving Multi-Step Inequalities
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Solving Multi-Step Inequalities
 
 # Solving Multi-Step Inequalities
 
@@ -252,6 +252,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Systems_Of_Linear_Inequalities]]
 - [[Multi_Step_Equations]]
 - [[Linear_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

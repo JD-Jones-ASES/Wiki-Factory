@@ -25,7 +25,7 @@ figures: []
 summary: "Comparing expressions with <, >, \u2264, \u2265 and picturing the infinite set of solutions on a number line."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Inequalities and Their Graphs
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Inequalities and Their Graphs
 
 # Inequalities and Their Graphs
 
@@ -145,6 +145,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Compound_Inequalities]]
 - [[Absolute_Value_Inequalities]]
 - [[Systems_Of_Linear_Inequalities]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

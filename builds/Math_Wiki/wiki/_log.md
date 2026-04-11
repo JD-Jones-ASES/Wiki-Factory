@@ -81,3 +81,59 @@ End-to-end proof of the interactive stack. One topic (Circles) fully built, with
 - Enriched Probability_Of_Simple_And_Compound_Events.md (pre-algebra, 1113 body words)
 - Enriched Binomial.md (pre-calculus, 1511 body words)
 - Enriched Induction.md (pre-calculus, 1522 body words)
+
+## [2026-04-11] Phase 1 | Standalone conversion + course-based navigation redesign
+
+**Navigation redesign (5 course hubs, replacing 4 branch hubs):**
+- Created `wiki/Middle_School_Math.md`, `Algebra_1.md`, `Geometry.md`, `Algebra_2.md`, `Precalculus.md`. Each has a hand-written intro, a suggested learning path, and an `AUTO:TOPICS:BEGIN/END` block populated by the new `tools/update_course_hubs.py`.
+- Hub topic counts (live / total): Middle School Math 42/92, Algebra 1 34/50, Algebra 2 32/48, Pre-Calculus & Trig 27/47, Geometry 8/21 (2 geometry + 8 allowlisted pre-algebra adjacents, plus 11 stubs).
+- `tools/update_course_hubs.py` (replacing `update_branch_hubs.py`) walks `wiki/topics/**/*.md`, reads each topic's `branch:` frontmatter, groups by course, and marks live vs stub via `problem_types_index.json`. A second pass pulls geometry-adjacent pre-algebra topics into the Geometry hub via an explicit `GEOMETRY_ADJACENT_ALLOWLIST`.
+- Rewrote `wiki/_overview.md` to center on 5 course hub cards + 16 learning paths + tool links. Removed "paraphrased from 5 textbooks" language.
+- Rewrote `wiki/Topics_Overview.md` alphabetical index grouped by course.
+- `quartz.layout.ts` sidebar map trimmed from 14 entries to 10: 🏠 Home, 🔢 Middle School Math, 📗 Algebra 1, 📕 Geometry, 📙 Algebra 2, 📓 Pre-Calculus & Trig, 📖 All Topics, 🎒 Your Vault, 📊 Progress, 🧮 Formulas.
+- `mathExplorerFilter` now also hides `entities`, `synthesis`, `techniques`, `sources` folders (even after deletion, as a safety net).
+
+**Source purge (standalone conversion):**
+- `tools/purge_source_mentions.py` stripped 4 types of source-book boilerplate from **133 stub topic files**:
+  1. The blockquote callout `> _This is an auto-generated stub..._`
+  2. The `## In the Source Books` section
+  3. The `## Example Walkthroughs Available` section (with its `(from algebra_1)` attributions)
+  4. Frontmatter `summary:` lines mentioning "source section(s) across the ingested textbooks"
+- YAML `source_refs:` field preserved as internal metadata (never rendered, still read by build tooling).
+
+**Breadcrumb + wikilink sweep:**
+- `tools/rewrite_breadcrumbs.py` rewrote every `> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Title` breadcrumb and every See Also `[[Algebra_Overview|Algebra]]` wikilink in **239 topic files** to point at the new course hub (`Middle_School_Math`, `Algebra_1`, `Algebra_2`, `Precalculus`, `Geometry`) based on each topic's `branch:` field.
+- Verified: `grep -rn '\[\[Algebra_Overview\|\[\[Precalculus_Overview\|\[\[Geometry_Overview\|\[\[Trigonometry_Overview' wiki/` returns zero matches.
+
+**Deletions (aggressive cleanup):**
+- Deleted old branch hubs: `Algebra_Overview.md`, `Geometry_Overview.md`, `Trigonometry_Overview.md`, `Precalculus_Overview.md`.
+- Deleted empty-shell overview pages: `Sources_Overview.md`, `Entities_Overview.md`, `Synthesis_Overview.md`, `Techniques_Overview.md`, `Problem_Types_Overview.md`.
+- Deleted empty folders: `wiki/sources/`, `wiki/entities/`, `wiki/synthesis/`, `wiki/techniques/`, `wiki/topics/trigonometry/`.
+- Deleted obsolete script: `tools/update_branch_hubs.py`.
+- Kept `Formulas_Overview.md` (one real page + room to grow during Phase 2 Geometry cluster).
+
+**Cleanup of dangling references:**
+- Fixed dead wikilinks in `Formulas_Overview.md` and `Vault.md` to point at course hubs.
+- Rebuilt `_index.md` via `factory/scripts/build_index.py`.
+- Removed "Source Tags" section from `_tag_taxonomy.md`; reworded `#topic-auto-generated` description to drop "ingested textbook catalog" language; renumbered sections 1-6.
+
+**Math_Wiki.md spec updated (v2.0.0 → v2.1.0):**
+- Added "Presentation: Standalone wiki" field to the header table.
+- Rewrote the 30-second mental model and Where-things-live sections for course-first navigation.
+- Navigation Design section updated to reflect the 10-entry sidebar map.
+- Toolchain table updated (`update_course_hubs.py` replaces `update_branch_hubs.py`).
+- Topic skeleton breadcrumb template updated.
+
+**Validation after Phase 1:**
+- `pytest generators/tests/ -q`: **29/29 passing**.
+- `validate_yaml.py wiki/`: **253 files clean**.
+- `lint_wiki.py wiki/`: **0 errors, 0 warnings, 1 info** (121 stubs --- expected).
+- `topic_status.py`: 239 topics, 134 with 3+ generators, avg score 50.1 (was 53.4 --- drop is expected from stub source-section removal).
+- `grep -rln 'In the Source Books|ingested textbook|source textbook' wiki/`: **empty**.
+
+**Scope of changes:**
+- **Created:** 5 course hubs, 2 one-shot scripts (`purge_source_mentions.py`, `rewrite_breadcrumbs.py`), 1 permanent script (`update_course_hubs.py`).
+- **Modified:** 239 topic files (breadcrumbs + source-section strip), `_overview.md`, `Topics_Overview.md`, `_index.md`, `_tag_taxonomy.md`, `Vault.md`, `Formulas_Overview.md`, `Topic_Status.md`, `quartz.layout.ts`, `Math_Wiki.md`, `_log.md`.
+- **Deleted:** 9 old overview pages, 1 obsolete script, 5 empty directories.
+
+**Phase 1 complete.** Student-facing wiki is now standalone and course-first. Next: Cluster 10 (HS Geometry expansion).

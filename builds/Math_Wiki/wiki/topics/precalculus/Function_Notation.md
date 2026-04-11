@@ -26,7 +26,7 @@ figures: []
 summary: "The symbol f(x) is a naming system for function outputs — read it as 'f at x', never as multiplication."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Function Notation
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Function Notation
 
 # Function Notation
 
@@ -184,6 +184,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Linear_Functions]]
 - [[Function_Arithmetic_And_Composition]]
 - [[Inverse_Functions]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

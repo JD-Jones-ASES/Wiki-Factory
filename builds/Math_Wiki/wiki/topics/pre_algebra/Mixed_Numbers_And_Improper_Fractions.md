@@ -25,7 +25,7 @@ figures: []
 summary: "Any amount bigger than one whole can be written two ways: as an improper fraction or as a mixed number."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Mixed Numbers and Improper Fractions
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Mixed Numbers and Improper Fractions
 
 # Mixed Numbers and Improper Fractions
 
@@ -133,9 +133,9 @@ _More problem types are coming soon._
 - [[Multiplying_Fractions]]
 - [[Dividing_Fractions]]
 - [[Comparing_And_Ordering_Fractions]]
-- [[Algebra_Overview]]
+- [[Middle_School_Math|Middle School Math]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 3, Section 3.3.3: Mixed Numbers and Improper Fractions

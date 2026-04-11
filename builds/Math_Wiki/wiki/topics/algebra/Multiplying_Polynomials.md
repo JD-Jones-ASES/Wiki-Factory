@@ -27,7 +27,7 @@ figures: ["algebra/area_model_multiplication.svg"]
 summary: "Every term of the first polynomial meets every term of the second — it's all just distribution, repeated."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Multiplying Polynomials
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Multiplying Polynomials
 
 # Multiplying Polynomials
 
@@ -236,6 +236,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Factoring_Trinomials_General]]
 - [[Properties_Of_Exponents]]
 - [[The_Distributive_Property]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

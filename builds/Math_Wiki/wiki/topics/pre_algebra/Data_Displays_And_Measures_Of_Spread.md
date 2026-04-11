@@ -21,7 +21,7 @@ figures: ["pre_algebra/box_plot.svg"]
 summary: "Histograms, box plots, quartiles, IQR, and the outlier rule: tools for numeric data spread."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Data Displays and Measures of Spread
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Data Displays and Measures of Spread
 
 # Data Displays and Measures of Spread
 
@@ -213,6 +213,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 
 - [[Data_Displays]]
 - [[Mean_Median_Mode_And_Range]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

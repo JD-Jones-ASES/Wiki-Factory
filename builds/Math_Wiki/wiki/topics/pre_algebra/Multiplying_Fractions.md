@@ -23,7 +23,7 @@ figures: []
 summary: "Multiply fractions by multiplying numerators and denominators, then simplify."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Multiplying Fractions
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Multiplying Fractions
 
 # Multiplying Fractions
 
@@ -131,6 +131,6 @@ _More problem types are coming soon._
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 4 (Multiplying and Dividing Fractions), Section 4.1: Multiplying Fractions

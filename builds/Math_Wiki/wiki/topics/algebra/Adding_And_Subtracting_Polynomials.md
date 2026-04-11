@@ -26,7 +26,7 @@ figures: []
 summary: "Line up like terms, add their coefficients, and remember to flip every sign when you subtract."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Adding and Subtracting Polynomials
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Adding and Subtracting Polynomials
 
 # Adding and Subtracting Polynomials
 
@@ -193,6 +193,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Factoring_Trinomials_Leading_Coefficient_1]]
 - [[Greatest_Common_Factor]]
 - [[The_Distributive_Property]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

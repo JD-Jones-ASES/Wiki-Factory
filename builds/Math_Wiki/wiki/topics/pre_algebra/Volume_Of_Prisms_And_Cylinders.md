@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Volume of Prisms and Cylinders
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Volume of Prisms and Cylinders
 
 # Volume of Prisms and Cylinders
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math II** --- Chapter 6 (Measurement and Geometry), Section 6.3: Volume of Prisms and Cylinders
 
 ## Definitions
 
@@ -35,21 +29,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **Volume of a Prism** --- For any prism with base area~B and height~h: \[ V = Bh \] For a rectangular prism: V = lwh.
 - **Volume of a Cylinder** --- For a cylinder with radius~r and height~h: \[ V = r^2 h \]
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Volume of a Rectangular Prism_ (from math_2)
-- _Volume of a Triangular Prism_ (from math_2)
-- _Swimming Pool (Application)_ (from math_2)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="volume_of_prisms_and_cylinders"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -23,7 +23,7 @@ figures: []
 summary: "Every triangle's three interior angles sum to 180 degrees, and each exterior angle equals the sum of the two non-adjacent interior angles."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Triangle Angle Sum and Exterior Angles
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Triangle Angle Sum and Exterior Angles
 
 # Triangle Angle Sum and Exterior Angles
 
@@ -177,6 +177,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Similar_Triangles]]
 - [[The_Pythagorean_Theorem]]
 - [[Similar_Triangles]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

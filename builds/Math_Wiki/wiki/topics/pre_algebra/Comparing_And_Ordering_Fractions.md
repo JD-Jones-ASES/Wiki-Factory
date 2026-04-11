@@ -23,7 +23,7 @@ figures: []
 summary: "Deciding which of two fractions is larger, and putting a list of fractions in order."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Comparing and Ordering Fractions
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Comparing and Ordering Fractions
 
 # Comparing and Ordering Fractions
 
@@ -161,9 +161,9 @@ _More problem types are coming soon._
 - [[Mixed_Numbers_And_Improper_Fractions]]
 - [[Comparing_And_Ordering_Rational_Numbers]]
 - [[Equivalent_Fractions_And_Simplifying]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 3, Section 3.4: Comparing and Ordering Fractions

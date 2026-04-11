@@ -22,7 +22,7 @@ figures: []
 summary: "Sign rules for integer products and quotients, and why two negatives combine to make a positive."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Multiplying and Dividing Integers
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Multiplying and Dividing Integers
 
 # Multiplying and Dividing Integers
 
@@ -129,11 +129,11 @@ _More problem types are coming soon._
 - [[Adding_And_Subtracting_Integers]]
 - [[Order_Of_Operations_With_Integers]]
 - [[Multiplying_Fractions]]
-- [[Algebra_Overview]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[Vault|Your Practice Vault]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I**, Chapter 2, Section 2.4 — integer multiplication and division sign rules.

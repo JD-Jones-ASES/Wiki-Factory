@@ -23,7 +23,7 @@ figures: ["algebra/distance_formula_derivation.svg"]
 summary: "The length of the segment connecting two points is just the Pythagorean theorem applied to a grid."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > The Distance Formula
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > The Distance Formula
 
 # The Distance Formula
 
@@ -149,6 +149,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Plotting_Points_And_The_Coordinate_Plane]]
 - [[Simplifying_Radical_Expressions]]
 - [[Circles]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

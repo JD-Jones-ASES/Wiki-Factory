@@ -13,18 +13,12 @@ branch: algebra-1
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > The Real Numbers
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > The Real Numbers
 
 # The Real Numbers
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra I** --- Chapter 1 (Foundations of Algebra), Section 1.2: The Real Numbers
 
 ## Definitions
 
@@ -38,20 +32,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 
 - **Subset Relationships** --- The number sets are nested: \[ \] Every natural number is an integer, every integer is rational, and every rational number is real. Irrational numbers fill the remaining points on the number line.
 
-## Example Walkthroughs Available
-
-The source books contain **3 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Classifying Numbers_ (from algebra_1)
-- _Evaluating Absolute Values_ (from algebra_1)
-- _Ordering Real Numbers_ (from algebra_1)
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="the_real_numbers"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -13,18 +13,12 @@ branch: algebra-2
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Slopes of Lines
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Slopes of Lines
 
 # Slopes of Lines
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra II** --- Chapter 2 (Linear Functions), Section 2.2: Slopes of Lines
 
 ## Definitions
 
@@ -36,21 +30,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **(untitled)** --- {Slopes of Parallel Lines}{ch02:parallel} Two distinct non-vertical lines are parallel if and only if they have equal slopes: \[ _1 _2 m_1 = m_2. \] (Two vertical lines, both having undefined slope, a...
 - **(untitled)** --- {Slopes of Perpendicular Lines}{ch02:perpendicular} Two non-vertical lines are perpendicular if and only if their slopes are negative reciprocals: \[ _1 _2 m_1 m_2 = -1 i.e., m_2 = -1/m_1. \] A vertic...
 
-## Example Walkthroughs Available
-
-The source books contain **5 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- _(untitled example)_ (from algebra_2)
-- ... and 2 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="slopes_of_lines"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

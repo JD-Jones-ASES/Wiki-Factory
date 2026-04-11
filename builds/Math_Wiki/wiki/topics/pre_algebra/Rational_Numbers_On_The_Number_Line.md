@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Rational Numbers on the Number Line
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Rational Numbers on the Number Line
 
 # Rational Numbers on the Number Line
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math II** --- Chapter 2 (The Rational Numbers), Section 2.1: Rational Numbers on the Number Line
 
 ## Definitions
 
@@ -38,20 +32,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **Decimals and Rational Numbers** --- A number is rational if and only if its decimal expansion either terminates or repeats.
 - **Density Property** --- Between any two distinct rational numbers, there is always another rational number. In fact, there are infinitely many rational numbers between any two rational numbers.
 
-## Example Walkthroughs Available
-
-The source books contain **3 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Classifying Decimals_ (from math_2)
-- _Plotting on the Number Line_ (from math_2)
-- _Finding a Rational Number Between Two Others_ (from math_2)
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="rational_numbers_on_the_number_line"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

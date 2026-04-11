@@ -28,7 +28,7 @@ figures: []
 summary: "A function of the form f(x) = mx + b: one input goes in, a straight-line output comes out."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Linear Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Linear Functions
 
 # Linear Functions
 
@@ -205,6 +205,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Parallel_And_Perpendicular_Lines]]
 - [[Function_Basics]]
 - [[Function_Arithmetic_And_Composition]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

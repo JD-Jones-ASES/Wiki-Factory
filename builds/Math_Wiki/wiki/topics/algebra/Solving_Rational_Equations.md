@@ -26,7 +26,7 @@ figures: []
 summary: "Clear the fractions by multiplying both sides by the LCD, solve the resulting polynomial equation, and always verify each answer against the original — some solutions are mirages that must be thrown out."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Solving Rational Equations
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Solving Rational Equations
 
 # Solving Rational Equations
 
@@ -210,6 +210,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Multiplying_And_Dividing_Rational_Expressions]]
 - [[Rational_Equations_And_Applications]]
 - [[Multi_Step_Equations]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

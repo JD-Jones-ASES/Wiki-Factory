@@ -25,7 +25,7 @@ figures: []
 summary: "When a quadratic already wears a perfect-square coat, undo the square and collect both roots."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Solving Quadratics by Square Roots
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Solving Quadratics by Square Roots
 
 # Solving Quadratics by Square Roots
 
@@ -194,6 +194,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[The_Quadratic_Formula]] — the universal fallback that handles every quadratic
 - [[The_Discriminant]] — quick diagnostic for how many real roots a quadratic has
 - [[Square_Roots_And_Cube_Roots]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -24,7 +24,7 @@ figures: ["precalculus/unit_circle.svg"]
 summary: "The exact values of sine and cosine at the special angles, derived from 30-60-90 and 45-45-90 reference triangles and memorized via one diagram."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > The Unit Circle
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Unit Circle
 
 # The Unit Circle
 
@@ -191,7 +191,7 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Identities]] — the Pythagorean identity, which every unit-circle point satisfies
 - [[Graphs_Of_Trigonometric_Functions]] — where these values become sample points on a wave
 - [[Inverse_Trigonometric_Functions]] — using unit-circle values to evaluate arcsin, arccos, arctan
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 </content>

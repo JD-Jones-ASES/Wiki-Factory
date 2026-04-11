@@ -24,7 +24,7 @@ figures: []
 summary: "Using a squared plus b squared equals c squared to solve ladder problems, diagonals, grid distances, and other right-triangle situations."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Applications of the Pythagorean Theorem
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Applications of the Pythagorean Theorem
 
 # Applications of the Pythagorean Theorem
 
@@ -194,6 +194,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Similar_Triangles]]
 - [[Triangle_Angle_Sum_And_Exterior_Angles]]
 - [[Square_Roots_And_Cube_Roots]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -26,7 +26,7 @@ figures: []
 summary: "The algebra-2 treatment of functions: inputs, outputs, domain from a formula, range from a graph, and the parent-function preview."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Function Basics
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Function Basics
 
 # Function Basics
 
@@ -200,6 +200,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Linear_Functions]]
 - [[Function_Arithmetic_And_Composition]]
 - [[Inverse_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -25,7 +25,7 @@ figures: []
 summary: "Find the largest common factor of a set of terms, then pull it out of a polynomial — the first step of every factoring problem."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Greatest Common Factor
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Greatest Common Factor
 
 # Greatest Common Factor
 
@@ -166,6 +166,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Factoring_Trinomials_General]] — factoring with a non-$1$ leading coefficient, where pulling the GCF first is often essential
 - [[Factoring_Special_Forms]] — the three memorized patterns from [[Special_Products]] run in reverse
 - [[Factoring_Completely]] — combining GCF with trinomial and special-form techniques
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

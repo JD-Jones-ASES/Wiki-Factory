@@ -24,7 +24,7 @@ figures: ["algebra/discriminant_three_cases.svg"]
 summary: "The number b² - 4ac hidden under the radical in the quadratic formula tells you — without solving — how many real roots a quadratic has."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > The Discriminant
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > The Discriminant
 
 # The Discriminant
 
@@ -168,6 +168,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Solving_Quadratics_By_Factoring]]
 - [[Completing_The_Square]]
 - [[Quadratic_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

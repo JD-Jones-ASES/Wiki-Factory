@@ -23,7 +23,7 @@ figures: []
 summary: "Substitute numbers for variables, then simplify using order of operations."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Evaluating Expressions
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Evaluating Expressions
 
 # Evaluating Expressions
 
@@ -175,10 +175,10 @@ _More problem types are coming soon._
 - [[The_Distributive_Property]]
 - [[Simplifying_Expressions]]
 - [[Translating_Words_To_Algebraic_Expressions]]
-- [[Algebra_Overview]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 8, Section 8.2: Evaluating Expressions

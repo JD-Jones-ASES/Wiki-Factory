@@ -26,7 +26,7 @@ figures: []
 summary: "Degree plus multiplicity: two rules that let you sketch any polynomial without plotting hundreds of points."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Polynomial Functions and Graphs
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Polynomial Functions and Graphs
 
 # Polynomial Functions and Graphs
 
@@ -178,6 +178,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Power_Functions]] — the single-term building blocks $y = k x^{n}$
 - [[Factoring_Completely]] — how to get from standard form into factored form
 - [[Transformations_I_Shifts_And_Reflections]] — shifting and flipping polynomial graphs
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

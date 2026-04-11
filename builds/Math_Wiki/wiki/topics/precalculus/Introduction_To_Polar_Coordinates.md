@@ -24,7 +24,7 @@ figures: ["precalculus/polar_coordinates.svg"]
 summary: "A second way of locating points in the plane using a distance from the origin and an angle, with simple conversion formulas to and from rectangular coordinates."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Introduction to Polar Coordinates
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Introduction to Polar Coordinates
 
 # Introduction to Polar Coordinates
 
@@ -151,6 +151,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Polar_Graphs]] — curves given by $r$ as a function of $\theta$
 - [[Vectors]] — another application of magnitude-and-angle descriptions
 - [[The_Unit_Circle]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

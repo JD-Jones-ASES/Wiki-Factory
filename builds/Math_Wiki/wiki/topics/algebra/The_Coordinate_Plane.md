@@ -13,18 +13,12 @@ branch: algebra-1
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > The Coordinate Plane
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > The Coordinate Plane
 
 # The Coordinate Plane
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra I** --- Chapter 4 (Linear Functions), Section 4.1: The Coordinate Plane
 
 ## Definitions
 
@@ -35,20 +29,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 
 - **Midpoint Formula** --- The midpoint M of the segment with endpoints (x_1, y_1) and (x_2, y_2) is \[ M = (x_1 + x_2/2,\; y_1 + y_2/2). \]
 
-## Example Walkthroughs Available
-
-The source books contain **3 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Plotting Points and Identifying Quadrants_ (from algebra_1)
-- _Distance on a Horizontal or Vertical Line_ (from algebra_1)
-- _Using the Midpoint Formula_ (from algebra_1)
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="the_coordinate_plane"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

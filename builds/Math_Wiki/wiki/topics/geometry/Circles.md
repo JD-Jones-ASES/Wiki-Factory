@@ -21,7 +21,7 @@ figures: ["geometry/circle_parts.svg"]
 summary: "The set of points equidistant from a center; its equation, area, and circumference."
 ---
 
-> [[_overview|Home]] > [[Geometry_Overview|Geometry]] > Circles
+> [[_overview|Home]] > [[Geometry|Geometry]] > Circles
 
 # Circles
 
@@ -129,7 +129,7 @@ Pick a problem type, choose a difficulty, choose how many you want, and click **
 
 ## See Also
 
-- [[Geometry_Overview]]
+- [[Geometry|Geometry]]
 - [[Topics_Overview]]
 - [[Formulas_Overview]]
 - [[Vault|Your Practice Vault]]

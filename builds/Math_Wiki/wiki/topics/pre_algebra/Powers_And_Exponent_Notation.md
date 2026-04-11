@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Powers and Exponent Notation
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Powers and Exponent Notation
 
 # Powers and Exponent Notation
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math II** --- Chapter 1 (Exponents and Roots), Section 1.1: Powers and Exponent Notation
 
 ## Definitions
 
@@ -36,21 +30,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 
 - **Negative Bases and Parentheses** --- itemize[nosep] (-a)^n means the base is -a. The negative sign is inside the parentheses and is raised to the power. -a^n means -(a^n). The negative sign is not part of the base; only a is raised to th...
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Evaluating Powers with Negative Bases_ (from math_2)
-- _Evaluating Powers of Fractions_ (from math_2)
-- _Exponents in Multi-Step Expressions_ (from math_2)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="powers_and_exponent_notation"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -25,7 +25,7 @@ figures: []
 summary: "Stretching, squeezing, and putting all four transformation moves together in one formula."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Transformations II: Stretches, Compressions, and Combined
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Transformations II: Stretches, Compressions, and Combined
 
 # Transformations II: Stretches, Compressions, and Combined
 
@@ -164,6 +164,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Quadratic_Functions]] — vertex form is the combined-transformation form for parabolas
 - [[Absolute_Value_Functions]] — stretched V-shapes
 - [[Square_Root_Functions]] — horizontal stretches look very different from vertical ones here
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -24,7 +24,7 @@ figures: ["algebra/piecewise_function.svg"]
 summary: "Piecewise, step, and floor functions — the rule changes partway through."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > More Exotic Functions
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > More Exotic Functions
 
 # More Exotic Functions
 
@@ -153,6 +153,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Function_Basics]] — the basic mechanics of functions
 - [[Transformations_I_Shifts_And_Reflections]] — shifts and reflections apply to piecewise functions too
 - [[Linear_Functions]] — common piece type
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

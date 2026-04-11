@@ -25,7 +25,7 @@ figures: ["algebra/inequality_number_line.svg"]
 summary: "Turn everyday phrases like 'at least' and 'no more than' into inequality symbols and picture the answers on a number line."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Writing and Graphing Inequalities
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Writing and Graphing Inequalities
 
 # Writing and Graphing Inequalities
 
@@ -185,6 +185,6 @@ _Practice generators for this topic are coming in the Cluster 2 generator wave o
 - [[Inequalities_And_Their_Graphs]]
 - [[Solving_Multi_Step_Inequalities]]
 - [[Integers_And_The_Number_Line]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

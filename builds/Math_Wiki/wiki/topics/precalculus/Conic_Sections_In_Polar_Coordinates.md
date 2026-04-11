@@ -13,18 +13,12 @@ branch: pre-calculus
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Conic Sections in Polar Coordinates
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Conic Sections in Polar Coordinates
 
 # Conic Sections in Polar Coordinates
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra & Trigonometry (Stitz-Zeager, Corrected 3rd)** --- Chapter 8 (Applications of Trigonometry), Section 8.7: PolarConics
 
 ## Definitions
 
@@ -38,21 +32,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **(untitled)** --- Suppose e and d are positive numbers. Then itemize the graph of r = ed/1 - e() is the graph of a conic section with directrix x = -d. the graph of r = ed/1 + e() is the graph of a conic section with d...
 - **(untitled)** --- Given constants > 0, e 0 and , the graph of the equation \[ r = /1 - e( - )\] is a conic section with eccentricity e and one focus at (0,0). itemize If e = 0, the graph is a circle centered at (0,0) w...
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _(untitled example)_ (from algtrig)
-- _(untitled example)_ (from algtrig)
-- _(untitled example)_ (from algtrig)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="conic_sections_in_polar_coordinates"></div>
 
 ## See Also
 
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

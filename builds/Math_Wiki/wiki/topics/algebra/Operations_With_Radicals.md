@@ -23,7 +23,7 @@ figures: []
 summary: "Add, subtract, multiply, and divide square roots — and learn why simplifying first is the whole trick."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Operations with Radicals
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Operations with Radicals
 
 # Operations with Radicals
 
@@ -149,6 +149,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Square_Roots_And_Cube_Roots]]
 - [[The_Pythagorean_Theorem]]
 - [[Rational_Exponents]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

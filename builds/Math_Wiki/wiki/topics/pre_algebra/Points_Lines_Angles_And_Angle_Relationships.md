@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Points, Lines, Angles, and Angle Relationships
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Points, Lines, Angles, and Angle Relationships
 
 # Points, Lines, Angles, and Angle Relationships
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math I** --- Chapter 9 (Geometry and Data), Section 9.1: Points, Lines, Angles, and Angle Relationships
 
 ## Definitions
 
@@ -38,21 +32,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **Supplementary Angles** --- Two angles are supplementary if the sum of their measures is 180.
 - **Vertical Angles** --- When two lines intersect, the opposite angles are called vertical angles. Vertical angles are always equal in measure.
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Classifying Angles_ (from math_1)
-- _Finding a Complement and Supplement_ (from math_1)
-- _Using Supplementary Angles_ (from math_1)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="points_lines_angles_and_angle_relationships"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

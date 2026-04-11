@@ -27,7 +27,7 @@ figures: []
 summary: "Two techniques for solving equations with the variable in the exponent: rewrite with a common base, or apply a logarithm."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Exponential Equations
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Exponential Equations
 
 # Exponential Equations
 
@@ -261,6 +261,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Logarithmic_Equations]]
 - [[Properties_Of_Logarithms]]
 - [[Growth_Decay_And_Applications]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

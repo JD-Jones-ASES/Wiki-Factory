@@ -24,7 +24,7 @@ figures: []
 summary: "A second way of naming a complex number that turns products and powers into angle addition and exponent arithmetic."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Polar Form of Complex Numbers
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Polar Form of Complex Numbers
 
 # Polar Form of Complex Numbers
 
@@ -185,6 +185,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Complex_Zeros]] — once you have roots of a polynomial, polar form is the cleanest way to describe them geometrically
 - [[Introduction_To_Polar_Coordinates]] — where the $(r, \theta)$ picture first appeared
 - [[The_Unit_Circle]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

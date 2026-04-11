@@ -24,7 +24,7 @@ figures: []
 summary: "One number that captures the angle between two vectors — the bridge from raw components to geometry."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > The Dot Product
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Dot Product
 
 # The Dot Product
 
@@ -156,6 +156,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Vectors]] — the foundation this page rests on
 - [[Law_Of_Cosines]] — another place cosine shows up in geometry problems
 - [[The_Unit_Circle]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -23,7 +23,7 @@ figures: []
 summary: "A variable is a letter standing in for a number; an expression combines numbers, variables, and operations with no equals sign."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Variables and Algebraic Expressions
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Variables and Algebraic Expressions
 
 # Variables and Algebraic Expressions
 
@@ -143,6 +143,6 @@ Choose a problem type, pick a difficulty, and click **Add to Vault**. Your selec
 - [[The_Distributive_Property]]
 - [[Simplifying_Expressions]]
 - [[Translating_Words_To_Algebraic_Expressions]]
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

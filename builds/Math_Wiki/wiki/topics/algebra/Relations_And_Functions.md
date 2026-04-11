@@ -25,7 +25,7 @@ figures: []
 summary: "A relation is any collection of ordered pairs; a function is the special kind where every input has exactly one output."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Relations and Functions
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Relations and Functions
 
 # Relations and Functions
 
@@ -167,6 +167,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Function_Notation]]
 - [[Linear_Functions]]
 - [[Plotting_Points_And_The_Coordinate_Plane]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

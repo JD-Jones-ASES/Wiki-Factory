@@ -13,31 +13,16 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Translating Words to Algebraic Expressions
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Translating Words to Algebraic Expressions
 
 # Translating Words to Algebraic Expressions
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math I** --- Chapter 8 (Introduction to Algebra), Section 8.3: Translating Words to Algebraic Expressions
 
 ## Key Properties
 
 - **Common Translation Words** --- % center {1.25} tabular{|l|c|l|} Operation & Symbol & Key Words \\ Addition & + & sum, plus, more than, increased by, total \\ Subtraction & - & difference, minus, less than, decreased by \\ Multiplic...
-
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Translating an Addition Phrase_ (from math_1)
-- _Translating a Multiplication Phrase_ (from math_1)
-- _Translating a Two-Operation Phrase_ (from math_1)
-- ... and 1 more.
 
 ## Problems Involving This Topic
 
@@ -45,6 +30,6 @@ The source books contain **4 worked example(s)** for this topic. Selected exampl
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

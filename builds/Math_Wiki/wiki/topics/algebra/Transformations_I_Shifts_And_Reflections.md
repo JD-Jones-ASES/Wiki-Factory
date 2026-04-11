@@ -25,7 +25,7 @@ figures: ["algebra/transformation_shifts.svg"]
 summary: "Turning a parent function into a new one by sliding it around and flipping it."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Transformations I: Shifts and Reflections
+> [[_overview|Home]] > [[Algebra_2|Algebra 2]] > Transformations I: Shifts and Reflections
 
 # Transformations I: Shifts and Reflections
 
@@ -165,6 +165,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Absolute_Value_Functions]] — easy shifts and reflections to visualize
 - [[Square_Root_Functions]] — shifts to the square-root parent
 - [[Cube_Root_And_Other_Radical_Functions]] — odd-root transformations
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_2|Algebra 2]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

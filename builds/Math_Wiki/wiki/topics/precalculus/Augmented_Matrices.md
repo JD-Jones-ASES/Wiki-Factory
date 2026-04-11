@@ -24,7 +24,7 @@ figures: []
 summary: "Turn a linear system into a matrix, then drive it toward row-echelon form with three legal moves."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Augmented Matrices
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Augmented Matrices
 
 # Augmented Matrices
 
@@ -205,6 +205,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Matrix_Arithmetic]] — the grid objects you are pushing around with row operations
 - [[Matrix_Methods]] — several full strategies that use augmented matrices to solve systems
 - [[Determinants]] — a different angle on square systems that avoids row reduction
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -26,7 +26,7 @@ figures: ["precalculus/vector_addition.svg"]
 summary: "A vector carries a length and a direction at the same time; its components are its horizontal and vertical shadows."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > Vectors
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > Vectors
 
 # Vectors
 
@@ -212,6 +212,6 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Dot_Product]] — the key operation for measuring angles between vectors and testing perpendicularity
 - [[The_Distance_Formula]] — the grid-distance cousin of vector magnitude
 - [[The_Unit_Circle]]
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

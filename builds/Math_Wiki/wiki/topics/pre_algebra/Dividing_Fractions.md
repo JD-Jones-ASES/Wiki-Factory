@@ -23,7 +23,7 @@ figures: []
 summary: "Dividing fractions means multiplying by the reciprocal: keep, change, flip."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Dividing Fractions
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Dividing Fractions
 
 # Dividing Fractions
 
@@ -137,6 +137,6 @@ _More problem types are coming soon._
 - [[Topics_Overview]]
 - [[_overview|Home]]
 
-## Sources in the ingested textbooks
+## Sources in the 
 
 - **Math I** — Chapter 4 (Multiplying and Dividing Fractions), Section 4.3: Dividing Fractions

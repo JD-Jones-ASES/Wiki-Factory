@@ -27,7 +27,7 @@ figures: []
 summary: "Move everything to one side so the other side is zero, factor, and read the roots off each factor — the first method for solving quadratics."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Solving Quadratics by Factoring
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Solving Quadratics by Factoring
 
 # Solving Quadratics by Factoring
 
@@ -187,6 +187,6 @@ _Practice generators for this topic are coming in the Cluster 3 generator wave o
 - [[Completing_The_Square]]
 - [[The_Quadratic_Formula]]
 - [[Quadratic_Functions]]
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

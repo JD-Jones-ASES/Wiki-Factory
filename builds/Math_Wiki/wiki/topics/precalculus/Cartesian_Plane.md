@@ -13,18 +13,12 @@ branch: pre-calculus
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Precalculus_Overview|Pre-Calculus]] > The Cartesian Plane
+> [[_overview|Home]] > [[Precalculus|Pre-Calculus & Trig]] > The Cartesian Plane
 
 # The Cartesian Plane
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra & Trigonometry (Stitz-Zeager, Corrected 3rd)** --- Chapter 1 (Relations and Functions), Section 1.1: CartesianPlane
 
 ## Definitions
 
@@ -32,21 +26,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **(untitled)** --- Suppose A and B are two sets. itemize The intersection of A and B: A B = \{ x \, | \, x A \, and \,\, x B \} The union of A and B: A B = \{ x \, | \, x A \, or \,\, x B \, \, (or both) \} itemize
 - **(untitled)** --- Two points (a,b) and (c,d) in the plane are said to be itemize symmetric about the x-axis if a = c and b = -d symmetric about the y-axis if a = -c and b = d symmetric about the origin if a = -c and b ...
 
-## Example Walkthroughs Available
-
-The source books contain **7 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _(untitled example)_ (from algtrig)
-- _(untitled example)_ (from algtrig)
-- _(untitled example)_ (from algtrig)
-- ... and 4 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="cartesian_plane"></div>
 
 ## See Also
 
-- [[Precalculus_Overview|Pre-Calculus]]
+- [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Properties of Addition and Multiplication
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Properties of Addition and Multiplication
 
 # Properties of Addition and Multiplication
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math I** --- Chapter 1 (Whole Numbers and Order of Operations), Section 1.3: Properties of Addition and Multiplication
 
 ## Definitions
 
@@ -38,21 +32,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **Associative Property of Multiplication** --- Changing the grouping of the factors does not change the product. \[ (a b) c = a (b c) \]
 - **Identity Property of Addition** --- The sum of any number and 0 is that number. Zero is the additive identity. \[ a + 0 = a \]
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Naming Properties_ (from math_1)
-- _Mental Math with Multiplication_ (from math_1)
-- _Mental Addition_ (from math_1)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="properties_of_addition_and_multiplication"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

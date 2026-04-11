@@ -13,18 +13,12 @@ branch: pre-algebra
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Surface Area and Volume of Spheres
+> [[_overview|Home]] > [[Middle_School_Math|Middle School Math]] > Surface Area and Volume of Spheres
 
 # Surface Area and Volume of Spheres
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Math II** --- Chapter 6 (Measurement and Geometry), Section 6.5: Surface Area and Volume of Spheres
 
 ## Definitions
 
@@ -35,21 +29,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 - **Surface Area of a Sphere** --- For a sphere with radius~r: \[ SA = 4 r^2 \]
 - **Volume of a Sphere** --- For a sphere with radius~r: \[ V = 4{3} r^3 \]
 
-## Example Walkthroughs Available
-
-The source books contain **4 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Surface Area of a Sphere_ (from math_2)
-- _Volume of a Sphere_ (from math_2)
-- _Basketball (Application)_ (from math_2)
-- ... and 1 more.
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="surface_area_and_volume_of_spheres"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Middle_School_Math|Middle School Math]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

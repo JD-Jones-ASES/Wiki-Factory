@@ -13,18 +13,12 @@ branch: algebra-1
 prerequisites: []
 problem_type_ids: []
 figures: []
-summary: "1 source section(s) across the ingested textbooks. Auto-generated stub; prose and worked examples come in a future wave."
+summary: "Topic scaffolding. Lesson content coming in a future update."
 ---
 
-> [[_overview|Home]] > [[Algebra_Overview|Algebra]] > Variables and Expressions
+> [[_overview|Home]] > [[Algebra_1|Algebra 1]] > Variables and Expressions
 
 # Variables and Expressions
-
-> _This is an auto-generated stub. Lesson prose, worked examples, and practice problem generators will be added in subsequent waves. The source material below is drawn from the ingested textbook catalog._
-
-## In the Source Books
-
-- **Algebra I** --- Chapter 1 (Foundations of Algebra), Section 1.1: Variables and Expressions
 
 ## Definitions
 
@@ -37,20 +31,12 @@ summary: "1 source section(s) across the ingested textbooks. Auto-generated stub
 
 - **Order of Operations (PEMDAS)** --- To evaluate an expression, perform operations in this order: enumerate[nosep] Parentheses (and other grouping symbols) Exponents Multiplication and Division (left to right) Addition and Subtraction (l...
 
-## Example Walkthroughs Available
-
-The source books contain **3 worked example(s)** for this topic. Selected examples will be adapted into this page in a future wave.
-
-- _Evaluating an Expression_ (from algebra_1)
-- _Evaluating with Two Variables_ (from algebra_1)
-- _Translating a Verbal Phrase_ (from algebra_1)
-
 ## Problems Involving This Topic
 
 <div class="problem-vault-widget" data-topic-slug="variables_and_expressions"></div>
 
 ## See Also
 
-- [[Algebra_Overview|Algebra]]
+- [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]
 - [[_overview|Home]]
