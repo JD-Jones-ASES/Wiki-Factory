@@ -9,7 +9,7 @@ source_refs: []
 related: []
 status: complete
 confidence: high
-summary: "Your browser-local practice vault. Add problems from any topic, reveal hints, check answers, print a worksheet, or export/import as JSON."
+summary: "Your browser-local practice vault. Add problems from any topic, reveal hints, check answers, save a PDF worksheet, or export/import as JSON."
 ---
 
 # Your Practice Vault
@@ -30,7 +30,7 @@ This is where practice problems you have saved live. Navigate to any topic, find
 - **Fresh problems.** Every problem is generated on demand from Python code that verifies its own answers with SymPy.
 - **Hints and answers.** Each problem card has progressive hints, a hidden answer, and a full solution. Click to reveal only what you need.
 - **Shuffle** rearranges the order. Useful right before a practice session.
-- **Print Worksheet** opens the browser print dialog with a clean, ink-friendly layout and an answer key at the bottom.
+- **Save as PDF** generates a polished PDF worksheet with properly-rendered math (real fractions, radicals, and exponents), blank workspace lines under each problem, and the answer key on its own page. The PDF looks the same in every browser. The old browser print dialog still works too — just press Ctrl+P.
 - **Export JSON** downloads your entire vault as a `math-wiki-vault-YYYY-MM-DD.json` file. Use it to back up your practice set, move it to another device, or hand it to a teacher.
 - **Import JSON** reads a previously-exported vault file. You choose merge (add to your current vault, skipping duplicates) or replace (discard the current vault entirely).
 - **Clear Vault** wipes every saved problem. Individual problems can be removed one at a time with the × button on each card.
