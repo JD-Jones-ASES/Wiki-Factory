@@ -57,7 +57,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Algebra 1 topics --- 47 live / 54 total
+### Algebra 1 topics --- 47 live / 51 total
 
 **🟢 Live topics with practice widgets (47)**
 
@@ -110,15 +110,12 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Zero_And_Negative_Exponents|Zero and Negative Exponents]]
 
 <details>
-<summary>⚪ 7 stub topic(s) (click to expand)</summary>
+<summary>⚪ 4 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Adding_And_Subtracting_Real_Numbers|Adding and Subtracting Real Numbers]]
-- ⚪ [[Applications_Of_Systems|Applications of Systems]]
 - ⚪ [[Multiplying_And_Dividing_Real_Numbers|Multiplying and Dividing Real Numbers]]
-- ⚪ [[Operations_With_Rational_Expressions|Operations with Rational Expressions]]
 - ⚪ [[Properties_Of_Real_Numbers|Properties of Real Numbers]]
 - ⚪ [[The_Pythagorean_Theorem_And_Distance_Formula|The Pythagorean Theorem and Distance Formula]]
-- ⚪ [[The_Real_Numbers|The Real Numbers]]
 
 </details>
 

@@ -59,7 +59,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Algebra 2 topics --- 42 live / 50 total
+### Algebra 2 topics --- 42 live / 47 total
 
 **🟢 Live topics with practice widgets (42)**
 
@@ -107,16 +107,13 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, and Combined]]
 
 <details>
-<summary>⚪ 8 stub topic(s) (click to expand)</summary>
+<summary>⚪ 5 stub topic(s) (click to expand)</summary>
 
-- ⚪ [[Absolute_Value_Equations_And_Inequalities|Absolute Value Equations and Inequalities]]
 - ⚪ [[Factoring_I|Factoring I]]
 - ⚪ [[Factoring_Ii|Factoring II]]
 - ⚪ [[Polynomial_Inequalities|Polynomial Inequalities]]
-- ⚪ [[Powers_And_Roots|Powers and Roots]]
 - ⚪ [[Rational_Inequalities|Rational Inequalities]]
 - ⚪ [[Set_Notation_And_The_Real_Numbers|Set Notation and the Real Numbers]]
-- ⚪ [[Slopes_Of_Lines|Slopes of Lines]]
 
 </details>
 

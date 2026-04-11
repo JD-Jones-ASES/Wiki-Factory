@@ -4,6 +4,27 @@ Chronological log of ingest, compile, lint, and significant edit operations.
 
 ---
 
+## [2026-04-11] Post-v2.3.0 stub cleanup
+
+Deleted 9 thin auto-stubs whose content was fully covered by existing live topics. Merge rules added to `tools/aliases.yaml` to prevent regeneration on the next `generate_topic_stubs.py` run. Two inbound wikilinks rewritten to canonical live targets: `Circles.md` updated its Prerequisites link from the deleted `Coordinate_Plane` stub to the live `The_Coordinate_Plane` (algebra, 1423 words), and `Simplifying_Radical_Expressions.md` dropped a redundant See Also entry since peer links already cover the content. Also fixed 4 references in `Sinusoid.md` pointing to the deleted `Transformations` stub (2 frontmatter paths + 2 body wikilinks) to the canonical live `Transformations_I_Shifts_And_Reflections`.
+
+Deleted stubs (all auto-generated, 0 generators, ≤245 words, no unique prose):
+- `algebra/Absolute_Value_Equations_And_Inequalities` → covered by live `Absolute_Value_Equations` + `Absolute_Value_Inequalities`
+- `algebra/Slopes_Of_Lines` → duplicate of live `Slope`
+- `algebra/The_Real_Numbers` → covered by live `Irrational_Numbers_And_Real_Numbers`
+- `algebra/Powers_And_Roots` → covered by live `Properties_Of_Exponents` + `Square_Roots_And_Cube_Roots` + `Operations_With_Radicals`
+- `algebra/Operations_With_Rational_Expressions` → covered by live `Multiplying_And_Dividing_Rational_Expressions` + `Adding_And_Subtracting_Rational_Expressions`
+- `algebra/Applications_Of_Systems` → 19-word near-empty stub; applications are part of live `Systems_Of_Linear_Equations`
+- `geometry/Coordinate_Plane` → duplicate of live algebra `The_Coordinate_Plane` (1423 words) and pre-algebra `Plotting_Points_And_The_Coordinate_Plane`
+- `pre_algebra/Powers_And_Exponent_Notation` → duplicate of live `Exponents_And_Powers`
+- `precalculus/Transformations` → covered by live split `Transformations_I_Shifts_And_Reflections` + `Transformations_Ii_Stretches_Compressions_And_Combined`
+
+Post-cleanup metrics: **259 → 250 topics, 208 draft, 51 → 42 stubs, avg score 71.6 → 73.8**. Per-branch bumps: algebra 74.4 → 78.5, geometry 82.7 → 89.3, pre_algebra 61.1 → 61.6, precalculus 82.1 → 83.4. No generator orphaning (all 9 deleted stubs had 0 generators). Regenerated `_index.md`, `Topic_Status.md`, `_data/prereq_graph.json`, and all 5 course hub `AUTO:TOPICS` blocks.
+
+**Not in scope:** The other 3 survey-flagged merge candidates (`Applications_Of_Quadratics`, `Percent_Applications`, `Ratios_And_Proportions`) have 2-3 generators attached each and require generator `topic_slug` reassignment to a canonical live topic before deletion. Deferred to a future session.
+
+---
+
 ## [2026-04-11] Test-Prep Phase (v2.3.0)
 
 Massive expansion and refinement phase focused on standardized test coverage and filling stub backlogs.

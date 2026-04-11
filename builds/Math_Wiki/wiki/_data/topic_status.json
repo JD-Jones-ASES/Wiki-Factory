@@ -1,25 +1,25 @@
 {
   "summary": {
     "overall": {
-      "total_topics": 259,
+      "total_topics": 250,
       "complete": 0,
       "draft": 208,
-      "stub": 51,
+      "stub": 42,
       "with_3plus_generators": 204,
       "with_300plus_words": 208,
-      "avg_score": 71.6
+      "avg_score": 73.8
     },
     "by_branch": {
       "algebra": {
         "branch": "algebra",
-        "topic_count": 104,
+        "topic_count": 98,
         "with_generators": 88,
         "with_prose_300": 86,
         "with_examples_2": 67,
         "with_figure": 21,
-        "avg_score": 74.4,
+        "avg_score": 78.5,
         "status_counts": {
-          "stub": 18,
+          "stub": 12,
           "draft": 86,
           "complete": 0,
           "unknown": 0
@@ -27,14 +27,14 @@
       },
       "geometry": {
         "branch": "geometry",
-        "topic_count": 12,
+        "topic_count": 11,
         "with_generators": 6,
         "with_prose_300": 11,
         "with_examples_2": 11,
         "with_figure": 11,
-        "avg_score": 82.7,
+        "avg_score": 89.3,
         "status_counts": {
-          "stub": 1,
+          "stub": 0,
           "draft": 11,
           "complete": 0,
           "unknown": 0
@@ -42,14 +42,14 @@
       },
       "pre_algebra": {
         "branch": "pre_algebra",
-        "topic_count": 92,
+        "topic_count": 91,
         "with_generators": 63,
         "with_prose_300": 64,
         "with_examples_2": 50,
         "with_figure": 14,
-        "avg_score": 61.1,
+        "avg_score": 61.6,
         "status_counts": {
-          "stub": 28,
+          "stub": 27,
           "draft": 64,
           "complete": 0,
           "unknown": 0
@@ -57,14 +57,14 @@
       },
       "precalculus": {
         "branch": "precalculus",
-        "topic_count": 51,
+        "topic_count": 50,
         "with_generators": 47,
         "with_prose_300": 47,
         "with_examples_2": 41,
         "with_figure": 8,
-        "avg_score": 82.1,
+        "avg_score": 83.4,
         "status_counts": {
-          "stub": 4,
+          "stub": 3,
           "draft": 47,
           "complete": 0,
           "unknown": 0
@@ -92,22 +92,6 @@
       "prerequisite_count": 3,
       "related_count": 4,
       "score": 75
-    },
-    {
-      "slug": "Absolute_Value_Equations_And_Inequalities",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Absolute_Value_Equations_And_Inequalities.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 174,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
     },
     {
       "slug": "Absolute_Value_Functions",
@@ -243,22 +227,6 @@
       "prerequisite_count": 0,
       "related_count": 0,
       "score": 18
-    },
-    {
-      "slug": "Applications_Of_Systems",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Applications_Of_Systems.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 19,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 0
     },
     {
       "slug": "Completing_The_Square",
@@ -1070,22 +1038,6 @@
       "score": 85
     },
     {
-      "slug": "Operations_With_Rational_Expressions",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Operations_With_Rational_Expressions.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 64,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
-    },
-    {
       "slug": "Parabolas",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Parabolas.md",
@@ -1260,22 +1212,6 @@
       "prerequisite_count": 3,
       "related_count": 6,
       "score": 95
-    },
-    {
-      "slug": "Powers_And_Roots",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Powers_And_Roots.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 103,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
     },
     {
       "slug": "Properties_Of_Exponents",
@@ -1511,10 +1447,10 @@
       "relpath": "wiki/topics/algebra/Simplifying_Radical_Expressions.md",
       "status": "draft",
       "confidence": "high",
-      "word_count": 1065,
+      "word_count": 1064,
       "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 15,
+      "wikilink_count": 14,
       "generator_count": 3,
       "generators": [
         "simplify_sqrt_perfect_factor",
@@ -1565,22 +1501,6 @@
       "prerequisite_count": 3,
       "related_count": 4,
       "score": 75
-    },
-    {
-      "slug": "Slopes_Of_Lines",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/Slopes_Of_Lines.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 73,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
     },
     {
       "slug": "Solving_Equations_By_Factoring",
@@ -1979,22 +1899,6 @@
       "score": 75
     },
     {
-      "slug": "The_Real_Numbers",
-      "branch": "algebra",
-      "relpath": "wiki/topics/algebra/The_Real_Numbers.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 175,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
-    },
-    {
       "slug": "Transformations_I_Shifts_And_Reflections",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Transformations_I_Shifts_And_Reflections.md",
@@ -2155,22 +2059,6 @@
       "prerequisite_count": 3,
       "related_count": 5,
       "score": 95
-    },
-    {
-      "slug": "Coordinate_Plane",
-      "branch": "geometry",
-      "relpath": "wiki/topics/geometry/Coordinate_Plane.md",
-      "status": "stub",
-      "confidence": "high",
-      "word_count": 144,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 6,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 1,
-      "score": 10
     },
     {
       "slug": "Cross_Sections_Of_Solids",
@@ -3257,22 +3145,6 @@
       "prerequisite_count": 3,
       "related_count": 4,
       "score": 95
-    },
-    {
-      "slug": "Powers_And_Exponent_Notation",
-      "branch": "pre_algebra",
-      "relpath": "wiki/topics/pre_algebra/Powers_And_Exponent_Notation.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 185,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
     },
     {
       "slug": "Probability_Of_Simple_And_Compound_Events",
@@ -4988,22 +4860,6 @@
       "prerequisite_count": 3,
       "related_count": 4,
       "score": 95
-    },
-    {
-      "slug": "Transformations",
-      "branch": "precalculus",
-      "relpath": "wiki/topics/precalculus/Transformations.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 245,
-      "example_count": 0,
-      "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
     },
     {
       "slug": "Trigonometric_Equations",

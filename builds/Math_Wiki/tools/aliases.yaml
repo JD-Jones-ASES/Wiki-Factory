@@ -300,5 +300,56 @@ merges:
     canonical_title: "Quadratic Functions"
     rationale: "Stitz-Zeager 'QuadraticFunctions' is the general chapter; algebra-2 'Quadratic_Functions_And_Vertex_Form' is a subset. Merge into a cleaner canonical slug; pin to algebra-2 branch so it appears in that hub."
 
+  # -----------------------------------------------------------------------------
+  # v2.4.0 stub cleanup (2026-04-11): 9 thin auto-stubs whose content was
+  # fully covered by existing live topics. Wiki files deleted via git rm in
+  # the same commit; these rules prevent regeneration on the next
+  # generate_topic_stubs.py run.
+  # -----------------------------------------------------------------------------
+  - from: ["Absolute_Value_Equations_And_Inequalities"]
+    into: "Absolute_Value_Equations"
+    canonical_title: "Absolute Value Equations"
+    rationale: "174-word auto-stub combining two topics already live as Absolute_Value_Equations + Absolute_Value_Inequalities. Merge catalog entry into the primary equations topic."
+
+  - from: ["Slopes_Of_Lines"]
+    into: "Slope"
+    canonical_title: "Slope"
+    rationale: "73-word algebra-2 auto-stub duplicating the live Slope topic. Merge."
+
+  - from: ["The_Real_Numbers"]
+    into: "Irrational_Numbers_And_Real_Numbers"
+    canonical_title: "Irrational Numbers and Real Numbers"
+    rationale: "175-word chapter-level stub covered by live Irrational_Numbers_And_Real_Numbers. Merge."
+
+  - from: ["Powers_And_Roots"]
+    into: "Properties_Of_Exponents"
+    canonical_title: "Properties of Exponents"
+    rationale: "103-word chapter-level stub covered by live Properties_Of_Exponents + Square_Roots_And_Cube_Roots + Operations_With_Radicals. Merge into primary exponents topic."
+
+  - from: ["Operations_With_Rational_Expressions"]
+    into: "Multiplying_And_Dividing_Rational_Expressions"
+    canonical_title: "Multiplying and Dividing Rational Expressions"
+    rationale: "64-word chapter-level stub covered by live Multiplying_And_Dividing_Rational_Expressions + Adding_And_Subtracting_Rational_Expressions. Merge into primary ops topic."
+
+  - from: ["Applications_Of_Systems"]
+    into: "Systems_Of_Linear_Equations"
+    canonical_title: "Systems of Linear Equations"
+    rationale: "19-word near-empty stub. Applications are covered within live Systems_Of_Linear_Equations. Merge."
+
+  - from: ["Coordinate_Plane"]
+    into: "The_Coordinate_Plane"
+    canonical_title: "The Coordinate Plane"
+    rationale: "144-word geometry-branch stub duplicating live algebra The_Coordinate_Plane (1423 words) and pre-algebra Plotting_Points_And_The_Coordinate_Plane. Merge."
+
+  - from: ["Powers_And_Exponent_Notation"]
+    into: "Exponents_And_Powers"
+    canonical_title: "Exponents and Powers"
+    rationale: "185-word pre-algebra stub duplicating live Exponents_And_Powers. Merge."
+
+  - from: ["Transformations"]
+    into: "Transformations_I_Shifts_And_Reflections"
+    canonical_title: "Transformations I: Shifts and Reflections"
+    rationale: "245-word pre-calc stub covered by live split Transformations_I_Shifts_And_Reflections + Transformations_Ii_Stretches_Compressions_And_Combined. Merge into primary shifts/reflections topic."
+
 
 splits: []

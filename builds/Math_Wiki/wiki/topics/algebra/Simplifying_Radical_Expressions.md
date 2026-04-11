@@ -192,7 +192,6 @@ _Practice generators for this topic are coming in the Cluster 4 generator wave o
 - [[Square_Roots_And_Cube_Roots]]
 - [[Rational_Exponents]]
 - [[Operations_With_Radicals]]
-- [[Powers_And_Roots]]
 - [[Properties_Of_Exponents]]
 - [[Algebra_1|Algebra 1]]
 - [[Topics_Overview]]

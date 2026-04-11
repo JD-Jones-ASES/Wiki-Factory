@@ -58,7 +58,7 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Core Geometry topics --- 24 live / 31 total
+### Core Geometry topics --- 24 live / 30 total
 
 **🟢 Live topics with practice widgets (24)**
 
@@ -88,10 +88,9 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[Volume_Of_Pyramids_And_Cones|Volume of Pyramids and Cones]]
 
 <details>
-<summary>⚪ 7 stub topic(s) (click to expand)</summary>
+<summary>⚪ 6 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Composite_Figures|Composite Figures]]
-- ⚪ [[Coordinate_Plane|Coordinate Plane]]
 - ⚪ [[Cross_Sections_Of_Solids|Cross Sections of Solids]]
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
 - ⚪ [[Proportions_In_Similar_Figures|Proportions in Similar Figures]]

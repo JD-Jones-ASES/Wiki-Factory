@@ -62,7 +62,7 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Middle School Math topics --- 64 live / 92 total
+### Middle School Math topics --- 64 live / 91 total
 
 **🟢 Live topics with practice widgets (64)**
 
@@ -132,7 +132,7 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - 🟢 [[Writing_And_Graphing_Inequalities|Writing and Graphing Inequalities]]
 
 <details>
-<summary>⚪ 28 stub topic(s) (click to expand)</summary>
+<summary>⚪ 27 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value|Absolute Value]]
 - ⚪ [[Adding_And_Subtracting_Mixed_Numbers|Adding and Subtracting Mixed Numbers]]
@@ -148,7 +148,6 @@ Every live topic below has a full lesson, 2+ worked examples, and a **Problems I
 - ⚪ [[Order_Of_Operations_With_Fractions|Order of Operations with Fractions]]
 - ⚪ [[Order_Of_Operations_With_Integers|Order of Operations with Integers]]
 - ⚪ [[Perimeter_And_Area_Of_Polygons|Perimeter and Area of Polygons]]
-- ⚪ [[Powers_And_Exponent_Notation|Powers and Exponent Notation]]
 - ⚪ [[Product_Power_And_Quotient_Rules|Product, Power, and Quotient Rules]]
 - ⚪ [[Properties_Of_Addition_And_Multiplication|Properties of Addition and Multiplication]]
 - ⚪ [[Proportions_In_Similar_Figures|Proportions in Similar Figures]]

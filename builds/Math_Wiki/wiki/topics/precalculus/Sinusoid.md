@@ -12,7 +12,7 @@ related:
   - "topics/precalculus/Circular_Functions"
   - "topics/precalculus/The_Unit_Circle"
   - "topics/precalculus/Identities"
-  - "topics/precalculus/Transformations"
+  - "topics/precalculus/Transformations_I_Shifts_And_Reflections"
 status: draft
 confidence: high
 branch: pre-calculus
@@ -20,7 +20,7 @@ prerequisites:
   - "topics/precalculus/The_Unit_Circle"
   - "topics/precalculus/Circular_Functions"
   - "topics/precalculus/Graphs_Of_Trigonometric_Functions"
-  - "topics/precalculus/Transformations"
+  - "topics/precalculus/Transformations_I_Shifts_And_Reflections"
 problem_type_ids: []
 figures: []
 summary: "Any stretched, shifted sine or cosine wave. Four parameters — amplitude, period, phase shift, midline — fully describe the shape."
@@ -144,7 +144,7 @@ Before practicing, these should feel comfortable:
 - [[The_Unit_Circle]] — the geometric source of the basic sine and cosine waves
 - [[Circular_Functions]] — the definitions of $\sin x$ and $\cos x$ as circular coordinates
 - [[Graphs_Of_Trigonometric_Functions]] — the baseline shapes you are stretching and shifting
-- [[Transformations]] — how $Af(B(x - h)) + k$ moves any parent function
+- [[Transformations_I_Shifts_And_Reflections|Transformations]] — how $Af(B(x - h)) + k$ moves any parent function
 
 ---
 
@@ -162,7 +162,7 @@ Pick a problem type, pick a difficulty, pick how many you want, and click **Add 
 - [[Circular_Functions]]
 - [[The_Unit_Circle]]
 - [[Identities]] — sometimes the fastest route to a sinusoid form is an identity rewrite
-- [[Transformations]]
+- [[Transformations_I_Shifts_And_Reflections|Transformations]]
 - [[Precalculus|Pre-Calculus & Trig]]
 - [[Topics_Overview]]
 - [[_overview|Home]]

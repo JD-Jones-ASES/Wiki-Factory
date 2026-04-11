@@ -111,7 +111,7 @@ The right side is $r^2 = 36$, so $r = 6$.
 
 Before you practice circle problems, make sure you're comfortable with:
 
-- [[Coordinate_Plane|The coordinate plane]] — plotting points and reading coordinates
+- [[The_Coordinate_Plane|The coordinate plane]] — plotting points and reading coordinates
 - [[Pythagorean_Theorem|The Pythagorean theorem]] — where the distance formula (and therefore the circle equation) comes from
 
 If either of those is shaky, start there and come back.
