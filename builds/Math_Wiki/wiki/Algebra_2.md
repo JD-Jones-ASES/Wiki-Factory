@@ -59,10 +59,11 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Algebra 2 topics --- 32 live / 48 total
+### Algebra 2 topics --- 37 live / 45 total
 
-**🟢 Live topics with practice widgets (32)**
+**🟢 Live topics with practice widgets (37)**
 
+- 🟢 [[Absolute_Value_Equations|Absolute Value Equations]]
 - 🟢 [[Absolute_Value_Functions|Absolute Value Functions]]
 - 🟢 [[Adding_And_Subtracting_Rational_Expressions|Adding and Subtracting Rational Expressions]]
 - 🟢 [[Applications_Of_Quadratic_Functions|Applications of Quadratic Functions]]
@@ -86,35 +87,31 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 - 🟢 [[More_Exotic_Functions|More Exotic Functions]]
 - 🟢 [[Multiplying_And_Dividing_Rational_Expressions|Multiplying and Dividing Rational Expressions]]
 - 🟢 [[Parabolas|Parabolas]]
+- 🟢 [[Polynomial_Division|Polynomial Division]]
 - 🟢 [[Polynomial_Functions_And_Graphs|Polynomial Functions and Graphs]]
 - 🟢 [[Power_Functions|Power Functions]]
 - 🟢 [[Quadratic_Functions|Quadratic Functions]]
 - 🟢 [[Rational_Equations_And_Applications|Rational Equations and Applications]]
 - 🟢 [[Sequences|Sequences]]
+- 🟢 [[Solving_Equations_By_Factoring|Solving Equations by Factoring]]
+- 🟢 [[Solving_Equations_By_Taking_Roots|Solving Equations by Taking Roots]]
 - 🟢 [[Square_Root_Functions|Square Root Functions]]
 - 🟢 [[The_Complex_Number_System|The Complex Number System]]
+- 🟢 [[The_Quadratic_Formula|The Quadratic Formula]]
 - 🟢 [[Transformations_I_Shifts_And_Reflections|Transformations I: Shifts and Reflections]]
 - 🟢 [[Transformations_Ii_Stretches_Compressions_And_Combined|Transformations II: Stretches, Compressions, and Combined]]
 
 <details>
-<summary>⚪ 16 stub topic(s) (click to expand)</summary>
+<summary>⚪ 8 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Absolute_Value_Equations_And_Inequalities|Absolute Value Equations and Inequalities]]
-- ⚪ [[Factoring_Expressions|Factoring Expressions]]
 - ⚪ [[Factoring_I|Factoring I]]
 - ⚪ [[Factoring_Ii|Factoring II]]
-- ⚪ [[Polynomial_Basics|Polynomial Basics]]
-- ⚪ [[Polynomial_Division|Polynomial Division]]
 - ⚪ [[Polynomial_Inequalities|Polynomial Inequalities]]
 - ⚪ [[Powers_And_Roots|Powers and Roots]]
 - ⚪ [[Rational_Inequalities|Rational Inequalities]]
 - ⚪ [[Set_Notation_And_The_Real_Numbers|Set Notation and the Real Numbers]]
 - ⚪ [[Slopes_Of_Lines|Slopes of Lines]]
-- ⚪ [[Solving_Equations_By_Factoring|Solving Equations by Factoring]]
-- ⚪ [[Solving_Equations_By_Taking_Roots|Solving Equations by Taking Roots]]
-- ⚪ [[Solving_Equations_In_One_Variable|Solving Equations in One Variable]]
-- ⚪ [[Solving_Inequalities_In_One_Variable|Solving Inequalities in One Variable]]
-- ⚪ [[Systems_Of_Linear_Equations|Systems of Linear Equations]]
 
 </details>
 

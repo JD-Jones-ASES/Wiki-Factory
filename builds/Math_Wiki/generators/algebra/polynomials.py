@@ -734,6 +734,264 @@ class GCFFactorBinomialCommon(Generator):
 
 
 # ---------------------------------------------------------------------------
+# Topic: polynomial_basics (degree, leading coefficient, classification,
+# standard form)
+# ---------------------------------------------------------------------------
+
+
+def _format_poly_scrambled(terms: list[tuple[int, int]]) -> str:
+    """Format a list of (coef, exp) pairs in the given order as LaTeX.
+
+    Signs are rendered inline; first term keeps its native sign, subsequent
+    terms use + / - as separators.
+    """
+    parts: list[str] = []
+    for i, (coef, exp) in enumerate(terms):
+        if coef == 0:
+            continue
+        if exp == 0:
+            body = f"{abs(coef)}"
+        elif exp == 1:
+            body = "x" if abs(coef) == 1 else f"{abs(coef)}x"
+        else:
+            body = (
+                f"x^{{{exp}}}"
+                if abs(coef) == 1
+                else f"{abs(coef)}x^{{{exp}}}"
+            )
+        sign = "-" if coef < 0 else "+"
+        if i == 0:
+            parts.append(body if coef > 0 else f"-{body}")
+        else:
+            parts.append(f" {sign} {body}")
+    return "".join(parts) if parts else "0"
+
+
+@register
+class IdentifyDegreeAndLeadingCoeff(Generator):
+    """Given a scrambled polynomial, report the degree and leading coefficient.
+
+    Backward construction: pick a target degree ``d`` and leading coefficient
+    ``a`` (both non-zero for the leading term), sample random lower-degree
+    coefficients, then present the terms in a shuffled (non-standard) order
+    so the student must sort before reading off the answer.
+    """
+    generator_id = "identify_degree_and_leading_coeff"
+    topic_slug = "polynomial_basics"
+    display_name = "Identify the degree and leading coefficient"
+
+    _DEG = {"easy": (2, 3), "medium": (3, 4), "hard": (4, 6)}
+    _COEF = {"easy": (-9, 9), "medium": (-12, 12), "hard": (-18, 18)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        d_lo, d_hi = self._DEG[difficulty]
+        c_lo, c_hi = self._COEF[difficulty]
+        degree = rng.randint(d_lo, d_hi)
+        # Leading coefficient must be non-zero.
+        while True:
+            leading = rng.randint(c_lo, c_hi)
+            if leading != 0:
+                break
+
+        # Pick coefficients for degrees 0..degree-1 (some may be zero so the
+        # expression has a mix of present/absent terms).
+        terms: list[tuple[int, int]] = [(leading, degree)]
+        for exp in range(degree - 1, -1, -1):
+            if rng.random() < 0.7:
+                coef = rng.randint(c_lo, c_hi)
+                if coef != 0:
+                    terms.append((coef, exp))
+        # Guarantee at least one lower-degree term so the scramble is meaningful.
+        if len(terms) < 2:
+            terms.append((rng.choice([-3, -2, -1, 1, 2, 3]), 0))
+
+        # Shuffle into a non-standard order (not descending).
+        shuffled = terms[:]
+        for _ in range(5):
+            rng.shuffle(shuffled)
+            if shuffled != sorted(terms, key=lambda t: -t[1]):
+                break
+        statement = _format_poly_scrambled(shuffled)
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id,
+                difficulty,
+                (leading, degree, tuple(shuffled)),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"Determine the degree and the leading coefficient of "
+                f"${statement}$."
+            ),
+            answer_latex=f"Degree ${degree}$; leading coefficient ${leading}$",
+            hints=[
+                "The **degree** of a polynomial is the highest exponent on the variable.",
+                "The **leading coefficient** is the numerical factor multiplying the highest-degree term. Rearrange the polynomial in descending powers first if it is scrambled.",
+                f"Scan every term: the largest exponent you see is ${degree}$.",
+            ],
+            solution_steps_latex=[
+                f"Look at each term of ${statement}$ and find the largest exponent on $x$.",
+                f"The largest exponent is ${degree}$, so the degree is ${degree}$.",
+                f"The coefficient in front of $x^{{{degree}}}$ is ${leading}$, so the leading coefficient is ${leading}$.",
+            ],
+            tags=[
+                "#branch-algebra-1",
+                "#topic-polynomials",
+                "#skill-algebraic-manipulation",
+            ],
+        )
+
+
+@register
+class ClassifyPolynomialByTerms(Generator):
+    """Classify a polynomial as monomial/binomial/trinomial/polynomial and
+    give its degree.
+
+    Small parameter space, so the bank is kept tight.
+    """
+    generator_id = "classify_polynomial_by_terms"
+    topic_slug = "polynomial_basics"
+    display_name = "Classify a polynomial by number of terms"
+    bank_count_per_difficulty = 15
+
+    _DEG = {"easy": (1, 3), "medium": (2, 4), "hard": (2, 5)}
+    _COEF = {"easy": (-8, 8), "medium": (-12, 12), "hard": (-18, 18)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        d_lo, d_hi = self._DEG[difficulty]
+        c_lo, c_hi = self._COEF[difficulty]
+        n_terms = rng.choice([1, 2, 3, 4])
+        # Pick n_terms distinct exponents, largest one is the degree.
+        degree = rng.randint(d_lo, d_hi)
+        available_exps = list(range(degree + 1))
+        if n_terms > len(available_exps):
+            n_terms = len(available_exps)
+        # Always include the degree exponent for a clean "degree" answer.
+        chosen_exps = [degree]
+        lower = [e for e in available_exps if e != degree]
+        rng.shuffle(lower)
+        chosen_exps.extend(lower[: n_terms - 1])
+        chosen_exps.sort(reverse=True)
+
+        # Coefficients
+        terms: list[tuple[int, int]] = []
+        for exp in chosen_exps:
+            while True:
+                coef = rng.randint(c_lo, c_hi)
+                if coef != 0:
+                    break
+            terms.append((coef, exp))
+
+        statement = _format_poly_scrambled(terms)
+        classification = {
+            1: "monomial",
+            2: "binomial",
+            3: "trinomial",
+            4: "polynomial",
+        }[len(terms)]
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (tuple(terms),),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"Classify ${statement}$ by its number of terms, and give its degree."
+            ),
+            answer_latex=f"{classification}, degree ${degree}$",
+            hints=[
+                "Count how many separate terms appear (terms are separated by $+$ or $-$).",
+                "1 term = monomial, 2 terms = binomial, 3 terms = trinomial, 4 or more = polynomial.",
+                "The degree is the highest exponent on $x$.",
+            ],
+            solution_steps_latex=[
+                f"Count the terms of ${statement}$: there are ${len(terms)}$.",
+                f"A polynomial with ${len(terms)}$ term(s) is called a **{classification}**.",
+                f"The highest exponent is ${degree}$, so the degree is ${degree}$.",
+                f"Answer: {classification}, degree ${degree}$.",
+            ],
+            tags=[
+                "#branch-algebra-1",
+                "#topic-polynomials",
+                "#skill-algebraic-manipulation",
+            ],
+        )
+
+
+@register
+class WriteInStandardForm(Generator):
+    """Rewrite a scrambled polynomial in standard form (descending powers)."""
+    generator_id = "write_in_standard_form"
+    topic_slug = "polynomial_basics"
+    display_name = "Rewrite a polynomial in standard form"
+
+    _DEG = {"easy": (2, 3), "medium": (3, 4), "hard": (4, 5)}
+    _COEF = {"easy": (-9, 9), "medium": (-14, 14), "hard": (-20, 20)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        d_lo, d_hi = self._DEG[difficulty]
+        c_lo, c_hi = self._COEF[difficulty]
+        degree = rng.randint(d_lo, d_hi)
+        terms: list[tuple[int, int]] = []
+        # Guarantee a non-zero leading term
+        while True:
+            leading = rng.randint(c_lo, c_hi)
+            if leading != 0:
+                break
+        terms.append((leading, degree))
+        for exp in range(degree - 1, -1, -1):
+            if rng.random() < 0.75:
+                coef = rng.randint(c_lo, c_hi)
+                if coef != 0:
+                    terms.append((coef, exp))
+        if len(terms) < 3:
+            terms.append((rng.choice([-4, -2, 2, 4]), 0))
+
+        shuffled = terms[:]
+        for _ in range(6):
+            rng.shuffle(shuffled)
+            if shuffled != sorted(terms, key=lambda t: -t[1]):
+                break
+
+        statement = _format_poly_scrambled(shuffled)
+        standard_terms = sorted(terms, key=lambda t: -t[1])
+        answer = _format_poly_scrambled(standard_terms)
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id,
+                difficulty,
+                (tuple(shuffled),),
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Express ${statement}$ in standard form.",
+            answer_latex=f"${answer}$",
+            hints=[
+                "**Standard form** lists the terms in order from the highest power of $x$ down to the constant.",
+                "Identify each term's exponent, then sort them from largest to smallest exponent.",
+                f"The highest power here is $x^{{{degree}}}$, so that term comes first.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${statement}$.",
+                "Identify each term and its degree, then rearrange in descending order by exponent.",
+                f"In standard form: ${answer}$.",
+            ],
+            tags=[
+                "#branch-algebra-1",
+                "#topic-polynomials",
+                "#skill-algebraic-manipulation",
+            ],
+        )
+
+
+# ---------------------------------------------------------------------------
 # Topic 5: Factoring general trinomials (leading coefficient > 1)
 # ---------------------------------------------------------------------------
 

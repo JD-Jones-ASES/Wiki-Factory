@@ -3,24 +3,24 @@
     "overall": {
       "total_topics": 249,
       "complete": 0,
-      "draft": 159,
-      "stub": 90,
-      "with_3plus_generators": 160,
-      "with_300plus_words": 159,
-      "avg_score": 59.7
+      "draft": 182,
+      "stub": 67,
+      "with_3plus_generators": 178,
+      "with_300plus_words": 182,
+      "avg_score": 65.8
     },
     "by_branch": {
       "algebra": {
         "branch": "algebra",
         "topic_count": 98,
-        "with_generators": 64,
-        "with_prose_300": 57,
-        "with_examples_2": 57,
+        "with_generators": 82,
+        "with_prose_300": 80,
+        "with_examples_2": 64,
         "with_figure": 17,
-        "avg_score": 58.1,
+        "avg_score": 73.7,
         "status_counts": {
-          "stub": 41,
-          "draft": 57,
+          "stub": 18,
+          "draft": 80,
           "complete": 0,
           "unknown": 0
         }
@@ -77,21 +77,21 @@
       "slug": "Absolute_Value_Equations",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Absolute_Value_Equations.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 88,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1161,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
+      "wikilink_count": 13,
       "generator_count": 3,
       "generators": [
         "abs_val_eq_simple",
         "abs_val_eq_linear",
         "abs_val_eq_no_solution"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 30
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 75
     },
     {
       "slug": "Absolute_Value_Equations_And_Inequalities",
@@ -235,11 +235,14 @@
       "example_count": 0,
       "figure_count": 0,
       "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
+      "generator_count": 2,
+      "generators": [
+        "area_quadratic_word_problem",
+        "quadratic_revenue_or_cost_optimization"
+      ],
       "prerequisite_count": 0,
       "related_count": 0,
-      "score": 0
+      "score": 18
     },
     {
       "slug": "Applications_Of_Systems",
@@ -341,17 +344,21 @@
       "slug": "Equations_With_Variables_On_Both_Sides",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Equations_With_Variables_On_Both_Sides.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 68,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1212,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "wikilink_count": 15,
+      "generator_count": 3,
+      "generators": [
+        "solve_vars_both_sides_integer",
+        "solve_vars_both_sides_with_distribution",
+        "solve_vars_both_sides_word_problem"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 75
     },
     {
       "slug": "Exponential_Equations",
@@ -417,17 +424,21 @@
       "slug": "Factoring_Expressions",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Factoring_Expressions.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 162,
-      "example_count": 0,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1404,
+      "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
+      "wikilink_count": 22,
+      "generator_count": 3,
+      "generators": [
+        "factor_gcf_binomial_or_trinomial",
+        "recognize_and_factor",
+        "factor_difference_of_squares_simple"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 90
     },
     {
       "slug": "Factoring_I",
@@ -505,21 +516,21 @@
       "slug": "Factoring_Trinomials_Leading_Coefficient_1",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Factoring_Trinomials_Leading_Coefficient_1.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 65,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1075,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
+      "wikilink_count": 16,
       "generator_count": 3,
       "generators": [
         "factor_trinomial_leading_1",
         "factor_difference_of_squares",
         "factor_perfect_square_trinomial"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 30
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Function_Arithmetic_And_Composition",
@@ -745,17 +756,21 @@
       "slug": "Literal_Equations_And_Formulas",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Literal_Equations_And_Formulas.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 21,
-      "example_count": 0,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1656,
+      "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 0
+      "wikilink_count": 16,
+      "generator_count": 3,
+      "generators": [
+        "solve_formula_for_other_variable",
+        "solve_formula_with_numeric_subst",
+        "rearrange_simple_two_step_literal"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 90
     },
     {
       "slug": "Logarithmic_Equations",
@@ -861,21 +876,21 @@
       "slug": "Multi_Step_Equations",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Multi_Step_Equations.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 92,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1209,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
+      "wikilink_count": 13,
       "generator_count": 3,
       "generators": [
         "multi_step_eq_two_step",
         "multi_step_eq_distribution",
         "multi_step_eq_variables_both_sides"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 30
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 75
     },
     {
       "slug": "Multiplying_And_Dividing_Rational_Expressions",
@@ -937,12 +952,12 @@
       "slug": "One_Step_Equations",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/One_Step_Equations.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 197,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1021,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
+      "wikilink_count": 12,
       "generator_count": 4,
       "generators": [
         "one_step_eq_add",
@@ -950,9 +965,9 @@
         "one_step_eq_mul",
         "one_step_eq_div"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 40
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 75
     },
     {
       "slug": "Operations_With_Radicals",
@@ -1040,43 +1055,55 @@
       "example_count": 0,
       "figure_count": 0,
       "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
+      "generator_count": 3,
+      "generators": [
+        "percent_change_with_algebra",
+        "sales_tax_or_tip_algebra",
+        "word_problem_two_step_percent"
+      ],
       "prerequisite_count": 0,
       "related_count": 0,
-      "score": 0
+      "score": 25
     },
     {
       "slug": "Polynomial_Basics",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Polynomial_Basics.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 231,
-      "example_count": 0,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1457,
+      "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
+      "wikilink_count": 22,
+      "generator_count": 3,
+      "generators": [
+        "identify_degree_and_leading_coeff",
+        "classify_polynomial_by_terms",
+        "write_in_standard_form"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 90
     },
     {
       "slug": "Polynomial_Division",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Polynomial_Division.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 157,
-      "example_count": 0,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1426,
+      "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
+      "wikilink_count": 16,
+      "generator_count": 3,
+      "generators": [
+        "long_divide_polynomial_no_remainder",
+        "long_divide_polynomial_with_remainder",
+        "synthetic_division_by_linear"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 90
     },
     {
       "slug": "Polynomial_Functions_And_Graphs",
@@ -1154,21 +1181,21 @@
       "slug": "Properties_Of_Exponents",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Properties_Of_Exponents.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 128,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1089,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
+      "wikilink_count": 19,
       "generator_count": 3,
       "generators": [
         "exponent_product_rule",
         "exponent_quotient_rule",
         "exponent_power_rule"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 30
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Properties_Of_Real_Numbers",
@@ -1252,11 +1279,15 @@
       "example_count": 0,
       "figure_count": 0,
       "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
+      "generator_count": 3,
+      "generators": [
+        "solve_proportion_with_variable",
+        "proportion_word_problem_scale",
+        "similar_figures_proportion"
+      ],
       "prerequisite_count": 0,
       "related_count": 0,
-      "score": 5
+      "score": 30
     },
     {
       "slug": "Relations_And_Functions",
@@ -1302,17 +1333,21 @@
       "slug": "Scientific_Notation",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Scientific_Notation.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 35,
-      "example_count": 0,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1394,
+      "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 0
+      "wikilink_count": 13,
+      "generator_count": 3,
+      "generators": [
+        "convert_standard_to_scientific",
+        "convert_scientific_to_standard",
+        "multiply_or_divide_scientific"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 90
     },
     {
       "slug": "Sequences",
@@ -1394,12 +1429,12 @@
       "slug": "Slope",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Slope.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 80,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1228,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
+      "wikilink_count": 12,
       "generator_count": 4,
       "generators": [
         "slope_from_two_points",
@@ -1407,9 +1442,9 @@
         "slope_classify_from_points",
         "slope_parallel_perpendicular"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 30
+      "prerequisite_count": 3,
+      "related_count": 4,
+      "score": 75
     },
     {
       "slug": "Slopes_Of_Lines",
@@ -1431,65 +1466,81 @@
       "slug": "Solving_Equations_By_Factoring",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Solving_Equations_By_Factoring.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 97,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1085,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "wikilink_count": 19,
+      "generator_count": 3,
+      "generators": [
+        "factor_then_solve_trinomial",
+        "factor_then_solve_with_gcf",
+        "factor_difference_of_squares_solve"
+      ],
+      "prerequisite_count": 4,
+      "related_count": 6,
+      "score": 75
     },
     {
       "slug": "Solving_Equations_By_Taking_Roots",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Solving_Equations_By_Taking_Roots.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 133,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1069,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "wikilink_count": 17,
+      "generator_count": 3,
+      "generators": [
+        "solve_x_squared_equals_k_roots",
+        "solve_shifted_squared_equals_k",
+        "solve_scaled_squared_equals_k"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Solving_Equations_In_One_Variable",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Solving_Equations_In_One_Variable.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 139,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1232,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "wikilink_count": 22,
+      "generator_count": 3,
+      "generators": [
+        "general_linear_equation",
+        "simple_radical_equation",
+        "simple_rational_equation"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Solving_Inequalities_In_One_Variable",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Solving_Inequalities_In_One_Variable.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 40,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1190,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 0
+      "wikilink_count": 12,
+      "generator_count": 3,
+      "generators": [
+        "solve_linear_inequality",
+        "solve_inequality_with_sign_flip",
+        "solve_compound_inequality_simple"
+      ],
+      "prerequisite_count": 4,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Solving_Multi_Step_Inequalities",
@@ -1575,55 +1626,61 @@
       "slug": "Solving_Systems_By_Elimination",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Solving_Systems_By_Elimination.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 59,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1233,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 2,
+      "wikilink_count": 14,
+      "generator_count": 3,
       "generators": [
         "systems_elimination_direct",
-        "systems_elimination_with_multiplication"
+        "systems_elimination_with_multiplication",
+        "elimination_with_multiplication_one_row"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 23
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Solving_Systems_By_Graphing",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Solving_Systems_By_Graphing.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 135,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1486,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "wikilink_count": 17,
+      "generator_count": 3,
+      "generators": [
+        "solve_system_graphing_integer_intersection",
+        "solve_system_graphing_no_solution_detect",
+        "solve_system_graphing_infinite_solutions_detect"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Solving_Systems_By_Substitution",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Solving_Systems_By_Substitution.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 59,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1190,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 2,
+      "wikilink_count": 16,
+      "generator_count": 3,
       "generators": [
         "systems_substitution_isolated_y",
-        "systems_substitution_isolated_x"
+        "systems_substitution_isolated_x",
+        "substitution_with_isolated_variable"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 23
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Special_Products",
@@ -1669,17 +1726,21 @@
       "slug": "Systems_Of_Linear_Equations",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Systems_Of_Linear_Equations.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 150,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1503,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
+      "wikilink_count": 16,
+      "generator_count": 3,
+      "generators": [
+        "solve_system_two_equations_substitution",
+        "classify_system",
+        "solve_system_word_problem"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "Systems_Of_Linear_Inequalities",
@@ -1725,17 +1786,21 @@
       "slug": "The_Coordinate_Plane",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/The_Coordinate_Plane.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 121,
-      "example_count": 0,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1423,
+      "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 5
+      "wikilink_count": 15,
+      "generator_count": 3,
+      "generators": [
+        "identify_quadrant_of_point",
+        "plot_point_from_description",
+        "distance_or_direction_between_points"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 90
     },
     {
       "slug": "The_Discriminant",
@@ -1777,21 +1842,21 @@
       "slug": "The_Quadratic_Formula",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/The_Quadratic_Formula.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 66,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1146,
       "example_count": 0,
       "figure_count": 0,
-      "wikilink_count": 5,
+      "wikilink_count": 16,
       "generator_count": 3,
       "generators": [
         "quadratic_formula_integer_roots",
         "quadratic_discriminant",
         "quadratic_formula_radical_roots"
       ],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 30
+      "prerequisite_count": 4,
+      "related_count": 5,
+      "score": 75
     },
     {
       "slug": "The_Real_Numbers",
@@ -1853,17 +1918,21 @@
       "slug": "Variables_And_Expressions",
       "branch": "algebra",
       "relpath": "wiki/topics/algebra/Variables_And_Expressions.md",
-      "status": "stub",
-      "confidence": "medium",
-      "word_count": 166,
-      "example_count": 0,
+      "status": "draft",
+      "confidence": "high",
+      "word_count": 1442,
+      "example_count": 3,
       "figure_count": 0,
-      "wikilink_count": 5,
-      "generator_count": 0,
-      "generators": [],
-      "prerequisite_count": 0,
-      "related_count": 0,
-      "score": 15
+      "wikilink_count": 19,
+      "generator_count": 3,
+      "generators": [
+        "evaluate_expression_at_integer",
+        "translate_phrase_to_expression",
+        "identify_terms_and_coefficients"
+      ],
+      "prerequisite_count": 3,
+      "related_count": 5,
+      "score": 90
     },
     {
       "slug": "Writing_Linear_Equations",

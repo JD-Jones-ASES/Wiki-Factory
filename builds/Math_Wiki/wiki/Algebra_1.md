@@ -57,64 +57,67 @@ Every live topic below has a full lesson and a **Problems Involving {Topic}** wi
 
 <!-- AUTO:TOPICS:BEGIN -->
 
-### Algebra 1 topics --- 34 live / 50 total
+### Algebra 1 topics --- 46 live / 53 total
 
-**🟢 Live topics with practice widgets (34)**
+**🟢 Live topics with practice widgets (46)**
 
-- 🟢 [[Absolute_Value_Equations|Absolute Value Equations]]
 - 🟢 [[Absolute_Value_Inequalities|Absolute Value Inequalities]]
 - 🟢 [[Adding_And_Subtracting_Polynomials|Adding and Subtracting Polynomials]]
+- 🟢 [[Applications_Of_Quadratics|Applications of Quadratics]]
 - 🟢 [[Compound_Inequalities|Compound Inequalities]]
+- 🟢 [[Equations_With_Variables_On_Both_Sides|Equations with Variables on Both Sides]]
 - 🟢 [[Factoring_Completely|Factoring Completely]]
+- 🟢 [[Factoring_Expressions|Factoring Expressions]]
 - 🟢 [[Factoring_Special_Forms|Factoring Special Forms]]
 - 🟢 [[Factoring_Trinomials_General|Factoring Trinomials: General]]
 - 🟢 [[Factoring_Trinomials_Leading_Coefficient_1|Factoring Trinomials: Leading Coefficient 1]]
 - 🟢 [[Graphing_Quadratic_Functions|Graphing Quadratic Functions]]
 - 🟢 [[Greatest_Common_Factor|Greatest Common Factor]]
 - 🟢 [[Inequalities_And_Their_Graphs|Inequalities and Their Graphs]]
+- 🟢 [[Literal_Equations_And_Formulas|Literal Equations and Formulas]]
 - 🟢 [[Multi_Step_Equations|Multi-Step Equations]]
 - 🟢 [[Multiplying_Polynomials|Multiplying Polynomials]]
 - 🟢 [[One_Step_Equations|One-Step Equations]]
 - 🟢 [[Operations_With_Radicals|Operations with Radicals]]
 - 🟢 [[Parallel_And_Perpendicular_Lines|Parallel and Perpendicular Lines]]
+- 🟢 [[Percent_Applications|Percent Applications]]
+- 🟢 [[Polynomial_Basics|Polynomial Basics]]
 - 🟢 [[Properties_Of_Exponents|Properties of Exponents]]
+- 🟢 [[Ratios_And_Proportions|Ratios and Proportions]]
 - 🟢 [[Relations_And_Functions|Relations and Functions]]
 - 🟢 [[Scatter_Plots_And_Trend_Lines|Scatter Plots and Trend Lines]]
+- 🟢 [[Scientific_Notation|Scientific Notation]]
 - 🟢 [[Simplifying_Radical_Expressions|Simplifying Radical Expressions]]
 - 🟢 [[Simplifying_Rational_Expressions|Simplifying Rational Expressions]]
 - 🟢 [[Slope|Slope]]
+- 🟢 [[Solving_Equations_In_One_Variable|Solving Equations in One Variable]]
+- 🟢 [[Solving_Inequalities_In_One_Variable|Solving Inequalities in One Variable]]
 - 🟢 [[Solving_Multi_Step_Inequalities|Solving Multi-Step Inequalities]]
 - 🟢 [[Solving_Quadratics_By_Factoring|Solving Quadratics by Factoring]]
 - 🟢 [[Solving_Quadratics_By_Square_Roots|Solving Quadratics by Square Roots]]
 - 🟢 [[Solving_Rational_Equations|Solving Rational Equations]]
 - 🟢 [[Solving_Systems_By_Elimination|Solving Systems by Elimination]]
+- 🟢 [[Solving_Systems_By_Graphing|Solving Systems by Graphing]]
 - 🟢 [[Solving_Systems_By_Substitution|Solving Systems by Substitution]]
 - 🟢 [[Special_Products|Special Products]]
+- 🟢 [[Systems_Of_Linear_Equations|Systems of Linear Equations]]
 - 🟢 [[Systems_Of_Linear_Inequalities|Systems of Linear Inequalities]]
+- 🟢 [[The_Coordinate_Plane|The Coordinate Plane]]
 - 🟢 [[The_Discriminant|The Discriminant]]
-- 🟢 [[The_Quadratic_Formula|The Quadratic Formula]]
+- 🟢 [[Variables_And_Expressions|Variables and Expressions]]
 - 🟢 [[Writing_Linear_Equations|Writing Linear Equations]]
 - 🟢 [[Zero_And_Negative_Exponents|Zero and Negative Exponents]]
 
 <details>
-<summary>⚪ 16 stub topic(s) (click to expand)</summary>
+<summary>⚪ 7 stub topic(s) (click to expand)</summary>
 
 - ⚪ [[Adding_And_Subtracting_Real_Numbers|Adding and Subtracting Real Numbers]]
-- ⚪ [[Applications_Of_Quadratics|Applications of Quadratics]]
 - ⚪ [[Applications_Of_Systems|Applications of Systems]]
-- ⚪ [[Equations_With_Variables_On_Both_Sides|Equations with Variables on Both Sides]]
-- ⚪ [[Literal_Equations_And_Formulas|Literal Equations and Formulas]]
 - ⚪ [[Multiplying_And_Dividing_Real_Numbers|Multiplying and Dividing Real Numbers]]
 - ⚪ [[Operations_With_Rational_Expressions|Operations with Rational Expressions]]
-- ⚪ [[Percent_Applications|Percent Applications]]
 - ⚪ [[Properties_Of_Real_Numbers|Properties of Real Numbers]]
-- ⚪ [[Ratios_And_Proportions|Ratios and Proportions]]
-- ⚪ [[Scientific_Notation|Scientific Notation]]
-- ⚪ [[Solving_Systems_By_Graphing|Solving Systems by Graphing]]
-- ⚪ [[The_Coordinate_Plane|The Coordinate Plane]]
 - ⚪ [[The_Pythagorean_Theorem_And_Distance_Formula|The Pythagorean Theorem and Distance Formula]]
 - ⚪ [[The_Real_Numbers|The Real Numbers]]
-- ⚪ [[Variables_And_Expressions|Variables and Expressions]]
 
 </details>
 

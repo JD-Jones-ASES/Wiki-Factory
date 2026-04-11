@@ -2030,6 +2030,308 @@ def fig_compound_growth_comparison():
 
 
 # ---------------------------------------------------------------------------
+# Algebra: systems of linear equations by graphing (Wave B)
+
+def fig_systems_graphing_intersection():
+    """Two lines crossing at (4, 2): y = -x + 6 and y = 2x - 6."""
+    fig, ax = plt.subplots(figsize=(5.5, 5.5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-5.6, 10.6)
+    ax.set_ylim(-5.6, 10.6)
+
+    # Light grid at every integer
+    for i in range(-5, 11):
+        ax.plot([i, i], [-5, 10], color=C_GRID, linewidth=0.5, zorder=0)
+        ax.plot([-5, 10], [i, i], color=C_GRID, linewidth=0.5, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(10.3, 0), xytext=(-5.3, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 10.3), xytext=(0, -5.3),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(10.4, 0.25, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.25, 10.4, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Integer tick labels on both axes (skip the origin)
+    for xt in range(-5, 11):
+        if xt == 0:
+            continue
+        ax.text(xt, -0.35, str(xt), ha="center", va="top",
+                fontsize=8, color=C_TEXT)
+    for yt in range(-5, 11):
+        if yt == 0:
+            continue
+        ax.text(-0.25, yt, str(yt), ha="right", va="center",
+                fontsize=8, color=C_TEXT)
+
+    # Origin label
+    ax.text(-0.25, -0.25, "O", fontsize=11, color=C_TEXT,
+            ha="right", va="top", fontweight="bold")
+
+    # x values for plotting lines
+    xs = np.linspace(-5, 10, 200)
+
+    color_blue = "#2e86de"
+    color_green = "#10ac84"
+
+    # Line 1: y = -x + 6
+    y1 = -xs + 6
+    mask1 = (y1 >= -5) & (y1 <= 10)
+    ax.plot(xs[mask1], y1[mask1], color=color_blue, linewidth=2.3, zorder=2)
+
+    # Line 2: y = 2x - 6
+    y2 = 2 * xs - 6
+    mask2 = (y2 >= -5) & (y2 <= 10)
+    ax.plot(xs[mask2], y2[mask2], color=color_green, linewidth=2.3, zorder=2)
+
+    # In-figure labels near each line
+    ax.text(-3.2, (-(-3.2) + 6) + 0.4, r"$y = -x + 6$",
+            fontsize=11, color=color_blue, ha="left", va="bottom")
+    ax.text(7.2, 2 * 7.2 - 6 + 0.4, r"$y = 2x - 6$",
+            fontsize=11, color=color_green, ha="right", va="bottom")
+
+    # Intersection point at (4, 2)
+    ax.plot(4, 2, "o", color=C_RADIUS, markersize=11, zorder=5)
+    ax.annotate(r"$(4,\, 2)$",
+                xy=(4, 2), xytext=(5.2, 3.4),
+                fontsize=12, color=C_RADIUS, fontweight="bold",
+                arrowprops=dict(arrowstyle="->",
+                                color=C_RADIUS, lw=1.1))
+
+    ax.set_title("Solving a system by graphing", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/systems_graphing_intersection.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: coordinate plane with four labeled quadrants (Wave B)
+
+def fig_coordinate_plane_quadrants():
+    """Coordinate plane from -6 to 6 with quadrants labeled and a point in each."""
+    fig, ax = plt.subplots(figsize=(5.5, 5.5))
+    ax.set_aspect("equal")
+    ax.set_xlim(-6.6, 6.6)
+    ax.set_ylim(-6.6, 6.6)
+
+    # Light grid at every integer
+    for i in range(-6, 7):
+        ax.plot([i, i], [-6, 6], color=C_GRID, linewidth=0.5, zorder=0)
+        ax.plot([-6, 6], [i, i], color=C_GRID, linewidth=0.5, zorder=0)
+
+    # Axes with arrowheads
+    ax.annotate(
+        "", xy=(6.3, 0), xytext=(-6.3, 0),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.annotate(
+        "", xy=(0, 6.3), xytext=(0, -6.3),
+        arrowprops=dict(arrowstyle="<|-|>", color=C_LINE, lw=1.4),
+    )
+    ax.text(6.4, 0.25, r"$x$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+    ax.text(0.25, 6.4, r"$y$", fontsize=12, color=C_TEXT,
+            ha="left", va="bottom")
+
+    # Origin label
+    ax.text(-0.25, -0.25, "O", fontsize=11, color=C_TEXT,
+            ha="right", va="top", fontweight="bold")
+
+    # Integer tick labels on both axes (skip the origin)
+    for xt in range(-6, 7):
+        if xt == 0:
+            continue
+        ax.text(xt, -0.35, str(xt), ha="center", va="top",
+                fontsize=7, color=C_TEXT)
+    for yt in range(-6, 7):
+        if yt == 0:
+            continue
+        ax.text(-0.25, yt, str(yt), ha="right", va="center",
+                fontsize=7, color=C_TEXT)
+
+    # Quadrant labels in the corners
+    quadrant_color = "#8a8a8a"
+    ax.text(5.5, 5.5, "I", fontsize=18, color=quadrant_color,
+            ha="center", va="center", fontstyle="italic")
+    ax.text(-5.5, 5.5, "II", fontsize=18, color=quadrant_color,
+            ha="center", va="center", fontstyle="italic")
+    ax.text(-5.5, -5.5, "III", fontsize=18, color=quadrant_color,
+            ha="center", va="center", fontstyle="italic")
+    ax.text(5.5, -5.5, "IV", fontsize=18, color=quadrant_color,
+            ha="center", va="center", fontstyle="italic")
+
+    # Sample point in each quadrant (blue dots)
+    color_blue = "#2e86de"
+    points = [
+        ((4, 3),   (0.3, 0.3),    "left",  "bottom"),   # Quadrant I
+        ((-3, 4),  (0.3, 0.3),    "left",  "bottom"),   # Quadrant II
+        ((-5, -2), (0.3, -0.3),   "left",  "top"),      # Quadrant III
+        ((2, -4),  (0.3, -0.3),   "left",  "top"),      # Quadrant IV
+    ]
+    for (px, py), (dx, dy), ha, va in points:
+        ax.plot(px, py, "o", color=color_blue, markersize=8, zorder=4)
+        ax.text(px + dx, py + dy,
+                f"$({px},\\, {py})$",
+                fontsize=10, color=color_blue,
+                ha=ha, va=va, fontweight="bold")
+
+    ax.set_title("The four quadrants", fontsize=14, pad=12)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/coordinate_plane_quadrants.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: polynomial anatomy labeled diagram (Wave B)
+
+def fig_polynomial_anatomy_diagram():
+    """Anatomy of 3x^4 - 5x^2 + 7x - 2 with labeled callouts."""
+    fig, ax = plt.subplots(figsize=(8, 3))
+    ax.set_xlim(0, 10)
+    ax.set_ylim(0, 4)
+
+    # The polynomial across the top, each piece placed at a known x
+    # coordinate so the arrows can point precisely at it.
+    top_y = 3.25
+    pieces = [
+        (1.4, r"$3$",    "leading"),   # leading coefficient
+        (1.9, r"$x^{4}$", "degree"),    # degree
+        (2.9, r"$-\, 5x^{2}$", None),
+        (4.5, r"$+\, 7x$",     "x-coef"),
+        (6.0, r"$-\, 2$",      "const"),
+    ]
+
+    # Render each piece with a bold monospace-ish look
+    for px, tex, _ in pieces:
+        ax.text(px, top_y, tex, fontsize=20, color=C_TEXT,
+                ha="left", va="center", fontweight="bold")
+
+    # Callouts: arrows + labels pointing up to the highlighted piece.
+    # Each entry: (arrow_tail_x, arrow_tail_y, label_text, color)
+    callouts = [
+        # Leading coefficient -> "3" at (1.4, top_y), arrow from below-left
+        (1.55, 0.55, "leading coefficient (3)", "#2e86de",
+         (1.55, top_y - 0.35)),
+        # Degree -> "x^4" exponent at ~(2.25, top_y + 0.25)
+        (2.35, 0.55, "degree (4)", "#10ac84",
+         (2.30, top_y + 0.45)),
+        # Coefficient of x term -> "+ 7x" at (4.5, top_y)
+        (5.0, 0.55, "coefficient of $x$ term (7)", C_RADIUS,
+         (5.0, top_y - 0.35)),
+        # Constant term -> "- 2" at (6.0, top_y)
+        (6.55, 0.55, "constant term ($-2$)", "#ee7c2a",
+         (6.45, top_y - 0.35)),
+    ]
+    for tail_x, tail_y, label, color, (head_x, head_y) in callouts:
+        ax.annotate(
+            "",
+            xy=(head_x, head_y), xytext=(tail_x, tail_y),
+            arrowprops=dict(arrowstyle="->", color=color, lw=1.4),
+        )
+        ax.text(tail_x, tail_y - 0.22, label,
+                fontsize=10, color=color,
+                ha="center", va="top", fontweight="bold")
+
+    ax.set_title("Anatomy of a polynomial: $3x^{4} - 5x^{2} + 7x - 2$",
+                 fontsize=13, pad=10)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    _save(fig, "algebra/polynomial_anatomy_diagram.svg")
+
+
+# ---------------------------------------------------------------------------
+# Algebra: projectile max-height parabola (Wave B)
+
+def fig_parabola_max_height_projectile():
+    """h(t) = -16t^2 + 32t + 4 parabola with vertex and intercepts labeled."""
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.set_xlim(-0.25, 2.6)
+    ax.set_ylim(-2.5, 30)
+
+    # Axis ticks and grid
+    ax.set_xticks([0.0, 0.5, 1.0, 1.5, 2.0, 2.5])
+    ax.set_yticks([0, 5, 10, 15, 20, 25, 30])
+    ax.tick_params(axis="both", colors=C_TEXT, labelsize=9)
+    ax.grid(True, color=C_GRID, linewidth=0.7, zorder=0)
+
+    # The parabola h(t) = -16 t^2 + 32 t + 4
+    # Roots: t = (32 +/- sqrt(1024 + 256)) / 32 = (32 +/- sqrt(1280))/32
+    #       = 1 +/- sqrt(5)/2
+    t_land = 1.0 + np.sqrt(5.0) / 2.0   # ~2.118
+    ts = np.linspace(0.0, t_land, 400)
+    hs = -16.0 * ts ** 2 + 32.0 * ts + 4.0
+    ax.plot(ts, hs, color=C_LINE, linewidth=2.4, zorder=2)
+
+    # Vertex at t = 1, h = 20 -> red dot + label
+    ax.plot(1.0, 20.0, "o", color=C_RADIUS, markersize=11, zorder=5)
+    ax.annotate("max height\n$(1,\\, 20)$",
+                xy=(1.0, 20.0), xytext=(1.35, 26.5),
+                fontsize=11, color=C_RADIUS, fontweight="bold",
+                ha="left", va="center",
+                arrowprops=dict(arrowstyle="->",
+                                color=C_RADIUS, lw=1.1))
+
+    # Initial height (0, 4)
+    color_blue = "#2e86de"
+    ax.plot(0.0, 4.0, "o", color=color_blue, markersize=9, zorder=5)
+    ax.annotate(r"initial height $(0,\, 4)$",
+                xy=(0.0, 4.0), xytext=(0.12, 10.5),
+                fontsize=10, color=color_blue, fontweight="bold",
+                ha="left", va="center",
+                arrowprops=dict(arrowstyle="->",
+                                color=color_blue, lw=1.0))
+
+    # Landing time (t_land, 0)
+    color_green = "#10ac84"
+    ax.plot(t_land, 0.0, "o", color=color_green, markersize=9, zorder=5)
+    ax.annotate(
+        r"hits ground at $t \approx 2.12$ s",
+        xy=(t_land, 0.0), xytext=(2.5, 8.0),
+        fontsize=10, color=color_green, fontweight="bold",
+        ha="right", va="center",
+        arrowprops=dict(arrowstyle="->",
+                        color=color_green, lw=1.0),
+    )
+
+    # Equation label in upper-left
+    ax.text(0.08, 28,
+            r"$h(t) = -16t^{2} + 32t + 4$",
+            fontsize=12, color=C_TEXT,
+            ha="left", va="top",
+            bbox=dict(boxstyle="round,pad=0.35",
+                      facecolor="white",
+                      edgecolor=C_DASH, linewidth=0.8))
+
+    ax.set_xlabel("time $t$ (seconds)", fontsize=11, color=C_TEXT)
+    ax.set_ylabel("height $h$ (feet)", fontsize=11, color=C_TEXT)
+    ax.set_title("Projectile height vs. time", fontsize=14, pad=12)
+
+    for spine_name, spine in ax.spines.items():
+        if spine_name in ("top", "right"):
+            spine.set_visible(False)
+        else:
+            spine.set_color(C_LINE)
+            spine.set_linewidth(1.2)
+
+    _save(fig, "algebra/parabola_max_height_projectile.svg")
+
+
+# ---------------------------------------------------------------------------
 # Precalculus: the unit circle with 16 special angles (Cluster 7)
 
 def fig_unit_circle():
@@ -4002,6 +4304,10 @@ FIGURES = [
     ("exponential_growth_decay", fig_exponential_growth_decay),
     ("log_exp_inverses", fig_log_exp_inverses),
     ("compound_growth_comparison", fig_compound_growth_comparison),
+    ("systems_graphing_intersection", fig_systems_graphing_intersection),
+    ("coordinate_plane_quadrants", fig_coordinate_plane_quadrants),
+    ("polynomial_anatomy_diagram", fig_polynomial_anatomy_diagram),
+    ("parabola_max_height_projectile", fig_parabola_max_height_projectile),
     ("unit_circle", fig_unit_circle),
     ("sine_cosine_graphs", fig_sine_cosine_graphs),
     ("right_triangle_soh_cah_toa", fig_right_triangle_soh_cah_toa),

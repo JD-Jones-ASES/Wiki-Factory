@@ -1215,3 +1215,174 @@ class SystemLinIneqSlopeInterceptForm(Generator):
             ],
             tags=["#branch-algebra-1", "#topic-inequalities", "#skill-visualization"],
         )
+
+
+# ============================================================================
+# Wave B: solving_inequalities_in_one_variable
+# ============================================================================
+
+@register
+class SolveLinearInequality(Generator):
+    """Solve $ax + b$ <op> $c$ for positive $a$ (no sign flip)."""
+    generator_id = "solve_linear_inequality"
+    topic_slug = "solving_inequalities_in_one_variable"
+    display_name = "Determine the solution of a linear inequality"
+
+    _A_RANGE = {"easy": (2, 6), "medium": (2, 10), "hard": (2, 15)}
+    _X_RANGE = {"easy": (-8, 8), "medium": (-15, 15), "hard": (-22, 22)}
+    _B_RANGE = {"easy": (-12, 12), "medium": (-22, 22), "hard": (-35, 35)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        a_lo, a_hi = self._A_RANGE[difficulty]
+        x_lo, x_hi = self._X_RANGE[difficulty]
+        b_lo, b_hi = self._B_RANGE[difficulty]
+
+        a = rng.randint(a_lo, a_hi)  # positive → no flip
+        x_val = rng.randint(x_lo, x_hi)
+        b = rng.randint(b_lo, b_hi)
+        c = a * x_val + b
+
+        symbol = rng.choice(list(_SYMBOLS))
+        lhs_str = _linear_term(a, b)
+        problem_latex = f"{lhs_str} {symbol} {c}"
+        after_sub = c - b  # a * x_val
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (a, b, c, symbol)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Determine the solution set of ${problem_latex}$.",
+            answer_latex=f"$x {symbol} {x_val}$",
+            hints=[
+                f"Subtract ${b}$ from both sides to isolate the ${a}x$ term.",
+                f"Then divide both sides by ${a}$. Since ${a} > 0$, the inequality symbol stays the same.",
+                f"The solution is $x {symbol} {x_val}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${problem_latex}$.",
+                f"Subtract ${b}$ from both sides: ${a}x {symbol} {after_sub}$.",
+                f"Divide both sides by ${a}$ (positive, no flip): $x {symbol} \\dfrac{{{after_sub}}}{{{a}}}$.",
+                f"Simplify: $x {symbol} {x_val}$.",
+            ],
+            tags=["#branch-algebra-1", "#topic-inequalities", "#skill-multi-step"],
+        )
+
+
+@register
+class SolveInequalityWithSignFlip(Generator):
+    """Solve $-ax + b$ <op> $c$ where dividing by $-a$ flips the inequality."""
+    generator_id = "solve_inequality_with_sign_flip"
+    topic_slug = "solving_inequalities_in_one_variable"
+    display_name = "Solve an inequality that requires flipping the symbol"
+
+    _A_RANGE = {"easy": (2, 6), "medium": (2, 10), "hard": (2, 15)}
+    _X_RANGE = {"easy": (-8, 8), "medium": (-15, 15), "hard": (-22, 22)}
+    _B_RANGE = {"easy": (-12, 12), "medium": (-22, 22), "hard": (-35, 35)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        a_lo, a_hi = self._A_RANGE[difficulty]
+        x_lo, x_hi = self._X_RANGE[difficulty]
+        b_lo, b_hi = self._B_RANGE[difficulty]
+
+        a = -rng.randint(a_lo, a_hi)  # negative, forces sign flip
+        x_val = rng.randint(x_lo, x_hi)
+        b = rng.randint(b_lo, b_hi)
+        c = a * x_val + b
+
+        symbol = rng.choice(list(_SYMBOLS))
+        final_symbol = _FLIP[symbol]
+
+        lhs_str = _linear_term(a, b)
+        problem_latex = f"{lhs_str} {symbol} {c}"
+        after_sub = c - b  # a * x_val (note: a is negative)
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (a, b, c, symbol)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Determine the solution set of ${problem_latex}$.",
+            answer_latex=f"$x {final_symbol} {x_val}$",
+            hints=[
+                f"Subtract ${b}$ from both sides to isolate the ${a}x$ term.",
+                (
+                    f"Now divide both sides by ${a}$. Because ${a} < 0$, **flip** the "
+                    "inequality symbol."
+                ),
+                f"The final solution is $x {final_symbol} {x_val}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${problem_latex}$.",
+                f"Subtract ${b}$ from both sides: ${a}x {symbol} {after_sub}$.",
+                (
+                    f"Divide both sides by ${a}$. Because ${a} < 0$, flip the "
+                    f"symbol: $x {final_symbol} \\dfrac{{{after_sub}}}{{{a}}}$."
+                ),
+                f"Simplify: $x {final_symbol} {x_val}$.",
+            ],
+            tags=["#branch-algebra-1", "#topic-inequalities", "#skill-multi-step"],
+        )
+
+
+@register
+class SolveCompoundInequalitySimple(Generator):
+    """Solve a three-part compound inequality $a < bx + c < d$ for $x$ (positive $b$)."""
+    generator_id = "solve_compound_inequality_simple"
+    topic_slug = "solving_inequalities_in_one_variable"
+    display_name = "Solve a three-part compound inequality"
+
+    _B_RANGE = {"easy": (2, 5), "medium": (2, 8), "hard": (2, 12)}
+    _X_LOW = {"easy": (-6, 4), "medium": (-10, 8), "hard": (-15, 12)}
+    _WIDTH = {"easy": (2, 6), "medium": (3, 10), "hard": (4, 16)}
+    _C_RANGE = {"easy": (-8, 8), "medium": (-15, 15), "hard": (-25, 25)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        b_lo, b_hi = self._B_RANGE[difficulty]
+        xl_lo, xl_hi = self._X_LOW[difficulty]
+        w_lo, w_hi = self._WIDTH[difficulty]
+        c_lo, c_hi = self._C_RANGE[difficulty]
+
+        b = rng.randint(b_lo, b_hi)  # positive so symbols stay
+        x_low = rng.randint(xl_lo, xl_hi)
+        width = rng.randint(w_lo, w_hi)
+        x_high = x_low + width
+        c = rng.randint(c_lo, c_hi)
+
+        lower = b * x_low + c
+        upper = b * x_high + c
+
+        left_strict = rng.choice([True, False])
+        right_strict = rng.choice([True, False])
+        left_sym = "<" if left_strict else r"\leq"
+        right_sym = "<" if right_strict else r"\leq"
+
+        middle_str = _linear_term(b, c)
+        problem_latex = f"{lower} {left_sym} {middle_str} {right_sym} {upper}"
+        final_latex = f"{x_low} {left_sym} x {right_sym} {x_high}"
+        # Intermediate: subtract c from all three
+        mid_low = lower - c
+        mid_high = upper - c
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (b, c, x_low, x_high, left_sym, right_sym)
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Determine the solution set: ${problem_latex}$.",
+            answer_latex=f"${final_latex}$",
+            hints=[
+                "Apply the same operation to all three parts of the inequality.",
+                f"Subtract ${c}$ from all three parts: ${mid_low} {left_sym} {b}x {right_sym} {mid_high}$.",
+                f"Divide all three parts by ${b}$ to finish.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${problem_latex}$.",
+                f"Subtract ${c}$ from all three parts: ${mid_low} {left_sym} {b}x {right_sym} {mid_high}$.",
+                f"Divide all three parts by ${b}$: ${final_latex}$.",
+                f"Solution: ${final_latex}$.",
+            ],
+            tags=["#branch-algebra-1", "#topic-inequalities", "#skill-multi-step"],
+        )

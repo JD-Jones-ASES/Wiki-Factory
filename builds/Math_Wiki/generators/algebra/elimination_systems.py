@@ -141,3 +141,86 @@ class EliminationWithMultiplication(Generator):
             ],
             tags=["#branch-algebra-1", "#topic-systems", "#skill-multi-step"],
         )
+
+
+@register
+class EliminationWithMultiplicationOneRow(Generator):
+    """Multiply exactly ONE equation to cancel an x-variable on addition.
+
+    The first equation has a coefficient of x that is not a factor of the
+    second's. We multiply one equation by a chosen integer so one x-column
+    becomes opposite the other, then add.
+    """
+    generator_id = "elimination_with_multiplication_one_row"
+    topic_slug = "solving_systems_by_elimination"
+    display_name = "Solve by elimination (multiply one row)"
+
+    _COEF_RANGE = {"easy": (2, 5), "medium": (2, 7), "hard": (2, 10)}
+    _VAR_RANGE = {"easy": (-7, 7), "medium": (-10, 10), "hard": (-15, 15)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        coef_lo, coef_hi = self._COEF_RANGE[difficulty]
+        var_lo, var_hi = self._VAR_RANGE[difficulty]
+
+        x_val = rng.randint(var_lo, var_hi)
+        y_val = rng.randint(var_lo, var_hi)
+
+        # First equation: pick a small coefficient on x.
+        a1 = rng.randint(coef_lo, coef_hi)
+        # Multiplier: we'll scale the first equation by this to cancel with a2.
+        scale = rng.choice([2, 3, 4])
+        # Second equation's x-coefficient must be opposite of a1*scale so addition cancels.
+        a2 = -a1 * scale
+        # Pick y-coefficients independently (no further scaling needed for the other row).
+        b1 = rng.randint(coef_lo, coef_hi)
+        if rng.random() < 0.5:
+            b1 = -b1
+        b2 = rng.randint(coef_lo, coef_hi)
+        if rng.random() < 0.5:
+            b2 = -b2
+        # Non-degenerate: a1*b2 - a2*b1 != 0
+        while a1 * b2 - a2 * b1 == 0:
+            b2 = rng.randint(coef_lo, coef_hi)
+            if rng.random() < 0.5:
+                b2 = -b2
+
+        c1 = a1 * x_val + b1 * y_val
+        c2 = a2 * x_val + b2 * y_val
+
+        eq1_latex = sp.latex(sp.Eq(a1 * x + b1 * y, c1))
+        eq2_latex = sp.latex(sp.Eq(a2 * x + b2 * y, c2))
+
+        # After scaling eq1 by `scale`: (a1*scale)x + (b1*scale)y = c1*scale
+        scaled_a1 = a1 * scale
+        scaled_b1 = b1 * scale
+        scaled_c1 = c1 * scale
+        # Adding the scaled first equation and the second cancels the x-coefficient
+        new_b = scaled_b1 + b2
+        new_c = scaled_c1 + c2
+
+        return Problem(
+            id=make_problem_id(
+                self.generator_id, difficulty, (a1, b1, c1, a2, b2, c2, scale)
+            ),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=(
+                f"Solve by elimination: ${a1}x + {b1}y = {c1}$, ${a2}x + {b2}y = {c2}$."
+            ),
+            answer_latex=f"$x = {x_val}, \\quad y = {y_val}$",
+            hints=[
+                f"Multiply the first equation by ${scale}$ so the $x$-coefficients become opposites.",
+                f"After scaling, the first equation becomes ${scaled_a1}x + {scaled_b1}y = {scaled_c1}$.",
+                f"Add this to the second equation to eliminate $x$, then solve for $y$.",
+            ],
+            solution_steps_latex=[
+                f"Start with $\\begin{{cases}} {eq1_latex} \\\\ {eq2_latex} \\end{{cases}}$.",
+                f"Multiply the first equation by ${scale}$: ${scaled_a1}x + {scaled_b1}y = {scaled_c1}$.",
+                f"Add the scaled first equation and the second equation: $({new_b})y = {new_c}$.",
+                f"Solve: $y = {y_val}$.",
+                f"Substitute $y = {y_val}$ into the original first equation: $x = {x_val}$.",
+                f"Solution: $({x_val}, {y_val})$.",
+            ],
+            tags=["#branch-algebra-1", "#topic-systems", "#skill-multi-step"],
+        )

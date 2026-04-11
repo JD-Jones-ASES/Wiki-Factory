@@ -25,4 +25,12 @@ from . import function_families  # noqa: F401
 from . import advanced_functions  # noqa: F401
 from . import exponentials  # noqa: F401
 from . import logarithms  # noqa: F401
+from . import general_equation_solving  # noqa: F401
+from . import variables_and_expressions  # noqa: F401
+from . import scientific_notation  # noqa: F401
+from . import polynomial_division  # noqa: F401
+from . import coordinate_plane_intro  # noqa: F401
+from . import applications_of_quadratics  # noqa: F401
+from . import percent_applications  # noqa: F401
+from . import ratios_and_proportions_algebra  # noqa: F401
 

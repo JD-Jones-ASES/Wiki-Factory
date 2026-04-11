@@ -924,3 +924,349 @@ class CompleteSquareWithA(Generator):
             ],
             tags=["#branch-algebra-1", "#topic-quadratics", "#skill-algebraic-manipulation"],
         )
+
+
+# ===========================================================================
+# Wave B Topic: solving_equations_by_factoring
+# ===========================================================================
+
+
+@register
+class FactorThenSolveTrinomial(Generator):
+    """Given $x^2 + bx + c = 0$ (leading coefficient 1), factor and solve.
+
+    Backward construction: pick integer roots $r$ and $s$; the trinomial is
+    $(x - r)(x - s)$ expanded.
+    """
+    generator_id = "factor_then_solve_trinomial"
+    topic_slug = "solving_equations_by_factoring"
+    display_name = "Factor a trinomial and solve the equation"
+
+    _R = {"easy": (-6, 6), "medium": (-10, 10), "hard": (-15, 15)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        lo, hi = self._R[difficulty]
+        while True:
+            r = rng.randint(lo, hi)
+            s = rng.randint(lo, hi)
+            if r != s:
+                break
+        b = -(r + s)
+        c = r * s
+        poly = x * x + b * x + c
+        eq_latex = sp.latex(sp.Eq(poly, 0))
+
+        def _lin(root):
+            if root >= 0:
+                return f"(x - {root})"
+            return f"(x + {abs(root)})"
+
+        factored = f"{_lin(r)}{_lin(s)}"
+        roots = sorted([r, s])
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (b, c)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Find all solutions of ${eq_latex}$ by factoring.",
+            answer_latex=f"$x = {roots[0]}$ or $x = {roots[1]}$",
+            hints=[
+                f"Find two integers whose product is ${c}$ and whose sum is ${b}$.",
+                f"Those integers are ${r}$ and ${s}$, so the factored form is ${factored} = 0$.",
+                r"Apply the **Zero Product Property**: if a product is $0$, one of the factors is $0$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq_latex}$.",
+                f"Look for two numbers with product ${c}$ and sum ${b}$: ${r}$ and ${s}$.",
+                f"Factor: ${factored} = 0$.",
+                f"Set each factor equal to zero: $x = {r}$ or $x = {s}$.",
+                f"The solutions are $x = {roots[0]}$ and $x = {roots[1]}$.",
+            ],
+            tags=[
+                "#branch-algebra-2",
+                "#topic-quadratics",
+                "#skill-algebraic-manipulation",
+            ],
+        )
+
+
+@register
+class FactorThenSolveWithGCF(Generator):
+    """Given $ax^2 + bx = 0$, factor out $x$ and solve. One root is always 0.
+
+    Backward construction: pick $a$ and the non-zero root $r$, then
+    $b = -a \\cdot r$.
+    """
+    generator_id = "factor_then_solve_with_gcf"
+    topic_slug = "solving_equations_by_factoring"
+    display_name = "Factor out x and solve ax^2 + bx = 0"
+
+    _A = {"easy": (1, 4), "medium": (1, 7), "hard": (1, 11)}
+    _R = {"easy": (-8, 8), "medium": (-14, 14), "hard": (-20, 20)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        a_lo, a_hi = self._A[difficulty]
+        r_lo, r_hi = self._R[difficulty]
+        a = rng.randint(a_lo, a_hi)
+        while True:
+            r = rng.randint(r_lo, r_hi)
+            if r != 0:
+                break
+        b = -a * r
+        poly = a * x * x + b * x
+        eq_latex = sp.latex(sp.Eq(poly, 0))
+
+        if a == 1:
+            inside = f"(x{_sign_term(b, '')})"
+        else:
+            inside = f"({a}x{_sign_term(b, '')})"
+        factored = f"x{inside}"
+        roots = sorted([0, r])
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (a, b)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Find all solutions of ${eq_latex}$.",
+            answer_latex=f"$x = {roots[0]}$ or $x = {roots[1]}$",
+            hints=[
+                "Notice both terms contain $x$, so $x$ is a common factor.",
+                f"Factor it out: ${factored} = 0$.",
+                r"Apply the **Zero Product Property**: $x = 0$, or the remaining factor is $0$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq_latex}$.",
+                f"Factor out $x$: ${factored} = 0$.",
+                f"Apply the Zero Product Property: $x = 0$ or ${inside.strip('()')} = 0$.",
+                f"Solve the second factor for $x$: $x = {r}$.",
+                f"The solutions are $x = {roots[0]}$ and $x = {roots[1]}$.",
+            ],
+            tags=[
+                "#branch-algebra-2",
+                "#topic-quadratics",
+                "#skill-algebraic-manipulation",
+            ],
+        )
+
+
+@register
+class FactorDifferenceOfSquaresSolve(Generator):
+    """Solve $x^2 - k = 0$ where $k$ is a perfect square.
+
+    Backward construction: pick integer ``m``, then $k = m^2$ and the
+    solutions are $x = \\pm m$.
+    """
+    generator_id = "factor_difference_of_squares_solve"
+    topic_slug = "solving_equations_by_factoring"
+    display_name = "Solve x^2 - k = 0 by factoring (difference of squares)"
+    bank_count_per_difficulty = 9
+
+    _M = {"easy": (2, 10), "medium": (2, 16), "hard": (3, 24)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        m_lo, m_hi = self._M[difficulty]
+        m = rng.randint(m_lo, m_hi)
+        k = m * m
+        poly = x * x - k
+        eq_latex = sp.latex(sp.Eq(poly, 0))
+        factored = f"(x - {m})(x + {m})"
+        roots = sorted([-m, m])
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (m,)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Factor and solve ${eq_latex}$.",
+            answer_latex=f"$x = {roots[0]}$ or $x = {roots[1]}$",
+            hints=[
+                r"This is a difference of squares: $A^2 - B^2 = (A - B)(A + B)$.",
+                f"Here $A = x$ and $B = {m}$ (since ${k} = {m}^{{2}}$).",
+                f"Factored form: ${factored} = 0$. Apply the Zero Product Property.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq_latex}$.",
+                f"Recognize the difference of squares: $x^{{2}} - {k} = (x - {m})(x + {m})$.",
+                f"Set each factor equal to $0$: $x - {m} = 0$ or $x + {m} = 0$.",
+                f"Solve: $x = {m}$ or $x = -{m}$.",
+            ],
+            tags=[
+                "#branch-algebra-2",
+                "#topic-quadratics",
+                "#skill-algebraic-manipulation",
+            ],
+        )
+
+
+# ===========================================================================
+# Wave B Topic: solving_equations_by_taking_roots
+# ===========================================================================
+
+
+@register
+class SolveXSquaredEqualsKRoots(Generator):
+    """Solve $x^2 = k$ where $k$ is a positive perfect square.
+
+    Covers the same construction as SolveXSquaredEqualsK but under the
+    distinct topic slug ``solving_equations_by_taking_roots``. Uses different
+    parameter ranges to avoid duplicate problem IDs.
+    """
+    generator_id = "solve_x_squared_equals_k_roots"
+    topic_slug = "solving_equations_by_taking_roots"
+    display_name = "Solve x^2 = k by taking square roots"
+    bank_count_per_difficulty = 20
+
+    _K = {"easy": (2, 11), "medium": (3, 18), "hard": (4, 28)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        k_lo, k_hi = self._K[difficulty]
+        root = rng.randint(k_lo, k_hi)
+        k = root * root
+        eq_latex = f"x^{{2}} = {k}"
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (k,)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Solve ${eq_latex}$ by taking square roots.",
+            answer_latex=f"$x = {root}$ or $x = -{root}$",
+            hints=[
+                r"Take the square root of both sides, and remember to keep **both** the positive and negative roots.",
+                f"$x = \\pm\\sqrt{{{k}}}$, and $\\sqrt{{{k}}} = {root}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq_latex}$.",
+                f"Apply the square root to both sides: $x = \\pm\\sqrt{{{k}}}$.",
+                f"Simplify: $x = \\pm {root}$.",
+                f"The two solutions are $x = {root}$ and $x = -{root}$.",
+            ],
+            tags=[
+                "#branch-algebra-2",
+                "#topic-quadratics",
+                "#skill-algebraic-manipulation",
+            ],
+        )
+
+
+@register
+class SolveShiftedSquaredEqualsK(Generator):
+    """Solve $(x - h)^2 = k$ where $k$ is a positive perfect square.
+
+    Answer: $x = h \\pm \\sqrt{k}$.
+    """
+    generator_id = "solve_shifted_squared_equals_k"
+    topic_slug = "solving_equations_by_taking_roots"
+    display_name = "Solve (x - h)^2 = k by taking roots"
+
+    _H = {"easy": (-7, 7), "medium": (-12, 12), "hard": (-18, 18)}
+    _K = {"easy": (2, 9), "medium": (3, 14), "hard": (3, 22)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        h_lo, h_hi = self._H[difficulty]
+        k_lo, k_hi = self._K[difficulty]
+        h = rng.randint(h_lo, h_hi)
+        while h == 0:
+            h = rng.randint(h_lo, h_hi)
+        root = rng.randint(k_lo, k_hi)
+        k = root * root
+        if h >= 0:
+            lhs = f"(x - {h})^{{2}}"
+        else:
+            lhs = f"(x + {abs(h)})^{{2}}"
+        eq_latex = f"{lhs} = {k}"
+        x1 = h + root
+        x2 = h - root
+        roots = sorted([x1, x2])
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (h, k)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Solve by taking square roots: ${eq_latex}$.",
+            answer_latex=f"$x = {roots[0]}$ or $x = {roots[1]}$",
+            hints=[
+                r"Take the square root of both sides. Include both the positive and the negative branches.",
+                f"You get $x - ({h}) = \\pm\\sqrt{{{k}}} = \\pm {root}$.",
+                f"Add ${h}$ to both sides: $x = {h} \\pm {root}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq_latex}$.",
+                f"Take square roots of both sides: $x - ({h}) = \\pm\\sqrt{{{k}}}$.",
+                f"Simplify: $x - ({h}) = \\pm {root}$.",
+                f"Add ${h}$ to both sides: $x = {h} \\pm {root}$.",
+                f"The solutions are $x = {roots[0]}$ and $x = {roots[1]}$.",
+            ],
+            tags=[
+                "#branch-algebra-2",
+                "#topic-quadratics",
+                "#skill-algebraic-manipulation",
+            ],
+        )
+
+
+@register
+class SolveScaledSquaredEqualsK(Generator):
+    """Solve $a(x - h)^2 = k$ by isolating the square first, then taking roots.
+
+    Backward construction: pick integer $h$, positive integer $r$, and
+    positive integer scale $a$. Then the inner square equals $r^2$, and
+    $k = a \\cdot r^2$. Solutions are $x = h \\pm r$.
+    """
+    generator_id = "solve_scaled_squared_equals_k"
+    topic_slug = "solving_equations_by_taking_roots"
+    display_name = "Solve a(x - h)^2 = k by isolating then taking roots"
+
+    _A = {"easy": (2, 4), "medium": (2, 6), "hard": (2, 9)}
+    _H = {"easy": (-6, 6), "medium": (-10, 10), "hard": (-14, 14)}
+    _R = {"easy": (2, 7), "medium": (2, 10), "hard": (2, 15)}
+
+    def _generate_one(self, difficulty: Difficulty, rng: random.Random) -> Problem:
+        a_lo, a_hi = self._A[difficulty]
+        h_lo, h_hi = self._H[difficulty]
+        r_lo, r_hi = self._R[difficulty]
+        a = rng.randint(a_lo, a_hi)
+        h = rng.randint(h_lo, h_hi)
+        while h == 0:
+            h = rng.randint(h_lo, h_hi)
+        r = rng.randint(r_lo, r_hi)
+        k = a * r * r
+
+        if h >= 0:
+            lhs = f"{a}(x - {h})^{{2}}"
+        else:
+            lhs = f"{a}(x + {abs(h)})^{{2}}"
+        eq_latex = f"{lhs} = {k}"
+        inner_rhs = r * r  # after dividing by a
+        x1 = h + r
+        x2 = h - r
+        roots = sorted([x1, x2])
+
+        return Problem(
+            id=make_problem_id(self.generator_id, difficulty, (a, h, k)),
+            generator_id=self.generator_id,
+            topic_slug=self.topic_slug,
+            difficulty=difficulty,
+            statement_latex=f"Solve by taking square roots: ${eq_latex}$.",
+            answer_latex=f"$x = {roots[0]}$ or $x = {roots[1]}$",
+            hints=[
+                "Isolate the squared expression first by dividing both sides by the leading coefficient.",
+                f"Divide by ${a}$: $(x - ({h}))^{{2}} = {inner_rhs}$.",
+                f"Take square roots: $x - ({h}) = \\pm {r}$, then add ${h}$.",
+            ],
+            solution_steps_latex=[
+                f"Start with ${eq_latex}$.",
+                f"Divide both sides by ${a}$: $(x - ({h}))^{{2}} = {inner_rhs}$.",
+                f"Take square roots: $x - ({h}) = \\pm\\sqrt{{{inner_rhs}}} = \\pm {r}$.",
+                f"Add ${h}$ to both sides: $x = {h} \\pm {r}$.",
+                f"The solutions are $x = {roots[0]}$ and $x = {roots[1]}$.",
+            ],
+            tags=[
+                "#branch-algebra-2",
+                "#topic-quadratics",
+                "#skill-algebraic-manipulation",
+            ],
+        )

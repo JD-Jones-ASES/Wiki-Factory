@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "generated_at": "2026-04-11T15:42:47.826673+00:00",
+  "generated_at": "2026-04-11T16:24:43.022805+00:00",
   "seed_base": 42,
   "default_count_per_difficulty": 30,
-  "generator_count": 508,
+  "generator_count": 560,
   "by_topic": {
     "circles": [
       {
@@ -767,6 +767,70 @@
         }
       }
     ],
+    "equations_with_variables_on_both_sides": [
+      {
+        "generator_id": "solve_vars_both_sides_integer",
+        "display_name": "Determine x when variables appear on both sides",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_vars_both_sides_with_distribution",
+        "display_name": "Determine x after distributing across parentheses",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_vars_both_sides_word_problem",
+        "display_name": "Translate a word problem with variables on both sides",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "literal_equations_and_formulas": [
+      {
+        "generator_id": "solve_formula_for_other_variable",
+        "display_name": "Solve a formula for a named variable",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 10,
+          "hard": 10
+        }
+      },
+      {
+        "generator_id": "solve_formula_with_numeric_subst",
+        "display_name": "Rearrange and substitute into a formula",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "rearrange_simple_two_step_literal",
+        "display_name": "Solve a literal two-step equation for x",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 8,
+          "medium": 8,
+          "hard": 8
+        }
+      }
+    ],
     "factoring_trinomials_leading_coefficient_1": [
       {
         "generator_id": "factor_trinomial_leading_1",
@@ -799,6 +863,38 @@
         }
       }
     ],
+    "factoring_expressions": [
+      {
+        "generator_id": "factor_gcf_binomial_or_trinomial",
+        "display_name": "Factor out the GCF from 2 or 3 terms",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "recognize_and_factor",
+        "display_name": "Recognize the correct factoring strategy and apply it",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "factor_difference_of_squares_simple",
+        "display_name": "Factor a^2 - b^2",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      }
+    ],
     "solving_systems_by_substitution": [
       {
         "generator_id": "systems_substitution_isolated_y",
@@ -813,6 +909,80 @@
       {
         "generator_id": "systems_substitution_isolated_x",
         "display_name": "Solve a system by substitution (x isolated)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "substitution_with_isolated_variable",
+        "display_name": "Substitute an isolated variable into the other equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "systems_of_linear_equations": [
+      {
+        "generator_id": "solve_system_two_equations_substitution",
+        "display_name": "Find (x, y) satisfying a pair of linear equations",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "classify_system",
+        "display_name": "Classify the solution set of a linear system",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_system_word_problem",
+        "display_name": "Translate and solve a two-variable word problem",
+        "supports_word_problems": true,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      }
+    ],
+    "solving_systems_by_graphing": [
+      {
+        "generator_id": "solve_system_graphing_integer_intersection",
+        "display_name": "Solve by graphing (integer intersection)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_system_graphing_no_solution_detect",
+        "display_name": "Recognize a no-solution system by graphing",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_system_graphing_infinite_solutions_detect",
+        "display_name": "Recognize an infinite-solution system by graphing",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -835,6 +1005,16 @@
       {
         "generator_id": "systems_elimination_with_multiplication",
         "display_name": "Solve by elimination (multiply one equation first)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "elimination_with_multiplication_one_row",
+        "display_name": "Solve by elimination (multiply one row)",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -1227,6 +1407,38 @@
         }
       }
     ],
+    "solving_inequalities_in_one_variable": [
+      {
+        "generator_id": "solve_linear_inequality",
+        "display_name": "Determine the solution of a linear inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_inequality_with_sign_flip",
+        "display_name": "Solve an inequality that requires flipping the symbol",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_compound_inequality_simple",
+        "display_name": "Solve a three-part compound inequality",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
     "plotting_points_and_the_coordinate_plane": [
       {
         "generator_id": "point_identify_quadrant",
@@ -1411,6 +1623,38 @@
       {
         "generator_id": "gcf_factor_binomial_common",
         "display_name": "Factor out a common binomial",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "polynomial_basics": [
+      {
+        "generator_id": "identify_degree_and_leading_coeff",
+        "display_name": "Identify the degree and leading coefficient",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "classify_polynomial_by_terms",
+        "display_name": "Classify a polynomial by number of terms",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 15,
+          "hard": 15
+        }
+      },
+      {
+        "generator_id": "write_in_standard_form",
+        "display_name": "Rewrite a polynomial in standard form",
         "supports_word_problems": false,
         "counts": {
           "easy": 30,
@@ -1608,6 +1852,70 @@
           "easy": 20,
           "medium": 20,
           "hard": 20
+        }
+      }
+    ],
+    "solving_equations_by_factoring": [
+      {
+        "generator_id": "factor_then_solve_trinomial",
+        "display_name": "Factor a trinomial and solve the equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "factor_then_solve_with_gcf",
+        "display_name": "Factor out x and solve ax^2 + bx = 0",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "factor_difference_of_squares_solve",
+        "display_name": "Solve x^2 - k = 0 by factoring (difference of squares)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 9,
+          "medium": 9,
+          "hard": 9
+        }
+      }
+    ],
+    "solving_equations_by_taking_roots": [
+      {
+        "generator_id": "solve_x_squared_equals_k_roots",
+        "display_name": "Solve x^2 = k by taking square roots",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 10,
+          "medium": 15,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "solve_shifted_squared_equals_k",
+        "display_name": "Solve (x - h)^2 = k by taking roots",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "solve_scaled_squared_equals_k",
+        "display_name": "Solve a(x - h)^2 = k by isolating then taking roots",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
         }
       }
     ],
@@ -2888,6 +3196,252 @@
           "easy": 15,
           "medium": 18,
           "hard": 18
+        }
+      }
+    ],
+    "solving_equations_in_one_variable": [
+      {
+        "generator_id": "general_linear_equation",
+        "display_name": "Solve a linear equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "simple_radical_equation",
+        "display_name": "Solve a simple radical equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "simple_rational_equation",
+        "display_name": "Solve a simple rational equation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "variables_and_expressions": [
+      {
+        "generator_id": "evaluate_expression_at_integer",
+        "display_name": "Evaluate an expression at an integer",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "translate_phrase_to_expression",
+        "display_name": "Translate a phrase into an algebraic expression",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "identify_terms_and_coefficients",
+        "display_name": "Identify terms, coefficients, and constant",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "scientific_notation": [
+      {
+        "generator_id": "convert_standard_to_scientific",
+        "display_name": "Write a number in scientific notation",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "convert_scientific_to_standard",
+        "display_name": "Write a scientific-notation value in standard form",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "multiply_or_divide_scientific",
+        "display_name": "Multiply or divide scientific-notation values",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "polynomial_division": [
+      {
+        "generator_id": "long_divide_polynomial_no_remainder",
+        "display_name": "Long divide a polynomial (no remainder)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 25,
+          "medium": 25,
+          "hard": 25
+        }
+      },
+      {
+        "generator_id": "long_divide_polynomial_with_remainder",
+        "display_name": "Long divide a polynomial (with remainder)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "synthetic_division_by_linear",
+        "display_name": "Synthetic division of a polynomial by (x - c)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "the_coordinate_plane": [
+      {
+        "generator_id": "identify_quadrant_of_point",
+        "display_name": "Identify the quadrant of a point",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 20,
+          "medium": 20,
+          "hard": 20
+        }
+      },
+      {
+        "generator_id": "plot_point_from_description",
+        "display_name": "Ordered pair from a movement description",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "distance_or_direction_between_points",
+        "display_name": "Distance between two points on a common axis line",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "applications_of_quadratics": [
+      {
+        "generator_id": "area_quadratic_word_problem",
+        "display_name": "Rectangle dimensions from area (quadratic)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "quadratic_revenue_or_cost_optimization",
+        "display_name": "Optimal price for a quadratic revenue model",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "percent_applications": [
+      {
+        "generator_id": "percent_change_with_algebra",
+        "display_name": "Net percent change after two successive changes",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 15,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "sales_tax_or_tip_algebra",
+        "display_name": "Solve for the pre-tax amount given total + rate",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "word_problem_two_step_percent",
+        "display_name": "Chained markup and markdown",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      }
+    ],
+    "ratios_and_proportions": [
+      {
+        "generator_id": "solve_proportion_with_variable",
+        "display_name": "Solve a proportion with a variable",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "proportion_word_problem_scale",
+        "display_name": "Scale-factor word problem (map, model, blueprint)",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
+        }
+      },
+      {
+        "generator_id": "similar_figures_proportion",
+        "display_name": "Missing side of similar figures",
+        "supports_word_problems": false,
+        "counts": {
+          "easy": 30,
+          "medium": 30,
+          "hard": 30
         }
       }
     ],
@@ -6141,6 +6695,66 @@
       },
       "shard_file": "problems/multi_step_equations.json"
     },
+    "solve_vars_both_sides_integer": {
+      "topic_slug": "equations_with_variables_on_both_sides",
+      "display_name": "Determine x when variables appear on both sides",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/equations_with_variables_on_both_sides.json"
+    },
+    "solve_vars_both_sides_with_distribution": {
+      "topic_slug": "equations_with_variables_on_both_sides",
+      "display_name": "Determine x after distributing across parentheses",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/equations_with_variables_on_both_sides.json"
+    },
+    "solve_vars_both_sides_word_problem": {
+      "topic_slug": "equations_with_variables_on_both_sides",
+      "display_name": "Translate a word problem with variables on both sides",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/equations_with_variables_on_both_sides.json"
+    },
+    "solve_formula_for_other_variable": {
+      "topic_slug": "literal_equations_and_formulas",
+      "display_name": "Solve a formula for a named variable",
+      "counts": {
+        "easy": 10,
+        "medium": 10,
+        "hard": 10
+      },
+      "shard_file": "problems/literal_equations_and_formulas.json"
+    },
+    "solve_formula_with_numeric_subst": {
+      "topic_slug": "literal_equations_and_formulas",
+      "display_name": "Rearrange and substitute into a formula",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/literal_equations_and_formulas.json"
+    },
+    "rearrange_simple_two_step_literal": {
+      "topic_slug": "literal_equations_and_formulas",
+      "display_name": "Solve a literal two-step equation for x",
+      "counts": {
+        "easy": 8,
+        "medium": 8,
+        "hard": 8
+      },
+      "shard_file": "problems/literal_equations_and_formulas.json"
+    },
     "factor_trinomial_leading_1": {
       "topic_slug": "factoring_trinomials_leading_coefficient_1",
       "display_name": "Factor x^2 + bx + c",
@@ -6171,6 +6785,36 @@
       },
       "shard_file": "problems/factoring_trinomials_leading_coefficient_1.json"
     },
+    "factor_gcf_binomial_or_trinomial": {
+      "topic_slug": "factoring_expressions",
+      "display_name": "Factor out the GCF from 2 or 3 terms",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/factoring_expressions.json"
+    },
+    "recognize_and_factor": {
+      "topic_slug": "factoring_expressions",
+      "display_name": "Recognize the correct factoring strategy and apply it",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/factoring_expressions.json"
+    },
+    "factor_difference_of_squares_simple": {
+      "topic_slug": "factoring_expressions",
+      "display_name": "Factor a^2 - b^2",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/factoring_expressions.json"
+    },
     "systems_substitution_isolated_y": {
       "topic_slug": "solving_systems_by_substitution",
       "display_name": "Solve a system by substitution (y isolated)",
@@ -6191,6 +6835,76 @@
       },
       "shard_file": "problems/solving_systems_by_substitution.json"
     },
+    "solve_system_two_equations_substitution": {
+      "topic_slug": "systems_of_linear_equations",
+      "display_name": "Find (x, y) satisfying a pair of linear equations",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/systems_of_linear_equations.json"
+    },
+    "classify_system": {
+      "topic_slug": "systems_of_linear_equations",
+      "display_name": "Classify the solution set of a linear system",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/systems_of_linear_equations.json"
+    },
+    "solve_system_word_problem": {
+      "topic_slug": "systems_of_linear_equations",
+      "display_name": "Translate and solve a two-variable word problem",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/systems_of_linear_equations.json"
+    },
+    "solve_system_graphing_integer_intersection": {
+      "topic_slug": "solving_systems_by_graphing",
+      "display_name": "Solve by graphing (integer intersection)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_graphing.json"
+    },
+    "solve_system_graphing_no_solution_detect": {
+      "topic_slug": "solving_systems_by_graphing",
+      "display_name": "Recognize a no-solution system by graphing",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_graphing.json"
+    },
+    "solve_system_graphing_infinite_solutions_detect": {
+      "topic_slug": "solving_systems_by_graphing",
+      "display_name": "Recognize an infinite-solution system by graphing",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_graphing.json"
+    },
+    "substitution_with_isolated_variable": {
+      "topic_slug": "solving_systems_by_substitution",
+      "display_name": "Substitute an isolated variable into the other equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_substitution.json"
+    },
     "systems_elimination_direct": {
       "topic_slug": "solving_systems_by_elimination",
       "display_name": "Solve by elimination (no scaling needed)",
@@ -6204,6 +6918,16 @@
     "systems_elimination_with_multiplication": {
       "topic_slug": "solving_systems_by_elimination",
       "display_name": "Solve by elimination (multiply one equation first)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_systems_by_elimination.json"
+    },
+    "elimination_with_multiplication_one_row": {
+      "topic_slug": "solving_systems_by_elimination",
+      "display_name": "Solve by elimination (multiply one row)",
       "counts": {
         "easy": 30,
         "medium": 30,
@@ -6571,6 +7295,36 @@
       },
       "shard_file": "problems/systems_of_linear_inequalities.json"
     },
+    "solve_linear_inequality": {
+      "topic_slug": "solving_inequalities_in_one_variable",
+      "display_name": "Determine the solution of a linear inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_inequalities_in_one_variable.json"
+    },
+    "solve_inequality_with_sign_flip": {
+      "topic_slug": "solving_inequalities_in_one_variable",
+      "display_name": "Solve an inequality that requires flipping the symbol",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_inequalities_in_one_variable.json"
+    },
+    "solve_compound_inequality_simple": {
+      "topic_slug": "solving_inequalities_in_one_variable",
+      "display_name": "Solve a three-part compound inequality",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_inequalities_in_one_variable.json"
+    },
     "point_identify_quadrant": {
       "topic_slug": "plotting_points_and_the_coordinate_plane",
       "display_name": "Identify the quadrant or axis of a point",
@@ -6751,6 +7505,36 @@
       },
       "shard_file": "problems/greatest_common_factor.json"
     },
+    "identify_degree_and_leading_coeff": {
+      "topic_slug": "polynomial_basics",
+      "display_name": "Identify the degree and leading coefficient",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_basics.json"
+    },
+    "classify_polynomial_by_terms": {
+      "topic_slug": "polynomial_basics",
+      "display_name": "Classify a polynomial by number of terms",
+      "counts": {
+        "easy": 15,
+        "medium": 15,
+        "hard": 15
+      },
+      "shard_file": "problems/polynomial_basics.json"
+    },
+    "write_in_standard_form": {
+      "topic_slug": "polynomial_basics",
+      "display_name": "Rewrite a polynomial in standard form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_basics.json"
+    },
     "factor_general_trinomial_positive_leading": {
       "topic_slug": "factoring_trinomials_general",
       "display_name": "Factor ax^2 + bx + c (a > 1)",
@@ -6930,6 +7714,66 @@
         "hard": 20
       },
       "shard_file": "problems/completing_the_square.json"
+    },
+    "factor_then_solve_trinomial": {
+      "topic_slug": "solving_equations_by_factoring",
+      "display_name": "Factor a trinomial and solve the equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_equations_by_factoring.json"
+    },
+    "factor_then_solve_with_gcf": {
+      "topic_slug": "solving_equations_by_factoring",
+      "display_name": "Factor out x and solve ax^2 + bx = 0",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_equations_by_factoring.json"
+    },
+    "factor_difference_of_squares_solve": {
+      "topic_slug": "solving_equations_by_factoring",
+      "display_name": "Solve x^2 - k = 0 by factoring (difference of squares)",
+      "counts": {
+        "easy": 9,
+        "medium": 9,
+        "hard": 9
+      },
+      "shard_file": "problems/solving_equations_by_factoring.json"
+    },
+    "solve_x_squared_equals_k_roots": {
+      "topic_slug": "solving_equations_by_taking_roots",
+      "display_name": "Solve x^2 = k by taking square roots",
+      "counts": {
+        "easy": 10,
+        "medium": 15,
+        "hard": 20
+      },
+      "shard_file": "problems/solving_equations_by_taking_roots.json"
+    },
+    "solve_shifted_squared_equals_k": {
+      "topic_slug": "solving_equations_by_taking_roots",
+      "display_name": "Solve (x - h)^2 = k by taking roots",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_equations_by_taking_roots.json"
+    },
+    "solve_scaled_squared_equals_k": {
+      "topic_slug": "solving_equations_by_taking_roots",
+      "display_name": "Solve a(x - h)^2 = k by isolating then taking roots",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_equations_by_taking_roots.json"
     },
     "discriminant_compute": {
       "topic_slug": "the_discriminant",
@@ -8130,6 +8974,236 @@
         "hard": 18
       },
       "shard_file": "problems/applications_of_exponentials_and_logarithms.json"
+    },
+    "general_linear_equation": {
+      "topic_slug": "solving_equations_in_one_variable",
+      "display_name": "Solve a linear equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_equations_in_one_variable.json"
+    },
+    "simple_radical_equation": {
+      "topic_slug": "solving_equations_in_one_variable",
+      "display_name": "Solve a simple radical equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_equations_in_one_variable.json"
+    },
+    "simple_rational_equation": {
+      "topic_slug": "solving_equations_in_one_variable",
+      "display_name": "Solve a simple rational equation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/solving_equations_in_one_variable.json"
+    },
+    "evaluate_expression_at_integer": {
+      "topic_slug": "variables_and_expressions",
+      "display_name": "Evaluate an expression at an integer",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/variables_and_expressions.json"
+    },
+    "translate_phrase_to_expression": {
+      "topic_slug": "variables_and_expressions",
+      "display_name": "Translate a phrase into an algebraic expression",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/variables_and_expressions.json"
+    },
+    "identify_terms_and_coefficients": {
+      "topic_slug": "variables_and_expressions",
+      "display_name": "Identify terms, coefficients, and constant",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/variables_and_expressions.json"
+    },
+    "convert_standard_to_scientific": {
+      "topic_slug": "scientific_notation",
+      "display_name": "Write a number in scientific notation",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/scientific_notation.json"
+    },
+    "convert_scientific_to_standard": {
+      "topic_slug": "scientific_notation",
+      "display_name": "Write a scientific-notation value in standard form",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/scientific_notation.json"
+    },
+    "multiply_or_divide_scientific": {
+      "topic_slug": "scientific_notation",
+      "display_name": "Multiply or divide scientific-notation values",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/scientific_notation.json"
+    },
+    "long_divide_polynomial_no_remainder": {
+      "topic_slug": "polynomial_division",
+      "display_name": "Long divide a polynomial (no remainder)",
+      "counts": {
+        "easy": 25,
+        "medium": 25,
+        "hard": 25
+      },
+      "shard_file": "problems/polynomial_division.json"
+    },
+    "long_divide_polynomial_with_remainder": {
+      "topic_slug": "polynomial_division",
+      "display_name": "Long divide a polynomial (with remainder)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_division.json"
+    },
+    "synthetic_division_by_linear": {
+      "topic_slug": "polynomial_division",
+      "display_name": "Synthetic division of a polynomial by (x - c)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/polynomial_division.json"
+    },
+    "identify_quadrant_of_point": {
+      "topic_slug": "the_coordinate_plane",
+      "display_name": "Identify the quadrant of a point",
+      "counts": {
+        "easy": 20,
+        "medium": 20,
+        "hard": 20
+      },
+      "shard_file": "problems/the_coordinate_plane.json"
+    },
+    "plot_point_from_description": {
+      "topic_slug": "the_coordinate_plane",
+      "display_name": "Ordered pair from a movement description",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_coordinate_plane.json"
+    },
+    "distance_or_direction_between_points": {
+      "topic_slug": "the_coordinate_plane",
+      "display_name": "Distance between two points on a common axis line",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/the_coordinate_plane.json"
+    },
+    "area_quadratic_word_problem": {
+      "topic_slug": "applications_of_quadratics",
+      "display_name": "Rectangle dimensions from area (quadratic)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_quadratics.json"
+    },
+    "quadratic_revenue_or_cost_optimization": {
+      "topic_slug": "applications_of_quadratics",
+      "display_name": "Optimal price for a quadratic revenue model",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/applications_of_quadratics.json"
+    },
+    "percent_change_with_algebra": {
+      "topic_slug": "percent_applications",
+      "display_name": "Net percent change after two successive changes",
+      "counts": {
+        "easy": 15,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/percent_applications.json"
+    },
+    "sales_tax_or_tip_algebra": {
+      "topic_slug": "percent_applications",
+      "display_name": "Solve for the pre-tax amount given total + rate",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/percent_applications.json"
+    },
+    "word_problem_two_step_percent": {
+      "topic_slug": "percent_applications",
+      "display_name": "Chained markup and markdown",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/percent_applications.json"
+    },
+    "solve_proportion_with_variable": {
+      "topic_slug": "ratios_and_proportions",
+      "display_name": "Solve a proportion with a variable",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_and_proportions.json"
+    },
+    "proportion_word_problem_scale": {
+      "topic_slug": "ratios_and_proportions",
+      "display_name": "Scale-factor word problem (map, model, blueprint)",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_and_proportions.json"
+    },
+    "similar_figures_proportion": {
+      "topic_slug": "ratios_and_proportions",
+      "display_name": "Missing side of similar figures",
+      "counts": {
+        "easy": 30,
+        "medium": 30,
+        "hard": 30
+      },
+      "shard_file": "problems/ratios_and_proportions.json"
     },
     "percent_of_number": {
       "topic_slug": "finding_a_percent_of_a_number",
